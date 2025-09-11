@@ -1,0 +1,78 @@
+/* Tailwind CSS imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom glassmorphic styles */
+@layer base {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* Glass morphism effects */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+/* Gradient text effects */
+.gradient-text {
+  background: linear-gradient(45deg, #00e8ff, #14b5ff, #3a98ff, #7952f5);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 3s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Skill bubble effects */
+.skill-bubble {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-bubble:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Space theme backgrounds */
+.space-bg {
+  background-image: url('/assets/spacebackground_3_1757552450150.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.wisp-bg {
+  background-image: url('/assets/wisp_1757552470820.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
