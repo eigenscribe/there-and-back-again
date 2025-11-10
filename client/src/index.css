@@ -237,6 +237,17 @@ html, body {
   opacity: 0;
 }
 
+.empty-group {
+  padding: var(--space-lg);
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius-md);
+  margin: 0 var(--space-sm) var(--space-sm) var(--space-sm);
+}
+
 .note-item {
   padding: var(--space-md);
   margin-bottom: var(--space-sm);

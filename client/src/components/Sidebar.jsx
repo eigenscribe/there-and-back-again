@@ -44,36 +44,42 @@ function Sidebar({ notes, currentNoteId, onNoteSelect }) {
           const group = groupConfig[groupKey];
           const groupNotes = groupedNotes[groupKey] || [];
           
-          if (groupNotes.length === 0) return null;
-          
           return (
             <div key={groupKey} className="note-group">
               <div 
                 className="group-header"
                 onClick={() => toggleGroup(groupKey)}
               >
-                <h3 className="group-title">{group.label}</h3>
+                <h3 className="group-title">
+                  {group.label} {groupNotes.length > 0 && `(${groupNotes.length})`}
+                </h3>
                 <span className={`group-toggle ${openGroups[groupKey] ? 'expanded' : ''}`}>
                   ▶
                 </span>
               </div>
               
               <div className={`group-notes ${!openGroups[groupKey] ? 'collapsed' : ''}`}>
-                {groupNotes.map(note => (
-                  <div
-                    key={note.id}
-                    className={`note-item ${currentNoteId === note.id ? 'active' : ''}`}
-                    onClick={() => onNoteSelect(note.id)}
-                  >
-                    <div className="note-id">{note.id}</div>
-                    <div className="note-title">{note.title}</div>
-                    <div className="note-tags">
-                      {note.tags.slice(0, 2).map(tag => (
-                        <span key={tag} className="tag">#{tag}</span>
-                      ))}
+                {groupNotes.length > 0 ? (
+                  groupNotes.map(note => (
+                    <div
+                      key={note.id}
+                      className={`note-item ${currentNoteId === note.id ? 'active' : ''}`}
+                      onClick={() => onNoteSelect(note.id)}
+                    >
+                      <div className="note-id">{note.id}</div>
+                      <div className="note-title">{note.title}</div>
+                      <div className="note-tags">
+                        {note.tags.slice(0, 2).map(tag => (
+                          <span key={tag} className="tag">#{tag}</span>
+                        ))}
+                      </div>
                     </div>
+                  ))
+                ) : (
+                  <div className="empty-group">
+                    <p>No notes yet</p>
                   </div>
-                ))}
+                )}
               </div>
             </div>
           );
