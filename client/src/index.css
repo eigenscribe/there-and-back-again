@@ -79,22 +79,24 @@ html, body {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--gradient-light-to-dark-blue);
+    background: linear-gradient(180deg, #00ffee, #14b5ff, #3a98ff);
     border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 232, 255, 0.5);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--gradient-cyan-to-blue);
+    background: linear-gradient(180deg, #00ffff, #00e8ff, #14b5ff);
+    box-shadow: 0 0 15px rgba(0, 232, 255, 0.8);
 }
 
 /* Firefox scrollbar */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #14b5ff rgba(0, 0, 0, 0.3);
+    scrollbar-color: #00e8ff rgba(0, 0, 0, 0.5);
 }
 
 /* Base reset */
