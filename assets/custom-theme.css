@@ -109,7 +109,7 @@ body.pretext {
 /* Sidebar & TOC */
 .ptx-sidebar {
   background: rgba(0, 0, 0, 0.6) !important;
-  border-right: 2px solid rgba(0, 232, 255, 0.3);
+  border-right: 1px solid rgba(93, 219, 255, 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -121,15 +121,13 @@ body.pretext {
 /* TOC Chapter headers (Prototypes, Tutorials, etc.) */
 .ptx-toc ul.structural > li > .codenumber,
 .ptx-toc ul.structural > li > .title {
-  background: var(--gradient-cyan-to-blue);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #5ddbff !important;
   font-weight: bold;
+  text-shadow: 0 0 10px rgba(93, 219, 255, 0.3);
 }
 
 .ptx-toc ul.structural li {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.02);
   border: 1px solid transparent;
   border-radius: 8px;
   margin-bottom: 6px;
@@ -137,26 +135,26 @@ body.pretext {
 }
 
 .ptx-toc ul.structural li:hover {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: var(--color-primary);
+  background: rgba(93, 219, 255, 0.08);
+  border-color: rgba(93, 219, 255, 0.3);
   transform: translateX(4px);
 }
 
-/* Active/selected section - inverted gradient */
+/* Active/selected section - subtle gradient glow */
 .ptx-toc ul.structural li.active,
 .ptx-toc li.active {
-  background: var(--gradient-cyan-to-blue) !important;
-  border-color: #00e8ff !important;
-  box-shadow: 0 2px 8px rgba(0, 232, 255, 0.3);
+  background: linear-gradient(135deg, rgba(93, 219, 255, 0.2), rgba(121, 82, 245, 0.15)) !important;
+  border-color: rgba(93, 219, 255, 0.4) !important;
+  box-shadow: 0 0 15px rgba(93, 219, 255, 0.2);
 }
 
 .ptx-toc ul.structural li.active a,
 .ptx-toc li.active a,
 .ptx-toc li.active .codenumber,
 .ptx-toc li.active .title {
-  color: #0d1117 !important;
+  color: #5ddbff !important;
   font-weight: bold;
-  -webkit-text-fill-color: #0d1117 !important;
+  text-shadow: 0 0 10px rgba(93, 219, 255, 0.4);
 }
 
 /* Main Content Area */
