@@ -58,7 +58,22 @@ Content: No AI-generated content except layout and styling. Sample prototype not
 - **Static Assets**: Stored in `/assets/` directory and injected into PreTeXt build output
 - **Font System**: Aclonica for headings/UI, Merriweather for body text, Fira Code for code blocks
 
+## Deployment
+
+The journal can be deployed to GitHub Pages for free public hosting:
+- **GitHub Actions (Recommended)**: Automatic deployment on every push to main branch
+- **Manual**: Using git subtree to push output/web to gh-pages branch
+- **Build Command**: Always use `./build.sh` to preserve custom CSS and styling
+
+See the tutorial section in the journal itself for complete deployment instructions.
+
 ## Recent Changes
+
+### Repository Cleanup & Tutorial Update (Nov 13, 2025)
+- **Removed Logs**: Deleted temporary logs directory from repository
+- **Tutorial Enhancement**: Added comprehensive GitHub Pages deployment guide with two methods
+- **Content Creation Guide**: Added detailed instructions for adding mathematical notes following Zettelkasten method
+- **Workflow Documentation**: Documented recommended practices for building, committing, and deploying changes
 
 ### Repository Cleanup (Nov 13, 2025)
 - **Added .gitignore**: Comprehensive ignore rules for Python, PreTeXt output, caches, and temporary files
