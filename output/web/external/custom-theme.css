@@ -125,20 +125,26 @@ body.pretext {
 
 /* Sidebar & TOC */
 .ptx-page {
-  grid-template-columns: 320px 1fr !important;
+  grid-template-columns: 350px 1fr !important;
 }
 
 .ptx-sidebar {
-  width: 320px !important;
-  max-width: 320px !important;
+  width: 350px !important;
+  min-width: 350px !important;
+  max-width: 350px !important;
   background: rgba(0, 0, 0, 0.6) !important;
   border-right: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  overflow-y: auto !important;
+  height: 100vh !important;
+  position: sticky !important;
+  top: 0 !important;
 }
 
 .ptx-sidebar .ptx-toc {
   font-family: var(--font-heading);
+  padding: 1rem !important;
 }
 
 /* TOC Chapter headers (Prototypes, Tutorials, etc.) */
@@ -436,7 +442,7 @@ body.pretext {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  padding: 2rem;
+  padding: 1.5rem;
   margin-top: 4rem;
   text-align: center;
   color: var(--color-muted);
@@ -444,9 +450,10 @@ body.pretext {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 /* Center the navigation buttons */
@@ -484,60 +491,10 @@ body.pretext {
   box-shadow: 0 4px 12px rgba(20, 181, 255, 0.2);
 }
 
-/* Custom copyright footer after navigation */
+/* Remove eigenscribe branding from content footer */
+.ptx-content-footer::before,
 .ptx-content-footer::after {
-  content: '';
-  display: block;
-  width: 100%;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  background-image: url('logo.png');
-  background-size: 35px 35px;
-  background-repeat: no-repeat;
-  background-position: center 1.5rem;
-  padding-top: 60px;
-  filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.4));
-  font-family: var(--font-heading);
-  font-size: 1rem;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  text-align: center;
-}
-
-/* Add the copyright text using a data attribute approach */
-.ptx-content-footer::after {
-  content: 'eigenscribe © 2025';
-  background-image: url('logo.png'), var(--gradient-cyan-to-blue);
-  background-size: 35px 35px, 100%;
-  background-repeat: no-repeat, no-repeat;
-  background-position: center top, center;
-  padding-top: 50px;
-  padding-bottom: 0.5rem;
-  filter: none;
-  font-family: var(--font-heading);
-  font-size: 1rem;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  display: block;
-}
-
-/* Logo glow effect separate from text */
-.ptx-content-footer::before {
-  content: '';
-  display: block;
-  width: 35px;
-  height: 35px;
-  background-image: url('logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.5));
-  margin: 2rem auto 0.5rem auto;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 1.5rem;
+  display: none !important;
 }
 
 /* Page footer at the very bottom */
