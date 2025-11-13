@@ -172,36 +172,36 @@ body.pretext {
 }
 
 .ptx-toc ul.structural li {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.15), rgba(121, 82, 245, 0.1)) !important;
+  border: 1px solid rgba(20, 181, 255, 0.3) !important;
+  border-radius: 8px !important;
   margin-bottom: 6px;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .ptx-toc ul.structural li:hover {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(20, 181, 255, 0.5);
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.25), rgba(121, 82, 245, 0.15)) !important;
+  border-color: rgba(20, 181, 255, 0.5) !important;
   transform: translateX(4px);
-  box-shadow: 0 4px 16px rgba(20, 181, 255, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(20, 181, 255, 0.2);
 }
 
-/* Active/selected section - subtle cyan background matching original design */
+/* Active/selected section - stronger gradient like active button */
 .ptx-toc ul.structural li.active,
 .ptx-toc li.active {
-  background: rgba(20, 181, 255, 0.15) !important;
-  border-color: rgba(20, 181, 255, 0.5) !important;
-  box-shadow: none !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  border-color: rgba(20, 181, 255, 0.6) !important;
+  box-shadow: 0 4px 16px rgba(20, 181, 255, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.2) !important;
 }
 
 /* Root-level active sections - same styling */
 .ptx-toc ul.structural > li.active {
-  background: rgba(20, 181, 255, 0.15) !important;
-  border-color: rgba(20, 181, 255, 0.5) !important;
-  box-shadow: none !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  border-color: rgba(20, 181, 255, 0.6) !important;
+  box-shadow: 0 4px 16px rgba(20, 181, 255, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.2) !important;
 }
 
 .ptx-toc ul.structural li.active a,
