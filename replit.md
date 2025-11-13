@@ -73,7 +73,8 @@ Content: No AI-generated content except layout and styling. Sample prototype not
 - **Project Structure**: Clean XML organization with source files in `/source/`, assets in `/assets/`, output in `/output/web/`
 - **Navigation Styling**: All buttons (top nav and footer) use glassmorphic gradient backgrounds with cyan-to-purple theme and smooth hover animations
 - **Footer Branding**: Custom eigenscribe © 2025 footer with dragon logo and gradient text, centered navigation buttons
-- **Selected Section Styling**: Table of contents uses purple theme for active sections to avoid clashing with gradient text (changed from cyan)
+- **Selected Section Styling**: All selected sections (root and subsections) use purple theme to avoid clashing with gradient text
+- **Page Footer**: Custom eigenscribe © 2025 branding with dragon logo positioned at absolute bottom of every page
 
 ### Original React Version (Nov 10, 2025)
 

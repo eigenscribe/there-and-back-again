@@ -35,6 +35,21 @@ body.pretext {
   font-family: var(--font-body) !important;
   color: var(--color-text) !important;
   line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure page wrapper takes full height */
+.ptx-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.ptx-page .ptx-main {
+  flex: 1;
 }
 
 /* Custom Scrollbar */
@@ -153,6 +168,14 @@ body.pretext {
 /* Active/selected section - purple theme to avoid clash with gradient text */
 .ptx-toc ul.structural li.active,
 .ptx-toc li.active {
+  background: linear-gradient(135deg, rgba(121, 82, 245, 0.08), rgba(169, 92, 232, 0.05)) !important;
+  border-left: 3px solid rgba(121, 82, 245, 0.6) !important;
+  border-color: rgba(121, 82, 245, 0.3) !important;
+  box-shadow: 0 0 12px rgba(121, 82, 245, 0.15);
+}
+
+/* Root-level active sections (Prototypes, Tutorials, etc.) - also purple */
+.ptx-toc ul.structural > li.active {
   background: linear-gradient(135deg, rgba(121, 82, 245, 0.08), rgba(169, 92, 232, 0.05)) !important;
   border-left: 3px solid rgba(121, 82, 245, 0.6) !important;
   border-color: rgba(121, 82, 245, 0.3) !important;
@@ -512,6 +535,51 @@ body.pretext {
   margin: 2rem auto 0.5rem auto;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 1.5rem;
+}
+
+/* Page footer at the very bottom */
+.ptx-page-footer {
+  background: rgba(0, 0, 0, 0.7);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 2rem 1rem;
+  text-align: center;
+  position: relative;
+  margin-top: auto;
+}
+
+/* Hide default PreTeXt/Runestone/MathJax logos, add custom branding */
+.ptx-page-footer .pretext-link,
+.ptx-page-footer .runestone-link,
+.ptx-page-footer .mathjax-link {
+  display: none !important;
+}
+
+/* Add custom logo and copyright to page footer */
+.ptx-page-footer::before {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.5));
+  margin: 0 auto 0.75rem auto;
+}
+
+.ptx-page-footer::after {
+  content: 'eigenscribe © 2025';
+  display: block;
+  font-family: var(--font-heading);
+  background: var(--gradient-cyan-to-blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1rem;
+  text-align: center;
 }
 
 /* Bibliography */
