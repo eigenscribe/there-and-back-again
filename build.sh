@@ -91,9 +91,9 @@ for file in output/web/*.html; do
     sed -i 's|</head>|<link rel="stylesheet" type="text/css" href="external/custom-theme.css">\n</head>|' "$file"
   fi
   
-  # Inject graph toggle script before closing body tag (module type for dynamic import support)
+  # Inject D3 and graph toggle scripts before closing body tag
   if ! grep -q "graph-toggle.js" "$file"; then
-    sed -i 's|</body>|<script type="module" src="graph/graph-toggle.js"></script>\n</body>|' "$file"
+    sed -i 's|</body>|<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>\n<script src="graph/graph-toggle.js"></script>\n</body>|' "$file"
   fi
   
   # Direct inline style injection for toc-frontmatter.contains-active

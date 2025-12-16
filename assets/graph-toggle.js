@@ -3,22 +3,21 @@
  * Adds a toggle button to switch between document and graph views
  */
 
-(function() {
-  'use strict';
+const GRAPH_DATA_URL = 'graph/notes-graph.json';
 
-  const GRAPH_DATA_URL = 'graph/notes-graph.json';
-  const D3_CDN = 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
-  
-  let graphInstance = null;
-  let isGraphVisible = false;
+let graphInstance = null;
+let isGraphVisible = false;
 
-  function init() {
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', setup);
-    } else {
-      setup();
-    }
+console.log('Graph toggle: script loaded');
+
+function init() {
+  console.log('Graph toggle: initializing...');
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setup);
+  } else {
+    setup();
   }
+}
 
   function setup() {
     createToggleButton();
@@ -72,9 +71,14 @@
   }
 
   async function showGraph() {
+    console.log('Graph toggle: showGraph called');
     const overlay = document.getElementById('graph-overlay');
-    if (!overlay) return;
+    if (!overlay) {
+      console.error('Graph toggle: overlay element not found!');
+      return;
+    }
 
+    console.log('Graph toggle: showing overlay');
     overlay.style.display = 'block';
     requestAnimationFrame(() => {
       overlay.classList.add('visible');
@@ -84,6 +88,7 @@
     document.body.style.overflow = 'hidden';
 
     if (!graphInstance) {
+      console.log('Graph toggle: initializing graph...');
       await initializeGraph();
     }
   }
@@ -103,7 +108,10 @@
 
   async function initializeGraph() {
     try {
-      const d3 = await import(D3_CDN);
+      // D3 is loaded globally via script tag
+      if (typeof d3 === 'undefined') {
+        throw new Error('D3 library not loaded');
+      }
       const container = document.getElementById('graph-container');
       if (!container) return;
 
@@ -349,5 +357,4 @@
       .call(zoom.transform, d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale));
   }
 
-  init();
-})();
+init();
