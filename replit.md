@@ -109,6 +109,14 @@ See the tutorial section in the journal itself for complete deployment instructi
 
 ## Recent Additions
 
+### Graph Toggle Integration (Dec 16, 2025)
+- **Graph Button**: Added "Graph" toggle button in top navigation bar
+- **Full-Screen Overlay**: D3.js force-directed graph visualization opens in full-screen overlay
+- **Features**: Zoom/pan controls, node hover highlighting, tooltips with descriptions and tags, click-to-navigate
+- **Keyboard Support**: Press Escape to close graph view
+- **Build Integration**: build.sh copies graph files and injects module script into all HTML pages
+- **Files Added**: assets/graph-toggle.js for toggle functionality, output/web/graph/ for runtime assets
+
 ### Graph Visualization Module (Dec 16, 2025)
 - **Location**: `graph-module/`
 - **Purpose**: Framework-agnostic D3.js graph visualization for notes
