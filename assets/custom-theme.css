@@ -549,12 +549,13 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 /* Code block copy button styling */
 .ptx-content pre.clipboardable {
   position: relative !important;
+  padding-right: 50px !important;
 }
 
 .code-copy {
   position: absolute !important;
-  top: 8px !important;
-  right: 8px !important;
+  top: 6px !important;
+  right: 6px !important;
   background: linear-gradient(145deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.4)) !important;
   border: 1px solid rgba(20, 181, 255, 0.5) !important;
   border-radius: 6px !important;
