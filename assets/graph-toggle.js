@@ -238,8 +238,15 @@ function init() {
       .attr('dy', d => getNodeRadius(d, linkCounts) + 14)
       .style('pointer-events', 'none');
 
+    let hoveredNode = null;
+    
     node.on('mouseenter', function(event, d) {
-      d3.select(this).attr('fill', '#00e8ff'); // Bright cyan on hover
+      if (hoveredNode === d.id) return;
+      hoveredNode = d.id;
+      
+      simulation.alphaTarget(0).stop();
+      
+      d3.select(this).attr('fill', '#00e8ff');
       
       const connectedIds = new Set([d.id]);
       processedLinks.forEach(l => {
@@ -249,24 +256,41 @@ function init() {
         if (targetId === d.id) connectedIds.add(sourceId);
       });
 
-      node.style('opacity', n => connectedIds.has(n.id) ? 1 : 0.2);
-      link.style('opacity', l => {
+      node.transition().duration(150).style('opacity', n => connectedIds.has(n.id) ? 1 : 0.2);
+      link.transition().duration(150).style('opacity', l => {
         const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
         const targetId = typeof l.target === 'object' ? l.target.id : l.target;
         return (sourceId === d.id || targetId === d.id) ? 1 : 0.1;
       });
-      label.style('opacity', n => connectedIds.has(n.id) ? 1 : 0.1);
+      label.transition().duration(150).style('opacity', n => connectedIds.has(n.id) ? 1 : 0.1);
 
       tooltip.innerHTML = buildTooltip(d);
       tooltip.classList.remove('hidden');
-      positionTooltip(event, tooltip, container);
+      
+      const nodeX = d.x;
+      const nodeY = d.y;
+      const transform = g.attr('transform');
+      let tx = 0, ty = 0, scale = 1;
+      if (transform) {
+        const match = transform.match(/translate\(([^,]+),([^)]+)\)\s*scale\(([^)]+)\)/);
+        if (match) {
+          tx = parseFloat(match[1]);
+          ty = parseFloat(match[2]);
+          scale = parseFloat(match[3]);
+        }
+      }
+      const screenX = nodeX * scale + tx + 20;
+      const screenY = nodeY * scale + ty - 10;
+      tooltip.style.left = `${screenX}px`;
+      tooltip.style.top = `${screenY}px`;
     });
 
     node.on('mouseleave', function(event, d) {
-      d3.select(this).attr('fill', getNodeColor(d.id)); // Restore original color
-      node.style('opacity', 1);
-      link.style('opacity', 1);
-      label.style('opacity', 0.8);
+      hoveredNode = null;
+      d3.select(this).attr('fill', getNodeColor(d.id));
+      node.transition().duration(150).style('opacity', 1);
+      link.transition().duration(150).style('opacity', 1);
+      label.transition().duration(150).style('opacity', 0.8);
       tooltip.classList.add('hidden');
     });
 
