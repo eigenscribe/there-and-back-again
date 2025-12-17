@@ -511,9 +511,10 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   -webkit-text-fill-color: transparent !important;
 }
 
-/* Front Matter page title - matches website header gradient */
-.ptx-content section.frontmatter h2.heading {
-  background: linear-gradient(130deg, #00ffee, #0a95eb) !important;
+/* Front Matter page title - matches website header gradient with more bright blue */
+.ptx-content section.frontmatter h2.heading,
+.ptx-content section.frontmatter h1.heading {
+  background: linear-gradient(130deg, #00ffee, #00d4ff, #1e90ff) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -730,8 +731,8 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   align-items: center !important;
   justify-content: center !important;
   gap: 6px !important;
-  background: linear-gradient(135deg, rgba(0, 200, 255, 0.3), rgba(10, 80, 180, 0.4), rgba(20, 60, 140, 0.35)) !important;
-  border: 1px solid rgba(0, 180, 255, 0.45) !important;
+  background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), rgba(30, 130, 230, 0.35)) !important;
+  border: 1px solid rgba(0, 200, 255, 0.45) !important;
   color: #00e5ff !important;
   padding: 8px 14px !important;
   border-radius: 8px !important;
@@ -745,11 +746,11 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 }
 
 .ptx-navbar .button:hover {
-  background: linear-gradient(135deg, rgba(0, 220, 255, 0.45), rgba(20, 100, 200, 0.5), rgba(30, 80, 160, 0.45)) !important;
-  border-color: rgba(0, 200, 255, 0.65) !important;
+  background: linear-gradient(135deg, rgba(0, 230, 255, 0.45), rgba(50, 150, 250, 0.5)) !important;
+  border-color: rgba(0, 220, 255, 0.65) !important;
   transform: scale(1.03) !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 16px rgba(0, 180, 255, 0.3) !important;
+  box-shadow: 0 4px 16px rgba(0, 200, 255, 0.35) !important;
 }
 
 .ptx-navbar .button.disabled {
