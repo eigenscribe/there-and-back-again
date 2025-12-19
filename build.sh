@@ -169,10 +169,22 @@ for file in output/web/*.html; do
     sed -i 's|<footer class="ptx-content-footer">.*</footer>|<footer class="ptx-content-footer"><span class="copyright">eigenscribe © 2025</span></footer>|' "$file"
   fi
   
-  # Remove all content from page footer and replace with custom branding
+  # Remove all content from page footer and replace with custom branding + nav buttons
   if grep -q 'id="ptx-page-footer"' "$file"; then
-    # Use perl for multiline replacement - match everything up to </body>
-    perl -i -0pe 's|<div id="ptx-page-footer" class="ptx-page-footer">.*?</div>\s*</body>|<div id="ptx-page-footer" class="ptx-page-footer" style="background: rgba(0, 0, 0, 0.7); border-top: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 2rem 1rem;"><div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem;"><img src="external/logo.png" alt="eigenscribe logo" style="width: 35px; height: 35px; filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.5));"><p style="font-family: Aclonica, sans-serif; background: linear-gradient(130deg, #00ffee, #0a95eb); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-size: 1rem; margin: 0;">eigenscribe © 2025</p></div></div>\n</body>|gs' "$file"
+    # Use perl for multiline replacement - match the footer div and all its contents
+    perl -i -0pe 's|<div id="ptx-page-footer" class="ptx-page-footer">.*?</div>(\s*<script)|<div id="ptx-page-footer" class="ptx-page-footer" style="background: rgba(0, 0, 0, 0.7); border-top: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 1.5rem 1rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem;">
+<img src="external/logo.png" alt="eigenscribe logo" style="width: 35px; height: 35px; filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.5));">
+<p style="font-family: Aclonica, sans-serif; background: linear-gradient(130deg, #00ffee, #0a95eb); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-size: 1rem; margin: 0;">eigenscribe © 2025</p>
+</div>
+<nav class="bottom-nav" style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center;">
+<a href="frontmatter.html" class="footer-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), rgba(30, 130, 230, 0.35)); border: 1px solid rgba(0, 200, 255, 0.45); color: #00e5ff; padding: 8px 14px; border-radius: 8px; font-family: Aclonica, sans-serif; font-size: 13px; text-decoration: none; backdrop-filter: blur(8px);">Home</a>
+<a href="ch-prototypes.html" class="footer-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), rgba(30, 130, 230, 0.35)); border: 1px solid rgba(0, 200, 255, 0.45); color: #00e5ff; padding: 8px 14px; border-radius: 8px; font-family: Aclonica, sans-serif; font-size: 13px; text-decoration: none; backdrop-filter: blur(8px);">Prototypes</a>
+<a href="ch-tutorials.html" class="footer-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), rgba(30, 130, 230, 0.35)); border: 1px solid rgba(0, 200, 255, 0.45); color: #00e5ff; padding: 8px 14px; border-radius: 8px; font-family: Aclonica, sans-serif; font-size: 13px; text-decoration: none; backdrop-filter: blur(8px);">Tutorials</a>
+<a href="ch-explanations.html" class="footer-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), rgba(30, 130, 230, 0.35)); border: 1px solid rgba(0, 200, 255, 0.45); color: #00e5ff; padding: 8px 14px; border-radius: 8px; font-family: Aclonica, sans-serif; font-size: 13px; text-decoration: none; backdrop-filter: blur(8px);">Explanations</a>
+<a href="ch-reference.html" class="footer-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), rgba(30, 130, 230, 0.35)); border: 1px solid rgba(0, 200, 255, 0.45); color: #00e5ff; padding: 8px 14px; border-radius: 8px; font-family: Aclonica, sans-serif; font-size: 13px; text-decoration: none; backdrop-filter: blur(8px);">Reference</a>
+</nav>
+</div>$1|gs' "$file"
   fi
 done
 
