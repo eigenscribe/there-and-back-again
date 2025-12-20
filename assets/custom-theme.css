@@ -1278,3 +1278,43 @@ body .ptx-navbar .searchbox #searchresultsplaceholder.search-active,
   border-radius: 8px !important;
   color: #14b5ff !important;
 }
+
+/* ===========================
+   Responsive Safety Layer
+   =========================== */
+
+@media (max-width: 900px) {
+  body {
+    font-size: 0.95em;
+  }
+
+  main, .main, .content {
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  pre, code {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9em;
+  }
+
+  nav, aside, .sidebar {
+    max-width: 100%;
+    position: static;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+}
