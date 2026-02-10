@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-citations-guide" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Citation Handling</title>
+  
+  <introduction>
+    <p>
+      A guide to managing citations and references in your PreTeXt knowledge base.
+      This approach supports long-term maintenance and cross-referencing.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-citation-structure">
+    <title>Citation Structure</title>
+    
+    <p>
+      PreTeXt supports structured citation management through bibliographies.
+      Here's the recommended approach for longevity:
+    </p>
+
+    <subsubsection xml:id="subsubsec-bibtex-source">
+      <title>1. BiTeX Source File</title>
+      <p>
+        Create a <c>references.bib</c> file in your source directory.
+        Use standard BibTeX format for all citations:
+      </p>
+      <listing>
+        <caption>Example BibTeX entries</caption>
+        <program language="bibtex">
+@article{author2024title,
+  author = {First Author and Second Author},
+  title = {Title of the Article},
+  journal = {Journal Name},
+  year = {2024},
+  volume = {10},
+  number = {3},
+  pages = {123--145},
+  doi = {10.xxxx/xxxxx}
+}
+
+@book{authorYear,
+  author = {Author Name},
+  title = {Book Title},
+  publisher = {Publisher Name},
+  year = {2024},
+  edition = {1st}
+}
+
+@misc{websiteAuthor2024,
+  author = {Website Author},
+  title = {Title of Webpage},
+  url = {https://example.com},
+  year = {2024},
+  note = {Accessed: YYYY-MM-DD}
+}
+        </program>
+      </listing>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-cite-in-text">
+      <title>2. In-Text Citations</title>
+      <p>
+        Use the <c>&lt;cite&gt;</c> tag to reference entries from your bibliography:
+      </p>
+      <listing>
+        <caption>In-text citation example</caption>
+        <program language="pretext">
+&lt;p&gt;
+  According to recent research &lt;cite 
+           bib="author2024title" /&gt;, the approach 
+  works as follows...
+&lt;/p&gt;
+
+&lt;p&gt;
+  Multiple sources support this &lt;cite 
+           bib="author2024title authorYear" /&gt;.
+&lt;/p&gt;
+        </program>
+      </listing>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-bibliography-setup">
+      <title>3. Bibliography Setup in docinfo.ptx</title>
+      <p>
+        Add bibliography configuration to your <c>docinfo.ptx</c> file.
+        Add this inside the <c>&lt;docinfo&gt;</c> element:
+      </p>
+      <listing>
+        <caption>docinfo.ptx bibliography configuration</caption>
+        <program language="pretext">
+&lt;!-- Near the end of docinfo, before closing tag --&gt;
+&lt;!-- Bibliography from external BibTeX file --&gt;
+&lt;xi:include href="./references.bib" parse="text" /&gt;
+
+&lt;!-- Or: if using publication.ptx --&gt;
+&lt;bibliography&gt;
+  &lt;bibfile relative-to="source" source="references.bib" /&gt;
+&lt;/bibliography&gt;
+        </program>
+      </listing>
+    </subsubsection>
+
+  </subsection>
+
+  <subsection xml:id="subsec-citation-workflow">
+    <title>Citation Workflow</title>
+    
+    <subsubsection xml:id="subsubsec-capturing-citations">
+      <title>Capturing New Citations</title>
+      <p>
+        When you encounter a source:
+      </p>
+      <ol>
+        <li><p>Extract full bibliographic information</p></li>
+        <li><p>Add entry to <c>references.bib</c> with a meaningful key</p></li>
+        <li><p>Use consistent naming: <c>[firstName][Year][keyword]</c></p></li>
+        <li><p>Cite in text where relevant</p></li>
+      </ol>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-organizing-citations">
+      <title>Organizing Citations</title>
+      <p>
+        <term>By Category:</term> You might organize your <c>references.bib</c> into sections:
+      </p>
+      <program language="bibtex">
+% ========== PAPERS ==========
+@article{...}
+
+% ========== BOOKS ==========
+@book{...}
+
+% ========== WEBSITES/MISC ==========
+@misc{...}
+      </program>
+      <p>
+        <term>Linking to Field Notes:</term> Cross-reference your Field Notes chapter
+        where you summarize these sources:
+      </p>
+      <program language="pretext">
+&lt;p&gt;
+  See &lt;xref ref="sec-field-papers" /&gt; for my summary 
+  of this paper.
+&lt;/p&gt;
+      </program>
+    </subsubsection>
+
+  </subsection>
+
+  <subsection xml:id="subsec-citation-best-practices">
+    <title>Best Practices for Long-Term Maintenance</title>
+    
+    <ol>
+      <li>
+        <p>
+          <term>Consistent Format:</term> Stick to one style (APA, Chicago, IEEE—PreTeXt 
+          handles the rendering).
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Meaningful Keys:</term> Use keys that remind you of the source. 
+          <c>smith2024neural</c> is better than <c>ref42</c>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Complete Information:</term> Include DOI, URL, or other persistent identifiers 
+          when available. This helps find sources years later.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Verification:</term> Periodically verify that URLs still work and sources 
+          are correctly formatted.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Link to Notes:</term> In Field Notes, always summarize the source and link 
+          back to where you cite it in Scribing.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Backup Citations:</term> If a source is critical, consider archiving it 
+          (e.g., via Archive.org).
+        </p>
+      </li>
+    </ol>
+
+  </subsection>
+
+  <subsection xml:id="subsec-citation-examples">
+    <title>Complete Example</title>
+    
+    <subsubsection xml:id="subsubsec-bibtex-example">
+      <title>Example BibTeX File</title>
+      <listing>
+        <caption>references.bib</caption>
+        <program language="bibtex">
+% ========== PAPERS ==========
+@article{transformer2017attention,
+  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, Lukasz and Polosukhin, Illia},
+  title = {Attention is All You Need},
+  journal = {Advances in Neural Information Processing Systems},
+  year = {2017},
+  volume = {30},
+  pages = {5998--6008},
+  doi = {10.5555/3295222.3295349}
+}
+
+@article{sutskever2014sequence,
+  author = {Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V.},
+  title = {Sequence to Sequence Learning with Neural Networks},
+  journal = {Advances in Neural Information Processing Systems},
+  year = {2014},
+  volume = {27},
+  doi = {10.5555/2969033.2969173}
+}
+
+% ========== BOOKS ==========
+@book{goodfellow2016deep,
+  author = {Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron},
+  title = {Deep Learning},
+  publisher = {MIT Press},
+  year = {2016},
+  isbn = {978-0262035613}
+}
+
+% ========== WEBSITES ==========
+@misc{openaiGPT4,
+  author = {OpenAI},
+  title = {GPT-4 Technical Report},
+  url = {https://arxiv.org/abs/2303.08774},
+  year = {2023},
+  note = {Accessed: 2024-02-10}
+}
+
+@misc{distillFeedforward,
+  author = {Distill.pub},
+  title = {Attention and Augmented Recurrent Neural Networks},
+  url = {https://distill.pub/2016/augmented-rnns/},
+  year = {2016}
+}
+        </program>
+      </listing>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-usage-example">
+      <title>Using These Citations</title>
+      <p>
+        In your Scribing section (e.g., Foundations), you might write:
+      </p>
+      <listing>
+        <caption>Citation usage in Scribing</caption>
+        <program language="pretext">
+&lt;p&gt;
+  The Transformer architecture, introduced by Vaswani et al. 
+  &lt;cite bib="transformer2017attention" /&gt;, fundamentally 
+  changed how we approach sequence modeling. This built on 
+  earlier work in sequence-to-sequence models 
+  &lt;cite bib="sutskever2014sequence" /&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+  For a comprehensive introduction, see Goodfellow et al. 
+  &lt;cite bib="goodfellow2016deep" /&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;term&gt;Related Field Notes:&lt;/term&gt; 
+  See &lt;xref ref="sec-field-papers" /&gt; for my summary 
+  of the Transformer paper.
+&lt;/p&gt;
+        </program>
+      </listing>
+    </subsubsection>
+
+  </subsection>
+
+  <subsection xml:id="subsec-long-term-preservation">
+    <title>Long-Term Preservation</title>
+    
+    <p>
+      To ensure your citation system survives decades:
+    </p>
+
+    <ol>
+      <li>
+        <p>
+          <term>Version your BibTeX file:</term> Keep it in version control (Git) with clear commit messages.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Use persistent identifiers:</term> Include DOIs, ISBNs, and OCLC numbers when available.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Archive important sources:</term> Use <url href="https://archive.org">Archive.org</url> 
+          to snapshot web pages and PDFs.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Maintain a local PDF library:</term> For sources you cite frequently, 
+          keep local copies in a standardized location.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Document decision rationales:</term> In Meta, explain why you chose 
+          certain sources and what makes them canonical.
+        </p>
+      </li>
+    </ol>
+
+  </subsection>
+
+</section>

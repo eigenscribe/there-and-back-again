@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intent" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Intent</title>
+  <author>Your Name</author>
+  
+  <introduction>
+    <p>
+      <term>Purpose:</term> Why this book exists and what it's meant to be.
+    </p>
+  </introduction>
+
+  <p>
+    Add your content here. Explain the purpose and vision of this knowledge base.
+  </p>
+
+  <note>
+    <p>
+      This note will serve as your north star—help readers (and your future self) understand 
+      what this collection is trying to accomplish.
+    </p>
+  </note>
+</section>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-conventions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Conventions</title>
+  <author>Your Name</author>
+  
+  <introduction>
+    <p>
+      <term>Content:</term> Notation, symbols, and voice used throughout this collection.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-notation">
+    <title>Mathematical Notation</title>
+    <p>
+      Add your mathematical notation conventions here. For example:
+    </p>
+    <ul>
+      <li><p>Sets: <m>\mathbb{N}, \mathbb{R}, \mathbb{C}</m></p></li>
+      <li><p>Functions: <m>f: A \to B</m></p></li>
+    </ul>
+  </subsection>
+
+  <subsection xml:id="subsec-symbols">
+    <title>Special Symbols and Abbreviations</title>
+    <p>
+      Document any special symbols or abbreviations you use throughout your notes.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-voice">
+    <title>Voice and Style</title>
+    <p>
+      Describe your preferred tone: formal, conversational, hybrid, etc.
+    </p>
+  </subsection>
+</section>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-scribing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Scribing</title>
+  <author>Your Name</author>
+
+  <introduction>
+    <p>
+      Stable, integrated, long-lived synthesis. This chapter contains canonical forms of your knowledge—
+      concepts that have been refined through exploration, connection, and understanding.
+    </p>
+    <p>
+      Each section here is built from atomic notes that have been organized, cross-referenced,
+      and placed into broader conceptual frameworks.
+    </p>
+  </introduction>
+
+  <!-- Foundations section -->
+  <section xml:id="sec-foundations-chapter">
+    <title>Foundations</title>
+    <introduction>
+      <p>Core concepts and fundamental building blocks.</p>
+    </introduction>
+    <!-- Individual notes will be included here -->
+    <xi:include href="./foundations/note-001.ptx" />
+  </section>
+
+  <!-- Methods section -->
+  <section xml:id="sec-methods-chapter">
+    <title>Methods</title>
+    <introduction>
+      <p>Techniques, approaches, and procedural knowledge.</p>
+    </introduction>
+    <!-- Individual notes will be included here -->
+    <xi:include href="./methods/note-001.ptx" />
+  </section>
+
+  <!-- Interpretability section -->
+  <section xml:id="sec-interpretability-chapter">
+    <title>Interpretability</title>
+    <introduction>
+      <p>Understanding mechanisms, reasoning, and explanations.</p>
+    </introduction>
+    <!-- Individual notes will be included here -->
+    <xi:include href="./interpretability/note-001.ptx" />
+  </section>
+
+  <!-- Unifications section -->
+  <section xml:id="sec-unifications-chapter">
+    <title>Unifications</title>
+    <introduction>
+      <p>Connections across domains, unified frameworks, and meta-insights.</p>
+    </introduction>
+    <!-- Individual notes will be included here -->
+    <xi:include href="./unifications/note-001.ptx" />
+  </section>
+
+</chapter>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sec-loss-gems-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Curated Provisional Thoughts</title>
+  
+  <introduction>
+    <p>
+      <alert>💎 Loss Gems:</alert> Ideas that are still forming but worth keeping. These represent
+      interesting directions and insights even if not yet fully crystallized.
+    </p>
+  </introduction>
+
+  <!-- Add individual gem notes here as you develop them -->
+  <!-- Example structure for each gem: -->
+  <!-- <subsection xml:id="gem-topic-name"> -->
+  <!--   <title> Gem Title</title> -->
+  <!--   <p><term>Status:</term> <alert>📝</alert> Developing</p> -->
+  <!--   <p>Content here...</p> -->
+  <!-- </subsection> -->
+
+  <p>Your gems will go here as you create them.</p>
+  
+</subsection>

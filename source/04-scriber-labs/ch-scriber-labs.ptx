@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-scriber-labs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Scriber Labs</title>
+  <author>Your Name</author>
+
+  <introduction>
+    <p>
+      Repo-linked project writeups and implementations. This is where research meets code—
+      comprehensive documentation of projects that bridge exploration and application.
+    </p>
+  </introduction>
+
+  <!-- About section -->
+  <section xml:id="sec-labs-about">
+    <title>About Labs</title>
+    <introduction>
+      <p>How to structure and document project writeups.</p>
+    </introduction>
+    <xi:include href="./about/README.ptx" />
+  </section>
+
+  <!-- Projects section -->
+  <section xml:id="sec-labs-projects">
+    <title>Projects</title>
+    <introduction>
+      <p>Active and archived project documentation.</p>
+    </introduction>
+    
+    <!-- Each project would have its own subsection with included files -->
+    <subsection xml:id="sec-project-template">
+      <title>Project Template: [Project Name]</title>
+      <p>
+        <term>Repository:</term> <url href="https://github.com/username/repo-name">github.com/username/repo-name</url>
+      </p>
+      <p>
+        <term>Status:</term> Active / Archived
+      </p>
+
+      <!-- Project overview -->
+      <subsubsection xml:id="sec-project-overview">
+        <title>Overview</title>
+        <p>What is this project? What problem does it solve?</p>
+      </subsubsection>
+
+      <!-- Design notes -->
+      <subsubsection xml:id="sec-project-design">
+        <title>Design Notes</title>
+        <p>Key architectural decisions and rationales.</p>
+      </subsubsection>
+
+      <!-- Postmortem -->
+      <subsubsection xml:id="sec-project-postmortem">
+        <title>Postmortem</title>
+        <p>Lessons learned and reflections on the process.</p>
+      </subsubsection>
+    </subsection>
+
+  </section>
+
+</chapter>

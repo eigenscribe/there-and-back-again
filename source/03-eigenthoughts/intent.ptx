@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-eigenthoughts-intent-content" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>About Eigenthoughts</title>
+  
+  <p>
+    Eigenthoughts represent a middle ground. They're more developed than raw fragments,
+    but not yet integrated into the stable Scribing framework.
+  </p>
+
+  <subsection xml:id="subsec-when-to-write">
+    <title>When to Write Eigenthoughts</title>
+    <ul>
+      <li><p>You've had a significant realization but haven't fully explored it yet</p></li>
+      <li><p>You're testing an idea before incorporating it into Scribing</p></li>
+      <li><p>You want to preserve a thought that might not be complete</p></li>
+      <li><p>You're building toward a larger synthesis</p></li>
+    </ul>
+  </subsection>
+
+  <subsection xml:id="subsec-structure">
+    <title>Structure</title>
+    <p>
+      Each eigenthought should include:
+    </p>
+    <ul>
+      <li><p>A clear title</p></li>
+      <li><p>Status indicator (<alert>🧪</alert> Draft, <alert>📝</alert> Developing, <alert>💎</alert> Gem)</p></li>
+      <li><p>Date created</p></li>
+      <li><p>The core idea(s)</p></li>
+      <li><p>Why it matters (even if provisional)</p></li>
+      <li><p>Related thoughts and sources</p></li>
+    </ul>
+  </subsection>
+
+  <subsection xml:id="subsec-maturation">
+    <title>Maturation Path</title>
+    <p>
+      As you develop an eigenthought:
+    </p>
+    <ol>
+      <li><p>Add more evidence and reasoning</p></li>
+      <li><p>Connect to other ideas</p></li>
+      <li><p>Refine until it's ready for Scribing</p></li>
+      <li><p>Move to canonical form in the appropriate Scribing section</p></li>
+    </ol>
+  </subsection>
+
+</section>

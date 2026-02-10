@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-meta-workflow-content" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Your Workflow</title>
+  
+  <introduction>
+    <p>
+      Document your process: how you capture ideas, develop them, and integrate them into the knowledge base.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-daily-note">
+    <title>Daily Capture</title>
+    <p>How do you capture thoughts? Where do raw ideas start?</p>
+  </subsection>
+
+  <subsection xml:id="subsec-development">
+    <title>Development Process</title>
+    <p>How ideas flow from capture to Eigenthoughts to Scribing.</p>
+  </subsection>
+
+  <subsection xml:id="subsec-review">
+    <title>Review and Integration</title>
+    <p>How often do you review and consolidate notes?</p>
+  </subsection>
+
+</section>

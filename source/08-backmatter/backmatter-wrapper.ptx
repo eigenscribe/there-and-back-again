@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  
+  <appendix xml:id="app-glossary">
+    <title>Glossary</title>
+    <introduction>
+      <p>
+        Key terms and definitions used throughout this knowledge base.
+      </p>
+    </introduction>
+    <xi:include href="./glossary.ptx" />
+  </appendix>
+
+  <appendix xml:id="app-citations">
+    <title>Citations and References</title>
+    <introduction>
+      <p>
+        A compiled list of all cited sources. See <xref ref="sec-citations-guide" /> 
+        for guidance on citation handling.
+      </p>
+    </introduction>
+    
+    <!-- PreTeXt will automatically generate a bibliography here -->
+    <!-- You can also manually include summary information -->
+    <xi:include href="./bibliography-notes.ptx" />
+  </appendix>
+
+  <index>
+    <title>Index</title>
+  </index>
+
+</backmatter>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <bibinfo>
+    <author>
+      <personname>Your Name</personname>
+    </author>
+    <date>
+      <today />
+    </date>
+    <website>
+      <url href="https://your-domain.com">Read Online</url>
+    </website>
+    <copyright>
+      <year>2024<ndash />2026</year>
+      <holder>Your Name</holder>
+      <shortlicense>
+        This is a personal knowledge base. See conventions for license information.
+      </shortlicense>
+    </copyright>
+  </bibinfo>
+
+  <titlepage>
+    <titlepage-items />
+  </titlepage>
+
+  <preface xml:id="pref-overview">
+    <title>Welcome</title>
+    <p>
+      This is a compendium of ideas, explorations, and syntheses. It serves as a permanent
+      record of understanding built over time.
+    </p>
+  </preface>
+
+  <!-- Include individual front matter sections -->
+  <xi:include href="./intent.ptx" />
+  <xi:include href="./conventions.ptx" />
+  <xi:include href="./how-to-read.ptx" />
+
+</frontmatter>

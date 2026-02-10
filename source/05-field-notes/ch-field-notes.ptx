@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-field-notes" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Field Notes</title>
+  <author>Your Name</author>
+
+  <introduction>
+    <p>
+      Ingestion, not synthesis. This chapter contains curated references to external sources:
+      papers, books, talks, documentation, and interesting repositories. Use this as your
+      external knowledge index.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-field-papers">
+    <title>Papers</title>
+    <introduction>
+      <p>Academic papers, preprints, and research articles.</p>
+    </introduction>
+    <p>
+      Create subsections for papers, organized by topic or domain.
+      Include a brief summary, key insights, and how it relates to your work.
+    </p>
+  </section>
+
+  <section xml:id="sec-field-books">
+    <title>Books</title>
+    <introduction>
+      <p>Books and book chapters relevant to your research.</p>
+    </introduction>
+    <p>
+      For longer works, consider breaking into chapters or major sections.
+    </p>
+  </section>
+
+  <section xml:id="sec-field-talks">
+    <title>Talks and Videos</title>
+    <introduction>
+      <p>Recorded talks, videos, and presentations.</p>
+    </introduction>
+    <p>
+      Include links to the full video and highlight key timestamps or insights.
+    </p>
+  </section>
+
+  <section xml:id="sec-field-docs">
+    <title>Documentation</title>
+    <introduction>
+      <p>Official documentation, tutorials, and guides.</p>
+    </introduction>
+  </section>
+
+  <section xml:id="sec-field-repos">
+    <title>External Repositories</title>
+    <introduction>
+      <p>Open-source projects and codebases you reference.</p>
+    </introduction>
+    <p>
+      Include project description, key innovations, and how you use or learn from them.
+    </p>
+  </section>
+
+</chapter>

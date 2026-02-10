@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-practice" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Practice</title>
+  <author>Your Name</author>
+
+  <introduction>
+    <p>
+      Exercises, sketches, proofs, and drills. This chapter is where you apply ideas,
+      work through details, and test understanding through action.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-practice-exercises">
+    <title>Exercises</title>
+    <introduction>
+      <p>Worked examples and problem sets.</p>
+    </introduction>
+    <note>
+      <p>
+        Organize exercises by topic and difficulty. Include both problems and solutions/discussions.
+      </p>
+    </note>
+  </section>
+
+  <section xml:id="sec-practice-sketches">
+    <title>Sketches and Explorations</title>
+    <introduction>
+      <p>Visual thinking, diagrams, and rough explorations.</p>
+    </introduction>
+  </section>
+
+  <section xml:id="sec-practice-proofs">
+    <title>Proofs and Derivations</title>
+    <introduction>
+      <p>Detailed proofs and mathematical derivations.</p>
+    </introduction>
+  </section>
+
+  <section xml:id="sec-practice-drills">
+    <title>Drills and Memorization</title>
+    <introduction>
+      <p>Structured repetition for concepts that require fluency.</p>
+    </introduction>
+  </section>
+
+</chapter>

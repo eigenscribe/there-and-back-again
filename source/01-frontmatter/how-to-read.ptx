@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-how-to-read" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Read This Book</title>
+  <author>Your Name</author>
+  
+  <introduction>
+    <p>
+      <term>Navigation Guide:</term> Understanding the structure and lifecycle of ideas in this collection.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-organization">
+    <title>Organization</title>
+    <p>
+      This knowledge base is organized into several categories, each serving a different purpose:
+    </p>
+    <dl>
+      <li>
+        <title>Scribing</title>
+        <p>Stable, well-integrated, long-lived synthesis. The canonical form of your knowledge.</p>
+      </li>
+      <li>
+        <title>Eigenthoughts</title>
+        <p>Atomic ideas still being formed. Provisional but curated.</p>
+      </li>
+      <li>
+        <title>Scriber Labs</title>
+        <p>Project writeups and implementations.</p>
+      </li>
+      <li>
+        <title>Field Notes</title>
+        <p>External sources: papers, books, talks, documentation.</p>
+      </li>
+      <li>
+        <title>Practice</title>
+        <p>Exercises, sketches, proofs, and drills.</p>
+      </li>
+      <li>
+        <title>Meta</title>
+        <p>Workflow, systems, tooling notes.</p>
+      </li>
+    </dl>
+  </subsection>
+
+  <subsection xml:id="subsec-note-lifecycle">
+    <title>Lifecycle of Ideas</title>
+    <p>
+      Ideas typically flow through stages:
+    </p>
+    <ol>
+      <li><p><term>Raw ingestion:</term> Field Notes</p></li>
+      <li><p><term>Atomic exploration:</term> Eigenthoughts</p></li>
+      <li><p><term>Integration:</term> Scribing chapters</p></li>
+      <li><p><term>Application:</term> Practice and Labs</p></li>
+    </ol>
+  </subsection>
+
+  <subsection xml:id="subsec-reading-strategies">
+    <title>Reading Strategies</title>
+    <p>
+      This is not meant to be read linearly. Instead:
+    </p>
+    <ul>
+      <li><p>Use the index to find topics of interest</p></li>
+      <li><p>Follow cross-references to explore connections</p></li>
+      <li><p>Visit the glossary for definitions</p></li>
+      <li><p>Check Field Notes for primary sources</p></li>
+    </ul>
+  </subsection>
+
+  <subsection xml:id="subsec-note-status">
+    <title>Note Status Indicators</title>
+    <p>
+      Each note is tagged with its development stage. Look for indicators like:
+    </p>
+    <ul>
+      <li><p><alert>🧪</alert> Draft—rough exploration</p></li>
+      <li><p><alert>📝</alert> Developing—in progress</p></li>
+      <li><p><alert>✓</alert> Stable—canonical form</p></li>
+      <li><p><alert>💎</alert> Gem—particularly valuable insight</p></li>
+    </ul>
+  </subsection>
+</section>

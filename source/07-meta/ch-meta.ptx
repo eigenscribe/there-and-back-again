@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-meta" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Meta</title>
+  <author>Your Name</author>
+
+  <introduction>
+    <p>
+      Workflow, systems, tooling, and meta-level notes about the knowledge base itself.
+      Think of this as the "about this book" section extended.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-meta-workflow">
+    <title>Workflow</title>
+    <introduction>
+      <p>How you produce and maintain notes.</p>
+    </introduction>
+    <xi:include href="./workflow.ptx" />
+  </section>
+
+  <section xml:id="sec-meta-systems">
+    <title>Systems and Tools</title>
+    <introduction>
+      <p>Tools, processes, and systems that support knowledge capture.</p>
+    </introduction>
+    <xi:include href="./systems.ptx" />
+  </section>
+
+  <section xml:id="sec-meta-citations">
+    <title>Citation Handling</title>
+    <introduction>
+      <p>How to manage citations and references in this knowledge base.</p>
+    </introduction>
+    <xi:include href="./citations.ptx" />
+  </section>
+
+</chapter>

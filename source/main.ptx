@@ -1,24 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <!-- we first include a file which contains the docinfo element: -->
+  <!-- Document-level configuration and metadata -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="math-journal">
-    <title>Math Journal</title>
-    <subtitle>A Zettelkasten Approach</subtitle>
+  <book xml:id="zettelkasten">
+    <title>There and Back Again</title>
+    <subtitle>A Zettelkasten for Permanent Note-Taking</subtitle>
 
-    <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" />
+    <!-- ========================================
+         FRONT MATTER
+         ======================================== -->
+    <xi:include href="./01-frontmatter/frontmatter-wrapper.ptx" />
 
-    <!-- Include chapters organized by Diataxis categories -->
-    <xi:include href="./ch-prototypes.ptx" />
-    <xi:include href="./ch-tutorials.ptx" />
-    <xi:include href="./ch-explanations.ptx" />
-    <xi:include href="./ch-reference.ptx" />
+    <!-- ========================================
+         SCRIBING: Stable, integrated synthesis
+         ======================================== -->
+    <xi:include href="./02-scribing/ch-scribing.ptx" />
 
-    <!-- Include backmatter -->
-    <xi:include href="./backmatter.ptx" />
+    <!-- ========================================
+         EIGENTHOUGHTS: Pre-canonical ideas
+         ======================================== -->
+    <xi:include href="./03-eigenthoughts/ch-eigenthoughts.ptx" />
+
+    <!-- ========================================
+         SCRIBER LABS: Project writeups
+         ======================================== -->
+    <xi:include href="./04-scriber-labs/ch-scriber-labs.ptx" />
+
+    <!-- ========================================
+         FIELD NOTES: External source ingestion
+         ======================================== -->
+    <xi:include href="./05-field-notes/ch-field-notes.ptx" />
+
+    <!-- ========================================
+         PRACTICE: Exercises and explorations
+         ======================================== -->
+    <xi:include href="./06-practice/ch-practice.ptx" />
+
+    <!-- ========================================
+         META: Workflow, systems, tooling
+         ======================================== -->
+    <xi:include href="./07-meta/ch-meta.ptx" />
+
+    <!-- ========================================
+         BACK MATTER: Glossary, index, bibliography
+         ======================================== -->
+    <xi:include href="./08-backmatter/backmatter-wrapper.ptx" />
 
   </book>
 </pretext>

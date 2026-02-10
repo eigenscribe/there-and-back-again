@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sec-unifications-note-001" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Note 001: [Add Title]</title>
+  
+  <p>
+    <term>Status:</term> <alert>🧪</alert> Draft
+  </p>
+  <p>
+    <term>Date Created:</term> [YYYY-MM-DD]
+  </p>
+  <p>
+    <term>Tags:</term> [tag1, tag2, tag3]
+  </p>
+
+  <introduction>
+    <p>
+      Brief context or motivation for this note.
+    </p>
+  </introduction>
+
+  <p>
+    Add your content here.
+  </p>
+
+  <note>
+    <title>Key Insight</title>
+    <p>
+      Highlight the main takeaway if applicable.
+    </p>
+  </note>
+
+  <!-- Cross-references to related notes -->
+  <p>
+    <term>Related notes:</term> See <xref ref="sec-unifications-note-002" />, <xref ref="sec-methods-note-001" />
+  </p>
+
+  <!-- Links to external sources -->
+  <p>
+    <term>Sources:</term> See Field Notes for related papers and references.
+  </p>
+
+</subsection>

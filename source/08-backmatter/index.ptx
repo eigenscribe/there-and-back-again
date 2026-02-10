@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appendix xml:id="app-index" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Index</title>
+  <p>
+    Note: PreTeX typically generates an index automatically if you use the
+    <c>&lt;index&gt;</c> element throughout your content. This page may be auto-generated.
+  </p>
+</appendix>

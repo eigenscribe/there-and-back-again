@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-glossary-entries" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Glossary Entries</title>
+  
+  <introduction>
+    <p>
+      A curated list of important terms and their definitions.
+      Use the index to find other references to these terms throughout the book.
+    </p>
+  </introduction>
+
+  <!-- Each term should be marked with <idx> tags when first introduced in the main text -->
+  <!-- PreTeXt can auto-generate glossary entries, or you can manually list them here -->
+
+  <p>
+    <term>Add your glossary entries below as you work through the book:</term>
+  </p>
+
+  <dl>
+    <li>
+      <title>Term Name</title>
+      <p>Brief definition and context.</p>
+    </li>
+  </dl>
+
+</section>

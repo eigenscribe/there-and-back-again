@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-meta-systems-content" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Systems and Tools</title>
+  
+  <introduction>
+    <p>
+      Tools and systems that support your knowledge work.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-capture-tools">
+    <title>Capture Tools</title>
+    <p>What tools do you use to capture and store raw notes?</p>
+  </subsection>
+
+  <subsection xml:id="subsec-pretext-setup">
+    <title>PreTeXt Setup</title>
+    <p>How this knowledge base is built and deployed.</p>
+    <ul>
+      <li><p>Build system: PreTeXt CLI</p></li>
+      <li><p>Hosting: [Your hosting platform]</p></li>
+      <li><p>Version control: Git</p></li>
+    </ul>
+  </subsection>
+
+  <subsection xml:id="subsec-backup-archival">
+    <title>Backup and Archival</title>
+    <p>How do you preserve your knowledge base for long-term access?</p>
+  </subsection>
+
+</section>

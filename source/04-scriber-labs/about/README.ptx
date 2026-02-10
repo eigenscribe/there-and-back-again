@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-labs-readme" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>About Labs</title>
+  
+  <introduction>
+    <p>
+      Scriber Labs documents projects that link directly to repositories. Each project
+      should have a clear README, overview, design notes, and postmortem.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-lab-structure">
+    <title>Project Structure</title>
+    <p>Each project directory should contain:</p>
+    <ul>
+      <li><p><term>README.ptx:</term> Repository link and project scope</p></li>
+      <li><p><term>overview.ptx:</term> High-level explanation of the project</p></li>
+      <li><p><term>design-notes.ptx:</term> Architectural decisions</p></li>
+      <li><p><term>postmortem.ptx:</term> Lessons and reflections</p></li>
+    </ul>
+  </subsection>
+
+  <subsection xml:id="subsec-lab-guidelines">
+    <title>Guidelines</title>
+    <ul>
+      <li><p>Link to the actual repository early and often</p></li>
+      <li><p>Keep scope clear: what is this project about?</p></li>
+      <li><p>Document decisions, not just implementations</p></li>
+      <li><p>Write postmortems regardless of success or failure</p></li>
+      <li><p>Cross-reference to Scribing where relevant</p></li>
+    </ul>
+  </subsection>
+
+</section>

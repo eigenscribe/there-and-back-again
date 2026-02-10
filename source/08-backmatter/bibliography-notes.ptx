@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-bibliography-guide" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Additional Bibliography Notes</title>
+  
+  <introduction>
+    <p>
+      This section provides additional context for sources cited in this knowledge base.
+      For detailed citation guidance, see <xref ref="sec-citations-guide" /> in the Meta chapter.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-sources-by-category">
+    <title>Sources by Category</title>
+    
+    <p>
+      See the Field Notes chapter for more detailed summaries and discussions of individual sources.
+    </p>
+
+    <dl>
+      <li>
+        <title>Primary Research</title>
+        <p>
+          Peer-reviewed papers and foundational works.
+        </p>
+      </li>
+      <li>
+        <title>Secondary Sources</title>
+        <p>
+          Books, surveys, and synthetic treatments.
+        </p>
+      </li>
+      <li>
+        <title>Technical Documentation</title>
+        <p>
+          Implementation guides and API documentation.
+        </p>
+      </li>
+      <li>
+        <title>Repositories and Code</title>
+        <p>
+          Open-source projects and reference implementations.
+        </p>
+      </li>
+    </dl>
+  </subsection>
+
+  <subsection xml:id="subsec-how-to-access">
+    <title>How to Access Sources</title>
+    <p>
+      Most sources listed are available through:
+    </p>
+    <ul>
+      <li><p><url href="https://arxiv.org">arXiv</url> - preprints</p></li>
+      <li><p><url href="https://scholar.google.com">Google Scholar</url> - search</p></li>
+      <li><p><url href="https://libgen.rs">Library Genesis</url> - books (check copyright)</p></li>
+      <li><p><url href="https://sci-hub.se">Sci-Hub</url> - papers (check copyright)</p></li>
+      <li><p>University/institutional access if available</p></li>
+    </ul>
+  </subsection>
+
+</section>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-eigenthoughts" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Eigenthoughts</title>
+  <author>Your Name</author>
+
+  <introduction>
+    <p>
+      Atomic ideas in formation. These are provisional, still being explored and refined,
+      but curated and worth keeping. Think of this as your "public work-in-progress."
+    </p>
+    <p>
+      Over time, carefully developed eigenthoughts graduate into the Scribing chapter.
+    </p>
+  </introduction>
+
+  <!-- Intent section -->
+  <section xml:id="sec-eigenthoughts-intent">
+    <title>Intent</title>
+    <introduction>
+      <p>Why eigenthoughts exist and how they fit into the knowledge base.</p>
+    </introduction>
+    <xi:include href="./intent.ptx" />
+  </section>
+
+  <!-- Loss Gems section -->
+  <section xml:id="sec-loss-gems">
+    <title>Loss Gems 💎</title>
+    <introduction>
+      <p>
+        Curated but still provisional. These are promising ideas that deserve preservation
+        even if they're not yet fully stable.
+      </p>
+    </introduction>
+    <xi:include href="./loss-gems.ptx" />
+  </section>
+
+  <!-- Fragments section (optional) -->
+  <section xml:id="sec-fragments">
+    <title>Fragments</title>
+    <introduction>
+      <p>
+        Truly raw shards. Incomplete thoughts, quick observations, and rough sketches.
+        These may never mature, but they capture moments of insight.
+      </p>
+    </introduction>
+    <xi:include href="./fragments/fragment-001.ptx" />
+  </section>
+
+</chapter>
