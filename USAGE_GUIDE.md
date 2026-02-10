@@ -1,6 +1,6 @@
-# Zettelkasten Math Journal - Usage Guide
+# There And Back Again - Usage Guide
 
-A PreTeXt-based mathematical knowledge base with Zettelkasten note-taking methodology, interactive graph visualization, and Obsidian integration.
+A PreTeXt-based knowledge base for Eigenscribe Inc. with Zettelkasten note-taking methodology and interactive graph visualization.
 
 ## Table of Contents
 
@@ -21,36 +21,60 @@ This project combines:
 - **Zettelkasten Method**: Interconnected notes with bidirectional links
 - **Diataxis Framework**: Content organized as Prototypes, Tutorials, Explanations, Reference
 - **D3.js Graph View**: Interactive visualization of note connections
-- **Obsidian Integration**: Pipeline to convert Obsidian Markdown notes to PreTeXt XML
+- **Obsidian Integration**: Pipeline to convert Obsidian Markdown notes to PreTeXt XML (⚠️ Haven't tested myself ⚠️)
 
 ### Project Structure
 
 ```
 zettelkasten-pretext/
-├── source/                      # PreTeXt XML source files
-│   ├── main.ptx                # Main document structure
-│   ├── docinfo.ptx             # Document metadata and macros
-│   ├── frontmatter.ptx         # Title page and abstract
-│   ├── ch-prototypes.ptx       # Prototype notes chapter
-│   ├── ch-tutorials.ptx        # Tutorial notes chapter
-│   ├── ch-explanations.ptx     # Explanation notes chapter
-│   ├── ch-reference.ptx        # Reference notes chapter
-│   └── backmatter.ptx          # Bibliography
-├── assets/                      # Static assets and styling
-│   ├── custom-theme.css        # Custom glassmorphic styling
-│   ├── graph-toggle.js         # Graph visualization toggle
-│   ├── d3.min.js               # D3.js library
-│   └── *.png, *.jpg            # Images (logo, favicon, background)
-├── graph-module/               # Standalone graph visualization
-│   └── notes-graph.json        # Graph data (nodes and edges)
-├── obsidian-to-pretext/        # Obsidian converter pipeline
-│   ├── convert.py              # Conversion script
-│   ├── MAPPING.md              # Syntax mapping reference
-│   └── example_notes/          # Sample Obsidian notes
-├── output/web/                 # Generated HTML (gitignored)
-├── build.sh                    # Build script
-├── project.ptx                 # PreTeXt project manifest
-└── requirements.txt            # Python dependencies
+├──source
+│    ├── 01-frontmatter
+│    │   ├── conventions.ptx
+│    │   ├── frontmatter-wrapper.ptx
+│    │   ├── how-to-read.ptx
+│    │   └── intent.ptx
+│    ├── 02-scribing
+│    │   ├── ch-scribing.ptx
+│    │   ├── foundations
+│    │   │   └── note-001.ptx
+│    │   ├── interpretability
+│    │   │   └── note-001.ptx
+│    │   ├── methods
+│    │   │   └── note-001.ptx
+│    │   └── unifications
+│    │       └── note-001.ptx
+│    ├── 03-eigenthoughts
+│    │   ├── ch-eigenthoughts.ptx
+│    │   ├── fragments
+│    │   │   └── fragment-001.ptx
+│    │   ├── intent.ptx
+│    │   └── loss-gems.ptx
+│    ├── 04-scriber-labs
+│    │   ├── about
+│    │   │   └── README.ptx
+│    │   ├── ch-scriber-labs.ptx
+│    │   └── projects
+│    ├── 05-field-notes
+│    │   ├── books
+│    │   ├── ch-field-notes.ptx
+│    │   ├── docs
+│    │   ├── external-repos
+│    │   ├── papers
+│    │   └── talks
+│    ├── 06-practice
+│    │   └── ch-practice.ptx
+│    ├── 07-meta
+│    │   ├── ch-meta.ptx
+│    │   ├── citations.ptx
+│    │   ├── systems.ptx
+│    │   └── workflow.ptx
+│    ├── 08-backmatter
+│    │   ├── backmatter-wrapper.ptx
+│    │   ├── bibliography-notes.ptx
+│    │   ├── glossary.ptx
+│    │   └── index.ptx
+│    ├── docinfo.ptx
+└────└── main.ptx
 ```
 
 ---
@@ -87,15 +111,15 @@ zettelkasten-pretext/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/zettelkasten-math-journal.git
-cd zettelkasten-math-journal
+git clone https://github.com/eigenscribe/there-and-back-again.git
+cd there-and-back-again
 ```
 
 ### Step 2: Install Dependencies
 
 ```bash
 # Create virtual environment (optional but recommended)
-python -m venv venv
+python -m venv .venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install PreTeXt CLI
