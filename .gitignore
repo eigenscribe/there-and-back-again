@@ -1,6 +1,6 @@
 # PreTeXt Output
 output/
-generated/
+generated-assets/
 
 # Python
 __pycache__/
