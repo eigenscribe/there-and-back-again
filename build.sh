@@ -166,7 +166,7 @@ for file in output/web/*.html; do
   # Update footer with custom branding
   if grep -q "ptx-content-footer" "$file"; then
     # Replace footer content with eigenscribe copyright
-    sed -i 's|<footer class="ptx-content-footer">.*</footer>|<footer class="ptx-content-footer"><span class="copyright">eigenscribe © 2025</span></footer>|' "$file"
+    sed -i 's|<footer class="ptx-content-footer">.*</footer>|<footer class="ptx-content-footer"><span class="copyright">eigenscribe © 2025-2026</span></footer>|' "$file"
   fi
   
   # Remove all content from page footer and replace with custom branding
@@ -174,7 +174,7 @@ for file in output/web/*.html; do
     # Use perl for multiline replacement - match the footer div and all its contents
     perl -i -0pe 's|<div id="ptx-page-footer" class="ptx-page-footer">.*?</div>(\s*<script)|<div id="ptx-page-footer" class="ptx-page-footer" style="background: rgba(0, 0, 0, 0.7); border-top: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 1.5rem 1rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem;">
 <img src="external/logo.png" alt="eigenscribe logo" style="width: 35px; height: 35px; filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.5));">
-<p style="font-family: Aclonica, sans-serif; background: linear-gradient(130deg, #00ffee, #0a95eb); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-size: 1rem; margin: 0;">eigenscribe © 2025</p>
+<p style="font-family: Aclonica, sans-serif; background: linear-gradient(130deg, #00ffee, #0a95eb); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-size: 1rem; margin: 0;">eigenscribe © 2025-2026</p>
 </div>$1|gs' "$file"
   fi
 done

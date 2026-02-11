@@ -3,7 +3,7 @@
 <frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
   <bibinfo>
     <author>
-      <personname>Your Name</personname>
+      <personname>Eigenscribe</personname>
     </author>
     <date>
       <today />
@@ -12,8 +12,8 @@
       <url href="https://your-domain.com">Read Online</url>
     </website>
     <copyright>
-      <year>2024<ndash />2026</year>
-      <holder>Your Name</holder>
+      <year>2025<ndash />2026</year>
+      <holder>Eigenscribe Inc.</holder>
       <shortlicense>
         This is a personal knowledge base. See conventions for license information.
       </shortlicense>

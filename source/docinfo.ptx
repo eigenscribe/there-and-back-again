@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
-  <document-id>math-journal-zettelkasten</document-id>
-  <blurb shelf="Mathematics">
-    A Zettelkasten-based math journal for self-study and networked mathematical thinking.
+  <document-id>there-and-back-again</document-id>
+  <blurb shelf="Zettelkasten for Eigenscribe Inc">
+    A Zettelkasten-based journal for self-study and networked mathematical thinking.
   </blurb>
 
   <!-- Math macros for convenience -->
