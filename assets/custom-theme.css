@@ -511,10 +511,32 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   -webkit-text-fill-color: transparent !important;
 }
 
+/* Subsection heading - cyan to purple gradient */
+.ptx-content h4.heading {
+  font-size: 1.25rem !important;
+  background: linear-gradient(120deg, #06b6d4, #8b5cf6, #d946ef) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Subsubsection heading - teal to purple gradient */
+.ptx-content h5.heading {
+  font-size: 1.1rem !important;
+  background: linear-gradient(110deg, #14b8a6, #7c3aed, #c084fc) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
 /* Front Matter page title - matches website header gradient with more bright blue */
 .ptx-content section.frontmatter h2.heading,
 .ptx-content section.frontmatter h1.heading {
-  background: linear-gradient(130deg, #00ffee, #00d4ff, #1e90ff) !important;
+  background: linear-gradient(110deg, #00ffee, #00d4ff, #1e90ff) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
