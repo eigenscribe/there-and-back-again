@@ -5,7 +5,7 @@
   
   <introduction>
     <p>
-      A guide to managing citations and references in your PreTeXt knowledge base.
+      A guide to managing citations.
       This approach supports long-term maintenance and cross-referencing.
     </p>
   </introduction>
@@ -67,7 +67,7 @@
         <program language="pretext">
 &lt;p&gt;
   According to recent research &lt;cite 
-           bib="author2024title" /&gt;, the approach 
+           bib="hestenes1993hamiltonian" /&gt;, the approach 
   works as follows...
 &lt;/p&gt;
 
@@ -200,32 +200,43 @@
         <caption>references.bib</caption>
         <program language="bibtex">
 % ========== PAPERS ==========
-@article{transformer2017attention,
-  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, Lukasz and Polosukhin, Illia},
-  title = {Attention is All You Need},
-  journal = {Advances in Neural Information Processing Systems},
-  year = {2017},
-  volume = {30},
-  pages = {5998--6008},
-  doi = {10.5555/3295222.3295349}
+@article{kutzbrunton2022parsimony,,
+  author = {Kutz, J. Nathan and Brunton, Steven L.},
+  title = {Parsimony as the ultimate regularizer for physics-informed machine learning},
+  journal = {Nonlinear Dynamics},
+  year = {2022},
+  volume = {107},
+  number = {3},
+  pages = {1801--1817},
+  doi = {10.1007/s11071-021-07118-3}
 }
 
-@article{sutskever2014sequence,
-  author = {Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V.},
-  title = {Sequence to Sequence Learning with Neural Networks},
-  journal = {Advances in Neural Information Processing Systems},
-  year = {2014},
-  volume = {27},
-  doi = {10.5555/2969033.2969173}
+@article{basir2022pinnfailures,,
+  author = {Basir, Soroush and Senocak, Inanc},
+  title = {Critical Investigation of Failure Modes in Physics-Informed Neural Networks},
+  journal = {AIAA SCITECH 2022 Forum},
+  year = {2022},
+  doi = {10.2514/6.2022-2353}
 }
 
 % ========== BOOKS ==========
-@book{goodfellow2016deep,
-  author = {Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron},
-  title = {Deep Learning},
-  publisher = {MIT Press},
-  year = {2016},
-  isbn = {978-0262035613}
+@book{brunton2022datadriven,
+  author = {Brunton, Steven L. and Kutz, J. Nathan},
+  title = {Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control},
+  publisher = {Cambridge University Press},
+  year = {2022},
+  edition = {2}
+}
+
+% ========== IN COLLECTION ==========
+@incollection{hestenes1993hamiltonian,
+  author = {Hestenes, David},
+  title = {Hamiltonian Mechanics with Geometric Calculus},
+  booktitle = {Clifford Algebras and Their Applications in Mathematical Physics},
+  pages = {203--214},
+  publisher = {Springer},
+  year = {1993},
+  doi = {10.1007/s11071-021-07118-3}
 }
 
 % ========== WEBSITES ==========
@@ -237,11 +248,11 @@
   note = {Accessed: 2024-02-10}
 }
 
-@misc{distillFeedforward,
-  author = {Distill.pub},
-  title = {Attention and Augmented Recurrent Neural Networks},
-  url = {https://distill.pub/2016/augmented-rnns/},
-  year = {2016}
+@misc{musacchio2024hhmodel,
+  author = {Musachhio, Fabrizio},
+  title = {Hodgkin-Huxely model},
+  url = {https://www.fabriziomusacchio.com/blog/2024-04-21-hodgkin_huxley_model/#gating-variables},
+  year = {2024}
 }
         </program>
       </listing>
