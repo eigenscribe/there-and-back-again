@@ -2,11 +2,11 @@
 
 <section xml:id="sec-conventions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Conventions</title>
-  <author>Your Name</author>
+  <author>Eigenscribe</author>
   
   <introduction>
     <p>
-      <term>Content:</term> Notation, symbols, and voice used throughout this collection.
+      <term>Content:</term> Notation, symbols, and abbreviations used throughout this collection.
     </p>
   </introduction>
 
@@ -31,7 +31,7 @@
   <subsection xml:id="subsec-voice">
     <title>Voice and Style</title>
     <p>
-      Describe your preferred tone: formal, conversational, hybrid, etc.
+      Mostly pretty dry for now, however I will use emojis and may make Lord of the Rings references occasionally. Most of the notes I have initially planned are 80% math and diagrams.   
     </p>
   </subsection>
 </section>

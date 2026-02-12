@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "2.3",
   "title": "Voice and Style",
-  "body": " Voice and Style  Describe your preferred tone: formal, conversational, hybrid, etc.  "
+  "body": " Voice and Style  Mostly pretty dry for now, however I will use emojis and may make Lord of the Rings references occasionally. Most of the notes I have initially planned are 80% math and diagrams.  "
 },
 {
   "id": "subsec-organization",
