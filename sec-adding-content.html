@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Adding Content Easily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Math Journal">
+<meta property="book:author" content="Your Name">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.14';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="math-journal-zettelkasten" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math-journal.html"><span class="title">Math Journal</span> <span class="subtitle">A Zettelkasten Approach</span></a></h1>
+<p class="byline">Your Name</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-github-deployment.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-tutorials.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-explanations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-abstract"><div class="toc-title-box"><a href="frontmatter.html#frontmatter-3" class="internal"><span class="title">Abstract</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-prototypes.html" class="internal"><span class="codenumber">1</span> <span class="title">Prototypes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-topology-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Introduction to Topology</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-topology-intro.html#subsec-topo-fundamentals" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Fundamental Concepts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-topology-intro.html#subsec-topo-example" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Example</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-metric-spaces.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Metric Spaces</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-metric-spaces.html#subsec-metric-definition" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Definition</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-metric-spaces.html#subsec-euclidean-metric" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Euclidean Metric</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-continuous-functions.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Continuous Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-continuous-functions.html#subsec-continuity-definition" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Definition</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-convergence-sequences.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Convergence of Sequences</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-convergence-sequences.html#subsec-sequence-definition" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Definition in Metric Spaces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-convergence-sequences.html#subsec-cauchy-sequences" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Cauchy Sequences</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-tutorials.html" class="internal"><span class="codenumber">2</span> <span class="title">Tutorials</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-local-setup.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Getting Started</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-local-setup.html#subsec-prerequisites" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Prerequisites</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-local-setup.html#subsec-building-project" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Building Your Project</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-github-deployment.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Deploying to GitHub Pages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-github-deployment.html#subsec-create-github-repo" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Step 1: Create a GitHub Repository</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-github-deployment.html#subsec-connect-repo" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Step 2: Connect Your Project to GitHub</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-github-deployment.html#subsec-deploy-to-pages" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Step 3: Deploy to GitHub Pages</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-github-deployment.html#subsec-updating-site" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Step 4: Updating Your Live Site</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-adding-content.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Adding Content Easily</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-file-structure" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Understanding the File Structure</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-adding-new-note" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Adding a New Note</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-mathematical-content" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Writing Mathematical Content</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-linking-notes" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Linking Notes (Zettelkasten Method)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-citations" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Adding Citations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-workflow-tips" class="internal"><span class="codenumber">2.3.6</span> <span class="title">Recommended Workflow</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-content.html#subsec-quick-reference" class="internal"><span class="codenumber">2.3.7</span> <span class="title">Quick Reference</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-explanations.html" class="internal"><span class="codenumber">3</span> <span class="title">Explanations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-placeholder-explanations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Add Your Explanations Here</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-reference.html" class="internal"><span class="codenumber">4</span> <span class="title">Reference</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-common-definitions.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Common Definitions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="references.html" class="internal"><span class="title">Bibliography</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-adding-content"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Adding Content Easily</span>
+</h2>
+<section class="introduction" id="sec-adding-content-4"><div class="para" id="sec-adding-content-4-1">Best practices for adding mathematical notes to your Zettelkasten journal.<div class="autopermalink" data-description="Paragraph"><a href="#sec-adding-content-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec-file-structure"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Understanding the File Structure</span>
+</h3>
+<div class="para" id="subsec-file-structure-2">Your content is organized in the <code class="code-inline tex2jax_ignore">source/</code> directory:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-file-structure-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="subsec-file-structure-3">
+<li id="subsec-file-structure-3-1">
+<div class="para" id="subsec-file-structure-3-1-1">
+<code class="code-inline tex2jax_ignore">main.ptx</code> — Main document structure (usually don’t edit)<div class="autopermalink" data-description="Paragraph"><a href="#subsec-file-structure-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-file-structure-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-file-structure-3-2">
+<div class="para" id="subsec-file-structure-3-2-1">
+<code class="code-inline tex2jax_ignore">ch-prototypes.ptx</code> — Experimental notes and explorations<div class="autopermalink" data-description="Paragraph"><a href="#subsec-file-structure-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-file-structure-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-file-structure-3-3">
+<div class="para" id="subsec-file-structure-3-3-1">
+<code class="code-inline tex2jax_ignore">ch-tutorials.ptx</code> — Step-by-step learning guides<div class="autopermalink" data-description="Paragraph"><a href="#subsec-file-structure-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-file-structure-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-file-structure-3-4">
+<div class="para" id="subsec-file-structure-3-4-1">
+<code class="code-inline tex2jax_ignore">ch-explanations.ptx</code> — Conceptual explanations<div class="autopermalink" data-description="Paragraph"><a href="#subsec-file-structure-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-file-structure-3-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-file-structure-3-5">
+<div class="para" id="subsec-file-structure-3-5-1">
+<code class="code-inline tex2jax_ignore">ch-reference.ptx</code> — Quick reference definitions<div class="autopermalink" data-description="Paragraph"><a href="#subsec-file-structure-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-file-structure-3-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-file-structure-3-6">
+<div class="para" id="subsec-file-structure-3-6-1">
+<code class="code-inline tex2jax_ignore">backmatter.ptx</code> — Bibliography and index<div class="autopermalink" data-description="Paragraph"><a href="#subsec-file-structure-3-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-file-structure-3-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Subsection 2.3.1: Understanding the File Structure"><a href="#subsec-file-structure" title="Copy heading and permalink for Subsection 2.3.1: Understanding the File Structure" aria-label="Copy heading and permalink for Subsection 2.3.1: Understanding the File Structure">🔗</a></div></section><section class="subsection" id="subsec-adding-new-note"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Adding a New Note</span>
+</h3>
+<div class="para" id="subsec-adding-new-note-2">To add a new mathematical note:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-adding-new-note-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="subsec-adding-new-note-3">
+<li id="subsec-adding-new-note-3-1">
+<div class="para" id="subsec-adding-new-note-3-1-1">Choose the appropriate chapter file based on the Diataxis framework:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-adding-new-note-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="subsec-adding-new-note-3-1-2">
+<li id="subsec-adding-new-note-3-1-2-1">
+<div class="para" id="subsec-adding-new-note-3-1-2-1-1">
+<dfn class="terminology">Prototype</dfn> — New explorations, experiments<div class="autopermalink" data-description="Paragraph"><a href="#subsec-adding-new-note-3-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-adding-new-note-3-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-adding-new-note-3-1-2-2">
+<div class="para" id="subsec-adding-new-note-3-1-2-2-1">
+<dfn class="terminology">Tutorial</dfn> — Learning-oriented guides<div class="autopermalink" data-description="Paragraph"><a href="#subsec-adding-new-note-3-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-adding-new-note-3-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-adding-new-note-3-1-2-3">
+<div class="para" id="subsec-adding-new-note-3-1-2-3-1">
+<dfn class="terminology">Explanation</dfn> — Understanding-oriented content<div class="autopermalink" data-description="Paragraph"><a href="#subsec-adding-new-note-3-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-adding-new-note-3-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-adding-new-note-3-1-2-4">
+<div class="para" id="subsec-adding-new-note-3-1-2-4-1">
+<dfn class="terminology">Reference</dfn> — Information-oriented quick lookup<div class="autopermalink" data-description="Paragraph"><a href="#subsec-adding-new-note-3-1-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-adding-new-note-3-1-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Item 1"><a href="#subsec-adding-new-note-3-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsec-adding-new-note-3-2">
+<div class="para" id="subsec-adding-new-note-3-2-1">Open the chapter file and add a new <code class="code-inline tex2jax_ignore">&lt;section&gt;</code>:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-adding-new-note-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<pre class="code-block tex2jax_ignore clipboardable">&lt;section xml:id="sec-your-topic"&gt;
+  &lt;title&gt;Your Topic Title&lt;/title&gt;
+  &lt;idx&gt;keyword&lt;/idx&gt;
+  
+  &lt;p&gt;
+    Your mathematical content here...
+  &lt;/p&gt;
+  
+  &lt;definition xml:id="def-example"&gt;
+    &lt;statement&gt;
+      &lt;p&gt;
+        A &lt;term&gt;metric space&lt;/term&gt; is...
+      &lt;/p&gt;
+    &lt;/statement&gt;
+  &lt;/definition&gt;
+&lt;/section&gt;
+</pre>
+<div class="autopermalink" data-description="Item 2"><a href="#subsec-adding-new-note-3-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsec-adding-new-note-3-3">
+<div class="para" id="subsec-adding-new-note-3-3-1">Build and preview your changes:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-adding-new-note-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<pre class="code-block tex2jax_ignore clipboardable">./build.sh
+</pre>
+<div class="para" id="subsec-adding-new-note-3-3-3">Then refresh your browser at <code class="code-inline tex2jax_ignore">localhost:5000</code> to see the changes.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-adding-new-note-3-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsec-adding-new-note-3-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Subsection 2.3.2: Adding a New Note"><a href="#subsec-adding-new-note" title="Copy heading and permalink for Subsection 2.3.2: Adding a New Note" aria-label="Copy heading and permalink for Subsection 2.3.2: Adding a New Note">🔗</a></div></section><section class="subsection" id="subsec-mathematical-content"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Writing Mathematical Content</span>
+</h3>
+<div class="para" id="subsec-mathematical-content-2">PreTeXt uses LaTeX for mathematical notation. Here are common patterns:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-mathematical-content-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="subsec-mathematical-content-3"><h4 class="heading"><span class="title">Inline Math.</span></h4>
+<div class="para" id="subsec-mathematical-content-3-2">Use <code class="code-inline tex2jax_ignore">&lt;m&gt;</code> tags for inline math: <span class="process-math">\(f(x) = x^2 + 1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-mathematical-content-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<pre class="code-block tex2jax_ignore clipboardable">&lt;p&gt;
+  The function &lt;m&gt;f(x) = x^2 + 1&lt;/m&gt; is continuous.
+&lt;/p&gt;
+</pre>
+<div class="autopermalink" data-description="Paragraphs: Inline Math"><a href="#subsec-mathematical-content-3" title="Copy heading and permalink for Paragraphs: Inline Math" aria-label="Copy heading and permalink for Paragraphs: Inline Math">🔗</a></div></section><section class="paragraphs" id="subsec-mathematical-content-4"><h4 class="heading"><span class="title">Display Math.</span></h4>
+<div class="para" id="subsec-mathematical-content-4-2">Use <code class="code-inline tex2jax_ignore">&lt;me&gt;</code> for displayed equations:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-mathematical-content-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-mathematical-content-4-3">
+\begin{equation*}
+\int_a^b f(x) \, dx = F(b) - F(a)
+\end{equation*}
+</div>
+<pre class="code-block tex2jax_ignore clipboardable">&lt;me&gt;
+  \int_a^b f(x) \, dx = F(b) - F(a)
+&lt;/me&gt;
+</pre>
+<div class="autopermalink" data-description="Paragraphs: Display Math"><a href="#subsec-mathematical-content-4" title="Copy heading and permalink for Paragraphs: Display Math" aria-label="Copy heading and permalink for Paragraphs: Display Math">🔗</a></div></section><section class="paragraphs" id="subsec-mathematical-content-5"><h4 class="heading"><span class="title">Theorems and Definitions.</span></h4>
+<pre class="code-block tex2jax_ignore clipboardable">&lt;theorem xml:id="thm-fundamental"&gt;
+  &lt;title&gt;Fundamental Theorem of Calculus&lt;/title&gt;
+  &lt;statement&gt;
+    &lt;p&gt;
+      If &lt;m&gt;f&lt;/m&gt; is continuous on &lt;m&gt;[a,b]&lt;/m&gt;...
+    &lt;/p&gt;
+  &lt;/statement&gt;
+&lt;/theorem&gt;
+</pre>
+<div class="autopermalink" data-description="Paragraphs: Theorems and Definitions"><a href="#subsec-mathematical-content-5" title="Copy heading and permalink for Paragraphs: Theorems and Definitions" aria-label="Copy heading and permalink for Paragraphs: Theorems and Definitions">🔗</a></div></section><div class="autopermalink" data-description="Subsection 2.3.3: Writing Mathematical Content"><a href="#subsec-mathematical-content" title="Copy heading and permalink for Subsection 2.3.3: Writing Mathematical Content" aria-label="Copy heading and permalink for Subsection 2.3.3: Writing Mathematical Content">🔗</a></div></section><section class="subsection" id="subsec-linking-notes"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Linking Notes (Zettelkasten Method)</span>
+</h3>
+<div class="para" id="subsec-linking-notes-2">Connect related notes using cross-references:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-linking-notes-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<pre class="code-block tex2jax_ignore clipboardable">&lt;p&gt;
+  This builds on the concept from &lt;xref ref="sec-topology-intro"/&gt;.
+&lt;/p&gt;
+</pre>
+<div class="para" id="subsec-linking-notes-4">The <code class="code-inline tex2jax_ignore">ref</code> attribute should match the <code class="code-inline tex2jax_ignore">xml:id</code> of the section you want to link to.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-linking-notes-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 2.3.4: Linking Notes (Zettelkasten Method)"><a href="#subsec-linking-notes" title="Copy heading and permalink for Subsection 2.3.4: Linking Notes (Zettelkasten Method)" aria-label="Copy heading and permalink for Subsection 2.3.4: Linking Notes (Zettelkasten Method)">🔗</a></div></section><section class="subsection" id="subsec-citations"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Adding Citations</span>
+</h3>
+<div class="para" id="subsec-citations-2">To cite a source, first add it to <code class="code-inline tex2jax_ignore">backmatter.ptx</code>:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-citations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<pre class="code-block tex2jax_ignore clipboardable">&lt;biblio type="raw" xml:id="rudin1976"&gt;
+  Rudin, Walter. Principles of Mathematical Analysis. 
+  McGraw-Hill, 1976.
+&lt;/biblio&gt;
+</pre>
+<div class="para" id="subsec-citations-4">Then cite it in your content:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-citations-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<pre class="code-block tex2jax_ignore clipboardable">&lt;p&gt;
+  For more details, see &lt;xref ref="rudin1976"/&gt;.
+&lt;/p&gt;
+</pre>
+<div class="autopermalink" data-description="Subsection 2.3.5: Adding Citations"><a href="#subsec-citations" title="Copy heading and permalink for Subsection 2.3.5: Adding Citations" aria-label="Copy heading and permalink for Subsection 2.3.5: Adding Citations">🔗</a></div></section><section class="subsection" id="subsec-workflow-tips"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Recommended Workflow</span>
+</h3>
+<ol class="decimal" id="subsec-workflow-tips-2">
+<li id="subsec-workflow-tips-2-1">
+<div class="para" id="subsec-workflow-tips-2-1-1">
+<dfn class="terminology">Start with rough ideas</dfn> — Add them to the Prototypes chapter<div class="autopermalink" data-description="Paragraph"><a href="#subsec-workflow-tips-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsec-workflow-tips-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsec-workflow-tips-2-2">
+<div class="para" id="subsec-workflow-tips-2-2-1">
+<dfn class="terminology">Build incrementally</dfn> — Add small sections often, don’t wait for perfection<div class="autopermalink" data-description="Paragraph"><a href="#subsec-workflow-tips-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsec-workflow-tips-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsec-workflow-tips-2-3">
+<div class="para" id="subsec-workflow-tips-2-3-1">
+<dfn class="terminology">Link as you go</dfn> — Use <code class="code-inline tex2jax_ignore">&lt;xref&gt;</code> to connect related concepts<div class="autopermalink" data-description="Paragraph"><a href="#subsec-workflow-tips-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsec-workflow-tips-2-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsec-workflow-tips-2-4">
+<div class="para" id="subsec-workflow-tips-2-4-1">
+<dfn class="terminology">Reorganize later</dfn> — Move mature notes from Prototypes to Explanations or Reference<div class="autopermalink" data-description="Paragraph"><a href="#subsec-workflow-tips-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsec-workflow-tips-2-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+<li id="subsec-workflow-tips-2-5">
+<div class="para" id="subsec-workflow-tips-2-5-1">
+<dfn class="terminology">Commit frequently</dfn> — Use Git to track your progress and changes<div class="autopermalink" data-description="Paragraph"><a href="#subsec-workflow-tips-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#subsec-workflow-tips-2-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Subsection 2.3.6: Recommended Workflow"><a href="#subsec-workflow-tips" title="Copy heading and permalink for Subsection 2.3.6: Recommended Workflow" aria-label="Copy heading and permalink for Subsection 2.3.6: Recommended Workflow">🔗</a></div></section><section class="subsection" id="subsec-quick-reference"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3.7</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Quick Reference</span>
+</h3>
+<div class="para" id="subsec-quick-reference-2">Common commands you’ll use:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-quick-reference-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="subsec-quick-reference-3"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Common Commands<div class="autopermalink" data-description="Table 2.3.1: Common Commands"><a href="#subsec-quick-reference-3" title="Copy heading and permalink for Table 2.3.1: Common Commands" aria-label="Copy heading and permalink for Table 2.3.1: Common Commands">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t0 lines">Command</th>
+<th scope="col" class="l m b2 r0 l0 t0 lines">Purpose</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><code class="code-inline tex2jax_ignore">./build.sh</code></td>
+<td class="l m b0 r0 l0 t0 lines">Build project with custom CSS</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><code class="code-inline tex2jax_ignore">git add .</code></td>
+<td class="l m b0 r0 l0 t0 lines">Stage all changes</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><code class="code-inline tex2jax_ignore">git commit -m "message"</code></td>
+<td class="l m b0 r0 l0 t0 lines">Save changes with message</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><code class="code-inline tex2jax_ignore">git push</code></td>
+<td class="l m b0 r0 l0 t0 lines">Upload to GitHub</td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Subsection 2.3.7: Quick Reference"><a href="#subsec-quick-reference" title="Copy heading and permalink for Subsection 2.3.7: Quick Reference" aria-label="Copy heading and permalink for Subsection 2.3.7: Quick Reference">🔗</a></div></section><div class="autopermalink" data-description="Section 2.3: Adding Content Easily"><a href="#sec-adding-content" title="Copy heading and permalink for Section 2.3: Adding Content Easily" aria-label="Copy heading and permalink for Section 2.3: Adding Content Easily">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-github-deployment.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-explanations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
