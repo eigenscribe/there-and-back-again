@@ -1,2 +1,53 @@
 .poll .poll-question{padding-bottom:10px}.poll .progress{height:25px;margin-top:-20px;width:350px}.poll .progress .progress-bar{color:#333;height:30px}.poll-text{float:left;font-size:12px;line-height:20px;margin:0 0 0 10px}.results-container{display:grid;grid-template-columns:2em 90%}.poll-option{margin-left:5px}.poll-option>.para:first-of-type{display:inline-block;padding-left:.5rem}.poll-results:not(:empty){margin-top:.5rem}label.poll-option{display:block;font-weight:400}.ptx-runestone-container input.poll-choice-input{margin-right:.5em;vertical-align:top}
-/*# sourceMappingURL=prefix-168.1c4deaed00ca1f5e.css.map*/
+/*# sourceMappingURL=prefix-168.1c4deaed00ca1f5e.css.map*//* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}

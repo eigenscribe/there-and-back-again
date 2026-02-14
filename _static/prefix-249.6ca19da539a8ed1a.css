@@ -55,4 +55,107 @@
 /*!
  * Handsontable HiddenRows
  */.handsontable th.afterHiddenRow:after,.handsontable th.beforeHiddenRow:before{color:#bbb;font-size:6pt;left:2px;line-height:6pt;position:absolute}.handsontable th.afterHiddenRow,.handsontable th.beforeHiddenRow{position:relative}.handsontable th.beforeHiddenRow:before{bottom:2px;content:"\25B2"}.handsontable th.afterHiddenRow:after{content:"\25BC";top:2px}.handsontable.ht__selection--rows tbody th.afterHiddenRow.ht__highlight:after,.handsontable.ht__selection--rows tbody th.beforeHiddenRow.ht__highlight:before{color:#eee}.handsontable td.afterHiddenRow.firstVisibleRow,.handsontable th.afterHiddenRow.firstVisibleRow{border-top:1px solid #ccc}
-/*# sourceMappingURL=prefix-249.6ca19da539a8ed1a.css.map*/
+/*# sourceMappingURL=prefix-249.6ca19da539a8ed1a.css.map*//* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}

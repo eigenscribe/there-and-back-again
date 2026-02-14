@@ -1,2 +1,53 @@
 .mchoice label p{display:inline;font-weight:400!important}.mchoice label pre{font-weight:400}.mchoice fieldset{margin-bottom:.5em}.mchoice fieldset legend{font-size:small;margin-bottom:.5em}.multiplechoice_section label>.para,.timedAssessment .mchoice label>.para{display:inline}label.mchoice-option{display:block}.ptx-runestone-container input.mchoice-input{margin-right:.5em;vertical-align:top}.mchoice .alert{margin-bottom:0;margin-top:10px}
-/*# sourceMappingURL=prefix-350.dbca9271f6e2dfbf.css.map*/
+/*# sourceMappingURL=prefix-350.dbca9271f6e2dfbf.css.map*//* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}
+/* FIX: Override frontmatter/backmatter TOC colors */
+.toc-frontmatter.contains-active,
+.toc-backmatter.contains-active,
+.toc-frontmatter.contains-active .toc-title-box,
+.toc-backmatter.contains-active .toc-title-box,
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+  background-color: rgba(20, 181, 255, 0.25) !important;
+  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
+}

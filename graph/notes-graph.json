@@ -1,0 +1,72 @@
+{
+  "$schema": "notes-graph-schema.json",
+  "nodes": [
+    {
+      "id": "sec-topology-intro",
+      "title": "Introduction to Topology",
+      "url": "sec-topology-intro.html",
+      "tags": ["topology", "foundations"],
+      "description": "Basic concepts and definitions in topology"
+    },
+    {
+      "id": "sec-metric-spaces",
+      "title": "Metric Spaces",
+      "url": "sec-metric-spaces.html",
+      "tags": ["topology", "metric-spaces", "analysis"],
+      "description": "Properties of metric spaces and distance functions"
+    },
+    {
+      "id": "sec-continuous-functions",
+      "title": "Continuous Functions",
+      "url": "sec-continuous-functions.html",
+      "tags": ["topology", "continuity", "functions"],
+      "description": "Continuity in topological and metric contexts"
+    },
+    {
+      "id": "sec-convergence-sequences",
+      "title": "Convergence of Sequences",
+      "url": "sec-convergence-sequences.html",
+      "tags": ["analysis", "sequences", "convergence"],
+      "description": "Sequence convergence in metric and topological spaces"
+    },
+    {
+      "id": "sec-common-definitions",
+      "title": "Common Definitions",
+      "url": "sec-common-definitions.html",
+      "tags": ["reference", "definitions"],
+      "description": "Reference list of common mathematical definitions"
+    }
+  ],
+  "links": [
+    {
+      "source": "sec-topology-intro",
+      "target": "sec-metric-spaces",
+      "type": "builds-on"
+    },
+    {
+      "source": "sec-metric-spaces",
+      "target": "sec-continuous-functions",
+      "type": "prerequisite"
+    },
+    {
+      "source": "sec-metric-spaces",
+      "target": "sec-convergence-sequences",
+      "type": "prerequisite"
+    },
+    {
+      "source": "sec-continuous-functions",
+      "target": "sec-convergence-sequences",
+      "type": "related"
+    },
+    {
+      "source": "sec-common-definitions",
+      "target": "sec-topology-intro",
+      "type": "reference"
+    },
+    {
+      "source": "sec-common-definitions",
+      "target": "sec-metric-spaces",
+      "type": "reference"
+    }
+  ]
+}

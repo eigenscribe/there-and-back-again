@@ -1,0 +1,166 @@
+:root {
+  --bg-color: #0a0a0f;
+  --node-color: #14b5ff;
+  --node-hover-color: #a855f7;
+  --link-color: rgba(20, 181, 255, 0.3);
+  --link-hover-color: rgba(168, 85, 247, 0.6);
+  --text-color: #e0e0e0;
+  --tooltip-bg: rgba(10, 10, 15, 0.95);
+  --tooltip-border: rgba(20, 181, 255, 0.5);
+  --control-bg: rgba(20, 20, 30, 0.8);
+  --control-hover: rgba(20, 181, 255, 0.3);
+}
+
+[data-theme="light"] {
+  --bg-color: #f5f5f7;
+  --node-color: #0891b2;
+  --node-hover-color: #7c3aed;
+  --link-color: rgba(8, 145, 178, 0.3);
+  --link-hover-color: rgba(124, 58, 237, 0.5);
+  --text-color: #1f2937;
+  --tooltip-bg: rgba(255, 255, 255, 0.95);
+  --tooltip-border: rgba(8, 145, 178, 0.5);
+  --control-bg: rgba(255, 255, 255, 0.9);
+  --control-hover: rgba(8, 145, 178, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  overflow: hidden;
+}
+
+#graph-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#graph-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#graph-controls {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 100;
+}
+
+#graph-controls button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background: var(--control-bg);
+  color: var(--text-color);
+  font-size: 18px;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#graph-controls button:hover {
+  background: var(--control-hover);
+  transform: scale(1.05);
+}
+
+#graph-tooltip {
+  position: absolute;
+  padding: 12px 16px;
+  background: var(--tooltip-bg);
+  border: 1px solid var(--tooltip-border);
+  border-radius: 8px;
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 200;
+  max-width: 300px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.15s ease;
+}
+
+#graph-tooltip.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#graph-tooltip .tooltip-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--node-color);
+}
+
+#graph-tooltip .tooltip-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+#graph-tooltip .tooltip-tag {
+  padding: 2px 8px;
+  background: var(--link-color);
+  border-radius: 12px;
+  font-size: 11px;
+}
+
+.node {
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+.node:hover {
+  fill: var(--node-hover-color);
+}
+
+.node-label {
+  font-size: 10px;
+  fill: var(--text-color);
+  pointer-events: none;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  opacity: 0.8;
+}
+
+.link {
+  stroke: var(--link-color);
+  stroke-linecap: round;
+  transition: stroke 0.2s ease;
+}
+
+.link.highlighted {
+  stroke: var(--link-hover-color);
+  stroke-width: 2px;
+}
+
+.node.highlighted {
+  fill: var(--node-hover-color);
+}
+
+.node.dimmed {
+  opacity: 0.2;
+}
+
+.link.dimmed {
+  opacity: 0.1;
+}
+
+.node-label.dimmed {
+  opacity: 0.1;
+}
