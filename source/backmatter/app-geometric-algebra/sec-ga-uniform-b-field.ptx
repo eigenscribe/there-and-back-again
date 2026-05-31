@@ -2,66 +2,19 @@
 
 <section xml:id="sec-ga-uniform-b-field" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Vector Potential for a Uniform Magnetic Field</title>
-    <idx><term>vector potential</term></idx>
 
-    <p>
-        Consider a uniform magnetic field <m>\vec{B}=B_0\mathbf{e}_z</m>.
-        We can use geometric algebra to write this as a bivector
-            <me>
-                \bivec{B} = B_0(\mathbf{e}_x\wedge\mathbf{e}_y) \, .
-            </me>
-        We seek to define the conditions for a vector potential
-
-            <me>
-                \vec{A} : \bivec{B} = \vec{\nabla} \wedge \vec{A} \, .
-            </me>
-    </p>
-
-    <subsection xml:id="sub-ga-gauge-examples">
-    <title>Gauge Examples</title>
-    <p>
-        We can use the following gauge examples to define the vector potential.
-    </p>
-
-    <example xml:id="ex-ga-uniform-b-field-1">
-        <title>Symmetric Gauge</title>
-        <idx><term>symmetric gauge</term></idx>
-
-        <p>
-            The symmetric gauge preserves rotational symmetry of the magnetic field about the <m>z</m>-axis.
-            The vector potential for this gauge is given by
+    <definition xml:id="def-ga-uniform-b-field-vector-potential">
+        <title>Vector Potential</title>
+        <idx><term>vector potential</term></idx>
+        <statement>
+            <p>
+                For a uniform magnetic field <m>\vec{B}=B_0\mathbf{e}_z</m>, represented as a bivector <m>\bivec{B}=B_0(\mathbf{e}_x\wedge\mathbf{e}_y)</m>,
+                the <term>vector potential</term> <m>\vec{A}</m> must satisfy
                 <me>
-                    \vec{A}_\text{sym} = \frac{B_0}{2}(x\mathbf{e}_y-y\mathbf{e}_x)
+                    \bivec{B}=\vec{\nabla}\wedge\vec{A} \, .
                 </me>
-        </p>
-        <proof>
-            <p> Check: <m>\vec{\nabla}\wedge\vec{A}_\text{sym} =?= B_0(\mathbf{e}_x\wedge\mathbf{e}_y)</m>
-
             </p>
-        </proof>
-
-    </example>
-
-    <example xml:id="ex-ga-uniform-b-field-2">
-        <title>Landau Gauge</title>
-        <idx><term>Landau gauge</term></idx>
-
-        <p>
-            The Landau gauge breaks rotational symmetry, however it does provide a simplified translational invariance along the <m>x</m>-axis.
-            The vector potential for this gauge is given by
-                <me>
-                    \vec{A}_\text{Landau} = -B_0y\mathbf{e_x}
-                </me>
-        </p>
-
-        <proof>
-            <p> Check: <m>\vec{\nabla}\wedge\vec{A}_\text{Landau} =?= B_0(\mathbf{e_x}\wedge\mathbf{e_y})</m>
-
-            </p>
-        </proof>
-
-    </example>
-
-    </subsection>
+        </statement>
+    </definition>
 
 </section>
