@@ -25,7 +25,7 @@
     <title>Poisson Bracket</title>
     <idx>Poisson bracket</idx>
     <p>
-        The <term>Poisson bracket</term> provides a fundamental operation in Hamiltonian mechanics and symplectic geometry.
+        The <term>Poisson bracket</term> provides a fundamental operation in Hamiltonian mechanics and symplectic geometry. Specifically, it tells you how an observable $A$ changes due to some other observable $B$ acting as a generator.
     </p>    
   </gi>
 
@@ -54,7 +54,7 @@
     <idx>root-finding algorithms</idx>
 
     <p>
-        Methods for solving equations of the form \(f(x) = 0\).
+        Methods for solving equations of the form <m>f(x) = 0</m>.
     </p>
   </gi>
 
