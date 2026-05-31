@@ -51,7 +51,9 @@ jobs:
                     pretext build
                 fi
             - name: stage deployment
-              run: pretext deploy --stage-only
+              run: |
+                pretext deploy --stage-only
+                touch output/stage/.nojekyll
 
             - name: Bundle output/stage as artifact
               uses: actions/upload-artifact@v4

@@ -60,7 +60,9 @@ jobs:
         run: pretext build --deploys
 
       - name: run deploy
-        run: pretext deploy --no-push
+        run: |
+          pretext deploy --no-push
+          touch output/stage/.nojekyll
 
       - name: push gh-pages branch
         run: git push origin gh-pages --force

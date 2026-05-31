@@ -1,7 +1,10 @@
 #!/bin/bash
+set -e
 
-# Activate virtual environment
-source .venv/bin/activate
+# Activate virtual environment if it exists
+if [ -d ".venv" ]; then
+  source .venv/bin/activate
+fi
 
 
 # Remove old cache and build artifacts to ensure a clean build
@@ -10,6 +13,7 @@ echo "🧹 Forcing PreTeXt rebuild..."
 # Remove only the internal PreTeXt cache (NOT everything)
 rm -rf .build/
 rm -rf .ptx/
+rm -rf output/web/
 
 # Build the PreTeXt project
 echo "Building PreTeXt project..."
@@ -23,6 +27,7 @@ fi
 
 # Copy custom CSS and assets to output directory
 echo "Copying custom CSS and assets..."
+touch output/web/.nojekyll
 mkdir -p output/web/external
 cp assets/custom-theme.css output/web/external/
 cp assets/wisp.jpg output/web/external/
@@ -102,7 +107,7 @@ CSSOVERRIDE
 
 # Inject CSS link and favicon into all HTML files
 echo "Injecting custom CSS and favicon into HTML files..."
-for file in output/web/*.html; do
+find output/web -maxdepth 1 -name "*.html" -print0 | while IFS= read -r -d '' file; do
   # Check if the file already has the custom CSS link
   if ! grep -q "custom-theme.css" "$file"; then
     # Insert the link tag in head (use perl for portable in-place edit on macOS)
