@@ -24,19 +24,23 @@
   <gi xml:id="gls-poisson-brackets">
     <title>Poisson Bracket</title>
     <idx>Poisson bracket</idx>
-    <p>
-        The <term>Poisson bracket</term> provides a fundamental operation in Hamiltonian mechanics and symplectic geometry.
-        Specifically, it tells you how an observable <m>A</m> changes due to some other observable <m>B</m> acting as a generator.
-    </p>    
+    <statement>
+      <p>
+          The <term>Poisson bracket</term> provides a fundamental operation in Hamiltonian mechanics and symplectic geometry.
+          Specifically, it tells you how an observable <m>A</m> changes due to some other observable <m>B</m> acting as a generator.
+      </p>
+    </statement>
   </gi>
 
   <gi xml:id="gls-power-spectral-density">
     <title>Power Spectral Density</title>
     <idx>power spectral density</idx>
 
-    <p>
-        A <term>power spectral density</term> is a function <m>S_{xx}(f)</m> describing how the power of a signal is distributed over frequency <m>f</m>.
-    </p>
+    <statement>
+      <p>
+          A <term>power spectral density</term> is a function <m>S_{xx}(f)</m> describing how the power of a signal is distributed over frequency <m>f</m>.
+      </p>
+    </statement>
   </gi>
 
   <gi xml:id="gls-regression-methods">
@@ -50,13 +54,15 @@
     </statement>
   </gi>
 
-  <gi> xml:id="gls-root-finding">
+  <gi xml:id="gls-root-finding">
     <title>Root-Finding Algorithms</title>
     <idx>root-finding algorithms</idx>
 
-    <p>
-        Methods for solving equations of the form <m>f(x) = 0</m>.
-    </p>
+    <statement>
+      <p>
+          Methods for solving equations of the form <m>f(x) = 0</m>.
+      </p>
+    </statement>
   </gi>
 
 </glossary>
