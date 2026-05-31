@@ -27,8 +27,12 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v4
 
+            - name: setup git config
+              run: |
+                git config --global --add safe.directory $(pwd)
+
             - name: install deps
-              run: pip install -r requirements.txt
+              run: pip install -r requirements.txt --break-system-packages
 
             - name: set up node
               uses: actions/setup-node@v4

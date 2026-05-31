@@ -2,7 +2,7 @@
 # If you modify this file, PreTeXt will no longer automatically update it.
 #
 
-name: Build and Deploy
+name: Build and Deploy (Manual/gh-pages)
 on:
   # Currently, this workflow only runs when manually selected (the `workflow_dispatch` event).
   # If you would like it to run on other events, uncomment some of the lines below.
