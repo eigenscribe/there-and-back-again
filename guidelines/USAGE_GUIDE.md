@@ -65,7 +65,7 @@ zettelkasten-pretext/
 
 1. Install PreTeXt CLI:
    ```bash
-   pip install pretext
+   pip install pretextbook
    ```
 
 2. Build the project:
@@ -144,7 +144,7 @@ python -m http.server 5000
              python-version: '3.11'
          
          - name: Install PreTeXt
-           run: pip install pretext
+           run: pip install pretextbook --break-system-packages
          
          - name: Build
            run: ./build.sh

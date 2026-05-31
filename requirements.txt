@@ -1,2 +1,2 @@
 # This file was automatically generated with PreTeXt 2.38.3.
-pretextbook == 2.38.3
+pretextbook==0.8.3

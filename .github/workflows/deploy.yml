@@ -29,7 +29,7 @@ jobs:
           node-version: '22'
       
       - name: Install dependencies
-        run: pip install -r requirements.txt --break-system-packages
+        run: pip install -r requirements.txt --break-system-packages --no-cache-dir
       
       - name: Build with custom styling
         run: chmod +x build.sh && ./build.sh
