@@ -158,7 +158,7 @@
       <!--<calculator model="geogebra-classic" activecode="python" />-->
 
     <!-- Set the base URL of where the online version is hosted to have links in other formats -->
-      <!-- <baseurl href="https://changetomywebsite.org"/> -->
+      <baseurl href="https://eigenscribe/github.io/there-and-back-again/"/>
 
     <!-- Control behavior of online WeBWorK, per type: -->
       <!--<webwork

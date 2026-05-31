@@ -52,7 +52,7 @@
     <title>Preface</title>
 
     <!-- 1. Eigenscribe Framework (core system layer) -->
-    <section xml:id="eigenscribe-framework">
+    <paragraphs xml:id="eigenscribe-framework">
       <title>The Eigenscribe Framework</title>
       <idx>first-principles reasoning</idx>
 
@@ -75,16 +75,16 @@
         </p>
       </conclusion>
 
-    </section>
+    </paragraphs>
 
     <!-- 2. Conventions (keep what you already built) -->
-    <section xml:id="conventions">
+    <paragraphs xml:id="conventions">
       <title>Conventions</title>
 
       <xi:include href="CONVENTIONS/math-notation.ptx"/>
       <xi:include href="CONVENTIONS/abbreviations.ptx"/>
 
-    </section>
+    </paragraphs>
 
   </preface>
   

@@ -24,14 +24,14 @@
                     <title>Wedge Product and Angular Momentum</title>
                     <claim>
                         <p>
-                            The <term>wedge product</term>, as defined in <xref ref="sec-geometric-product" detail="sec"/>, captures oriented area, analogous to angular momentum or flux in physical systems.
+                            The <term>wedge product</term>, as defined in <!-- <xref ref="sec-geometric-product" detail="sec"/> --> capturing oriented area, analogous to angular momentum or flux in physical systems.
                         </p>
                     </claim>
                 </subsubsection>
 
                 <conclusion>
                     <p>
-                        🖇️ <alert>Linked Notes:</alert> <xref ref="sec-geometric-algebra" detail="sec" />
+                        🖇️ <alert>Linked Notes:</alert> <!-- <xref ref="sec-geometric-algebra" detail="sec" /> -->
                     </p>
                     <p>
                         🔖 <alert>References:</alert> <xref ref="hestenes1993hamiltonian" detail="biblio"><em>Hamiltonian Mechanics with Geometric Calculus</em></xref>

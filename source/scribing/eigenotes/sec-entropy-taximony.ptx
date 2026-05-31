@@ -82,7 +82,7 @@
 
     <conclusion>
         <p>
-            🖇️<alert>Linked Notes:</alert> <xref ref="assumption-thermodynamic-laws"/>
+            🖇️<alert>Linked Notes:</alert> <!-- <xref ref="assumption-thermodynamic-laws"/> -->
         </p>
         <p>
             🔖<alert>References:</alert> <xref ref="schwartz2021lecture6" detail="biblio">Lecture 6: Entropy</xref>

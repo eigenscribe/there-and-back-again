@@ -1,18 +1,18 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "eigenscribe-framework",
+  "id": "preface",
   "level": "1",
-  "url": "eigenscribe-framework.html",
-  "type": "Section",
-  "number": "1",
-  "title": "The Eigenscribe Framework",
-  "body": " The Eigenscribe Framework  first-principles reasoning   The Eigenscribe framework is a structured appraoch to reasoning that aims to empower independent learning and research by emphasizing transparency and reporducibility. This is particularly important at the dawn of the AI era where the ability to sanity check is vital not onlyy the individual but for the fidelity of the scientific ecosystem as a whole.  At its core, the framework strives to enable responsible AI-assisted developing in a way that maximizes the benefits reaped from AI without sacrificing quality nor a human-supervised understanding of conclusions and systems derived. Rather than requiring that all ideas originate from fully reduced assumptions, the system allows exploratory and heuristic reasoning, which is progressively refined into formal, reproducible forms.     First-Principles Framework  first-principles   The Eigenscribe framework requires that assumptions are stated explicitly, inference steps remain traceable, and conclusions are reproducible and open to revision. Conceptual bridges across domains are established through shared rudimentary fundamentals (e.g., mathematical principles and physical laws). Analogy alone is not sufficient as a basis for establishing neither concepts nor conclusions.  This commitment to first-principles reasoning is designed to promote clarity, rigor, and intellectual honesty so that sanity checks can be performed independently by the reader, a vital step in the learning process that the lifeblood of science and engineering depend on. It is also intended to be compatible with my own personal exploratory and reasoning heuristic reasoning as I add content to 'There and Back Again' and other related projects.    Core Guidelines    Strive to always explicitly justify foundational assumptions based on grounded empirical observation, physical law, or formally defined axioms. Anything that is not explictly decomposed into foundational components must include a note alerting the reader along with a reputatble source and further readings that do go into foundatoinal derivations. This allows flexibility for me (the author) as I learn material myself and as I add content to There and Back Again, especialy in the beginning phase of compiling this work.  Each inferrentiable step is traceable such that intermmediate reasoning can be sanity checked, reproduced, and communicated to other learners.  Constructed bridges between domains are constructed from shared primitives. Analogy alone is never sufficient.  Derived results and conclusions remain falisifiable and can be independently verified by the reader. This enables irrative correction and refinement of both assumptions and conclusions.       The Eigenscribe Framework will be routinely iterated over time.   "
+  "url": "preface.html",
+  "type": "Preface",
+  "number": "",
+  "title": "Preface",
+  "body": " Preface    The Eigenscribe Framework  first-principles reasoning   The Eigenscribe framework is a structured appraoch to reasoning that aims to empower independent learning and research by emphasizing transparency and reporducibility. This is particularly important at the dawn of the AI era where the ability to sanity check is vital not onlyy the individual but for the fidelity of the scientific ecosystem as a whole.  At its core, the framework strives to enable responsible AI-assisted developing in a way that maximizes the benefits reaped from AI without sacrificing quality nor a human-supervised understanding of conclusions and systems derived. Rather than requiring that all ideas originate from fully reduced assumptions, the system allows exploratory and heuristic reasoning, which is progressively refined into formal, reproducible forms.     First-Principles Framework  first-principles  The Eigenscribe framework requires that assumptions are stated explicitly, inference steps remain traceable, and conclusions are reproducible and open to revision. Conceptual bridges across domains are established through shared rudimentary fundamentals (e.g., mathematical principles and physical laws). Analogy alone is not sufficient as a basis for establishing neither concepts nor conclusions.  This commitment to first-principles reasoning is designed to promote clarity, rigor, and intellectual honesty so that sanity checks can be performed independently by the reader, a vital step in the learning process that the lifeblood of science and engineering depend on. It is also intended to be compatible with my own personal exploratory and reasoning heuristic reasoning as I add content to 'There and Back Again' and other related projects.   Core Guidelines    Strive to always explicitly justify foundational assumptions based on grounded empirical observation, physical law, or formally defined axioms. Anything that is not explictly decomposed into foundational components must include a note alerting the reader along with a reputatble source and further readings that do go into foundatoinal derivations. This allows flexibility for me (the author) as I learn material myself and as I add content to There and Back Again, especialy in the beginning phase of compiling this work.  Each inferrentiable step is traceable such that intermmediate reasoning can be sanity checked, reproduced, and communicated to other learners.  Constructed bridges between domains are constructed from shared primitives. Analogy alone is never sufficient.  Derived results and conclusions remain falisifiable and can be independently verified by the reader. This enables irrative correction and refinement of both assumptions and conclusions.  AI usage must be transparent and documented where appropriate.       The Eigenscribe Framework will be routinely iterated over time.      Conventions   Mathematical Notation  A reference for mathematical notation used throughout the notes.     vector space  Vectors in the vector space  .     phase space  generalized coordinates  conjugate momenta  A point in phase space where represents the generalized coordinates and represents the conjugate momenta .  For this work, we will assume denotes the magnitude of the coordinate vector and denotes the magnitude of the momentum vector, respectively.     Poisson bracket  The Poisson bracket between two scalar functions and .      Abbreviations    GA  geometric algebra  Geometric Algebra    psd  positive semi-definite  positive semi-definite    PSD  power spectral density  power spectral density    PIML  Physics-Informed Machine Learning    PINN  Physics-Informed Neural Networks      "
 },
 {
-  "id": "sub-methodology-3-2",
+  "id": "sub-methodology-4",
   "level": "2",
-  "url": "eigenscribe-framework.html#sub-methodology-3-2",
+  "url": "preface.html#sub-methodology-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -21,20 +21,11 @@ var ptx_lunr_docs = [
 {
   "id": "note-core-guidlines",
   "level": "2",
-  "url": "eigenscribe-framework.html#note-core-guidlines",
+  "url": "preface.html#note-core-guidlines",
   "type": "Note",
-  "number": "1.1.0.1",
+  "number": "0.0.0.2",
   "title": "Core Guidelines.",
-  "body": " Core Guidelines    Strive to always explicitly justify foundational assumptions based on grounded empirical observation, physical law, or formally defined axioms. Anything that is not explictly decomposed into foundational components must include a note alerting the reader along with a reputatble source and further readings that do go into foundatoinal derivations. This allows flexibility for me (the author) as I learn material myself and as I add content to There and Back Again, especialy in the beginning phase of compiling this work.  Each inferrentiable step is traceable such that intermmediate reasoning can be sanity checked, reproduced, and communicated to other learners.  Constructed bridges between domains are constructed from shared primitives. Analogy alone is never sufficient.  Derived results and conclusions remain falisifiable and can be independently verified by the reader. This enables irrative correction and refinement of both assumptions and conclusions.    "
-},
-{
-  "id": "conventions",
-  "level": "1",
-  "url": "conventions.html",
-  "type": "Section",
-  "number": "2",
-  "title": "Conventions",
-  "body": " Conventions   Mathematical Notation   A reference for mathematical notation used throughout the notes.      vector space  Vectors in the vector space  .     phase space  generalized coordinates  conjugate momenta  A point in phase space where represents the generalized coordinates and represents the conjugate momenta .  For this work, we will assume denotes the magnitude of the coordinate vector and denotes the magnitude of the momentum vector, respectively.     Poisson bracket  The Poisson bracket between two scalar functions and .      Abbreviations    GA  geometric algebra  Geometric Algebra    psd  positive semi-definite  positive semi-definite    PSD  power spectral density  power spectral density    PIML  Physics-Informed Machine Learning    PINN  Physics-Informed Neural Networks     "
+  "body": " Core Guidelines    Strive to always explicitly justify foundational assumptions based on grounded empirical observation, physical law, or formally defined axioms. Anything that is not explictly decomposed into foundational components must include a note alerting the reader along with a reputatble source and further readings that do go into foundatoinal derivations. This allows flexibility for me (the author) as I learn material myself and as I add content to There and Back Again, especialy in the beginning phase of compiling this work.  Each inferrentiable step is traceable such that intermmediate reasoning can be sanity checked, reproduced, and communicated to other learners.  Constructed bridges between domains are constructed from shared primitives. Analogy alone is never sufficient.  Derived results and conclusions remain falisifiable and can be independently verified by the reader. This enables irrative correction and refinement of both assumptions and conclusions.  AI usage must be transparent and documented where appropriate.    "
 },
 {
   "id": "sec-hamiltonian-noether",
@@ -124,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Geometric Algebra and Physics",
-  "body": " Geometric Algebra and Physics   Exploring connections between geometric algebra and physics.    Physical Interpretations of the Wedge Product    Note ID: 202604110004 | Tags:  <geometric algebra> , <classical mechanics> , <vector calculus>     Wedge Product and Angular Momentum   The wedge product , as defined in , captures oriented area, analogous to angular momentum or flux in physical systems.     🖇️ Linked Notes:    🔖 References:  Hamiltonian Mechanics with Geometric Calculus     "
+  "body": " Geometric Algebra and Physics   Exploring connections between geometric algebra and physics.    Physical Interpretations of the Wedge Product    Note ID: 202604110004 | Tags:  <geometric algebra> , <classical mechanics> , <vector calculus>     Wedge Product and Angular Momentum   The wedge product , as defined in capturing oriented area, analogous to angular momentum or flux in physical systems.     🖇️ Linked Notes:    🔖 References:  Hamiltonian Mechanics with Geometric Calculus     "
 },
 {
   "id": "subsec-wedge-product-and-physics-2-1",
@@ -142,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Claim",
   "number": "2.1.1",
   "title": "",
-  "body": " The wedge product , as defined in , captures oriented area, analogous to angular momentum or flux in physical systems.  "
+  "body": " The wedge product , as defined in capturing oriented area, analogous to angular momentum or flux in physical systems.  "
 },
 {
   "id": "sec-feynmann-lectures",
