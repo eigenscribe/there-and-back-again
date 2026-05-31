@@ -7,7 +7,7 @@
     <title>First-Principles Reasoning</title>
     <idx><term>first-principles reasoning</term></idx>
     <statement>
-        <p> A method of reasoning in which claims, hypotheses, models, or systems are explicitly decomposed into their most fundamental, independently verifiable assumptions, and conclusions are derived via transparent, stepwise inferece based on those assumptions . This helps ensure the fidelity of the reasoning process and that conclusions are traceable and reproducible by the reader. </p>
+        <p> A method of reasoning in which claims, hypotheses, models, or systems are explicitly decomposed into their most fundamental, independently verifiable assumptions, and conclusions are derived via transparent, stepwise inference based on those assumptions. This helps ensure the fidelity of the reasoning process and that conclusions are traceable and reproducible by the reader.</p>
     </statement>
   </gi>
 

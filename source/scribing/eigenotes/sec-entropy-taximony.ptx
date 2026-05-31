@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-entropy-taximony" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Entropy Taximony</title>
+    <title>Entropy Taxonomy</title>
     <idx>entropy</idx>
-    <idx>clauseius entropy</idx>
+    <idx>clausius entropy</idx>
     <idx>boltzmann entropy</idx>
     <idx>gibbs entropy</idx>
     <idx>shannon entropy</idx>
@@ -14,7 +14,7 @@
             <term>Tags:</term> <tag>thermodynamics</tag>, <tag>statistical mechanics</tag>, <tag>information theory</tag> 
         </p>
         <p>
-            A taxomony of entropy across various domains.
+            A taxonomy of entropy across various domains.
         </p>
     </introduction>
 
@@ -25,7 +25,7 @@
             <title>Clausius Entropy</title>
             <statement>
                 <p>
-                    The <term>Clausius entropy</term> is a change in the entropy of a system due to some <term>reversible process</term> where it absobes some amount of heat <m>Q_\text{in}</m> at a constant temperature <m>T</m>:
+                    The <term>Clausius entropy</term> is a change in the entropy of a system due to some <term>reversible process</term> where it absorbs some amount of heat <m>Q_\text{in}</m> at a constant temperature <m>T</m>:
                     <me>
                     \Delta S_\text{system} := \int_\text{rev}{\frac{d \, Q_\text{in}}{T}} .
                     </me>
@@ -69,7 +69,7 @@
         <definition xml:id="def-shannon-entropy">
             <statement>
                 <p>
-                    The <term>Shannon entropy</term> of a discrete random variable with possible outcomes <m>i\in\{1,2,\ldots,n\}</m> where <m>n\in\mathbb{N}</m> and corresponding probablities <m>\mathbb{p}_i</m> is defined as:
+                    The <term>Shannon entropy</term> of a discrete random variable with possible outcomes <m>i\in\{1,2,\ldots,n\}</m> where <m>n\in\mathbb{N}</m> and corresponding probabilities <m>\mathbb{p}_i</m> is defined as:
                     <md>
                         H_\text{Shannon} := -\sum_{i=1}^n{\mathbb{p}_i \log_2{\mathbb{p}_i}} .
                     </md>

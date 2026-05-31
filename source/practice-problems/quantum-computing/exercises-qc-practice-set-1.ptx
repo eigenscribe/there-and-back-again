@@ -1,11 +1,13 @@
-<exercises xml:id="exercises-qc-practice-set-1">
-    <title>Problem Set 1</title>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="exercises-qc-practice-set-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Quantum Computing - Problem Set 1</title>
     <introduction>
         <title>Imports</title>
         <program language="python">
             <code>
                 <![CDATA[
-                from quiskit.quantum_info import Statevector, Operator
+                from qiskit.quantum_info import Statevector, Operator
                 import numpy as np
                 from numpy import sqrt
                 from IPython.display import display, Latex, Math
@@ -30,11 +32,11 @@
             <hint>
                 <p>
                     Use
-                    <ul>
-                        <li> <c>Statevector.from_label("-")</c> for <m>\ket{-}</m> </li>
-                        <li> <c>Statevector.from_label("r")</c> for <m>\ket{i}</m> </li>
-                    </ul>
                 </p>
+                <ul>
+                    <li> <c>Statevector.from_label("-")</c> for <m>\ket{-}</m> </li>
+                    <li> <c>Statevector.from_label("r")</c> for <m>\ket{i}</m> </li>
+                </ul>
             </hint>
             <solution>
                 <program language="python">
@@ -63,7 +65,7 @@
             </statement>
             <hint>
                 <p>
-                    🎗️ Quiskit starts its indexing (qubit 0) from the right-hand side.
+                    🎗️ Qiskit starts its indexing (qubit 0) from the right-hand side.
                 </p>
             </hint>
             <solution>

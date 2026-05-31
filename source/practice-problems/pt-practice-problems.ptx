@@ -12,5 +12,14 @@
 
   <xi:include href="./quantum-computing/ch-quantum-computing-practice-sets.ptx" />
 
+  <chapter xml:id="ch-sofias-practice-problems">
+    <title>My Practice Problems</title>
+
+
+    <xi:include href="./sofias_problems/practice-set-4/exercises-practice-set-4.ptx" />
+
+
+
+  </chapter>
 
 </part>
