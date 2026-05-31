@@ -124,36 +124,44 @@ python -m http.server 5000
 
 **Option A: GitHub Actions (Recommended)**
 
-1. Create `.github/workflows/deploy.yml`:
+1. Use the pre-configured workflow in `.github/workflows/deploy.yml`:
    ```yaml
    name: Deploy to GitHub Pages
    
    on:
      push:
        branches: [main]
+     workflow_dispatch:
+   
+   permissions:
+     contents: read
+     pages: write
+     id-token: write
    
    jobs:
      build-and-deploy:
        runs-on: ubuntu-latest
+       container: oscarlevin/pretext-full
        steps:
          - uses: actions/checkout@v4
          
-         - name: Set up Python
-           uses: actions/setup-python@v4
-           with:
-             python-version: '3.11'
+         - name: setup git config
+           run: |
+             git config --global --add safe.directory $(pwd)
          
-         - name: Install PreTeXt
-           run: pip install pretext --break-system-packages
+         - name: Install dependencies
+           run: pip install -r requirements.txt --break-system-packages --no-cache-dir
          
          - name: Build
-           run: ./build.sh
+           run: chmod +x build.sh && ./build.sh
+         
+         - name: Upload artifact
+           uses: actions/upload-pages-artifact@v3
+           with:
+             path: 'output/web'
          
          - name: Deploy
-           uses: peaceiris/actions-gh-pages@v3
-           with:
-             github_token: ${{ secrets.GITHUB_TOKEN }}
-             publish_dir: ./output/web
+           uses: actions/deploy-pages@v4
    ```
 
 2. Enable GitHub Pages in repository Settings → Pages → Source: `gh-pages` branch

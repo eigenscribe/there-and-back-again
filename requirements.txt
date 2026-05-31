@@ -1,2 +1,2 @@
-# This file was automatically generated with PreTeXt 2.38.3.
-pretext==2.40.1
+# PreTeXt CLI is provided by the container environment.
+# Do not add pretext here to avoid overwriting the working installation in the container.
