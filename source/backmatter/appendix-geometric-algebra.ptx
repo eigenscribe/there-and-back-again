@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="app-geometric-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometric Algebra</title>
+  <introduction>
+    <p>Geometric algebra provides simple formulations and unique insight for many different physical processes.</p>
+  </introduction>
+
+  <xi:include href="app-geometric-algebra/sec-ga-uniform-b-field.ptx"/>
+
+
+ </appendix>
