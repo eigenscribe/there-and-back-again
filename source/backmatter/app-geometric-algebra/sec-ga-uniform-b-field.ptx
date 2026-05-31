@@ -17,4 +17,32 @@
             </md>
     </p>
 
+    <subsection xml:id="sub-ga-gauge-examples">
+    <title>Gauge Examples</title>
+    <p>
+        We can use the following gauge examples to define the vector potential.
+    </p>
+
+    <example xml:id="ex-ga-uniform-b-field-1">
+        <title>Symmetric Gauge</title>
+
+        <p>
+            The symmetric gauge preserves rotational symmetry of the magnetic field about the <m>z</m>-axis.
+            The vector potential for this gauge is given by
+                <md>
+                    \vec{A}_\text{sym} = \frac{B_0}{2}(x\mathbf{e_y}-y\mathbf{e_x})
+                </md>
+        </p>
+        <proof>
+            <p>
+                <md>
+                    \vec{\nabla} \wedge \vec{A}_{\text{sym}} = \left(\frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}\right) \mathbf{e_x}\mathbf{e_y} = \left(\frac{B_0}{2} - \left(-\frac{B_0}{2}\right)\right) \mathbf{e_x}\mathbf{e_y} = B_0 \mathbf{e_x}\mathbf{e_y}
+                </md>
+            </p>
+        </proof>
+
+    </example>
+
+    </subsection>
+
 </section>
