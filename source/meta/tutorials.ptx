@@ -38,7 +38,7 @@
         </li>
         <li>
           <p>
-            <term>PreTeXt CLI</term> <mdash/> Install with <c>pip install pretextbook</c>
+            <term>PreTeXt CLI</term> <mdash/> Install with <c>pip install pretext</c>
           </p>
         </li>
         <li>
@@ -181,7 +181,7 @@ jobs:
           python-version: '3.11'
       
       - name: Install PreTeXt CLI
-        run: pip install pretextbook --break-system-packages
+        run: pip install pretext --break-system-packages
       
       - name: Build with custom styling
         run: chmod +x build.sh &amp;&amp; ./build.sh
