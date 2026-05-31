@@ -5,16 +5,16 @@
     <idx><term>vector potential</term></idx>
 
     <p>
-        Consider a uniform magnetic field <m>\vec{B}=B_0\mathbf{e_z}</m>.
+        Consider a uniform magnetic field <m>\vec{B}=B_0\mathbf{e}_z</m>.
         We can use geometric algebra to write this as a bivector
-            <md>
-                \overset{\curvearrowleft}{B} = B_0(\mathbf{e_x}\wedge\mathbf{e_y}) \, .
-            </md>
+            <me>
+                \bivec{B} = B_0(\mathbf{e}_x\wedge\mathbf{e}_y) \, .
+            </me>
         We seek to define the conditions for a vector potential
 
-            <md>
-                \vec{A} : \overset{\curvearrowleft}{B} = \vec{\nabla} \wedge \vec{A} \, .
-            </md>
+            <me>
+                \vec{A} : \bivec{B} = \vec{\nabla} \wedge \vec{A} \, .
+            </me>
     </p>
 
     <subsection xml:id="sub-ga-gauge-examples">
@@ -29,15 +29,15 @@
         <p>
             The symmetric gauge preserves rotational symmetry of the magnetic field about the <m>z</m>-axis.
             The vector potential for this gauge is given by
-                <md>
-                    \vec{A}_\text{sym} = \frac{B_0}{2}(x\mathbf{e_y}-y\mathbf{e_x})
-                </md>
+                <me>
+                    \vec{A}_\text{sym} = \frac{B_0}{2}(x\mathbf{e}_y-y\mathbf{e}_x)
+                </me>
         </p>
         <proof>
             <p>
-                <md>
-                    \vec{\nabla} \wedge \vec{A}_{\text{sym}} = \left(\frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}\right) \mathbf{e_x}\mathbf{e_y} = \left(\frac{B_0}{2} - \left(-\frac{B_0}{2}\right)\right) \mathbf{e_x}\mathbf{e_y} = B_0 \mathbf{e_x}\mathbf{e_y}
-                </md>
+                <me>
+                    \vec{\nabla} \wedge \vec{A}_{\text{sym}} = \left(\frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}\right) \mathbf{e}_x\mathbf{e}_y = \left(\frac{B_0}{2} - \left(-\frac{B_0}{2}\right)\right) \mathbf{e}_x\mathbf{e}_y = B_0 \mathbf{e}_x\mathbf{e}_y
+                </me>
             </p>
         </proof>
 

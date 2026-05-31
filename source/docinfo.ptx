@@ -13,7 +13,10 @@
     \newcommand{\Q}{\mathbb{Q}}
     \newcommand{\R}{\mathbb{R}}
     \newcommand{\C}{\mathbb{C}}
+    \newcommand{\bivec}[1]{\overset{\curvearrowleft}{#1}}
   </macros>
+
+  <pkg name="amssymb"/>
 
   <!-- LaTeX preamble for diagrams -->
   <latex-image-preamble>
