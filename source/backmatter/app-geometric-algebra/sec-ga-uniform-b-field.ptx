@@ -8,12 +8,12 @@
         Consider a uniform magnetic field <m>\vec{B}=B_0\mathbf{e_z}</m>.
         We can use geometric algebra to write this as a bivector
             <md>
-                \overleftrightarrow{B} = B_0(\mathbf{e_x}\wedge\mathbf{e_y}) \, .
+                \overset{\curvearrowleft}{B} = B_0(\mathbf{e_x}\wedge\mathbf{e_y}) \, .
             </md>
         We seek to define the conditions for a vector potential
 
             <md>
-                \vec{A} : \overleftrightarrow{B} = \vec{\nabla} \wedge \vec{A} \, .
+                \vec{A} : \overset{\curvearrowleft}{B} = \vec{\nabla} \wedge \vec{A} \, .
             </md>
     </p>
 
