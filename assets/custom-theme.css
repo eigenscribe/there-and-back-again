@@ -122,7 +122,7 @@ html.dark-mode {
   --primary-color-dark: #0070EB !important;
 
   --secondary-color-light: #9b7dff !important;
-  --secondary-color: #7952F5 !important;
+  --secondary-color: #9b7dff !important;
   --secondary-color-dark: #4c48f2 !important;
 
   --tertiary-color-light: rgba(112, 224, 0, 1.0 ) !important;
@@ -145,12 +145,12 @@ html.dark-mode {
   --primary-color-gray-5: rgba(20, 181, 255, 0.4) !important;
   --primary-color-gray-6: rgba(20, 181, 255, 0.6) !important;
   
-  --secondary-color-gray-1: rgba(121, 82, 245, 0.05) !important;
-  --secondary-color-gray-2: rgba(121, 82, 245, 0.10) !important;
-  --secondary-color-gray-3: rgba(121, 82, 245, 0.15) !important;
-  --secondary-color-gray-4: rgba(121, 82, 245, 0.2) !important;
-  --secondary-color-gray-5: rgba(121, 82, 245, 0.4) !important;
-  --secondary-color-gray-6: rgba(121, 82, 245, 0.6) !important;
+  --secondary-color-gray-1: rgba(155, 125, 255, 0.05) !important;
+  --secondary-color-gray-2: rgba(155, 125, 255, 0.10) !important;
+  --secondary-color-gray-3: rgba(155, 125, 255, 0.15) !important;
+  --secondary-color-gray-4: rgba(155, 125, 255, 0.2) !important;
+  --secondary-color-gray-5: rgba(155, 125, 255, 0.4) !important;
+  --secondary-color-gray-6: rgba(155, 125, 255, 0.6) !important;
 
   --tertiary-color-gray-1: rgba(50, 224, 0, 0.05) !important;
   --tertiary-color-gray-2: rgba(50, 224, 0, 0.10) !important;
@@ -897,6 +897,29 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   background-clip: text;
 }
 
+/* 📗 Solution and Proof blocks */
+
+.ptx-content .solution,
+.ptx-content .proof {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-left: 3px solid var(--tertiary-color-medium);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.ptx-content .solution .heading,
+.ptx-content .proof .heading {
+  font-family: var(--font-heading) !important;
+  font-weight: bold;
+  font-size: 1.1rem !important;
+  background: linear-gradient(120deg, #38b000, #5ce663, #a7f3d0) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent;
+}
+
 /* 🔵 Example blocks */
 
 .ptx-content .example-like {
@@ -918,29 +941,69 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   text-align: center
 }
 
-/* 🎗️ Remark blocks */
+/* 🔵 Hint blocks */
 
-.ptx-content .remark-like {
+.ptx-content .hint {
   background: rgba(255, 255, 255, 0.05) !important;
-  border-left: 3px solid var(--secondary-color);
+  border-left: 3px solid var(--primary-color);
   border-radius: 8px;
   padding: 1.5rem;
   margin: 1.5rem 0;
 }
 
-/*
-.ptx-content .remark-like .heading {
+.ptx-content .hint .heading {
   font-family: var(--font-heading);
-  font-size: 1.1rem !important;
   font-weight: bold;
-  background: linear-gradient(120deg,#8b5cf6, #d946ef, #ff6f91, #ff9671) !important;
-  -webkit-background-clip: text;
+  background: linear-gradient(120deg, #00e8ff, #14a5ff);
+  -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   color: transparent;
-  text-align: center;
-} 
-*/
+}
+
+/* 🎗️ Remark, Note, and Insight blocks */
+
+.ptx-content .remark-like,
+.ptx-content .note,
+.ptx-content .insight {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-left: 3px solid var(--quaternary-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.ptx-content .remark-like .heading,
+.ptx-content .note .heading,
+.ptx-content .insight .heading {
+  font-family: var(--font-heading);
+  font-weight: bold;
+  background: linear-gradient(120deg, #feb639, #ff783d);
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent;
+}
+
+/* 💗 Warning blocks */
+
+.ptx-content .warning {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-left: 3px solid var(--pernary-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.ptx-content .warning .heading {
+  font-family: var(--font-heading);
+  font-weight: bold;
+  background: linear-gradient(120deg, #ff76a1, #ff40a1);
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent;
+}
 
 /* ⚽ Exercise blocks */
 
@@ -1306,6 +1369,11 @@ code[class*="language-"] .line-highlight {
   margin-bottom: 1.5rem;
 }
 
+.ptx-content ol li::marker {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 .ptx-content li {
   margin-bottom: 0.5rem;
   line-height: 1.7;
@@ -1517,7 +1585,6 @@ code[class*="language-"] .line-highlight {
 .ptx-content .definition-like .heading .type {
   color: var(--quaternary-color-light) !important;
 }
-
 .ptx-content .theorem-like .heading .type {
   color: var(--tertiary-color-light) !important;
 }
