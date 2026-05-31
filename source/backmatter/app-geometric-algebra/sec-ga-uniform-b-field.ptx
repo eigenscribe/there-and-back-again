@@ -25,6 +25,7 @@
 
     <example xml:id="ex-ga-uniform-b-field-1">
         <title>Symmetric Gauge</title>
+        <idx><term>symmetric gauge</term></idx>
 
         <p>
             The symmetric gauge preserves rotational symmetry of the magnetic field about the <m>z</m>-axis.
@@ -34,10 +35,28 @@
                 </me>
         </p>
         <proof>
-            <p>
+            <p> Check: <m>\vec{\nabla}\wedge\vec{A}_\text{sym} =?= B_0(\mathbf{e}_x\wedge\mathbf{e}_y)</m>
+
+            </p>
+        </proof>
+
+    </example>
+
+    <example xml:id="ex-ga-uniform-b-field-2">
+        <title>Landau Gauge</title>
+        <idx><term>Landau gauge</term></idx>
+
+        <p>
+            The Landau gauge breaks rotational symmetry, however it does provide a simplified translational invariance along the <m>x</m>-axis.
+            The vector potential for this gauge is given by
                 <me>
-                    \vec{\nabla} \wedge \vec{A}_{\text{sym}} = \left(\frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}\right) \mathbf{e}_x\mathbf{e}_y = \left(\frac{B_0}{2} - \left(-\frac{B_0}{2}\right)\right) \mathbf{e}_x\mathbf{e}_y = B_0 \mathbf{e}_x\mathbf{e}_y
+                    \vec{A}_\text{Landau} = -B_0y\mathbf{e_x}
                 </me>
+        </p>
+
+        <proof>
+            <p> Check: <m>\vec{\nabla}\wedge\vec{A}_\text{Landau} =?= B_0(\mathbf{e_x}\wedge\mathbf{e_y})</m>
+
             </p>
         </proof>
 
