@@ -1,0 +1,190 @@
+/* Main Content Area */
+.ptx-page > .ptx-main {
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.ptx-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ============================================================ */
+/*  Section 6: Main Content & Headings                          */
+/* ============================================================ */
+.ptx-content h1, .ptx-content h2, .ptx-content h3, .ptx-content h4, .ptx-content h5, .ptx-content h6 {
+  font-family: var(--font-heading) !important;
+}
+
+.ptx-content h1.heading {
+  font-size: 2.5rem !important;
+  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+/* Subsection heading - aqua to sky-blue gradient */
+.ptx-content h2.heading {
+  font-size: 1.65rem !important;
+  background: linear-gradient(120deg, #22d3ee, #4361EE, #8b5cf6) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(139, 92, 246, 0.4);
+  letter-spacing: 0.5px;
+}
+
+.ptx-content h3.heading {
+  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Subsection heading - aqua to sky-blue gradient */
+.ptx-content h4.heading {
+  font-size: 1.25rem !important;
+  background: linear-gradient(120deg, #22d3ee, #38bdf8, #60a5fa) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Subsubsection heading - teal to purple gradient */
+.ptx-content h5.heading {
+  font-size: 1.1rem !important;
+  background: linear-gradient(110deg, #14b8a6, #7c3aed, #c084fc) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Ensure inline code inside content headings uses inline-code styling
+   (override heading gradient -webkit-text-fill-color) */
+.ptx-content h1.heading code,
+.ptx-content h2.heading code,
+.ptx-content h3.heading code,
+.ptx-content h4.heading code,
+.ptx-content h5.heading code,
+.ptx-content h6.heading code,
+.ptx-content h1.heading code.code-inline,
+.ptx-content h2.heading code.code-inline,
+.ptx-content h3.heading code.code-inline,
+.ptx-content h4.heading code.code-inline,
+.ptx-content h5.heading code.code-inline,
+.ptx-content h6.heading code.code-inline {
+  font-family: var(--font-mono) !important;
+  background: #252a33 !important;
+  color: #00e8ff !important;
+  padding: 3px 8px !important;
+  font-size: 0.88em !important;
+  border-radius: 4px !important;
+  border: none !important;
+  -webkit-text-fill-color: initial !important;
+  background-clip: padding-box !important;
+}
+
+/* Front Matter page title - matches website header gradient with more bright blue */
+.ptx-content section.frontmatter h2.heading,
+.ptx-content section.frontmatter h1.heading {
+  background: linear-gradient(110deg, #00e8ff, #14b5ff, #3a98ff) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border-bottom-color: rgba(0, 255, 238, 0.3) !important;
+}
+
+.ptx-content section.introduction {
+  background: rgba(255, 255, 255, 0.10);
+  padding: 1.5rem;
+  padding-left: 2rem !important;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  position: relative !important;
+}
+
+.ptx-content section.introduction p {
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+/* Paragraphs */
+.ptx-content p {
+  font-size: 1.05rem !important;
+  line-height: 1.8;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.2px;
+}
+
+/* Paragraphs title on a separate line */
+.ptx-content .paragraphs .heading {
+  display: block !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.ptx-content .paragraphs .heading .title::after {
+  content: "" !important;
+}
+
+/* Links */
+.ptx-content a {
+  color: var(--primary-color) !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.ptx-content a:hover {
+  color: var(--primary-color-light) !important;
+  text-decoration: underline;
+}
+
+/* Cross-references and linked notes */
+.ptx-content .xref {
+  color: var(--secondary-color-light) !important;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 0.9em;
+  padding: 2px 8px;
+  background: rgba(121, 82, 245, 0.12);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.ptx-content .xref:hover {
+  background: rgba(153, 128, 238, 0.22);
+  color: #9b7dff !important;
+}
+
+/* Term highlighting */
+.ptx-content .terminology {
+  color: var(--color-primary) !important;
+  font-weight: 500;
+  font-family: 'Aclonica', sans-serif;
+}
+
+/* Math Content */
+.ptx-content .displaymath {
+  background: rgba(0, 155, 245, 0.05) !important;
+  border: 1px solid rgba(0, 176, 245, 0.2);
+  border-radius: 8px;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  overflow-x: auto;
+}
+
+.ptx-content mjx-container {
+  color: var(--color-math) !important;
+}

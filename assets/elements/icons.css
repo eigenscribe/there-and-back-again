@@ -1,0 +1,55 @@
+/* ------------------------------------------------------------ */
+/*  Section 12: Custom Emoji Icons                             */
+/* ------------------------------------------------------------ */
+
+/* Animations */
+@keyframes eigenote-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(20, 181, 255, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(20, 181, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(20, 181, 255, 0); }
+}
+@keyframes proofmark-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(20, 181, 255, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(20, 181, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(20, 181, 255, 0); }
+}
+@keyframes ember-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(255, 102, 179, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(255, 102, 179, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 102, 179, 0); }
+}
+
+/* Custom Icons from :emoji: syntax */
+.twemoji[title=":eigenote:"],
+.twemoji[title=":proofmark:"],
+.twemoji[title=":favicon:"],
+.twemoji[title=":ember:"] {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.twemoji[title=":eigenote:"] { 
+  background-image: url('../orb.png');
+  animation: eigenote-pulse 3s infinite ease-in-out;
+}
+.twemoji[title=":proofmark:"] {
+  background-image: url('../logo.png');
+  animation: proofmark-pulse 3s infinite ease-in-out;
+}
+.twemoji[title=":favicon:"] { 
+  background-image: url('../favicon.png');
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 80%;
+  border-radius: 100%;
+}
+.twemoji[title=":ember:"] { 
+  background-image: url('ember.png'); 
+  animation: ember-pulse 3s infinite ease-in-out;
+}
