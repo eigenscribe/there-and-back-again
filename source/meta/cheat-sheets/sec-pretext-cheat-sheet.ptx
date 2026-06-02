@@ -79,7 +79,7 @@
                 <row>
                     <cell><c><![CDATA[<alert>]]></c></cell>
                     <cell>Emphasis (Bold/Color)</cell>
-                    <cell><alert>Warning!</alert></cell>
+                    <cell><alert>Warning! (Bold)</alert></cell>
                 </row>
                 <row>
                     <cell><c><![CDATA[<xref>]]></c></cell>
@@ -116,6 +116,10 @@
                         <![CDATA[<men xml:id="eq-schrodinger">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</men>]]>
                     </code>
                 </program>
+                <p>
+                    <alert>Output:</alert>
+                    <men xml:id="eq-schrodinger-example">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</men>
+                </p>
             </li>
             <li>
                 <title>Aligned Equations</title>
@@ -123,18 +127,25 @@
                 <program language="xml">
                     <code>
                         <![CDATA[
-<md>
-  <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
-  <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
-</md>
+        <md>
+          <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
+          <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
+        </md>
                         ]]>
                     </code>
                 </program>
+                <p>
+                    <alert>Output:</alert>
+                    <md>
+                        <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
+                        <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
+                    </md>
+                </p>
             </li>
         </ul>
-    </subsection>
+        </subsection>
 
-    <subsection xml:id="sub-pretext-blocks">
+        <subsection xml:id="sub-pretext-blocks">
         <title>Common Blocks</title>
         <p>
             Structural blocks organize content into logical units with specific styling.
@@ -142,31 +153,65 @@
         <program language="xml">
             <code>
                 <![CDATA[
-<definition xml:id="def-unitary">
-  <title>Unitary Operator</title>
-  <statement>
-    <p>An operator <m>U</m> is unitary if <m>U^\dagger U = I</m>.</p>
-  </statement>
-</definition>
-
-<theorem xml:id="thm-noether">
-  <title>Noether's Theorem</title>
-  <statement>
-    <p>Every differentiable symmetry ... has a corresponding conservation law.</p>
-  </statement>
-  <proof>
-    <p>Proof details here...</p>
-  </proof>
-</theorem>
-
-<assemblage>
-  <title>Key Concept</title>
-  <p>Assemblages are used for boxed summaries (Glassmorphic in this theme).</p>
-</assemblage>
+        <definition xml:id="def-unitary">
+          <title>Unitary Operator</title>
+          <statement>
+            <p>An operator <m>U</m> is unitary if <m>U^\dagger U = I</m>.</p>
+          </statement>
+        </definition>
                 ]]>
             </code>
         </program>
-    </subsection>
+        <p>
+            <alert>Output:</alert>
+        </p>
+        <definition xml:id="def-unitary-example">
+            <title>Unitary Operator</title>
+            <statement>
+                <p>An operator <m>U</m> is unitary if <m>U^\dagger U = I</m>.</p>
+            </statement>
+        </definition>
+
+        <program language="xml">
+            <code>
+                <![CDATA[
+        <theorem xml:id="thm-noether">
+          <title>Noether's Theorem</title>
+          <statement>
+            <p>Every differentiable symmetry ... has a corresponding conservation law.</p>
+          </statement>
+        </theorem>
+                ]]>
+            </code>
+        </program>
+        <p>
+            <alert>Output:</alert>
+        </p>
+        <theorem xml:id="thm-noether-example">
+            <title>Noether's Theorem</title>
+            <statement>
+                <p>Every differentiable symmetry ... has a corresponding conservation law.</p>
+            </statement>
+        </theorem>
+
+        <program language="xml">
+            <code>
+                <![CDATA[
+        <assemblage>
+          <title>Key Concept</title>
+          <p>Assemblages are used for boxed summaries (Glassmorphic in this theme).</p>
+        </assemblage>
+                ]]>
+            </code>
+        </program>
+        <p>
+            <alert>Output:</alert>
+        </p>
+        <assemblage>
+            <title>Key Concept</title>
+            <p>Assemblages are used for boxed summaries (Glassmorphic in this theme).</p>
+        </assemblage>
+        </subsection>
 
     <subsection xml:id="sub-pretext-elements-table">
         <title>Comprehensive Element Table</title>
@@ -220,7 +265,7 @@
         <ul>
             <li>
                 <p>
-                    <term>Note Metadata:</term> Every note introduction should include a Note ID and Tags.
+                    <term>Note Metadata:</term> Every note introduction should include a Note ID, Tags, and optionally a PreFigure Demo link.
                 </p>
                 <program language="xml">
                     <code>
@@ -228,12 +273,21 @@
 <introduction>
   <p>
     <term>Note ID:</term> <tag>202606012315</tag> |
-    <term>Tags:</term> <tag>topic1</tag>, <tag>topic2</tag>
+    <term>Tags:</term> <tag>topic1</tag>, <tag>topic2</tag> |
+    <term>PreFigure Demo:</term> <tag>🔗 <url href="https://prefigure.org">Interactive</url></tag>
   </p>
 </introduction>
                         ]]>
                     </code>
                 </program>
+                <p>
+                    <alert>Output (approximate):</alert>
+                </p>
+                <blockquote>
+                    <p>
+                        <term>Note ID:</term> <tag>202606012315</tag> | <term>Tags:</term> <tag>topic1</tag>, <tag>topic2</tag> | <term>PreFigure Demo:</term> <tag>🔗 Interactive</tag>
+                    </p>
+                </blockquote>
             </li>
             <li>
                 <p>

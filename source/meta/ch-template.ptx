@@ -175,6 +175,29 @@ if __name__ == "__main__":
         </tabular>
       </table>
     </subsection>
+
+    <subsection xml:id="subsec-prefigure-demo">
+      <title>PreFigure Demo</title>
+      <introduction>
+        <p>
+          <term>Note ID:</term> <tag>202606020002</tag> |
+          <term>Tags:</term> <tag>prefigure</tag>, <tag>interactive</tag>, <tag>diagrams</tag>
+        </p>
+      </introduction>
+      <p>
+        PreFigure allows for the creation of interactive, accessible, and beautiful mathematical diagrams directly within PreTeXt.
+      </p>
+      <p>
+        Below is a placeholder for an interactive diagram. In a live environment, this would render a dynamic SVG.
+      </p>
+      <figure xml:id="fig-prefigure-demo-placeholder">
+        <caption>Interactive PreFigure Demonstration</caption>
+        <!-- In a real scenario, a <interactive platform="prefigure"> block would go here -->
+        <p>
+          [Interactive PreFigure Diagram Placeholder]
+        </p>
+      </figure>
+    </subsection>
   </section>
 
 </chapter>

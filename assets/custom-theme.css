@@ -199,8 +199,8 @@ html.dark-mode {
   --color-secondary: var(--secondary-color) !important;
   --color-text: #C5F8FF !important;
   --color-muted: #8b949e !important;
-  --color-link: #7652f5 !important;
-  --color-link-hover: #5e17eb !important;
+  --color-link: #a78bfa !important;
+  --color-link-hover: #c4b5fd !important;
   --color-math: var(--primary-color-light) !important;
   --color-warning: #ffcc00 !important;
 
@@ -1280,6 +1280,7 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   white-space: pre !important;
   overflow-x: auto !important;
   max-width: 100% !important;
+  line-height: 1.6 !important;
 }
 
 /* Make line-numbers gutter match glass theme */
@@ -1383,17 +1384,17 @@ code[class*="language-"] .line-highlight {
     font-family: 'Aclonica', sans-serif;
     font-size: 0.65rem;
     padding: 4px 12px;
-    background: linear-gradient(145deg, rgba(20, 181, 255, 0.15), rgba(0, 112, 235, 0.1));
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: linear-gradient(145deg, rgba(255, 64, 161, 0.12), rgba(255, 118, 161, 0.08));
+    border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 100px;
-    color: #5ddbff;
+    color: #ff99cc;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     margin-right: 0.5rem;
     margin-bottom: 0.25rem;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
 
 .ptx-content .idx:hover,
@@ -1401,17 +1402,17 @@ code[class*="language-"] .line-highlight {
 .ptx-tag-pill:hover,
 .ptx-tag:hover,
 .badge:hover {
-    background: linear-gradient(145deg, rgba(20, 181, 255, 0.25), rgba(0, 112, 235, 0.2));
+    background: linear-gradient(145deg, rgba(255, 64, 161, 0.2), rgba(255, 118, 161, 0.15));
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(20, 181, 255, 0.3);
-    color: #00e8ff;
+    box-shadow: 0 8px 25px rgba(255, 64, 161, 0.3);
+    color: #ffc2e0;
 }
 
 /* Specific Style for Note IDs (Purple Glassmorphic) */
 .ptx-content section.introduction .para code.code-inline:first-of-type {
     background: linear-gradient(145deg, rgba(168, 85, 247, 0.2), rgba(118, 82, 245, 0.15)) !important;
     border: 1px solid rgba(168, 85, 247, 0.4) !important;
-    color: #d8b4fe !important;
+    color: #f3e8ff !important;
     box-shadow: 0 0 15px rgba(168, 85, 247, 0.15);
 }
 

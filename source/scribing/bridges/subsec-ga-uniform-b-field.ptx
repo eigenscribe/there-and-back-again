@@ -3,6 +3,14 @@
 <subsection xml:id="subsec-ga-uniform-b-field" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Vector Potential for a Uniform Magnetic Field</title>
 
+    <introduction>
+        <p>
+            <term>Note ID:</term> <tag>202606020005</tag> |
+            <term>Tags:</term> <tag>geometric algebra</tag>, <tag>electromagnetism</tag> |
+            <term>PreFigure Demo:</term> <tag>None</tag>
+        </p>
+    </introduction>
+
     <definition xml:id="def-ga-uniform-b-field-vector-potential">
         <title>Vector Potential</title>
         <idx><term>vector potential</term></idx>
