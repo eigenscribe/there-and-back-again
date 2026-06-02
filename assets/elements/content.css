@@ -35,10 +35,11 @@
   max-width: 100%;
 }
 
-/* Headings with underlines (Part, Chapter, Section) - Gradient covers type, number, and title */
+/* Headings with underlines (Part, Chapter, Section, Appendix) - Gradient covers type, number, and title */
 .ptx-content section.part > :is(h1, h2, h3).heading,
 .ptx-content section.chapter > :is(h1, h2, h3).heading,
-.ptx-content section.section > :is(h1, h2, h3).heading {
+.ptx-content section.section > :is(h1, h2, h3).heading,
+.ptx-content section.appendix > :is(h1, h2, h3).heading {
   background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
@@ -51,7 +52,8 @@
 /* Remove individual gradients from children of underlined headings */
 .ptx-content section.part > :is(h1, h2, h3).heading > *,
 .ptx-content section.chapter > :is(h1, h2, h3).heading > *,
-.ptx-content section.section > :is(h1, h2, h3).heading > * {
+.ptx-content section.section > :is(h1, h2, h3).heading > *,
+.ptx-content section.appendix > :is(h1, h2, h3).heading > * {
   background: none !important;
   -webkit-background-clip: initial !important;
   background-clip: initial !important;
@@ -90,10 +92,11 @@
   display: inline;
 }
 
-/* Base style for main headings underline - Restricted to Part, Chapter, and Section */
+/* Base style for main headings underline - Restricted to Part, Chapter, Section, and Appendix */
 .ptx-content section.part :is(h1, h2, h3).heading::after,
 .ptx-content section.chapter :is(h1, h2, h3).heading::after,
-.ptx-content section.section :is(h1, h2, h3).heading::after {
+.ptx-content section.section :is(h1, h2, h3).heading::after,
+.ptx-content section.appendix :is(h1, h2, h3).heading::after {
   content: "";
   display: block;
   height: 2px;
@@ -121,7 +124,6 @@
   -webkit-text-fill-color: transparent !important;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid rgba(139, 92, 246, 0.4) !important;
   letter-spacing: 0.5px;
 }
 
