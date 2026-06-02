@@ -7,6 +7,7 @@
 @import "elements/code-blocks.css";
 @import "elements/theme-variables.css";
 @import "elements/layout.css";
+@import "elements/toc.css";
 
 /* ============================================================ */
 /*  THERE-AND-BACK-AGAIN  —  Custom Theme (organized)          */
@@ -16,7 +17,7 @@
   2. Theme Variables (CSS Custom Properties)            ✅ elements/theme-variables.css
   3. Global Layout & Body Styling                       ✅ elements/layout.css
   4. Masthead / Header
-  5. Sidebar / TOC
+  5. Sidebar / TOC                                      ✅ elements/toc.css
   6. Main Content / Headings
   7. Code block styling (glassmorphic, copy button)     ✅ elements/code-blocks.css
   8. Asides, Notes, Blocks (theorem, example, etc.)
@@ -94,323 +95,6 @@
   margin-right: 1rem;
   vertical-align: middle;
   filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.4));
-}
-
-/* ============================================================ */
-/*  Section 5: Sidebar & Table-of-Contents (TOC)                */
-/* ============================================================ */
-.ptx-page {
-  display: grid !important;
-  grid-template-columns: 350px 1fr !important;
-  grid-template-areas: "sidebar main" !important;
-}
-
-.ptx-sidebar {
-  grid-area: sidebar !important;
-  width: 350px !important;
-  min-width: 350px !important;
-  max-width: 350px !important;
-  background: rgba(13, 17, 23, 0.4) !important;
-  border-right: 1px solid rgba(20, 181, 255, 0.2);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  backdrop-filter: blur(20px) saturate(180%);
-  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.3), inset -1px 0 0 rgba(255, 255, 255, 0.1);
-  overflow-y: auto !important;
-  height: 100vh !important;
-  position: sticky !important;
-  top: 0 !important;
-}
-
-.ptx-main {
-  grid-area: main !important;
-}
-
-.ptx-sidebar .ptx-toc {
-  font-family: var(--font-heading);
-  padding: 1rem !important;
-}
-
-/* Remove all default TOC list styling */
-.ptx-toc ul,
-.ptx-toc ul.structural,
-.ptx-toc ul li {
-  list-style: none !important;
-  list-style-type: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Reset text transforms from PreTeXt defaults */
-.ptx-toc,
-.ptx-toc *,
-.ptx-toc .toc-title-box,
-.ptx-toc .codenumber,
-.ptx-toc .title {
-  text-transform: none !important;
-  font-variant: normal !important;
-  letter-spacing: normal !important;
-}
-
-/* TOC Chapter headers (Prototypes, Tutorials, etc.) */
-.ptx-toc ul.structural > li > .codenumber,
-.ptx-toc ul.structural > li > .title {
-  background: var(--gradient-cyan-to-blue);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-/* TOC links and items */
-.ptx-toc a {
-  color: var(--color-text) !important;
-  transition: all 0.2s ease;
-  text-decoration: none !important;
-}
-
-.ptx-toc ul.structural li,
-.ptx-toc .toc-item {
-  background: rgba(30, 35, 45, 0.9) !important;
-  border: 1px solid rgba(60, 65, 75, 0.6) !important;
-  border-radius: 12px !important;
-  margin-bottom: 6px !important;
-  padding: 0.5rem 0.75rem !important;
-  transition: all 0.3s ease;
-}
-
-.ptx-toc ul.structural li:hover,
-.ptx-toc .toc-item:hover {
-  background: rgba(40, 50, 60, 0.95) !important;
-  border-color: rgba(20, 181, 255, 0.4) !important;
-}
-
-/* FORCE override PreTeXt's toc-title-box backgrounds - ultra high specificity */
-.ptx-sidebar .ptx-toc .toc-item .toc-title-box,
-.ptx-sidebar .ptx-toc .toc-item.active .toc-title-box,
-.ptx-sidebar .ptx-toc .toc-item.contains-active .toc-title-box,
-.ptx-toc .toc-item .toc-title-box,
-.ptx-toc .toc-item.active .toc-title-box,
-.ptx-toc .toc-item.contains-active .toc-title-box,
-nav.ptx-toc .toc-item .toc-title-box,
-nav.ptx-toc .toc-item.active .toc-title-box,
-nav.ptx-toc .toc-item.contains-active .toc-title-box,
-.toc-title-box {
-  background: transparent !important;
-  background-color: transparent !important;
-  border-color: transparent !important;
-  border-radius: inherit !important;
-}
-
-/* SPECIAL: Override for toc-frontmatter which uses different color palette */
-/* ALL folder styling - consistent very dark background (frontmatter, chapters, backmatter) */
-/* ULTRA HIGH SPECIFICITY to override PreTeXt defaults */
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-frontmatter,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-frontmatter.contains-active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-frontmatter.active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-backmatter,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-backmatter.contains-active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-backmatter.active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-chapter,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-chapter.contains-active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-chapter.active,
-body.pretext .ptx-toc li.toc-frontmatter,
-body.pretext .ptx-toc li.toc-frontmatter.contains-active,
-body.pretext .ptx-toc li.toc-backmatter,
-body.pretext .ptx-toc li.toc-backmatter.contains-active,
-body.pretext .ptx-toc li.toc-chapter,
-body.pretext .ptx-toc li.toc-chapter.contains-active,
-li.toc-item.toc-frontmatter,
-li.toc-item.toc-frontmatter.contains-active,
-li.toc-item.toc-frontmatter.active,
-.ptx-toc li.toc-frontmatter,
-.ptx-toc li.toc-frontmatter.contains-active,
-.ptx-toc li.toc-frontmatter.active,
-nav.ptx-toc li.toc-frontmatter.contains-active,
-#ptx-sidebar .ptx-toc li.toc-frontmatter.contains-active,
-li.toc-item.toc-backmatter,
-li.toc-item.toc-backmatter.contains-active,
-li.toc-item.toc-backmatter.active,
-.ptx-toc li.toc-backmatter,
-.ptx-toc li.toc-backmatter.contains-active,
-.ptx-toc li.toc-backmatter.active,
-nav.ptx-toc li.toc-backmatter.contains-active,
-#ptx-sidebar .ptx-toc li.toc-backmatter.contains-active,
-li.toc-item.toc-chapter,
-li.toc-item.toc-chapter.contains-active,
-li.toc-item.toc-chapter.active,
-.ptx-toc li.toc-chapter,
-.ptx-toc li.toc-chapter.contains-active,
-.ptx-toc li.toc-chapter.active,
-nav.ptx-toc li.toc-chapter.contains-active,
-#ptx-sidebar .ptx-toc li.toc-chapter.contains-active,
-nav#ptx-toc .toc-chapter,
-nav#ptx-toc .toc-chapter.contains-active,
-nav#ptx-toc .toc-chapter.active {
-  background: rgba(10, 8, 20, 0.98) !important;
-  background-color: rgba(10, 8, 20, 0.98) !important;
-  border: none !important;
-  border-radius: 12px !important;
-}
-
-
-/* Force the title-box to be transparent */
-.ptx-toc li.toc-frontmatter.contains-active > .toc-title-box,
-.ptx-toc li.toc-frontmatter.active > .toc-title-box,
-.ptx-toc li.toc-backmatter.contains-active > .toc-title-box,
-.ptx-toc li.toc-backmatter.active > .toc-title-box,
-li.toc-frontmatter.contains-active > .toc-title-box,
-li.toc-backmatter.contains-active > .toc-title-box {
-  background: transparent !important;
-  border-radius: 12px !important;
-}
-
-/* Note: .contains-active parent items (Front Matter, chapter headings) have 
-   PreTeXt-default red styling that's extremely resistant to CSS overrides.
-   The active leaf items (actual notes/sections) correctly show cyan gradient. */
-
-/* Active/selected folder (contains-active) - very dark background for contrast with purple-blue text */
-body.pretext .ptx-toc ul.structural li.contains-active,
-body.pretext .ptx-toc li.contains-active,
-body.pretext .ptx-toc .toc-item.contains-active,
-.ptx-toc ul.structural li.contains-active,
-.ptx-toc li.contains-active,
-.ptx-toc .toc-item.contains-active,
-.ptx-sidebar .ptx-toc .toc-item.contains-active,
-nav.ptx-toc .toc-item.contains-active,
-.ptx-toc .toc-frontmatter.contains-active,
-.ptx-toc .toc-chapter.contains-active,
-.ptx-toc .toc-backmatter.contains-active,
-.ptx-toc li.toc-frontmatter.contains-active,
-.ptx-toc li.toc-chapter.contains-active,
-.ptx-toc li.toc-backmatter.contains-active,
-nav#ptx-toc.ptx-toc .toc-item.toc-frontmatter.contains-active,
-nav#ptx-toc.ptx-toc.depth2 ul.structural .toc-item.contains-active,
-nav#ptx-toc.ptx-toc.depth2 ul.structural ul.structural .toc-item.contains-active,
-#ptx-sidebar .ptx-toc .toc-item.contains-active {
-  background: rgba(10, 8, 20, 0.98) !important;
-  background-color: rgba(10, 8, 20, 0.98) !important;
-  border: none !important;
-  border-radius: 12px !important;
-}
-
-/* Active leaf item (article/note selection) - same very dark styling */
-body.pretext .ptx-toc ul.structural li.active,
-body.pretext .ptx-toc li.active,
-body.pretext .ptx-toc .toc-item.active,
-.ptx-toc ul.structural li.active,
-.ptx-toc li.active,
-.ptx-toc .toc-item.active,
-.ptx-sidebar .ptx-toc .toc-item.active,
-nav.ptx-toc .toc-item.active,
-.ptx-toc .toc-frontmatter.active,
-.ptx-toc .toc-chapter.active,
-.ptx-toc .toc-backmatter.active,
-nav#ptx-toc.ptx-toc .toc-item.active:not(:has(.toc-item.active)),
-#ptx-sidebar .ptx-toc .toc-item.active {
-  background: rgba(10, 8, 20, 0.98) !important;
-  background-color: rgba(10, 8, 20, 0.98) !important;
-  border: none !important;
-  border-radius: 12px !important;
-}
-
-/* Root-level active sections - same very dark styling */
-.ptx-toc ul.structural > li.active,
-.ptx-toc ul.structural > li.contains-active,
-.ptx-toc > ul > li.active,
-.ptx-toc > ul > li.contains-active {
-  background: rgba(10, 8, 20, 0.98) !important;
-  background-color: rgba(10, 8, 20, 0.98) !important;
-  border: none !important;
-  border-radius: 12px !important;
-}
-
-/* Nested items inside expanded folders - slightly lighter dark */
-body.pretext .ptx-toc .toc-item.active .toc-item,
-body.pretext .ptx-toc .toc-item.contains-active .toc-item,
-.ptx-toc .toc-item.active .toc-item,
-.ptx-toc .toc-item.contains-active .toc-item {
-  background: rgba(15, 12, 28, 0.96) !important;
-  background-color: rgba(15, 12, 28, 0.96) !important;
-  border-radius: 12px !important;
-}
-
-/* The actual selected article/leaf item - distinct subtle purple highlight */
-body.pretext .ptx-toc .toc-item.active .toc-item.active,
-body.pretext .ptx-toc .toc-item.contains-active .toc-item.active,
-.ptx-toc .toc-item.active .toc-item.active,
-.ptx-toc .toc-item.contains-active .toc-item.active,
-.ptx-toc .toc-item.active:not(:has(.toc-item)),
-nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
-  background: rgba(40, 30, 70, 0.6) !important;
-  background-color: rgba(40, 30, 70, 0.6) !important;
-  border: none !important;
-  border-radius: 12px !important; 
-}
-
-/* Remove square containers from nested active lists */
-.ptx-toc .toc-item.active > ul,
-.ptx-toc .toc-item.contains-active > ul,
-.ptx-toc .toc-item ul.active,
-.ptx-toc ul.structural.active {
-  background: transparent !important;
-  background-color: transparent !important;
-  border-radius: inherit !important;
-  border: none !important;
-  padding-left: 1rem !important;
-}
-
-.ptx-toc ul.structural li.active a,
-.ptx-toc li.active a,
-.ptx-toc li.active .codenumber,
-.ptx-toc li.active .title,
-.ptx-toc .toc-item.active a,
-.ptx-toc .toc-item.active .codenumber,
-.ptx-toc .toc-item.active .title {
-  background: var(--gradient-cyan-to-blue);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-/* Folder titles when expanded - blue to purple gradient for contrast against blue background */
-.ptx-toc .toc-item.contains-active > .toc-title-box a,
-.ptx-toc .toc-item.contains-active > .toc-title-box .title,
-.ptx-toc .toc-item.contains-active > .toc-title-box .codenumber,
-.ptx-toc .toc-chapter.contains-active > .toc-title-box a,
-.ptx-toc .toc-chapter.contains-active > .toc-title-box .title,
-.ptx-toc .toc-chapter.contains-active > .toc-title-box .codenumber,
-.ptx-toc .toc-frontmatter.contains-active > .toc-title-box a,
-.ptx-toc .toc-frontmatter.contains-active > .toc-title-box .title,
-.ptx-toc .toc-frontmatter.contains-active > .toc-title-box .codenumber,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box a,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box .title,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box .codenumber {
-  background: linear-gradient(130deg, #60a5fa, #a78bfa, #c084fc) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  font-weight: bold !important;
-}
-
-/* Folder expand/collapse arrow when expanded - matchi  ng gradient */
-.ptx-toc .toc-item.contains-active > .toc-title-box .toc-chevron,
-.ptx-toc .toc-item.contains-active > .toc-title-box .expand-collapse,
-.ptx-toc .toc-item.contains-active > .toc-title-box button,
-.ptx-toc .toc-chapter.contains-active > .toc-title-box .toc-chevron,
-.ptx-toc .toc-frontmatter.contains-active > .toc-title-box .toc-chevron,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box .toc-chevron {
-  color: #a78bfa !important;
-}
-
-.ptx-toc .toc-item.contains-active > .toc-title-box .material-symbols-outlined,
-.ptx-toc .toc-chapter.contains-active > .toc-title-box .material-symbols-outlined,
-.ptx-toc .toc-frontmatter.contains-active > .toc-title-box .material-symbols-outlined,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box .material-symbols-outlined {
-  background: linear-gradient(130deg, #60a5fa, #a78bfa, #c084fc) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }
 
 /* Main Content Area */
@@ -1512,30 +1196,6 @@ body .ptx-navbar .searchbox #searchresultsplaceholder.search-active,
     gap: 0.5rem !important;
   }
 
-  /* ---- Sidebar becomes normal flow content ---- */
-  .ptx-sidebar {
-    position: relative !important;
-    top: auto !important;
-    height: auto !important;
-    width: 100% !important;
-    min-width: 0 !important;
-    max-width: none !important;
-
-    border-right: none !important;
-    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
-
-    box-shadow: none !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    backdrop-filter: blur(12px) !important;
-  }
-
-  /* Make TOC scroll-safe */
-  .ptx-sidebar .ptx-toc {
-    max-height: 60vh !important;
-    overflow-y: auto !important;
-    padding: 0.75rem !important;
-  }
-
   /* ---- Main content ---- */
   .ptx-main {
     width: 100% !important;
@@ -1589,13 +1249,6 @@ body .ptx-navbar .searchbox #searchresultsplaceholder.search-active,
     padding: 1rem !important;
   }
 
-  /* ---- TOC items: tighter spacing ---- */
-  .ptx-toc ul.structural li,
-  .ptx-toc .toc-item {
-    padding: 0.4rem 0.6rem !important;
-    margin-bottom: 4px !important;
-  }
-
   /* ---- Navbar buttons ---- */
   .ptx-navbar .button {
     font-size: 12px !important;
@@ -1629,7 +1282,4 @@ body .ptx-navbar .searchbox #searchresultsplaceholder.search-active,
     padding: 0.5rem !important;
   }
 
-  .ptx-sidebar .ptx-toc {
-    max-height: 50vh !important;
-  }
 }

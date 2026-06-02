@@ -10,10 +10,8 @@
 
     <introduction>
         <p>
-            <term>Note ID:</term> <tag>202605020001</tag> |
-            <term>Tags:</term>
-            <tag>Hamiltonian mechanics</tag>,
-            <tag>Noether's theorem</tag>
+            <tag>202605020001</tag> |
+            <tag>Hamiltonian mechanics</tag>, <tag>Noether's theorem</tag>
         </p>
     </introduction>
 
@@ -23,7 +21,7 @@
 
         <idx>conserved in time</idx>
 
-        <definition xml:id="def-conserved-in-time">
+        <claim xml:id="claim-conserved-in-time">
             <statement>
                 <p>
                     A quantity <m>Q</m> is said to be
@@ -54,25 +52,34 @@
                     </ol>
                 </p>
             </statement>
-        </definition>
+        </claim>
+
+        <assemblage>
+            <title>:logo: Take-Home Message</title>
+
+            <p>
+                <md>
+                    \frac{dQ}{dt}=0
+                    \Leftrightarrow
+                    Q \text{ <term>generates</term> a <term>symmetry</term> of } H
+                </md>
+            </p>
+        </assemblage>
+
+
     </subsection>
 
     <conclusion>
 
+
+
+
         <p>
-            🏡 <alert>Take-Home Message:</alert>
-            <md>
-                \frac{dQ}{dt}=0
-                \Leftrightarrow
-                Q \text{ generates a symmetry of } H
-            </md>
-        </p>
-        <p>
-            🖇️ <alert>Linked Notes:</alert>
+            <tag>🖇️ Linked Notes:</tag>
         </p>
 
         <p>
-            🔖 <alert>References:</alert>
+            <tag>🔖 References:</tag>
 
             <xref ref="physicswithelliot2022hamiltoniannoether"
                   detail="biblio">
