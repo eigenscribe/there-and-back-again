@@ -106,9 +106,4 @@
     transform: translateY(-2px);
 }
 
-/* ============================================
-   Introduction Hide Last Tag
-   ============================================ */
-.ptx-content .introduction .para code.code-inline:last-of-type:not(:first-of-type) {
-    display: none !important;
-}
+/* Introduction Hide Last Tag removed to show all tags */
