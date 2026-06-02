@@ -5,9 +5,8 @@
 
     <introduction>
         <p>
-            <term>Note ID:</term> <tag>202605310001</tag> |
-            <term>Tags:</term> <tag>geometric algebra</tag>, <tag>electromagnetism</tag>, <idx><tag>vector potential</tag></idx> |
-            <term>PreFigure Demo:</term> <tag>None</tag>
+            <tag>202605310001</tag> |
+            <tag>geometric algebra</tag> <tag>electromagnetism</tag> <idx><tag>vector potential</tag></idx>
         </p>
     </introduction>
 
@@ -67,5 +66,9 @@
             </p>
         </statement>
     </lemma>
+
+    <conclusion>
+        <h>🔗 Linked Notes:</h> <xref target='claim-vector-potential-generalization'/>
+    </conclusion>
 
 </subsection>

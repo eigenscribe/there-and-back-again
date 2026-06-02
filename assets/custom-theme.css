@@ -10,7 +10,7 @@
 @import "elements/toc.css";
 
 /* ============================================================ */
-/*  THERE-AND-BACK-AGAIN  —  Custom Theme (organized)          */
+/*  THERE-AND-BACK-AGAIN  —  Custom Theme (unorganized)          */
 /* ============================================================ */
 /* Sections (quick index)
   1. Prism & Code Block Overrides                       ✅ elements/code-blocks.css
@@ -23,7 +23,8 @@
   8. Asides, Notes, Blocks (theorem, example, etc.)
   9. Navbar, Footer, Search UI
   10. Responsive Rules
-  11. Metadata tags                                      ✅ elements/metadata.css
+  11. Metadata tags                                     ✅ elements/metadata.css
+  12. Icons and Emojies
 */
 
 
@@ -296,6 +297,19 @@
   position: relative !important;
 }
 
+/* 🧊 Knowl Content Reset: Prevent nested callout styles in collapsable blocks */
+.ptx-content .knowl__content {
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: 0.5rem !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.ptx-content .knowl__content::before {
+  display: none !important;
+}
+
 /* Base style for vertical bars */
 .ptx-content .definition-like::before,
 .ptx-content .theorem-like::before,
@@ -345,9 +359,21 @@
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;
+  margin-top: 0 !important;
   margin-bottom: 0.75rem !important;
-  display: table !important;
+  display: inline-block !important;
   text-align: left !important;
+}
+
+/* 🧱 Collapsable Heading Fix: Ensure headings in summaries sit next to the arrow */
+.ptx-content summary.knowl__link {
+  cursor: pointer;
+  outline: none !important;
+}
+.ptx-content summary.knowl__link .heading {
+  display: inline !important;
+  margin: 0 !important;
+  vertical-align: middle !important;
 }
 
 /* 🟣 Purple Gradient: Definitions */
