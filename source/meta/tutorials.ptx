@@ -15,8 +15,8 @@
     
     <introduction>
       <p>
-        <term>Note ID:</term> 202511100005 | 
-        <term>Tags:</term> tutorial, setup, development
+        <term>Note ID:</term> <tag>202511100005</tag> | 
+        <term>Tags:</term> <tag>tutorial</tag>, <tag>setup</tag>, <tag>development</tag>
       </p>
       <p>
         Learn how to work with your PreTeXt math journal and build your mathematical knowledge base.

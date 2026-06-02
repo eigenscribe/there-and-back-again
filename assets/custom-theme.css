@@ -1371,48 +1371,58 @@ code[class*="language-"] .line-highlight {
   line-height: 1.7;
 }
 
-/* Tags/Badges styling for index terms */
-.ptx-content .idx {
-  font-family: var(--font-heading);
-  font-size: 0.65rem;
-  padding: 4px 10px;
-  background: linear-gradient(145deg, rgba(0, 232, 255, 0.2), rgba(0, 112, 235, 0.2));
-  border: 1px solid rgba(20, 181, 255, 0.5);
-  border-radius: 100px;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  font-weight: 500;
-  display: inline-block;
-  margin-right: 0.5rem;
-}
-
 /* ============================================
-   Tags / Pills
+   Tags, Pills, and Badges
    ============================================ */
-.tag,
+.ptx-content .idx,
+.ptx-content section.introduction .para code.code-inline,
+.ptx-tag-pill,
 .ptx-tag,
 .badge {
     display: inline-block;
     font-family: 'Aclonica', sans-serif;
     font-size: 0.65rem;
     padding: 4px 12px;
-    background: linear-gradient(145deg, rgba(20, 181, 255, 0.2), rgba(0, 112, 235, 0.15));
-    border: 1px solid rgba(20, 181, 255, 0.4);
+    background: linear-gradient(145deg, rgba(20, 181, 255, 0.15), rgba(0, 112, 235, 0.1));
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 100px;
     color: #5ddbff;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
-.tag:hover,
+.ptx-content .idx:hover,
+.ptx-content section.introduction .para code.code-inline:hover,
+.ptx-tag-pill:hover,
 .ptx-tag:hover,
 .badge:hover {
-    background: linear-gradient(145deg, rgba(20, 181, 255, 0.3), rgba(0, 112, 235, 0.25));
+    background: linear-gradient(145deg, rgba(20, 181, 255, 0.25), rgba(0, 112, 235, 0.2));
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(20, 181, 255, 0.3);
+    box-shadow: 0 8px 25px rgba(20, 181, 255, 0.3);
+    color: #00e8ff;
 }
 
-.tag-purple,
+/* Specific Style for Note IDs (Purple Glassmorphic) */
+.ptx-content section.introduction .para code.code-inline:first-of-type {
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.2), rgba(118, 82, 245, 0.15)) !important;
+    border: 1px solid rgba(168, 85, 247, 0.4) !important;
+    color: #d8b4fe !important;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.15);
+}
+
+.ptx-content section.introduction .para code.code-inline:first-of-type:hover {
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.3), rgba(118, 82, 245, 0.25)) !important;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
+    color: #f3e8ff !important;
+    border-color: rgba(168, 85, 247, 0.6) !important;
+}
+
+.ptx-tag-pill-purple,
 .id-badge {
     display: inline-block;
     background: linear-gradient(145deg, rgba(168, 85, 247, 0.25), rgba(118, 82, 245, 0.2));
@@ -1423,6 +1433,8 @@ code[class*="language-"] .line-highlight {
     letter-spacing: 1px;
     box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
     transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .id-badge:hover {

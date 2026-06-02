@@ -16,8 +16,8 @@
     
     <introduction>
       <p>
-        <term>Note ID:</term> 202511100001 | 
-        <term>Tags:</term> topology, mathematics, foundations
+        <term>Note ID:</term> <tag>202511100001</tag> | 
+        <term>Tags:</term> <tag>topology</tag>, <tag>mathematics</tag>, <tag>foundations</tag>
       </p>
       <p>
         <alert>⚠️ Prototype Note:</alert> This is a sample note with placeholder content for demonstration purposes.
@@ -78,8 +78,8 @@
     
     <introduction>
       <p>
-        <term>Note ID:</term> 202511100002 | 
-        <term>Tags:</term> analysis, metric-spaces, topology
+        <term>Note ID:</term> <tag>202511100002</tag> | 
+        <term>Tags:</term> <tag>analysis</tag>, <tag>metric-spaces</tag>, <tag>topology</tag>
       </p>
       <p>
         <alert>⚠️ Prototype Note:</alert> This is a sample note with placeholder content for demonstration purposes.
@@ -141,8 +141,8 @@
     
     <introduction>
       <p>
-        <term>Note ID:</term> 202511100003 | 
-        <term>Tags:</term> analysis, continuity, calculus
+        <term>Note ID:</term> <tag>202511100003</tag> | 
+        <term>Tags:</term> <tag>analysis</tag>, <tag>continuity</tag>, <tag>calculus</tag>
       </p>
       <p>
         <alert>⚠️ Prototype Note:</alert> This is a sample note with placeholder content.
@@ -179,8 +179,8 @@
     
     <introduction>
       <p>
-        <term>Note ID:</term> 202511100004 | 
-        <term>Tags:</term> analysis, sequences, limits
+        <term>Note ID:</term> <tag>202511100004</tag> | 
+        <term>Tags:</term> <tag>analysis</tag>, <tag>sequences</tag>, <tag>limits</tag>
       </p>
       <p>
         <alert>⚠️ Prototype Note:</alert> This is a sample note with placeholder content.

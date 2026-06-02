@@ -2,8 +2,8 @@
     <title>PreTeXt Cheat Sheet</title>
     <introduction>
         <p>
-            <term>Note ID:</term> 202606012315 |
-            <term>Tags:</term> <tag>pretext</tag> <tag>xml</tag> <tag>authoring</tag>
+            <term>Note ID:</term> <tag>202606012315</tag> |
+            <term>Tags:</term> <tag>pretext</tag>, <tag>xml</tag>, <tag>authoring</tag>
         </p>
         <p>
             A comprehensive guide to PreTeXt XML elements and structure for authoring mathematical content.
@@ -13,13 +13,13 @@
     <subsection xml:id="sub-pretext-structure">
         <title>Document Structure</title>
         <p>
-            The hierarchical organization of a PreTeXt document.
+            PreTeXt documents follow a strict hierarchical organization.
         </p>
         <program language="xml">
             <code>
                 <![CDATA[
 <pretext>
-  <docinfo> ... </docinfo>
+  <docinfo> ... </docinfo> <!-- Global settings/macros -->
   <book xml:id="my-book">
     <title>My Book Title</title>
     <frontmatter> ... </frontmatter>
@@ -43,40 +43,83 @@
         </program>
     </subsection>
 
-    <subsection xml:id="sub-pretext-text-math">
-        <title>Text and Mathematics</title>
-        <dl>
-            <li>
-                <title>Special Characters</title>
-                <p>Certain characters must be escaped or used as entities:</p>
-                <ul>
-                    <li>Ampersand: <code><![CDATA[&amp;]]></code> (use <code><![CDATA[\amp]]></code> in LaTeX math)</li>
-                    <li>Less than: <code><![CDATA[&lt;]]></code></li>
-                    <li>Greater than: <code><![CDATA[&gt;]]></code></li>
-                </ul>
-            </li>
-            <li>
-                <title>Paragraphs</title>
-                <p>Use <code><![CDATA[<p>]]></code> for paragraphs. Avoid putting math directly in <code><![CDATA[<p>]]></code> without <code><![CDATA[<m>]]></code>.</p>
-            </li>
+    <subsection xml:id="sub-pretext-inline">
+        <title>Inline Elements and Tags</title>
+        <p>
+            Inline elements are used within paragraphs (<c><![CDATA[<p>]]></c>) to style text or add semantics.
+        </p>
+        <table>
+            <title>Common Inline Elements</title>
+            <tabular bottom="minor" top="minor" left="minor" right="minor">
+                <row header="yes">
+                    <cell>Element</cell>
+                    <cell>Usage</cell>
+                    <cell>Example</cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<m>]]></c></cell>
+                    <cell>Inline Math (LaTeX)</cell>
+                    <cell><m>E = mc^2</m></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<tag>]]></c></cell>
+                    <cell>Semantic Tags (Metadata)</cell>
+                    <cell><tag>quantum mechanics</tag></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<c>]]></c></cell>
+                    <cell>Inline Code/Verbatim</cell>
+                    <cell><c>git status</c></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<term>]]></c></cell>
+                    <cell>Defining a term (Bold/Italic)</cell>
+                    <cell><term>Bivector</term></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<alert>]]></c></cell>
+                    <cell>Emphasis (Bold/Color)</cell>
+                    <cell><alert>Warning!</alert></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<xref>]]></c></cell>
+                    <cell>Cross-reference</cell>
+                    <cell>See <xref ref="sec-pretext-cheat-sheet" /></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<url>]]></c></cell>
+                    <cell>Hyperlink</cell>
+                    <cell><url href="https://pretextbook.org">PreTeXt</url></cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            <alert>Note:</alert> In this project, <c><![CDATA[<tag>]]></c> elements are styled as glassmorphic pills.
+        </p>
+    </subsection>
+
+    <subsection xml:id="sub-pretext-math">
+        <title>Mathematics</title>
+        <p>
+            PreTeXt supports various math environments using standard LaTeX notation.
+        </p>
+        <ul>
             <li>
                 <title>Inline Math</title>
-                <p>Use <code><![CDATA[<m>E = mc^2</m>]]></code> for inline LaTeX.</p>
+                <p>Use <c><![CDATA[<m>...</m>]]></c> for inline expressions.</p>
             </li>
             <li>
-                <title>Displayed Math</title>
-                <p>Use <code><![CDATA[<me>]]></code> for unnumbered and <code><![CDATA[<men>]]></code> for numbered equations.</p>
+                <title>Single Line Equations</title>
+                <p>Use <c><![CDATA[<me>]]></c> for unnumbered and <c><![CDATA[<men>]]></c> for numbered equations.</p>
                 <program language="xml">
                     <code>
-                        <![CDATA[
-<me>i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</me>
-                        ]]>
+                        <![CDATA[<men xml:id="eq-schrodinger">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</men>]]>
                     </code>
                 </program>
             </li>
             <li>
-                <title>Multi-line Math</title>
-                <p>Use <code><![CDATA[<md>]]></code> with <code><![CDATA[<mrow>]]></code> for aligned equations.</p>
+                <title>Aligned Equations</title>
+                <p>Use <c><![CDATA[<md>]]></c> with <c><![CDATA[<mrow>]]></c> for multiple lines. Use <c><![CDATA[\amp]]></c> for alignment.</p>
                 <program language="xml">
                     <code>
                         <![CDATA[
@@ -88,13 +131,13 @@
                     </code>
                 </program>
             </li>
-        </dl>
+        </ul>
     </subsection>
 
     <subsection xml:id="sub-pretext-blocks">
         <title>Common Blocks</title>
         <p>
-            PreTeXt provides semantic environments for mathematical content.
+            Structural blocks organize content into logical units with specific styling.
         </p>
         <program language="xml">
             <code>
@@ -109,154 +152,100 @@
 <theorem xml:id="thm-noether">
   <title>Noether's Theorem</title>
   <statement>
-    <p>Every differentiable symmetry of the action of a physical system has a corresponding conservation law.</p>
+    <p>Every differentiable symmetry ... has a corresponding conservation law.</p>
   </statement>
   <proof>
     <p>Proof details here...</p>
   </proof>
 </theorem>
 
-<example>
-  <p>Example content goes here.</p>
-</example>
-
 <assemblage>
   <title>Key Concept</title>
-  <p>Assemblages are used for boxed summaries or highlights.</p>
+  <p>Assemblages are used for boxed summaries (Glassmorphic in this theme).</p>
 </assemblage>
                 ]]>
             </code>
         </program>
     </subsection>
 
-    <subsection xml:id="sub-pretext-code">
-        <title>Code and Programs</title>
-        <p>
-            Inline code uses <code><![CDATA[<code>]]></code>. Block code uses <code><![CDATA[<program>]]></code>.
-        </p>
-        <program language="xml">
-            <code>
-                <![CDATA[
-<program language="python">
-  <input>
-def hello_world():
-    print("Hello, PreTeXt!")
-  </input>
-</program>
-                ]]>
-            </code>
-        </program>
-        <p>
-            For verbatim content (like XML examples), wrap code in <code><![CDATA[<![CDATA[ ... ]]]]></code> tags to avoid parser errors.
-        </p>
-    </subsection>
-
-    <subsection xml:id="sub-pretext-references">
-        <title>Cross-References and Links</title>
-        <p>
-            Use <code><![CDATA[<xref ref="id" />]]></code> to link to elements with an <code>xml:id</code>.
-        </p>
-        <program language="xml">
-            <code>
-                <![CDATA[
-<p>As seen in <xref ref="def-unitary" />, we define ...</p>
-<url href="https://pretextbook.org">PreTeXt Guide</url>
-                ]]>
-            </code>
-        </program>
-    </subsection>
-
-    <subsection xml:id="sub-pretext-images">
-        <title>Images and Figures</title>
-        <program language="xml">
-            <code>
-                <![CDATA[
-<figure xml:id="fig-my-diagram">
-  <caption>A description of the figure.</caption>
-  <image source="images/diagram.png" width="80%">
-    <shortdescription>Alt text for accessibility</shortdescription>
-  </image>
-</figure>
-                ]]>
-            </code>
-        </program>
-    </subsection>
-
-    <subsection xml:id="sub-pretext-tables">
-        <title>Tables</title>
-        <program language="xml">
-            <code>
-                <![CDATA[
-<table>
-  <title>Data Summary</title>
-  <tabular bottom="minor" top="minor" left="minor" right="minor">
-    <row header="yes">
-      <cell>Variable</cell>
-      <cell>Value</cell>
-    </row>
-    <row>
-      <cell><m>x</m></cell>
-      <cell>10</cell>
-    </row>
-  </tabular>
-</table>
-                ]]>
-            </code>
-        </program>
-    </subsection>
-
-    <subsection xml:id="sub-pretext-indexing">
-        <title>Indexing and Glossary</title>
-        <p>
-            Use <code><![CDATA[<idx>]]></code> for index entries and <code><![CDATA[<gi>]]></code> for glossary items.
-        </p>
-        <program language="xml">
-            <code>
-                <![CDATA[
-<p>
-  Quantum <idx><h>entanglement</h></idx> entanglement is a phenomenon...
-</p>
-                ]]>
-            </code>
-        </program>
+    <subsection xml:id="sub-pretext-elements-table">
+        <title>Comprehensive Element Table</title>
+        <table>
+            <title>PreTeXt Element Categories</title>
+            <tabular bottom="minor" top="minor" left="minor" right="minor">
+                <row header="yes">
+                    <cell>Category</cell>
+                    <cell>Elements</cell>
+                    <cell>Description</cell>
+                </row>
+                <row>
+                    <cell>Structure</cell>
+                    <cell><c>book</c>, <c>part</c>, <c>chapter</c>, <c>section</c></cell>
+                    <cell>High-level document organization</cell>
+                </row>
+                <row>
+                    <cell>Blocks</cell>
+                    <cell><c>definition</c>, <c>theorem</c>, <c>example</c></cell>
+                    <cell>Semantic mathematical environments</cell>
+                </row>
+                <row>
+                    <cell>Admonitions</cell>
+                    <cell><c>note</c>, <c>warning</c>, <c>insight</c>, <c>remark</c></cell>
+                    <cell>Side-bars or callout boxes</cell>
+                </row>
+                <row>
+                    <cell>Technical</cell>
+                    <cell><c>program</c>, <c>image</c>, <c>table</c>, <c>figure</c></cell>
+                    <cell>Non-textual data and code</cell>
+                </row>
+                <row>
+                    <cell>Lists</cell>
+                    <cell><c>ul</c>, <c>ol</c>, <c>dl</c></cell>
+                    <cell>Unordered, ordered, and description lists</cell>
+                </row>
+                <row>
+                    <cell>Backmatter</cell>
+                    <cell><c>idx</c>, <c>biblio</c>, <c>glossary</c>, <c>colophon</c></cell>
+                    <cell>Indices, references, and metadata</cell>
+                </row>
+            </tabular>
+        </table>
     </subsection>
 
     <subsection xml:id="sub-project-conventions">
         <title>Project Conventions</title>
         <p>
-            This project uses some custom conventions for metadata and highlighting.
+            Custom styles and standards used in this Zettelkasten.
         </p>
         <ul>
             <li>
                 <p>
-                    <term>Tags:</term> Use <code><![CDATA[<tag>keyword</tag>]]></code> in introductions for categorization.
+                    <term>Note Metadata:</term> Every note introduction should include a Note ID and Tags.
+                </p>
+                <program language="xml">
+                    <code>
+                        <![CDATA[
+<introduction>
+  <p>
+    <term>Note ID:</term> <tag>202606012315</tag> |
+    <term>Tags:</term> <tag>topic1</tag>, <tag>topic2</tag>
+  </p>
+</introduction>
+                        ]]>
+                    </code>
+                </program>
+            </li>
+            <li>
+                <p>
+                    <term>Note IDs:</term> Use <c>YYYYMMDDHHMM</c> format. The first tag (Note ID) is automatically styled purple.
                 </p>
             </li>
             <li>
                 <p>
-                    <term>Note IDs:</term> Use <code><![CDATA[YYYYMMDDHHMM]]></code> format.
+                    <term>Assemblages:</term> Use for primary takeaways or "atomic" notes within a section.
                 </p>
             </li>
         </ul>
-    </subsection>
-
-    <subsection xml:id="sub-pretext-lists">
-        <title>Lists</title>
-        <program language="xml">
-            <code>
-                <![CDATA[
-<ul>
-  <li>Unordered item 1</li>
-  <li>Unordered item 2</li>
-</ul>
-
-<ol label="a">
-  <li>Ordered item with alpha label</li>
-  <li>Ordered item 2</li>
-</ol>
-                ]]>
-            </code>
-        </program>
     </subsection>
 
 </section>
