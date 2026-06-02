@@ -1443,9 +1443,9 @@ code[class*="language-"] .line-highlight {
 }
 .twemoji[title=":favicon:"] { 
   background-image: url('favicon.png'); 
-  width: 1.1rem;
-  height: 1.1rem;
-  background-size: 75%;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 80%;
   border-radius: 100%;
 }
 .twemoji[title=":ember:"] { 
