@@ -43,9 +43,6 @@
       :logo: <em>There and Back Again</em> is a <pretext />-powered personal knowledge management system developed by Eigenscribe © that demonstrates an integrated workflow for technical learning, documentation, and research.
       By separating raw derivation, conceptual synthesis, and canonical reference into distinct, interlinked layers, it serves as a living case study in networked mathematical thinking.
     </p>
-    <p>
-      <alert>Live Website:</alert> <url href="https://eigenscribe.github.io/there-and-back-again/research-journal.html">https://eigenscribe.github.io/there-and-back-again/research-journal.html</url>
-    </p>
   </abstract>
 
   <preface xml:id="preface">
