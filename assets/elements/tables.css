@@ -1,0 +1,100 @@
+/* ============================================================ */
+/*  TABLE STYLING - Blue Gradient Glassmorphism                */
+/* ============================================================ */
+
+/* Main table container */
+.ptx-content figure.table.table-like {
+    margin: 2.5rem 0 !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+/* The glass box surrounding the table */
+.ptx-content .tabular-box {
+    background: rgba(8, 10, 14, 0.5) !important;
+    -webkit-backdrop-filter: blur(12px) saturate(150%) !important;
+    backdrop-filter: blur(12px) saturate(150%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6) !important;
+    overflow: hidden !important;
+    margin-bottom: 1rem !important;
+    padding: 0 !important;
+}
+
+.ptx-content table.tabular {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    color: var(--color-text) !important;
+    font-family: var(--font-body) !important;
+    border: none !important;
+}
+
+/* Header styling */
+.ptx-content table.tabular tr.header-horizontal {
+    background: linear-gradient(135deg, rgba(20, 181, 255, 0.25), rgba(121, 82, 245, 0.15)) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.ptx-content table.tabular th {
+    padding: 1.2rem 1rem !important;
+    font-family: var(--font-heading) !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+    background: transparent !important;
+    color: var(--primary-color-light) !important;
+    text-transform: uppercase !important;
+    font-size: 0.85rem !important;
+    letter-spacing: 1px !important;
+    border: none !important;
+}
+
+/* Cell styling */
+.ptx-content table.tabular td {
+    padding: 1rem !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.05) !important;
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+}
+
+.ptx-content table.tabular td:last-child {
+    border-right: none !important;
+}
+
+.ptx-content table.tabular tr:last-child td {
+    border-bottom: none !important;
+}
+
+/* Hover effect on rows */
+.ptx-content table.tabular tr:not(.header-horizontal):hover {
+    background: rgba(20, 181, 255, 0.05) !important;
+    transition: background 0.2s ease !important;
+}
+
+/* Caption styling */
+.ptx-content figure.table figcaption {
+    font-family: var(--font-heading) !important;
+    margin-bottom: 0.75rem !important;
+    color: var(--color-muted) !important;
+    font-size: 0.9rem !important;
+    padding-left: 0.5rem !important;
+}
+
+.ptx-content figure.table figcaption .type,
+.ptx-content figure.table figcaption .codenumber {
+    background: var(--gradient-cyan-to-blue) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-weight: bold !important;
+}
+
+/* Override PreTeXt's default border classes to match theme */
+.ptx-content table.tabular .lines,
+.ptx-content table.tabular .b1,
+.ptx-content table.tabular .r1,
+.ptx-content table.tabular .l1,
+.ptx-content table.tabular .t1 {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}

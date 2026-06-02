@@ -28,8 +28,9 @@ fi
 # Copy custom CSS and assets to output directory
 echo "Copying custom CSS and assets..."
 touch output/web/.nojekyll
-mkdir -p output/web/external
+mkdir -p output/web/external/elements
 cp assets/custom-theme.css output/web/external/
+cp -r assets/elements/ output/web/external/elements/
 cp assets/wisp.jpg output/web/external/
 cp assets/logo.png output/web/external/
 cp assets/favicon.png output/web/external/
