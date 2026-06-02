@@ -16,9 +16,9 @@
 .ptx-content .abstract {
   background: rgba(255, 255, 255, 0.05) !important;
   border-radius: 8px;
-  padding: 1.5rem;
-  padding-left: 2rem !important;
-  margin: 1.5rem 0;
+  padding: 1.25rem;
+  padding-left: 1.75rem !important;
+  margin: 1.25rem 0;
   position: relative !important;
 }
 
@@ -90,7 +90,44 @@
   display: block !important;
   border: none !important;
   border-bottom: none !important;
+  border-top: none !important;
   text-align: left !important;
+}
+
+.ptx-content .definition-like .heading::after,
+.ptx-content .theorem-like .heading::after,
+.ptx-content .solution .heading::after,
+.ptx-content .proof .heading::after,
+.ptx-content .example-like .heading::after,
+.ptx-content .hint .heading::after,
+.ptx-content .remark-like .heading::after,
+.ptx-content .note .heading::after,
+.ptx-content .insight .heading::after,
+.ptx-content .warning .heading::after,
+.ptx-content .exercise-like .heading::after,
+.ptx-content .aside .heading::after,
+.ptx-content .biblio .heading::after,
+.ptx-content section.introduction .heading::after,
+.ptx-content .assemblage-like .heading::after,
+.ptx-content .abstract .heading::after,
+.ptx-content .definition-like .heading::before,
+.ptx-content .theorem-like .heading::before,
+.ptx-content .solution .heading::before,
+.ptx-content .proof .heading::before,
+.ptx-content .example-like .heading::before,
+.ptx-content .hint .heading::before,
+.ptx-content .remark-like .heading::before,
+.ptx-content .note .heading::before,
+.ptx-content .insight .heading::before,
+.ptx-content .warning .heading::before,
+.ptx-content .exercise-like .heading::before,
+.ptx-content .aside .heading::before,
+.ptx-content .biblio .heading::before,
+.ptx-content section.introduction .heading::before,
+.ptx-content .assemblage-like .heading::before,
+.ptx-content .abstract .heading::before {
+  content: none !important;
+  display: none !important;
 }
 
 /* Base style for headings underline - REMOVED */
@@ -114,6 +151,36 @@
   background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
 }
 
+/* 🌑 Purple Gradient: Hints */
+.ptx-content .hint .heading,
+.ptx-content .hint summary.knowl__link {
+  background-image: linear-gradient(120deg, var(--secondary-color-light), var(--secondary-color)) !important;
+  font-family: 'Aclonica', sans-serif !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.02em;
+}
+.ptx-content .hint summary.knowl__link {
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  display: list-item !important; /* Use list-item to keep the marker */
+  list-style: disclosure-closed !important; /* Ensure arrow is visible */
+}
+.ptx-content .hint summary.knowl__link[open] {
+  list-style: disclosure-open !important;
+}
+.ptx-content .hint summary.knowl__link * {
+  -webkit-text-fill-color: inherit !important;
+  color: inherit !important;
+}
+.ptx-content .hint summary.knowl__link::marker {
+  color: var(--secondary-color-light) !important;
+}
+.ptx-content .hint::before {
+  background: linear-gradient(to bottom, var(--secondary-color-light), var(--secondary-color)) !important;
+}
+
 /* 📗 Green-Blue Gradient: Theorems, Proofs, Solutions */
 .ptx-content .theorem-like .heading,
 .ptx-content .solution .heading,
@@ -126,9 +193,8 @@
   background: linear-gradient(to bottom, var(--tertiary-color-medium), var(--primary-color-light)) !important;
 }
 
-/* 🔵 Blue Gradient: Examples, Hints, Exercises, Introductions, Biblio */
+/* 🔵 Blue Gradient: Examples, Exercises, Introductions, Biblio */
 .ptx-content .example-like .heading,
-.ptx-content .hint .heading,
 .ptx-content .exercise-like .heading,
 .ptx-content section.introduction .heading,
 .ptx-content .biblio .heading,
@@ -136,7 +202,6 @@
   background-image: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
 }
 .ptx-content .example-like::before,
-.ptx-content .hint::before,
 .ptx-content .exercise-like::before,
 .ptx-content section.introduction::before,
 .ptx-content .biblio::before,
@@ -256,9 +321,9 @@
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
   border-radius: 16px !important; 
-  padding: 1.5rem !important;
-  padding-left: 2rem !important;
-  margin-bottom: 2.5rem;
+  padding: 1.25rem !important;
+  padding-left: 1.75rem !important;
+  margin-bottom: 2rem;
   color: var(--color-text) !important;
   position: relative !important;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);

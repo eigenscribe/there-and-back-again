@@ -19,6 +19,8 @@
 /* Headings */
 .ptx-content h1, .ptx-content h2, .ptx-content h3, .ptx-content h4, .ptx-content h5, .ptx-content h6 {
   font-family: var(--font-heading) !important;
+  border-bottom: none !important;
+  border-top: none !important;
 }
 
 .ptx-content h1.heading,
@@ -31,8 +33,19 @@
   display: block !important;
   border: none !important;
   border-bottom: none !important;
+  border-top: none !important;
   width: fit-content;
   max-width: 100%;
+}
+
+.ptx-content h1.heading::after,
+.ptx-content h2.heading::after,
+.ptx-content h3.heading::after,
+.ptx-content h4.heading::after,
+.ptx-content h5.heading::after,
+.ptx-content h6.heading::after {
+  content: none !important;
+  display: none !important;
 }
 
 /* Headings with underlines (Part, Chapter, Section, Appendix, Exercises, Solutions) - Gradient covers type, number, and title */
@@ -50,6 +63,8 @@
   display: block !important;
   width: fit-content;
   max-width: 100%;
+  border-bottom: none !important;
+  border-top: none !important;
 }
 
 /* Remove individual gradients from children of underlined headings */
@@ -73,6 +88,18 @@
 .ptx-content section.section > :is(h3, h4, h5, h6).heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading),
 .ptx-content .exercise-like > h5.heading {
   display: block !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.ptx-content section:is(.subsection, .subsubsection) > :is(h2, h3, h4, h5).heading::after,
+.ptx-content section.section > :is(h3, h4, h5, h6).heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading)::after,
+.ptx-content .exercise-like > h5.heading::after,
+.ptx-content section:is(.subsection, .subsubsection) > :is(h2, h3, h4, h5).heading::before,
+.ptx-content section.section > :is(h3, h4, h5, h6).heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading)::before,
+.ptx-content .exercise-like > h5.heading::before {
+  content: none !important;
+  display: none !important;
 }
 
 /* Specific gradients for different levels */
@@ -81,6 +108,7 @@
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
+  border-bottom: none !important;
 }
 
 .ptx-content h4.heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading) {
@@ -88,6 +116,7 @@
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
+  border-bottom: none !important;
 }
 
 .ptx-content h5.heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading) {
@@ -95,6 +124,7 @@
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
+  border-bottom: none !important;
 }
 
 /* Remove individual gradients from children of subsection/deeper headings */
@@ -115,13 +145,8 @@
 .ptx-content section.exercises > :is(h1, h2, h3).heading::after,
 .ptx-content section.solutions > :is(h1, h2, h3).heading::after,
 .ptx-content .exercisegroup > h4.heading::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  margin-top: 4px;
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
-  border-radius: 2px;
+  content: none !important;
+  display: none !important;
 }
 
 /* Level specific adjustments */
@@ -191,7 +216,7 @@
   display: block !important;
   width: fit-content;
   max-width: 100%;
-  border-bottom-color: rgba(0, 255, 238, 0.3) !important;
+  border-bottom: none !important;
 }
 
 .ptx-content section.frontmatter > :is(h1, h2).heading > * {
@@ -202,14 +227,15 @@
 }
 
 .ptx-content section.frontmatter > :is(h1, h2).heading::after {
+  display: none !important;
   background: linear-gradient(110deg, #00ffee, #00d4ff, #1e90ff) !important;
 }
 
 .ptx-content section.introduction {
   background: rgba(255, 255, 255, 0.10);
-  padding: 1.5rem;
-  padding-left: 2rem !important;
-  margin-bottom: 2rem;
+  padding: 1.25rem;
+  padding-left: 1.75rem !important;
+  margin-bottom: 1.5rem;
   border-radius: 4px;
   position: relative !important;
 }
