@@ -511,3 +511,22 @@ body .ptx-navbar .searchbox #searchresultsplaceholder.search-active,
   border-radius: 8px !important;
   color: #14b5ff !important;
 }
+
+/* ============================================================ */
+/*  Section 14: Permalinks and Hover Overlays                   */
+/* ============================================================ */
+/* Hide annoying permalink overlays and their text descriptions */
+.autopermalink,
+.permalink {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* Ensure no pseudo-elements from data-description are shown */
+[data-description]::before,
+[data-description]::after {
+    display: none !important;
+    content: none !important;
+}
