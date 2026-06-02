@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-wedge-product-and-angular-momentum" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Physical Interpretations of the Wedge Product</title>
+        <introduction>
+        <p>
+            <term>Note ID:</term> 202604110004 |
+            <term>Tags:</term> <tag>geometric algebra</tag>, <tag>classical mechanics</tag>, <tag>vector calculus</tag>
+        </p>
+        </introduction>
+
+        <subsubsection xml:id="subsubsec-wedge-product-angular-momentum">
+            <title>Wedge Product and Angular Momentum</title>
+            <claim>
+                <p>
+                    The <term>wedge product</term> captures oriented area and is analogous to angular momentum or flux in physical systems.
+                </p>
+            </claim>
+        </subsubsection>
+
+        <conclusion>
+                    <p>
+                        🖇️ <alert>Linked Notes:</alert> <!-- <xref ref="sec-geometric-algebra" detail="sec" /> -->
+                    </p>
+                    <p>
+                        🔖 <alert>References:</alert> <xref ref="hestenes1993hamiltonian" detail="biblio"><em>Hamiltonian Mechanics with Geometric Calculus</em></xref>
+                    </p>
+        </conclusion>
+
+</subsection>
