@@ -35,11 +35,13 @@
   max-width: 100%;
 }
 
-/* Headings with underlines (Part, Chapter, Section, Appendix) - Gradient covers type, number, and title */
+/* Headings with underlines (Part, Chapter, Section, Appendix, Exercises, Solutions) - Gradient covers type, number, and title */
 .ptx-content section.part > :is(h1, h2, h3).heading,
 .ptx-content section.chapter > :is(h1, h2, h3).heading,
 .ptx-content section.section > :is(h1, h2, h3).heading,
-.ptx-content section.appendix > :is(h1, h2, h3).heading {
+.ptx-content section.appendix > :is(h1, h2, h3).heading,
+.ptx-content section.exercises > :is(h1, h2, h3).heading,
+.ptx-content section.solutions > :is(h1, h2, h3).heading {
   background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
@@ -53,7 +55,9 @@
 .ptx-content section.part > :is(h1, h2, h3).heading > *,
 .ptx-content section.chapter > :is(h1, h2, h3).heading > *,
 .ptx-content section.section > :is(h1, h2, h3).heading > *,
-.ptx-content section.appendix > :is(h1, h2, h3).heading > * {
+.ptx-content section.appendix > :is(h1, h2, h3).heading > *,
+.ptx-content section.exercises > :is(h1, h2, h3).heading > *,
+.ptx-content section.solutions > :is(h1, h2, h3).heading > * {
   background: none !important;
   -webkit-background-clip: initial !important;
   background-clip: initial !important;
@@ -92,11 +96,13 @@
   display: inline;
 }
 
-/* Base style for main headings underline - Restricted to Part, Chapter, Section, and Appendix */
-.ptx-content section.part :is(h1, h2, h3).heading::after,
-.ptx-content section.chapter :is(h1, h2, h3).heading::after,
-.ptx-content section.section :is(h1, h2, h3).heading::after,
-.ptx-content section.appendix :is(h1, h2, h3).heading::after {
+/* Base style for main headings underline - Restricted to Part, Chapter, Section, Appendix, Exercises, and Solutions */
+.ptx-content section.part > :is(h1, h2, h3).heading::after,
+.ptx-content section.chapter > :is(h1, h2, h3).heading::after,
+.ptx-content section.section > :is(h1, h2, h3).heading::after,
+.ptx-content section.appendix > :is(h1, h2, h3).heading::after,
+.ptx-content section.exercises > :is(h1, h2, h3).heading::after,
+.ptx-content section.solutions > :is(h1, h2, h3).heading::after {
   content: "";
   display: block;
   height: 2px;
@@ -183,7 +189,7 @@
   -webkit-text-fill-color: inherit !important;
 }
 
-.ptx-content section.frontmatter :is(h1, h2).heading::after {
+.ptx-content section.frontmatter > :is(h1, h2).heading::after {
   background: linear-gradient(110deg, #00ffee, #00d4ff, #1e90ff) !important;
 }
 
@@ -231,7 +237,7 @@
   -webkit-text-fill-color: inherit !important;
 }
 
-.ptx-content .paragraphs .heading .title::after {
+.ptx-content .paragraphs > .heading .title::after {
   content: "" !important;
 }
 
