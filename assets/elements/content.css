@@ -36,13 +36,10 @@
   border-bottom: none !important;
 }
 
-/* Base style for main headings underline */
-.ptx-content h1.heading::after,
-.ptx-content h2.heading::after,
-.ptx-content h3.heading::after,
-.ptx-content h4.heading::after,
-.ptx-content h5.heading::after,
-.ptx-content h6.heading::after {
+/* Base style for main headings underline - Restricted to Part, Chapter, and Section */
+.ptx-content section.part > h1.heading::after,
+.ptx-content section.chapter > h2.heading::after,
+.ptx-content section.section > h2.heading::after {
   content: "";
   display: block;
   height: 2px;
@@ -145,16 +142,6 @@
   margin-bottom: 0.75rem !important;
   border: none !important;
   border-bottom: none !important;
-}
-
-.ptx-content .paragraphs .heading::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  margin-top: 4px;
-  background: var(--gradient-blue-to-purple) !important;
-  border-radius: 2px;
 }
 
 .ptx-content .paragraphs .heading .title::after {

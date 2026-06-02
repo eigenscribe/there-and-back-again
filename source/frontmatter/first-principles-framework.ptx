@@ -13,9 +13,6 @@
       </p>
   </introduction>
 
-  <assemblage>
-    Conceptual bridges across domains are established through shared rudimentary fundamentals (e.g., mathematical principles and physical laws). Analogy alone is not sufficient as a basis for establishing neither concepts nor conclusions.
-  </assemblage>
 
 
 
@@ -25,10 +22,12 @@
         <p>
           <ol>
             <li><alert>Strive to always explicitly justify foundational assumptions</alert> based on grounded empirical observation, physical law, or formally defined axioms. Anything that is not explictly decomposed into foundational components must include a note alerting the reader along with a reputatble source and further readings that do go into foundatoinal derivations. This allows flexibility for me (the author) as I learn material myself and as I add content to There and Back Again, especialy in the beginning phase of compiling this work.</li>
-            <li><alert>Each inferrentiable step is traceable</alert> such that intermmediate reasoning can be sanity checked, reproduced, and communicated to other learners.</li>
+            <li><alert>Each inferential step is traceable</alert> such that intermediate reasoning can be sanity checked, reproduced, and communicated to other learners.</li>
             <li><alert>Constructed bridges between domains are constructed from shared primitives.</alert> Analogy alone is never sufficient.</li>
-            <li><alert>Derived results and conclusions remain falisifiable</alert> and can be independently verified by the reader. This enables irrative correction and refinement of both assumptions and conclusions.</li>
+            <li><alert>Derived results and conclusions remain falsifiable</alert> and can be independently verified by the reader. This enables irrative correction and refinement of both assumptions and conclusions.</li>
             <li><alert>AI usage must be transparent</alert> and documented where appropriate.</li>
+            <li><alert>Analogy alone is not sufficient</alert> as a basis for establishing neither concepts nor conclusions.</li>
+            <li><alert>Heuristics and analogies that are used must be noted</alert> with a :ember:</li>
           </ol>
         </p>
     </note>
