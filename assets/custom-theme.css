@@ -3,6 +3,7 @@
 
 /* Modular Element Styles */
 @import "elements/tables.css";
+@import "elements/metadata.css";
 
 /* ============================================================ */
 /*  THERE-AND-BACK-AGAIN  —  Custom Theme (organized)          */
@@ -360,7 +361,7 @@ body.pretext {
 .ptx-masthead .title-container h1 code.code-inline {
   font-family: var(--font-mono) !important;
   background: #252a33 !important;
-  color: #00E8FF !important;
+  color: #ffb3cc !important;
   padding: 3px 8px !important;
   font-size: 0.88em !important;
   border-radius: 4px !important;
@@ -807,7 +808,7 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 .ptx-content h6.heading code.code-inline {
   font-family: var(--font-mono) !important;
   background: #252a33 !important;
-  color: #00e8ff !important;
+  color: #ffb3cc !important;
   padding: 3px 8px !important;
   font-size: 0.88em !important;
   border-radius: 4px !important;
@@ -1140,7 +1141,7 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   padding: 3px 8px;
   font-size: 0.88em;
   background: #252a33 !important;
-  color: #00E8FF !important;
+  color: #ffb3cc !important;
   border-radius: 4px;
   border: none;
 }
@@ -1170,7 +1171,7 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   padding: 3px 8px;
   font-size: 0.88em;
   background: #252a33 !important;
-  color: #00E8FF !important;
+  color: #ffb3cc !important;
   border-radius: 4px;
   border: none;
 }
@@ -1375,86 +1376,6 @@ code[class*="language-"] .line-highlight {
   line-height: 1.7;
 }
 
-/* ============================================
-   Tags, Pills, and Badges
-   ============================================ */
-.ptx-content .idx,
-.ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline,
-.ptx-tag-pill,
-.ptx-tag,
-.badge {
-    display: inline-block;
-    font-family: 'Aclonica', sans-serif;
-    font-size: 0.65rem;
-    padding: 4px 12px;
-    background: linear-gradient(135deg, rgba(34, 197, 94, 0.3), rgba(22, 163, 74, 0.25)) !important;
-    border: 1px solid rgba(34, 197, 94, 0.6) !important;
-    border-radius: 10px;
-    color: #86efac !important;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    font-weight: 500;
-    margin-right: 0.5rem;
-    margin-bottom: 0.25rem;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-}
-
-.ptx-content .idx:hover,
-.ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline:hover,
-.ptx-tag-pill:hover,
-.ptx-tag:hover,
-.badge:hover {
-    background: linear-gradient(135deg, rgba(34, 197, 94, 0.45), rgba(22, 163, 74, 0.4)) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(34, 197, 94, 0.3);
-    color: #a7f3d0 !important;
-}
-
-/* Specific Style for Note IDs (Purple Glassmorphic) */
-.ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline:first-of-type {
-    background: linear-gradient(145deg, rgba(168, 85, 247, 0.35), rgba(118, 82, 245, 0.25)) !important;
-    border: 1px solid rgba(168, 85, 247, 0.5) !important;
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    font-size: 0.75rem !important;
-    box-shadow: 0 0 8px rgba(168, 85, 247, 0.2);
-}
-
-.ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline:first-of-type:hover {
-    background: linear-gradient(145deg, rgba(168, 85, 247, 0.45), rgba(118, 82, 245, 0.35)) !important;
-    box-shadow: 0 0 15px rgba(168, 85, 247, 0.35);
-    color: #ffffff !important;
-    border-color: rgba(168, 85, 247, 0.7) !important;
-}
-
-.ptx-tag-pill-purple,
-.id-badge {
-    display: inline-block;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.35), rgba(139, 92, 246, 0.3), rgba(168, 85, 247, 0.25)) !important;
-    border: 1px solid rgba(129, 140, 248, 0.45) !important;
-    color: #c4b5fd !important;
-
-
-    /* background: linear-gradient(145deg, rgba(168, 85, 247, 0.35), rgba(118, 82, 245, 0.3));
-    border: 1px solid rgba(168, 85, 247, 0.6);
-    color: #ffffff !important; */
-    font-weight: 700 !important;
-    font-size: 0.75rem !important;
-    border-radius: 100px;
-    font-family: 'Aclonica', sans-serif;
-    letter-spacing: 1px;
-    box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
-    transition: all 0.3s ease;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    /* backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px); */
-}
-
-.id-badge:hover {
-    box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
-}
 
 /* ------------------------------------------------------------ */
 /*  Section 8.5: Custom Emoji Icons                             */
