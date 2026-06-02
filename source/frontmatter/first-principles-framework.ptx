@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<paragraphs xml:id="sec-eigenscribe-methodology" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>First-Principles Framework</title>
+<assemblage xml:id="assemblage-first-principles" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>First-Principles Reasoning</title>
   <idx>first-principles</idx>
 
-  <introduction>
-      <p>
-        The Eigenscribe framework requires that assumptions are stated explicitly, inference steps remain traceable, and conclusions are reproducible and open to revision.
-      </p>
-      <p>
-        This commitment to <term>first-principles reasoning</term> is designed to promote clarity, rigor, and intellectual honesty so that sanity checks can be performed independently by the reader, a vital step in the learning process that the lifeblood of science and engineering depend on. It is also intended to be compatible with my own personal exploratory and reasoning heuristic reasoning as I add content to 'There and Back Again' and other related projects.
-      </p>
-  </introduction>
+   <p>
+     At the core of this system is the <strong>Eigenscribe methodology</strong>, which demands that all reasoning be grounded in explicit assumptions and traceable inference.
+   </p>
 
+   <p>
+     To ensure clarity, rigor, and intellectual honesty, the following principles govern every entry:
+     <ol>
+       <title>Core Guidelines</title>
 
+       <li><strong>Explicit Assumptions:</strong> Foundational assumptions must be justified by empirical observation, physical law, or formal axioms.</li>
+       <li><strong>Traceable Inference</strong> Every inferential step must be transparent, allowing for independent sanity checks and reproduction by the reader.</li>
 
+       <li><strong>Ember Warning:</strong> Any content that violates the above guidelines should be marked with a :ember: </li>
 
+     </ol>
+   </p>
 
     <note xml:id="note-core-guidelines">
       <title>Core Guidelines</title>
@@ -32,4 +36,4 @@
         </p>
     </note>
 
-</paragraphs>
+</assemblage>

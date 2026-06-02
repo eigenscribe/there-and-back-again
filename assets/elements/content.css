@@ -26,20 +26,36 @@
 .ptx-content h4.heading,
 .ptx-content h5.heading,
 .ptx-content h6.heading {
-  background: var(--gradient-blue-to-purple) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
   font-family: var(--font-heading) !important;
   display: block !important;
   border: none !important;
   border-bottom: none !important;
 }
 
+/* Headings with underlines (Part, Chapter, Section) need gradient on children to avoid clipping ::after */
+.ptx-content section.part > :is(h1, h2).heading > *,
+.ptx-content section.chapter > :is(h1, h2).heading > *,
+.ptx-content section.section > :is(h1, h2).heading > * {
+  background: var(--gradient-blue-to-purple) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline;
+}
+
+/* Subsection and deeper headings (no underlines) can use standard gradient on the heading itself */
+.ptx-content section.subsection > :is(h2, h3, h4).heading,
+.ptx-content section.section > :is(h3, h4, h5, h6).heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading) {
+  background: var(--gradient-blue-to-purple) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
 /* Base style for main headings underline - Restricted to Part, Chapter, and Section */
-.ptx-content section.part > h1.heading::after,
-.ptx-content section.chapter > h2.heading::after,
-.ptx-content section.section > h2.heading::after {
+.ptx-content section.part :is(h1, h2).heading::after,
+.ptx-content section.chapter :is(h1, h2).heading::after,
+.ptx-content section.section :is(h1, h2).heading::after {
   content: "";
   display: block;
   height: 2px;
@@ -49,7 +65,8 @@
   border-radius: 2px;
 }
 
-.ptx-content h1.heading {
+/* Part heading should be larger even if rendered as h2 */
+.ptx-content section.part :is(h1, h2).heading {
   font-size: 2.5rem !important;
   margin-bottom: 1.5rem;
 }
@@ -100,16 +117,14 @@
 }
 
 /* Front Matter page title - matches website header gradient */
-.ptx-content section.frontmatter h2.heading,
-.ptx-content section.frontmatter h1.heading {
+.ptx-content section.frontmatter > :is(h1, h2).heading > * {
   background: var(--gradient-cyan-to-blue) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 
-.ptx-content section.frontmatter h2.heading::after,
-.ptx-content section.frontmatter h1.heading::after {
+.ptx-content section.frontmatter :is(h1, h2).heading::after {
   background: var(--gradient-cyan-to-blue) !important;
 }
 

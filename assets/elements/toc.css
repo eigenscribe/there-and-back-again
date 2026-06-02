@@ -54,8 +54,8 @@
 }
 
 /* TOC Chapter headers (Prototypes, Tutorials, etc.) */
-.ptx-toc ul.structural > li > .codenumber,
-.ptx-toc ul.structural > li > .title {
+.ptx-toc ul.structural > li .codenumber,
+.ptx-toc ul.structural > li .title {
   background: var(--gradient-cyan-to-blue);
   -webkit-background-clip: text;
   background-clip: text;

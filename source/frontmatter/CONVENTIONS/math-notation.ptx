@@ -9,22 +9,23 @@
 
     <dl>
         <li>
-            <title><m>\mathbf{u},\mathbf{v}</m></title>
+            <title><m>\vec{u},\vec{v}</m></title>
             <idx>vector space</idx>
+            <idx>vector</idx>
             <p> 
-                Vectors in the <em>vector space</em> <m>\mathcal{V}_n\in\mathbb{R}^n</m>.
+                Vectors in the <strong>vector space</strong> <m>\mathcal{V}_n\in\mathbb{R}^n</m>. These are grade-1 objects in Clifford algebra.
             </p>
         </li>
         <li>
-            <title><m>(\mathbf{q},\mathbf{p})</m></title>
+            <title><m>(\vec{q},\vec{p})</m></title>
             <idx>phase space</idx>
             <idx>generalized coordinates</idx>
             <idx>conjugate momenta</idx>
             <p>
-                A point in <em>phase space</em> where <m>\mathbf{q}</m> represents the <em>generalized coordinates</em> and <m>\mathbf{p}</m> represents the <em>conjugate momenta</em>.
+                A point in <em>phase space</em> where <m>\vec{q}</m> represents the <em>generalized coordinates</em> and <m>\vec{p}</m> represents the <em>conjugate momenta</em>.
             </p>
             <p> 
-                For this work, we will assume <m>q=\|\mathbf{q}\|</m> denotes the magnitude of the coordinate vector and <m>p=\|\mathbf{p}\|</m> denotes the magnitude of the momentum vector, respectively.
+                For this work, we will assume <m>q=\|\vec{q}\|</m> denotes the magnitude of the coordinate vector and <m>p=\|\vec{p}\|</m> denotes the magnitude of the momentum vector, respectively.
             </p>
         </li>
         <li>
@@ -32,6 +33,13 @@
             <idx>Poisson bracket</idx>
             <p>
                 The <em>Poisson bracket</em> between two scalar functions <m>A(\mathbf{q},\mathbf{p})</m> and <m>B(\mathbf{q},\mathbf{p})</m>.
+            </p>
+        </li>
+        <li>
+            <title><m>\overleftrightarrow{B}</m></title>
+            <idx>bivector</idx>
+            <p>
+                A <em>bivector</em> (grade-2) quantity.
             </p>
         </li>
     </dl>
