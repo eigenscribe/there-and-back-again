@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="exercises-sofias-practice-set-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Practice Set 4 - Hamiltonian Flow vs. Vector Flow vs. Vector Potentials</title>
+
+
+    <exercisegroup xml:id="eg-part-1-foundations">
+        <title>Geometric Algebra Foundations and Definitions</title>
+
+
+        <xi:include href="part-1/ex-part-1-problem-3.ptx"/>
+
+    </exercisegroup>
+
+</exercises>

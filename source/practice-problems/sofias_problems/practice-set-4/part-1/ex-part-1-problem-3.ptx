@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercise xml:id="ex-ga-vector-potential-full" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Vector Potential &amp; Gauge Transformations in Geometric Algebra</title>
+
+    <introduction>
+        <p>
+            <strong>Setup:</strong> Consider a uniform magnetic field <m>\vec{B} = B_0 \mathbf{e}_z</m>.
+            In Geometric Algebra (GA), we represent this as the bivector:
+            <me>
+                \bivec{B} = B_0 (\mathbf{e}_x \wedge \mathbf{e}_y) \, .
+            </me>
+            Note that in 3D, the traditional vector <m>\vec{B}</m> is the dual of this bivector via <m>\vec{B} = -I \bivec{B}</m>, where <m>I = \mathbf{e}_x \mathbf{e}_y \mathbf{e}_z</m>.
+        </p>
+    </introduction>
+
+    <task>
+        <statement>
+            <p>
+                Find the vector potential <m>\vec{A}</m> such that <m>\bivec{B} = \vec{\nabla} \wedge \vec{A}</m>.
+                Specifically, verify that the following two gauges satisfy this condition:
+            </p>
+            <ul>
+                <li><strong>Symmetry Gauge:</strong> <m>\vec{A}_{\text{sym}} = \frac{B_0}{2}(x\mathbf{e}_y - y\mathbf{e}_x)</m></li>
+                <li><strong>Landau Gauge:</strong> <m>\vec{A}_{\text{Landau}} = -B_0 y \mathbf{e}_x</m></li>
+            </ul>
+        </statement>
+        <hint>
+            Expand <m>\vec{\nabla} \wedge \vec{A}</m> using the definition <m>(\vec{\nabla} \wedge \vec{A})_{ij} = \partial_i A_j - \partial_j A_i</m>.
+            Show that only the <m>xy</m>-component is non-zero and equals <m>B_0</m>.
+        </hint>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Define a gauge transformation as <m>\vec{A}' = \vec{A} + \vec{\nabla}\chi</m>.
+                What is the physical significance of the scalar function <m>\chi</m>?
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Determine the specific scalar function <m>\chi(x,y)</m> that transforms the Landau gauge potential into the Symmetry gauge potential:
+                <me>
+                    \vec{A}_{\text{sym}} = \vec{A}_{\text{Landau}} + \vec{\nabla}\chi
+                </me>
+            </p>
+        </statement>
+        <hint>
+            Calculate the difference <m>\vec{A}_{\text{sym}} - \vec{A}_{\text{Landau}}</m> and integrate component-wise.
+        </hint>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Prove that the magnetic bivector is invariant under this transformation:
+                <me>
+                    \bivec{B}' = \vec{\nabla} \wedge \vec{A}' = \bivec{B}
+                </me>
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Why does adding the gradient term <m>\vec{\nabla}\chi</m> not change the bivector field <m>\bivec{B}</m>?
+                Explain this in terms of the properties of the wedge product and second derivatives.
+            </p>
+        </statement>
+    </task>
+</exercise>

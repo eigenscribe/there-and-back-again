@@ -22,22 +22,20 @@ jobs:
     build:
         runs-on: ubuntu-latest
         container: oscarlevin/pretext-full
+        env:
+            FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
         steps:
             - name: Checkout source
               uses: actions/checkout@v4
 
-            - name: setup git config
-              run: |
-                git config --global --add safe.directory $(pwd)
-
             - name: install deps
-              run: pip install -r requirements.txt --break-system-packages --no-cache-dir
+              run: pip install -r requirements.txt
 
             - name: set up node
               uses: actions/setup-node@v4
               with:
-                node-version: '22'
+                node-version: '24'
 
             - name: install local ptx files
               run: pretext --version
@@ -55,9 +53,7 @@ jobs:
                     pretext build
                 fi
             - name: stage deployment
-              run: |
-                pretext deploy --stage-only
-                touch output/stage/.nojekyll
+              run: pretext deploy --stage-only
 
             - name: Bundle output/stage as artifact
               uses: actions/upload-artifact@v4
