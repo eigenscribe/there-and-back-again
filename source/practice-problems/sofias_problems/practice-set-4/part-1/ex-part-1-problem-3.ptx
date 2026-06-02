@@ -5,7 +5,7 @@
 
     <introduction>
         <p>
-            <strong>Setup:</strong> Consider a uniform magnetic field <m>\vec{B} = B_0 \mathbf{e}_z</m>.
+            <alert>Setup:</alert> Consider a uniform magnetic field <m>\vec{B} = B_0 \mathbf{e}_z</m>.
             In Geometric Algebra (GA), we represent this as the bivector:
             <me>
                 \bivec{B} = B_0 (\mathbf{e}_x \wedge \mathbf{e}_y) \, .
@@ -21,8 +21,8 @@
                 Specifically, verify that the following two gauges satisfy this condition:
             </p>
             <ul>
-                <li><strong>Symmetry Gauge:</strong> <m>\vec{A}_{\text{sym}} = \frac{B_0}{2}(x\mathbf{e}_y - y\mathbf{e}_x)</m></li>
-                <li><strong>Landau Gauge:</strong> <m>\vec{A}_{\text{Landau}} = -B_0 y \mathbf{e}_x</m></li>
+                <li><alert>Symmetry Gauge:</alert> <m>\vec{A}_{\text{sym}} = \frac{B_0}{2}(x\mathbf{e}_y - y\mathbf{e}_x)</m></li>
+                <li><alert>Landau Gauge:</alert> <m>\vec{A}_{\text{Landau}} = -B_0 y \mathbf{e}_x</m></li>
             </ul>
         </statement>
         <hint>

@@ -7,16 +7,16 @@
 
     <introduction>
         <p>
-            <strong>Years:</strong> 1736-1813
+            <alert>Years:</alert> 1736-1813
         </p>
         <p>
-            <strong>Citizenship:</strong> Italian-French
+            <alert>Citizenship:</alert> Italian-French
         </p>
         <p>
-            <strong>The Hook:</strong> Reformulated Newton's laws into a scalar optimization problem, now known as the Principle of Least Action.
+            <alert>The Hook:</alert> Reformulated Newton's laws into a scalar optimization problem, now known as the Principle of Least Action.
         </p>
         <p>
-            <strong>Core Contribution:</strong> Introduced the <term>Lagrangian function</term> and defined the <term>action</term>.
+            <alert>Core Contribution:</alert> Introduced the <term>Lagrangian function</term> and defined the <term>action</term>.
         </p>
     </introduction>
     

@@ -183,6 +183,17 @@
   font-family: 'Aclonica', sans-serif;
 }
 
+/* Bold and Strong text with Gradient */
+.ptx-content :is(strong, b, em.alert):not(.conclusion .alert) {
+  background: var(--gradient-light-to-dark-blue) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-family: var(--font-heading) !important;
+  font-weight: bold !important;
+  text-shadow: 0 0 10px rgba(0, 232, 255, 0.2); /* Soften the 'harsh' edges */
+}
+
 /* Math Content */
 .ptx-content .displaymath {
   background: rgba(0, 155, 245, 0.05) !important;

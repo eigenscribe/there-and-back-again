@@ -97,6 +97,7 @@ html.dark-mode {
   /* Gradients */
   --gradient-light-to-dark-blue: linear-gradient(to right bottom, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
   --gradient-cyan-to-blue: linear-gradient(130deg, #00ffee, #0a95eb) !important;
+  --gradient-pink: linear-gradient(to right bottom, #ff76a1, #ff40a1, #f76166) !important;
   --gradient-blue-to-purple: linear-gradient(to right bottom, #00e8ff, #14b5ff, #5280ff, #7952f5) !important;
 
 }
