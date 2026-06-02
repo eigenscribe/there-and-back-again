@@ -30,6 +30,7 @@
 
         <li>
             <title>Symmetry Gauge</title>
+            <idx><term>symmetry gauge</term></idx>
             <p>
                 Preserves rotational symmetry.
                 <me>
@@ -40,6 +41,7 @@
 
         <li>
             <title>Landau Gauge</title>
+            <idx><term>landau gauge</term></idx>
             <p>
                 Preserves translational symmetry along the <m>x</m>-axis.
                 <me>
@@ -53,7 +55,7 @@
 
     <lemma>
         <title>Vector Potential for a Uniform Magnetic Field</title>
-        <idx><term>vector potential</term></idx>
+        <idx>vector potential</idx>
         <statement>
             <p>
                 Consider two gauges of a uniform magnetic field <m>\vec{B}=B_0\mathbf{e}_z</m> with respective potentials <m>\vec{A}_1</m> and <m>\vec{A}_2</m>.
@@ -68,7 +70,7 @@
     </lemma>
 
     <conclusion>
-        <h>🔗 Linked Notes:</h> <xref ref="claim-vector-potential-generalization"/>
+        🔗 <strong>Linked Notes:</strong> <xref ref="claim-vector-potential-generalization"/>
     </conclusion>
 
 </subsection>

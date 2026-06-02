@@ -41,14 +41,6 @@
   <abstract>
     <p>
       :logo: <em>There and Back Again</em> is a <pretext />-powered personal knowledge management system developed by Eigenscribe © that demonstrates an integrated workflow for technical learning, documentation, and research.
-      The project spans advanced STEM domains, with a focus on neuroscience, theoretical physics, statistical mechanics, and machine learning, and the construction of "concept bridges" between fields.
-    </p>
-    <p>
-      At its core is the <strong>Eigenscribe © methology</strong>, which combines AI-assisted with first-principles logic to produce transparent, reproducible, and interpretable reasoning.
-      The system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to reformulate classical electromagnetism and quantum mechanics, replacing fragmented concepts from vector calculus with a coherent geometric framework.
-    </p>
-    <p>
-      This system is designed to be a scalable, portable and self-correcting informational structure that supports independent research and professional development in remote, asynchronous environments.
       By separating raw derivation, conceptual synthesis, and canonical reference into distinct, interlinked layers, it serves as a living case study in networked mathematical thinking.
     </p>
   </abstract>
@@ -63,9 +55,9 @@
       <idx>first-principles reasoning</idx>
 
       <assemblage>
-
+        <title>Methodology</title>
         <p>
-          The Eigenscribe framework is a structured appraoch to reasoning that aims to empower independent learning and research by emphasizing transparency and reporducibility. This is particularly important at the dawn of the AI era where the ability to sanity check is vital not onlyy the individual but for the fidelity of the scientific ecosystem as a whole.
+          The :logo: <em>Eigenscribe © methodology</em> is a structured appraoch to reasoning that aims to empower independent learning and research by emphasizing transparency and reporducibility. This is particularly important at the dawn of the AI era where the ability to sanity check is vital not onlyy the individual but for the fidelity of the scientific ecosystem as a whole.
         </p>
 
         <p>
@@ -76,11 +68,14 @@
       <!-- Include your dedicated first-principles file -->
       <xi:include href="first-principles-framework.ptx"/>
 
-      <blockquote>
+      <remark>
         <p>
-          <h>Note:</h> The Eigenscribe Framework will be routinely iterated over time.
+          This system is designed to be a scalable, portable and self-correcting informational structure that supports independent research and professional development in remote, asynchronous environments.
         </p>
-      </blockquote>
+        <p>
+          <h>Note:</h> :logo: <em>There and Back Again</em> will be routinely iterated over time.
+        </p>
+      </remark>
 
     </paragraphs>
 
