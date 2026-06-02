@@ -172,12 +172,12 @@
   background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
 }
 
-/* Assemblage - Blue-Purple Gradient (8:5 Ratio) */
+/* Assemblage - Blue-Purple Gradient (Adjusted Purple amount) */
 .ptx-content .assemblage-like .heading {
-  background-image: linear-gradient(to right, var(--primary-color) 0%, var(--primary-color) 61.5%, var(--secondary-color) 100%) !important;
+  background-image: linear-gradient(to right, var(--primary-color) 0%, var(--primary-color) 40%, var(--secondary-color) 100%) !important;
 }
 .ptx-content .assemblage-like::before {
-  background: linear-gradient(to bottom, var(--primary-color) 0%, var(--primary-color) 61.5%, var(--secondary-color) 100%) !important;
+  background: linear-gradient(to bottom, var(--primary-color) 0%, var(--primary-color) 40%, var(--secondary-color) 100%) !important;
 }
 
 /* ============================================
@@ -248,9 +248,9 @@
   ===================*/
 .ptx-content .assemblage-like {
   background: linear-gradient(135deg, 
-    rgba(20, 181, 255, 0.2) 0%, 
-    rgba(20, 181, 255, 0.2) 61.5%,
-    rgba(155, 125, 255, 0.2) 100%
+    rgba(20, 181, 255, 0.1) 0%, 
+    rgba(20, 181, 255, 0.1) 40%,
+    rgba(155, 125, 255, 0.1) 100%
   ) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
