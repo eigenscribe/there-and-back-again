@@ -8,7 +8,7 @@
 .ptx-tag,
 .badge {
     display: inline-block;
-    font-family: 'Aclonica', sans-serif;
+    font-family: 'Aclonica', sans-serif !important;
     font-style: normal !important;
     font-size: 0.65rem;
     padding: 4px 12px;
@@ -47,6 +47,7 @@
     font-weight: 700 !important;
     font-size: 0.75rem !important;
     box-shadow: 0 0 8px rgba(168, 85, 247, 0.2);
+    font-family: "lucida typewriter", lucidatypewriter, monospace !important;
 }
 
 .ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline:first-of-type:hover {
@@ -68,7 +69,7 @@
     font-weight: 700 !important;
     font-size: 0.75rem !important;
     border-radius: 100px;
-    font-family: 'Aclonica', sans-serif;
+    font-family: Aclonica, sans-serif !important;
     letter-spacing: 1px;
     box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
     transition: all 0.3s ease;
@@ -85,7 +86,7 @@
    ============================================ */
 .ptx-content .conclusion .para .alert,
 .ptx-content .conclusion .para code.code-inline:last-of-type,
-.ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline:last-of-type:not(:first-of-type) {
+.ptx-content :is(.blockquote, .aside, .paragraphs) .para code.code-inline:last-of-type:not(:first-of-type) {
     background: linear-gradient(145deg, rgba(14, 165, 233, 0.55), rgba(2, 132, 199, 0.25)) !important;
     border: 1px solid rgba(14, 165, 233, 0.7) !important;
     color: #bae6fd !important;
@@ -103,4 +104,11 @@
     color: #e0f2fe !important;
     border-color: rgba(14, 165, 233, 0.7) !important;
     transform: translateY(-2px);
+}
+
+/* ============================================
+   Introduction Hide Last Tag
+   ============================================ */
+.ptx-content .introduction .para code.code-inline:last-of-type:not(:first-of-type) {
+    display: none !important;
 }

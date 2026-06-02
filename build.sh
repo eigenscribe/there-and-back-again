@@ -112,14 +112,24 @@ CSSOVERRIDE
 
 # Inject CSS link and favicon into all HTML files
 echo "Injecting custom CSS, emojis and favicon into HTML files..."
-find output/web -maxdepth 1 -name "*.html" -print0 | while IFS= read -r -d '' file; do
-  # Inject custom emoji spans
+
+# 1. Process ALL HTML files (including knowls) for emojis and tag brackets
+echo "Post-processing all HTML files (recursive)..."
+find output/web -name "*.html" -print0 | while IFS= read -r -d '' file; do
+  # Inject custom emoji spans (moved to recursive find to cover knowls)
   perl -i -pe 's/:favicon:/<span class="twemoji" title=":favicon:"><\/span>/g' "$file"
   perl -i -pe 's/:proofmark:/<span class="twemoji" title=":proofmark:"><\/span>/g' "$file"
   perl -i -pe 's/:eigenote:/<span class="twemoji" title=":eigenote:"><\/span>/g' "$file"
   perl -i -pe 's/:ember:/<span class="twemoji" title=":ember:"><\/span>/g' "$file"
   perl -i -pe 's/:robot:/<span class="twemoji" title=":robot:"><\/span>/g' "$file"
 
+  # Remove brackets from <tag> elements (rendered as <code>&lt;...&gt;</code>)
+  # This addresses the issue of removing brackets around special tag elements
+  perl -i -pe 's/(<code class="code-inline tex2jax_ignore">)&lt;(.*?)&gt;(<\/code>)/$1$2$3/g' "$file"
+done
+
+# 2. Process only top-level HTML files for path-sensitive injections
+find output/web -maxdepth 1 -name "*.html" -print0 | while IFS= read -r -d '' file; do
   # Check if the file already has the custom CSS link
   if ! grep -q "custom-theme.css" "$file"; then
     # Insert the link tag in head (use perl for portable in-place edit on macOS)
@@ -213,5 +223,14 @@ find output/web -maxdepth 1 -name "*.html" -print0 | while IFS= read -r -d '' fi
   fi
 done
 
+# 3. Clean up brackets in search index
+if [ -f "output/web/lunr-pretext-search-index.js" ]; then
+  echo "Cleaning up brackets in search index..."
+  # Remove brackets from Note IDs and Tags in the search index
+  perl -i -pe 's/<(\d{12})>/$1/g' output/web/lunr-pretext-search-index.js
+  perl -i -pe 's/Tags:\s+<([^>]+)>/Tags: $1/g' output/web/lunr-pretext-search-index.js
+  # Handle multiple tags: replace " , <tag>" with " , tag"
+  perl -i -pe 's/\s+,\s+<([^>]+)>/ , $1/g' output/web/lunr-pretext-search-index.js
+fi
 
 echo "✅ Build complete! Custom styling and assets applied."
