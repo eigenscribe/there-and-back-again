@@ -83,15 +83,17 @@
 
     </paragraphs>
 
-    <!-- 2. Conventions (keep what you already built) -->
-    <paragraphs xml:id="conventions">
-      <title>Conventions</title>
 
-      <xi:include href="CONVENTIONS/math-notation.ptx"/>
-      <xi:include href="CONVENTIONS/abbreviations.ptx"/>
-      <xi:include href="CONVENTIONS/icons.ptx"/>
 
-    </paragraphs>
+  </preface>
+
+  <!-- 3. Conventions -->
+  <preface xml:id="conventions">
+    <title>Conventions</title>
+
+    <xi:include href="CONVENTIONS/math-notation.ptx"/>
+    <xi:include href="CONVENTIONS/abbreviations.ptx"/>
+    <xi:include href="CONVENTIONS/icons.ptx"/>
 
   </preface>
   

@@ -1,0 +1,10 @@
+<appendix xml:id="app-mathematical-foundations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Mathematical Foundations</title>
+  <introduction>
+    <p>Non-geometric algebra mathematics.</p>
+  </introduction>
+
+  <xi:include href="appendix-mathematical-foundations/sec-computational-methods/sec-computational-methods.ptx"/>
+
+
+ </appendix>

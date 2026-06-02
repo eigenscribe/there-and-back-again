@@ -8,6 +8,7 @@
   <!-- <xi:include href="appendix-mathematical-foundations.ptx"/>
   <xi:include href="appendix-physics-foundations.ptx"/>
   <xi:include href="appendix-tables.ptx"/> -->
+  <xi:include href="appendix-mathematical-foundations.ptx"/>
 
   <xi:include href="appendix-geometric-algebra.ptx"/>
 

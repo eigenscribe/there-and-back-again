@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-computational-methods" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Computational Methods</title>
+  <idx>computational methods</idx>
+  <introduction>
+    <!-- insert intro here -->
+  </introduction>
+
+  <xml:include href="NUMERICAL_METHODS/subsec-numerical-methods.ptx"/>
+
+ </section>
