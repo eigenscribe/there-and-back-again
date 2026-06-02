@@ -1,4 +1,6 @@
 #!/bin/bash
+# NOTE TO FUTURE AI: This project uses dual build scripts (build.sh and build.ps1).
+# ALWAYS keep them in sync when making changes to either.
 set -e
 
 # Check if running on Windows (Git Bash/WSL) and if a PowerShell script exists
