@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<assemblage xml:id="assemblage-eigen-architecture" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Architecture: Networked Mathematical Thinking</title>
+
+  <p>
+     To support the first-principles guidelines, :logo: <em>There and Back Again</em> is divided into the functional layers.
+     Each a distinct purpose in the research lifecycle:
+  </p>
+
+  <dl>
+
+    <dt>Frontmatter</dt>
+    <dd>The "constitution" of the :logo: <em>There and Back Again</em> where strict conventions, notations, and methodology is established.</dd>
+
+    <dt>🪶 Scribing</dt>
+    <dd>
+      The "living" layer containing field notes, historical context, and the narrative of discovery.
+      This is where <strong>concept bridges</strong> are forged, linking fields like Geometric Algebra and Quantum Mechanics through shared primitives.
+    </dd>
+
+    <dt>⚽️ Practice Problems</dt>
+    <dd>
+      A dedicated library of practice sets, designed to test understanding and reinforce application of theory.
+    </dd>
+
+    <dt>🔱Meta</dt>
+    <dd>
+      A collection of meta-information and cheatsheets for :logo: <em>Eigenscribe ©</em>.
+    </dd>
+
+    <dt>Backmatter</dt>
+    <dd>
+      Foundational appendices, glossary and index terms, and a bibliography.
+    </dd>
+
+  </dl>
+
+
+
+
+
+</assemblage>

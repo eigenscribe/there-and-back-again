@@ -58,9 +58,9 @@
       <idx>first-principles reasoning</idx>
 
       <assemblage>
-        <title>Methodology</title>
+        <title>:eigenote: Methodology</title>
         <p>
-          The :logo: <em>Eigenscribe © methodology</em> is a structured appraoch to reasoning that aims to empower independent learning and research by emphasizing transparency and reporducibility. This is particularly important at the dawn of the AI era where the ability to sanity check is vital not onlyy the individual but for the fidelity of the scientific ecosystem as a whole.
+          The <em>Eigenscribe © methodology</em> is a structured appraoch to reasoning that aims to empower independent learning and research by emphasizing transparency and reporducibility. This is particularly important at the dawn of the AI era where the ability to sanity check is vital not onlyy the individual but for the fidelity of the scientific ecosystem as a whole.
         </p>
 
         <p>
@@ -69,16 +69,20 @@
       </assemblage>
 
       <!-- Include your dedicated first-principles file -->
-      <xi:include href="first-principles-framework.ptx"/>
+      <xi:include href="./METHODOLOGY/assemblage-first-principles-framework.ptx"/>
+      <xi:include href="./METHODOLOGY/assemblage-eigen-architecture.ptx"/>
 
-      <remark>
+      <assemblage>
+        <title>:eigenote: A Dynamic Document</title>
         <p>
-          This system is designed to be a scalable, portable and self-correcting informational structure that supports independent research and professional development in remote, asynchronous environments.
+            <strong>Note:</strong> <em>There and Back Again</em> will be routinely updated over time.
         </p>
         <p>
-          <h>Note:</h> :logo: <em>There and Back Again</em> will be routinely iterated over time.
+            This is a work in progress, designed to evolve alongside the researcher.
+            As new insights are gained, the "concept bridges" are strengthened, the practice problems are expanded, and the appendices are refined.
+            My hope is that this system serves as a model for how technical knowledge can be organized, retained, and applied with precision, ensuring that the lifeblood of science and engineering—reproducibility and clarity—remains intact.
         </p>
-      </remark>
+      </assemblage>
 
     </paragraphs>
 

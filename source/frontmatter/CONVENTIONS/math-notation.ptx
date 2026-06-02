@@ -32,11 +32,11 @@
             <title><m>\{A, B\}</m></title>
             <idx>Poisson bracket</idx>
             <p>
-                The <em>Poisson bracket</em> between two scalar functions <m>A(\mathbf{q},\mathbf{p})</m> and <m>B(\mathbf{q},\mathbf{p})</m>.
+                The <em>Poisson bracket</em> between two scalar functions <m>A(\vec{q},\vec{p})</m> and <m>B(\vec{q},\vec{p})</m>.
             </p>
         </li>
         <li>
-            <title><m>\overleftrightarrow{B}</m></title>
+            <title><m>\bivec{B}</m></title>
             <idx>bivector</idx>
             <p>
                 A <em>bivector</em> (grade-2) quantity.
