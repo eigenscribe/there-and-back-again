@@ -108,13 +108,20 @@ pre[class*="language-"].line-numbers > code,
 pre[class*="language-"].line-numbers { border-right: none !important; }
 
 
+:root {
+  /* ============================================================ */
+  /*  Section 2: Theme Variables / Color + Typography Definitions    */
+  /* ============================================================ */
+  /* Typography Definitions (Simplified for IDE resolution) */
+  --font-heading: 'Aclonica', sans-serif;
+  --font-body: 'Merriweather', Georgia, serif;
+  --font-mono: 'Fira Code', monospace;
+}
+
 :root,
 :root.dark-mode,
 html,
 html.dark-mode {
-  /* ============================================================ */
-  /*  Section 2: Theme Variables / Color + Typography Definitions    */
-  /* ============================================================ */
   /* Override PreTeXt theme colors - cyan/purple instead of blue/red */
 
   --primary-color-light: #00e8ff !important;
@@ -176,9 +183,9 @@ html.dark-mode {
 
   /* TOC active item overrides - these are the actual variables PreTeXt uses */
   --tocitem-active-background: var(--primary-color-gray-4) !important;
-  --tocitem-active-text-color: var(--primary-color)  !important;
+  --tocitem-active-text-color: var(--primary-color) !important;
   --tocitem-active-border-color: var(--primary-color-gray-5) !important;
-  --tocitem-active-backgrounde: var(--primary-color-gray-3) !important;
+  --tocitem-active-background-hover: var(--primary-color-gray-3) !important;
   
   /* TOC specific overrides */
   --toc-item-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), rgba(121, 82, 245, 0.15)) !important;
@@ -186,26 +193,21 @@ html.dark-mode {
   --toc-active-border-color: rgba(20, 181, 255, 0.4) !important;
   
   /* Colors - Matching original design */
-  --color-bg: #0d1117;
-  --color-surface: #161b22;
-  --color-primary: var(--primary-color);
-  --color-secondary: var(--secondary-color);
-  --color-text: #C5F8FF;
-  --color-muted: #8b949e;
-  --color-link: #7652f5;
-  --color-link-hover: #5e17eb;
-  --color-math: var(--primary-color-light);
-  --color-warning: #ffcc00;
+  --color-bg: #0d1117 !important;
+  --color-surface: #161b22 !important;
+  --color-primary: var(--primary-color) !important;
+  --color-secondary: var(--secondary-color) !important;
+  --color-text: #C5F8FF !important;
+  --color-muted: #8b949e !important;
+  --color-link: #7652f5 !important;
+  --color-link-hover: #5e17eb !important;
+  --color-math: var(--primary-color-light) !important;
+  --color-warning: #ffcc00 !important;
 
   /* Gradients */
-  --gradient-light-to-dark-blue: linear-gradient(to right bottom, #00e8ff, #14b5ff, #3a98ff, #0070eb);
-  --gradient-cyan-to-blue: linear-gradient(130deg, #00ffee, #0a95eb);
-  --gradient-blue-to-purple: linear-gradient(to right bottom, #00e8ff, #14b5ff, #5280ff, #7952f5);
-
-  /* Typography */
-  --font-heading: 'Aclonica', sans-serif;
-  --font-body: 'Merriweather', Georgia, serif;
-  --font-mono: 'Fira Code', monospace;
+  --gradient-light-to-dark-blue: linear-gradient(to right bottom, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
+  --gradient-cyan-to-blue: linear-gradient(130deg, #00ffee, #0a95eb) !important;
+  --gradient-blue-to-purple: linear-gradient(to right bottom, #00e8ff, #14b5ff, #5280ff, #7952f5) !important;
 }
 
 /* Global Background & Body Styling */
@@ -535,7 +537,7 @@ nav#ptx-toc .toc-chapter.contains-active,
 nav#ptx-toc .toc-chapter.active {
   background: rgba(10, 8, 20, 0.98) !important;
   background-color: rgba(10, 8, 20, 0.98) !important;
-  border: 1px solid rgba(80, 60, 140, 0.5) !important;
+  border: none !important;
   border-radius: 12px !important;
 }
 
@@ -576,7 +578,7 @@ nav#ptx-toc.ptx-toc.depth2 ul.structural ul.structural .toc-item.contains-active
 #ptx-sidebar .ptx-toc .toc-item.contains-active {
   background: rgba(10, 8, 20, 0.98) !important;
   background-color: rgba(10, 8, 20, 0.98) !important;
-  border: 1px solid rgba(80, 60, 140, 0.5) !important;
+  border: none !important;
   border-radius: 12px !important;
 }
 
@@ -596,7 +598,7 @@ nav#ptx-toc.ptx-toc .toc-item.active:not(:has(.toc-item.active)),
 #ptx-sidebar .ptx-toc .toc-item.active {
   background: rgba(10, 8, 20, 0.98) !important;
   background-color: rgba(10, 8, 20, 0.98) !important;
-  border: 1px solid rgba(80, 60, 140, 0.5) !important;
+  border: none !important;
   border-radius: 12px !important;
 }
 
@@ -607,7 +609,7 @@ nav#ptx-toc.ptx-toc .toc-item.active:not(:has(.toc-item.active)),
 .ptx-toc > ul > li.contains-active {
   background: rgba(10, 8, 20, 0.98) !important;
   background-color: rgba(10, 8, 20, 0.98) !important;
-  border: 1px solid rgba(80, 60, 140, 0.5) !important;
+  border: none !important;
   border-radius: 12px !important;
 }
 
@@ -630,7 +632,7 @@ body.pretext .ptx-toc .toc-item.contains-active .toc-item.active,
 nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   background: rgba(40, 30, 70, 0.6) !important;
   background-color: rgba(40, 30, 70, 0.6) !important;
-  border: 1px solid rgba(120, 90, 180, 0.5) !important;
+  border: none !important;
   border-radius: 12px !important; 
 }
 
@@ -724,7 +726,7 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 
 .ptx-content h1.heading {
   font-size: 2.5rem !important;
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+  background: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -732,30 +734,30 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   margin-bottom: 1.5rem;
 }
 
-/* Subsection heading - aqua to sky-blue gradient */
+/* Subsection heading - blue gradient */
 .ptx-content h2.heading {
   font-size: 1.65rem !important;
-  background: linear-gradient(120deg, #22d3ee, #4361EE, #8b5cf6) !important;
+  background: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid rgba(139, 92, 246, 0.4);
+  border-bottom: 2px solid rgba(20, 181, 255, 0.4);
   letter-spacing: 0.5px;
 }
 
 .ptx-content h3.heading {
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+  background: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 
-/* Subsection heading - aqua to sky-blue gradient */
+/* Subsection heading - blue gradient */
 .ptx-content h4.heading {
   font-size: 1.25rem !important;
-  background: linear-gradient(120deg, #22d3ee, #38bdf8, #60a5fa) !important;
+  background: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -763,15 +765,22 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   margin-bottom: 0.8rem;
 }
 
-/* Subsubsection heading - teal to purple gradient */
+/* Subsubsection heading - blue gradient */
 .ptx-content h5.heading {
   font-size: 1.1rem !important;
-  background: linear-gradient(110deg, #14b8a6, #7c3aed, #c084fc) !important;
+  background: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   margin-top: 1rem;
   margin-bottom: 0.6rem;
+}
+
+.ptx-content h6.heading {
+  background: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 /* Ensure inline code inside content headings uses inline-code styling
@@ -811,10 +820,11 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 
 .ptx-content section.introduction {
   background: rgba(255, 255, 255, 0.10);
-  border-left: 3px solid var(--primary-color);
   padding: 1.5rem;
+  padding-left: 2rem !important;
   margin-bottom: 2rem;
   border-radius: 4px;
+  position: relative !important;
 }
 
 .ptx-content section.introduction p {
@@ -859,182 +869,150 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 
 /* Definition, Theorem, Example blocks */
 
-/* 🟣 Definitions */
-.ptx-content .definition-like {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border-left: 3px solid var(--secondary-color);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.ptx-content .definition-like .heading {
-  font-family: var(--font-heading) !important;
-  font-weight: bold;
-  font-size: 1.0rem !important;
-}
-
-/* 📗 Theorem blocks */
-
-.ptx-content .theorem-like {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border-left: 3px solid var(--tertiary-color-medium);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-
-.ptx-content .theorem-like .heading {
-  font-family: var(--font-heading) !important;
-  font-weight: bold;
-  font-size: 1.1rem !important;
-  background: linear-gradient(120deg, #38b000, #5ce663, #a7f3d0) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent;
-  background-clip: text;
-}
-
-/* 📗 Solution and Proof blocks */
-
+/* 🟣 Callout Blocks (Definitions, Theorems, etc.) */
+.ptx-content .definition-like,
+.ptx-content .theorem-like,
 .ptx-content .solution,
-.ptx-content .proof {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border-left: 3px solid var(--tertiary-color-medium);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.ptx-content .solution .heading,
-.ptx-content .proof .heading {
-  font-family: var(--font-heading) !important;
-  font-weight: bold;
-  font-size: 1.1rem !important;
-  background: linear-gradient(120deg, #38b000, #5ce663, #a7f3d0) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent;
-}
-
-/* 🔵 Example blocks */
-
-.ptx-content .example-like {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border-left: 3px solid var(--primary-color);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.ptx-content .example-like .heading {
-  font-family: var(--font-heading);
-  font-weight: bold;
-  background: linear-gradient(120deg, #00e8ff, #14a5ff);
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent;
-  text-align: center
-}
-
-/* 🔵 Hint blocks */
-
-.ptx-content .hint {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border-left: 3px solid var(--primary-color);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.ptx-content .hint .heading {
-  font-family: var(--font-heading);
-  font-weight: bold;
-  background: linear-gradient(120deg, #00e8ff, #14a5ff);
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent;
-}
-
-/* 🎗️ Remark, Note, and Insight blocks */
-
+.ptx-content .proof,
+.ptx-content .example-like,
+.ptx-content .hint,
 .ptx-content .remark-like,
 .ptx-content .note,
-.ptx-content .insight {
+.ptx-content .insight,
+.ptx-content .warning,
+.ptx-content .exercise-like,
+.ptx-content .biblio {
   background: rgba(255, 255, 255, 0.05) !important;
-  border-left: 3px solid var(--quaternary-color);
   border-radius: 8px;
   padding: 1.5rem;
+  padding-left: 2rem !important;
   margin: 1.5rem 0;
+  position: relative !important;
 }
 
+/* Base style for vertical bars */
+.ptx-content .definition-like::before,
+.ptx-content .theorem-like::before,
+.ptx-content .solution::before,
+.ptx-content .proof::before,
+.ptx-content .example-like::before,
+.ptx-content .hint::before,
+.ptx-content .remark-like::before,
+.ptx-content .note::before,
+.ptx-content .insight::before,
+.ptx-content .warning::before,
+.ptx-content .exercise-like::before,
+.ptx-content .biblio::before,
+.ptx-content .aside::before,
+.ptx-content .assemblage-like::before,
+.ptx-content section.introduction::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  border-radius: 8px 0 0 8px;
+}
+
+/* Base style for headings */
+.ptx-content .definition-like .heading,
+.ptx-content .theorem-like .heading,
+.ptx-content .solution .heading,
+.ptx-content .proof .heading,
+.ptx-content .example-like .heading,
+.ptx-content .hint .heading,
 .ptx-content .remark-like .heading,
 .ptx-content .note .heading,
-.ptx-content .insight .heading {
-  font-family: var(--font-heading);
-  font-weight: bold;
-  background: linear-gradient(120deg, #feb639, #ff783d);
+.ptx-content .insight .heading,
+.ptx-content .warning .heading,
+.ptx-content .exercise-like .heading,
+.ptx-content .aside .heading,
+.ptx-content .biblio .heading,
+.ptx-content section.introduction .heading {
+  font-family: var(--font-heading) !important;
+  font-weight: bold !important;
+  font-size: 1.15rem !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
-  color: transparent;
+  color: transparent !important;
+  margin-bottom: 0.75rem !important;
+  display: table !important;
+  text-align: left !important;
 }
 
-/* 💗 Warning blocks */
-
-.ptx-content .warning {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border-left: 3px solid var(--pernary-color);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
+/* 🟣 Purple Gradient: Definitions */
+.ptx-content .definition-like .heading {
+  background-image: linear-gradient(120deg, var(--secondary-color), var(--pernary-color)) !important;
+}
+.ptx-content .definition-like::before {
+  background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
 }
 
+/* 📗 Green-Blue Gradient: Theorems, Proofs, Solutions */
+.ptx-content .theorem-like .heading,
+.ptx-content .solution .heading,
+.ptx-content .proof .heading {
+  background-image: linear-gradient(120deg, var(--tertiary-color-medium), var(--primary-color-light)) !important;
+}
+.ptx-content .theorem-like::before,
+.ptx-content .solution::before,
+.ptx-content .proof::before {
+  background: linear-gradient(to bottom, var(--tertiary-color-medium), var(--primary-color-light)) !important;
+}
+
+/* 🔵 Blue Gradient: Examples, Hints, Exercises, Introductions, Biblio */
+.ptx-content .example-like .heading,
+.ptx-content .hint .heading,
+.ptx-content .exercise-like .heading,
+.ptx-content section.introduction .heading,
+.ptx-content .biblio .heading {
+  background-image: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
+}
+.ptx-content .example-like::before,
+.ptx-content .hint::before,
+.ptx-content .exercise-like::before,
+.ptx-content section.introduction::before,
+.ptx-content .biblio::before {
+  background: linear-gradient(to bottom, var(--primary-color-light), var(--primary-color)) !important;
+}
+
+/* 🟠 Orange-Yellow Gradient: Remarks, Notes, Insights, Warnings */
+.ptx-content .remark-like .heading,
+.ptx-content .note .heading,
+.ptx-content .insight .heading,
 .ptx-content .warning .heading {
-  font-family: var(--font-heading);
-  font-weight: bold;
-  background: linear-gradient(120deg, #ff76a1, #ff40a1);
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent;
+  background-image: linear-gradient(120deg, var(--quaternary-color-light), var(--quaternary-color)) !important;
+}
+.ptx-content .remark-like::before,
+.ptx-content .note::before,
+.ptx-content .insight::before,
+.ptx-content .warning::before {
+  background: linear-gradient(to bottom, var(--quaternary-color-light), var(--quaternary-color)) !important;
 }
 
-/* ⚽ Exercise blocks */
-
-.ptx-content .exercise-like  {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border-left: 3px solid var(--primary-color);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
+/* Default / Aside / Assemblage */
+.ptx-content .aside .heading,
+.ptx-content .assemblage-like .heading {
+  background-image: linear-gradient(120deg, var(--secondary-color), var(--pernary-color)) !important;
+}
+.ptx-content .aside::before,
+.ptx-content .assemblage-like::before {
+  background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
 }
 
-.ptx-content .exercise-like .heading {
-  font-family: var(--font-heading);
-  font-weight: bold;
-  background: linear-gradient(120deg, #00e8ff, #14a5ff);
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent;
-  text-align: center;
-} 
+/* Old specific heading styles removed */
 
 /* ============================================
    ASIDE ELEMENT FIXES
    ============================================ */
 
-/* 1. Reset the Aside Container to be full-width and centered */
+/* 1. Reset the Aside Container to be full-width and centered with vertical bar */
 .ptx-content .aside,
 .aside {
   /* Reset all positioning */
-  position: static !important;
+  position: relative !important;
   float: none !important;
   clear: both !important;
   
@@ -1049,7 +1027,7 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   margin-bottom: 1.5rem !important;
   
   /* Reset padding to ensure it touches the edges of the text column */
-  padding-left: 0.5rem !important;
+  padding-left: 1.25rem !important;
   padding-right: 0.5rem !important;
   padding-top: 0.75rem !important;
   padding-bottom: 0.75rem !important;;
@@ -1059,7 +1037,6 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 
   /* Optional: Make it look like a distinct "callout" box */
   background: rgba(20, 181, 255, 0.05) !important;
-  border-left: 4px solid var(--quaternary-color) !important; 
   border-radius: 8px !important; 
 }
 
@@ -1071,22 +1048,6 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   padding-right: 1.5rem !important;
 }
 
-/* 3. Fix the "Aside" Header Size and Style */
-.ptx-content .aside .heading,
-.aside .heading {
-  font-size: 1.1rem !important; /* Shrinks the "Aside" label */
-  font-family: var(--font-heading) !important;
-  font-weight: bold !important;
-  text-transform: none !important; /* Prevents "ASIDE" from being all caps */
-  letter-spacing: 0.5px !important;
-  
-  /* Match your gradient theme */
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  
-  margin-bottom: 0.5rem !important;
-}
 
 /* 4. Ensure the text inside flows naturally */
 .ptx-content .aside p,
@@ -1094,13 +1055,6 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   font-size: 0.95rem !important;
   line-height: 1.6 !important;
   color: var(--color-text) !important;
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef)  !important;
-  border: none !important;
-  border-left: none !important;
-  border-right: none !important;
-  border-top: none !important;
-  border-bottom: none !important;
-
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
   margin: 0.5rem 0 !important;
@@ -1119,13 +1073,12 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 .ptx-content .assemblage-like {
   background: rgba(40, 30, 70, 0.6) !important;
   background-color: rgba(40, 30, 70, 0.6) !important;
-  border: 1px solid rgba(120, 90, 180, 0.5) !important;
   border-radius: 12px !important; 
-  border: 1px solid var(--primary-color);
   padding: 1rem;
+  padding-left: 1.5rem !important;
   margin-bottom: 2rem;
-  color: var(--gradient-light-to-dark-blue) !important;
-
+  color: var(--color-text) !important;
+  position: relative !important;
 }
 
 /*====================================================
@@ -1386,7 +1339,7 @@ code[class*="language-"] .line-highlight {
   padding: 4px 10px;
   background: linear-gradient(145deg, rgba(0, 232, 255, 0.2), rgba(0, 112, 235, 0.2));
   border: 1px solid rgba(20, 181, 255, 0.5);
-  border-radius: 50px;
+  border-radius: 100px;
   transition: all 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   font-weight: 500;
@@ -1401,14 +1354,14 @@ code[class*="language-"] .line-highlight {
 .ptx-tag,
 .badge {
     display: inline-block;
-    font-family: var(--ptg-font-heading);
+    font-family: 'Aclonica', sans-serif;
     font-size: 0.65rem;
     padding: 4px 12px;
     background: linear-gradient(145deg, rgba(20, 181, 255, 0.2), rgba(0, 112, 235, 0.15));
     border: 1px solid rgba(20, 181, 255, 0.4);
-    border-radius: var(--ptg-radius-pill);
+    border-radius: 100px;
     color: #5ddbff;
-    transition: all var(--ptg-transition-normal);
+    transition: all 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -1422,13 +1375,15 @@ code[class*="language-"] .line-highlight {
 
 .tag-purple,
 .id-badge {
+    display: inline-block;
     background: linear-gradient(145deg, rgba(168, 85, 247, 0.25), rgba(118, 82, 245, 0.2));
     border: 1px solid rgba(168, 85, 247, 0.5);
     color: #d8b4fe;
-    border-radius: var(--ptg-radius-sm);
-    font-family: var(--ptg-font-mono);
+    border-radius: 100px;
+    font-family: 'Aclonica', sans-serif;
     letter-spacing: 1px;
     box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
+    transition: all 0.3s ease;
 }
 
 .id-badge:hover {
@@ -1455,7 +1410,7 @@ code[class*="language-"] .line-highlight {
   border: 1px solid rgba(0, 200, 255, 0.45) !important;
   padding: 8px 14px !important;
   border-radius: 8px !important;
-  font-family: var(--font-heading) !important;
+  font-family: 'Aclonica', sans-serif;
   font-size: 13px !important;
   cursor: pointer !important;
   -webkit-backdrop-filter: blur(8px) !important;
@@ -1487,7 +1442,7 @@ code[class*="language-"] .line-highlight {
   color: var(--color-text) !important;
   padding: 0.5rem 1rem !important;
   border-radius: 8px !important;
-  font-family: var(--font-heading) !important;
+  font-family: 'Aclonica', sans-serif;
   font-size: 0.9rem !important;
   transition: all 0.3s ease !important;
   cursor: pointer;
@@ -1552,14 +1507,6 @@ code[class*="language-"] .line-highlight {
   text-align: center !important;
 }
 
-/* Bibliography */
-.ptx-content .biblio {
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-left: 3px solid var(--primary-color);
-}
 
 .ptx-content .biblio .bibitem {
   color: var(--color-text);
@@ -1568,7 +1515,7 @@ code[class*="language-"] .line-highlight {
 /* Cross-references and linked notes */
 .ptx-content .xref {
   color: var(--secondary-color-light) !important;
-  font-family: var(--font-heading);
+  font-family: 'Aclonica', sans-serif;
   font-size: 0.9em;
   padding: 2px 8px;
   background: rgba(121, 82, 245, 0.12);
@@ -1581,22 +1528,7 @@ code[class*="language-"] .line-highlight {
   color: #9b7dff !important;
 }
 
-/* Reference labels (Definition, Theorem, etc.) */
-.ptx-content .definition-like .heading .type {
-  color: var(--quaternary-color-light) !important;
-}
-.ptx-content .theorem-like .heading .type {
-  color: var(--tertiary-color-light) !important;
-}
-
-.ptx-content .example-like .heading .type,
-.ptx-content .exercise-like .heading .type {
-  color: var(--primary-color) !important;
-}
-
-.ptx-content .remark-like .heading .type {
-  color: var(--quaternary-color-light) !important;
-}
+/* Reference labels (Definition, Theorem, etc.) removed to unify heading colors */
 
 
 
@@ -1604,7 +1536,7 @@ code[class*="language-"] .line-highlight {
 .ptx-content .terminology {
   color: var(--color-primary) !important;
   font-weight: 500;
-  font-family: var(--font-heading);
+  font-family: 'Aclonica', sans-serif;
 }
 
 /* Hide theme switcher button - light theme not supported */

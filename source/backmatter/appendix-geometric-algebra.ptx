@@ -6,7 +6,6 @@
     <p>Geometric algebra provides simple formulations and unique insight for many different physical processes.</p>
   </introduction>
 
-  <xi:include href="app-geometric-algebra/sec-ga-uniform-b-field.ptx"/>
-
+  <xi:include href="app-geometric-algebra/sec-ga-hodge-dual.ptx"/>
 
  </appendix>
