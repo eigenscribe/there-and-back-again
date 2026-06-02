@@ -20,54 +20,42 @@
   font-family: var(--font-heading) !important;
 }
 
-.ptx-content h1.heading {
-  font-size: 2.5rem !important;
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+.ptx-content h1.heading,
+.ptx-content h2.heading,
+.ptx-content h3.heading,
+.ptx-content h4.heading,
+.ptx-content h5.heading,
+.ptx-content h6.heading {
+  background: var(--gradient-blue-to-purple) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
+  font-family: var(--font-heading) !important;
+}
+
+.ptx-content h1.heading {
+  font-size: 2.5rem !important;
   display: inline-block;
   margin-bottom: 1.5rem;
 }
 
-/* Subsection heading - aqua to sky-blue gradient */
+/* Subsection heading */
 .ptx-content h2.heading {
   font-size: 1.65rem !important;
-  background: linear-gradient(120deg, #22d3ee, #4361EE, #8b5cf6) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid rgba(139, 92, 246, 0.4);
   letter-spacing: 0.5px;
 }
 
-.ptx-content h3.heading {
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-}
-
-/* Subsection heading - aqua to sky-blue gradient */
 .ptx-content h4.heading {
   font-size: 1.25rem !important;
-  background: linear-gradient(120deg, #22d3ee, #38bdf8, #60a5fa) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
   margin-top: 1.2rem;
   margin-bottom: 0.8rem;
 }
 
-/* Subsubsection heading - teal to purple gradient */
 .ptx-content h5.heading {
   font-size: 1.1rem !important;
-  background: linear-gradient(110deg, #14b8a6, #7c3aed, #c084fc) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
   margin-top: 1rem;
   margin-bottom: 0.6rem;
 }
@@ -97,10 +85,10 @@
   background-clip: padding-box !important;
 }
 
-/* Front Matter page title - matches website header gradient with more bright blue */
+/* Front Matter page title - matches website header gradient */
 .ptx-content section.frontmatter h2.heading,
 .ptx-content section.frontmatter h1.heading {
-  background: linear-gradient(110deg, #00e8ff, #14b5ff, #3a98ff) !important;
+  background: var(--gradient-cyan-to-blue) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
