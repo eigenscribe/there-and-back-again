@@ -13,6 +13,7 @@
 .ptx-content .warning,
 .ptx-content .exercise-like,
 .ptx-content .biblio,
+.ptx-content .answer,
 .ptx-content .abstract {
   background: rgba(255, 255, 255, 0.05) !important;
   border-radius: 8px;
@@ -49,6 +50,7 @@
 .ptx-content .exercise-like::before,
 .ptx-content .biblio::before,
 .ptx-content .aside::before,
+.ptx-content .answer::before,
 .ptx-content .assemblage-like::before,
 .ptx-content section.introduction::before,
 .ptx-content .abstract::before {
@@ -74,6 +76,7 @@
 .ptx-content .warning .heading,
 .ptx-content .exercise-like .heading,
 .ptx-content .aside .heading,
+.ptx-content .answer .heading,
 .ptx-content .biblio .heading,
 .ptx-content section.introduction .heading,
 .ptx-content .assemblage-like .heading,
@@ -106,6 +109,7 @@
 .ptx-content .warning .heading::after,
 .ptx-content .exercise-like .heading::after,
 .ptx-content .aside .heading::after,
+.ptx-content .answer .heading::after,
 .ptx-content .biblio .heading::after,
 .ptx-content section.introduction .heading::after,
 .ptx-content .assemblage-like .heading::after,
@@ -122,6 +126,7 @@
 .ptx-content .warning .heading::before,
 .ptx-content .exercise-like .heading::before,
 .ptx-content .aside .heading::before,
+.ptx-content .answer .heading::before,
 .ptx-content .biblio .heading::before,
 .ptx-content section.introduction .heading::before,
 .ptx-content .assemblage-like .heading::before,
@@ -181,16 +186,74 @@
   background: linear-gradient(to bottom, var(--secondary-color-light), var(--secondary-color)) !important;
 }
 
-/* 📗 Green-Blue Gradient: Theorems, Proofs, Solutions */
+/* 📗 Green Gradient: Theorems, Proofs */
 .ptx-content .theorem-like .heading,
-.ptx-content .solution .heading,
 .ptx-content .proof .heading {
   background-image: linear-gradient(120deg, var(--tertiary-color-medium), var(--primary-color-light)) !important;
 }
 .ptx-content .theorem-like::before,
-.ptx-content .solution::before,
 .ptx-content .proof::before {
   background: linear-gradient(to bottom, var(--tertiary-color-medium), var(--primary-color-light)) !important;
+}
+
+/* 📗 Green Gradient: Solutions */
+.ptx-content .solution .heading,
+.ptx-content .solution summary.knowl__link {
+  background-image: linear-gradient(120deg, var(--tertiary-color-light), var(--tertiary-color-medium)) !important;
+  font-family: 'Aclonica', sans-serif !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.02em;
+}
+.ptx-content .solution summary.knowl__link {
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  display: list-item !important;
+  list-style: disclosure-closed !important;
+}
+.ptx-content .solution summary.knowl__link[open] {
+  list-style: disclosure-open !important;
+}
+.ptx-content .solution summary.knowl__link * {
+  -webkit-text-fill-color: inherit !important;
+  color: inherit !important;
+}
+.ptx-content .solution summary.knowl__link::marker {
+  color: var(--tertiary-color-light) !important;
+}
+.ptx-content .solution::before {
+  background: linear-gradient(to bottom, var(--tertiary-color-light), var(--tertiary-color-medium)) !important;
+}
+
+/* 🟠 Orange Gradient: Answers */
+.ptx-content .answer .heading,
+.ptx-content .answer summary.knowl__link {
+  background-image: linear-gradient(120deg, var(--quaternary-color-light), var(--quaternary-color)) !important;
+  font-family: 'Aclonica', sans-serif !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.02em;
+}
+.ptx-content .answer summary.knowl__link {
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  display: list-item !important;
+  list-style: disclosure-closed !important;
+}
+.ptx-content .answer summary.knowl__link[open] {
+  list-style: disclosure-open !important;
+}
+.ptx-content .answer summary.knowl__link * {
+  -webkit-text-fill-color: inherit !important;
+  color: inherit !important;
+}
+.ptx-content .answer summary.knowl__link::marker {
+  color: var(--quaternary-color-light) !important;
+}
+.ptx-content .answer::before {
+  background: linear-gradient(to bottom, var(--quaternary-color-light), var(--quaternary-color)) !important;
 }
 
 /* 🔵 Blue Gradient: Examples, Exercises, Introductions, Biblio */
