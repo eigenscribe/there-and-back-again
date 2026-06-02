@@ -17,25 +17,31 @@
         </statement>
     </definition>
 
-    Common gauge choices for a uniform magnetic field are:
+    <note>
+    <title>Common Gauge Choices (Uniform Magnetic Field)</title>
+    <dl>
 
-       <dl>
-            <dt>Symmetry Gauge</dt>
-            <dd>
+        <li>
+            <title>Symmetry Gauge</title>
+            <p>
                 Preserves rotational symmetry.
                 <me>
                     \vec{A}_\text{sym}=\frac{B_0}{2}\left(x\mathbf{e}_x+y\mathbf{e}_y\right)
                 </me>
-            </dd>
+            </p>
+        </li>
 
-            <dt>Landau Gauge</dt>
-            <dd>
+        <li>
+            <title>Landau Gauge</title>
+            <p>
                 Preserves translational symmetry along the <m>x</m>-axis.
                 <me>
                     \vec{A}_\text{landau}=-B_0 y \mathbf{e}_x
                 </me>
-            </dd>
+            </p>
+        </li>
 
-       </dl>
+    </dl>
+    </note>
 
 </subsection>
