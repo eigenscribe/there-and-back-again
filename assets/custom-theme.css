@@ -1376,7 +1376,7 @@ code[class*="language-"] .line-highlight {
    Tags, Pills, and Badges
    ============================================ */
 .ptx-content .idx,
-.ptx-content section.introduction .para code.code-inline,
+.ptx-content .introduction .para code.code-inline,
 .ptx-tag-pill,
 .ptx-tag,
 .badge {
@@ -1387,7 +1387,7 @@ code[class*="language-"] .line-highlight {
     background: linear-gradient(145deg, rgba(255, 64, 161, 0.12), rgba(255, 118, 161, 0.08));
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 100px;
-    color: #ff99cc;
+    color: #ff99cc !important;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     font-weight: 500;
@@ -1398,41 +1398,45 @@ code[class*="language-"] .line-highlight {
 }
 
 .ptx-content .idx:hover,
-.ptx-content section.introduction .para code.code-inline:hover,
+.ptx-content .introduction .para code.code-inline:hover,
 .ptx-tag-pill:hover,
 .ptx-tag:hover,
 .badge:hover {
     background: linear-gradient(145deg, rgba(255, 64, 161, 0.2), rgba(255, 118, 161, 0.15));
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 64, 161, 0.3);
-    color: #ffc2e0;
+    color: #ffc2e0 !important;
 }
 
 /* Specific Style for Note IDs (Purple Glassmorphic) */
-.ptx-content section.introduction .para code.code-inline:first-of-type {
-    background: linear-gradient(145deg, rgba(168, 85, 247, 0.2), rgba(118, 82, 245, 0.15)) !important;
-    border: 1px solid rgba(168, 85, 247, 0.4) !important;
-    color: #f3e8ff !important;
-    box-shadow: 0 0 15px rgba(168, 85, 247, 0.15);
+.ptx-content .introduction .para code.code-inline:first-of-type {
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.35), rgba(118, 82, 245, 0.25)) !important;
+    border: 1px solid rgba(168, 85, 247, 0.5) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 0.75rem !important;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.25);
 }
 
-.ptx-content section.introduction .para code.code-inline:first-of-type:hover {
-    background: linear-gradient(145deg, rgba(168, 85, 247, 0.3), rgba(118, 82, 245, 0.25)) !important;
-    box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
-    color: #f3e8ff !important;
-    border-color: rgba(168, 85, 247, 0.6) !important;
+.ptx-content .introduction .para code.code-inline:first-of-type:hover {
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.45), rgba(118, 82, 245, 0.35)) !important;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.5);
+    color: #ffffff !important;
+    border-color: rgba(168, 85, 247, 0.7) !important;
 }
 
 .ptx-tag-pill-purple,
 .id-badge {
     display: inline-block;
-    background: linear-gradient(145deg, rgba(168, 85, 247, 0.25), rgba(118, 82, 245, 0.2));
-    border: 1px solid rgba(168, 85, 247, 0.5);
-    color: #d8b4fe;
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.35), rgba(118, 82, 245, 0.3));
+    border: 1px solid rgba(168, 85, 247, 0.6);
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 0.75rem !important;
     border-radius: 100px;
     font-family: 'Aclonica', sans-serif;
     letter-spacing: 1px;
-    box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
     transition: all 0.3s ease;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
