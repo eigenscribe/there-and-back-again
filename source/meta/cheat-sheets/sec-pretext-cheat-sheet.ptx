@@ -1,0 +1,262 @@
+<section xml:id="sec-pretext-cheat-sheet">
+    <title>PreTeXt Cheat Sheet</title>
+    <introduction>
+        <p>
+            <term>Note ID:</term> 202606012315 |
+            <term>Tags:</term> <tag>pretext</tag> <tag>xml</tag> <tag>authoring</tag>
+        </p>
+        <p>
+            A comprehensive guide to PreTeXt XML elements and structure for authoring mathematical content.
+        </p>
+    </introduction>
+
+    <subsection xml:id="sub-pretext-structure">
+        <title>Document Structure</title>
+        <p>
+            The hierarchical organization of a PreTeXt document.
+        </p>
+        <program language="xml">
+            <code>
+                <![CDATA[
+<pretext>
+  <docinfo> ... </docinfo>
+  <book xml:id="my-book">
+    <title>My Book Title</title>
+    <frontmatter> ... </frontmatter>
+    <part xml:id="pt-first-part">
+      <title>Part Title</title>
+      <chapter xml:id="ch-first-chapter">
+        <title>Chapter Title</title>
+        <section xml:id="sec-first-section">
+          <title>Section Title</title>
+          <subsection xml:id="sub-first-subsection">
+            <title>Subsection Title</title>
+          </subsection>
+        </section>
+      </chapter>
+    </part>
+    <backmatter> ... </backmatter>
+  </book>
+</pretext>
+                ]]>
+            </code>
+        </program>
+    </subsection>
+
+    <subsection xml:id="sub-pretext-text-math">
+        <title>Text and Mathematics</title>
+        <dl>
+            <li>
+                <title>Special Characters</title>
+                <p>Certain characters must be escaped or used as entities:</p>
+                <ul>
+                    <li>Ampersand: <code><![CDATA[&amp;]]></code> (use <code><![CDATA[\amp]]></code> in LaTeX math)</li>
+                    <li>Less than: <code><![CDATA[&lt;]]></code></li>
+                    <li>Greater than: <code><![CDATA[&gt;]]></code></li>
+                </ul>
+            </li>
+            <li>
+                <title>Paragraphs</title>
+                <p>Use <code><![CDATA[<p>]]></code> for paragraphs. Avoid putting math directly in <code><![CDATA[<p>]]></code> without <code><![CDATA[<m>]]></code>.</p>
+            </li>
+            <li>
+                <title>Inline Math</title>
+                <p>Use <code><![CDATA[<m>E = mc^2</m>]]></code> for inline LaTeX.</p>
+            </li>
+            <li>
+                <title>Displayed Math</title>
+                <p>Use <code><![CDATA[<me>]]></code> for unnumbered and <code><![CDATA[<men>]]></code> for numbered equations.</p>
+                <program language="xml">
+                    <code>
+                        <![CDATA[
+<me>i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</me>
+                        ]]>
+                    </code>
+                </program>
+            </li>
+            <li>
+                <title>Multi-line Math</title>
+                <p>Use <code><![CDATA[<md>]]></code> with <code><![CDATA[<mrow>]]></code> for aligned equations.</p>
+                <program language="xml">
+                    <code>
+                        <![CDATA[
+<md>
+  <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
+  <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
+</md>
+                        ]]>
+                    </code>
+                </program>
+            </li>
+        </dl>
+    </subsection>
+
+    <subsection xml:id="sub-pretext-blocks">
+        <title>Common Blocks</title>
+        <p>
+            PreTeXt provides semantic environments for mathematical content.
+        </p>
+        <program language="xml">
+            <code>
+                <![CDATA[
+<definition xml:id="def-unitary">
+  <title>Unitary Operator</title>
+  <statement>
+    <p>An operator <m>U</m> is unitary if <m>U^\dagger U = I</m>.</p>
+  </statement>
+</definition>
+
+<theorem xml:id="thm-noether">
+  <title>Noether's Theorem</title>
+  <statement>
+    <p>Every differentiable symmetry of the action of a physical system has a corresponding conservation law.</p>
+  </statement>
+  <proof>
+    <p>Proof details here...</p>
+  </proof>
+</theorem>
+
+<example>
+  <p>Example content goes here.</p>
+</example>
+
+<assemblage>
+  <title>Key Concept</title>
+  <p>Assemblages are used for boxed summaries or highlights.</p>
+</assemblage>
+                ]]>
+            </code>
+        </program>
+    </subsection>
+
+    <subsection xml:id="sub-pretext-code">
+        <title>Code and Programs</title>
+        <p>
+            Inline code uses <code><![CDATA[<code>]]></code>. Block code uses <code><![CDATA[<program>]]></code>.
+        </p>
+        <program language="xml">
+            <code>
+                <![CDATA[
+<program language="python">
+  <input>
+def hello_world():
+    print("Hello, PreTeXt!")
+  </input>
+</program>
+                ]]>
+            </code>
+        </program>
+        <p>
+            For verbatim content (like XML examples), wrap code in <code><![CDATA[<![CDATA[ ... ]]]]></code> tags to avoid parser errors.
+        </p>
+    </subsection>
+
+    <subsection xml:id="sub-pretext-references">
+        <title>Cross-References and Links</title>
+        <p>
+            Use <code><![CDATA[<xref ref="id" />]]></code> to link to elements with an <code>xml:id</code>.
+        </p>
+        <program language="xml">
+            <code>
+                <![CDATA[
+<p>As seen in <xref ref="def-unitary" />, we define ...</p>
+<url href="https://pretextbook.org">PreTeXt Guide</url>
+                ]]>
+            </code>
+        </program>
+    </subsection>
+
+    <subsection xml:id="sub-pretext-images">
+        <title>Images and Figures</title>
+        <program language="xml">
+            <code>
+                <![CDATA[
+<figure xml:id="fig-my-diagram">
+  <caption>A description of the figure.</caption>
+  <image source="images/diagram.png" width="80%">
+    <shortdescription>Alt text for accessibility</shortdescription>
+  </image>
+</figure>
+                ]]>
+            </code>
+        </program>
+    </subsection>
+
+    <subsection xml:id="sub-pretext-tables">
+        <title>Tables</title>
+        <program language="xml">
+            <code>
+                <![CDATA[
+<table>
+  <title>Data Summary</title>
+  <tabular bottom="minor" top="minor" left="minor" right="minor">
+    <row header="yes">
+      <cell>Variable</cell>
+      <cell>Value</cell>
+    </row>
+    <row>
+      <cell><m>x</m></cell>
+      <cell>10</cell>
+    </row>
+  </tabular>
+</table>
+                ]]>
+            </code>
+        </program>
+    </subsection>
+
+    <subsection xml:id="sub-pretext-indexing">
+        <title>Indexing and Glossary</title>
+        <p>
+            Use <code><![CDATA[<idx>]]></code> for index entries and <code><![CDATA[<gi>]]></code> for glossary items.
+        </p>
+        <program language="xml">
+            <code>
+                <![CDATA[
+<p>
+  Quantum <idx><h>entanglement</h></idx> entanglement is a phenomenon...
+</p>
+                ]]>
+            </code>
+        </program>
+    </subsection>
+
+    <subsection xml:id="sub-project-conventions">
+        <title>Project Conventions</title>
+        <p>
+            This project uses some custom conventions for metadata and highlighting.
+        </p>
+        <ul>
+            <li>
+                <p>
+                    <term>Tags:</term> Use <code><![CDATA[<tag>keyword</tag>]]></code> in introductions for categorization.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <term>Note IDs:</term> Use <code><![CDATA[YYYYMMDDHHMM]]></code> format.
+                </p>
+            </li>
+        </ul>
+    </subsection>
+
+    <subsection xml:id="sub-pretext-lists">
+        <title>Lists</title>
+        <program language="xml">
+            <code>
+                <![CDATA[
+<ul>
+  <li>Unordered item 1</li>
+  <li>Unordered item 2</li>
+</ul>
+
+<ol label="a">
+  <li>Ordered item with alpha label</li>
+  <li>Ordered item 2</li>
+</ol>
+                ]]>
+            </code>
+        </program>
+    </subsection>
+
+</section>

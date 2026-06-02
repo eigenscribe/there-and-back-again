@@ -1026,12 +1026,12 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
 }
 
-/* Assemblage - Blue-Purple-Pink Gradient (8:5:3 Ratio) */
+/* Assemblage - Blue-Purple Gradient (8:5 Ratio) */
 .ptx-content .assemblage-like .heading {
-  background-image: linear-gradient(120deg, var(--primary-color) 0%, var(--primary-color) 50%, var(--secondary-color) 81.25%, var(--pernary-color) 100%) !important;
+  background-image: linear-gradient(120deg, var(--primary-color) 0%, var(--primary-color) 61.5%, var(--secondary-color) 100%) !important;
 }
 .ptx-content .assemblage-like::before {
-  background: linear-gradient(to bottom, var(--primary-color) 0%, var(--primary-color) 50%, var(--secondary-color) 81.25%, var(--pernary-color) 100%) !important;
+  background: linear-gradient(to bottom, var(--primary-color) 0%, var(--primary-color) 61.5%, var(--secondary-color) 100%) !important;
 }
 
 /* Old specific heading styles removed */
@@ -1105,9 +1105,8 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 .ptx-content .assemblage-like {
   background: linear-gradient(135deg, 
     rgba(20, 181, 255, 0.1) 0%, 
-    rgba(20, 181, 255, 0.1) 50%, 
-    rgba(155, 125, 255, 0.1) 81.25%, 
-    rgba(255, 64, 161, 0.1) 100%
+    rgba(20, 181, 255, 0.1) 61.5%,
+    rgba(155, 125, 255, 0.1) 100%
   ) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);

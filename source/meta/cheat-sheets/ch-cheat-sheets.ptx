@@ -7,5 +7,6 @@
   </introduction>
 
   <xi:include href="sec-terminal-cheat-sheet.ptx" />
+  <xi:include href="sec-pretext-cheat-sheet.ptx" />
 
 </chapter>
