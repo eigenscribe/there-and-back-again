@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsubsection xml:id="subsubsec-finite-difference" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Finite Difference Schemes</title>
+  <idx>finite-difference</idx>
+  <introduction>
+    <!-- enter intro here -->
+  </introduction>
+
+  <p>
+    hellow
+  </p>
+
+  <table>
+    <title>Comparison of Finite Difference Scheme Properties</title>
+    <tabular bottom="minor" top="minor" left="minor" right="minor">
+
+      <!-- Header -->
+      <row header="yes">
+        <cell><strong>Type</strong></cell>
+        <cell>Order</cell>
+        <cell>Formulation</cell>
+        <cell>Error</cell>
+        <cell>Grid Points</cell>
+      </row>
+
+      <!-- 💚 Forward Difference  -->
+      <row>
+        <!-- 📒 Type -->
+        <cell>Forward Difference</cell>
+
+        <!-- 🔢 Order -->
+        <cell>first</cell>
+
+        <!-- 🟰 Formulation -->
+        <cell>
+            <p>
+                <md>
+                    \frac{df}{dx} = ...
+                </md>
+            </p>
+        </cell>
+
+        <!-- ❌ Error -->
+        <cell>
+          <p>
+            <m>\mathcal{O}(\Delta x)</m>
+          </p>
+        </cell>
+
+        <!-- 🟣 Grid points -->
+       <cell>1</cell>
+      </row>
+
+      <!-- 💚 Backward Difference -->
+      <row>
+        <!--📒 Type -->
+        <cell>Backward Difference</cell>
+
+        <!--🔢 Order -->
+        <cell>first</cell>
+
+        <!--🟰 Formulation -->
+        <cell>
+            <p>
+                <md>
+                    \frac{df}{dx} = ...
+                </md>
+            </p>
+        </cell>
+
+        <!--❌ Error -->
+        <cell>
+          <p>
+            <m>\mathcal{O}(\Delta x)</m>
+          </p>
+        </cell>
+
+        <!--🟣 Grid points -->
+       <cell>1</cell>
+      </row>
+
+      <!--💚 Central Difference (first order)-->
+      <row>
+        <!--📒 Type -->
+        <cell>Central Difference</cell>
+
+        <!--🔢 Order -->
+        <cell>first</cell>
+
+        <!--🟰 Formulation -->
+        <cell>
+            <p>
+                <md>
+                    \frac{df}{dx} = ...
+                </md>
+            </p>
+        </cell>
+
+        <!--❌ Error -->
+        <cell>
+          <p>
+            <m>\mathcal{O}(\Delta x^2)</m>
+          </p>
+        </cell>
+
+        <!--🟣 Grid points -->
+       <cell><m>2</m></cell>
+      </row>
+
+      <!--💚 Central Difference (second order)-->
+      <row>
+        <!--📒 Type -->
+        <cell>Central Difference</cell>
+
+        <!--🔢 Order -->
+        <cell>second</cell>
+
+        <!--🟰 Formulation -->
+        <cell>
+            <p>
+                <md>
+                    \frac{d^2f}{dx^2} = ...
+                </md>
+            </p>
+        </cell>
+
+        <!--❌ Error -->
+        <cell>
+          <p>
+            <m>\mathcal{O}(\Delta x^2)</m>
+          </p>
+        </cell>
+
+        <!--🟣 Grid points -->
+       <cell> double check </cell>
+      </row>
+
+    </tabular>
+  </table>
+
+</subsubsection>

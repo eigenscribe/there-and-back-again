@@ -4,7 +4,7 @@
     <p>Non-geometric algebra mathematics.</p>
   </introduction>
 
-  <xi:include href="appendix-mathematical-foundations/sec-computational-methods/sec-computational-methods.ptx"/>
+  <xi:include href="MATHEMATICAL_FOUNDATIONS/COMPUTATIONAL_METHODS/sec-computational-methods.ptx"/>
 
 
  </appendix>

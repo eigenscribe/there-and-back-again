@@ -7,6 +7,6 @@
     <!-- insert intro here -->
   </introduction>
 
-  <xml:include href="NUMERICAL_METHODS/subsec-numerical-methods.ptx"/>
+  <xi:include href="NUMERICAL_METHODS/subsec-numerical-methods.ptx"/>
 
  </section>

@@ -4,9 +4,11 @@
   <title>Numerical Methods</title>
   <idx>numerical methods methods</idx>
   <introduction>
-    <!-- enter description here -->
+    <p>
+      Numerical methods hurt my head. 🤯
+    </p>
   </introduction>
 
-  <xml:include href="subsubsec-finite-difference.ptx"/>
+  <xi:include href="subsubsec-finite-difference.ptx"/>
 
- </subsection>
+</subsection>
