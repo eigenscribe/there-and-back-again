@@ -121,7 +121,7 @@ find output/web -name "*.html" -print0 | while IFS= read -r -d '' file; do
   perl -i -pe 's/:proofmark:/<span class="twemoji" title=":proofmark:"><\/span>/g' "$file"
   perl -i -pe 's/:eigenote:/<span class="twemoji" title=":eigenote:"><\/span>/g' "$file"
   perl -i -pe 's/:ember:/<span class="twemoji" title=":ember:"><\/span>/g' "$file"
-  perl -i -pe 's/:robot:/<span class="twemoji" title=":robot:"><\/span>/g' "$file"
+  perl -i -pe 's/:logo:/<span class="twemoji" title=":logo:"><\/span>/g' "$file"
 
   # Remove brackets from <tag> elements (rendered as <code>&lt;...&gt;</code>)
   # This addresses the issue of removing brackets around special tag elements

@@ -8,7 +8,7 @@
   70% { box-shadow: 0 0 0 10px rgba(20, 181, 255, 0); }
   100% { box-shadow: 0 0 0 0 rgba(20, 181, 255, 0); }
 }
-@keyframes proofmark-pulse {
+@keyframes logo-pulse {
   0% { box-shadow: 0 0 0 0 rgba(20, 181, 255, 0.4); }
   70% { box-shadow: 0 0 0 8px rgba(20, 181, 255, 0); }
   100% { box-shadow: 0 0 0 0 rgba(20, 181, 255, 0); }
@@ -23,7 +23,8 @@
 .twemoji[title=":eigenote:"],
 .twemoji[title=":proofmark:"],
 .twemoji[title=":favicon:"],
-.twemoji[title=":ember:"] {
+.twemoji[title=":ember:"],
+.twemoji[title=":logo:"] {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
@@ -39,8 +40,11 @@
   animation: eigenote-pulse 3s infinite ease-in-out;
 }
 .twemoji[title=":proofmark:"] {
+  background-image: url('../proofmark.png');
+}
+.twemoji[title=":logo:"] {
   background-image: url('../logo.png');
-  animation: proofmark-pulse 3s infinite ease-in-out;
+  animation: logo-pulse 3s infinite ease-in-out;
 }
 .twemoji[title=":favicon:"] { 
   background-image: url('../favicon.png');
@@ -50,6 +54,6 @@
   border-radius: 100%;
 }
 .twemoji[title=":ember:"] { 
-  background-image: url('ember.png'); 
+  background-image: url('../ember.png');
   animation: ember-pulse 3s infinite ease-in-out;
 }
