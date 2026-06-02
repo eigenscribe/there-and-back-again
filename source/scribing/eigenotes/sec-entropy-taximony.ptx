@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-entropy-taximony" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Entropy Taxonomy<fn><xref ref="schwartz2021lecture6"/></fn></title>
+    <title>Entropy Taxonomy</title>
     <idx>entropy</idx>
     <idx>clausius entropy</idx>
     <idx>boltzmann entropy</idx>

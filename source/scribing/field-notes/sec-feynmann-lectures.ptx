@@ -3,7 +3,7 @@
 <section xml:id="sec-feynmann-lectures"
          xmlns:xi="http://www.w3.org/2001/XInclude">
 
-    <title>Feynman Lectures<fn><xref ref="feynman1964vectorpotential"/></fn></title>
+    <title>Feynman Lectures</title>
 
     <claim xml:id="claim-vector-potential-generalization">
         <p>

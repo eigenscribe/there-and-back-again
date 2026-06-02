@@ -34,7 +34,7 @@
         </introduction>
         <subsection xml:id="sub-demo">
           <title>Subsection</title>
-          <p>Content with <m>E=mc^2</m>, <fn>Footnote</fn>, and <xref ref="ch-demo"/>.</p>
+          <p>Content with <m>E=mc^2</m> and <xref ref="ch-demo"/>.</p>
         </subsection>
         <conclusion>
           <p>🖇️ <alert>Linked Notes:</alert> <xref ref="other-note"/></p>
@@ -96,16 +96,8 @@
                     <cell>Hyperlink</cell>
                     <cell><url href="https://pretextbook.org">PreTeXt</url></cell>
                 </row>
-                <row>
-                    <cell><c><![CDATA[<fn>]]></c></cell>
-                    <cell>Footnote</cell>
-                    <cell>A footnote<fn>The footnote text.</fn></cell>
-                </row>
             </tabular>
         </table>
-        <p>
-            <alert>Note:</alert> Footnotes (<c><![CDATA[<fn>]]></c>) are automatically numbered and typically rendered at the bottom of the page or in the margin.
-        </p>
         <p>
             <alert>Note:</alert> In this project, <c><![CDATA[<tag>]]></c> elements are styled as glassmorphic pills.
         </p>
@@ -253,8 +245,8 @@
                 </row>
                 <row>
                     <cell>Technical</cell>
-                    <cell><c>program</c>, <c>image</c>, <c>table</c>, <c>figure</c>, <c>fn</c></cell>
-                    <cell>Non-textual data, code, and footnotes</cell>
+                    <cell><c>program</c>, <c>image</c>, <c>table</c>, <c>figure</c></cell>
+                    <cell>Non-textual data, code, and graphics</cell>
                 </row>
                 <row>
                     <cell>Lists</cell>

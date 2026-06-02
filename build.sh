@@ -33,6 +33,7 @@ cp assets/custom-theme.css output/web/external/
 cp -r assets/elements/ output/web/external/elements/
 cp assets/wisp.jpg output/web/external/
 cp assets/logo.png output/web/external/
+cp assets/cover.png output/web/external/
 cp assets/favicon.png output/web/external/
 cp assets/ember.png output/web/external/
 cp assets/orb.png output/web/external/
