@@ -54,8 +54,8 @@
 }
 
 /* TOC Chapter headers (Prototypes, Tutorials, etc.) */
-.ptx-toc ul.structural > li .codenumber,
-.ptx-toc ul.structural > li .title {
+.ptx-toc ul.structural > li > .codenumber,
+.ptx-toc ul.structural > li > .title {
   background: var(--gradient-cyan-to-blue);
   -webkit-background-clip: text;
   background-clip: text;
@@ -166,7 +166,7 @@ li.toc-backmatter.contains-active > .toc-title-box {
   border-radius: 12px !important;
 }
 
-/* Note: .contains-active parent items (Front Matter, chapter headings) have 
+/* Note: .contains-active parent items (Front Matter, chapter headings) have
    PreTeXt-default red styling that's extremely resistant to CSS overrides.
    The active leaf items (actual notes/sections) correctly show cyan gradient. */
 
@@ -246,7 +246,7 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   background: rgba(40, 30, 70, 0.6) !important;
   background-color: rgba(40, 30, 70, 0.6) !important;
   border: none !important;
-  border-radius: 12px !important; 
+  border-radius: 12px !important;
 }
 
 /* Remove square containers from nested active lists */

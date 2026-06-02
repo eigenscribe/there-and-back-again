@@ -1,6 +1,15 @@
 #!/bin/bash
 set -e
 
+# Check if running on Windows (Git Bash/WSL) and if a PowerShell script exists
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
+  if [ -f "build.ps1" ]; then
+    echo "🪟 Windows detected. Running build.ps1 via PowerShell..."
+    powershell.exe -ExecutionPolicy Bypass -File build.ps1
+    exit $?
+  fi
+fi
+
 # Activate virtual environment if it exists
 if [ -d ".venv" ]; then
   source .venv/bin/activate
