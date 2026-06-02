@@ -265,18 +265,26 @@
         <ul>
             <li>
                 <p>
-                    <term>Note Metadata:</term> Every note introduction should include a Note ID, Tags, and optionally a PreFigure Demo link.
+                    <term>Note Metadata:</term> Every note should include a metadata block (Note ID, Tags, etc.). This block can be placed in <c><![CDATA[<introduction>]]></c>, <c><![CDATA[<blockquote>]]></c>, <c><![CDATA[<aside>]]></c>, or <c><![CDATA[<paragraphs>]]></c>.
                 </p>
                 <program language="xml">
                     <code>
                         <![CDATA[
+<!-- Traditional Introduction -->
 <introduction>
   <p>
     <term>Note ID:</term> <tag>202606012315</tag> |
-    <term>Tags:</term> <tag>topic1</tag>, <tag>topic2</tag> |
-    <term>PreFigure Demo:</term> <tag>🔗 <url href="https://prefigure.org">Interactive</url></tag>
+    <term>Tags:</term> <tag>topic1</tag>, <tag>topic2</tag>
   </p>
 </introduction>
+
+<!-- Alternative using Blockquote (Always visible, no title) -->
+<blockquote>
+  <p>
+    <term>Note ID:</term> <tag>202606012315</tag> |
+    <term>Tags:</term> <tag>topic1</tag>
+  </p>
+</blockquote>
                         ]]>
                     </code>
                 </program>
@@ -291,7 +299,7 @@
             </li>
             <li>
                 <p>
-                    <term>Note IDs:</term> Use <c>YYYYMMDDHHMM</c> format. The first tag (Note ID) is automatically styled purple.
+                    <term>Note IDs:</term> Use <c>YYYYMMDDNNNN</c> or <c>HHMM</c> format. The first <c><![CDATA[<tag>]]></c> in a supported metadata block (Introduction, Blockquote, etc.) is automatically styled as a purple glassmorphic Note ID.
                 </p>
             </li>
             <li>
