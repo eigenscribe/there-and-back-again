@@ -6,6 +6,7 @@
     <!-- introductory text here -->
   </introduction>
 
+  <xi:include href="ch-template.ptx"/>
   <xi:include href="./cheat-sheets/ch-cheat-sheets.ptx" />
   <xi:include href="./gold-standards/ch-gold-standards.ptx" />
 

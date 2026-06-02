@@ -40,7 +40,7 @@
 
   <abstract>
     <p>
-      <em>There and Back Again</em> is a <pretext />-powered personal knowledge management system developed by Eigenscribe Inc that demonstrates an integrated workflow for technical learning, documentation, and research.
+      :eigenote: <em>There and Back Again</em> is a <pretext />-powered personal knowledge management system developed by Eigenscribe Inc that demonstrates an integrated workflow for technical learning, documentation, and research.
       The project spans interdisciplinary STEM domains, including neuroscience, statistical mechanics, and machine learning, and emphasizes the construction of explicit "concept bridges" between fields. 
       At its core is the <em>Eigenscribe methodology</em>, which combines AI-assisted development with <term>first-principles logic</term> to produce transparent, reproducible, and interrpetable reasoning.
       This system functions as a scalable, portable, and self-correcting intellectual infrastructure designed to support independent research and professional development in remote, asynchronous enviornments.
@@ -83,6 +83,7 @@
 
       <xi:include href="CONVENTIONS/math-notation.ptx"/>
       <xi:include href="CONVENTIONS/abbreviations.ptx"/>
+      <xi:include href="CONVENTIONS/icons.ptx"/>
 
     </paragraphs>
 

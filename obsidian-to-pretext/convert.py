@@ -282,8 +282,27 @@ class ObsidianToPreText:
                 'important': 'warning',
                 'example': 'example',
                 'info': 'note',
+                'eigenote': 'note',
+                'favicon': 'note',
+                'ember': 'note',
             }
             ptx_type = type_map.get(callout_type, 'note')
+            
+            if callout_type == 'eigenote':
+                if not callout_title:
+                    callout_title = ":eigenote: Eigenote"
+                elif ":eigenote:" not in callout_title:
+                    callout_title = f":eigenote: {callout_title}"
+            elif callout_type == 'favicon':
+                if not callout_title:
+                    callout_title = ":favicon: Observation"
+                elif ":favicon:" not in callout_title:
+                    callout_title = f":favicon: {callout_title}"
+            elif callout_type == 'ember':
+                if not callout_title:
+                    callout_title = ":ember: Heuristic"
+                elif ":ember:" not in callout_title:
+                    callout_title = f":ember: {callout_title}"
             
             if callout_title:
                 return f'__CALLOUT_START_{ptx_type}__|{callout_title}|__CALLOUT_BODY__|{callout_body}|__CALLOUT_END__'

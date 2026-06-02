@@ -32,6 +32,10 @@ mkdir -p output/web/external
 cp assets/custom-theme.css output/web/external/
 cp assets/wisp.jpg output/web/external/
 cp assets/logo.png output/web/external/
+cp assets/favicon.png output/web/external/
+cp assets/ember.png output/web/external/
+cp assets/orb.png output/web/external/
+cp assets/space-bg.png output/web/external/
 cp assets/favicon.png output/web/
 
 # Copy graph module files
@@ -106,8 +110,15 @@ nav.ptx-toc .toc-backmatter.contains-active .toc-title-box a.internal,
 CSSOVERRIDE
 
 # Inject CSS link and favicon into all HTML files
-echo "Injecting custom CSS and favicon into HTML files..."
+echo "Injecting custom CSS, emojis and favicon into HTML files..."
 find output/web -maxdepth 1 -name "*.html" -print0 | while IFS= read -r -d '' file; do
+  # Inject custom emoji spans
+  perl -i -pe 's/:favicon:/<span class="twemoji" title=":favicon:"><\/span>/g' "$file"
+  perl -i -pe 's/:proofmark:/<span class="twemoji" title=":proofmark:"><\/span>/g' "$file"
+  perl -i -pe 's/:eigenote:/<span class="twemoji" title=":eigenote:"><\/span>/g' "$file"
+  perl -i -pe 's/:ember:/<span class="twemoji" title=":ember:"><\/span>/g' "$file"
+  perl -i -pe 's/:robot:/<span class="twemoji" title=":robot:"><\/span>/g' "$file"
+
   # Check if the file already has the custom CSS link
   if ! grep -q "custom-theme.css" "$file"; then
     # Insert the link tag in head (use perl for portable in-place edit on macOS)

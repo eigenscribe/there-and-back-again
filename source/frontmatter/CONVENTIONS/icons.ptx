@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="sub-icons" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Icons</title>
+
+  <dl>
+    <li>
+      <title>Proofmark</title>
+      <idx>proofmark</idx>
+      <p>
+        <term>Icon:</term> :proofmark:
+      </p>
+      <p>
+        Use the <term>Proofmark</term> icon as a signature of authenticity or to mark verified, high-fidelity content that has undergone rigorous review.
+      </p>
+    </li>
+    <li>
+      <title>Eigenote</title>
+      <idx>eigenote</idx>
+      <p>
+        <term>Icon:</term> :eigenote:
+      </p>
+      <p>
+        Use an <term>Eigenote</term> icon to capture <q>eigen-insights</q>—the core, irreducible components of a concept or fundamental patterns that emerge across different domains.
+      </p>
+    </li>
+    <li>
+      <title>Technical Observation</title>
+      <idx>technical observation</idx>
+      <p>
+        <term>Icon:</term> :favicon:
+      </p>
+      <p>
+        Use a <term>Technical Observation</term> icon for specific implementation details, low-level technical notes, or cross-references.
+      </p>
+    </li>
+    <li>
+      <title>Heuristic Warning</title>
+      <idx>heuristic warning</idx>
+      <p>
+        <term>Icon:</term> :ember:
+      </p>
+      <p>
+        Use a <term>Heuristic Warning</term> icon to document rules of thumb, common pitfalls, and mental models that help navigate complex problem spaces.
+      </p>
+    </li>
+  </dl>
+
+</paragraphs>
