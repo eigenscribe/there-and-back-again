@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<paragraphs xml:id="sub-methodology" xmlns:xi="http://www.w3.org/2001/XInclude">
+<paragraphs xml:id="sec-methodology" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>First-Principles Framework</title>
   <idx>first-principles</idx>
-  
+
+  <introduction>
       <p>
         The Eigenscribe framework requires that assumptions are stated explicitly, inference steps remain traceable, and conclusions are reproducible and open to revision. Conceptual bridges across domains are established through shared rudimentary fundamentals (e.g., mathematical principles and physical laws). Analogy alone is not sufficient as a basis for establishing neither concepts nor conclusions.
       </p>
       <p>
         This commitment to <term>first-principles reasoning</term> is designed to promote clarity, rigor, and intellectual honesty so that sanity checks can be performed independently by the reader, a vital step in the learning process that the lifeblood of science and engineering depend on. It is also intended to be compatible with my own personal exploratory and reasoning heuristic reasoning as I add content to 'There and Back Again' and other related projects.
       </p>
+  </introduction>
 
-    <note xml:id="note-core-guidlines">
+    <note xml:id="note-core-guidelines">
       <title>Core Guidelines</title>
         <p>
           <ol>

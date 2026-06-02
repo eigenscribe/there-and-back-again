@@ -282,6 +282,10 @@ body.pretext {
   border-radius: 0 !important;
 }
 
+.frontmatter section.introduction::before {
+  display: none !important;
+}
+
 .toc-item.toc-introduction {
   display: none !important;
 }
@@ -842,6 +846,16 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   letter-spacing: 0.2px;
 }
 
+/* Paragraphs title on a separate line */
+.ptx-content .paragraphs .heading {
+  display: block !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.ptx-content .paragraphs .heading .title::after {
+  content: "" !important;
+}
+
 /* Links */
 .ptx-content a {
   color: var(--primary-color) !important;
@@ -882,7 +896,8 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 .ptx-content .insight,
 .ptx-content .warning,
 .ptx-content .exercise-like,
-.ptx-content .biblio {
+.ptx-content .biblio,
+.ptx-content .abstract {
   background: rgba(255, 255, 255, 0.05) !important;
   border-radius: 8px;
   padding: 1.5rem;
@@ -906,7 +921,8 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 .ptx-content .biblio::before,
 .ptx-content .aside::before,
 .ptx-content .assemblage-like::before,
-.ptx-content section.introduction::before {
+.ptx-content section.introduction::before,
+.ptx-content .abstract::before {
   content: "";
   position: absolute;
   top: 0;
@@ -930,7 +946,8 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 .ptx-content .exercise-like .heading,
 .ptx-content .aside .heading,
 .ptx-content .biblio .heading,
-.ptx-content section.introduction .heading {
+.ptx-content section.introduction .heading,
+.ptx-content .abstract .heading {
   font-family: var(--font-heading) !important;
   font-weight: bold !important;
   font-size: 1.15rem !important;
@@ -968,14 +985,16 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 .ptx-content .hint .heading,
 .ptx-content .exercise-like .heading,
 .ptx-content section.introduction .heading,
-.ptx-content .biblio .heading {
+.ptx-content .biblio .heading,
+.ptx-content .abstract .heading {
   background-image: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
 }
 .ptx-content .example-like::before,
 .ptx-content .hint::before,
 .ptx-content .exercise-like::before,
 .ptx-content section.introduction::before,
-.ptx-content .biblio::before {
+.ptx-content .biblio::before,
+.ptx-content .abstract::before {
   background: linear-gradient(to bottom, var(--primary-color-light), var(--primary-color)) !important;
 }
 
@@ -999,14 +1018,20 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
 }
 
-/* Default / Aside / Assemblage */
-.ptx-content .aside .heading,
-.ptx-content .assemblage-like .heading {
+/* Default / Aside */
+.ptx-content .aside .heading {
   background-image: linear-gradient(120deg, var(--secondary-color), var(--pernary-color)) !important;
 }
-.ptx-content .aside::before,
-.ptx-content .assemblage-like::before {
+.ptx-content .aside::before {
   background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
+}
+
+/* Assemblage - Blue-Purple-Pink Gradient (8:5:3 Ratio) */
+.ptx-content .assemblage-like .heading {
+  background-image: linear-gradient(120deg, var(--primary-color) 0%, var(--primary-color) 50%, var(--secondary-color) 81.25%, var(--pernary-color) 100%) !important;
+}
+.ptx-content .assemblage-like::before {
+  background: linear-gradient(to bottom, var(--primary-color) 0%, var(--primary-color) 50%, var(--secondary-color) 81.25%, var(--pernary-color) 100%) !important;
 }
 
 /* Old specific heading styles removed */
@@ -1078,14 +1103,22 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   Alert boxes 
   ===================*/
 .ptx-content .assemblage-like {
-  background: rgba(40, 30, 70, 0.6) !important;
-  background-color: rgba(40, 30, 70, 0.6) !important;
-  border-radius: 12px !important; 
-  padding: 1rem;
-  padding-left: 1.5rem !important;
-  margin-bottom: 2rem;
+  background: linear-gradient(135deg, 
+    rgba(20, 181, 255, 0.1) 0%, 
+    rgba(20, 181, 255, 0.1) 50%, 
+    rgba(155, 125, 255, 0.1) 81.25%, 
+    rgba(255, 64, 161, 0.1) 100%
+  ) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 16px !important; 
+  padding: 1.5rem !important;
+  padding-left: 2rem !important;
+  margin-bottom: 2.5rem;
   color: var(--color-text) !important;
   position: relative !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 /*====================================================
