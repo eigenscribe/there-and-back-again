@@ -1,0 +1,295 @@
+/* --------------------
+  Section 1: Prism & Code Block Overrides
+  (gutter alignment, line-numbers control, tab-size)
+  -------------------- */
+/* --- Prism gutter override: ensure gutter width and pre padding match --- */
+/* This block is intentionally high-specificity and uses !important so it overrides
+   PreTeXt/Prism generated CSS and prevents code text overlapping the gutter. */
+pre[class*="language-"].line-numbers .line-numbers-rows,
+code[class*="language-"].line-numbers .line-numbers-rows {
+  position: absolute !important;
+  /* position the gutter to the left of the code area (negative offset) */
+  left: -7.2em !important;
+  top: 0 !important;
+  width: 4.6em !important;
+  padding: 0 0.5em 0 0 !important;
+  text-align: right !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  color: var(--color-muted) !important;
+  border-right: 1px solid rgba(255,255,255,0.04) !important;
+  z-index: 1000 !important;
+}
+
+pre[class*="language-"].line-numbers {
+  /* match padding to the negative left offset + a little breathing room */
+  padding-left: 8.0em !important;
+  box-sizing: border-box !important;
+}
+
+pre[class*="language-"].line-numbers > code,
+pre[class*="language-"].line-numbers > code[class*="language-"] {
+  margin-left: 0 !important;
+  position: relative !important;
+  z-index: 1 !important;
+  box-sizing: border-box !important;
+}
+
+/* Adjust the actual code content: add a small left padding so the code
+   text sits comfortably to the right of the gutter. Also normalize tab size. */
+pre[class*="language-"].line-numbers > code,
+.ptx-content pre.program.clipboardable.line-numbers > code {
+  padding-left: 0 !important;
+  display: block !important;
+  white-space: pre !important;
+  -moz-tab-size: 4 !important;
+  tab-size: 4 !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.ptx-content pre.program.clipboardable.line-numbers {
+  padding-left: 4.6em !important;
+}
+
+@media (max-width: 600px) {
+  pre[class*="language-"].line-numbers,
+  .ptx-content pre.program.clipboardable.line-numbers {
+    padding-left: 5.2em !important;
+  }
+  pre[class*="language-"].line-numbers .line-numbers-rows {
+    width: 4.2em !important;
+    left: 0.5em !important;
+    z-index: 1000 !important;
+  }
+}
+
+/* Temporary: disable Prism line numbers entirely so code blocks render as plain glassmorphic code panels while we iterate on layout. */
+pre[class*="language-"].line-numbers,
+code[class*="language-"].line-numbers,
+.ptx-content pre.program.clipboardable.line-numbers {
+  padding-left: 0 !important;
+}
+
+pre[class*="language-"].line-numbers .line-numbers-rows,
+code[class*="language-"].line-numbers .line-numbers-rows {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Ensure inner code takes full width and keeps the glass effect */
+pre[class*="language-"].line-numbers > code,
+.ptx-content pre.program > code {
+  padding-left: 1.0em !important;
+}
+
+/* Remove any right border leftover from gutter rules */
+pre[class*="language-"].line-numbers { border-right: none !important; }
+
+/*====================================================
+  Code blocks - IBM Quantum Circuit Composer inspired
+  ====================================================*/
+.ptx-content code.code-inline,
+.ptx-content pre {
+  font-family: var(--font-mono) !important;
+  background: #1a1d24 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid rgba(60, 70, 85, 0.5);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.ptx-content code.code-inline {
+  padding: 3px 8px;
+  font-size: 0.88em;
+  background: #252a33 !important;
+  color: #ffb3cc !important;
+  border-radius: 4px;
+  border: none;
+}
+
+.ptx-content pre {
+  padding: 1.25rem 1.5rem;
+  margin: 1.25rem 0;
+  overflow-x: auto;
+  line-height: 1.6;
+  font-size: 0.92rem;
+}
+
+/* IBM Quantum-inspired syntax highlighting - colorful, clean, high contrast */
+.ptx-content pre .keyword,
+.ptx-content pre .kw { color: #19f9d8 !important; } /* Cyan - keywords (include, if, qreg) */
+.ptx-content pre .string,
+.ptx-content pre .st { color: #ff75c3 !important; } /* Magenta/Purple - strings */
+.ptx-content pre .comment,
+.ptx-content pre .co { color: #4c739c !important; font-style: italic; }
+.ptx-content pre .function,
+.ptx-content pre .fu { color: #14b5ff !important; } /* Blue - functions */
+.ptx-content pre .number,
+.ptx-content pre .dv { color: #be58f9 !important; } /* Gold/Yellow - numbers */
+.ptx-content pre .operator,
+.ptx-content pre .op { color: #939af8 !important; font-weight: 600 !important; } /* Light cyan - operators */
+.ptx-content pre .variable,
+.ptx-content pre .va { color: #00e000 !important; } /* Light gray - variables */
+.ptx-content pre .type,
+.ptx-content pre .dt { color: #feb538 !important; } /* Yellow - types */
+.ptx-content pre .constant,
+.ptx-content pre .cn { color: #fe38e4 !important; } /* Orange - constants */
+.ptx-content pre .builtin,
+.ptx-content pre .bu { color: #00e8ff !important; } /* Cyan - builtins */
+.ptx-content pre .attribute,
+.ptx-content pre .at { color: #6f78fa !important; } /* Purple - attributes */
+.ptx-content pre .preprocessor,
+.ptx-content pre .pp { color: #38fe52 !important; } /* Green - preprocessor */
+
+/* Code block copy button styling */
+.ptx-content pre.clipboardable {
+  position: relative !important;
+  padding-right: 50px !important;
+}
+
+/* --------------------
+   Section 7: Code block styling (glassmorphic, copy button)
+   -------------------- */
+
+.code-copy {
+  position: absolute !important;
+  top: 20px !important;
+  right: 16px !important;
+  background: linear-gradient(145deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.4)) !important;
+  border: 1px solid rgba(20, 181, 255, 0.5) !important;
+  border-radius: 4px !important;
+  padding: 4px 6px !important;
+  cursor: pointer;
+  transition: all 0.3s ease !important;
+  z-index: 10;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.code-copy:hover {
+  background: linear-gradient(145deg, rgba(20, 181, 255, 0.5), rgba(121, 82, 245, 0.6)) !important;
+  border-color: rgba(20, 181, 255, 0.8) !important;
+  box-shadow: 0 0 12px rgba(20, 181, 255, 0.4) !important;
+  transform: scale(1.05);
+}
+
+.code-copy .copyicon {
+  color: #14b5ff !important;
+  font-size: 16px !important;
+}
+
+.code-copy:hover .copyicon {
+  color: var(--color-text) !important;
+}
+
+/* ==================================================
+   Glassmorphic Code Block Styling
+   Match the site theme with a semi-transparent, blurred
+   panel while keeping high-contrast syntax highlighting.
+   ================================================== */
+.ptx-content .code-box,
+.ptx-content pre.program,
+.ptx-content pre.program.clipboardable,
+.ptx-content pre.program.line-numbers,
+.ptx-content pre.clipboardable.line-numbers {
+  background: linear-gradient(135deg, rgba(20,181,255,0.04), rgba(121,82,245,0.03)) !important;
+  background-color: rgba(8,10,14,0.6) !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  margin: 1rem 0 !important;
+  -webkit-backdrop-filter: blur(10px) saturate(120%) !important;
+  backdrop-filter: blur(10px) saturate(120%) !important;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.65), inset 0 1px 0 rgba(255,255,255,0.02) !important;
+  overflow: auto !important;
+  box-sizing: border-box !important;
+}
+
+.ptx-content .code-box pre,
+.ptx-content pre.program > code {
+  padding: 1.05rem 1.25rem !important;
+  margin: 0 !important;
+  display: block !important;
+  color: #e6f9ff !important;
+  background: transparent !important; /* inherit glass panel */
+  white-space: pre !important;
+  overflow-x: auto !important;
+  max-width: 100% !important;
+  line-height: 1.6 !important;
+}
+
+/* Make line-numbers gutter match glass theme */
+pre[class*="language-"].line-numbers .line-numbers-rows,
+code[class*="language-"].line-numbers .line-numbers-rows {
+  left: 0 !important;
+  width: 3.6em !important;
+  border-right: 1px solid rgba(255,255,255,0.04) !important;
+  color: rgba(220,240,255,0.55) !important;
+  background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0)) !important;
+  z-index: 3 !important;
+  text-align: right !important;
+  padding-right: 0.6em !important;
+}
+
+/* Ensure the line-number gutter doesn't get pushed by code padding */
+/* Use absolute-positioned gutter + code margin to avoid double-padding
+   and ensure code text never overlaps the numbers. */
+pre[class*="language-"].line-numbers,
+code[class*="language-"].line-numbers {
+  padding-left: 0 !important;
+}
+
+pre.line-numbers > code,
+pre[class*="language-"].line-numbers > code,
+code[class*="language-"].line-numbers > code {
+  margin-left: 3.6em !important;
+  box-sizing: border-box !important;
+}
+
+/* Ensure pre itself positions the gutter and the code content respects it */
+pre.line-numbers,
+pre[class*="language-"].line-numbers {
+  position: relative !important;
+  box-sizing: border-box !important;
+}
+
+pre.line-numbers > code,
+pre[class*="language-"].line-numbers > code {
+  position: relative !important;
+  z-index: 1 !important;
+  display: block !important;
+  margin: 0 !important;
+  left: 0 !important;
+}
+
+/* Prevent code text from overlapping the gutter by ensuring the code block's content is offset
+   and that the gutter sits above via z-index. */
+.ptx-content pre.program .line-numbers-rows,
+.ptx-content pre .line-numbers-rows {
+  z-index: 4 !important;
+}
+
+/* Prevent long unbroken words from expanding the layout; allow horizontal scroll instead */
+.ptx-content .code-box,
+.ptx-content pre {
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
+
+/* Ensure highlighted lines are subtle and readable */
+pre[class*="language-"] .line-highlight,
+code[class*="language-"] .line-highlight {
+  background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(20,181,255,0.02)) !important;
+  box-shadow: inset 0 0 0 1px rgba(20,181,255,0.02) !important;
+}
+
+/* Soften copy button so it sits on the glass panel without heavy blur */
+.code-copy {
+  background: linear-gradient(145deg, rgba(20,181,255,0.08), rgba(121,82,245,0.06)) !important;
+  border: 1px solid rgba(20,181,255,0.12) !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}

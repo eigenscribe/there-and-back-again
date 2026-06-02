@@ -5,8 +5,8 @@
 
     <introduction>
         <p>
-            <term>Note ID:</term> <tag>202606020005</tag> |
-            <term>Tags:</term> <tag>geometric algebra</tag>, <tag>electromagnetism</tag> |
+            <term>Note ID:</term> <tag>202605310001</tag> |
+            <term>Tags:</term> <tag>geometric algebra</tag>, <tag>electromagnetism</tag>, <idx><tag>vector potential</tag></idx> |
             <term>PreFigure Demo:</term> <tag>None</tag>
         </p>
     </introduction>
@@ -25,7 +25,7 @@
         </statement>
     </definition>
 
-    <note>
+    <example>
     <title>Common Gauge Choices (Uniform Magnetic Field)</title>
     <dl>
 
@@ -50,6 +50,22 @@
         </li>
 
     </dl>
-    </note>
+    </example>
+
+    <lemma>
+        <title>Vector Potential for a Uniform Magnetic Field</title>
+        <idx><term>vector potential</term></idx>
+        <statement>
+            <p>
+                Consider two gauges of a uniform magnetic field <m>\vec{B}=B_0\mathbf{e}_z</m> with respective potentials <m>\vec{A}_1</m> and <m>\vec{A}_2</m>.
+                For such gauges, there is always some scalar function $\chi$ that can be used to relate the respective vector potentials as follows:
+
+                <me>
+                  \vec{A}_1= \vec{A}_2 + \vec{\nabla}\chi \, .
+                </me>
+
+            </p>
+        </statement>
+    </lemma>
 
 </subsection>
