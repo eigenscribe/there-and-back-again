@@ -1,0 +1,92 @@
+/* Import Custom Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merriweather:wght@300;400;700&family=Fira+Code&display=swap');
+
+/* Theme Variables */
+:root {
+
+  --alkali:
+    linear-gradient(
+      135deg,
+      #f78166,
+      #ffcc15
+    );
+
+  --alkaline:
+    linear-gradient(
+      135deg,
+      #86efac,
+      #16a34a
+    );
+
+  --transition:
+    linear-gradient(
+      135deg,
+      #00e8ff,
+      #14b5ff,
+      #3a98ff
+    );
+
+  --metalloid:
+    linear-gradient(
+      135deg,
+      #00f2ff,
+      #8b5cf6
+    );
+
+  --nonmetal:
+    linear-gradient(
+      135deg,
+      #00ffee,
+      #0a95eb
+    );
+
+  --noble:
+    linear-gradient(
+      135deg,
+      #00f2ff,
+      #3b82f6,
+      #8b5cf6,
+      #ec4899
+    );
+}
+
+
+body {
+
+    background: #050816;
+
+    color: white;
+
+    margin: 0;
+    padding: 2rem;
+}
+
+#periodic-table {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(18, 1fr);
+
+    gap: 0.5rem;
+}
+
+.element {
+    border-radius: 12px;
+    padding: 0.5rem;
+    background:
+        linear-gradient(
+            135deg,
+            #00e8ff,
+            #14b5ff,
+            #3a98ff,
+            #0070eb
+        );
+    transition: 0.2s;
+}
+
+.element:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 0 15px rgba(0,232,255,0.7);
+}
