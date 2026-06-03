@@ -1,15 +1,32 @@
 # Periodic Table Widget for *There and Back Again*
 
-## Roadmap
+<iframe src="https://scriber-labs.github.io/periodic-table-of-elements/" 
+    title="Interactive Periodic Table" 
+        frameborder="0" 
+        allow="accelerometer
+    ;
+    autoplay; 
+    clipboard-write; 
+    encrypted-media; 
+    gyroscope; 
+    picture-in-picture" 
+    allowfullscreen>
+</iframe>
 
-### Add a dropdown menu for interpretation coloring: 
-- [ ] Chemical group
-- [ ] Atomic radius
-- [ ] Electronegativity
-- [ ] Ionization energy
-- [ ] Atomic mass
-- [ ] Entropy
-- [ ] Free energy
-- [ ] PCA component 1
-- [ ] PCA component 2
+## ✅ To do
+> ### 🌈 Assign colors schemes for different interpretations.
+>  - [ ] Start with chemical group color mapping.
+>  - [ ] Add a dropdown menu for interpretation coloring.
+>  - [ ] Decide which interpretation to prioritize next.
+
+> ### 🗺️ Interpretation color mappings
+> - [ ] Chemical group    (start here)
+> - [ ] Atomic radius
+> - [ ] Electronegativity
+> - [ ] Ionization energy
+> - [ ] Atomic mass
+> - [ ] Entropy
+> - [ ] Free energy
+> - [ ] PCA component 1
+> - [ ] PCA component 2
 
