@@ -8,7 +8,7 @@ body.pretext {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: var(--font-body) !important;
+  font-family: var(--font-aclonica) !important;
   color: var(--color-text) !important;
   line-height: 1.7;
   min-height: 100vh;

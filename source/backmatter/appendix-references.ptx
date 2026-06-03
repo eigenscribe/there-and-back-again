@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix id="app-reference" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Reference Materials</title>
+
+  <section id="sec-periodic-table">
+    <title>Periodic Table of Elements</title>
+    <interactive xml:id="ptable">
+      <title>Periodic Table</title>
+      <url>https://scriber-labs.github.io/periodic-table-of-elements/</url>
+    </interactive>
+
+  </section>
+
+
+</appendix>

@@ -95,9 +95,82 @@ html.dark-mode {
   --color-warning: #ffcc00 !important;
 
   /* Gradients */
-  --gradient-light-to-dark-blue: linear-gradient(to right bottom, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
-  --gradient-cyan-to-blue: linear-gradient(130deg, #00ffee, #0a95eb) !important;
-  --gradient-pink: linear-gradient(to right bottom, #ff76a1, #ff40a1, #f76166) !important;
-  --gradient-blue-to-purple: linear-gradient(to right bottom, #00e8ff, #14b5ff, #5280ff, #7952f5) !important;
+  --gradient-light-to-dark-blue: linear-gradient(
+          to right bottom,
+          #00e8ff,
+          #14b5ff,
+          #3a98ff,
+          #0070eb
+  ) !important;
+
+  --gradient-cyan-to-blue: linear-gradient(
+          130deg,
+          #00ffee,
+          #0a95eb
+  ) !important;
+
+  --gradient-pink: linear-gradient(
+          to right bottom,
+          #ff76a1,
+          #ff40a1,
+          #f76166
+  ) !important;
+
+  --gradient-blue-to-purple: linear-gradient(
+          to right bottom,
+          #00e8ff,
+          #14b5ff,
+          #5280ff,
+          #7952f5
+  ) !important;
+
+  /* Tag element gradient */
+  --tag-element-gradient: linear-gradient(
+    to right bottom,
+    rgba(0, 232, 255, 0.55),
+    rgba(20, 181, 255, 0.50),
+    rgba(58, 152, 255, 0.45),
+    rgba(0, 112, 235, 0.60)
+  ) !important;
+
+  /* Typography */
+    --font-aclonica: 'Aclonica', sans-serif;
+
+    /* Borders & Radius */
+    --border-xs: 4px;
+    --border-sm: 8px;
+    --border-md: 12px;
+    --border-lg: 24px;
+    --border-xl: 40px;
+
+    --radius-xs: 4px;
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 50px;
+    --radius-pill: var(--radius-xl);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.4);
+
+    --shadow-header:   0 2px 10px rgba(0, 0, 0, 0.3);
+    --shadow-logo:     0 2px 8px rgba(0, 0, 0, 0.3);
+    --shadow-button:   0 4px 15px 0 rgba(56, 152, 255, 0.5);
+    --shadow-text:     0 1px 3px rgba(0, 0, 0, 0.5);
+    --shadow-button-2: 0 4px 15px 0 rgba(20, 165, 255, 0.6);
+    --shadow-tag:      0 4px 15px rgba(0, 0, 0, 0.2);
+
+    /* Glassmorphism */
+    --glass-bg: rgba(0, 0, 0, 0.5);
+    --glass-border: rgba(255, 255, 255, 0.1);
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
 
 }
