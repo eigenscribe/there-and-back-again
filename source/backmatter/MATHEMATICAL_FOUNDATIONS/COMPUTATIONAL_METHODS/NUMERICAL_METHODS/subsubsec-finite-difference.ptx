@@ -4,83 +4,107 @@
   <idx>backward difference</idx>
   <idx>central difference</idx>
 
-  <introduction>
-    The following lists summarize common finite difference schemes for first and second derivatives.
-  </introduction>
+  <p>
+    The following tables summarize common finite difference schemes for first and second derivatives.
+  </p>
 
-  <paragraphs xml:id="first-order-finite-difference-schemes">
+  <table xml:id="tab-first-derivative-finite-difference">
     <title>First-Derivative Finite Difference Schemes</title>
 
-    <dl>
-      <li>
-        <title><term>Forward Difference</term></title>
-        <p>
-          <em>Error:</em> <m>\mathcal{O}(\Delta x)</m>
-        </p>
-        <p>
-          <em>Grid points:</em> <m>1</m>
-        </p>
-        <p>
-          <em>Formulation:</em>
-          <md>
-            \frac{df}{dx} \approx \frac{f(x+\Delta x) - f(x)}{\Delta x}
-          </md>
-        </p>
-      </li>
+    <tabular bottom="minor" top="minor" left="minor" right="minor">
+      <row header="yes">
+        <cell>Scheme and Formulation</cell>
+        <cell>Error</cell>
+        <cell>Grid Points</cell>
+      </row>
 
-      <li>
-        <title><term>Backward Difference</term></title>
-        <p>
-          <em>Error:</em> <m>\mathcal{O}(\Delta x)</m>
-        </p>
-        <p>
-          <em>Grid points:</em> <m>1</m>
-        </p>
-        <p>
-          <em>Formulation:</em>
-          <md>
-            \frac{df}{dx} \approx \frac{f(x) - f(x-\Delta x)}{\Delta x}
-          </md>
-        </p>
-      </li>
+      <row>
+        <cell>
+          <p>
+            <term>Forward Difference</term>
+          </p>
+          <p>
+            <md>
+              \frac{df}{dx} \approx \frac{f(x+\Delta x) - f(x)}{\Delta x}
+            </md>
+          </p>
+        </cell>
+        <cell>
+          <m>\mathcal{O}(\Delta x)</m>
+        </cell>
+        <cell>
+          <m>1</m>
+        </cell>
+      </row>
 
-      <li>
-        <title><term>Central Difference</term></title>
-        <p>
-          <em>Error:</em> <m>\mathcal{O}(\Delta x^2)</m>
-        </p>
-        <p>
-          <em>Grid points:</em> <m>2</m>
-        </p>
-        <p>
-          <em>Formulation:</em>
-          <md>
-            \frac{df}{dx} \approx \frac{f(x+\Delta x) - f(x-\Delta x)}{2\Delta x}
-          </md>
-        </p>
-      </li>
-    </dl>
-  </paragraphs>
+      <row>
+        <cell>
+          <p>
+            <term>Backward Difference</term>
+          </p>
+          <p>
+            <md>
+              \frac{df}{dx} \approx \frac{f(x) - f(x-\Delta x)}{\Delta x}
+            </md>
+          </p>
+        </cell>
+        <cell>
+          <m>\mathcal{O}(\Delta x)</m>
+        </cell>
+        <cell>
+          <m>1</m>
+        </cell>
+      </row>
 
-  <paragraphs xml:id="second-order-finite-difference-schemes">
+      <row>
+        <cell>
+          <p>
+            <term>Central Difference</term>
+          </p>
+          <p>
+            <md>
+              \frac{df}{dx} \approx \frac{f(x+\Delta x) - f(x-\Delta x)}{2\Delta x}
+            </md>
+          </p>
+        </cell>
+        <cell>
+          <m>\mathcal{O}(\Delta x^2)</m>
+        </cell>
+        <cell>
+          <m>2</m>
+        </cell>
+      </row>
+    </tabular>
+  </table>
+
+  <table xml:id="tab-second-derivative-finite-difference">
     <title>Second-Derivative Finite Difference Schemes</title>
 
-    <dl>
-      <li>
-        <title><term>Central Difference</term></title>
-        <p>
-          <em>Error:</em> <m>\mathcal{O}(\Delta x^2)</m>
-        </p>
-        <p>
-          <em>Grid points:</em> <m>2</m>
-        </p>
-        <p>
-          <em>Formulation:</em>
-          <md>
-            \frac{d^2f}{dx^2} \approx \frac{f(x+\Delta x) - 2f(x) + f(x-\Delta x)}{\Delta x^2}
-          </md>
-        </p>
-      </li>
-    </dl>
-  </paragraphs>
+    <tabular bottom="minor" top="minor" left="minor" right="minor">
+      <row header="yes">
+        <cell>Scheme and Formulation</cell>
+        <cell>Error</cell>
+        <cell>Grid Points</cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Central Difference</term>
+          </p>
+          <p>
+            <md>
+              \frac{d^2f}{dx^2} \approx \frac{f(x+\Delta x) - 2f(x) + f(x-\Delta x)}{\Delta x^2}
+            </md>
+          </p>
+        </cell>
+        <cell>
+          <m>\mathcal{O}(\Delta x^2)</m>
+        </cell>
+        <cell>
+          <m>2</m>
+        </cell>
+      </row>
+    </tabular>
+  </table>
 </paragraphs>
