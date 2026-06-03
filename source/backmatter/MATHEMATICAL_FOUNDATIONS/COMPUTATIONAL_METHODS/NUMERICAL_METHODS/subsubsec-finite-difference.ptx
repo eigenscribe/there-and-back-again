@@ -60,8 +60,7 @@
         <cell>
           <p>
             <term>Central Difference</term>
-          </p>
-          <p>
+            <br/>
             <md>
               \frac{df}{dx} \approx \frac{f(x+\Delta x) - f(x-\Delta x)}{2\Delta x}
             </md>

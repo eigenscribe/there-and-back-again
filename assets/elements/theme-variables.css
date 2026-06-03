@@ -26,14 +26,14 @@ html.dark-mode {
   --tertiary-color-medium: #38b000 !important;
   --tertiary-color-dark: #006400 !important;
 
-  --quaternary-color-light: rgba(254, 182, 57, 1.0) !important; 
+  --quaternary-color-light: rgba(254, 182, 57, 1.0) !important;
   --quaternary-color: rgba(255, 120, 61, 1.0) !important;
   --quaternary-color-dark: rgba(240, 84, 0, 1.0) !important;
 
   --pernary-color-light: rgba(255, 118, 161, 1.0) !important;
   --pernary-color: rgba(255, 64, 161, 1.0) !important;
   --pernary-color-dark: #f76166 !important;
-  
+
   /* Grey Colors */
   --primary-color-gray-1: rgba(20, 181, 255, 0.05) !important;
   --primary-color-gray-2: rgba(20, 181, 255, 0.10) !important;
@@ -41,7 +41,7 @@ html.dark-mode {
   --primary-color-gray-4: rgba(20, 181, 255, 0.2) !important;
   --primary-color-gray-5: rgba(20, 181, 255, 0.4) !important;
   --primary-color-gray-6: rgba(20, 181, 255, 0.6) !important;
-  
+
   --secondary-color-gray-1: rgba(155, 125, 255, 0.05) !important;
   --secondary-color-gray-2: rgba(155, 125, 255, 0.10) !important;
   --secondary-color-gray-3: rgba(155, 125, 255, 0.15) !important;
@@ -54,7 +54,7 @@ html.dark-mode {
   --tertiary-color-gray-3: rgba(50, 224, 0, 0.15) !important;
   --tertiary-color-gray-4: rgba(50, 224, 0, 0.2) !important;
   --tertiary-color-gray-5: rgba(50, 224, 0, 0.4) !important;
-  --tertiary-color-gray-6: rgba(50, 224, 0, 0.6) !important; 
+  --tertiary-color-gray-6: rgba(50, 224, 0, 0.6) !important;
 
   --quaternary-color-gray-1: rgba(255, 120, 61, 0.05) !important;
   --quaternary-color-gray-2: rgba(255, 120, 87, 0.10) !important;
@@ -76,12 +76,12 @@ html.dark-mode {
   --tocitem-active-text-color: var(--primary-color) !important;
   --tocitem-active-border-color: var(--primary-color-gray-5) !important;
   --tocitem-active-background-hover: var(--primary-color-gray-3) !important;
-  
+
   /* TOC specific overrides */
   --toc-item-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), rgba(121, 82, 245, 0.15)) !important;
   --toc-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), rgba(121, 82, 245, 0.15)) !important;
   --toc-active-border-color: rgba(20, 181, 255, 0.4) !important;
-  
+
   /* Colors - Matching original design */
   --color-bg: #0d1117 !important;
   --color-surface: #161b22 !important;
@@ -103,6 +103,23 @@ html.dark-mode {
           #0070eb
   ) !important;
 
+    /* Gradients */
+  --gradient-blue: linear-gradient(
+          to right bottom,
+          #00e8ff,
+          #14b5ff,
+          #3a98ff,
+          #0070eb
+  ) !important;
+
+  --gradient-blue-transparent: linear-gradient(
+          to right bottom,
+          rgba(0, 232, 255, 0.6),
+          rgba(20, 181, 255, 0.6),
+          rgba(58, 152, 255, 0.6),
+          rgba(0, 112, 235, 0.6)
+  ) !important;
+
   --gradient-cyan-to-blue: linear-gradient(
           130deg,
           #00ffee,
@@ -113,10 +130,11 @@ html.dark-mode {
           to right bottom,
           #ff76a1,
           #ff40a1,
-          #f76166
+          #f76166,
+          #ff3881
   ) !important;
 
-  --gradient-blue-to-purple: linear-gradient(
+  --gradient-blue-to-purple-1: linear-gradient(
           to right bottom,
           #00e8ff,
           #14b5ff,
@@ -124,14 +142,47 @@ html.dark-mode {
           #7952f5
   ) !important;
 
-  /* Tag element gradient */
-  --tag-element-gradient: linear-gradient(
-    to right bottom,
-    rgba(0, 232, 255, 0.55),
-    rgba(20, 181, 255, 0.50),
-    rgba(58, 152, 255, 0.45),
-    rgba(0, 112, 235, 0.60)
+  --gradient-blue-to-purple-2: linear-gradient(
+          to right bottom,
+          #00C8FF,
+          #14A5FF,
+          #7066FF,
+          #5E17EB,
+  );
+
+
+  --gradient-blue-to-purple-to-pink: linear-gradient(
+          135deg,
+          #00f2ff,
+          #3b82f6,
+          #8b5cf6,
+          #ec4899
+  );
+
+  --gradient-orange: linear-gradient(
+          145deg,
+          rgba(247, 129, 102),
+          rgba(255, 166, 87),
+          rgba(247, 97, 102),
+          rgba(255, 204, 21),
+  );
+
+  --gradient-green: linear-gradient(
+    135deg,
+    #86efac,
+    rgba(34, 197, 94),
+    rgba(22, 163, 74)
   ) !important;
+
+  --gradient-green-transparent: linear-gradient(
+    135deg,
+    rgba(134, 255, 191, 0.35),
+    rgba(34, 197, 94, 0.4),
+    rgba(22, 163, 74, 0.6)
+  );
+
+  /* Tag element gradient */
+    --tag-element-gradient: var(--gradient-blue-transparent) !important;
 
   /* Typography */
     --font-aclonica: 'Aclonica', sans-serif;

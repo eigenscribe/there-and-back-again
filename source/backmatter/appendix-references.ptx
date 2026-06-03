@@ -5,12 +5,17 @@
 
   <section id="sec-periodic-table">
     <title>Periodic Table of Elements</title>
-    <interactive xml:id="ptable">
-      <title>Periodic Table</title>
-      <url>https://scriber-labs.github.io/periodic-table-of-elements/</url>
+
+    <interactive>
+      <webwork>
+        <static>
+          <!-- Static fallback image for print/PDF formats -->
+          <image source="assets/widgets/periodic-table/images/periodic-table.png" width="80%"/>
+        </static>
+      </webwork>
+      <iframe src="https://scriber-labs.github.io/periodic-table-of-elements/" width="100%" height="400px"/>
     </interactive>
 
   </section>
-
 
 </appendix>
