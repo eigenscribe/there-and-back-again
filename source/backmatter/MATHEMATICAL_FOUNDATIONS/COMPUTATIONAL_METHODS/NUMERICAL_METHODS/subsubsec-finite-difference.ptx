@@ -3,140 +3,101 @@
 <subsubsection xml:id="subsubsec-finite-difference" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Finite Difference Schemes</title>
   <idx>finite-difference</idx>
-  <introduction>
-    <!-- enter intro here -->
-  </introduction>
+  <!--
+      <introduction>
+       <p> introduction </p>
+      </introduction>
+  -->
 
-  <p>
-    hellow
-  </p>
+  <table xml:id="tab-finite-difference">
+      <title>Comparison of Finite Difference Scheme Properties</title>
+      <idx>forward difference</idx>
+      <idx>backward difference</idx>
+      <idx>central difference</idx>
 
-  <table>
-    <title>Comparison of Finite Difference Scheme Properties</title>
-    <tabular bottom="minor" top="minor" left="minor" right="minor">
+      <tabular bottom="minor" top="minor" left="minor" right="minor">
 
-      <!-- Header -->
-      <row header="yes">
-        <cell><strong>Type</strong></cell>
-        <cell>Order</cell>
-        <cell>Formulation</cell>
-        <cell>Error</cell>
-        <cell>Grid Points</cell>
-      </row>
+        <row header="yes">
+          <cell>Type</cell>
+          <cell>Order</cell>
+          <cell>Formulation</cell>
+          <cell>Error</cell>
+          <cell>Grid Points</cell>
+        </row>
 
-      <!-- 💚 Forward Difference  -->
-      <row>
-        <!-- 📒 Type -->
-        <cell>Forward Difference</cell>
-
-        <!-- 🔢 Order -->
-        <cell>first</cell>
-
-        <!-- 🟰 Formulation -->
-        <cell>
+        <row>
+          <cell><term>Forward Difference</term></cell>
+          <cell>first</cell>
+          <cell>
             <p>
-                <md>
-                    \frac{df}{dx} = ...
-                </md>
+              <md>
+                \frac{df}{dx} \approx \frac{f(x+\Delta x) + f(x)}{\Delta x}
+              </md>
             </p>
-        </cell>
-
-        <!-- ❌ Error -->
-        <cell>
-          <p>
-            <m>\mathcal{O}(\Delta x)</m>
-          </p>
-        </cell>
-
-        <!-- 🟣 Grid points -->
-       <cell>1</cell>
-      </row>
-
-      <!-- 💚 Backward Difference -->
-      <row>
-        <!--📒 Type -->
-        <cell>Backward Difference</cell>
-
-        <!--🔢 Order -->
-        <cell>first</cell>
-
-        <!--🟰 Formulation -->
-        <cell>
+          </cell>
+          <cell>
             <p>
-                <md>
-                    \frac{df}{dx} = ...
-                </md>
+              <m>\mathcal{O}(\Delta x)</m>
             </p>
-        </cell>
+          </cell>
+          <cell><m>1</m></cell>
+        </row>
 
-        <!--❌ Error -->
-        <cell>
-          <p>
-            <m>\mathcal{O}(\Delta x)</m>
-          </p>
-        </cell>
-
-        <!--🟣 Grid points -->
-       <cell>1</cell>
-      </row>
-
-      <!--💚 Central Difference (first order)-->
-      <row>
-        <!--📒 Type -->
-        <cell>Central Difference</cell>
-
-        <!--🔢 Order -->
-        <cell>first</cell>
-
-        <!--🟰 Formulation -->
-        <cell>
+        <row>
+          <cell><term>Backward Difference</term></cell>
+          <cell>first</cell>
+          <cell>
             <p>
-                <md>
-                    \frac{df}{dx} = ...
-                </md>
+              <md>
+                \frac{df}{dx} \approx \frac{f(x) - f(x-\Delta x)}{\Delta x}
+              </md>
             </p>
-        </cell>
-
-        <!--❌ Error -->
-        <cell>
-          <p>
-            <m>\mathcal{O}(\Delta x^2)</m>
-          </p>
-        </cell>
-
-        <!--🟣 Grid points -->
-       <cell><m>2</m></cell>
-      </row>
-
-      <!--💚 Central Difference (second order)-->
-      <row>
-        <!--📒 Type -->
-        <cell>Central Difference</cell>
-
-        <!--🔢 Order -->
-        <cell>second</cell>
-
-        <!--🟰 Formulation -->
-        <cell>
+          </cell>
+          <cell>
             <p>
-                <md>
-                    \frac{d^2f}{dx^2} = ...
-                </md>
+              <m>\mathcal{O}(\Delta x)</m>
             </p>
-        </cell>
+          </cell>
+          <cell><m>1</m></cell>
+        </row>
 
-        <!--❌ Error -->
-        <cell>
-          <p>
-            <m>\mathcal{O}(\Delta x^2)</m>
-          </p>
-        </cell>
+        <row>
+          <cell><term>Central Difference</term></cell>
+          <cell>first</cell>
+          <cell>
+            <p>
+              <md>
+                \frac{df}{dx} \approx \frac{f(x+\Delta x) - f(x-\Delta x)}{2\Delta x}
+              </md>
+            </p>
+          </cell>
+          <cell>
+            <p>
+              <m>\mathcal{O}(\Delta x^2)</m>
+            </p>
+          </cell>
+          <cell><m>2</m></cell>
+        </row>
 
-        <!--🟣 Grid points -->
-       <cell> double check </cell>
-      </row>
+        <row>
+          <cell><term>Central Difference</term></cell>
+          <cell>Second</cell>
+          <cell>
+            <p>
+              <md>
+                \frac{d^2f}{dx^2} \approx ...
+              </md>
+            </p>
+          </cell>
+          <cell>
+            <p>
+              <m>\mathcal{O}(\Delta x^2)</m>
+            </p>
+          </cell>
+          <cell>double check</cell>
+        </row>
 
-    </tabular>
-  </table>
+      </tabular>
+    </table>
 
 </subsubsection>
