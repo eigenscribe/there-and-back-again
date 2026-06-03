@@ -15,9 +15,9 @@
 
 ## ✅ To do
 > ### 🌈 Assign colors schemes for different interpretations.
->  - [ ] Start with chemical group color mapping.
->  - [ ] Add a dropdown menu for interpretation coloring.
->  - [ ] Decide which interpretation to prioritize next.
+> - [ ] Start with chemical group color mapping.
+> - [ ] Add a dropdown menu for interpretation coloring.
+> - [ ] Decide which interpretation to prioritize next.
 
 > ### 🗺️ Interpretation color mappings
 > - [ ] Chemical group    (start here)

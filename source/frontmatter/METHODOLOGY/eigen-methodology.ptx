@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="par-eigen-methodology" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Eigenscribe Methodology</title>
+
+  <assemblage>
+    <p>
+      The <em>Eigenscribe © methodology</em> is a structured approach to reasoning that aims to empower independent learning and research by emphasizing transparency and reporducibility. This is particularly important at the dawn of the AI era where the ability to sanity check is vital not onlyy the individual but for the fidelity of the scientific ecosystem as a whole.
+    </p>
+
+    <p>
+      At its core, the framework strives to enable responsible AI-assisted developing in a way that maximizes the benefits reaped from AI without sacrificing quality nor a human-supervised understanding of conclusions and systems derived. Rather than requiring that all ideas originate from fully reduced assumptions, the system allows exploratory and heuristic reasoning, which is progressively refined into formal, reproducible forms.
+    </p>
+  </assemblage>
+
+
+</paragraphs>

@@ -54,37 +54,14 @@
       <title>The Eigenscribe Framework</title>
       <idx>first-principles reasoning</idx>
 
-      <assemblage>
-        <title>:eigenote: Methodology</title>
-        <p>
-          The <em>Eigenscribe © methodology</em> is a structured appraoch to reasoning that aims to empower independent learning and research by emphasizing transparency and reporducibility. This is particularly important at the dawn of the AI era where the ability to sanity check is vital not onlyy the individual but for the fidelity of the scientific ecosystem as a whole.
-        </p>
-
-        <p>
-          At its core, the framework strives to enable responsible AI-assisted developing in a way that maximizes the benefits reaped from AI without sacrificing quality nor a human-supervised understanding of conclusions and systems derived. Rather than requiring that all ideas originate from fully reduced assumptions, the system allows exploratory and heuristic reasoning, which is progressively refined into formal, reproducible forms.
-        </p>
-      </assemblage>
 
       <!-- Include your dedicated first-principles file -->
-      <xi:include href="./METHODOLOGY/assemblage-first-principles-framework.ptx"/>
-      <xi:include href="./METHODOLOGY/assemblage-eigen-architecture.ptx"/>
-
-      <assemblage>
-        <title>:eigenote: A Dynamic Document</title>
-        <p>
-            <strong>Note:</strong> <em>There and Back Again</em> will be routinely updated over time.
-        </p>
-        <p>
-            This is a work in progress, designed to evolve alongside the researcher.
-            As new insights are gained, the "concept bridges" are strengthened, the practice problems are expanded, and the appendices are refined.
-            My hope is that this system serves as a model for how technical knowledge can be organized, retained, and applied with precision, ensuring that the lifeblood of science and engineering—reproducibility and clarity—remains intact.
-        </p>
-      </assemblage>
+      <xi:include href="./METHODOLOGY/eigen-methodology.ptx"/>
+      <xi:include href="./METHODOLOGY/first-principles.ptx"/>
+      <xi:include href="./METHODOLOGY/eigen-architecture.ptx"/>
+      <xi:include href="./METHODOLOGY/dynamic-document.ptx"/>
 
     </paragraphs>
-
-
-
   </preface>
 
   <!-- 3. Conventions -->

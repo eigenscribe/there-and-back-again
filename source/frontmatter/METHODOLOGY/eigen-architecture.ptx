@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<assemblage xml:id="assemblage-eigen-architecture" xmlns:xi="http://www.w3.org/2001/XInclude">
+<paragraphs xml:id="par-eigen-architecture" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Architecture: Networked Mathematical Thinking</title>
 
   <p>
@@ -40,4 +40,4 @@
 
 
 
-</assemblage>
+</paragraphs>
