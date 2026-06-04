@@ -120,6 +120,21 @@ html.dark-mode {
           rgba(0, 112, 235, 0.6)
   ) !important;
 
+  --gradient-purple-to-pink-1: linear-gradient(
+  135deg,
+            rgba(99, 102, 241),
+            rgba(139, 92, 246),
+            rgba(168, 85, 247)
+  ) !important;
+
+  --gradient-purple-transparent: linear-gradient(
+    135deg,
+            rgba(99, 102, 241, 0.55),
+            rgba(139, 92, 246, 0.45),
+            rgba(168, 85, 247, 0.3)
+  ) !important;
+
+
   --gradient-cyan-to-blue: linear-gradient(
           130deg,
           #00ffee,
@@ -181,8 +196,16 @@ html.dark-mode {
     rgba(22, 163, 74, 0.6)
   );
 
+  --gradient-purple-transparent: linear-gradient(
+    135deg,
+    rgba(99, 102, 241, 0.55),
+    rgba(139, 92, 246, 0.45),
+    rgba(168, 85, 247, 0.3)
+  ) !important;
+
   /* Tag element gradient */
     --tag-element-gradient: var(--gradient-blue-transparent) !important;
+    --tag-pill-purple: var(--gradient-purple-transparent) !important;
 
   /* Typography */
     --font-aclonica: 'Aclonica', sans-serif;
