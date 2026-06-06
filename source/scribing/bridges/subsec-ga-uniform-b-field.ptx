@@ -17,9 +17,9 @@
             <p>
                 For a uniform magnetic field <m>\vec{B}=B_0\mathbf{e}_z</m>, represented as a bivector <m>\bivec{B}=B_0(\mathbf{e}_x\wedge\mathbf{e}_y)</m>,
                 the <term>vector potential</term> <m>\vec{A}</m> must satisfy
-                <me>
+                <md>
                     \bivec{B}=\vec{\nabla}\wedge\vec{A} \, .
-                </me>
+                </md>
             </p>
         </statement>
     </definition>
@@ -33,9 +33,9 @@
             <idx><term>symmetry gauge</term></idx>
             <p>
                 Preserves rotational symmetry.
-                <me>
+                <md>
                     \vec{A}_\text{sym}=\frac{B_0}{2}\left(x\mathbf{e}_x+y\mathbf{e}_y\right)
-                </me>
+                </md>
             </p>
         </li>
 
@@ -44,9 +44,9 @@
             <idx><term>landau gauge</term></idx>
             <p>
                 Preserves translational symmetry along the <m>x</m>-axis.
-                <me>
+                <md>
                     \vec{A}_\text{landau}=-B_0 y \mathbf{e}_x
-                </me>
+                </md>
             </p>
         </li>
 
@@ -61,9 +61,9 @@
                 Consider two gauges of a uniform magnetic field <m>\vec{B}=B_0\mathbf{e}_z</m> with respective potentials <m>\vec{A}_1</m> and <m>\vec{A}_2</m>.
                 For such gauges, there is always some scalar function $\chi$ that can be used to relate the respective vector potentials as follows:
 
-                <me>
+                <md>
                   \vec{A}_1= \vec{A}_2 + \vec{\nabla}\chi \, .
-                </me>
+                </md>
 
             </p>
         </statement>

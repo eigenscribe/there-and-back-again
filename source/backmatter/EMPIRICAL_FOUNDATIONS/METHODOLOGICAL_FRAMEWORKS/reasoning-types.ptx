@@ -1,0 +1,79 @@
+<subsection xml:id="subsec-reasoning-types" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Reasoning Types</title>
+
+  <table xml:id="tab-reasoning-types">
+    <title>Classification of Reasoning Types</title>
+    <idx>deductive reasoning</idx>
+    <idx>inductive reasoning</idx>
+    <idx>temporal reasoning</idx>
+
+    <tabular bottom="minor" top="minor" left="minor" right="minor">
+      <col width="30%"/>
+      <col width="40%"/>
+      <col width="30%"/>
+      <row header="yes">
+        <cell>Reasoning Type</cell>
+        <cell>Definition</cell>
+        <cell>Example</cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Deductive reasoning</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Drawing specific conclusions from general laws or principles.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>Given this mechanisms, what must follow?</q>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Inductive reasoning</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Generalizing from patterns or experimental observations.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>Given this data, what can we infer about X?</q>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Temporal reasoning</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Predicting events or states based on order in time.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>If A happens before B, and B affects C, what's the downstream effect?</q>
+          </p>
+        </cell>
+      </row>
+
+
+    </tabular>
+  </table>
+
+
+</subsection>

@@ -7,9 +7,9 @@
         <p>
             <alert>Setup:</alert> Consider a uniform magnetic field <m>\vec{B} = B_0 \mathbf{e}_z</m>.
             In Geometric Algebra (GA), we represent this as the bivector:
-            <me>
+            <md>
                 \bivec{B} = B_0 (\mathbf{e}_x \wedge \mathbf{e}_y) \, .
-            </me>
+            </md>
             Note that in 3D, the traditional vector <m>\vec{B}</m> is the dual of this bivector via <m>\vec{B} = -I \bivec{B}</m>, where <m>I = \mathbf{e}_x \mathbf{e}_y \mathbf{e}_z</m>.
         </p>
     </introduction>
@@ -44,9 +44,9 @@
         <statement>
             <p>
                 Determine the specific scalar function <m>\chi(x,y)</m> that transforms the Landau gauge potential into the Symmetry gauge potential:
-                <me>
+                <md>
                     \vec{A}_{\text{sym}} = \vec{A}_{\text{Landau}} + \vec{\nabla}\chi
-                </me>
+                </md>
             </p>
         </statement>
         <hint>
@@ -58,9 +58,9 @@
         <statement>
             <p>
                 Prove that the magnetic bivector is invariant under this transformation:
-                <me>
+                <md>
                     \bivec{B}' = \vec{\nabla} \wedge \vec{A}' = \bivec{B}
-                </me>
+                </md>
             </p>
         </statement>
     </task>

@@ -115,15 +115,19 @@
             </li>
             <li>
                 <title>Single Line Equations</title>
-                <p>Use <c><![CDATA[<me>]]></c> for unnumbered and <c><![CDATA[<men>]]></c> for numbered equations.</p>
+                <p>Use <c><![CDATA[<md>]]></c> for equations. Single-line equations no longer use <c><![CDATA[<me>]]></c> or <c><![CDATA[<men>]]></c> (deprecated). Use <c>@number="yes"</c> on <c><![CDATA[<md>]]></c> for numbering.</p>
                 <program language="xml">
                     <code>
-                        <![CDATA[<men xml:id="eq-schrodinger">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</men>]]>
+                        <![CDATA[<md number="yes">
+    <mrow xml:id="eq-schrodinger">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</mrow>
+</md>]]>
                     </code>
                 </program>
                 <p>
                     <alert>Output:</alert>
-                    <men xml:id="eq-schrodinger-example">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</men>
+                    <md number="yes">
+                        <mrow xml:id="eq-schrodinger-example">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</mrow>
+                    </md>
                 </p>
             </li>
             <li>

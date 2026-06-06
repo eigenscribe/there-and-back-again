@@ -12,6 +12,9 @@
     <title>First-Derivative Finite Difference Schemes</title>
 
     <tabular bottom="minor" top="minor" left="minor" right="minor">
+      <col width="50%"/>
+      <col width="30%"/>
+      <col width="20%"/>
       <row header="yes">
         <cell>Scheme and Formulation</cell>
         <cell>Error</cell>
@@ -60,7 +63,9 @@
         <cell>
           <p>
             <term>Central Difference</term>
-            <br/>
+          </p>
+          <p>
+            <line>Second-order accurate central difference scheme:</line>
             <md>
               \frac{df}{dx} \approx \frac{f(x+\Delta x) - f(x-\Delta x)}{2\Delta x}
             </md>
@@ -80,6 +85,9 @@
     <title>Second-Derivative Finite Difference Schemes</title>
 
     <tabular bottom="minor" top="minor" left="minor" right="minor">
+      <col width="50%"/>
+      <col width="30%"/>
+      <col width="20%"/>
       <row header="yes">
         <cell>Scheme and Formulation</cell>
         <cell>Error</cell>

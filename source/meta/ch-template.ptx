@@ -149,9 +149,9 @@ if __name__ == "__main__":
         Inline math like <m>E = mc^2</m> and display math:
       </p>
       <p>
-        <me>
+        <md>
           \int_a^b f(x) \, dx = F(b) - F(a)
-        </me>
+        </md>
       </p>
     </subsection>
 

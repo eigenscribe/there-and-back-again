@@ -118,7 +118,9 @@
         <statement>
           <p>
             The Euclidean metric on <m>\R^n</m> is defined by:
-            <me>d(x, y) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}</me>
+            <md>
+              d(x, y) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
+            </md>
           </p>
         </statement>
       </example>
@@ -198,7 +200,9 @@
         <statement>
           <p>
             A sequence <m>(x_n)</m> in a metric space <m>(X, d)</m> converges to <m>x \in X</m> if:
-            <me>\forall \varepsilon > 0, \exists N \in \N \text{ such that } n > N \implies d(x_n, x) &lt; \varepsilon</me>
+            <md>
+              \forall \varepsilon > 0, \exists N \in \N \text{ such that } n > N \implies d(x_n, x) &lt; \varepsilon
+            </md>
           </p>
         </statement>
       </definition>
@@ -215,7 +219,9 @@
         <statement>
           <p>
             <m>(x_n)</m> is Cauchy if:
-            <me>\forall \varepsilon > 0, \exists N \text{ such that } m, n > N \implies d(x_m, x_n) &lt; \varepsilon</me>
+            <md>
+              \forall \varepsilon > 0, \exists N \text{ such that } m, n > N \implies d(x_m, x_n) &lt; \varepsilon
+            </md>
           </p>
         </statement>
       </definition>

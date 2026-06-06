@@ -26,9 +26,9 @@
             <statement>
                 <p>
                     The <term>Clausius entropy</term> is a change in the entropy of a system due to some <term>reversible process</term> where it absorbs some amount of heat <m>Q_\text{in}</m> at a constant temperature <m>T</m>:
-                    <me>
+                    <md>
                     \Delta S_\text{system} := \int_\text{rev}{\frac{d \, Q_\text{in}}{T}} .
-                    </me>
+                    </md>
                 </p>
 
             </statement>
@@ -42,9 +42,9 @@
             <statement>
                 <p>
                     The <term>Boltzmann entropy</term> of a macroscopic system in a state with multiplicity <m>\Omega</m> is given by:
-                    <me>
+                    <md>
                         S_\text{Boltzmann} := k_B \ln{\Omega} .
-                    </me>
+                    </md>
                 </p>
                 
             </statement>
@@ -55,9 +55,9 @@
             <statement>
                 <p>
                     The <term>Gibbs entropy</term> of a macroscopic system is defined in terms of the probabilities <m>\mathbb{p}_i</m> of being in microstate <m>i</m>:
-                    <me>
+                    <md>
                         S_\text{Gibbs} := -k_B \sum_i{\mathbb{p}_i \ln{\mathbb{p}_i}}
-                    </me>
+                    </md>
                 </p>
                 
             </statement>

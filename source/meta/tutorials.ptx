@@ -391,15 +391,15 @@ jobs:
       <paragraphs>
         <title>Display Math</title>
         <p>
-          Use <c>&lt;me&gt;</c> for displayed equations:
+          Use <c>&lt;md&gt;</c> for displayed equations:
         </p>
-        <me>
+        <md>
           \int_a^b f(x) \, dx = F(b) - F(a)
-        </me>
+        </md>
         <pre>
-&lt;me&gt;
+&lt;md&gt;
   \int_a^b f(x) \, dx = F(b) - F(a)
-&lt;/me&gt;
+&lt;/md&gt;
         </pre>
       </paragraphs>
 

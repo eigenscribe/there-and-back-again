@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<appendix id="app-reference" xmlns:xi="http://www.w3.org/2001/XInclude">
+<appendix xml:id="app-reference" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Empirical Foundations</title>
 
+  <section xml:id="sec-methodological-frameworks">
+    <title>Methodological Frameworks</title>
+
+    <xi:include href="EMPIRICAL_FOUNDATIONS/METHODOLOGICAL_FRAMEWORKS/reasoning-types.ptx"/>
 
 
-  <section id="sec-chemistry">
+  </section>
+
+  <section xml:id="sec-chemistry">
     <title>Chemistry</title>
 
-      <xi:include href="EMPIRICAL_FOUNDATIONS/CHEMISTRY/periodic-table.ptx"/>
+    <xi:include href="EMPIRICAL_FOUNDATIONS/CHEMISTRY/periodic-table.ptx"/>
 
   </section>
 
