@@ -3,6 +3,7 @@
    ============================================ */
 .ptx-content .idx,
 .ptx-content :is(.introduction, .conclusion, .blockquote, .aside, .paragraphs) .para code.code-inline,
+.ptx-content section:not(.introduction):not(.conclusion) > .para code.code-inline,
 .ptx-content .conclusion .para .alert,
 .ptx-tag-pill,
 .ptx-tag,
@@ -30,6 +31,7 @@
 
 .ptx-content .idx:hover,
 .ptx-content :is(.introduction, .conclusion, .blockquote, .aside, .paragraphs) .para code.code-inline:hover,
+.ptx-content section:not(.introduction):not(.conclusion) > .para code.code-inline:hover,
 .ptx-content .conclusion .para .alert:hover,
 .ptx-tag-pill:hover,
 .ptx-tag:hover,
@@ -43,7 +45,8 @@
 /* ============================================
    Note ID Styling (Purple Glassmorphic)
    ============================================ */
-.ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline:first-of-type {
+.ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline:first-of-type,
+.ptx-content section:not(.introduction):not(.conclusion) > .para code.code-inline:first-of-type {
     background: linear-gradient(145deg, rgba(168, 85, 247, 0.55), rgba(118, 82, 245, 0.25)) !important;
     border: 1px solid rgba(168, 85, 247, 0.7) !important;
     color: #e9d5ff !important;
@@ -53,7 +56,8 @@
     font-family: "lucida typewriter", lucidatypewriter, monospace !important;
 }
 
-.ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline:first-of-type:hover {
+.ptx-content :is(.introduction, .blockquote, .aside, .paragraphs) .para code.code-inline:first-of-type:hover,
+.ptx-content section:not(.introduction):not(.conclusion) > .para code.code-inline:first-of-type:hover {
     background: linear-gradient(145deg, rgba(168, 85, 247, 0.65), rgba(118, 82, 245, 0.35)) !important;
     box-shadow: 0 0 15px rgba(168, 85, 247, 0.35);
     color: #ffffff !important;
@@ -80,16 +84,16 @@
     -webkit-backdrop-filter: blur(4px);
 }
 
-.id-badge:hover {
-    box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
-}
+/* ... existing code ... */
 
 /* ============================================
    Conclusion Metadata Styling (Blue Glassmorphic)
    ============================================ */
+.ptx-content .idx,
 .ptx-content .conclusion .para .alert,
 .ptx-content .conclusion .para code.code-inline:last-of-type,
-.ptx-content :is(.aside, .paragraphs) .para code.code-inline:last-of-type:not(:first-of-type) {
+.ptx-content :is(.aside, .paragraphs) .para code.code-inline:last-of-type:not(:first-of-type),
+.ptx-content section:not(.introduction):not(.conclusion) > .para code.code-inline:not(:first-of-type) {
     background: linear-gradient(145deg, rgba(14, 165, 233, 0.55), rgba(2, 132, 199, 0.25)) !important;
     border: 1px solid rgba(14, 165, 233, 0.7) !important;
     color: #bae6fd !important;
@@ -99,21 +103,14 @@
     transition: all 0.3s ease;
 }
 
+.ptx-content .idx:hover,
 .ptx-content .conclusion .para .alert:hover,
 .ptx-content .conclusion .para code.code-inline:last-of-type:hover,
-.ptx-content :is(.aside, .paragraphs) .para code.code-inline:last-of-type:not(:first-of-type):hover {
+.ptx-content :is(.aside, .paragraphs) .para code.code-inline:last-of-type:not(:first-of-type):hover,
+.ptx-content section:not(.introduction):not(.conclusion) > .para code.code-inline:not(:first-of-type):hover {
     background: linear-gradient(145deg, rgba(14, 165, 233, 0.65), rgba(2, 132, 199, 0.35)) !important;
     box-shadow: 0 0 20px rgba(14, 165, 233, 0.4);
     color: #e0f2fe !important;
     border-color: rgba(14, 165, 233, 0.7) !important;
     transform: translateY(-2px);
-}
-
-/* Introduction Hide Last Tag removed to show all tags */
-
-/* ============================================
-   Metadata Alignment & Container Fixes
-   ============================================ */
-.ptx-content :is(.introduction, .blockquote) .para {
-    text-align: left !important;
 }
