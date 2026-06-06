@@ -162,6 +162,60 @@
         </cell>
       </row>
 
+      <row>
+        <cell>
+          <p>
+            <term>Statistical reasoning</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Using data, probabilities, and distributions to reach conclusions.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>Determine the uncertainty in the extracted value of X given the set of experimental data.</q>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Abductive reasoning</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Inferring the most likely explanation from incomplete evidence
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>As the temperature of a material changes from <m>T_1</m> to <m>T_2</m>, the spatial correlation length increases exponentially. What is likely true about the location of the material in phase-space (it is near a critical point/phase transition)?</q>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Hypothetical Reasoning</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Predicting outcomes under hypothetical or counterfactual scenarios.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>What would be the fractional change in the Earth's gravitational field if the gravitational constant was doubled in magnitude?</q>
+          </p>
+        </cell>
+      </row>
+
 
     </tabular>
   </table>
