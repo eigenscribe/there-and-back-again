@@ -6,6 +6,7 @@
     <idx>deductive reasoning</idx>
     <idx>inductive reasoning</idx>
     <idx>temporal reasoning</idx>
+    <idx>spatial reasoning</idx>
 
     <tabular bottom="minor" top="minor" left="minor" right="minor">
       <col width="30%"/>
@@ -67,6 +68,96 @@
         <cell>
           <p>
             <q>If A happens before B, and B affects C, what's the downstream effect?</q>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Spatial reasoning</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Understanding structures, orientation, or symmetry.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>What is the normal force on an object sliding down a ramp inclined at an angle X?</q>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Causal reasoning</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Identifying cause-and-effect relationships.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>What arrangement for three electrons causes zero electric field at the center-of-mass location?</q>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Comparative analysis</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Judging between alternatives or evaluating differences across conditions.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>What is the percent difference in the ground-state energy of an atom trapped in a harmonic potential as opposed to a quartic potential?</q>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Abstract reasoning</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Working with non-concrete or theoretical ideas.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>What's the entropy change in a hypothetical closed system with constraint X?</q>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            <term>Pattern recognition</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Spotting and interpreting regularities in data or sequences.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <q>The amounts of a radioactive isotope at times <m>t_1</m>, <m>t_2</m>, and <m>t_3</m> are <m>N_1</m>, <m>N_2</m>, and <m>N_3</m>. What is the half-life of the isotope?</q>
           </p>
         </cell>
       </row>
