@@ -1,5 +1,11 @@
 <subsection xml:id="subsec-reasoning-types" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Reasoning Types</title>
+  <intro>
+    <p>
+      Understanding these reasoning patterns allows us to diagnose our own cognitive processes when building Eigenotes.
+      We employ deductive reasoning to derive consequences from axioms, abductive reasoning to generate hypotheses from anomalous data, and spatial reasoning to visualize geometric structures.
+    </p>
+  </intro>
 
   <table xml:id="tab-reasoning-types">
     <title>Classification of Reasoning Types</title>
@@ -7,6 +13,13 @@
     <idx>inductive reasoning</idx>
     <idx>temporal reasoning</idx>
     <idx>spatial reasoning</idx>
+    <idx>causal reasoning</idx>
+    <idx>comparative analysis</idx>
+    <idx>abstract reasoning</idx>
+    <idx>pattern recognition</idx>
+    <idx>statistical reasoning</idx>
+    <idx>abductive reasoning</idx>
+    <idx>hypothetical reasoning</idx>
 
     <tabular bottom="minor" top="minor" left="minor" right="minor">
       <col width="30%"/>
