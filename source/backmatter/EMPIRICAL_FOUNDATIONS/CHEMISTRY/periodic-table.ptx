@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-periodic-table" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Periodic Table of Elements</title>
+
+   <interactive>
+     <webwork>
+       <static>
+         <!-- Static fallback image for print/PDF formats -->
+         <image source="assets/widgets/periodic-table/images/periodic-table.png" width="80%"/>
+       </static>
+     </webwork>
+     <iframe src="https://scriber-labs.github.io/periodic-table-of-elements/" width="100%" height="400px"/>
+   </interactive>
+
+</subsection>

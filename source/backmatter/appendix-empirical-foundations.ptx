@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix id="app-reference" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Empirical Foundations</title>
+
+
+
+  <section id="sec-chemistry">
+    <title>Chemistry</title>
+
+      <xi:include href="EMPIRICAL_FOUNDATIONS/CHEMISTRY/periodic-table.ptx"/>
+
+  </section>
+
+</appendix>
