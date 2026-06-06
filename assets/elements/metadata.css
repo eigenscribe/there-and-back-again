@@ -9,7 +9,7 @@
 .badge {
     display: inline-block;
     font: var(--font-aclonica) !important;
-    font-size: 0.65rem;
+    font-size: 0.65rem !important;
     padding: 0.2rem 0.6rem;
     background: linear-gradient(
             135deg,
