@@ -1,23 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Periodic Table</title>
+    <meta charset="UTF-8" />
+    <title>Interactive Periodic Table</title>
 
-    <link rel="stylesheet" href="style.css">
+    <!-- One request, so PreTeXt only needs to whitelist style.css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google‐font download is optional – comment the next line if you work offline -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+        rel="stylesheet"
+    />
 </head>
-
 <body>
-    <div class="controls">
-        <h1>Periodic Table of the Elements</h1>
-        <select id="interpretation-select">
-            <option value="family">Chemical Group</option>
-            <option value="electronegativity">Electronegativity</option>
-            <option value="atomicRadius">Atomic Radius</option>
-        </select>
-    </div>
-    <div id="periodic-table"></div>
-    <script src="script.js"></script>
+    <!--  Everything lives inside this one container  -->
+    <div id="periodic-table-app"></div>
+
+    <!--  Vanilla ES-module that bootstraps the UI  -->
+    <script type="module" src="script.js"></script>
 </body>
 </html>

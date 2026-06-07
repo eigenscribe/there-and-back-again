@@ -1,139 +1,132 @@
-/* Import Custom Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merriweather:wght@300;400;700&family=Fira+Code&display=swap');
+/* override.css */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merriweather&family=Fira+Code&display=swap');
 
 /* Theme Variables */
 :root {
+  --font-aclonica: 'Aclonica', sans-serif;
+  --color-text: whitesmoke;
 
-  --alkali:
-    linear-gradient(
-      135deg,
-      #f78166,
-      #ffcc15
-    );
 
-  --alkaline:
-    linear-gradient(
-      135deg,
-      #86efac,
-      #16a34a
-    );
+  /* Colors for Chemical Categories */
+  --alkali: linear-gradient(135deg, #f78166, #ffcc15);
+  --alkaline: linear-gradient(135deg, #86efac, #16a34a);
+  --transition: linear-gradient(135deg, #00e8ff, #14b5ff);
+  --metalloid: linear-gradient(135deg, #00f2ff, #8b5cf6);
+  --nonmetal: linear-gradient(135deg, #00ffee, #0a95eb);
+  --noble: linear-gradient(135deg, #00f2ff, #3b82f6, #8b5cf6, #ec4899);
+  --metal: linear-gradient(135deg, #a1a1aa, #71717a);
+  --actinide: linear-gradient(135deg, #f78166, #ec4899);
+  --lanthanide: linear-gradient(135deg, #16a34a, #14b5ff);
 
-  --transition:
-    linear-gradient(
-      135deg,
-      #00e8ff,
-      #14b5ff,
-      #3a98ff
-    );
-
-  --metalloid:
-    linear-gradient(
-      135deg,
-      #00f2ff,
-      #8b5cf6
-    );
-
-  --nonmetal:
-    linear-gradient(
-      135deg,
-      #00ffee,
-      #0a95eb
-    );
-
-  --noble:
-    linear-gradient(
-      135deg,
-      #00f2ff,
-      #3b82f6,
-      #8b5cf6,
-      #ec4899
-    );
-
-  --metal:
-    linear-gradient(
-      135deg,
-      #a1a1aa,
-      #71717a
-    );
 }
 
+/* -------------- generic reset -------------- */
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;width:100%;overflow:hidden;font-family:"Aclonica",sans-serif}
 
-body {
-    background: #050816;
-    color: white;
-    margin: 0;
-    padding: 1rem;
-    font-family: sans-serif;
+/* -------------- layered cosmic background -------------- */
+body::before,body::after{
+    content:"";
+    position:fixed;inset:0;z-index:-2;
+    background-size:cover;background-position:center;
+    animation: drift 120s linear infinite;
+    opacity:.15
+}
+body::before{background-image:url("./images/space-bg.png")}
+body::after {background-image:url("./images/galaxy.png");animation-direction:reverse}
+
+@keyframes drift{0%{transform:scale(1) translateX(0)}100%{transform:scale(1.2) translateX(10%)}}
+
+/* Periodic Table Grid */
+#periodic-table-app{
+  min-height:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  gap:1.5rem;
+  padding:1.5rem;
+  background:radial-gradient(ellipse at top,#161b22 0%,#0d1117 70%);
 }
 
-.controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
-    padding: 0 2rem;
+/* -------------- title -------------- */
+h1{
+  font-size:clamp(2rem,5vw,4.5rem);
+  background:linear-gradient(90deg,#14b5ff,#5280ff,#7952f5);
+  -webkit-background-clip:text;
+  color:transparent;
+  -webkit-text-stroke:1px rgba(255,255,255,.25);
+  text-shadow:0 4px 12px rgba(20,181,255,.6);
+}
+h2{color:#fff;font-size:clamp(.9rem,2vw,1.4rem);opacity:.9}
+
+/* -------------- legend -------------- */
+.legend{
+  display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center
+}
+.legend button{
+  padding:.35rem .75rem;border-radius:12px;
+  border:2px solid rgba(255,255,255,.4);
+  font-size:.8rem;color:#fff;text-transform:capitalize;
+  backdrop-filter:blur(12px);cursor:pointer;transition:.25s ease;
+  box-shadow:0 4px 20px rgba(0,0,0,.45),inset 0 1px 2px rgba(255,255,255,.2)
+}
+.legend button:hover{transform:scale(1.1);box-shadow:0 6px 25px rgba(0,0,0,.55)}
+.legend button:active{transform:scale(.95)}
+
+/* -------------- grid -------------- */
+.grid{
+  --tile-size:clamp(35px,5.2vw,70px);
+  display:grid;gap:.3rem;
+  grid-template-columns:repeat(19,var(--tile-size));
+}
+.group-label,.period-label{
+  width:var(--tile-size);height:var(--tile-size);
+  display:flex;align-items:center;justify-content:center;
+  font-size:.55rem;font-weight:bold;color:rgba(255,255,255,.9);
+  text-shadow:0 2px 4px rgba(0,0,0,.7);
 }
 
-h1 {
-    font-family: "Aclonica", sans-serif;
-    text-align: center;
-    margin: 0;
+/* -------------- tile (each element) -------------- */
+.tile{
+  width:var(--tile-size);height:var(--tile-size);
+  position:relative;
+  border-radius:10px;padding:2px;
+  border:2px solid rgba(255,255,255,.4);
+  backdrop-filter:blur(8px);
+  box-shadow:0 4px 20px rgba(0,0,0,.45),inset 0 1px 2px rgba(255,255,255,.15);
+  cursor:pointer;transition:.25s ease;
+  display:flex;flex-direction:column;justify-content:space-between;align-items:center;
 }
+.tile:hover{transform:scale(1.1);z-index:2;box-shadow:0 8px 25px rgba(0,0,0,.6)}
+.tile.dimmed{opacity:.25;pointer-events:none}
 
-#interpretation-select {
-    padding: 0.5rem;
-    border-radius: 8px;
-    background: #1f2937;
-    color: white;
-    border: 1px solid #374151;
+/*  inside the tile */
+.tile-number{font-size:.55rem;color:#fff;text-shadow:0 2px 4px rgba(0,0,0,.7)}
+.tile-symbol{font-size:1.2rem;font-weight:bold;-webkit-text-stroke:.8px rgba(255,255,255,.4)}
+.tile-mass   {font-size:.45rem;color:rgba(255,255,255,.85)}
+
+/* -------------- modal -------------- */
+#modal{
+  position:fixed;inset:0;display:none;align-items:center;justify-content:center;
+  background:rgba(0,0,0,.8);backdrop-filter:blur(8px);z-index:50;
 }
-
-#periodic-table {
-    display: grid;
-    grid-template-columns: repeat(18, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    gap: 0.5rem;
-    padding: 1rem;
+#modal.open{display:flex}
+.modal-box{
+  width:min(90%,650px);padding:2rem;border-radius:24px;
+  border:2px solid rgba(255,255,255,.5);
+  backdrop-filter:blur(20px);
+  box-shadow:0 8px 40px rgba(0,0,0,.7),inset 0 2px 4px rgba(255,255,255,.2);
+  position:relative;color:#fff
 }
-
-.element {
-    border-radius: 8px;
-    padding: 0.5rem;
-    transition: 0.2s;
-    backdrop-filter: blur(8px);
-    box-shadow:
-        inset 0 1px 1px rgba(255,255,255,0.15),
-        0 0 10px rgba(0,0,0,0.3);
-    text-align: center;
-    min-width: 60px;
+.modal-box h3{font-size:4.5rem;margin-bottom:.5rem;-webkit-text-stroke:2px rgba(255,255,255,.3)}
+.modal-box h4{font-size:2rem;margin-bottom:.75rem}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem;font-size:1rem}
+.modal-item{padding:1rem;border-radius:14px;border:2px solid rgba(255,255,255,.3);background:rgba(255,255,255,.05)}
+#close-btn{
+  position:absolute;top:1rem;right:1rem;width:48px;height:48px;border-radius:50%;
+  border:2px solid rgba(255,255,255,.4);background:rgba(255,255,255,.12);
+  display:flex;align-items:center;justify-content:center;font-size:2rem;color:#fff;cursor:pointer;
+  box-shadow:0 4px 12px rgba(0,0,0,.6);transition:.25s ease
 }
-
-.alkali      { background: var(--alkali); }
-.alkaline    { background: var(--alkaline); }
-.transition  { background: var(--transition); }
-.metalloid   { background: var(--metalloid); }
-.nonmetal    { background: var(--nonmetal); }
-.noble       { background: var(--noble); }
-.metal       { background: var(--metal); }
-
-.element:hover {
-    transform: scale(1.05);
-    z-index: 10;
-    box-shadow: 0 0 15px rgba(0,232,255,0.7);
-}
-
-/* Typography */
-.symbol {
-    font-family: "Aclonica", sans-serif;
-    font-size: 1.8rem;
-}
-
-.atomic-number {
-    font-family: "Fira Code", monospace;
-    font-size: 0.75rem;
-}
-
-.name {
-    font-family: "Merriweather", serif;
-    font-size: 0.7rem;
-}
+#close-btn:hover{transform:scale(1.1);background:rgba(255,255,255,.18)}

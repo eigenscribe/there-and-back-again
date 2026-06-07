@@ -9,13 +9,16 @@
     <xi:include href="EMPIRICAL_FOUNDATIONS/METHODOLOGICAL_FRAMEWORKS/reasoning-types.ptx"/>
 
 
-  </section>
-
-  <section xml:id="sec-chemistry">
-    <title>Chemistry</title>
-
-    <xi:include href="EMPIRICAL_FOUNDATIONS/CHEMISTRY/periodic-table.ptx"/>
 
   </section>
+
+  <!--
+    <section xml:id="sec-chemistry">
+      <title>Chemistry</title>
+
+      <xi:include href="EMPIRICAL_FOUNDATIONS/CHEMISTRY/periodic-table.ptx"/>
+
+    </section>
+  -->
 
 </appendix>
