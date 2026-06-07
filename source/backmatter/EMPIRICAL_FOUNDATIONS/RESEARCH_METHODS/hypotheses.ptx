@@ -11,10 +11,9 @@
     <idx>type I error</idx>
     <idx>type II error</idx>
 
-
     <tabular bottom="minor" top="minor" left="minor" right="minor">
-      <col width="30%"/>
       <col width="40%"/>
+      <col width="30%"/>
       <col width="30%"/>
       <row header="yes">
         <cell>Decision</cell>
@@ -59,7 +58,13 @@
       </row>
 
     </tabular>
+
   </table>
 
+<footnote>
+  <p>
+    <xref ref="tab-hypothesis-errors"/> is adapted from <xref ref="harrington2011design">Harrington, 2011</xref>
+  </p>
+</footnote>
 
 </subsection>

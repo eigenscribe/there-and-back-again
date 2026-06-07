@@ -29,11 +29,16 @@
   </biblio>
 
   <!-- <biblio xml:id="greydanus2019hamiltonianneuralnetworks" type="raw">
-    <p>
       Greydanus, S., Dzamba, M., &amp; Yosinski, J. (2019).
       <em>Hamiltonian Neural Networks</em>.
-    </p>
   </biblio> -->
+
+  <biblio xml:id="harrington2011design" type="raw">
+      Harrington, Mary (2011).
+      <em>The Design of Experiments in Neuroscience</em>. (ed. 2)
+      2nd ed.
+      SAGE Publications, Inc.
+  </biblio>
   
 
   <biblio xml:id="hestenes1993hamiltonian" type="raw">
@@ -52,17 +57,13 @@
   </biblio>
 
   <!-- <biblio xml:id="kutzbrunton2022parsimony" type="raw">
-    <p>
       Kutz, J. N., &amp; Brunton, S. L. (2022).
       <em>Parsimony as the ultimate regularizer for physics-informed machine learning</em>.
-    </p>
   </biblio> -->
 
   <!-- <biblio xml:id="raissi2019pinns" type="raw">
-    <p>
       Raissi, M., Perdikaris, P., &amp; Karniadakis, G. E. (2019).
       <em>Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations</em>.
-    </p>
   </biblio> -->
 
   <biblio xml:id="paiva2005passivelorentztransformationsspacetime" type="raw">
