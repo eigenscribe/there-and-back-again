@@ -90,8 +90,8 @@ class NotesGraph {
     style.textContent = `
       .graph-controls {
         position: absolute;
-        top: 16px;
-        right: 16px;
+        top: 10px;
+        left: 10px;
         display: flex;
         flex-direction: column;
         gap: 8px;

@@ -43,10 +43,11 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-image: var(--bg-image);
+  background-image: var(--bg-image, url('./space-bg.png')) !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #0a0a0f;
 }
 
 #graph-svg {
@@ -57,33 +58,38 @@ body {
 
 #graph-controls {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 10px;
+  left: 10px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
   z-index: 100;
 }
 
 #graph-controls button {
-  width: 40px;
-  height: 40px;
-  border: none;
-  border-radius: 8px;
-  background: var(--control-bg);
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(20, 181, 255, 0.3);
+  border-radius: 6px;
+  background: linear-gradient(145deg, rgba(20, 181, 255, 0.15), rgba(121, 82, 245, 0.2));
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   transition: all 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 #graph-controls button:hover {
-  background: var(--control-hover);
-  transform: scale(1.05);
+  background: linear-gradient(145deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.35));
+  border-color: rgba(20, 181, 255, 0.6);
+  transform: scale(1.1);
+  color: #fff;
+  box-shadow: 0 0 12px rgba(20, 181, 255, 0.3);
 }
 
 #graph-tooltip {

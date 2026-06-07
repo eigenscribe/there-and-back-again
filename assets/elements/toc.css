@@ -6,11 +6,36 @@
   grid-template-columns: 350px 1fr !important;
   grid-template-areas: "sidebar main" !important;
   position: relative;
+  transition: grid-template-columns 0.4s ease;
+}
+
+.ptx-page:not(.graph-hidden) {
+  grid-template-columns: 350px 1fr 350px !important;
+  grid-template-areas: "sidebar main right-sidebar" !important;
+}
+
+/* Wide screen expansion for main content */
+@media (min-width: 1900px) {
+  .ptx-page {
+    grid-template-columns: 350px 1fr !important;
+  }
+  .ptx-page:not(.graph-hidden) {
+    grid-template-columns: 350px 1fr 350px !important;
+  }
+  .ptx-main {
+    max-width: 1600px !important;
+  }
+}
+
+@media (min-width: 2400px) {
+  .ptx-main {
+    max-width: 1900px !important;
+  }
 }
 
 .ptx-sidebar-right {
-  position: fixed !important;
-  right: 0 !important;
+  grid-area: right-sidebar !important;
+  position: sticky !important;
   top: 56px !important;
   width: 350px !important;
   height: calc(100vh - 56px) !important;
@@ -20,13 +45,15 @@
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   backdrop-filter: blur(20px) saturate(180%);
   box-shadow: -4px 0 24px rgba(0, 0, 0, 0.3), inset 1px 0 0 rgba(255, 255, 255, 0.1);
-  overflow: hidden !important;
+  overflow-y: auto !important;
   transform: translateX(0);
   transition: transform 0.4s ease, opacity 0.4s ease;
   pointer-events: auto;
 }
 
 .ptx-page.graph-hidden .ptx-sidebar-right {
+  position: fixed !important;
+  right: 0 !important;
   transform: translateX(100%);
   opacity: 0;
   pointer-events: none;
@@ -50,6 +77,43 @@
 
 .ptx-main {
   grid-area: main !important;
+  width: 100% !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  transition: max-width 0.4s ease, font-size 0.4s ease;
+}
+
+/* Scale font and tables when graph is active (space is constrained) */
+.ptx-page:not(.graph-hidden) .ptx-main {
+  font-size: 0.95rem;
+}
+
+.ptx-page:not(.graph-hidden) .ptx-main h1.heading {
+  font-size: 2.2rem !important;
+}
+
+.ptx-page:not(.graph-hidden) .ptx-main h2.heading {
+  font-size: 1.8rem !important;
+}
+
+.ptx-page:not(.graph-hidden) .ptx-main .tabular-box {
+  transform: scale(0.98);
+  transform-origin: top left;
+  width: 102%; /* Compensate for scale */
+}
+
+.ptx-page:not(.graph-hidden) .ptx-main pre {
+  font-size: 0.88rem !important;
+  padding: 1rem !important;
+}
+
+.ptx-page:not(.graph-hidden) .ptx-main .displaymath {
+  font-size: 0.9em !important;
+}
+
+.ptx-page:not(.graph-hidden) .ptx-main img {
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 .ptx-sidebar .ptx-toc {

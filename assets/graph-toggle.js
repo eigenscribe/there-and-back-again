@@ -31,37 +31,58 @@ function createGraphSidebar() {
 
   ptxPage.classList.add('graph-hidden');
 
-  const sidebarRight = document.createElement('div');
-  sidebarRight.className = 'ptx-sidebar-right';
-  sidebarRight.innerHTML = `
-    <div id="graph-sidebar-container"></div>
+  let sidebarRight = document.querySelector('.ptx-sidebar-right');
+  if (!sidebarRight) {
+    sidebarRight = document.createElement('div');
+    sidebarRight.className = 'ptx-sidebar-right';
+    
+    // Insert sidebar at the beginning of ptx-page so it's high up
+    ptxPage.prepend(sidebarRight);
+  }
+
+  // Create widget wrapper
+  const widgetWrapper = document.createElement('div');
+  widgetWrapper.className = 'sidebar-widget-wrapper';
+  widgetWrapper.innerHTML = `
+      <div class="widget-header" style="margin-bottom: 10px;">
+        <button id="graph-sidebar-toggle-btn" class="button active" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px;">
+          <span class="graph-icon">🌳</span><span class="name">Zettel Tree</span>
+        </button>
+      </div>
+      <div id="graph-sidebar-container"></div>
   `;
   
-  // Insert sidebar after ptx-main if it exists, or at the end of ptx-page
-  const ptxMain = ptxPage.querySelector('.ptx-main');
-  if (ptxMain) {
-    ptxMain.after(sidebarRight);
-  } else {
-    ptxPage.appendChild(sidebarRight);
+  // Prepend the graph widget to the sidebar to ensure it's at the top
+  sidebarRight.prepend(widgetWrapper);
+
+  // Add click listener to the new toggle button in sidebar
+  const sidebarToggle = sidebarRight.querySelector('#graph-sidebar-toggle-btn');
+  if (sidebarToggle) {
+    sidebarToggle.addEventListener('click', toggleGraph);
   }
 }
 
 function createToggleButton() {
-  const navRight = document.querySelector('.ptx-navbar .navbar-right') || 
-                   document.querySelector('.ptx-navbar-contents') ||
-                   document.querySelector('.ptx-navbar');
-  if (!navRight) {
+  const navContents = document.querySelector('.ptx-navbar-contents');
+  if (!navContents) {
     console.warn('Graph toggle: Navigation container not found');
     return;
   }
 
   const toggleBtn = document.createElement('button');
   toggleBtn.id = 'graph-toggle-btn';
-  toggleBtn.innerHTML = '<span class="graph-icon">🌳</span><span>Zettle Tree</span>';
+  toggleBtn.className = 'button active';
+  toggleBtn.innerHTML = '<span class="graph-icon">🌳</span><span class="name">Zettel Tree</span>';
   toggleBtn.title = 'Toggle Graph View';
   toggleBtn.addEventListener('click', toggleGraph);
 
-  navRight.appendChild(toggleBtn);
+  // Auto-align: insert after .treebuttons (Prev/Up/Next)
+  const treeButtons = navContents.querySelector('.treebuttons');
+  if (treeButtons) {
+    treeButtons.after(toggleBtn);
+  } else {
+    navContents.appendChild(toggleBtn);
+  }
 }
 
 function createGraphOverlay() {

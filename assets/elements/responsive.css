@@ -113,10 +113,10 @@
   .ptx-sidebar-right {
     display: flex !important;
     flex-direction: column !important;
-    position: sticky !important;
-    top: 56px !important;
+    position: relative !important;
+    top: auto !important;
     width: 100% !important;
-    height: 60vh !important;
+    height: auto !important;
     transform: none !important;
     border-left: none !important;
     border-bottom: 1px solid rgba(20, 181, 255, 0.2);
