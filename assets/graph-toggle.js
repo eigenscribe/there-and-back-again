@@ -44,22 +44,17 @@ function createGraphSidebar() {
   const widgetWrapper = document.createElement('div');
   widgetWrapper.className = 'sidebar-widget-wrapper';
   widgetWrapper.innerHTML = `
-      <div class="widget-header" style="margin-bottom: 10px;">
-        <button id="graph-sidebar-toggle-btn" class="button active" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px;">
-          <span class="graph-icon">🌳</span><span class="name">Zettel Tree</span>
-        </button>
+      <div class="widget-header">
+        <div class="zettel_tree-header">
+          <h1 class="zettel_tree-title">Zettel Tree for There and Back Again</h1>
+          <p class="zettel_tree-subtitle"><!-- Enter color mapping details here --></p>
+        </div>
       </div>
       <div id="graph-sidebar-container"></div>
   `;
   
   // Prepend the graph widget to the sidebar to ensure it's at the top
   sidebarRight.prepend(widgetWrapper);
-
-  // Add click listener to the new toggle button in sidebar
-  const sidebarToggle = sidebarRight.querySelector('#graph-sidebar-toggle-btn');
-  if (sidebarToggle) {
-    sidebarToggle.addEventListener('click', toggleGraph);
-  }
 }
 
 function createToggleButton() {

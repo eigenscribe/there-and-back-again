@@ -123,6 +123,43 @@ button.light-dark-button {
   visibility: hidden !important;
 }
 
+/* Zettel Tree Widget Styling */
+.zettel_tree-header {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+}
+
+.zettel_tree-title {
+  font-size: 1.75rem; /* Adjusted for sidebar width */
+  font-weight: bold;
+  background: linear-gradient(to right, #14b5ff, #5280ff, #7952f5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 4px 12px rgba(20, 181, 255, 0.6));
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  paint-order: stroke fill;
+}
+
+.zettel_tree-subtitle {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  margin: 0;
+}
+
+/* Ensure widget wrapper has enough padding */
+.sidebar-widget-wrapper {
+  padding: 15px;
+  background: rgba(13, 17, 23, 0.3);
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
 /* ============================================
    GRAPH VIEW TOGGLE
    ============================================ */
@@ -159,37 +196,7 @@ button.light-dark-button {
 }
 
 #graph-sidebar-toggle-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  padding: 8px 14px;
-  background: linear-gradient(135deg, rgba(139, 92, 246, 0.5), rgba(59, 130, 246, 0.45)) !important;
-  border: 1px solid rgba(168, 85, 247, 0.8) !important;
-  border-radius: 8px;
-  color: #fff !important;
-  font-family: 'Aclonica', sans-serif;
-  font-size: 13px;
-  cursor: pointer;
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
-  transition: all 0.2s ease;
-  width: 100%;
-  box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
-}
-
-#graph-sidebar-toggle-btn:hover {
-  background: linear-gradient(135deg, rgba(159, 112, 255, 0.6), rgba(79, 150, 255, 0.55)) !important;
-  border-color: rgba(192, 132, 252, 0.9) !important;
-  transform: scale(1.02);
-  color: #fff !important;
-}
-
-#graph-sidebar-toggle-btn.active {
-  background: linear-gradient(135deg, rgba(139, 92, 246, 0.6), rgba(59, 130, 246, 0.55)) !important;
-  border-color: rgba(168, 85, 247, 1) !important;
-  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
-  color: #fff !important;
+  display: none !important;
 }
 
 #graph-overlay {
