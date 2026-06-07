@@ -145,6 +145,11 @@ foreach ($file in $topLevelHtmlFiles) {
     if ($content -notmatch "custom-theme.css") {
         $content = $content -replace '(</head>)', "<link rel=`"stylesheet`" type=`"text/css`" href=`"external/custom-theme.css`">`n`$1"
     }
+
+    # Inject Aclonica font
+    if ($content -notmatch "family=Aclonica") {
+        $content = $content -replace '(</head>)', "<link href=`"https://fonts.googleapis.com/css2?family=Aclonica&display=swap`" rel=`"stylesheet`">`n`$1"
+    }
     
     # Inject D3 and graph toggle scripts
     if ($content -notmatch "graph-toggle.js") {

@@ -147,6 +147,11 @@ find output/web -maxdepth 1 -name "*.html" -print0 | while IFS= read -r -d '' fi
     # Insert the link tag in head (use perl for portable in-place edit on macOS)
     perl -0777 -i -pe 's|(</head>)|<link rel="stylesheet" type="text/css" href="external/custom-theme.css">\n\1|' "$file"
   fi
+
+  # Inject Aclonica font
+  if ! grep -q "family=Aclonica" "$file"; then
+    perl -0777 -i -pe 's|(</head>)|<link href="https://fonts.googleapis.com/css2?family=Aclonica\&display=swap" rel="stylesheet">\n\1|' "$file"
+  fi
   
   # Inject D3 and graph toggle scripts before closing body tag
   if ! grep -q "graph-toggle.js" "$file"; then

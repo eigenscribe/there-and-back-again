@@ -56,14 +56,39 @@ body {
   display: block;
 }
 
-#graph-controls {
+#graph-controls-container, .graph-controls-container {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  align-items: flex-start;
+  gap: 10px;
   z-index: 100;
+  pointer-events: none;
+}
+
+#graph-controls, .graph-controls {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  pointer-events: auto;
+}
+
+#graph-title, .graph-title {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 0.95rem;
+  font-weight: bold;
+  background: linear-gradient(130deg, #00ffee, #0a95eb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  white-space: normal;
+  max-width: 250px;
+  line-height: 1.2;
+  pointer-events: none;
+  margin-top: 0;
 }
 
 #graph-controls button {

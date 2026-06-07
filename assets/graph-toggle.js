@@ -208,14 +208,56 @@ function createCanvasGraph(d3, container, data) {
 
   container.innerHTML = '';
 
+  const controlsContainer = document.createElement('div');
+  controlsContainer.className = 'graph-controls-container';
+
   const controls = document.createElement('div');
+  controls.id = 'graph-controls';
   controls.className = 'graph-controls';
+  controls.style.display = 'flex';
+  controls.style.flexDirection = 'row';
+  controls.style.gap = '6px';
+  controls.style.pointerEvents = 'auto';
+
   controls.innerHTML = `
     <button class="graph-btn zoom-in" title="Zoom In">+</button>
     <button class="graph-btn zoom-out" title="Zoom Out">−</button>
     <button class="graph-btn zoom-reset" title="Reset View">⟲</button>
   `;
-  container.appendChild(controls);
+
+  const title = document.createElement('div');
+  title.id = 'graph-title';
+  title.className = 'graph-title';
+  title.textContent = 'There and Back Again Zettel Tree';
+  
+  // Apply TOC title styling
+  title.style.fontFamily = "'Aclonica', sans-serif";
+  title.style.fontSize = "0.95rem";
+  title.style.fontWeight = "bold";
+  title.style.background = "linear-gradient(130deg, #00ffee, #0a95eb)";
+  title.style.webkitBackgroundClip = "text";
+  title.style.backgroundClip = "text";
+  title.style.webkitTextFillColor = "transparent";
+  title.style.textShadow = "0 2px 4px rgba(0, 0, 0, 0.3)";
+  title.style.whiteSpace = "normal";
+  title.style.maxWidth = "250px";
+  title.style.lineHeight = "1.2";
+  title.style.pointerEvents = "none";
+
+  controlsContainer.id = 'graph-controls-container';
+  controlsContainer.style.position = 'absolute';
+  controlsContainer.style.top = '20px';
+  controlsContainer.style.left = '20px';
+  controlsContainer.style.display = 'flex';
+  controlsContainer.style.flexDirection = 'column';
+  controlsContainer.style.alignItems = 'flex-start';
+  controlsContainer.style.gap = '10px';
+  controlsContainer.style.zIndex = '100';
+  controlsContainer.style.pointerEvents = 'none';
+
+  controlsContainer.appendChild(controls);
+  controlsContainer.appendChild(title);
+  container.appendChild(controlsContainer);
 
   const tooltip = document.createElement('div');
   tooltip.className = 'graph-tooltip hidden';

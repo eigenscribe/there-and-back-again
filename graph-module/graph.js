@@ -57,6 +57,9 @@ class NotesGraph {
     this.rootContainer.innerHTML = '';
     
     if (this.options.showControls) {
+      const controlsContainer = document.createElement('div');
+      controlsContainer.className = 'graph-controls-container';
+      
       const controls = document.createElement('div');
       controls.className = 'graph-controls';
       controls.innerHTML = `
@@ -65,7 +68,17 @@ class NotesGraph {
         <button class="graph-btn zoom-reset" title="Reset View">⟲</button>
         <button class="graph-btn toggle-theme" title="Toggle Theme">◐</button>
       `;
-      this.rootContainer.appendChild(controls);
+      
+      const title = document.createElement('div');
+      title.id = 'graph-title';
+      title.className = 'graph-title';
+      title.textContent = 'There and Back Again Zettel Tree';
+      
+      controlsContainer.id = 'graph-controls-container';
+      controlsContainer.appendChild(controls);
+      controlsContainer.appendChild(title);
+      this.rootContainer.appendChild(controlsContainer);
+      controls.id = 'graph-controls';
       this.elements.controls = controls;
     }
     
@@ -88,14 +101,37 @@ class NotesGraph {
     const style = document.createElement('style');
     style.id = 'notes-graph-styles';
     style.textContent = `
-      .graph-controls {
+      #graph-controls-container, .graph-controls-container {
         position: absolute;
-        top: 10px;
-        left: 10px;
+        top: 20px;
+        left: 20px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        align-items: flex-start;
+        gap: 10px;
         z-index: 100;
+        pointer-events: none;
+      }
+      #graph-controls, .graph-controls {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        pointer-events: auto;
+      }
+      #graph-title, .graph-title {
+        font-family: 'Aclonica', sans-serif;
+        font-size: 0.95rem;
+        font-weight: bold;
+        background: linear-gradient(130deg, #00ffee, #0a95eb);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        margin-top: 0;
+        white-space: normal;
+        max-width: 250px;
+        line-height: 1.2;
+        pointer-events: none;
       }
       .graph-btn {
         width: 40px;
