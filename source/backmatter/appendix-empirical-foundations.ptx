@@ -4,11 +4,9 @@
   <title>Empirical Foundations</title>
 
   <section xml:id="sec-methodological-frameworks">
-    <title>Methodological Frameworks</title>
+    <title>Research Methods</title>
 
-    <xi:include href="EMPIRICAL_FOUNDATIONS/METHODOLOGICAL_FRAMEWORKS/reasoning-types.ptx"/>
-
-
+    <xi:include href="EMPIRICAL_FOUNDATIONS/RESEARCH_METHODS/hypotheses.ptx"/>
 
   </section>
 

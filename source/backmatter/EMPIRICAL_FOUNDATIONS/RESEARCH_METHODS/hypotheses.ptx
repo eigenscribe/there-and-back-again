@@ -1,0 +1,65 @@
+<subsection xml:id="subsec-hypotheses" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hypotheses</title>
+  <intro>
+    <p>
+
+    </p>
+  </intro>
+
+  <table xml:id="tab-hypothesis-errors">
+    <title>Summary of Type I vs. Type II Errors</title>
+    <idx>type I error</idx>
+    <idx>type II error</idx>
+
+
+    <tabular bottom="minor" top="minor" left="minor" right="minor">
+      <col width="30%"/>
+      <col width="40%"/>
+      <col width="30%"/>
+      <row header="yes">
+        <cell>Decision</cell>
+        <cell><m>H_0</m> is True</cell>
+        <cell><m>H_0</m> is False</cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            Decide to reject <m>H_0</m>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <term>Type I error</term>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            ✔️
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p>
+            Decide to accept <m>H_0</m>
+          </p>
+        </cell>
+        <cell>
+          <p>
+            ✔️
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <term>Type II error</term>
+          </p>
+        </cell>
+      </row>
+
+    </tabular>
+  </table>
+
+
+</subsection>

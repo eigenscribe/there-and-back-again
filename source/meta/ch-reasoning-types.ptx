@@ -1,4 +1,4 @@
-<subsection xml:id="subsec-reasoning-types" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-reasoning-types" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Reasoning Types</title>
   <intro>
     <p>
@@ -234,4 +234,4 @@
   </table>
 
 
-</subsection>
+</chapter>
