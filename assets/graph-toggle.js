@@ -264,9 +264,9 @@ function createCanvasGraph(d3, container, data) {
   }
 
   function getNodeRadius(node) {
-    const baseRadius = 8;
+    const baseRadius = 6;
     const connections = linkCounts.get(node.id) || 0;
-    return baseRadius + Math.sqrt(connections) * 2;
+    return baseRadius + Math.sqrt(connections) * 1.5;
   }
 
   let transform = d3.zoomIdentity;
@@ -313,11 +313,11 @@ function createCanvasGraph(d3, container, data) {
     });
 
     ctx.fillStyle = '#e0e0e0';
-    ctx.font = `${14 / transform.k}px Aclonica, sans-serif`;
+    ctx.font = `${11 / transform.k}px Aclonica, sans-serif`;
     ctx.textAlign = 'center';
     nodes.forEach(node => {
       const radius = getNodeRadius(node);
-      ctx.fillText(node.title || node.id, node.x, node.y + radius + 14 / transform.k);
+      ctx.fillText(node.title || node.id, node.x, node.y + radius + 11 / transform.k);
     });
 
     ctx.restore();

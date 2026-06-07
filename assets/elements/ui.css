@@ -128,7 +128,7 @@ button.light-dark-button {
    ============================================ */
 #graph-sidebar-container {
   width: 100%;
-  height: 400px;
+  height: 350px;
   position: relative;
   background-image: url('../space-bg.png') !important;
   background-size: cover;
@@ -240,7 +240,7 @@ button.light-dark-button {
   backdrop-filter: blur(8px);
   transition: all 0.2s ease;
   margin-left: 12px;
-  width: 350px !important;
+  width: 300px !important;
   box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
 }
 

@@ -10,7 +10,7 @@
 }
 
 .ptx-page:not(.graph-hidden) {
-  grid-template-columns: 350px 1fr 350px !important;
+  grid-template-columns: 350px 1fr 300px !important;
   grid-template-areas: "sidebar main right-sidebar" !important;
 }
 
@@ -20,7 +20,7 @@
     grid-template-columns: 350px 1fr !important;
   }
   .ptx-page:not(.graph-hidden) {
-    grid-template-columns: 350px 1fr 350px !important;
+    grid-template-columns: 350px 1fr 300px !important;
   }
   .ptx-main {
     max-width: 1600px !important;
@@ -37,7 +37,7 @@
   grid-area: right-sidebar !important;
   position: sticky !important;
   top: 56px !important;
-  width: 350px !important;
+  width: 300px !important;
   height: calc(100vh - 56px) !important;
   z-index: 500 !important;
   background: rgba(13, 17, 23, 0.4) !important;
