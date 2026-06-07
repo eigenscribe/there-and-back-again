@@ -69,26 +69,35 @@ body {
 }
 
 #graph-controls, .graph-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
   display: flex;
-  flex-direction: row;
-  gap: 6px;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 100;
   pointer-events: auto;
 }
 
 #graph-title, .graph-title {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: 'Aclonica', sans-serif;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   font-weight: bold;
-  background: linear-gradient(130deg, #00ffee, #0a95eb);
+  background: linear-gradient(to right, #14b5ff, #5280ff, #7952f5);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  white-space: normal;
-  max-width: 250px;
-  line-height: 1.2;
+  z-index: 100;
   pointer-events: none;
-  margin-top: 0;
+  text-align: center;
+  white-space: normal;
+  max-width: 300px;
+  line-height: 1.2;
 }
 
 #graph-controls button {

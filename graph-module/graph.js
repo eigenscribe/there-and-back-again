@@ -57,10 +57,14 @@ class NotesGraph {
     this.rootContainer.innerHTML = '';
     
     if (this.options.showControls) {
-      const controlsContainer = document.createElement('div');
-      controlsContainer.className = 'graph-controls-container';
-      
+      const title = document.createElement('div');
+      title.id = 'graph-title';
+      title.className = 'graph-title';
+      title.textContent = 'There and Back Again Zettel Tree';
+      this.rootContainer.appendChild(title);
+
       const controls = document.createElement('div');
+      controls.id = 'graph-controls';
       controls.className = 'graph-controls';
       controls.innerHTML = `
         <button class="graph-btn zoom-in" title="Zoom In">+</button>
@@ -68,17 +72,7 @@ class NotesGraph {
         <button class="graph-btn zoom-reset" title="Reset View">⟲</button>
         <button class="graph-btn toggle-theme" title="Toggle Theme">◐</button>
       `;
-      
-      const title = document.createElement('div');
-      title.id = 'graph-title';
-      title.className = 'graph-title';
-      title.textContent = 'There and Back Again Zettel Tree';
-      
-      controlsContainer.id = 'graph-controls-container';
-      controlsContainer.appendChild(controls);
-      controlsContainer.appendChild(title);
-      this.rootContainer.appendChild(controlsContainer);
-      controls.id = 'graph-controls';
+      this.rootContainer.appendChild(controls);
       this.elements.controls = controls;
     }
     
@@ -101,37 +95,35 @@ class NotesGraph {
     const style = document.createElement('style');
     style.id = 'notes-graph-styles';
     style.textContent = `
-      #graph-controls-container, .graph-controls-container {
+      #graph-title, .graph-title {
         position: absolute;
         top: 20px;
-        left: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        z-index: 100;
-        pointer-events: none;
-      }
-      #graph-controls, .graph-controls {
-        display: flex;
-        flex-direction: row;
-        gap: 8px;
-        pointer-events: auto;
-      }
-      #graph-title, .graph-title {
+        left: 50%;
+        transform: translateX(-50%);
         font-family: 'Aclonica', sans-serif;
-        font-size: 0.95rem;
+        font-size: 1.1rem;
         font-weight: bold;
-        background: linear-gradient(130deg, #00ffee, #0a95eb);
+        background: linear-gradient(to right, #14b5ff, #5280ff, #7952f5);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-        margin-top: 0;
-        white-space: normal;
-        max-width: 250px;
-        line-height: 1.2;
+        z-index: 100;
         pointer-events: none;
+        text-align: center;
+        white-space: normal;
+        max-width: 300px;
+        line-height: 1.2;
+      }
+      #graph-controls, .graph-controls {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        z-index: 100;
+        pointer-events: auto;
       }
       .graph-btn {
         width: 40px;

@@ -44,12 +44,6 @@ function createGraphSidebar() {
   const widgetWrapper = document.createElement('div');
   widgetWrapper.className = 'sidebar-widget-wrapper';
   widgetWrapper.innerHTML = `
-      <div class="widget-header">
-        <div class="zettel_tree-header">
-          <h1 class="zettel_tree-title">Zettel Tree for There and Back Again</h1>
-          <p class="zettel_tree-subtitle"><!-- Enter color mapping details here --></p>
-        </div>
-      </div>
       <div id="graph-sidebar-container"></div>
   `;
   
@@ -208,56 +202,50 @@ function createCanvasGraph(d3, container, data) {
 
   container.innerHTML = '';
 
-  const controlsContainer = document.createElement('div');
-  controlsContainer.className = 'graph-controls-container';
-
-  const controls = document.createElement('div');
-  controls.id = 'graph-controls';
-  controls.className = 'graph-controls';
-  controls.style.display = 'flex';
-  controls.style.flexDirection = 'row';
-  controls.style.gap = '6px';
-  controls.style.pointerEvents = 'auto';
-
-  controls.innerHTML = `
-    <button class="graph-btn zoom-in" title="Zoom In">+</button>
-    <button class="graph-btn zoom-out" title="Zoom Out">−</button>
-    <button class="graph-btn zoom-reset" title="Reset View">⟲</button>
-  `;
-
   const title = document.createElement('div');
   title.id = 'graph-title';
   title.className = 'graph-title';
   title.textContent = 'There and Back Again Zettel Tree';
   
   // Apply TOC title styling
+  title.style.position = 'absolute';
+  title.style.top = '20px';
+  title.style.left = '50%';
+  title.style.transform = 'translateX(-50%)';
   title.style.fontFamily = "'Aclonica', sans-serif";
-  title.style.fontSize = "0.95rem";
+  title.style.fontSize = "1.1rem";
   title.style.fontWeight = "bold";
-  title.style.background = "linear-gradient(130deg, #00ffee, #0a95eb)";
+  title.style.background = "linear-gradient(to right, #14b5ff, #5280ff, #7952f5)";
   title.style.webkitBackgroundClip = "text";
   title.style.backgroundClip = "text";
   title.style.webkitTextFillColor = "transparent";
   title.style.textShadow = "0 2px 4px rgba(0, 0, 0, 0.3)";
   title.style.whiteSpace = "normal";
-  title.style.maxWidth = "250px";
+  title.style.maxWidth = "300px";
   title.style.lineHeight = "1.2";
+  title.style.textAlign = "center";
+  title.style.zIndex = '100';
   title.style.pointerEvents = "none";
+  container.appendChild(title);
 
-  controlsContainer.id = 'graph-controls-container';
-  controlsContainer.style.position = 'absolute';
-  controlsContainer.style.top = '20px';
-  controlsContainer.style.left = '20px';
-  controlsContainer.style.display = 'flex';
-  controlsContainer.style.flexDirection = 'column';
-  controlsContainer.style.alignItems = 'flex-start';
-  controlsContainer.style.gap = '10px';
-  controlsContainer.style.zIndex = '100';
-  controlsContainer.style.pointerEvents = 'none';
+  const controls = document.createElement('div');
+  controls.id = 'graph-controls';
+  controls.className = 'graph-controls';
+  controls.style.position = 'absolute';
+  controls.style.top = '20px';
+  controls.style.right = '20px';
+  controls.style.display = 'flex';
+  controls.style.flexDirection = 'column';
+  controls.style.gap = '8px';
+  controls.style.pointerEvents = 'auto';
+  controls.style.zIndex = '100';
 
-  controlsContainer.appendChild(controls);
-  controlsContainer.appendChild(title);
-  container.appendChild(controlsContainer);
+  controls.innerHTML = `
+    <button class="graph-btn zoom-in" title="Zoom In">+</button>
+    <button class="graph-btn zoom-out" title="Zoom Out">−</button>
+    <button class="graph-btn zoom-reset" title="Reset View">⟲</button>
+  `;
+  container.appendChild(controls);
 
   const tooltip = document.createElement('div');
   tooltip.className = 'graph-tooltip hidden';
