@@ -1,237 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <chapter xml:id="ch-reasoning-types" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Reasoning Types</title>
-  <intro>
+
+  <idx>inductive reasoning</idx>
+  <idx>temporal reasoning</idx>
+  <idx>spatial reasoning</idx>
+  <idx>causal reasoning</idx>
+  <idx>comparative analysis</idx>
+  <idx>abstract reasoning</idx>
+  <idx>pattern recognition</idx>
+  <idx>statistical reasoning</idx>
+  <idx>abductive reasoning</idx>
+  <idx>hypothetical reasoning</idx>
+
+  <introduction>
     <p>
-      Understanding these reasoning patterns allows us to diagnose our own cognitive processes when building Eigenotes.
-      We employ deductive reasoning to derive consequences from axioms, abductive reasoning to generate hypotheses from anomalous data, and spatial reasoning to visualize geometric structures.
+      Understanding these reasoning patterns allows us to diagnose our own cognitive
+      processes when building Eigenotes. We employ deductive reasoning to derive
+      consequences from axioms, abductive reasoning to generate hypotheses from
+      anomalous data, and spatial reasoning to visualize geometric structures.
     </p>
-  </intro>
+  </introduction>
 
-  <table xml:id="tab-reasoning-types">
-    <title>Classification of Reasoning Types</title>
-    <idx>deductive reasoning</idx>
-    <idx>inductive reasoning</idx>
-    <idx>temporal reasoning</idx>
-    <idx>spatial reasoning</idx>
-    <idx>causal reasoning</idx>
-    <idx>comparative analysis</idx>
-    <idx>abstract reasoning</idx>
-    <idx>pattern recognition</idx>
-    <idx>statistical reasoning</idx>
-    <idx>abductive reasoning</idx>
-    <idx>hypothetical reasoning</idx>
+  <dl>
+    <li>
+      <title>Deductive Reasoning</title>
+      <idx>deductive reasoning</idx>
+      <p><em>Description:</em>Drawing specific conclusions from general laws or principles.</p>
+      <p><em>Example:</em> <q>Given this mechanism, what must follow?</q></p>
+    </li>
 
-    <tabular bottom="minor" top="minor" left="minor" right="minor">
-      <col width="30%"/>
-      <col width="40%"/>
-      <col width="30%"/>
-      <row header="yes">
-        <cell>Reasoning Type</cell>
-        <cell>Definition</cell>
-        <cell>Example</cell>
-      </row>
+    <li>
+      <title>Inductive Reasoning</title>
+      <p>Generalizing from patterns or experimental observations.</p>
+      <p><em>Example:</em> <q>Given this data, what can we infer about X?</q></p>
+    </li>
 
-      <row>
-        <cell>
-          <p>
-            <term>Deductive reasoning</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Drawing specific conclusions from general laws or principles.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>Given this mechanisms, what must follow?</q>
-          </p>
-        </cell>
-      </row>
+    <li>
+      <title>Temporal Reasoning</title>
+      <p>Predicting events or states based on order in time.</p>
+      <p><em>Example:</em> <q>If A happens before B, and B affects C, what is the downstream effect?</q></p>
+    </li>
 
-      <row>
-        <cell>
-          <p>
-            <term>Inductive reasoning</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Generalizing from patterns or experimental observations.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>Given this data, what can we infer about X?</q>
-          </p>
-        </cell>
-      </row>
+    <li>
+      <title>Spatial Reasoning</title>
+      <p>Understanding structures, orientation, or symmetry.</p>
+      <p><em>Example:</em> <q>What is the normal force on an object sliding down a ramp inclined at angle X?</q></p>
+    </li>
 
-      <row>
-        <cell>
-          <p>
-            <term>Temporal reasoning</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Predicting events or states based on order in time.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>If A happens before B, and B affects C, what's the downstream effect?</q>
-          </p>
-        </cell>
-      </row>
+    <li>
+      <title>Causal Reasoning</title>
+      <p>Identifying cause-and-effect relationships.</p>
+      <p><em>Example:</em> <q>What arrangement of three electrons causes zero electric field at the center-of-mass location?</q></p>
+    </li>
 
-      <row>
-        <cell>
-          <p>
-            <term>Spatial reasoning</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Understanding structures, orientation, or symmetry.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>What is the normal force on an object sliding down a ramp inclined at an angle X?</q>
-          </p>
-        </cell>
-      </row>
+    <li>
+      <title>Comparative Analysis</title>
+      <p>Judging between alternatives or evaluating differences across conditions.</p>
+      <p><em>Example:</em> <q>What is the percent difference in the ground-state energy of an atom trapped in a harmonic potential versus a quartic potential?</q></p>
+    </li>
 
-      <row>
-        <cell>
-          <p>
-            <term>Causal reasoning</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Identifying cause-and-effect relationships.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>What arrangement for three electrons causes zero electric field at the center-of-mass location?</q>
-          </p>
-        </cell>
-      </row>
+    <li>
+      <title>Abstract Reasoning</title>
+      <p>Working with non-concrete or theoretical ideas.</p>
+      <p><em>Example:</em> <q>What is the entropy change in a hypothetical closed system with constraint X?</q></p>
+    </li>
 
-      <row>
-        <cell>
-          <p>
-            <term>Comparative analysis</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Judging between alternatives or evaluating differences across conditions.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>What is the percent difference in the ground-state energy of an atom trapped in a harmonic potential as opposed to a quartic potential?</q>
-          </p>
-        </cell>
-      </row>
+    <li>
+      <title>Pattern Recognition</title>
+      <p>Spotting and interpreting regularities in data or sequences.</p>
+      <p><em>Example:</em> <q>The amounts of a radioactive isotope at times <m>t_1</m>, <m>t_2</m>, and <m>t_3</m> are <m>N_1</m>, <m>N_2</m>, and <m>N_3</m>. What is the half-life?</q></p>
+    </li>
 
-      <row>
-        <cell>
-          <p>
-            <term>Abstract reasoning</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Working with non-concrete or theoretical ideas.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>What's the entropy change in a hypothetical closed system with constraint X?</q>
-          </p>
-        </cell>
-      </row>
+    <li>
+      <title>Statistical Reasoning</title>
+      <p>Using data, probabilities, and distributions to reach conclusions.</p>
+      <p><em>Example:</em> <q>Determine the uncertainty in the extracted value of X given the experimental data.</q></p>
+    </li>
 
-      <row>
-        <cell>
-          <p>
-            <term>Pattern recognition</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Spotting and interpreting regularities in data or sequences.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>The amounts of a radioactive isotope at times <m>t_1</m>, <m>t_2</m>, and <m>t_3</m> are <m>N_1</m>, <m>N_2</m>, and <m>N_3</m>. What is the half-life of the isotope?</q>
-          </p>
-        </cell>
-      </row>
+    <li>
+      <title>Abductive Reasoning</title>
+      <p>Inferring the most likely explanation from incomplete evidence.</p>
+      <p><em>Example:</em> <q>As the temperature changes from <m>T_1</m> to <m>T_2</m>, the spatial correlation length increases exponentially. What is likely true about the material's location in phase space?</q></p>
+    </li>
 
-      <row>
-        <cell>
-          <p>
-            <term>Statistical reasoning</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Using data, probabilities, and distributions to reach conclusions.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>Determine the uncertainty in the extracted value of X given the set of experimental data.</q>
-          </p>
-        </cell>
-      </row>
-
-      <row>
-        <cell>
-          <p>
-            <term>Abductive reasoning</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Inferring the most likely explanation from incomplete evidence
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>As the temperature of a material changes from <m>T_1</m> to <m>T_2</m>, the spatial correlation length increases exponentially. What is likely true about the location of the material in phase-space (it is near a critical point/phase transition)?</q>
-          </p>
-        </cell>
-      </row>
-
-      <row>
-        <cell>
-          <p>
-            <term>Hypothetical Reasoning</term>
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Predicting outcomes under hypothetical or counterfactual scenarios.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            <q>What would be the fractional change in the Earth's gravitational field if the gravitational constant was doubled in magnitude?</q>
-          </p>
-        </cell>
-      </row>
-
-
-    </tabular>
-  </table>
-
-
+    <li>
+      <title>Hypothetical Reasoning</title>
+      <p>Predicting outcomes under hypothetical or counterfactual scenarios.</p>
+      <p><em>Example:</em> <q>What would be the fractional change in Earth's gravitational field if the gravitational constant were doubled?</q></p>
+    </li>
+  </dl>
 </chapter>
