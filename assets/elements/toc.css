@@ -5,6 +5,31 @@
   display: grid !important;
   grid-template-columns: 350px 1fr !important;
   grid-template-areas: "sidebar main" !important;
+  position: relative;
+}
+
+.ptx-sidebar-right {
+  position: fixed !important;
+  right: 0 !important;
+  top: 56px !important;
+  width: 350px !important;
+  height: calc(100vh - 56px) !important;
+  z-index: 500 !important;
+  background: rgba(13, 17, 23, 0.4) !important;
+  border-left: 1px solid rgba(20, 181, 255, 0.2);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.3), inset 1px 0 0 rgba(255, 255, 255, 0.1);
+  overflow: hidden !important;
+  transform: translateX(0);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  pointer-events: auto;
+}
+
+.ptx-page.graph-hidden .ptx-sidebar-right {
+  transform: translateX(100%);
+  opacity: 0;
+  pointer-events: none;
 }
 
 .ptx-sidebar {

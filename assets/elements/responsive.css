@@ -8,6 +8,7 @@
   /* ---- Global sanity ---- */
   html, body {
     overflow-x: hidden !important;
+    position: relative;
   }
 
   body.pretext {
@@ -107,6 +108,25 @@
   #graph-toggle-btn {
     font-size: 12px !important;
     padding: 6px 10px !important;
+  }
+
+  .ptx-sidebar-right {
+    display: flex !important;
+    flex-direction: column !important;
+    position: sticky !important;
+    top: 56px !important;
+    width: 100% !important;
+    height: 60vh !important;
+    transform: none !important;
+    border-left: none !important;
+    border-bottom: 1px solid rgba(20, 181, 255, 0.2);
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    z-index: 900 !important;
+  }
+
+  .ptx-page.graph-hidden .ptx-sidebar-right {
+    display: none !important;
   }
 
   #graph-close-btn {

@@ -21,7 +21,29 @@ function init() {
 
 function setup() {
   createToggleButton();
+  createGraphSidebar();
   createGraphOverlay();
+}
+
+function createGraphSidebar() {
+  const ptxPage = document.querySelector('.ptx-page');
+  if (!ptxPage) return;
+
+  ptxPage.classList.add('graph-hidden');
+
+  const sidebarRight = document.createElement('div');
+  sidebarRight.className = 'ptx-sidebar-right';
+  sidebarRight.innerHTML = `
+    <div id="graph-sidebar-container"></div>
+  `;
+  
+  // Insert sidebar after ptx-main if it exists, or at the end of ptx-page
+  const ptxMain = ptxPage.querySelector('.ptx-main');
+  if (ptxMain) {
+    ptxMain.after(sidebarRight);
+  } else {
+    ptxPage.appendChild(sidebarRight);
+  }
 }
 
 function createToggleButton() {
@@ -62,11 +84,45 @@ function createGraphOverlay() {
 }
 
 async function toggleGraph() {
-  if (isGraphVisible) {
-    hideGraph();
+  const ptxPage = document.querySelector('.ptx-page');
+  if (ptxPage) {
+    if (isGraphVisible) {
+      hideGraphSidebar();
+    } else {
+      await showGraphSidebar();
+    }
   } else {
-    await showGraph();
+    if (isGraphVisible) {
+      hideGraph();
+    } else {
+      await showGraph();
+    }
   }
+}
+
+async function showGraphSidebar() {
+  console.log('Graph toggle: showGraphSidebar called');
+  const ptxPage = document.querySelector('.ptx-page');
+  const container = document.getElementById('graph-sidebar-container');
+  if (!ptxPage || !container) return;
+
+  ptxPage.classList.remove('graph-hidden');
+  isGraphVisible = true;
+  document.getElementById('graph-toggle-btn').classList.add('active');
+
+  if (!graphInstance) {
+    console.log('Graph toggle: initializing graph in sidebar...');
+    await initializeGraph('graph-sidebar-container');
+  }
+}
+
+function hideGraphSidebar() {
+  const ptxPage = document.querySelector('.ptx-page');
+  if (!ptxPage) return;
+
+  ptxPage.classList.add('graph-hidden');
+  isGraphVisible = false;
+  document.getElementById('graph-toggle-btn').classList.remove('active');
 }
 
 async function showGraph() {
@@ -105,12 +161,12 @@ function hideGraph() {
   document.body.style.overflow = '';
 }
 
-async function initializeGraph() {
+async function initializeGraph(containerId = 'graph-container') {
   try {
     if (typeof d3 === 'undefined') {
       throw new Error('D3 library not loaded');
     }
-    const container = document.getElementById('graph-container');
+    const container = document.getElementById(containerId);
     if (!container) return;
 
     const response = await fetch(GRAPH_DATA_URL);
@@ -120,7 +176,7 @@ async function initializeGraph() {
     graphInstance = createCanvasGraph(d3, container, data);
   } catch (error) {
     console.error('Error initializing graph:', error);
-    const container = document.getElementById('graph-container');
+    const container = document.getElementById(containerId);
     if (container) {
       container.innerHTML = `<div style="color: #ff6b6b; padding: 40px; text-align: center;">
         <h3>Failed to load graph</h3>
@@ -356,10 +412,23 @@ function createCanvasGraph(d3, container, data) {
   window.addEventListener('resize', () => {
     const newWidth = container.clientWidth;
     const newHeight = container.clientHeight;
+    if (newWidth === 0 || newHeight === 0) return;
     canvas.width = newWidth;
     canvas.height = newHeight;
     simulation.force('center', d3.forceCenter(newWidth / 2, newHeight / 2)).alpha(0.3).restart();
   });
+
+  const resizeObserver = new ResizeObserver(entries => {
+    for (let entry of entries) {
+      const newWidth = entry.contentRect.width;
+      const newHeight = entry.contentRect.height;
+      if (newWidth === 0 || newHeight === 0) continue;
+      canvas.width = newWidth;
+      canvas.height = newHeight;
+      simulation.force('center', d3.forceCenter(newWidth / 2, newHeight / 2)).alpha(0.3).restart();
+    }
+  });
+  resizeObserver.observe(container);
 
   return { simulation, canvas, zoom };
 }
