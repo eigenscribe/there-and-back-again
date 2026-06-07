@@ -2,8 +2,8 @@
     <title>PreTeXt Cheat Sheet</title>
     <introduction>
         <p>
-            <term>Note ID:</term> <tag>202606012315</tag> |
-            <term>Tags:</term> <tag>pretext</tag>, <tag>xml</tag>, <tag>authoring</tag>
+            <alert>Note ID:</alert> <tag>202606012315</tag> |
+            <alert>Tags:</alert> <tag>pretext</tag>, <tag>xml</tag>, <tag>authoring</tag>
         </p>
         <p>
             A comprehensive guide to PreTeXt XML elements and structure for authoring mathematical content.
@@ -28,8 +28,8 @@
         <title>Section Title</title>
         <introduction>
           <p>
-            <term>Note ID:</term> <tag>202606012315</tag> |
-            <term>Tags:</term> <tag>topic</tag>
+            <tag>202606012315</tag> |
+            <tag>topic</tag>
           </p>
         </introduction>
         <subsection xml:id="sub-demo">
@@ -77,14 +77,29 @@
                     <cell><c>git status</c></cell>
                 </row>
                 <row>
+                    <cell><c><![CDATA[<em>]]></c></cell>
+                    <cell>Emphasis (Cooler Blue/Italic)</cell>
+                    <cell><em>Nuance</em></cell>
+                </row>
+                <row>
                     <cell><c><![CDATA[<term>]]></c></cell>
-                    <cell>Defining a term (Bold/Italic)</cell>
+                    <cell>Defining a term (Orange Gradient)</cell>
                     <cell><term>Bivector</term></cell>
                 </row>
                 <row>
+                    <cell><c><![CDATA[<strong>]]></c></cell>
+                    <cell>Strong emphasis (Prominent Cyan)</cell>
+                    <cell><strong>Key Term</strong></cell>
+                </row>
+                <row>
                     <cell><c><![CDATA[<alert>]]></c></cell>
-                    <cell>Emphasis (Bold/Color)</cell>
-                    <cell><alert>Warning! (Bold)</alert></cell>
+                    <cell>Metadata labels (Glassmorphic Pill)</cell>
+                    <cell><alert>Warning!</alert></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<em class="alert">]]></c></cell>
+                    <cell>Critical Emphasis (Blue Gradient)</cell>
+                    <cell><em class="alert">Important!</em></cell>
                 </row>
                 <row>
                     <cell><c><![CDATA[<xref>]]></c></cell>
@@ -274,7 +289,7 @@
         <ul>
             <li>
                 <p>
-                    <term>Note Metadata:</term> Every note should include a metadata block (Note ID, Tags, etc.). This block can be placed in <c><![CDATA[<introduction>]]></c>, <c><![CDATA[<blockquote>]]></c>, <c><![CDATA[<aside>]]></c>, or <c><![CDATA[<paragraphs>]]></c>.
+                    <alert>Note Metadata:</alert> Every note should include a metadata block (Note ID, Tags, etc.). This block can be placed in <c><![CDATA[<introduction>]]></c>, <c><![CDATA[<blockquote>]]></c>, <c><![CDATA[<aside>]]></c>, or <c><![CDATA[<paragraphs>]]></c>.
                 </p>
                 <program language="xml">
                     <code>
@@ -282,16 +297,16 @@
 <!-- Traditional Introduction -->
 <introduction>
   <p>
-    <term>Note ID:</term> <tag>202606012315</tag> |
-    <term>Tags:</term> <tag>topic1</tag>, <tag>topic2</tag>
+    <tag>202606012315</tag> |
+    <tag>topic1</tag> <tag>topic2</tag>
   </p>
 </introduction>
 
 <!-- Alternative using Blockquote (Always visible, no title) -->
 <blockquote>
   <p>
-    <term>Note ID:</term> <tag>202606012315</tag> |
-    <term>Tags:</term> <tag>topic1</tag>
+    <tag>202606012315</tag> |
+    <tag>topic1</tag>
   </p>
 </blockquote>
                         ]]>
@@ -302,18 +317,19 @@
                 </p>
                 <blockquote>
                     <p>
-                        <term>Note ID:</term> <tag>202606012315</tag> | <term>Tags:</term> <tag>topic1</tag>, <tag>topic2</tag> | <term>PreFigure Demo:</term> <tag>🔗 Interactive</tag>
+                        <tag>202606012315</tag> | <tag>topic1</tag>, <tag>topic2</tag> | <alert>PreFigure Demo:</alert><tag>🔗 Interactive</tag>
                     </p>
                 </blockquote>
             </li>
             <li>
                 <p>
-                    <term>Note IDs:</term> Use <c>YYYYMMDDNNNN</c> or <c>HHMM</c> format. The first <c><![CDATA[<tag>]]></c> in a supported metadata block (Introduction, Blockquote, etc.) is automatically styled as a purple glassmorphic Note ID.
+                    <alert>Note IDs:</alert> Use <c>YYYYMMDDNNNN</c> or <c>HHMM</c> format.
+                    The first <c><![CDATA[<tag>]]></c> in a supported metadata block (Introduction, Blockquote, etc.) is automatically styled as a purple glassmorphic Note ID.
                 </p>
             </li>
             <li>
                 <p>
-                    <term>Conclusion Metadata:</term> Conclusions use <c><![CDATA[<alert>]]></c> tags for metadata labels (e.g., Linked Notes, References), which are automatically styled as blue glassmorphic pills.
+                    <alert>Conclusion Metadata:</alert> Conclusions use <c><![CDATA[<alert>]]></c> tags for metadata labels (e.g., Linked Notes, References), which are automatically styled as blue glassmorphic pills.
                 </p>
                 <program language="xml">
                     <code>
@@ -332,7 +348,12 @@
             </li>
             <li>
                 <p>
-                    <term>Assemblages:</term> Use for primary takeaways or "atomic" notes within a section.
+                    <alert>List Titles:</alert> Headings inside list items (e.g. <c><![CDATA[<li><title>...</title></li>]]></c> or <c><![CDATA[<li class="li"><title>...</title></li>]]></c>) are styled in prominent cyan with the heading font.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <alert>Assemblages:</alert> Use for primary takeaways or "atomic" notes within a section.
                 </p>
             </li>
         </ul>

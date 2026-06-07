@@ -96,6 +96,14 @@ html.dark-mode {
   --color-widget-button: c4b5fd !important;
 
   /* Gradients */
+  --gradient-orange: linear-gradient(
+          to right bottom,
+          #FFD180,
+          #FFE082,
+          #FFB74D,
+          #FFA726
+  ) !important;
+
   --gradient-light-to-dark-blue: linear-gradient(
           to right bottom,
           #00e8ff,

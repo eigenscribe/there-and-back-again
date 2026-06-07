@@ -308,14 +308,42 @@
 }
 
 /* Term highlighting */
-.ptx-content .terminology {
-  color: var(--color-primary) !important;
+.ptx-content .terminology, 
+.ptx-content dfn.terminology {
+  color: #FFA726 !important; /* Fallback color */
+  background: var(--gradient-orange) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
   font-weight: 500;
   font-family: 'Aclonica', sans-serif;
+  text-shadow: none !important; /* Text shadow interferes with background-clip: text */
 }
 
-/* Bold and Strong text with Gradient */
-.ptx-content :is(strong, b, em.alert):not(.conclusion .alert) {
+/* Bold and Strong text - Prominent Cyan */
+.ptx-content :is(strong, b, .bold) {
+  color: #00E8FF !important; /* Brighter, more prominent cyan */
+  font-family: var(--font-heading) !important;
+  font-weight: bold !important;
+}
+
+/* List Titles */
+.ptx-content :is(li, .li) > .heading {
+  color: #00E8FF !important;
+  font-family: var(--font-heading) !important;
+  font-weight: bold !important;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* Emphasized text - Cooler tone */
+.ptx-content :is(em, .emphasis) {
+  color: #90CAF9 !important; /* Cooler blue tone */
+  font-style: italic;
+}
+
+/* Specific Alert Emphasis with Gradient */
+.ptx-content :is(em.alert):not(.conclusion .alert) {
   background: var(--gradient-light-to-dark-blue) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
