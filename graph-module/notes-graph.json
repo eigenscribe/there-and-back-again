@@ -11,7 +11,7 @@
     {
       "id": "subsec-ga-uniform-b-field",
       "title": "Vector Potential for a Uniform Magnetic Field",
-      "url": "subsec-ga-uniform-b-field.html",
+      "url": "sec-physics-and-geometric-algebra.html#subsec-ga-uniform-b-field",
       "tags": ["geometric algebra", "electromagnetism", "vector potential"],
       "description": "The vector potential for a uniform magnetic field using geometric algebra."
     }
@@ -20,7 +20,8 @@
     {
       "source": "sec-ga-hodge-dual",
       "target": "subsec-ga-uniform-b-field",
-      "type": "prerequisite"
+      "type": "prerequisite",
+      "weight": 3
     }
   ]
 }

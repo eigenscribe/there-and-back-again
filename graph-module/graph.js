@@ -103,11 +103,11 @@ class NotesGraph {
         font-family: 'Aclonica', sans-serif;
         font-size: 1.1rem;
         font-weight: bold;
-        background: linear-gradient(to right, #14b5ff, #5280ff, #7952f5);
+        background: linear-gradient(to right, #00ffee, #0a95eb, #7952f5);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        text-shadow: 0 0 10px rgba(0, 255, 238, 0.4);
         z-index: 100;
         pointer-events: none;
         text-align: center;
@@ -141,14 +141,15 @@ class NotesGraph {
         justify-content: center;
       }
       .graph-btn:hover {
-        background: var(--control-hover, rgba(20, 181, 255, 0.3));
+        background: var(--control-hover, rgba(0, 255, 238, 0.3));
         transform: scale(1.05);
+        box-shadow: 0 0 12px rgba(0, 255, 238, 0.4);
       }
       .graph-tooltip {
         position: absolute;
         padding: 12px 16px;
         background: var(--tooltip-bg, rgba(10, 10, 15, 0.95));
-        border: 1px solid var(--tooltip-border, rgba(20, 181, 255, 0.5));
+        border: 1px solid var(--tooltip-border, rgba(0, 255, 238, 0.5));
         border-radius: 8px;
         font-size: 14px;
         pointer-events: none;
@@ -160,9 +161,9 @@ class NotesGraph {
         color: var(--text-color, #e0e0e0);
       }
       .graph-tooltip.hidden { opacity: 0; visibility: hidden; }
-      .graph-tooltip .tooltip-title { font-weight: 600; margin-bottom: 4px; color: var(--node-color, #14b5ff); }
+      .graph-tooltip .tooltip-title { font-weight: 600; margin-bottom: 4px; color: var(--node-color, #00ffee); }
       .graph-tooltip .tooltip-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
-      .graph-tooltip .tooltip-tag { padding: 2px 8px; background: var(--link-color, rgba(20, 181, 255, 0.3)); border-radius: 12px; font-size: 11px; }
+      .graph-tooltip .tooltip-tag { padding: 2px 8px; background: var(--link-color, rgba(0, 255, 238, 0.3)); border-radius: 12px; font-size: 11px; }
       .graph-svg { width: 100%; height: 100%; display: block; }
     `;
     document.head.appendChild(style);
