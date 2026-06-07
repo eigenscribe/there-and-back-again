@@ -2,8 +2,8 @@
     <title>PreTeXt Cheat Sheet</title>
     <introduction>
         <p>
-            <alert>Note ID:</alert> <tag>202606012315</tag> |
-            <alert>Tags:</alert> <tag>pretext</tag>, <tag>xml</tag>, <tag>authoring</tag>
+            <tag>202606012315</tag> |
+            <tag>pretext</tag> <tag>xml</tag> <tag>authoring</tag>
         </p>
         <p>
             A comprehensive guide to PreTeXt XML elements and structure for authoring mathematical content.

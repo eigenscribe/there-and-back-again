@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-reasoning-types" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Reasoning Types</title>
+<section xml:id="sec-knowledge-artifact-taxonomy" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Reasoning Taxonomy</title>
 
-  <idx>inductive reasoning</idx>
-  <idx>temporal reasoning</idx>
-  <idx>spatial reasoning</idx>
-  <idx>causal reasoning</idx>
-  <idx>comparative analysis</idx>
-  <idx>abstract reasoning</idx>
-  <idx>pattern recognition</idx>
-  <idx>statistical reasoning</idx>
-  <idx>abductive reasoning</idx>
-  <idx>hypothetical reasoning</idx>
 
   <introduction>
     <p>
@@ -27,68 +17,78 @@
     <li>
       <title>Deductive Reasoning</title>
       <idx>deductive reasoning</idx>
-      <p><em>Description:</em>Drawing specific conclusions from general laws or principles.</p>
+      <p>Drawing specific conclusions from general laws or principles.</p>
       <p><em>Example:</em> <q>Given this mechanism, what must follow?</q></p>
     </li>
 
     <li>
       <title>Inductive Reasoning</title>
+      <idx>inductive reasoning</idx>
       <p>Generalizing from patterns or experimental observations.</p>
       <p><em>Example:</em> <q>Given this data, what can we infer about X?</q></p>
     </li>
 
     <li>
       <title>Temporal Reasoning</title>
+      <idx>temporal reasoning</idx>
       <p>Predicting events or states based on order in time.</p>
       <p><em>Example:</em> <q>If A happens before B, and B affects C, what is the downstream effect?</q></p>
     </li>
 
     <li>
       <title>Spatial Reasoning</title>
+      <idx>spatial reasoning</idx>
       <p>Understanding structures, orientation, or symmetry.</p>
       <p><em>Example:</em> <q>What is the normal force on an object sliding down a ramp inclined at angle X?</q></p>
     </li>
 
     <li>
       <title>Causal Reasoning</title>
+      <idx>causal reasoning</idx>
       <p>Identifying cause-and-effect relationships.</p>
       <p><em>Example:</em> <q>What arrangement of three electrons causes zero electric field at the center-of-mass location?</q></p>
     </li>
 
     <li>
       <title>Comparative Analysis</title>
+      <idx>comparative analysis</idx>
       <p>Judging between alternatives or evaluating differences across conditions.</p>
       <p><em>Example:</em> <q>What is the percent difference in the ground-state energy of an atom trapped in a harmonic potential versus a quartic potential?</q></p>
     </li>
 
     <li>
       <title>Abstract Reasoning</title>
+      <idx>abstract reasoning</idx>
       <p>Working with non-concrete or theoretical ideas.</p>
       <p><em>Example:</em> <q>What is the entropy change in a hypothetical closed system with constraint X?</q></p>
     </li>
 
     <li>
       <title>Pattern Recognition</title>
+      <idx>pattern recognition</idx>
       <p>Spotting and interpreting regularities in data or sequences.</p>
       <p><em>Example:</em> <q>The amounts of a radioactive isotope at times <m>t_1</m>, <m>t_2</m>, and <m>t_3</m> are <m>N_1</m>, <m>N_2</m>, and <m>N_3</m>. What is the half-life?</q></p>
     </li>
 
     <li>
       <title>Statistical Reasoning</title>
+      <idx>statistical reasoning</idx>
       <p>Using data, probabilities, and distributions to reach conclusions.</p>
       <p><em>Example:</em> <q>Determine the uncertainty in the extracted value of X given the experimental data.</q></p>
     </li>
 
     <li>
       <title>Abductive Reasoning</title>
+      <idx>abductive reasoning</idx>
       <p>Inferring the most likely explanation from incomplete evidence.</p>
       <p><em>Example:</em> <q>As the temperature changes from <m>T_1</m> to <m>T_2</m>, the spatial correlation length increases exponentially. What is likely true about the material's location in phase space?</q></p>
     </li>
 
     <li>
       <title>Hypothetical Reasoning</title>
+      <idx>hypothetical reasoning</idx>
       <p>Predicting outcomes under hypothetical or counterfactual scenarios.</p>
       <p><em>Example:</em> <q>What would be the fractional change in Earth's gravitational field if the gravitational constant were doubled?</q></p>
     </li>
   </dl>
-</chapter>
+</section>

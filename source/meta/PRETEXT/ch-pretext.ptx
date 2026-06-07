@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-pretext" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>PreTeXt Authoring</title>
+  <introduction>
+    <p>
+      Resources for authoring and managing content using the PreTeXt XML framework.
+    </p>
+  </introduction>
+
+  <xi:include href="sec-pretext-demo.ptx" />
+  <xi:include href="sec-pretext-cheat-sheet.ptx" />
+
+</chapter>

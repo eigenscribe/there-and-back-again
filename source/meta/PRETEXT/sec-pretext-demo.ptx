@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-template" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-template" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>PreTeXt Element Demo</title>
 
   <introduction>
     <p>
-      This chapter serves as a demonstration of various PreTeXt elements styled with the current theme. It uses placeholder text to showcase the layout and formatting of common components.
+      This section serves as a demonstration of various PreTeXt elements styled with the current theme. It uses placeholder text to showcase the layout and formatting of common components.
     </p>
   </introduction>
 
-  <section xml:id="sec-text-elements">
+  <subsection xml:id="subsec-text-elements">
     <title>Textual Elements</title>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. :eigenote: Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.
@@ -19,7 +19,7 @@
       Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia ac. :favicon: Curabitur wisi vitae nisl auctor interdum.
     </p>
 
-    <subsection xml:id="subsec-lists">
+    <subsubsection xml:id="subsubsec-lists">
       <title>Lists and Descriptions</title>
       <p>
         Below is an unordered list of common features:
@@ -64,10 +64,10 @@
           <p>Cascading Style Sheets for visual presentation.</p>
         </li>
       </dl>
-    </subsection>
-  </section>
+    </subsubsection>
+  </subsection>
 
-  <section xml:id="sec-admonitions">
+  <subsection xml:id="sec-admonitions">
     <title>Admonitions and Blocks</title>
     <p>
       Admonitions are used to highlight important information.
@@ -116,15 +116,15 @@
         <li><p>Ensure color contrast is sufficient.</p></li>
       </ul>
     </assemblage>
-  </section>
+  </subsection>
 
-  <section xml:id="sec-technical">
+  <subsection xml:id="subsec-technical">
     <title>Technical Elements</title>
     <p>
       Technical documentation often requires code snippets and mathematical formulas.
     </p>
 
-    <subsection xml:id="subsec-code">
+    <subsubsection xml:id="subsubsec-code">
       <title>Code Blocks</title>
       <p>
         Here is a sample Python script:
@@ -141,9 +141,9 @@ if __name__ == "__main__":
       <p>
         :favicon: Note the glassmorphic styling applied to the code block.
       </p>
-    </subsection>
+    </subsubsection>
 
-    <subsection xml:id="subsec-math">
+    <subsubsection xml:id="subsec-math">
       <title>Mathematics</title>
       <p>
         Inline math like <m>E = mc^2</m> and display math:
@@ -153,9 +153,9 @@ if __name__ == "__main__":
           \int_a^b f(x) \, dx = F(b) - F(a)
         </md>
       </p>
-    </subsection>
+    </subsubsection>
 
-    <subsection xml:id="subsec-tables">
+    <subsubsection xml:id="subsec-tables">
       <title>Tables</title>
       <table>
         <title>Sample Data</title>
@@ -174,9 +174,9 @@ if __name__ == "__main__":
           </row>
         </tabular>
       </table>
-    </subsection>
+    </subsubsection>
 
-    <subsection xml:id="subsec-prefigure-demo">
+    <subsubsection xml:id="subsec-prefigure-demo">
       <title>PreFigure Demo</title>
       <introduction>
         <p>
@@ -197,7 +197,7 @@ if __name__ == "__main__":
           [Interactive PreFigure Diagram Placeholder]
         </p>
       </figure>
-    </subsection>
-  </section>
+    </subsubsection>
+  </subsection>
 
-</chapter>
+</section>
