@@ -312,9 +312,10 @@ function createCanvasGraph(d3, container, data) {
     ctx.translate(transform.x, transform.y);
     ctx.scale(transform.k, transform.k);
 
-    ctx.strokeStyle = 'rgba(20, 181, 255, 0.3)';
-    ctx.lineWidth = 1.5 / transform.k;
     processedLinks.forEach(link => {
+      const isPrerequisite = link.type === 'prerequisite';
+      ctx.strokeStyle = isPrerequisite ? 'rgba(74, 222, 128, 0.6)' : 'rgba(20, 181, 255, 0.3)';
+      ctx.lineWidth = ((link.weight || 1) + 1.2) / transform.k;
       ctx.beginPath();
       ctx.moveTo(link.source.x, link.source.y);
       ctx.lineTo(link.target.x, link.target.y);
@@ -340,9 +341,27 @@ function createCanvasGraph(d3, container, data) {
     ctx.fillStyle = '#e0e0e0';
     ctx.font = `${11 / transform.k}px Aclonica, sans-serif`;
     ctx.textAlign = 'center';
+    const lineHeight = 12 / transform.k;
     nodes.forEach(node => {
       const radius = getNodeRadius(node);
-      ctx.fillText(node.title || node.id, node.x, node.y + radius + 11 / transform.k);
+      const title = node.title || node.id;
+      const words = title.split(/\s+/);
+      const lines = [];
+      let currentLine = words[0];
+
+      for (let i = 1; i < words.length; i++) {
+        if (currentLine.length + words[i].length + 1 < 16) {
+          currentLine += " " + words[i];
+        } else {
+          lines.push(currentLine);
+          currentLine = words[i];
+        }
+      }
+      lines.push(currentLine);
+
+      lines.forEach((line, i) => {
+        ctx.fillText(line, node.x, node.y + radius + (11 / transform.k) + (i * lineHeight));
+      });
     });
 
     ctx.restore();

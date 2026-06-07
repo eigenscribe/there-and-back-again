@@ -5,6 +5,7 @@
   --node-hover-color: #a855f7;
   --link-color: rgba(0, 255, 238, 0.4);
   --link-hover-color: rgba(168, 85, 247, 0.7);
+  --prerequisite-link-color: #4ade80;
   --text-color: #e0e0e0;
   --tooltip-bg: rgba(10, 10, 15, 0.95);
   --tooltip-border: rgba(0, 255, 238, 0.5);
@@ -19,6 +20,7 @@
   --node-hover-color: #7c3aed;
   --link-color: rgba(8, 145, 178, 0.3);
   --link-hover-color: rgba(124, 58, 237, 0.5);
+  --prerequisite-link-color: #16a34a;
   --text-color: #1f2937;
   --tooltip-bg: rgba(255, 255, 255, 0.95);
   --tooltip-border: rgba(8, 145, 178, 0.5);
@@ -187,9 +189,15 @@ body {
 
 .link {
   stroke: var(--link-color);
+  stroke-width: 2px;
   stroke-linecap: round;
   transition: all 0.2s ease;
   filter: drop-shadow(0 0 2px var(--link-color));
+}
+
+.link.prerequisite {
+  stroke: var(--prerequisite-link-color);
+  filter: drop-shadow(0 0 2px var(--prerequisite-link-color));
 }
 
 .link.highlighted {

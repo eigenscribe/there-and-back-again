@@ -308,8 +308,8 @@ class NotesGraph {
     const link = this.linksGroup.selectAll('line')
       .data(processedLinks)
       .join('line')
-      .attr('class', 'link')
-      .attr('stroke-width', d => d.weight || 1);
+      .attr('class', d => `link ${d.type || ''}`)
+      .attr('stroke-width', d => (d.weight || 1) + 1.2);
 
     const node = this.nodesGroup.selectAll('circle')
       .data(nodes)
@@ -324,8 +324,36 @@ class NotesGraph {
         .data(nodes)
         .join('text')
         .attr('class', 'node-label')
-        .attr('dy', d => this.getNodeRadius(d, linkCounts) + labelOffset)
-        .text(d => d.title || d.id);
+        .attr('dy', d => this.getNodeRadius(d, linkCounts) + labelOffset);
+
+      const self = this;
+      label.each(function(d) {
+        const el = self.d3.select(this);
+        const title = d.title || d.id;
+        const words = title.split(/\s+/);
+        el.text(null);
+        
+        let currentLine = [];
+        let lineCount = 0;
+        const maxLineLength = 16;
+        
+        for (const word of words) {
+          if (currentLine.join(' ').length + word.length > maxLineLength && currentLine.length > 0) {
+            el.append('tspan')
+              .attr('x', 0)
+              .attr('dy', lineCount === 0 ? 0 : '1.2em')
+              .text(currentLine.join(' '));
+            currentLine = [word];
+            lineCount++;
+          } else {
+            currentLine.push(word);
+          }
+        }
+        el.append('tspan')
+          .attr('x', 0)
+          .attr('dy', lineCount === 0 ? 0 : '1.2em')
+          .text(currentLine.join(' '));
+      });
     }
 
     node.on('mouseenter', (event, d) => this.handleNodeHover(event, d, true, link, node))
@@ -346,7 +374,9 @@ class NotesGraph {
       if (showLabels) {
         this.labelsGroup.selectAll('text')
           .attr('x', d => d.x)
-          .attr('y', d => d.y);
+          .attr('y', d => d.y)
+          .selectAll('tspan')
+          .attr('x', d => d.x);
       }
     });
 
