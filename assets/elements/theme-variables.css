@@ -93,6 +93,7 @@ html.dark-mode {
   --color-link-hover: #c4b5fd !important;
   --color-math: var(--primary-color-light) !important;
   --color-warning: #ffcc00 !important;
+  --color-widget-button: c4b5fd !important;
 
   /* Gradients */
   --gradient-light-to-dark-blue: linear-gradient(

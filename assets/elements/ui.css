@@ -31,7 +31,7 @@
   background: linear-gradient(135deg, rgba(0, 230, 255, 0.45), rgba(50, 150, 250, 0.5)) !important;
   border-color: rgba(0, 220, 255, 0.65) !important;
   transform: scale(1.03) !important;
-  color: whitesmoke !important;
+  color: var(--color-text) !important;
   box-shadow: 0 4px 16px rgba(0, 200, 255, 0.35) !important;
 }
 
@@ -239,7 +239,7 @@ button.light-dark-button {
   background: linear-gradient(135deg, rgba(139, 92, 246, 0.5), rgba(59, 130, 246, 0.45)) !important;
   border: 1px solid rgba(168, 85, 247, 0.8) !important;
   border-radius: 8px;
-  color: #fff !important;
+  color: var(--color-widget-button) !important;
   font-family: 'Aclonica', sans-serif;
   font-size: 13px;
   cursor: pointer;
@@ -255,14 +255,14 @@ button.light-dark-button {
   background: linear-gradient(135deg, rgba(159, 112, 255, 0.6), rgba(79, 150, 255, 0.55)) !important;
   border-color: rgba(192, 132, 252, 0.9) !important;
   transform: scale(1.03);
-  color: #fff !important;
+  color: var(--color-widget-button) !important;
 }
 
 #graph-toggle-btn.active {
   background: linear-gradient(135deg, rgba(139, 92, 246, 0.6), rgba(59, 130, 246, 0.55)) !important;
   border-color: rgba(168, 85, 247, 1) !important;
   box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
-  color: #fff !important;
+  color: var(--color-widget-button) !important;
 }
 
 #graph-toggle-btn .graph-icon {
@@ -281,7 +281,7 @@ button.light-dark-button {
   background: linear-gradient(135deg, rgba(20, 20, 30, 0.9), rgba(30, 30, 45, 0.9));
   border: 1px solid rgba(20, 181, 255, 0.4);
   border-radius: 8px;
-  color: #e0e0e0;
+  color: var(--color-widget-button) !important;
   font-family: 'Aclonica', sans-serif;
   font-size: 14px;
   cursor: pointer;
@@ -292,7 +292,7 @@ button.light-dark-button {
 
 #graph-close-btn:hover {
   background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(168, 85, 247, 0.3));
-  border-color: rgba(168, 85, 247, 0.6);
+  border-color: rgba(168, 85, 247, 0.5);
 }
 
 .graph-controls {
