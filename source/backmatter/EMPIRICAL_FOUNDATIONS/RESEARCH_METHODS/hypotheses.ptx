@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <subsection xml:id="subsec-hypotheses" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Hypotheses</title>
   <intro>
@@ -7,7 +9,7 @@
   </intro>
 
   <table xml:id="tab-hypothesis-errors">
-    <title>Summary of Type I vs. Type II Errors</title>
+    <title>Summary of Type I vs. Type II Errors <ft ref="footnote-hypothesis-errors"></ft></title>
     <idx>type I error</idx>
     <idx>type II error</idx>
 
@@ -61,10 +63,10 @@
 
   </table>
 
-<ft>
-  <p>
-    <xref ref="tab-hypothesis-errors"/> is adapted from <xref ref="harrington2011design">Harrington, 2011</xref>
-  </p>
-</ft>
+<footnote id="footnote-hypothesis-errors">
+    <p>
+      <xref ref="tab-hypothesis-errors"/> is an adaptation from <xref ref="harrington2011design">Harrington, 2011.</xref>
+    </p>
+</footnote>
 
 </subsection>
