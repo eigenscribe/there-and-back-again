@@ -5,10 +5,9 @@
 
    <interactive>
      <static>
-       <!-- Static fallback image for print/PDF formats -->
        <image source="assets/widgets/periodic-table/images/periodic-table.png" width="80%"/>
      </static>
-     <iframe src="https://scriber-labs.github.io/periodic-table-of-elements/" width="100%" height="400px"/>
+     <iframe src="assets/widgets/periodic-table/index.html" width="100%" height="600px"></iframe>
    </interactive>
 
 </subsection>

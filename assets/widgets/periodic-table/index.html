@@ -9,9 +9,15 @@
 </head>
 
 <body>
-    <h1>Periodic Table of the Elements</h1>
+    <div class="controls">
+        <h1>Periodic Table of the Elements</h1>
+        <select id="interpretation-select">
+            <option value="family">Chemical Group</option>
+            <option value="electronegativity">Electronegativity</option>
+            <option value="atomicRadius">Atomic Radius</option>
+        </select>
+    </div>
     <div id="periodic-table"></div>
     <script src="script.js"></script>
-
 </body>
 </html>

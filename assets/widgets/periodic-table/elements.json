@@ -1,10 +1,262 @@
-{
-  "symbol": "H",
-  "name": "Hydrogen",
-  "atomicNumber": 1,
-  "group": 1,
-  "period": 1,
-  "family": "nonmetal",
-  "electronegativity": 2.20,
-  "atomicRadius": 53
-}
+[
+  {
+    "symbol": "H",
+    "name": "Hydrogen",
+    "atomicNumber": 1,
+    "group": 1,
+    "period": 1,
+    "family": "nonmetal",
+    "electronegativity": 2.20,
+    "atomicRadius": 53
+  },
+  {
+    "symbol": "He",
+    "name": "Helium",
+    "atomicNumber": 2,
+    "group": 18,
+    "period": 1,
+    "family": "noble",
+    "electronegativity": 0,
+    "atomicRadius": 31
+  },
+  {
+    "symbol": "Li",
+    "name": "Lithium",
+    "atomicNumber": 3,
+    "group": 1,
+    "period": 2,
+    "family": "alkali",
+    "electronegativity": 0.98,
+    "atomicRadius": 167
+  },
+  {
+    "symbol": "Be",
+    "name": "Beryllium",
+    "atomicNumber": 4,
+    "group": 2,
+    "period": 2,
+    "family": "alkaline",
+    "electronegativity": 1.57,
+    "atomicRadius": 112
+  },
+  {
+    "symbol": "B",
+    "name": "Boron",
+    "atomicNumber": 5,
+    "group": 13,
+    "period": 2,
+    "family": "metalloid",
+    "electronegativity": 2.04,
+    "atomicRadius": 87
+  },
+  {
+    "symbol": "C",
+    "name": "Carbon",
+    "atomicNumber": 6,
+    "group": 14,
+    "period": 2,
+    "family": "nonmetal",
+    "electronegativity": 2.55,
+    "atomicRadius": 67
+  },
+  {
+    "symbol": "N",
+    "name": "Nitrogen",
+    "atomicNumber": 7,
+    "group": 15,
+    "period": 2,
+    "family": "nonmetal",
+    "electronegativity": 3.04,
+    "atomicRadius": 56
+  },
+  {
+    "symbol": "O",
+    "name": "Oxygen",
+    "atomicNumber": 8,
+    "group": 16,
+    "period": 2,
+    "family": "nonmetal",
+    "electronegativity": 3.44,
+    "atomicRadius": 48
+  },
+  {
+    "symbol": "F",
+    "name": "Fluorine",
+    "atomicNumber": 9,
+    "group": 17,
+    "period": 2,
+    "family": "nonmetal",
+    "electronegativity": 3.98,
+    "atomicRadius": 42
+  },
+  {
+    "symbol": "Ne",
+    "name": "Neon",
+    "atomicNumber": 10,
+    "group": 18,
+    "period": 2,
+    "family": "noble",
+    "electronegativity": 0,
+    "atomicRadius": 38
+  },
+  {
+    "symbol": "Na",
+    "name": "Sodium",
+    "atomicNumber": 11,
+    "group": 1,
+    "period": 3,
+    "family": "alkali",
+    "electronegativity": 0.93,
+    "atomicRadius": 190
+  },
+  {
+    "symbol": "Mg",
+    "name": "Magnesium",
+    "atomicNumber": 12,
+    "group": 2,
+    "period": 3,
+    "family": "alkaline",
+    "electronegativity": 1.31,
+    "atomicRadius": 145
+  },
+  {
+    "symbol": "Al",
+    "name": "Aluminum",
+    "atomicNumber": 13,
+    "group": 13,
+    "period": 3,
+    "family": "metal",
+    "electronegativity": 1.61,
+    "atomicRadius": 118
+  },
+  {
+    "symbol": "Si",
+    "name": "Silicon",
+    "atomicNumber": 14,
+    "group": 14,
+    "period": 3,
+    "family": "metalloid",
+    "electronegativity": 1.90,
+    "atomicRadius": 111
+  },
+  {
+    "symbol": "P",
+    "name": "Phosphorus",
+    "atomicNumber": 15,
+    "group": 15,
+    "period": 3,
+    "family": "nonmetal",
+    "electronegativity": 2.19,
+    "atomicRadius": 98
+  },
+  {
+    "symbol": "S",
+    "name": "Sulfur",
+    "atomicNumber": 16,
+    "group": 16,
+    "period": 3,
+    "family": "nonmetal",
+    "electronegativity": 2.58,
+    "atomicRadius": 88
+  },
+  {
+    "symbol": "Cl",
+    "name": "Chlorine",
+    "atomicNumber": 17,
+    "group": 17,
+    "period": 3,
+    "family": "nonmetal",
+    "electronegativity": 3.16,
+    "atomicRadius": 79
+  },
+  {
+    "symbol": "Ar",
+    "name": "Argon",
+    "atomicNumber": 18,
+    "group": 18,
+    "period": 3,
+    "family": "noble",
+    "electronegativity": 0,
+    "atomicRadius": 71
+  },
+  {
+    "symbol": "K",
+    "name": "Potassium",
+    "atomicNumber": 19,
+    "group": 1,
+    "period": 4,
+    "family": "alkali",
+    "electronegativity": 0.82,
+    "atomicRadius": 243
+  },
+  {
+    "symbol": "Ca",
+    "name": "Calcium",
+    "atomicNumber": 20,
+    "group": 2,
+    "period": 4,
+    "family": "alkaline",
+    "electronegativity": 1.00,
+    "atomicRadius": 194
+  },
+  {
+    "symbol": "Sc",
+    "name": "Scandium",
+    "atomicNumber": 21,
+    "group": 3,
+    "period": 4,
+    "family": "transition",
+    "electronegativity": 1.36,
+    "atomicRadius": 184
+  },
+  {
+    "symbol": "Ti",
+    "name": "Titanium",
+    "atomicNumber": 22,
+    "group": 4,
+    "period": 4,
+    "family": "transition",
+    "electronegativity": 1.54,
+    "atomicRadius": 176
+  },
+  {
+    "symbol": "Fe",
+    "name": "Iron",
+    "atomicNumber": 26,
+    "group": 8,
+    "period": 4,
+    "family": "transition",
+    "electronegativity": 1.83,
+    "atomicRadius": 156
+  },
+  {
+    "symbol": "Cu",
+    "name": "Copper",
+    "atomicNumber": 29,
+    "group": 11,
+    "period": 4,
+    "family": "transition",
+    "electronegativity": 1.90,
+    "atomicRadius": 145
+  },
+  {
+    "symbol": "Zn",
+    "name": "Zinc",
+    "atomicNumber": 30,
+    "group": 12,
+    "period": 4,
+    "family": "transition",
+    "electronegativity": 1.65,
+    "atomicRadius": 142
+  },
+  {
+    "symbol": "Au",
+    "name": "Gold",
+    "atomicNumber": 79,
+    "group": 11,
+    "period": 6,
+    "family": "transition",
+    "electronegativity": 2.54,
+    "atomicRadius": 174
+  }
+]

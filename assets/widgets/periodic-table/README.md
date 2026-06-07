@@ -15,14 +15,14 @@
 
 ## ✅ To do
 > ### 🌈 Assign colors schemes for different interpretations.
-> - [ ] Start with chemical group color mapping.
-> - [ ] Add a dropdown menu for interpretation coloring.
+> - [x] Start with chemical group color mapping.
+> - [x] Add a dropdown menu for interpretation coloring.
 > - [ ] Decide which interpretation to prioritize next.
 
 > ### 🗺️ Interpretation color mappings
-> - [ ] Chemical group    (start here)
-> - [ ] Atomic radius
-> - [ ] Electronegativity
+> - [x] Chemical group    (done)
+> - [x] Atomic radius     (done)
+> - [x] Electronegativity (done)
 > - [ ] Ionization energy
 > - [ ] Atomic mass
 > - [ ] Entropy
