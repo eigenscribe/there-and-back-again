@@ -1,7 +1,7 @@
 # `graph-module` To Do
 
 ## Right Sidebar
-- [ ] Move title into graph next to + _ reposition buttons
+- [ ] Move title into graph to the right of the  + _ reposition buttons
 - [ ] Add color mapping functionalities according to 
   - [ ] README.md description
   - [ ] **Later**:Table of contents-based color 
