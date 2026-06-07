@@ -52,45 +52,53 @@
 
 
 body {
-
     background: #050816;
-
     color: white;
-
     margin: 0;
     padding: 2rem;
 }
 
+h1 {
+    font-family: "Aclonica", sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 #periodic-table {
-
     display: grid;
-
     grid-template-columns:
         repeat(18, 1fr);
-
     gap: 0.5rem;
 }
 
-.element {
+.alkali      { background: var(--alkali); }
+.alkaline    { background: var(--alkaline); }
+.transition  { background: var(--transition); }
+.metalloid   { background: var(--metalloid); }
+.nonmetal    { background: var(--nonmetal); }
+.noble       { background: var(--noble); }
+
+.alkali,
+.alkaline,
+.transition,
+.metalloid,
+.nonmetal,
+.noble {
     border-radius: 12px;
     padding: 0.5rem;
-    background:
-        linear-gradient(
-            135deg,
-            #00e8ff,
-            #14b5ff,
-            #3a98ff,
-            #0070eb
-        );
     transition: 0.2s;
     backdrop-filter: blur(8px);
-
     box-shadow:
         inset 0 1px 1px rgba(255,255,255,0.15),
         0 0 10px rgba(0,0,0,0.3);
 }
 
-.element:hover {
+.alkali:hover,
+.alkaline:hover,
+.transition:hover,
+.metalloid:hover,
+.nonmetal:hover,
+.noble:hover {
     transform: scale(1.05);
     box-shadow:
         0 0 15px rgba(0,232,255,0.7);

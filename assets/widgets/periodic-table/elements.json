@@ -3,6 +3,8 @@
   "name": "Hydrogen",
   "atomicNumber": 1,
   "group": 1,
-  "period": 1
-
+  "period": 1,
+  "family": "nonmetal",
+  "electronegativity": 2.20,
+  "atomicRadius": 53
 }
