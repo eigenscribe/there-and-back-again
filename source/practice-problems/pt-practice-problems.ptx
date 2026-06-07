@@ -5,7 +5,7 @@
   <introduction>
     <blockquote>
         <p>
-            <em>"Dedicate yourself to practice problems."</em> - Professor Allan Adams, MIT 8.04 (Quantum Physics I), Spring 2013.
+            <q>Dedicate yourself to practice problems.</q> - Professor Allan Adams, MIT 8.04 (Quantum Physics I), Spring 2013.
         </p>
     </blockquote>
   </introduction>
@@ -16,7 +16,7 @@
     <title>My Practice Problems</title>
 
 
-    <xi:include href="./sofias_problems/practice-set-4/exercises-practice-set-4.ptx" />
+    <xi:include href="sofias_problems/practice-set-4/exercises-practice-set-4.ptx" />
 
 
 
