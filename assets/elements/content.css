@@ -56,7 +56,7 @@
 .ptx-content section.exercises > :is(h1, h2, h3).heading,
 .ptx-content section.solutions > :is(h1, h2, h3).heading,
 .ptx-content .exercisegroup > h4.heading {
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -104,7 +104,7 @@
 
 /* Specific gradients for different levels */
 .ptx-content h3.heading {
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -112,7 +112,7 @@
 }
 
 .ptx-content h4.heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading) {
-  background: linear-gradient(120deg, #06b6d4, #8b5cf6, #d946ef) !important;
+  background: linear-gradient(120deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -120,7 +120,7 @@
 }
 
 .ptx-content h5.heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading) {
-  background: linear-gradient(110deg, #14b8a6, #7c3aed, #c084fc) !important;
+  background: linear-gradient(110deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -152,7 +152,7 @@
 /* Level specific adjustments */
 .ptx-content h1.heading {
   font-size: 2.5rem !important;
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -161,7 +161,7 @@
 
 .ptx-content h2.heading {
   font-size: 1.65rem !important;
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -260,7 +260,7 @@
   margin-bottom: 0.75rem !important;
   border: none !important;
   border-bottom: none !important;
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
+  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -336,15 +336,15 @@
   margin-right: 0.5rem;
 }
 
-/* Emphasized text - Cooler tone */
+/* Emphasized text - Light Pink */
 .ptx-content :is(em, .emphasis) {
-  color: #90CAF9 !important; /* Cooler blue tone */
+  color: #F48FB1 !important; /* Light Pink */
   font-style: italic;
 }
 
 /* Specific Alert Emphasis with Gradient */
 .ptx-content :is(em.alert):not(.conclusion .alert) {
-  background: var(--gradient-light-to-dark-blue) !important;
+  background: var(--gradient-blue) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;

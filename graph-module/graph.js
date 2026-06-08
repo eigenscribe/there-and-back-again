@@ -546,6 +546,10 @@ class NotesGraph {
       .attr('class', 'node')
       .attr('r', d => this.getNodeRadius(d, this.linkCounts))
       .attr('fill', d => this.getNodeColor(d))
+      .attr('filter', d => {
+        const secondary = this.getSecondaryColor(d);
+        return secondary ? `drop-shadow(0 0 8px ${secondary})` : null;
+      })
       .call(this.drag());
 
     if (showLabels) {
@@ -630,27 +634,63 @@ class NotesGraph {
   }
 
   getNodeColor(node) {
-    const labelColors = [
-      "#FFF9D6", // 1. Keter
-      "#00FFFF", "#00E8FF", "#14B5FF", "#0070EB",
-      "#4CC9F0", "#7952F5", "#5E17EB", "#FF66B3", "#038B00"
-    ];
+    const groupColors = {
+      'frontmatter': 'var(--color-example)',
+      'default': 'var(--color-example)',
+      'setting-the-stage': 'var(--color-section)',
+      'eigenotes': 'var(--color-section)',
+      'bridges': 'var(--color-section)',
+      'field-notes': 'var(--color-section)',
+      'practice-problems': 'var(--color-definition)',
+      'meta': 'var(--color-claim)',
+      'backmatter': 'var(--color-claim)'
+    };
+
+    if (node.group && groupColors[node.group]) return groupColors[node.group];
 
     const id = node.id || '';
-    if (id.startsWith('ch-')) return labelColors[0];
-    if (id.startsWith('sec-')) return labelColors[1];
-    if (id.startsWith('subsec-')) return labelColors[2];
-    if (id.startsWith('sub-')) return labelColors[3];
-    if (id.startsWith('app-')) return labelColors[4];
-    if (id.startsWith('ga-')) return labelColors[5];
-    if (id.startsWith('def-')) return labelColors[6];
-    if (id.startsWith('thm-')) return labelColors[7];
-    if (id.startsWith('claim-')) return labelColors[8];
-    if (id.startsWith('ex-')) return labelColors[9];
+    if (id.startsWith('ch-')) return 'var(--color-keter)';
+    if (id.startsWith('sec-')) return 'var(--color-section)';
+    if (id.startsWith('subsec-')) return 'var(--color-subsection)';
+    if (id.startsWith('ex-')) return 'var(--color-example)';
+    if (id.startsWith('sub-')) return 'var(--color-sub)';
+    if (id.startsWith('app-')) return 'var(--color-appendix)';
+    if (id.startsWith('def-')) return 'var(--color-definition)';
+    if (id.startsWith('ga-')) return 'var(--color-ga)';
+    if (id.startsWith('claim-')) return 'var(--color-claim)';
+    if (id.startsWith('thm-')) return 'var(--color-theorem)';
     
     if (node.color) return node.color;
-    const style = getComputedStyle(document.documentElement);
-    return style.getPropertyValue('--node-color').trim() || labelColors[6];
+    return 'var(--color-appendix)';
+  }
+
+  getSecondaryColor(node) {
+    const groupColors = {
+      'frontmatter': 'var(--color-example-dark)',
+      'default': 'var(--color-example-dark)',
+      'setting-the-stage': 'var(--color-section-dark)',
+      'eigenotes': 'var(--color-section-dark)',
+      'bridges': 'var(--color-section-dark)',
+      'field-notes': 'var(--color-section-dark)',
+      'practice-problems': 'var(--color-definition-dark)',
+      'meta': 'var(--color-claim-dark)',
+      'backmatter': 'var(--color-claim-dark)'
+    };
+
+    if (node.group && groupColors[node.group]) return groupColors[node.group];
+
+    const id = node.id || '';
+    if (id.startsWith('ch-')) return 'var(--color-keter-dark)';
+    if (id.startsWith('sec-')) return 'var(--color-section-dark)';
+    if (id.startsWith('subsec-')) return 'var(--color-subsection-dark)';
+    if (id.startsWith('ex-')) return 'var(--color-example-dark)';
+    if (id.startsWith('sub-')) return 'var(--color-sub-dark)';
+    if (id.startsWith('app-')) return 'var(--color-appendix-dark)';
+    if (id.startsWith('def-')) return 'var(--color-definition-dark)';
+    if (id.startsWith('ga-')) return 'var(--color-ga-dark)';
+    if (id.startsWith('claim-')) return 'var(--color-claim-dark)';
+    if (id.startsWith('thm-')) return 'var(--color-theorem-dark)';
+    return 'var(--color-appendix-dark)';
   }
 
   drag() {

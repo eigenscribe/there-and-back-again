@@ -16,7 +16,9 @@ html.dark-mode {
 
   --primary-color-light: #00e8ff !important;
   --primary-color: #14b5ff !important;
-  --primary-color-dark: #0070EB !important;
+  --primary-color-dark: #3a98ff !important;
+  --primary-color-darker: #0070EB !important;
+  --primary-purple: #7952f5 !important;
 
   --secondary-color-light: #9b7dff !important;
   --secondary-color: #9b7dff !important;
@@ -73,7 +75,7 @@ html.dark-mode {
 
   /* TOC active item overrides - these are the actual variables PreTeXt uses */
   --tocitem-active-background: var(--primary-color-gray-4) !important;
-  --tocitem-active-text-color: var(--primary-color) !important;
+  --tocitem-active-text-color: #14b5ff !important;
   --tocitem-active-border-color: var(--primary-color-gray-5) !important;
   --tocitem-active-background-hover: var(--primary-color-gray-3) !important;
 
@@ -89,44 +91,59 @@ html.dark-mode {
   --color-secondary: var(--secondary-color) !important;
   --color-text: #C5F8FF !important;
   --color-muted: #8b949e !important;
-  --color-link: #a78bfa !important;
-  --color-link-hover: #c4b5fd !important;
+  --color-link: #14b5ff !important;
+  --color-link-hover: #00e8ff !important;
   --color-math: var(--primary-color-light) !important;
   --color-warning: #ffcc00 !important;
   --color-widget-button: c4b5fd !important;
 
+  /* Node Colors - Realignment for Zettel Tree */
+  --color-keter: #FFD700 !important;       /* 1. Gold - Chapter */
+  --color-keter-dark: #887722 !important;
+  --color-section: #00FFFF !important;     /* 2. Cyan - Section */
+  --color-section-dark: #228888 !important;
+  --color-subsection: #00E8FF !important;  /* 3. Lighter Blue - Subsection */
+  --color-subsection-dark: #228888 !important;
+  --color-example: #14B5FF !important;     /* 4. Blue - Example */
+  --color-example-dark: #224488 !important;
+  --color-sub: #0070EB !important;         /* 5. Deep Blue - Sub */
+  --color-sub-dark: #113377 !important;
+  --color-appendix: #4CC9F0 !important;    /* 6. Sky Blue - Appendix */
+  --color-appendix-dark: #226688 !important;
+  --color-definition: #7952F5 !important;  /* 7. Purple - Definition */
+  --color-definition-dark: #332288 !important;
+  --color-ga: #5E17EB !important;          /* 8. Deep Purple - GA */
+  --color-ga-dark: #221166 !important;
+  --color-claim: #FF66B3 !important;       /* 9. Pink - Claim */
+  --color-claim-dark: #883355 !important;
+  --color-theorem: #038B00 !important;     /* 10. Green - Theorem */
+  --color-theorem-dark: #115511 !important;
+
   /* Gradients */
-  --gradient-orange: linear-gradient(
-          to right bottom,
-          #FFD180,
-          #FFE082,
-          #FFB74D,
-          #FFA726
-  ) !important;
-
-  --gradient-light-to-dark-blue: linear-gradient(
-          to right bottom,
-          #00e8ff,
-          #14b5ff,
-          #3a98ff,
-          #0070eb
-  ) !important;
-
-    /* Gradients */
   --gradient-blue: linear-gradient(
-          to right bottom,
+          130deg,
           #00e8ff,
           #14b5ff,
           #3a98ff,
           #0070eb
   ) !important;
+
+  --gradient-blue-light-to-dark: var(--gradient-blue) !important;
 
   --gradient-blue-transparent: linear-gradient(
-          to right bottom,
+          130deg,
           rgba(0, 232, 255, 0.6),
           rgba(20, 181, 255, 0.6),
           rgba(58, 152, 255, 0.6),
           rgba(0, 112, 235, 0.6)
+  ) !important;
+
+  --gradient-orange: linear-gradient(
+          145deg,
+          #E65100,
+          #EF6C00,
+          #F57C00,
+          #FB8C00
   ) !important;
 
   --gradient-purple-to-pink-1: linear-gradient(
@@ -136,18 +153,10 @@ html.dark-mode {
             rgba(168, 85, 247)
   ) !important;
 
-  --gradient-purple-transparent: linear-gradient(
-    135deg,
-            rgba(99, 102, 241, 0.55),
-            rgba(139, 92, 246, 0.45),
-            rgba(168, 85, 247, 0.3)
-  ) !important;
-
-
   --gradient-cyan-to-blue: linear-gradient(
           130deg,
-          #00ffee,
-          #0a95eb
+          #0a95eb,
+          #00ffee
   ) !important;
 
   --gradient-pink: linear-gradient(
@@ -160,57 +169,27 @@ html.dark-mode {
 
   --gradient-blue-to-purple-1: linear-gradient(
           to right bottom,
-          #00e8ff,
-          #14b5ff,
+          #7952f5,
           #5280ff,
-          #7952f5
+          #14b5ff,
+          #00e8ff
   ) !important;
 
   --gradient-blue-to-purple-2: linear-gradient(
           to right bottom,
-          #00C8FF,
-          #14A5FF,
+          #5E17EB,
           #7066FF,
-          #5E17EB
+          #14A5FF,
+          #00C8FF
   );
-
 
   --gradient-blue-to-purple-to-pink: linear-gradient(
           135deg,
-          #00f2ff,
-          #3b82f6,
+          #ec4899,
           #8b5cf6,
-          #ec4899
+          #3b82f6,
+          #00f2ff
   );
-
-  --gradient-orange: linear-gradient(
-          145deg,
-          rgba(247, 129, 102),
-          rgba(255, 166, 87),
-          rgba(247, 97, 102),
-          rgba(255, 204, 21),
-  );
-
-  --gradient-green: linear-gradient(
-    135deg,
-    #86efac,
-    rgba(34, 197, 94),
-    rgba(22, 163, 74)
-  ) !important;
-
-  --gradient-green-transparent: linear-gradient(
-    135deg,
-    rgba(134, 255, 191, 0.35),
-    rgba(34, 197, 94, 0.4),
-    rgba(22, 163, 74, 0.6)
-  );
-
-  --gradient-purple-transparent: linear-gradient(
-    135deg,
-    rgba(99, 102, 241, 0.55),
-    rgba(139, 92, 246, 0.45),
-    rgba(168, 85, 247, 0.3)
-  ) !important;
 
   /* Tag element gradient */
     --tag-element-gradient: var(--gradient-blue-transparent) !important;
