@@ -302,9 +302,9 @@ function createCanvasGraph(d3, container, data) {
     const connections = linkCounts.get(nodeId) || 0;
     if (maxConnections === minConnections) return labelColors[6];
     const t = (connections - minConnections) / (maxConnections - minConnections);
-    // Interpolate between cyan (#00FFFF) and purple (#7952F5)
+    // Interpolate between cyan (#00e8ff) and purple (#7952f5)
     const r = Math.round(0 + (121 - 0) * t);
-    const g = Math.round(255 + (82 - 255) * t);
+    const g = Math.round(232 + (82 - 232) * t);
     const b = Math.round(255 + (245 - 255) * t);
     return `rgb(${r}, ${g}, ${b})`;
   }

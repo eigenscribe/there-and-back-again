@@ -17,7 +17,7 @@ html.dark-mode {
   --primary-color-light: #00e8ff !important;
   --primary-color: #14b5ff !important;
   --primary-color-dark: #3a98ff !important;
-  --primary-color-darker: #0070EB !important;
+  --primary-color-darker: #7952f5 !important;
   --primary-purple: #7952f5 !important;
 
   --secondary-color-light: #9b7dff !important;
@@ -94,29 +94,29 @@ html.dark-mode {
   --color-link: #14b5ff !important;
   --color-link-hover: #00e8ff !important;
   --color-math: var(--primary-color-light) !important;
-  --color-warning: #ffcc00 !important;
+  --color-warning: #FF8800 !important;
   --color-widget-button: c4b5fd !important;
 
   /* Node Colors - Realignment for Zettel Tree */
-  --color-keter: #FFD700 !important;       /* 1. Gold - Chapter */
+  --color-keter: #FFF9D6 !important;       /* 1. Keter */
   --color-keter-dark: #887722 !important;
-  --color-section: #00FFFF !important;     /* 2. Cyan - Section */
+  --color-section: #00FFFF !important;     /* 2. Cyan */
   --color-section-dark: #228888 !important;
-  --color-subsection: #00E8FF !important;  /* 3. Lighter Blue - Subsection */
+  --color-subsection: #00E8FF !important;  /* 3. Lighter Blue */
   --color-subsection-dark: #228888 !important;
-  --color-example: #14B5FF !important;     /* 4. Blue - Example */
+  --color-example: #14B5FF !important;     /* 4. Sky */
   --color-example-dark: #224488 !important;
-  --color-sub: #0070EB !important;         /* 5. Deep Blue - Sub */
+  --color-sub: #0070EB !important;         /* 5. Blue */
   --color-sub-dark: #113377 !important;
-  --color-appendix: #4CC9F0 !important;    /* 6. Sky Blue - Appendix */
+  --color-appendix: #4CC9F0 !important;    /* 6. Sky Blue */
   --color-appendix-dark: #226688 !important;
-  --color-definition: #7952F5 !important;  /* 7. Purple - Definition */
+  --color-definition: #7952F5 !important;  /* 7. Purple */
   --color-definition-dark: #332288 !important;
-  --color-ga: #5E17EB !important;          /* 8. Deep Purple - GA */
+  --color-ga: #5E17EB !important;          /* 8. Deep Purple */
   --color-ga-dark: #221166 !important;
-  --color-claim: #FF66B3 !important;       /* 9. Pink - Claim */
+  --color-claim: #FF66B3 !important;       /* 9. Pink */
   --color-claim-dark: #883355 !important;
-  --color-theorem: #038B00 !important;     /* 10. Green - Theorem */
+  --color-theorem: #038B00 !important;     /* 10. Green */
   --color-theorem-dark: #115511 !important;
 
   /* Gradients */
@@ -139,11 +139,10 @@ html.dark-mode {
   ) !important;
 
   --gradient-orange: linear-gradient(
-          145deg,
-          #E65100,
-          #EF6C00,
-          #F57C00,
-          #FB8C00
+          130deg,
+          #FFB700,
+          #FF8800,
+          #FF5500
   ) !important;
 
   --gradient-purple-to-pink-1: linear-gradient(

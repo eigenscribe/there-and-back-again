@@ -57,7 +57,9 @@ jobs:
         run: pretext --version
 
       - name: build deploy targets
-        run: pretext build --deploys
+        run: |
+          chmod +x build.sh
+          ./build.sh
 
       - name: run deploy
         run: pretext deploy --no-push
