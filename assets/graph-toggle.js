@@ -21,11 +21,11 @@ function init() {
 
 function setup() {
   createToggleButton();
-  createGraphSidebar();
+  createWidgetsSidebar();
   createGraphOverlay();
 }
 
-function createGraphSidebar() {
+function createWidgetsSidebar() {
   const ptxPage = document.querySelector('.ptx-page');
   if (!ptxPage) return;
 
@@ -35,20 +35,80 @@ function createGraphSidebar() {
   if (!sidebarRight) {
     sidebarRight = document.createElement('div');
     sidebarRight.className = 'ptx-sidebar-right';
-    
-    // Insert sidebar at the beginning of ptx-page so it's high up
     ptxPage.prepend(sidebarRight);
+  } else {
+    // If it exists, make sure it's not hidden by other styles
+    sidebarRight.style.display = 'block';
   }
+
+  // Create widget controls
+  const widgetControls = document.createElement('div');
+  widgetControls.className = 'sidebar-widget-controls';
+  widgetControls.style.display = 'flex';
+  widgetControls.style.gap = '10px';
+  widgetControls.style.padding = '10px';
+  widgetControls.style.justifyContent = 'center';
+  widgetControls.style.borderBottom = '1px solid rgba(255,255,255,0.1)';
+  
+  const zettelBtn = document.createElement('button');
+  zettelBtn.className = 'widget-toggle-btn active';
+  zettelBtn.innerHTML = '🌳';
+  zettelBtn.title = 'Zettel Tree';
+  zettelBtn.onclick = () => switchWidget('graph');
+
+  const periodicBtn = document.createElement('button');
+  periodicBtn.className = 'widget-toggle-btn';
+  periodicBtn.innerHTML = '🧪';
+  periodicBtn.title = 'Periodic Table';
+  periodicBtn.onclick = () => switchWidget('periodic');
+
+  widgetControls.appendChild(zettelBtn);
+  widgetControls.appendChild(periodicBtn);
+  sidebarRight.prepend(widgetControls);
 
   // Create widget wrapper
   const widgetWrapper = document.createElement('div');
   widgetWrapper.className = 'sidebar-widget-wrapper';
   widgetWrapper.innerHTML = `
-      <div id="graph-sidebar-container"></div>
+      <div id="graph-sidebar-container" class="widget-container"></div>
+      <div id="periodic-sidebar-container" class="widget-container" style="display:none;"></div>
   `;
   
-  // Prepend the graph widget to the sidebar to ensure it's at the top
-  sidebarRight.prepend(widgetWrapper);
+  // Clear other content if any or just append
+  sidebarRight.appendChild(widgetWrapper);
+}
+
+function switchWidget(type) {
+  const graphContainer = document.getElementById('graph-sidebar-container');
+  const periodicContainer = document.getElementById('periodic-sidebar-container');
+  const buttons = document.querySelectorAll('.widget-toggle-btn');
+  
+  buttons.forEach(btn => btn.classList.remove('active'));
+  
+  if (type === 'graph') {
+    graphContainer.style.display = 'block';
+    periodicContainer.style.display = 'none';
+    buttons[0].classList.add('active');
+    if (!graphInstance) {
+      initializeGraph('graph-sidebar-container');
+    }
+  } else {
+    graphContainer.style.display = 'none';
+    periodicContainer.style.display = 'block';
+    buttons[1].classList.add('active');
+    loadPeriodicTable();
+  }
+}
+
+async function loadPeriodicTable() {
+  const container = document.getElementById('periodic-sidebar-container');
+  if (container.innerHTML !== '') return;
+
+  container.innerHTML = `
+    <div class="periodic-sidebar-wrapper" style="width: 100%; height: auto; max-height: 85vh; overflow: hidden; position: relative; background: rgba(0,0,0,0.1); border-radius: 8px;">
+      <iframe src="external/widgets/periodic-table/index.html" style="width: 100%; height: 420px; border: none; overflow: hidden;" scrolling="no"></iframe>
+    </div>
+  `;
 }
 
 function createToggleButton() {
@@ -60,9 +120,9 @@ function createToggleButton() {
 
   const toggleBtn = document.createElement('button');
   toggleBtn.id = 'graph-toggle-btn';
-  toggleBtn.className = 'button active';
-  toggleBtn.innerHTML = '<span class="graph-icon">🌳</span><span class="name">Zettel Tree</span>';
-  toggleBtn.title = 'Toggle Graph View';
+  toggleBtn.className = 'button';
+  toggleBtn.innerHTML = '<span class="graph-icon">⚙️</span><span class="name">Widgets</span>';
+  toggleBtn.title = 'Toggle Widgets Sidebar';
   toggleBtn.addEventListener('click', toggleGraph);
 
   // Auto-align: insert after .treebuttons (Prev/Up/Next)
@@ -120,9 +180,14 @@ async function showGraphSidebar() {
   isGraphVisible = true;
   document.getElementById('graph-toggle-btn').classList.add('active');
 
-  if (!graphInstance) {
-    console.log('Graph toggle: initializing graph in sidebar...');
-    await initializeGraph('graph-sidebar-container');
+  const buttons = document.querySelectorAll('.widget-toggle-btn');
+  if (buttons.length > 0 && buttons[0].classList.contains('active')) {
+      if (!graphInstance) {
+        console.log('Graph toggle: initializing graph in sidebar...');
+        await initializeGraph('graph-sidebar-container');
+      }
+  } else if (buttons.length > 1 && buttons[1].classList.contains('active')) {
+      loadPeriodicTable();
   }
 }
 

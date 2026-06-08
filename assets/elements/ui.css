@@ -124,6 +124,31 @@ button.light-dark-button {
 }
 
 /* Zettel Tree Widget Styling */
+.widget-toggle-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.2s;
+}
+
+.widget-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.widget-toggle-btn.active {
+  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef);
+  border-color: transparent;
+}
+
+.widget-container {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+}
+
 .zettel_tree-header {
   position: relative;
   z-index: 10;
@@ -133,15 +158,18 @@ button.light-dark-button {
 }
 
 .zettel_tree-title {
+  font-family: var(--font-aclonica) !important;
   font-size: 1.75rem; /* Adjusted for sidebar width */
   font-weight: bold;
-  background: linear-gradient(to right, #14b5ff, #5280ff, #7952f5);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  background: var(--gradient-cyan-to-blue) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
   margin-bottom: 0.5rem;
-  filter: drop-shadow(0 4px 12px rgba(20, 181, 255, 0.6));
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(0 4px 12px rgba(20, 181, 255, 0.6)) !important;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1) !important;
+  text-shadow: 0 0 20px rgba(20, 181, 255, 0.3) !important;
   paint-order: stroke fill;
 }
 
