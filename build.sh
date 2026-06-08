@@ -51,6 +51,10 @@ cp assets/orb.png output/web/external/
 cp assets/space-bg.png output/web/external/
 cp assets/favicon.png output/web/
 
+# Update the graph data from source
+echo "Updating graph data..."
+python3 graph-module/update_graph.py
+
 # Copy graph module files
 echo "Copying graph module files..."
 mkdir -p output/web/graph

@@ -40,6 +40,10 @@ Copy-Item "assets/orb.png" "output/web/external/"
 Copy-Item "assets/space-bg.png" "output/web/external/"
 Copy-Item "assets/favicon.png" "output/web/"
 
+# Update the graph data from source
+Write-Host "Updating graph data..."
+python3 graph-module/update_graph.py
+
 # Copy graph module files
 Write-Host "Copying graph module files..."
 New-Item -ItemType Directory -Path "output/web/graph" -Force | Out-Null
