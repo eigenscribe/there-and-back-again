@@ -39,14 +39,14 @@ html,body{width:100%;font-family:"Aclonica",sans-serif; background: transparent 
   align-items:center;
   justify-content: flex-start;
   gap:0;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
   background: transparent;
   overflow-x: hidden;
   overflow-y: visible;
   position: relative;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  min-height: 150vh;
+  min-height: 100vh;
 }
 
 /* -------------- title -------------- */
@@ -83,99 +83,7 @@ h2{
   padding: 0;
 }
 
-/* -------------- selection area -------------- */
-.selection-area {
-    width: min(100%, 400px);
-    min-height: 20px;
-    margin-bottom: 0.1rem;
-    display: flex;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(10px);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 0.2rem;
-    transition: all 0.3s ease;
-}
-
-.selection-toggle {
-    width: 100%;
-}
-
-.toggle-placeholder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    min-height: 40px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.75rem;
-    font-style: italic;
-}
-
-.toggle-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-}
-
-.toggle-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    flex-shrink: 0;
-}
-
-.toggle-symbol {
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1;
-}
-
-.toggle-main-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.toggle-name {
-    font-size: 0.75rem;
-    font-weight: bold;
-}
-
-.toggle-number {
-    font-size: 0.5rem;
-    opacity: 0.8;
-}
-
-.toggle-details {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.2rem;
-    font-size: 0.6rem;
-    flex-grow: 1;
-}
-
-.toggle-item {
-    padding: 0.2rem 0.5rem;
-    border-radius: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: rgba(255, 255, 255, 0.03);
-    white-space: nowrap;
-}
-
-.toggle-item.full-width {
-    width: 100%;
-    white-space: normal;
-}
-
-.toggle-item.description {
-    font-style: italic;
-    font-size: 0.7rem;
-    opacity: 0.9;
-}
-
+/* -------------- legend area -------------- */
 .legend-area {
   margin-bottom: 0.2rem;
   width: 100%;
@@ -245,14 +153,6 @@ h2{
     --tile-size: clamp(42px, 12vw, 160px);
     gap: 1px;
   }
-  .toggle-content {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.5rem;
-  }
-  .toggle-details {
-      gap: 0.4rem;
-  }
   h1 {
     font-size: 0.9rem;
   }
@@ -268,10 +168,6 @@ h2{
 @media (max-width: 400px) {
   #periodic-table-app {
     padding: 0.8rem 0 0 0;
-  }
-  .selection-area {
-    width: 98%;
-    padding: 0.2rem;
   }
   .grid {
     --tile-size: clamp(38px, 12vw, 150px);

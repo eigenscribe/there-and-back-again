@@ -1,6 +1,5 @@
 import { buildLegend } from "./modules/legend.js";
 import { buildTile   } from "./modules/tile.js";
-import { buildSelectionToggle } from "./modules/selection-toggle.js";
 
 const root      = document.getElementById("periodic-table-app");
 console.log("Periodic Table App v1.0.4 loaded");
@@ -35,7 +34,7 @@ const gradients = {
 };
 
 // -------------------------------------------------------------------
-// 2.  Legend  (hover filtering)
+// 1. Legend Area (hover filtering)
 // -------------------------------------------------------------------
 let hoveredCat = null;
 
@@ -48,7 +47,7 @@ const legend = buildLegend(gradients, cat => {
 // Note: Legend is appended to grid below
 
 // -------------------------------------------------------------------
-// 3.  Main Layout (Table)
+// 2.  Main Layout (Table)
 // -------------------------------------------------------------------
 const mainLayout = document.createElement("div");
 mainLayout.className = "main-layout";
@@ -99,7 +98,7 @@ const resizeObserver = new ResizeObserver(entries => {
           grid.style.transform = currentScale ? `scale(${currentScale})` : "none";
           grid.style.width = "";
           const unscaledHeight = grid.offsetHeight;
-          grid.style.marginBottom = currentScale ? `-${unscaledHeight - (unscaledHeight * currentScale)}px` : "0";
+          grid.style.marginBottom = currentScale ? `-${unscaledHeight - (unscaledHeight * currentScale) - 40}px` : "0";
           continue;
       }
 
@@ -112,7 +111,7 @@ const resizeObserver = new ResizeObserver(entries => {
       const unscaledHeight = grid.offsetHeight;
       const scaledHeight = unscaledHeight * scale;
       
-      grid.style.marginBottom = `-${unscaledHeight - scaledHeight}px`;
+      grid.style.marginBottom = `-${unscaledHeight - scaledHeight - 40}px`;
 
       root.setAttribute('data-current-scale', scale.toFixed(3));
 
@@ -120,7 +119,7 @@ const resizeObserver = new ResizeObserver(entries => {
       if (window.frameElement) {
         requestAnimationFrame(() => {
           const totalHeight = root.scrollHeight;
-          window.frameElement.style.height = (totalHeight + 300) + "px";
+          window.frameElement.style.height = (totalHeight + 100) + "px";
         });
       }
     }
@@ -190,8 +189,9 @@ fetch("elements.json")
             scale = Math.min(scale, 1.2);
             grid.style.transform = `scale(${scale})`;
             grid.style.transformOrigin = "top center";
-            const scaledHeight = grid.getBoundingClientRect().height;
-            grid.style.marginBottom = `-${grid.offsetHeight - scaledHeight}px`;
+            const unscaledHeight = grid.offsetHeight;
+            const scaledHeight = unscaledHeight * scale;
+            grid.style.marginBottom = `-${unscaledHeight - scaledHeight - 40}px`;
         }
     }, 100);
 
@@ -215,7 +215,7 @@ fetch("elements.json")
   });
 
 // -------------------------------------------------------------------
-// 4.  Overlay Logic
+// 3.  Overlay Logic
 // -------------------------------------------------------------------
 const modal = document.getElementById("modal");
 
