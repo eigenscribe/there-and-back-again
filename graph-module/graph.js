@@ -19,8 +19,8 @@ class NotesGraph {
     }
     
     this.options = {
-      nodeRadius: options.nodeRadius || 6,
-      nodeRadiusScale: options.nodeRadiusScale || 1.5,
+      nodeRadius: options.nodeRadius || 10,
+      nodeRadiusScale: options.nodeRadiusScale || 2,
       linkDistance: options.linkDistance || 80,
       chargeStrength: options.chargeStrength || -200,
       labelOffset: options.labelOffset || 12,
@@ -147,14 +147,14 @@ class NotesGraph {
       }
       .graph-tooltip {
         position: absolute;
-        padding: 12px 16px;
+        padding: 8px 12px;
         background: var(--tooltip-bg, rgba(10, 10, 15, 0.95));
         border: 1px solid var(--tooltip-border, rgba(0, 255, 238, 0.5));
         border-radius: 8px;
-        font-size: 14px;
+        font-size: 13px;
         pointer-events: none;
         z-index: 200;
-        max-width: 300px;
+        max-width: 240px;
         backdrop-filter: blur(12px);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
         transition: opacity 0.15s ease;
@@ -554,9 +554,9 @@ async function initGraph() {
   if (!container) return;
 
   const graph = new NotesGraph('#graph-container', {
-    nodeRadius: 6,
-    linkDistance: 100,
-    chargeStrength: -300,
+    nodeRadius: 10,
+    linkDistance: 120,
+    chargeStrength: -400,
     showLabels: true,
     showControls: true,
     onNodeClick: (node) => {
