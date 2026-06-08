@@ -7,12 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="hypothesis definition added">
-      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/metadata.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/metadata.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/theme-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/theme-variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/graph.js" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="installed prefig">
+      <change afterPath="$PROJECT_DIR$/SOFIAS-FOLDER/my-colors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/docinfo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/docinfo.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/subsec-wedge-product-and-angular-momentum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/subsec-wedge-product-and-angular-momentum.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +19,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2146" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -38,67 +36,70 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="abb6097a-26a9-408d-bb7b-0596bc2b4362" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/assets/widgets/periodic-table/script.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.232783019540367" />
-      <entry key="MS500" value="3.203281531668468" />
-      <entry key="S2" value="10.23094229532947" />
-      <entry key="S5" value="23.951829843790176" />
-      <entry key="S10" value="46.28907017207345" />
-      <entry key="S30" value="105.00958743066528" />
-      <entry key="S60" value="149.27921274063686" />
-      <entry key="M2" value="191.85286986484667" />
-      <entry key="M5" value="266.7933907012731" />
-      <entry key="M10" value="397.6164290383289" />
-      <entry key="M15" value="539.5028478901388" />
-      <entry key="M30" value="976.6012288613753" />
-      <entry key="H1" value="1721.1344211193682" />
-      <entry key="H2" value="2766.7996724965" />
-      <entry key="H4" value="4150.859634703778" />
-      <entry key="D1" value="13591.402107044965" />
-      <entry key="W1" value="21698.04548286663" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000011256043" />
+      <entry key="S5" value="1.000426660283447" />
+      <entry key="S10" value="1.0424790825252008" />
+      <entry key="S30" value="2.91615780138517" />
+      <entry key="S60" value="7.931837024462008" />
+      <entry key="M2" value="17.183644840831036" />
+      <entry key="M5" value="37.091776582905254" />
+      <entry key="M10" value="62.09172529018125" />
+      <entry key="M15" value="86.90609756172917" />
+      <entry key="M30" value="209.93368550341143" />
+      <entry key="H1" value="668.4227072209646" />
+      <entry key="H2" value="1690.4812285522466" />
+      <entry key="H4" value="3268.697080364348" />
+      <entry key="D1" value="13156.783322625199" />
+      <entry key="W1" value="21799.527630099008" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.2459343227625383E-211" />
-      <entry key="S10" value="3.529779487110422E-106" />
-      <entry key="S30" value="7.067229449463066E-36" />
-      <entry key="S60" value="2.658426122749688E-18" />
-      <entry key="M2" value="1.6304844531593373E-9" />
-      <entry key="M5" value="3.109119869228616E-4" />
-      <entry key="M10" value="0.021740555810430193" />
-      <entry key="M15" value="0.11033529426172729" />
-      <entry key="M30" value="0.7758969457275795" />
-      <entry key="H1" value="2.613234491395226" />
-      <entry key="H2" value="5.681428644955777" />
-      <entry key="H4" value="9.99826541056751" />
-      <entry key="D1" value="41.805888517904314" />
-      <entry key="W1" value="68.55238399129543" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="7.858275518216943E-303" />
+      <entry key="S30" value="1.9881191894399623E-101" />
+      <entry key="S60" value="4.458833019551386E-51" />
+      <entry key="M2" value="6.677516479580424E-26" />
+      <entry key="M5" value="8.660775650406643E-11" />
+      <entry key="M10" value="1.1474408421931755E-5" />
+      <entry key="M15" value="7.205888953244013E-4" />
+      <entry key="M30" value="0.06270332861925208" />
+      <entry key="H1" value="0.7428851183968767" />
+      <entry key="H2" value="3.0292086969842797" />
+      <entry key="H4" value="7.300632382219719" />
+      <entry key="D1" value="39.671330060862175" />
+      <entry key="W1" value="68.04105429608516" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2028515273636402" />
-      <entry key="MS500" value="3.1887409910780438" />
-      <entry key="S2" value="10.22120767234209" />
-      <entry key="S5" value="23.943163884943928" />
-      <entry key="S10" value="46.28080914747767" />
-      <entry key="S30" value="105.00342095694752" />
-      <entry key="S60" value="149.274876210007" />
-      <entry key="M2" value="191.85010366404106" />
-      <entry key="M5" value="266.79216477143694" />
-      <entry key="M10" value="397.63683067236224" />
-      <entry key="M15" value="539.6114669636084" />
-      <entry key="M30" value="977.3735862828636" />
-      <entry key="H1" value="1723.7422788713507" />
-      <entry key="H2" value="2772.4756274119136" />
-      <entry key="H4" value="4160.853077939529" />
-      <entry key="D1" value="13633.203986433871" />
-      <entry key="W1" value="21766.596908527605" />
+      <entry key="MS100" value="0.9726549474122855" />
+      <entry key="MS500" value="0.9944701686732144" />
+      <entry key="S2" value="0.998614667224953" />
+      <entry key="S5" value="0.9998720388812841" />
+      <entry key="S10" value="1.0421889839982275" />
+      <entry key="S30" value="2.9158529585606905" />
+      <entry key="S60" value="7.9313938415750345" />
+      <entry key="M2" value="17.1831510792843" />
+      <entry key="M5" value="37.09133422068717" />
+      <entry key="M10" value="62.09133610265108" />
+      <entry key="M15" value="86.90639218308453" />
+      <entry key="M30" value="209.9956506540595" />
+      <entry key="H1" value="669.1636698510598" />
+      <entry key="H2" value="1693.507247586591" />
+      <entry key="H4" value="3275.994030958729" />
+      <entry key="D1" value="13196.450817257835" />
+      <entry key="W1" value="21867.56772866975" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -161,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00030" summary="updated note metadata block to generalize to include all supported metadata blocks">
-      <option name="closed" value="true" />
-      <created>1780379709234</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1780379709234</updated>
     </task>
     <task id="LOCAL-00031" summary="added a table element">
       <option name="closed" value="true" />
@@ -554,14 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1780889004435</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="installed prefig">
+      <option name="closed" value="true" />
+      <created>1780947470315</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1780947470315</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated note metadata block to generalize to include all supported metadata blocks" />
     <MESSAGE value="added a table element" />
     <MESSAGE value="tag styling edits" />
     <MESSAGE value="'spliting' stylesheet into individual stylesheets" />
@@ -586,6 +586,7 @@
     <MESSAGE value="updated node color gradients" />
     <MESSAGE value="updated node colors" />
     <MESSAGE value="hypothesis definition added" />
-    <option name="LAST_COMMIT_MESSAGE" value="hypothesis definition added" />
+    <MESSAGE value="installed prefig" />
+    <option name="LAST_COMMIT_MESSAGE" value="installed prefig" />
   </component>
 </project>

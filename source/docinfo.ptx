@@ -15,6 +15,10 @@
     \newcommand{\C}{\mathbb{C}}
     \newcommand{\bivec}[1]{\overset{\curvearrowleft}{#1}}
   </macros>
+  <prefigure-preamble xmlns="https://prefigure.org">
+    <graph stroke="#0070EB"/>
+    <point style="diamond" size="5" fill="#4CC9F0" outline="yes"/>
+  </prefigure-preamble>
 
   <pkg name="amssymb"/>
 

@@ -16,6 +16,25 @@
                     The <term>wedge product</term> captures oriented area and is analogous to angular momentum or flux in physical systems.
                 </p>
             </claim>
+
+            <image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-wedge-product-angular-momentum">
+                <diagram dimensions="(300,300)" margins="5">
+                    <coordinates bbox="(-2, -2, 2, 2)">
+                        <grid-axes/>
+                        <ellipse center="(0,0)" dimension="(1,0.7)"/>
+                        <label anchor="(0.5,0.5)" alignment="ne"
+                            clear-background="yes">
+                            <m>
+                                J = \oint \mathbf{p} \wedge \, d\mathbf{q}
+                            </m>
+                        </label>
+                    </coordinates>
+                </diagram>
+                </prefigure>
+            </image>
+
         </subsubsection>
 
         <conclusion>
