@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="table-formal-statement-types" frame="hsides" rules="groups" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Types of Formal Statements</title>
+
+    <tabular width="100%">
+      <col width="15%"/>
+      <col width="20%"/>
+      <col width="10%"/>
+      <col width="15%"/>
+      <col width="40%"/>
+
+      <!-- header row -->
+      <row header="yes">
+        <cell>
+          <alert>Term</alert>
+        </cell>
+        <cell>
+          <alert>Requires Proof?</alert>
+        </cell>
+        <cell>
+          <alert>Empirical?</alert>
+        </cell>
+        <cell>
+          <alert>Context</alert>
+        </cell>
+        <cell>
+          <alert>Role</alert>
+        </cell>
+      </row>
+
+      <!-- Definition Row -->
+      <row>
+        <cell>
+          <term>Definition</term>
+        </cell>
+        <cell>❌</cell>
+        <cell>❌</cell>
+        <cell>Mathematics / Logic</cell>
+        <cell>Introduces precise meaning of a term</cell>
+      </row>
+
+      <!-- Axiom Row -->
+      <row>
+        <cell>
+          <term>Axiom / Postulate</term>
+        </cell>
+        <cell>❌</cell>
+        <cell>Sometimes</cell>
+        <cell>Foundations</cell>
+        <cell>Undemonstrated starting assumption</cell>
+      </row>
+
+      <!-- Theorem Row -->
+      <row>
+        <cell>
+          <term>Theorem</term>
+        </cell>
+        <cell>✅</cell>
+        <cell>❌</cell>
+        <cell>Mathematics</cell>
+        <cell>Major derived result requiring rigorous proof</cell>
+      </row>
+
+      <!-- Lemma Row (Fixed: Requires Proof) -->
+      <row>
+        <cell>
+          <term>Lemma</term>
+        </cell>
+        <cell>✅</cell>
+        <cell>❌</cell>
+        <cell>Foundations</cell>
+        <cell>Intermediate helper theorem used to prove larger results</cell>
+      </row>
+
+      <!-- Corollary Row (Fixed: Clarified Derivation) -->
+      <row>
+        <cell>
+          <term>Corollary</term>
+        </cell>
+        <cell>Derived Directly</cell>
+        <cell>❌</cell>
+        <cell>Research</cell>
+        <cell>Necessary consequence following immediately from a theorem</cell>
+      </row>
+
+      <!-- Proposition Row -->
+      <row>
+        <cell>
+          <term>Proposition</term>
+        </cell>
+        <cell>✅</cell>
+        <cell>❌</cell>
+        <cell>Research</cell>
+        <cell>Mid-level proven result of moderate significance</cell>
+      </row>
+
+      <!-- Conjecture Row -->
+      <row>
+        <cell>
+          <term>Conjecture</term>
+        </cell>
+        <cell>Unproven</cell>
+        <cell>Sometimes</cell>
+        <cell>Research</cell>
+        <cell>Tentative proposition believed true based on patterns/intuition, awaiting proof</cell>
+      </row>
+
+      <!-- Hypothesis Row (Fixed: Empirical Nature) -->
+      <row>
+        <cell>
+          <term>Hypothesis</term>
+        </cell>
+        <cell>Testable (Not Proven)</cell>
+        <cell>✅</cell>
+        <cell>Science / Physics</cell>
+        <cell>Falsifiable prediction formulated for experimental verification</cell>
+      </row>
+
+      <!-- Claim Row -->
+      <row>
+        <cell>
+          <term>Claim</term>
+        </cell>
+        <cell>Unverified</cell>
+        <cell>Sometimes</cell>
+        <cell>General Research</cell>
+        <cell>Asserted statement requiring evidence or argument to be accepted</cell>
+      </row>
+
+      <!-- Principle Row -->
+      <row>
+        <cell>
+          <term>Principle</term>
+        </cell>
+        <cell>❌</cell>
+        <cell>Sometimes</cell>
+        <cell>Physics / Math</cell>
+        <cell>Fundamental rule guiding theory construction (often heuristic)</cell>
+      </row>
+
+      <!-- Law Row -->
+      <row>
+        <cell>
+          <term>Law</term>
+        </cell>
+        <cell>❌ (Mathematically Derived)</cell>
+        <cell>✅</cell>
+        <cell>Science</cell>
+        <cell>Descriptive generalization of empirical regularities</cell>
+      </row>
+
+      <!-- Model Row (Fixed: Validation Status) -->
+      <row>
+        <cell>
+          <term>Model</term>
+        </cell>
+        <cell>Validated</cell>
+        <cell>✅</cell>
+        <cell>Science</cell>
+        <cell>Representational system designed to explain/predict phenomena</cell>
+      </row>
+
+    </tabular>
+  </table>

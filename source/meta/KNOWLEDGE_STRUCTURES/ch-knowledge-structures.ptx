@@ -6,6 +6,7 @@
     
   </introduction>
 
+  <xi:include href="FORMAL_STATEMENTS/sec-formal-statements.ptx" />
   <xi:include href="sec-reasoning-taxonomy.ptx" />
 
 </chapter>
