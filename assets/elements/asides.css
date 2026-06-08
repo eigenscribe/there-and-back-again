@@ -156,16 +156,16 @@
 
 /* 🟣 Purple Gradient: Definitions */
 .ptx-content .definition-like .heading {
-  background-image: linear-gradient(120deg, var(--secondary-color), var(--pernary-color)) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 .ptx-content .definition-like::before {
-  background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* 🌑 Purple Gradient: Hints */
 .ptx-content .hint .heading,
 .ptx-content .hint summary.knowl__link {
-  background-image: linear-gradient(120deg, var(--secondary-color-light), var(--secondary-color)) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
   font-family: 'Aclonica', sans-serif !important;
   font-size: 1rem !important;
   letter-spacing: 0.02em;
@@ -190,23 +190,23 @@
   color: var(--secondary-color-light) !important;
 }
 .ptx-content .hint::before {
-  background: linear-gradient(to bottom, var(--secondary-color-light), var(--secondary-color)) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* 📗 Green Gradient: Theorems, Proofs */
 .ptx-content .theorem-like .heading,
 .ptx-content .proof .heading {
-  background-image: linear-gradient(120deg, var(--tertiary-color-medium), var(--primary-color-light)) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 .ptx-content .theorem-like::before,
 .ptx-content .proof::before {
-  background: linear-gradient(to bottom, var(--tertiary-color-medium), var(--primary-color-light)) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* 📗 Green Gradient: Solutions */
 .ptx-content .solution .heading,
 .ptx-content .solution summary.knowl__link {
-  background-image: linear-gradient(120deg, var(--tertiary-color-light), var(--tertiary-color-medium)) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
   font-family: 'Aclonica', sans-serif !important;
   font-size: 1rem !important;
   letter-spacing: 0.02em;
@@ -241,13 +241,13 @@
   color: var(--tertiary-color-light) !important;
 }
 .ptx-content .solution::before {
-  background: linear-gradient(to bottom, var(--tertiary-color-light), var(--tertiary-color-medium)) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* 🟠 Orange Gradient: Answers */
 .ptx-content .answer .heading,
 .ptx-content .answer summary.knowl__link {
-  background-image: linear-gradient(120deg, var(--quaternary-color-light), var(--quaternary-color)) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
   font-family: 'Aclonica', sans-serif !important;
   font-size: 1rem !important;
   letter-spacing: 0.02em;
@@ -260,7 +260,7 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(120deg, var(--quaternary-color-light), var(--quaternary-color)) !important;
+  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 .ptx-content .answer summary.knowl__link {
   -webkit-background-clip: text !important;
@@ -282,7 +282,7 @@
   color: var(--quaternary-color-light) !important;
 }
 .ptx-content .answer::before {
-  background: linear-gradient(to bottom, var(--quaternary-color-light), var(--quaternary-color)) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* 🔵 Blue Gradient: Examples, Exercises, Introductions, Biblio */
@@ -291,50 +291,50 @@
 .ptx-content section.introduction .heading,
 .ptx-content .biblio .heading,
 .ptx-content .abstract .heading {
-  background-image: linear-gradient(120deg, var(--primary-color-light), var(--primary-color)) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 .ptx-content .example-like::before,
 .ptx-content .exercise-like::before,
 .ptx-content section.introduction::before,
 .ptx-content .biblio::before,
 .ptx-content .abstract::before {
-  background: linear-gradient(to bottom, var(--primary-color-light), var(--primary-color)) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* 🟠 Orange-Yellow Gradient: Remarks, Insights, Warnings */
 .ptx-content .remark-like .heading,
 .ptx-content .insight .heading,
 .ptx-content .warning .heading {
-  background-image: linear-gradient(120deg, var(--quaternary-color-light), var(--quaternary-color)) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 .ptx-content .remark-like::before,
 .ptx-content .insight::before,
 .ptx-content .warning::before {
-  background: linear-gradient(to bottom, var(--quaternary-color-light), var(--quaternary-color)) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* 🟣 Note: Moved to Purple Gradient */
 .ptx-content .note .heading {
-  background-image: linear-gradient(120deg, var(--secondary-color), var(--pernary-color)) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 .ptx-content .note::before {
-  background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* Default / Aside */
 .ptx-content .aside .heading {
-  background-image: linear-gradient(120deg, var(--secondary-color), var(--pernary-color)) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 .ptx-content .aside::before {
-  background: linear-gradient(to bottom, var(--secondary-color), var(--pernary-color)) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* Assemblage - Blue-Purple Gradient (Adjusted Purple amount) */
 .ptx-content .assemblage-like .heading {
-  background-image: linear-gradient(to right, var(--primary-color) 0%, var(--primary-color) 40%, var(--secondary-color) 100%) !important;
+  background-image: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 .ptx-content .assemblage-like::before {
-  background: linear-gradient(to bottom, var(--primary-color) 0%, var(--primary-color) 40%, var(--secondary-color) 100%) !important;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #d946ef) !important;
 }
 
 /* ============================================
@@ -405,9 +405,9 @@
   ===================*/
 .ptx-content .assemblage-like {
   background: linear-gradient(135deg, 
-    rgba(20, 181, 255, 0.1) 0%, 
-    rgba(20, 181, 255, 0.1) 40%,
-    rgba(155, 125, 255, 0.1) 100%
+    rgba(59, 130, 246, 0.1) 0%, 
+    rgba(139, 92, 246, 0.1) 50%,
+    rgba(217, 70, 239, 0.1) 100%
   ) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);

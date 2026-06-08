@@ -630,16 +630,27 @@ class NotesGraph {
   }
 
   getNodeColor(node) {
+    const labelColors = [
+      "#FFF9D6", // 1. Keter
+      "#00FFFF", "#00E8FF", "#14B5FF", "#0070EB",
+      "#4CC9F0", "#7952F5", "#5E17EB", "#FF66B3", "#038B00"
+    ];
+
     const id = node.id || '';
-    if (id.startsWith('ch-') || id.startsWith('sec-')) return '#3b82f6';
-    if (id.startsWith('app-') || id.startsWith('ga-')) return '#636ff6';
-    if (id.startsWith('subsec-') || id.startsWith('sub-')) return '#8b5cf6';
-    if (id.startsWith('def-') || id.startsWith('thm-') || id.startsWith('claim-')) return '#b251f2';
-    if (id.startsWith('ex-')) return '#d946ef';
+    if (id.startsWith('ch-')) return labelColors[0];
+    if (id.startsWith('sec-')) return labelColors[1];
+    if (id.startsWith('subsec-')) return labelColors[2];
+    if (id.startsWith('sub-')) return labelColors[3];
+    if (id.startsWith('app-')) return labelColors[4];
+    if (id.startsWith('ga-')) return labelColors[5];
+    if (id.startsWith('def-')) return labelColors[6];
+    if (id.startsWith('thm-')) return labelColors[7];
+    if (id.startsWith('claim-')) return labelColors[8];
+    if (id.startsWith('ex-')) return labelColors[9];
     
     if (node.color) return node.color;
     const style = getComputedStyle(document.documentElement);
-    return style.getPropertyValue('--node-color').trim() || '#8b5cf6';
+    return style.getPropertyValue('--node-color').trim() || labelColors[6];
   }
 
   drag() {

@@ -161,9 +161,9 @@ body {
 #graph-controls button {
   width: 32px;
   height: 32px;
-  border: 1px solid rgba(20, 181, 255, 0.3);
+  border: 1px solid rgba(59, 130, 246, 0.3);
   border-radius: 6px;
-  background: linear-gradient(145deg, rgba(20, 181, 255, 0.15), rgba(121, 82, 245, 0.2));
+  background: linear-gradient(145deg, rgba(59, 130, 246, 0.15), rgba(217, 70, 239, 0.2));
   color: var(--text-color);
   font-size: 16px;
   cursor: pointer;
@@ -177,11 +177,11 @@ body {
 }
 
 #graph-controls button:hover {
-  background: linear-gradient(145deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.35));
-  border-color: rgba(20, 181, 255, 0.6);
+  background: linear-gradient(145deg, rgba(59, 130, 246, 0.3), rgba(217, 70, 239, 0.35));
+  border-color: rgba(59, 130, 246, 0.6);
   transform: scale(1.1);
   color: #fff;
-  box-shadow: 0 0 12px rgba(20, 181, 255, 0.3);
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.3);
 }
 
 #graph-tooltip {

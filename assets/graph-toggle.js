@@ -281,20 +281,31 @@ function createCanvasGraph(d3, container, data) {
   const minConnections = Math.min(...connectionValues);
   const maxConnections = Math.max(...connectionValues);
   
+  const labelColors = [
+    "#FFF9D6", // 1. Keter
+    "#00FFFF", "#00E8FF", "#14B5FF", "#0070EB",
+    "#4CC9F0", "#7952F5", "#5E17EB", "#FF66B3", "#038B00"
+  ];
+  
   function getNodeColor(nodeId) {
-    if (nodeId.startsWith('ch-') || nodeId.startsWith('sec-')) return '#3b82f6';
-    if (nodeId.startsWith('app-') || nodeId.startsWith('ga-')) return '#636ff6';
-    if (nodeId.startsWith('subsec-') || nodeId.startsWith('sub-')) return '#8b5cf6';
-    if (nodeId.startsWith('def-') || nodeId.startsWith('thm-') || nodeId.startsWith('claim-')) return '#b251f2';
-    if (nodeId.startsWith('ex-')) return '#d946ef';
+    if (nodeId.startsWith('ch-')) return labelColors[0];
+    if (nodeId.startsWith('sec-')) return labelColors[1];
+    if (nodeId.startsWith('subsec-')) return labelColors[2];
+    if (nodeId.startsWith('sub-')) return labelColors[3];
+    if (nodeId.startsWith('app-')) return labelColors[4];
+    if (nodeId.startsWith('ga-')) return labelColors[5];
+    if (nodeId.startsWith('def-')) return labelColors[6];
+    if (nodeId.startsWith('thm-')) return labelColors[7];
+    if (nodeId.startsWith('claim-')) return labelColors[8];
+    if (nodeId.startsWith('ex-')) return labelColors[9];
 
     const connections = linkCounts.get(nodeId) || 0;
-    if (maxConnections === minConnections) return '#8b5cf6';
+    if (maxConnections === minConnections) return labelColors[6];
     const t = (connections - minConnections) / (maxConnections - minConnections);
-    // Interpolate between blue (#3b82f6) and magenta (#d946ef)
-    const r = Math.round(59 + (217 - 59) * t);
-    const g = Math.round(130 + (70 - 130) * t);
-    const b = Math.round(246 + (239 - 246) * t);
+    // Interpolate between cyan (#00FFFF) and purple (#7952F5)
+    const r = Math.round(0 + (121 - 0) * t);
+    const g = Math.round(255 + (82 - 255) * t);
+    const b = Math.round(255 + (245 - 255) * t);
     return `rgb(${r}, ${g}, ${b})`;
   }
 
