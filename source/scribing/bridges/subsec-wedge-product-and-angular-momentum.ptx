@@ -22,14 +22,14 @@
                           label="prefigure-wedge-product-angular-momentum"
                 >
                     <diagram dimensions="(300,250)" margins="(35,30,50,30)">
-                        <coordinates bbox="(-2, -2, 2, 2)">
+                        <coordinates bbox="(-1, -1, 1, 1)">
                             <grid-axes h-frame="bottom"
                                        v-frame="left"
                                        xlabel="q"
                                        ylabel="p"
                             />
 
-                            <ellipse center="(0,0)" axes="(0.8,0.3)" stroke="rbg(67, 97, 238)" fill="#00E8FF" fill-opacity="0.3"/>
+                            <ellipse center="(0,0)" axes="(0.8,0.5)" stroke="rbg(67, 97, 238)" fill="#00E8FF" fill-opacity="0.3"/>
                         </coordinates>
                     </diagram>
                 </prefigure>
