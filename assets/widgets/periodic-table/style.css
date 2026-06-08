@@ -9,16 +9,20 @@
 
 /* -------------- generic reset -------------- */
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%;width:100%;font-family:"Aclonica",sans-serif; background: url("./images/space-bg.png") center/cover no-repeat fixed; color: var(--color-text);}
+html,body{min-height:100%;width:100%;font-family:"Aclonica",sans-serif; background: transparent !important; color: var(--color-text);}
 
 /* -------------- layered cosmic background -------------- */
 #periodic-table-app::before, #periodic-table-app::after {
     content:"";
-    position:absolute; inset:0; z-index:-2;
+    position:absolute; inset:-20px; z-index:-2;
     background-size:cover; background-position:center;
     pointer-events: none;
 }
-#periodic-table-app::before { opacity: 0; }
+#periodic-table-app::before {
+    background-image: url("./images/space-bg.png");
+    filter: blur(8px);
+    opacity: 0.8;
+}
 #periodic-table-app::after {
     background-image:url("./images/galaxy.png");
     background-size: 300px;
@@ -62,7 +66,7 @@ h1{
   margin-bottom: 0.15rem;
 }
 h2{
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   font-size: clamp(0.65rem, 1.1vw, 0.9rem);
   opacity: 0.9;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
@@ -79,7 +83,7 @@ h2{
   gap: 0.15rem; 
   justify-content: center;
   align-items: center;
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   z-index: 30;
   margin-bottom: 0.5rem;
 }
@@ -106,7 +110,7 @@ h2{
   --tile-size: clamp(12px, 2.5vw, 40px); /* Even smaller to fit noble gases in sidebar */
   display:grid;gap:0.08rem; /* Even tighter gap */
   grid-template-columns:repeat(19,var(--tile-size));
-  padding-bottom: 20px; /* Space for the rounded corners */
+  padding-bottom: 0; /* Clipped after last row */
   position: relative;
   justify-content: center; 
   margin: 0 auto;
@@ -120,7 +124,7 @@ h2{
   .grid {
     --tile-size: clamp(10px, 4vw, 30px);
     gap:0.08rem;
-    padding-bottom: 15px;
+    padding-bottom: 0;
   }
   h1 {
     font-size: 1.8rem;
@@ -154,7 +158,7 @@ h2{
   .grid {
     --tile-size: 35px; /* Keep it at base size, let script.js scale the container */
     gap: 0.15rem;
-    padding-bottom: 10px;
+    padding-bottom: 0;
   }
   .tile {
     border-width: 1px;
