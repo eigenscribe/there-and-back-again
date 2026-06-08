@@ -37,6 +37,10 @@
             "type": "string",
             "description": "Optional custom color for this node (CSS color value)"
           },
+          "group": {
+            "type": "string",
+            "description": "Folder-based grouping for coloring nodes"
+          },
           "aliases": {
             "type": "array",
             "items": { "type": "string" },

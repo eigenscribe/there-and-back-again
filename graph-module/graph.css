@@ -76,18 +76,73 @@ body {
   right: 20px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  align-items: flex-end;
+  gap: 12px;
   z-index: 100;
   pointer-events: auto;
 }
 
+.control-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.search-container {
+  position: relative;
+  width: 220px;
+}
+
+.graph-search {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--control-bg, rgba(20, 20, 30, 0.8));
+  border: 1px solid var(--tooltip-border, rgba(0, 255, 238, 0.3));
+  border-radius: 8px;
+  color: var(--text-color, #e0e0e0);
+  font-size: 14px;
+  backdrop-filter: blur(8px);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.graph-search:focus {
+  border-color: var(--node-color, #00ffee);
+  box-shadow: 0 0 8px rgba(0, 255, 238, 0.3);
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  background: var(--tooltip-bg, rgba(10, 10, 15, 0.95));
+  border: 1px solid var(--tooltip-border, rgba(0, 255, 238, 0.5));
+  border-radius: 8px;
+  z-index: 101;
+}
+
+.search-result-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.search-result-item:hover {
+  background: rgba(0, 255, 238, 0.1);
+}
+
+.search-results.hidden { display: none; }
+
 #graph-title, .graph-title {
   position: absolute;
   top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 20px;
   font-family: 'Aclonica', sans-serif;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: bold;
   background: linear-gradient(to right, #14b5ff, #5280ff, #7952f5);
   -webkit-background-clip: text;
@@ -96,9 +151,9 @@ body {
   text-shadow: 0 0 10px rgba(0, 255, 238, 0.5);
   z-index: 100;
   pointer-events: none;
-  text-align: center;
+  text-align: left;
   white-space: normal;
-  max-width: 300px;
+  max-width: 200px;
   line-height: 1.2;
 }
 
@@ -179,20 +234,30 @@ body {
 }
 
 .node-label {
-  font-size: 9px;
+  font-size: 8px;
   fill: var(--text-color);
   pointer-events: none;
   text-anchor: middle;
   dominant-baseline: middle;
-  opacity: 0.7;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.node-label.visible {
+  opacity: 0.6;
+}
+
+.node-label.important {
+  opacity: 0.8;
+  font-weight: bold;
 }
 
 .link {
   stroke: var(--link-color);
-  stroke-width: 2px;
+  stroke-width: 1px;
+  stroke-opacity: 0.4;
   stroke-linecap: round;
   transition: all 0.2s ease;
-  filter: drop-shadow(0 0 2px var(--link-color));
 }
 
 .link.prerequisite {
@@ -218,6 +283,14 @@ body {
   opacity: 0.1;
 }
 
-.node-label.dimmed {
+.node.search-match {
+  stroke: #fff;
+  stroke-width: 3px;
+  filter: drop-shadow(0 0 8px #fff);
+}
+.node.search-dimmed {
+  opacity: 0.2;
+}
+.link.search-dimmed {
   opacity: 0.1;
 }

@@ -6,35 +6,45 @@
       "title": "Section Title",
       "url": "sec-section-name.html",
       "tags": [],
-      "description": "Text of section."
+      "description": "Text of section.",
+      "group": "default",
+      "color": "#a0a0a0"
     },
     {
       "id": "app-reference",
       "title": "Empirical Foundations",
       "url": "app-reference.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "sec-methodological-frameworks",
       "title": "Research Methods",
       "url": "sec-methodological-frameworks.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "app-mathematical-foundations",
       "title": "Mathematical Foundations",
       "url": "app-mathematical-foundations.html",
       "tags": [],
-      "description": "Non-geometric algebra mathematics."
+      "description": "Non-geometric algebra mathematics.",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "app-geometric-algebra",
       "title": "Geometric Algebra",
       "url": "app-geometric-algebra.html",
       "tags": [],
-      "description": "Geometric algebra provides simple formulations and unique insight for many different physical processes."
+      "description": "Geometric algebra provides simple formulations and unique insight for many different physical processes.",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "sec-computational-methods",
@@ -43,7 +53,9 @@
       "tags": [
         "computational methods"
       ],
-      "description": ""
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "subsec-numerical-methods",
@@ -52,7 +64,9 @@
       "tags": [
         "numerical methods methods"
       ],
-      "description": "Numerical methods hurt my head. \ud83e\udd2f"
+      "description": "Numerical methods hurt my head. \ud83e\udd2f",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "subsec-hypotheses",
@@ -62,21 +76,27 @@
         "type i error",
         "type ii error"
       ],
-      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification"
+      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "def-hypothesis",
       "title": "Hypothesis",
       "url": "subsec-hypotheses.html#def-hypothesis",
       "tags": [],
-      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification"
+      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "subsec-periodic-table",
       "title": "Periodic Table of Elements",
       "url": "subsec-periodic-table.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "sec-ga-hodge-dual",
@@ -85,14 +105,18 @@
       "tags": [
         "hodge dual"
       ],
-      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$..."
+      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "ga-hodge-dual-3D",
       "title": "The Cross Product as a Dual Wedge Product",
       "url": "sec-ga-hodge-dual.html#ga-hodge-dual-3D",
       "tags": [],
-      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$..."
+      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
+      "group": "backmatter",
+      "color": "#9013fe"
     },
     {
       "id": "sec-python-gold-standards",
@@ -101,35 +125,45 @@
       "tags": [
         "python"
       ],
-      "description": "The primary goal is to routinely write scripts that read like math and code."
+      "description": "The primary goal is to routinely write scripts that read like math and code.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "subsec-python-rule-of-thumb",
       "title": "Python Rule of Thumb",
       "url": "sec-python-gold-standards.html#subsec-python-rule-of-thumb",
       "tags": [],
-      "description": "The primary goal is to routinely write scripts that read like math and code."
+      "description": "The primary goal is to routinely write scripts that read like math and code.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sub-python-template",
       "title": "Gold Standard Python Template",
       "url": "sec-python-gold-standards.html#sub-python-template",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "subsec-key-features",
       "title": "Fundamental Features",
       "url": "sec-python-gold-standards.html#subsec-key-features",
       "tags": [],
-      "description": "Helps to make long scripts scannable.\n                        Meant to be used as semantic anchor points, not decorat..."
+      "description": "Helps to make long scripts scannable.\n                        Meant to be used as semantic anchor points, not decorat...",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "ch-gold-standards",
       "title": "Gold Standards",
       "url": "ch-gold-standards.html",
       "tags": [],
-      "description": "Gold standard bolerplates and polishing guidelines. This is useful for both myself and giving to LLMs during developm..."
+      "description": "Gold standard bolerplates and polishing guidelines. This is useful for both myself and giving to LLMs during developm...",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sec-reasoning-taxonomy",
@@ -148,21 +182,27 @@
         "statistical reasoning",
         "temporal reasoning"
       ],
-      "description": "Understanding these reasoning patterns allows us to diagnose our own cognitive\n      processes when building Eigenote..."
+      "description": "Understanding these reasoning patterns allows us to diagnose our own cognitive\n      processes when building Eigenote...",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "ch-knowledge-structures",
       "title": "Knowledge Structures",
       "url": "ch-knowledge-structures.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sec-formal-statements",
       "title": "Formal Statements",
       "url": "sec-formal-statements.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sec-pretext-cheat-sheet",
@@ -177,14 +217,18 @@
         "xml",
         "\ud83d\udd17 interactive"
       ],
-      "description": "202606012315 |\n            pretext xml authoring"
+      "description": "202606012315 |\n            pretext xml authoring",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sub-pretext-structure",
       "title": "Document Structure",
       "url": "sec-pretext-cheat-sheet.html#sub-pretext-structure",
       "tags": [],
-      "description": "PreTeXt documents follow a strict hierarchical organization."
+      "description": "PreTeXt documents follow a strict hierarchical organization.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sub-pretext-inline",
@@ -193,42 +237,54 @@
       "tags": [
         "quantum mechanics"
       ],
-      "description": "Inline elements are used within paragraphs (<p>) to style text or add semantics."
+      "description": "Inline elements are used within paragraphs (<p>) to style text or add semantics.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sub-pretext-math",
       "title": "Mathematics",
       "url": "sec-pretext-cheat-sheet.html#sub-pretext-math",
       "tags": [],
-      "description": "PreTeXt supports various math environments using standard LaTeX notation."
+      "description": "PreTeXt supports various math environments using standard LaTeX notation.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sub-pretext-blocks",
       "title": "Common Blocks",
       "url": "sec-pretext-cheat-sheet.html#sub-pretext-blocks",
       "tags": [],
-      "description": "Structural blocks organize content into logical units with specific styling."
+      "description": "Structural blocks organize content into logical units with specific styling.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "def-unitary-example",
       "title": "Unitary Operator",
       "url": "sec-pretext-cheat-sheet.html#def-unitary-example",
       "tags": [],
-      "description": "An operator U is unitary if U^\\dagger U = I."
+      "description": "An operator U is unitary if U^\\dagger U = I.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "thm-noether-example",
       "title": "Noether's Theorem",
       "url": "sec-pretext-cheat-sheet.html#thm-noether-example",
       "tags": [],
-      "description": "Every differentiable symmetry ... has a corresponding conservation law."
+      "description": "Every differentiable symmetry ... has a corresponding conservation law.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sub-pretext-elements-table",
       "title": "Comprehensive Element Table",
       "url": "sec-pretext-cheat-sheet.html#sub-pretext-elements-table",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sub-project-conventions",
@@ -239,7 +295,9 @@
         "topic2",
         "\ud83d\udd17 interactive"
       ],
-      "description": "Custom styles and standards used in this Zettelkasten."
+      "description": "Custom styles and standards used in this Zettelkasten.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sec-template",
@@ -250,28 +308,36 @@
         "interactive",
         "prefigure"
       ],
-      "description": "This section serves as a demonstration of various PreTeXt elements styled with the current theme. It uses placeholder..."
+      "description": "This section serves as a demonstration of various PreTeXt elements styled with the current theme. It uses placeholder...",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "subsec-text-elements",
       "title": "Textual Elements",
       "url": "sec-template.html#subsec-text-elements",
       "tags": [],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. :eigenote: Donec a diam lectus. Sed sit amet ipsum mauris. M..."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. :eigenote: Donec a diam lectus. Sed sit amet ipsum mauris. M...",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sec-admonitions",
       "title": "Admonitions and Blocks",
       "url": "sec-template.html#sec-admonitions",
       "tags": [],
-      "description": "Admonitions are used to highlight important information."
+      "description": "Admonitions are used to highlight important information.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "ex-lorem",
       "title": "A Simple Example",
       "url": "sec-template.html#ex-lorem",
       "tags": [],
-      "description": "Consider the function f(x) = x^2. What is its derivative?"
+      "description": "Consider the function f(x) = x^2. What is its derivative?",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "subsec-technical",
@@ -282,14 +348,18 @@
         "interactive",
         "prefigure"
       ],
-      "description": "Technical documentation often requires code snippets and mathematical formulas."
+      "description": "Technical documentation often requires code snippets and mathematical formulas.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "ch-pretext",
       "title": "PreTeXt Authoring",
       "url": "ch-pretext.html",
       "tags": [],
-      "description": "Resources for authoring and managing content using the PreTeXt XML framework."
+      "description": "Resources for authoring and managing content using the PreTeXt XML framework.",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sec-git",
@@ -300,42 +370,54 @@
         "git",
         "terminal"
       ],
-      "description": "Multiline version (safter, less likely to accidentally earase local changes):"
+      "description": "Multiline version (safter, less likely to accidentally earase local changes):",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sub-git-local-reset",
       "title": "Local Git Reset",
       "url": "sec-git.html#sub-git-local-reset",
       "tags": [],
-      "description": "Multiline version (safter, less likely to accidentally earase local changes):"
+      "description": "Multiline version (safter, less likely to accidentally earase local changes):",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sub-pip-update-requirements",
       "title": "Update pip requirements.txt",
       "url": "sec-git.html#sub-pip-update-requirements",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "ch-cheat-sheets",
       "title": "My Cheat Sheets",
       "url": "ch-cheat-sheets.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "ch-bridges",
       "title": "Conceptual Bridges",
       "url": "ch-bridges.html",
       "tags": [],
-      "description": "The :logo: Eigenscribe \u00a9 methodology  system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to ..."
+      "description": "The :logo: Eigenscribe \u00a9 methodology  system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to ...",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
       "id": "sec-physics-and-geometric-algebra",
       "title": "Geometric Algebra and Physics",
       "url": "sec-physics-and-geometric-algebra.html",
       "tags": [],
-      "description": "The :logo: Eigenscribe \u00a9 methodology  system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to ..."
+      "description": "The :logo: Eigenscribe \u00a9 methodology  system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to ...",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
       "id": "subsec-wedge-product-and-angular-momentum",
@@ -347,7 +429,9 @@
         "vector calculus",
         "\ud83d\udd17"
       ],
-      "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems."
+      "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems.",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
       "id": "subsec-ga-uniform-b-field",
@@ -360,7 +444,9 @@
         "symmetry gauge",
         "vector potential"
       ],
-      "description": "For a uniform magnetic field \\vec{B}=B_0\\mathbf{e}_z, represented as a bivector \\bivec{B}=B_0(\\mathbf{e}_x\\wedge\\math..."
+      "description": "For a uniform magnetic field \\vec{B}=B_0\\mathbf{e}_z, represented as a bivector \\bivec{B}=B_0(\\mathbf{e}_x\\wedge\\math...",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
       "id": "def-ga-uniform-b-field-vector-potential",
@@ -369,35 +455,45 @@
       "tags": [
         "vector potential"
       ],
-      "description": "For a uniform magnetic field \\vec{B}=B_0\\mathbf{e}_z, represented as a bivector \\bivec{B}=B_0(\\mathbf{e}_x\\wedge\\math..."
+      "description": "For a uniform magnetic field \\vec{B}=B_0\\mathbf{e}_z, represented as a bivector \\bivec{B}=B_0(\\mathbf{e}_x\\wedge\\math...",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
       "id": "ch-field-notes",
       "title": "Field Notes",
       "url": "ch-field-notes.html",
       "tags": [],
-      "description": "Important artifacts, concpts, and insighs encountered in literature."
+      "description": "Important artifacts, concpts, and insighs encountered in literature.",
+      "group": "field-notes",
+      "color": "#f8e71c"
     },
     {
       "id": "sec-feynmann-lectures",
       "title": "Feynman Lectures",
       "url": "sec-feynmann-lectures.html",
       "tags": [],
-      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy..."
+      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy...",
+      "group": "field-notes",
+      "color": "#f8e71c"
     },
     {
       "id": "claim-vector-potential-generalization",
       "title": "claim-vector-potential-generalization",
       "url": "sec-feynmann-lectures.html#claim-vector-potential-generalization",
       "tags": [],
-      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy..."
+      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy...",
+      "group": "field-notes",
+      "color": "#f8e71c"
     },
     {
       "id": "ch-eigenotes",
       "title": "\ud83d\udcdc Eigenotes",
       "url": "ch-eigenotes.html",
       "tags": [],
-      "description": "Integrated, synthesized knowledge."
+      "description": "Integrated, synthesized knowledge.",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "sec-entropy-taximony",
@@ -413,56 +509,72 @@
         "statistical mechanics",
         "thermodynamics"
       ],
-      "description": "A taxonomy of entropy across various domains."
+      "description": "A taxonomy of entropy across various domains.",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "subsec-entropy-thermodynamics",
       "title": "Entropy in Thermodynamics",
       "url": "sec-entropy-taximony.html#subsec-entropy-thermodynamics",
       "tags": [],
-      "description": "The Clausius entropy is a change in the entropy of a system due to some reversible process where it absorbs some amou..."
+      "description": "The Clausius entropy is a change in the entropy of a system due to some reversible process where it absorbs some amou...",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "def-clausius-entropy",
       "title": "Clausius Entropy",
       "url": "sec-entropy-taximony.html#def-clausius-entropy",
       "tags": [],
-      "description": "The Clausius entropy is a change in the entropy of a system due to some reversible process where it absorbs some amou..."
+      "description": "The Clausius entropy is a change in the entropy of a system due to some reversible process where it absorbs some amou...",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "subsec-entropy-statistical-mechanics",
       "title": "Entropy in Statistical Mechanics",
       "url": "sec-entropy-taximony.html#subsec-entropy-statistical-mechanics",
       "tags": [],
-      "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by:\n                    \n ..."
+      "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by:\n                    \n ...",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "def-boltzmann-entropy",
       "title": "Boltzmann Entropy",
       "url": "sec-entropy-taximony.html#def-boltzmann-entropy",
       "tags": [],
-      "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by:\n                    \n ..."
+      "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by:\n                    \n ...",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "def-gibbs-entropy",
       "title": "Gibbs Entropy",
       "url": "sec-entropy-taximony.html#def-gibbs-entropy",
       "tags": [],
-      "description": "The Gibbs entropy of a macroscopic system is defined in terms of the probabilities \\mathbb{p}_i of being in microstat..."
+      "description": "The Gibbs entropy of a macroscopic system is defined in terms of the probabilities \\mathbb{p}_i of being in microstat...",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "subsec-entropy-information-theory",
       "title": "Entropy in Information Theory",
       "url": "sec-entropy-taximony.html#subsec-entropy-information-theory",
       "tags": [],
-      "description": "The Shannon entropy of a discrete random variable with possible outcomes i\\in\\{1,2,\\ldots,n\\} where n\\in\\mathbb{N} an..."
+      "description": "The Shannon entropy of a discrete random variable with possible outcomes i\\in\\{1,2,\\ldots,n\\} where n\\in\\mathbb{N} an...",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "def-shannon-entropy",
       "title": "def-shannon-entropy",
       "url": "sec-entropy-taximony.html#def-shannon-entropy",
       "tags": [],
-      "description": "The Shannon entropy of a discrete random variable with possible outcomes i\\in\\{1,2,\\ldots,n\\} where n\\in\\mathbb{N} an..."
+      "description": "The Shannon entropy of a discrete random variable with possible outcomes i\\in\\{1,2,\\ldots,n\\} where n\\in\\mathbb{N} an...",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "sec-hamiltonian-noether",
@@ -475,7 +587,9 @@
         "\ud83d\udd16 references:",
         "\ud83d\udd87\ufe0f linked notes:"
       ],
-      "description": "202605020001 |\n            Hamiltonian mechanics, Noether's theorem"
+      "description": "202605020001 |\n            Hamiltonian mechanics, Noether's theorem",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "sub-conserved-in-time",
@@ -484,28 +598,36 @@
       "tags": [
         "conserved in time"
       ],
-      "description": "A quantity Q is said to be\n                    conserved in time if\n\n                    \n                        \\{Q..."
+      "description": "A quantity Q is said to be\n                    conserved in time if\n\n                    \n                        \\{Q...",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "claim-conserved-in-time",
       "title": "claim-conserved-in-time",
       "url": "sec-hamiltonian-noether.html#claim-conserved-in-time",
       "tags": [],
-      "description": "A quantity Q is said to be\n                    conserved in time if\n\n                    \n                        \\{Q..."
+      "description": "A quantity Q is said to be\n                    conserved in time if\n\n                    \n                        \\{Q...",
+      "group": "eigenotes",
+      "color": "#d0021b"
     },
     {
       "id": "sec-post-quantum",
       "title": "Post-Quantum",
       "url": "sec-post-quantum.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "setting-the-stage",
+      "color": "#a0a0a0"
     },
     {
       "id": "ch-setting-the-stage",
       "title": "\ud83c\udfad Setting the Stage",
       "url": "ch-setting-the-stage.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "setting-the-stage",
+      "color": "#a0a0a0"
     },
     {
       "id": "sub-lagrange-joseph-louis",
@@ -515,21 +637,27 @@
         "the action",
         "the lagrangian"
       ],
-      "description": "Years: 1736-1813"
+      "description": "Years: 1736-1813",
+      "group": "setting-the-stage",
+      "color": "#a0a0a0"
     },
     {
       "id": "sec-pre-quantum",
       "title": "Pre-Quantum",
       "url": "sec-pre-quantum.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "setting-the-stage",
+      "color": "#a0a0a0"
     },
     {
       "id": "ch-sofias-practice-problems",
       "title": "My Practice Problems",
       "url": "ch-sofias-practice-problems.html",
       "tags": [],
-      "description": ""
+      "description": "",
+      "group": "practice-problems",
+      "color": "#ff6b6b"
     },
     {
       "id": "ch-quantum-computing-practice-sets",
@@ -540,7 +668,9 @@
         "state vectors",
         "tensor products"
       ],
-      "description": "A collection of practice problems generated with the assistance of AI. These problems were designed to accompany IBM ..."
+      "description": "A collection of practice problems generated with the assistance of AI. These problems were designed to accompany IBM ...",
+      "group": "practice-problems",
+      "color": "#ff6b6b"
     },
     {
       "id": "sec-qc-practice-set-1",
@@ -551,7 +681,9 @@
         "state vectors",
         "tensor products"
       ],
-      "description": "202604120001 |\n                tensor products, Qiskit, state vectors"
+      "description": "202604120001 |\n                tensor products, Qiskit, state vectors",
+      "group": "practice-problems",
+      "color": "#ff6b6b"
     }
   ],
   "links": [

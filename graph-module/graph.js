@@ -19,11 +19,11 @@ class NotesGraph {
     }
     
     this.options = {
-      nodeRadius: options.nodeRadius || 10,
-      nodeRadiusScale: options.nodeRadiusScale || 2,
-      linkDistance: options.linkDistance || 80,
-      chargeStrength: options.chargeStrength || -200,
-      labelOffset: options.labelOffset || 12,
+      nodeRadius: options.nodeRadius || 14,
+      nodeRadiusScale: options.nodeRadiusScale || 3,
+      linkDistance: options.linkDistance || 200,
+      chargeStrength: options.chargeStrength || -800,
+      labelOffset: options.labelOffset || 14,
       showLabels: options.showLabels !== false,
       showControls: options.showControls !== false,
       onNodeClick: options.onNodeClick || null,
@@ -67,13 +67,22 @@ class NotesGraph {
       controls.id = 'graph-controls';
       controls.className = 'graph-controls';
       controls.innerHTML = `
-        <button class="graph-btn zoom-in" title="Zoom In">+</button>
-        <button class="graph-btn zoom-out" title="Zoom Out">−</button>
-        <button class="graph-btn zoom-reset" title="Reset View">⟲</button>
-        <button class="graph-btn toggle-theme" title="Toggle Theme">◐</button>
+        <div class="search-container">
+          <input type="text" class="graph-search" placeholder="Search notes...">
+          <div class="search-results hidden"></div>
+        </div>
+        <div class="control-buttons">
+          <button class="graph-btn zoom-in" title="Zoom In">+</button>
+          <button class="graph-btn zoom-out" title="Zoom Out">−</button>
+          <button class="graph-btn zoom-reset" title="Reset View">⟲</button>
+          <button class="graph-btn toggle-full" title="Full Size">⛶</button>
+          <button class="graph-btn toggle-theme" title="Toggle Theme">◐</button>
+        </div>
       `;
       this.rootContainer.appendChild(controls);
       this.elements.controls = controls;
+      this.elements.searchInput = controls.querySelector('.graph-search');
+      this.elements.searchResults = controls.querySelector('.search-results');
     }
     
     const tooltip = document.createElement('div');
@@ -98,10 +107,9 @@ class NotesGraph {
       #graph-title, .graph-title {
         position: absolute;
         top: 20px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 20px;
         font-family: 'Aclonica', sans-serif;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         font-weight: bold;
         background: linear-gradient(to right, #00ffee, #0a95eb, #7952f5);
         -webkit-background-clip: text;
@@ -110,9 +118,9 @@ class NotesGraph {
         text-shadow: 0 0 10px rgba(0, 255, 238, 0.4);
         z-index: 100;
         pointer-events: none;
-        text-align: center;
+        text-align: left;
         white-space: normal;
-        max-width: 300px;
+        max-width: 200px;
         line-height: 1.2;
       }
       #graph-controls, .graph-controls {
@@ -121,10 +129,58 @@ class NotesGraph {
         right: 20px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        align-items: flex-end;
+        gap: 12px;
         z-index: 100;
         pointer-events: auto;
       }
+      .control-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .search-container {
+        position: relative;
+        width: 220px;
+      }
+      .graph-search {
+        width: 100%;
+        padding: 10px 14px;
+        background: var(--control-bg, rgba(20, 20, 30, 0.8));
+        border: 1px solid var(--tooltip-border, rgba(0, 255, 238, 0.3));
+        border-radius: 8px;
+        color: var(--text-color, #e0e0e0);
+        font-size: 14px;
+        backdrop-filter: blur(8px);
+        outline: none;
+        transition: all 0.2s ease;
+      }
+      .graph-search:focus {
+        border-color: var(--node-color, #00ffee);
+        box-shadow: 0 0 8px rgba(0, 255, 238, 0.3);
+      }
+      .search-results {
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 0;
+        width: 100%;
+        max-height: 200px;
+        overflow-y: auto;
+        background: var(--tooltip-bg, rgba(10, 10, 15, 0.95));
+        border: 1px solid var(--tooltip-border, rgba(0, 255, 238, 0.5));
+        border-radius: 8px;
+        z-index: 101;
+      }
+      .search-result-item {
+        padding: 8px 12px;
+        cursor: pointer;
+        font-size: 13px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      .search-result-item:hover {
+        background: rgba(0, 255, 238, 0.1);
+      }
+      .search-results.hidden { display: none; }
       .graph-btn {
         width: 40px;
         height: 40px;
@@ -165,6 +221,41 @@ class NotesGraph {
       .graph-tooltip .tooltip-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
       .graph-tooltip .tooltip-tag { padding: 2px 8px; background: var(--link-color, rgba(0, 255, 238, 0.3)); border-radius: 12px; font-size: 11px; }
       .graph-svg { width: 100%; height: 100%; display: block; }
+      .link {
+        stroke: var(--link-color, rgba(0, 255, 238, 0.4));
+        stroke-width: 1px;
+        stroke-opacity: 0.4;
+        stroke-linecap: round;
+        transition: all 0.2s ease;
+      }
+      .link.highlighted {
+        stroke: var(--link-hover-color, rgba(168, 85, 247, 0.7));
+        stroke-width: 3px;
+        stroke-opacity: 1;
+      }
+      .node-label {
+        font-size: 8px;
+        fill: var(--text-color, #e0e0e0);
+        pointer-events: none;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+      }
+      .node-label.visible { opacity: 0.6; }
+      .node-label.important { opacity: 0.8; font-weight: bold; }
+      .node-label.dimmed { opacity: 0.1; }
+      .node.search-match {
+        stroke: #fff;
+        stroke-width: 3px;
+        filter: drop-shadow(0 0 8px #fff);
+      }
+      .node.search-dimmed {
+        opacity: 0.2;
+      }
+      .link.search-dimmed {
+        opacity: 0.1;
+      }
     `;
     document.head.appendChild(style);
   }
@@ -207,6 +298,7 @@ class NotesGraph {
     const zoomOut = this.elements.controls.querySelector('.zoom-out');
     const zoomReset = this.elements.controls.querySelector('.zoom-reset');
     const toggleTheme = this.elements.controls.querySelector('.toggle-theme');
+    const toggleFull = this.elements.controls.querySelector('.toggle-full');
 
     if (zoomIn) {
       zoomIn.addEventListener('click', () => this.zoomBy(1.3));
@@ -219,6 +311,116 @@ class NotesGraph {
     }
     if (toggleTheme) {
       toggleTheme.addEventListener('click', () => this.toggleDarkMode());
+    }
+    if (toggleFull) {
+      toggleFull.addEventListener('click', () => this.toggleFullScreen());
+    }
+
+    if (this.elements.searchInput) {
+      this.elements.searchInput.addEventListener('input', (e) => this.handleSearch(e.target.value));
+      this.elements.searchInput.addEventListener('focus', () => {
+        if (this.elements.searchInput.value) this.elements.searchResults.classList.remove('hidden');
+      });
+      document.addEventListener('click', (e) => {
+        if (!this.elements.controls.contains(e.target)) {
+          this.elements.searchResults.classList.add('hidden');
+        }
+      });
+    }
+  }
+
+  handleSearch(query) {
+    const results = this.elements.searchResults;
+    if (!query) {
+      results.innerHTML = '';
+      results.classList.add('hidden');
+      this.highlightNodes(null);
+      return;
+    }
+
+    const filtered = this.data.nodes.filter(n => 
+      (n.title && n.title.toLowerCase().includes(query.toLowerCase())) ||
+      (n.id && n.id.toLowerCase().includes(query.toLowerCase())) ||
+      (n.tags && n.tags.some(t => t.toLowerCase().includes(query.toLowerCase())))
+    ).slice(0, 10);
+
+    if (filtered.length > 0) {
+      results.innerHTML = filtered.map(n => `
+        <div class="search-result-item" data-id="${n.id}">
+          ${n.title || n.id}
+          <div style="font-size: 10px; opacity: 0.6;">${n.group || ''}</div>
+        </div>
+      `).join('');
+      results.classList.remove('hidden');
+      
+      results.querySelectorAll('.search-result-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const id = item.getAttribute('data-id');
+          const node = this.data.nodes.find(n => n.id === id);
+          if (node) this.focusOnNode(node);
+          results.classList.add('hidden');
+          this.elements.searchInput.value = node.title || node.id;
+        });
+      });
+    } else {
+      results.innerHTML = '<div class="search-result-item">No results found</div>';
+      results.classList.remove('hidden');
+    }
+
+    // Highlight matches in the graph
+    const matchIds = new Set(filtered.map(n => n.id));
+    this.highlightNodes(matchIds);
+  }
+
+  highlightNodes(ids) {
+    const { d3 } = this;
+    const nodeElements = this.nodesGroup.selectAll('.node');
+    const labelElements = this.labelsGroup.selectAll('.node-label');
+    const linkElements = this.linksGroup.selectAll('.link');
+    
+    if (!ids) {
+      nodeElements.classed('search-match', false).classed('search-dimmed', false);
+      labelElements.classed('visible', d => (this.linkCounts.get(d.id) || 0) > 5);
+      linkElements.classed('search-dimmed', false);
+      return;
+    }
+
+    nodeElements
+      .classed('search-match', d => ids.has(d.id))
+      .classed('search-dimmed', d => !ids.has(d.id));
+    
+    labelElements.classed('visible', d => ids.has(d.id));
+
+    linkElements.classed('search-dimmed', l => {
+      const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
+      const targetId = typeof l.target === 'object' ? l.target.id : l.target;
+      return !ids.has(sourceId) || !ids.has(targetId);
+    });
+  }
+
+  focusOnNode(node) {
+    const { d3 } = this;
+    const scale = 2;
+    const translate = [this.width / 2 - scale * node.x, this.height / 2 - scale * node.y];
+
+    this.svg.transition()
+      .duration(750)
+      .call(this.zoom.transform, d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale));
+    
+    // Trigger hover effect temporarily
+    this.handleNodeHover(null, node, true, this.linksGroup.selectAll('line'), this.nodesGroup.selectAll('circle'));
+    setTimeout(() => {
+       // Keep tooltip visible or just leave it
+    }, 2000);
+  }
+
+  toggleFullScreen() {
+    if (!document.fullscreenElement) {
+      this.rootContainer.requestFullscreen().catch(err => {
+        console.error(`Error attempting to enable full-screen mode: ${err.message}`);
+      });
+    } else {
+      document.exitFullscreen();
     }
   }
 
@@ -291,19 +493,22 @@ class NotesGraph {
         ...l
       }));
 
-    const linkCounts = new Map();
+    this.linkCounts = new Map();
     processedLinks.forEach(l => {
-      linkCounts.set(l.source, (linkCounts.get(l.source) || 0) + 1);
-      linkCounts.set(l.target, (linkCounts.get(l.target) || 0) + 1);
+      this.linkCounts.set(l.source, (this.linkCounts.get(l.source) || 0) + 1);
+      this.linkCounts.set(l.target, (this.linkCounts.get(l.target) || 0) + 1);
     });
 
     this.simulation = d3.forceSimulation(nodes)
       .force('link', d3.forceLink(processedLinks)
         .id(d => d.id)
-        .distance(linkDistance))
+        .distance(linkDistance)
+        .strength(0.1)) // More organic
       .force('charge', d3.forceManyBody().strength(chargeStrength))
       .force('center', d3.forceCenter(this.width / 2, this.height / 2))
-      .force('collision', d3.forceCollide().radius(d => this.getNodeRadius(d, linkCounts) + 5));
+      .force('collision', d3.forceCollide().radius(d => this.getNodeRadius(d, this.linkCounts) + 8)) // More space
+      .force('x', d3.forceX(this.width / 2).strength(0.01))
+      .force('y', d3.forceY(this.height / 2).strength(0.01));
 
     const link = this.linksGroup.selectAll('line')
       .data(processedLinks)
@@ -315,7 +520,7 @@ class NotesGraph {
       .data(nodes)
       .join('circle')
       .attr('class', 'node')
-      .attr('r', d => this.getNodeRadius(d, linkCounts))
+      .attr('r', d => this.getNodeRadius(d, this.linkCounts))
       .attr('fill', d => this.getNodeColor(d))
       .call(this.drag());
 
@@ -323,8 +528,11 @@ class NotesGraph {
       const label = this.labelsGroup.selectAll('text')
         .data(nodes)
         .join('text')
-        .attr('class', 'node-label')
-        .attr('dy', d => this.getNodeRadius(d, linkCounts) + labelOffset);
+        .attr('class', d => {
+          const connections = this.linkCounts.get(d.id) || 0;
+          return `node-label ${connections > 5 ? 'important visible' : ''}`;
+        })
+        .attr('dy', d => this.getNodeRadius(d, this.linkCounts) + labelOffset);
 
       const self = this;
       label.each(function(d) {
@@ -390,8 +598,9 @@ class NotesGraph {
   }
 
   getNodeColor(node) {
+    if (node.color) return node.color;
     const style = getComputedStyle(document.documentElement);
-    return node.color || style.getPropertyValue('--node-color').trim();
+    return style.getPropertyValue('--node-color').trim() || '#00ffee';
   }
 
   drag() {
@@ -444,6 +653,7 @@ class NotesGraph {
         });
 
       this.labelsGroup.selectAll('text')
+        .classed('visible', n => connectedIds.has(n.id))
         .classed('dimmed', n => !connectedIds.has(n.id));
 
       if (tooltip) {
@@ -454,7 +664,10 @@ class NotesGraph {
     } else {
       nodeElements.classed('highlighted', false).classed('dimmed', false);
       linkElements.classed('highlighted', false).classed('dimmed', false);
-      this.labelsGroup.selectAll('text').classed('dimmed', false);
+      
+      this.labelsGroup.selectAll('text')
+        .classed('visible', d => (this.linkCounts.get(d.id) || 0) > 5)
+        .classed('dimmed', false);
 
       if (tooltip) {
         tooltip.classList.add('hidden');
@@ -554,9 +767,9 @@ async function initGraph() {
   if (!container) return;
 
   const graph = new NotesGraph('#graph-container', {
-    nodeRadius: 10,
-    linkDistance: 120,
-    chargeStrength: -400,
+    nodeRadius: 14,
+    linkDistance: 200,
+    chargeStrength: -800,
     showLabels: true,
     showControls: true,
     onNodeClick: (node) => {
