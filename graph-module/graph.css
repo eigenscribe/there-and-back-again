@@ -142,7 +142,7 @@ body {
   top: 20px;
   left: 20px;
   font-family: 'Aclonica', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: bold;
   background: linear-gradient(to right, #14b5ff, #5280ff, #7952f5);
   -webkit-background-clip: text;
@@ -155,6 +155,7 @@ body {
   white-space: normal;
   max-width: 200px;
   line-height: 1.2;
+  opacity: 0.5;
 }
 
 #graph-controls button {
@@ -244,11 +245,11 @@ body {
 }
 
 .node-label.visible {
-  opacity: 0.6;
+  opacity: 0.35;
 }
 
 .node-label.important {
-  opacity: 0.8;
+  opacity: 0.5;
   font-weight: bold;
 }
 

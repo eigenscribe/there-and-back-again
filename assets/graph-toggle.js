@@ -226,6 +226,8 @@ function createCanvasGraph(d3, container, data) {
   title.style.textAlign = "center";
   title.style.zIndex = '100';
   title.style.pointerEvents = "none";
+  title.style.opacity = "0.7";
+  title.style.transition = "opacity 0.3s ease";
   container.appendChild(title);
 
   const controls = document.createElement('div');
@@ -244,6 +246,7 @@ function createCanvasGraph(d3, container, data) {
     <button class="graph-btn zoom-in" title="Zoom In">+</button>
     <button class="graph-btn zoom-out" title="Zoom Out">−</button>
     <button class="graph-btn zoom-reset" title="Reset View">⟲</button>
+    <button class="graph-btn zoom-fit" title="Full Size">⛶</button>
   `;
   container.appendChild(controls);
 
@@ -297,6 +300,7 @@ function createCanvasGraph(d3, container, data) {
   let transform = d3.zoomIdentity;
   let hoveredNode = null;
   let draggedNode = null;
+  let hoverTimeout = null;
 
   const simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(processedLinks).id(d => d.id).distance(100))
@@ -323,18 +327,21 @@ function createCanvasGraph(d3, container, data) {
     });
 
     nodes.forEach(node => {
-      const radius = getNodeRadius(node);
+      const radius = getNodeRadius(node) * Math.max(1, 1 / Math.pow(transform.k, 0.5));
       const isHovered = hoveredNode === node;
+      const isPinned = node.fx !== undefined && node.fx !== null;
       
       ctx.beginPath();
       ctx.arc(node.x, node.y, isHovered ? radius + 3 : radius, 0, 2 * Math.PI);
       ctx.fillStyle = isHovered ? '#00e8ff' : getNodeColor(node.id);
       ctx.fill();
       
-      if (isHovered) {
-        ctx.strokeStyle = '#00e8ff';
-        ctx.lineWidth = 2 / transform.k;
+      if (isHovered || isPinned) {
+        ctx.strokeStyle = isPinned ? '#a855f7' : '#00e8ff';
+        ctx.lineWidth = (isPinned ? 3 : 2) / transform.k;
+        if (isPinned) ctx.setLineDash([4, 4]);
         ctx.stroke();
+        ctx.setLineDash([]);
       }
     });
 
@@ -343,7 +350,8 @@ function createCanvasGraph(d3, container, data) {
     ctx.textAlign = 'center';
     const lineHeight = 12 / transform.k;
     nodes.forEach(node => {
-      const radius = getNodeRadius(node);
+      if (node !== hoveredNode) return;
+      const radius = getNodeRadius(node) * Math.max(1, 1 / Math.pow(transform.k, 0.5));
       const title = node.title || node.id;
       const words = title.split(/\s+/);
       const lines = [];
@@ -400,10 +408,23 @@ function createCanvasGraph(d3, container, data) {
       hoveredNode = node;
       canvas.style.cursor = node ? 'pointer' : 'grab';
       
+      if (hoverTimeout) clearTimeout(hoverTimeout);
+      
+      const titleElement = container.querySelector('#graph-title');
       if (node) {
-        tooltip.innerHTML = buildTooltip(node);
-        tooltip.classList.remove('hidden');
+        hoverTimeout = setTimeout(() => {
+          if (titleElement) {
+            titleElement.textContent = node.title || node.id;
+            titleElement.style.opacity = '1.0';
+          }
+          tooltip.innerHTML = buildTooltip(node);
+          tooltip.classList.remove('hidden');
+        }, 50);
       } else {
+        if (titleElement) {
+          titleElement.textContent = 'There and Back Again Zettel Tree';
+          titleElement.style.opacity = '0.7';
+        }
         tooltip.classList.add('hidden');
       }
       render();
@@ -431,10 +452,24 @@ function createCanvasGraph(d3, container, data) {
 
   canvas.addEventListener('mouseup', () => {
     if (draggedNode) {
-      draggedNode.fx = null;
-      draggedNode.fy = null;
+      // Node stays pinned after drag
       draggedNode = null;
       canvas.style.cursor = hoveredNode ? 'pointer' : 'grab';
+      render();
+    }
+  });
+
+  canvas.addEventListener('click', (event) => {
+    const rect = canvas.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+    const node = getNodeAtPoint(x, y);
+    
+    if (node && node.fx !== undefined && node.fx !== null) {
+      node.fx = null;
+      node.fy = null;
+      simulation.alpha(0.3).restart();
+      render();
     }
   });
 
@@ -449,7 +484,7 @@ function createCanvasGraph(d3, container, data) {
     render();
   });
 
-  canvas.addEventListener('click', (event) => {
+  canvas.addEventListener('dblclick', (event) => {
     if (hoveredNode && hoveredNode.url) {
       window.location.href = hoveredNode.url;
     }
@@ -462,7 +497,8 @@ function createCanvasGraph(d3, container, data) {
       render();
     });
 
-  d3.select(canvas).call(zoom);
+  d3.select(canvas).call(zoom)
+    .on("dblclick.zoom", null);
 
   controls.querySelector('.zoom-in').addEventListener('click', () => {
     d3.select(canvas).transition().duration(300).call(zoom.scaleBy, 1.3);
@@ -473,6 +509,33 @@ function createCanvasGraph(d3, container, data) {
   controls.querySelector('.zoom-reset').addEventListener('click', () => {
     d3.select(canvas).transition().duration(500).call(zoom.transform, d3.zoomIdentity);
   });
+
+  controls.querySelector('.zoom-fit').addEventListener('click', () => {
+    zoomToFit();
+  });
+
+  function zoomToFit() {
+    if (nodes.length === 0) return;
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    nodes.forEach(n => {
+      const r = getNodeRadius(n);
+      minX = Math.min(minX, n.x - r);
+      minY = Math.min(minY, n.y - r);
+      maxX = Math.max(maxX, n.x + r);
+      maxY = Math.max(maxY, n.y + r);
+    });
+    const graphWidth = maxX - minX;
+    const graphHeight = maxY - minY;
+    if (graphWidth === 0 || graphHeight === 0) return;
+    const midX = (minX + maxX) / 2;
+    const midY = (minY + maxY) / 2;
+    const scale = 0.8 / Math.max(graphWidth / width, graphHeight / height);
+    const t = d3.zoomIdentity.translate(width / 2 - scale * midX, height / 2 - scale * midY).scale(scale);
+    d3.select(canvas).transition().duration(750).call(zoom.transform, t);
+  }
+
+  // Initial fit
+  setTimeout(zoomToFit, 100);
 
   window.addEventListener('resize', () => {
     const newWidth = container.clientWidth;

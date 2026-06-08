@@ -19,10 +19,10 @@ class NotesGraph {
     }
     
     this.options = {
-      nodeRadius: options.nodeRadius || 14,
-      nodeRadiusScale: options.nodeRadiusScale || 3,
-      linkDistance: options.linkDistance || 200,
-      chargeStrength: options.chargeStrength || -800,
+      nodeRadius: options.nodeRadius || 30,
+      nodeRadiusScale: options.nodeRadiusScale || 10,
+      linkDistance: options.linkDistance || 300,
+      chargeStrength: options.chargeStrength || -1500,
       labelOffset: options.labelOffset || 14,
       showLabels: options.showLabels !== false,
       showControls: options.showControls !== false,
@@ -40,6 +40,7 @@ class NotesGraph {
     this.darkMode = true;
     
     this.elements = {};
+    this.hoverTimeout = null;
     
     this.init();
   }
@@ -109,7 +110,7 @@ class NotesGraph {
         top: 20px;
         left: 20px;
         font-family: 'Aclonica', sans-serif;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         font-weight: bold;
         background: linear-gradient(to right, #00ffee, #0a95eb, #7952f5);
         -webkit-background-clip: text;
@@ -122,6 +123,8 @@ class NotesGraph {
         white-space: normal;
         max-width: 200px;
         line-height: 1.2;
+        opacity: 0.5;
+        transition: opacity 0.3s ease;
       }
       #graph-controls, .graph-controls {
         position: absolute;
@@ -242,13 +245,17 @@ class NotesGraph {
         opacity: 0;
         transition: opacity 0.2s ease;
       }
-      .node-label.visible { opacity: 0.6; }
-      .node-label.important { opacity: 0.8; font-weight: bold; }
+      .node-label.visible { opacity: 0.35; }
+      .node-label.important { opacity: 0.5; font-weight: bold; }
       .node-label.dimmed { opacity: 0.1; }
       .node.search-match {
         stroke: #fff;
         stroke-width: 3px;
-        filter: drop-shadow(0 0 8px #fff);
+      }
+      .node.pinned {
+        stroke: #a855f7;
+        stroke-width: 3px;
+        stroke-dasharray: 4;
       }
       .node.search-dimmed {
         opacity: 0.2;
@@ -286,9 +293,11 @@ class NotesGraph {
       .scaleExtent([0.1, 4])
       .on('zoom', (event) => {
         this.g.attr('transform', event.transform);
+        this.updateSemanticZoom(event.transform.k);
       });
 
-    this.svg.call(this.zoom);
+    this.svg.call(this.zoom)
+      .on("dblclick.zoom", null);
   }
 
   setupControls() {
@@ -313,7 +322,7 @@ class NotesGraph {
       toggleTheme.addEventListener('click', () => this.toggleDarkMode());
     }
     if (toggleFull) {
-      toggleFull.addEventListener('click', () => this.toggleFullScreen());
+      toggleFull.addEventListener('click', () => this.zoomToFit());
     }
 
     if (this.elements.searchInput) {
@@ -432,15 +441,30 @@ class NotesGraph {
   }
 
   resetZoom() {
-    const { d3 } = this;
-    this.svg.transition()
-      .duration(500)
-      .call(this.zoom.transform, d3.zoomIdentity);
+    this.zoomToFit();
   }
 
   toggleDarkMode() {
     this.darkMode = !this.darkMode;
     this.rootContainer.setAttribute('data-theme', this.darkMode ? 'dark' : 'light');
+  }
+
+  updateSemanticZoom(k) {
+    const { d3 } = this;
+    const { labelOffset } = this.options;
+    
+    // Scale nodes inversely with zoom to keep them visible when zoomed out
+    const nodeScale = Math.max(1, 1 / Math.pow(k, 0.5));
+    const labelScale = Math.max(1, 1 / Math.pow(k, 0.4));
+
+    this.nodesGroup.selectAll('.node')
+      .attr('r', d => this.getNodeRadius(d, this.linkCounts) * nodeScale);
+
+    if (this.options.showLabels) {
+      this.labelsGroup.selectAll('.node-label')
+        .style('font-size', `${8 * labelScale}px`)
+        .attr('dy', d => (this.getNodeRadius(d, this.linkCounts) * nodeScale) + (labelOffset * labelScale));
+    }
   }
 
   handleResize() {
@@ -566,7 +590,15 @@ class NotesGraph {
 
     node.on('mouseenter', (event, d) => this.handleNodeHover(event, d, true, link, node))
         .on('mouseleave', (event, d) => this.handleNodeHover(event, d, false, link, node))
-        .on('click', (event, d) => this.handleNodeClick(event, d));
+        .on('click', (event, d) => {
+          if (d.fx !== null && d.fx !== undefined) {
+            d.fx = null;
+            d.fy = null;
+            this.d3.select(event.currentTarget).classed('pinned', false);
+            this.simulation.alpha(0.3).restart();
+          }
+        })
+        .on('dblclick', (event, d) => this.handleNodeClick(event, d));
 
     this.simulation.on('tick', () => {
       link
@@ -608,60 +640,73 @@ class NotesGraph {
     const simulation = this.simulation;
 
     return d3.drag()
-      .on('start', (event, d) => {
+      .on('start', function(event, d) {
         if (!event.active) simulation.alphaTarget(0.3).restart();
         d.fx = d.x;
         d.fy = d.y;
       })
-      .on('drag', (event, d) => {
+      .on('drag', function(event, d) {
         d.fx = event.x;
         d.fy = event.y;
       })
-      .on('end', (event, d) => {
+      .on('end', function(event, d) {
         if (!event.active) simulation.alphaTarget(0);
-        d.fx = null;
-        d.fy = null;
+        // Node stays pinned after drag
+        d3.select(this).classed('pinned', true);
       });
   }
 
   handleNodeHover(event, d, isEntering, linkElements, nodeElements) {
     const tooltip = this.elements.tooltip;
+    const titleElement = document.getElementById('graph-title');
     
+    if (this.hoverTimeout) clearTimeout(this.hoverTimeout);
+
     if (isEntering) {
-      const connectedIds = new Set([d.id]);
-      this.data.links.forEach(l => {
-        const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
-        const targetId = typeof l.target === 'object' ? l.target.id : l.target;
-        if (sourceId === d.id) connectedIds.add(targetId);
-        if (targetId === d.id) connectedIds.add(sourceId);
-      });
-
-      nodeElements
-        .classed('highlighted', n => n.id === d.id)
-        .classed('dimmed', n => !connectedIds.has(n.id));
-
-      linkElements
-        .classed('highlighted', l => {
+      this.hoverTimeout = setTimeout(() => {
+        if (titleElement) {
+          titleElement.textContent = d.title || d.id;
+          titleElement.style.opacity = '1.0';
+        }
+        const connectedIds = new Set([d.id]);
+        this.data.links.forEach(l => {
           const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
           const targetId = typeof l.target === 'object' ? l.target.id : l.target;
-          return sourceId === d.id || targetId === d.id;
-        })
-        .classed('dimmed', l => {
-          const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
-          const targetId = typeof l.target === 'object' ? l.target.id : l.target;
-          return sourceId !== d.id && targetId !== d.id;
+          if (sourceId === d.id) connectedIds.add(targetId);
+          if (targetId === d.id) connectedIds.add(sourceId);
         });
 
-      this.labelsGroup.selectAll('text')
-        .classed('visible', n => connectedIds.has(n.id))
-        .classed('dimmed', n => !connectedIds.has(n.id));
+        nodeElements
+          .classed('highlighted', n => n.id === d.id)
+          .classed('dimmed', n => !connectedIds.has(n.id));
 
-      if (tooltip) {
-        tooltip.innerHTML = this.buildTooltipContent(d);
-        tooltip.classList.remove('hidden');
-        this.positionTooltip(event, tooltip);
-      }
+        linkElements
+          .classed('highlighted', l => {
+            const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
+            const targetId = typeof l.target === 'object' ? l.target.id : l.target;
+            return sourceId === d.id || targetId === d.id;
+          })
+          .classed('dimmed', l => {
+            const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
+            const targetId = typeof l.target === 'object' ? l.target.id : l.target;
+            return sourceId !== d.id && targetId !== d.id;
+          });
+
+        this.labelsGroup.selectAll('text')
+          .classed('visible', n => connectedIds.has(n.id))
+          .classed('dimmed', n => !connectedIds.has(n.id));
+
+        if (tooltip) {
+          tooltip.innerHTML = this.buildTooltipContent(d);
+          tooltip.classList.remove('hidden');
+          this.positionTooltip(event, tooltip);
+        }
+      }, 50); // Small debounce for smoother UI
     } else {
+      if (titleElement) {
+        titleElement.textContent = 'There and Back Again Zettel Tree';
+        titleElement.style.opacity = '0.5';
+      }
       nodeElements.classed('highlighted', false).classed('dimmed', false);
       linkElements.classed('highlighted', false).classed('dimmed', false);
       
@@ -715,7 +760,7 @@ class NotesGraph {
     if (this.options.onNodeClick) {
       this.options.onNodeClick(node, event);
     } else if (node.url) {
-      window.location.href = this.options.baseUrl + node.url;
+      window.open(this.options.baseUrl + node.url, '_self');
     }
   }
 
@@ -767,13 +812,13 @@ async function initGraph() {
   if (!container) return;
 
   const graph = new NotesGraph('#graph-container', {
-    nodeRadius: 14,
-    linkDistance: 200,
-    chargeStrength: -800,
+    nodeRadius: 30,
+    linkDistance: 300,
+    chargeStrength: -1500,
     showLabels: true,
     showControls: true,
-    onNodeClick: (node) => {
-      if (node.url) {
+    onNodeClick: (node, event) => {
+      if (event.type === 'dblclick' && node.url) {
         window.open(node.url, '_self');
       }
     }
