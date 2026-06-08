@@ -3,10 +3,17 @@
 <subsection xml:id="subsec-hypotheses" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Hypotheses</title>
   <intro>
-    <p>
 
-    </p>
   </intro>
+
+  <definition xml:id="def-hypothesis">
+    <title>Hypothesis</title>
+    <statement>
+      <p>
+        A <term>hypothesis</term> is a falsifiable prediction formulated for experimental verification
+      </p>
+    </statement>
+  </definition>
 
   <table xml:id="tab-hypothesis-errors">
     <title>Summary of Type I vs. Type II Errors
