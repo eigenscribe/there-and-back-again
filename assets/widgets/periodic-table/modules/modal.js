@@ -18,12 +18,12 @@ export function buildModal() {
     box.style.background = `linear-gradient(135deg,${c1}33, ${c2}33)`; // 20% opacity
     box.innerHTML = `
         <div id="close-btn">×</div>
-        <div style="text-align: center; margin-bottom: 0.3rem;">
+        <div style="text-align: center; margin-bottom: 0.1rem;">
           <h3 style="background: linear-gradient(135deg, ${c1}, ${c2}); -webkit-background-clip: text; color: transparent;">${el.symbol}</h3>
-          <h4>${el.name}</h4>
-          <div style="font-size: 0.75rem; color: #fff; opacity: 0.9;">Atomic Number: ${el.number}</div>
+          <h4 style="margin-bottom: 0.05rem;">${el.name}</h4>
+          <div style="font-size: 0.7rem; color: #fff; opacity: 0.8;">Atomic Number: ${el.number}</div>
         </div>
-        <div class="modal-grid">
+        <div class="modal-grid" style="margin-top: 0.1rem;">
           <div class="modal-item"><strong>Atomic mass</strong><br>${el.mass}</div>
           <div class="modal-item"><strong>Category</strong><br>${el.category.replace("-"," ")}</div>
           ${el.electronConfig ? `<div class="modal-item" style="grid-column:1/3"><strong>Electron configuration</strong><br><code style="font-family: 'Fira Code', monospace; font-size: 0.75rem;">${el.electronConfig}</code></div>` : ""}
