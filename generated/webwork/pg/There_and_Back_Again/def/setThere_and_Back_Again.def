@@ -1,0 +1,11 @@
+openDate          = 01/01/2027 at 12:00am
+dueDate           = 12/31/2027 at 10:00pm
+answerDate        = 12/31/2027 at 10:00pm
+paperHeaderFile   = There_and_Back_Again/header/There_and_Back_Again.pg
+screenHeaderFile  = There_and_Back_Again/header/There_and_Back_Again.pg
+description       = There and Back Again
+problemListV2
+problem_start
+source_file = There_and_Back_Again/[STRUCT]_[NUM].pg
+problem_id = 
+problem_end

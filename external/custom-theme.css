@@ -1,0 +1,37 @@
+/* Import Custom Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merriweather:wght@300;400;700&family=Fira+Code&display=swap');
+
+/* Modular Element Styles */
+@import "elements/tables.css";
+@import "elements/metadata.css";
+@import "elements/code-blocks.css";
+@import "elements/theme-variables.css";
+@import "elements/masthead.css";
+@import "elements/content.css";
+@import "elements/asides.css";
+@import "elements/ui.css";
+@import "elements/icons.css";
+@import "elements/layout.css";
+@import "elements/toc.css";
+@import "elements/responsive.css";
+
+/* ============================================================ */
+/*  THERE-AND-BACK-AGAIN  —  Custom Theme                       */
+/* ============================================================ */
+/* Sections (quick index)
+  1. Prism & Code Block Overrides                       ✅ elements/code-blocks.css
+  2. Theme Variables (CSS Custom Properties)            ✅ elements/theme-variables.css
+  3. Global Layout & Body Styling                       ✅ elements/layout.css
+  4. Masthead / Header                                  ✅ elements/masthead.css
+  5. Sidebar / TOC                                      ✅ elements/toc.css
+  6. Main Content / Headings                            ✅ elements/content.css
+  7. Code block styling (glassmorphic, copy button)     ✅ elements/code-blocks.css
+  8. Asides, Notes, Blocks (theorem, example, etc.)     ✅ elements/asides.css
+  9. Navbar, Footer, Search UI                          ✅ elements/ui.css
+  10. Responsive Rules                                  ✅ elements/responsive.css
+  11. Metadata tags                                     ✅ elements/metadata.css
+  12. Icons and Emojies                                 ✅ elements/icons.css
+  13. Tables                                            ✅ elements/tables.css
+*/
+
+

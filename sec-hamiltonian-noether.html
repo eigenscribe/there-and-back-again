@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Hamiltonian Noether’s Theorem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="There and Back Again: A Zettelkasten for Eigenscribe Inc">
+<meta property="og:title" content="There and Back Again: A Zettelkasten for Eigenscribe Inc">
+<meta property="book:title" content="There and Back Again: A Zettelkasten for Eigenscribe Inc">
+<meta name="twitter:description" content="A Zettelkasten-based journal for self-study and networked mathematical thinking.">
+<meta property="og:description" content="A Zettelkasten-based journal for self-study and networked mathematical thinking.">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.1.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.dcab57465a404e85.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.79fbb790b185d712.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-core.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-numbers/prism-line-numbers.min.js" integrity="sha512-dubtf8xMHSQlExGRQ5R7toxHLgSDZ0K7AunqPWHXmJQ8XyVIG19S1T95gBxlAeGOK02P4Da2RTnQz0Za0H0ebQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-highlight/prism-line-highlight.min.js" integrity="sha512-93uCmm0q+qO5Lb1huDqr7tywS8A2TFA+1/WHvyiWaK6/pvsFl6USnILagntBx8JnVbQH5s3n0vQZY6xNthNfKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+<link rel="stylesheet" type="text/css" href="external/custom-theme.css">
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+<style id="search-fix">#searchresultsplaceholder, .searchresultsplaceholder { display: none !important; position: fixed !important; top: 50% !important; left: 50% !important; transform: translate(-50%, -50%) !important; width: 560px !important; min-width: 560px !important; max-width: 560px !important; min-height: 280px !important; padding: 1.5rem !important; background: rgba(13, 17, 23, 0.97) !important; border: 1px solid rgba(20, 181, 255, 0.25) !important; border-radius: 16px !important; z-index: 10000 !important; flex-direction: column !important; gap: 1rem !important; box-sizing: border-box !important; overflow: visible !important; } #searchresultsplaceholder.search-active, .searchresultsplaceholder.search-active { display: flex !important; } .search-results-controls { display: flex !important; align-items: center !important; gap: 0.75rem !important; width: 100% !important; min-height: 48px !important; box-sizing: border-box !important; } #ptxsearch { flex: 1 !important; min-width: 0 !important; height: 44px !important; padding: 0 16px !important; background: rgba(18, 22, 30, 0.95) !important; border: 1px solid rgba(20, 181, 255, 0.25) !important; border-radius: 10px !important; color: #e0e0e0 !important; font-size: 14px !important; box-sizing: border-box !important; } #closesearchresults { width: 44px !important; height: 44px !important; min-width: 44px !important; min-height: 44px !important; flex-shrink: 0 !important; background: rgba(20, 181, 255, 0.12) !important; border: 1px solid rgba(20, 181, 255, 0.25) !important; border-radius: 10px !important; color: #14b5ff !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; box-sizing: border-box !important; }</style>
+<link rel="icon" type="image/png" href="favicon.png">
+<style id="glassmorphic-toc">:root{--toclevel1-background:transparent!important;--toclevel2-background:transparent!important;--toclevel3-background:transparent!important}nav#ptx-toc.ptx-toc,nav#ptx-toc.ptx-toc ul.structural,nav#ptx-toc.ptx-toc .toc-item-list{background:transparent!important}nav#ptx-toc.ptx-toc .toc-title-box{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item,nav#ptx-toc.ptx-toc li.toc-frontmatter,nav#ptx-toc.ptx-toc li.toc-backmatter,nav#ptx-toc.ptx-toc li.toc-chapter{background:linear-gradient(135deg,rgba(20,181,255,0.18),rgba(59,130,246,0.22))!important;backdrop-filter:blur(16px)!important;-webkit-backdrop-filter:blur(16px)!important;border:1px solid rgba(59,130,246,0.35)!important;border-radius:14px!important;box-shadow:0 4px 20px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.08)!important}nav#ptx-toc.ptx-toc li.toc-item.contains-active,nav#ptx-toc.ptx-toc li.toc-item.active,nav#ptx-toc.ptx-toc li.toc-frontmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-backmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-chapter.contains-active{background:linear-gradient(135deg,rgba(20,30,60,0.9),rgba(40,50,100,0.85))!important;border:1px solid rgba(100,120,200,0.5)!important;box-shadow:0 6px 24px rgba(0,0,0,0.5),inset 0 1px 0 rgba(255,255,255,0.1)!important}nav#ptx-toc.ptx-toc .toc-title-box>.internal{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item ul.structural{background:transparent!important;padding-left:0.75rem!important}</style>
+</head>
+<body id="there-and-back-again" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="zettelkasten.html"><span class="title">There and Back Again</span> <span class="subtitle">A Zettelkasten for Eigenscribe Inc</span></a></h1>
+<p class="byline"></p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-eigenotes.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-eigenotes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-entropy-taximony.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\bivec}[1]{\overset{\curvearrowleft}{#1}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-abstract"><div class="toc-title-box"><a href="frontmatter.html#frontmatter-4" class="internal"><span class="title">Abstract</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="conventions.html" class="internal"><span class="title">Conventions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="pt-scribing.html" class="internal"><span class="codenumber">I</span> <span class="title">🪶 Scribing</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-eigenotes.html" class="internal"><span class="codenumber">1</span> <span class="title">📜 Eigenotes</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-hamiltonian-noether.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Hamiltonian Noether’s Theorem</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-hamiltonian-noether.html#sub-conserved-in-time" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Conserved in time</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-entropy-taximony.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Entropy Taxonomy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-entropy-taximony.html#subsec-entropy-thermodynamics" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Entropy in Thermodynamics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-entropy-taximony.html#subsec-entropy-statistical-mechanics" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Entropy in Statistical Mechanics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-entropy-taximony.html#subsec-entropy-information-theory" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Entropy in Information Theory</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-bridges.html" class="internal"><span class="codenumber">2</span> <span class="title">Conceptual Bridges</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-physics-and-geometric-algebra.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Geometric Algebra and Physics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-physics-and-geometric-algebra.html#subsec-wedge-product-and-angular-momentum" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Physical Interpretations of the Wedge Product</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-physics-and-geometric-algebra.html#subsubsec-wedge-product-angular-momentum" class="internal"><span class="codenumber">2.1.1.1</span> <span class="title">Wedge Product and Angular Momentum</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-physics-and-geometric-algebra.html#subsec-ga-uniform-b-field" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Vector Potential for a Uniform Magnetic Field</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-field-notes.html" class="internal"><span class="codenumber">3</span> <span class="title">Field Notes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-feynmann-lectures.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Feynman Lectures</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-setting-the-stage.html" class="internal"><span class="codenumber">4</span> <span class="title">🎭 Setting the Stage</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pre-quantum.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Pre-Quantum</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pre-quantum.html#sub-lagrange-joseph-louis" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Joseph-Louis Lagrange</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-post-quantum.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Post-Quantum</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="pt-practice-problems.html" class="internal"><span class="codenumber">II</span> <span class="title">⚽ Practice Problems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-quantum-computing-practice-sets.html" class="internal"><span class="codenumber">5</span> <span class="title">Quantum Computing Practice Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-qc-practice-set-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Introduction to Quantum Computing with Qiskit</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-qc-practice-set-1.html#exercises-qc-practice-set-1" class="internal"><span class="codenumber">5.1</span> <span class="title">Quantum Computing - Problem Set 1</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-sofias-practice-problems.html" class="internal"><span class="codenumber">6</span> <span class="title">My Practice Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-sofias-practice-set-4.html" class="internal"><span class="codenumber">6</span> <span class="title">Practice Set 4 - Hamiltonian Flow vs. Vector Flow vs. Vector Potentials</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="pt-meta.html" class="internal"><span class="codenumber">III</span> <span class="title">🔱 Meta</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-pretext.html" class="internal"><span class="codenumber">7</span> <span class="title">PreTeXt Authoring</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-template.html" class="internal"><span class="codenumber">7.1</span> <span class="title">PreTeXt Element Demo</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-template.html#subsec-text-elements" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Textual Elements</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-template.html#subsubsec-lists" class="internal"><span class="codenumber">7.1.1.1</span> <span class="title">Lists and Descriptions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-template.html#sec-admonitions" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Admonitions and Blocks</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-template.html#subsec-technical" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Technical Elements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-template.html#subsubsec-code" class="internal"><span class="codenumber">7.1.3.1</span> <span class="title">Code Blocks</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-template.html#subsec-math" class="internal"><span class="codenumber">7.1.3.2</span> <span class="title">Mathematics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-template.html#subsec-tables" class="internal"><span class="codenumber">7.1.3.3</span> <span class="title">Tables</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-template.html#subsec-prefigure-demo" class="internal"><span class="codenumber">7.1.3.4</span> <span class="title">PreFigure Demo</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pretext-cheat-sheet.html" class="internal"><span class="codenumber">7.2</span> <span class="title">PreTeXt Cheat Sheet</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pretext-cheat-sheet.html#sub-pretext-structure" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Document Structure</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pretext-cheat-sheet.html#sub-pretext-inline" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Inline Elements and Tags</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pretext-cheat-sheet.html#sub-pretext-math" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Mathematics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pretext-cheat-sheet.html#sub-pretext-blocks" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Common Blocks</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pretext-cheat-sheet.html#sub-pretext-elements-table" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Comprehensive Element Table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pretext-cheat-sheet.html#sub-project-conventions" class="internal"><span class="codenumber">7.2.6</span> <span class="title">Project Conventions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-cheat-sheets.html" class="internal"><span class="codenumber">8</span> <span class="title">My Cheat Sheets</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-git.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Terminal Cheat Sheet</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-git.html#sub-git-local-reset" class="internal"><span class="codenumber">8.1.1</span> <span class="title">Local Git Reset</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-git.html#sub-pip-update-requirements" class="internal"><span class="codenumber">8.1.2</span> <span class="title">Update pip requirements.txt</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-gold-standards.html" class="internal"><span class="codenumber">9</span> <span class="title">Gold Standards</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-python-gold-standards.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Python Gold Standards</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-python-gold-standards.html#subsec-python-rule-of-thumb" class="internal"><span class="codenumber">9.1.1</span> <span class="title">Python Rule of Thumb</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-python-gold-standards.html#sub-python-template" class="internal"><span class="codenumber">9.1.2</span> <span class="title">Gold Standard Python Template</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-python-gold-standards.html#subsec-key-features" class="internal"><span class="codenumber">9.1.3</span> <span class="title">Fundamental Features</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-knowledge-structures.html" class="internal"><span class="codenumber">10</span> <span class="title">Knowledge Structures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formal-statements.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Formal Statements</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-reasoning-taxonomy.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Reasoning Taxonomy</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-mathematical-foundations.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Foundations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-computational-methods.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Computational Methods</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-computational-methods.html#subsec-numerical-methods" class="internal"><span class="codenumber">A.1.1</span> <span class="title">Numerical Methods</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-geometric-algebra.html" class="internal"><span class="codenumber">B</span> <span class="title">Geometric Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-ga-hodge-dual.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Hodge Dual</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-reference.html" class="internal"><span class="codenumber">C</span> <span class="title">Empirical Foundations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-methodological-frameworks.html" class="internal"><span class="codenumber">C.1</span> <span class="title">Research Methods</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-methodological-frameworks.html#subsec-hypotheses" class="internal"><span class="codenumber">C.1.1</span> <span class="title">Hypotheses</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="gls-main.html" class="internal"><span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="appendix-bibliography.html" class="internal"><span class="title">References</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-8.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-hamiltonian-noether">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Hamiltonian Noether’s Theorem</span>
+</h2>
+<section class="introduction" id="sec-hamiltonian-noether-4">
+<div class="para" id="sec-hamiltonian-noether-4-1">
+<code class="code-inline tex2jax_ignore">202605020001</code> | <code class="code-inline tex2jax_ignore">Hamiltonian mechanics</code>, <code class="code-inline tex2jax_ignore">Noether's theorem</code><div class="autopermalink" data-description="Paragraph"><a href="#sec-hamiltonian-noether-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="sub-conserved-in-time">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Conserved in time</span>
+</h3>
+<article class="claim theorem-like" id="claim-conserved-in-time"><h4 class="heading">
+<span class="type">Claim</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="claim-conserved-in-time-1-1">
+<div class="para">A quantity <span class="process-math">\(Q\)</span> is said to be <dfn class="terminology">conserved in time</dfn> if</div>
+<div class="displaymath process-math" id="claim-conserved-in-time-1-1-3">
+\begin{equation*}
+\{Q,H\}=0
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#claim-conserved-in-time-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="claim-conserved-in-time-1-2">
+<div class="para"><em class="alert">Two Interpretations:</em></div>
+<ol class="decimal" id="claim-conserved-in-time-1-2-2">
+<li id="claim-conserved-in-time-1-2-2-1">
+<div class="para logical" id="claim-conserved-in-time-1-2-2-1-1">
+<div class="para">
+<span class="process-math">\(Q\)</span> is a constant along the <em class="emphasis">flow</em> of <span class="process-math">\(H\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="claim-conserved-in-time-1-2-2-1-1-4">
+\begin{equation*}
+\frac{dQ}{dt}=0
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#claim-conserved-in-time-1-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#claim-conserved-in-time-1-2-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="claim-conserved-in-time-1-2-2-2">
+<div class="para" id="claim-conserved-in-time-1-2-2-2-1">
+<span class="process-math">\(H\)</span> is <em class="emphasis">invariant</em> along the <em class="emphasis">flow</em> of <span class="process-math">\(Q\)</span> (up to a minus sign). In other words, <span class="process-math">\(Q\)</span> generates a symmetry of <span class="process-math">\(H\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#claim-conserved-in-time-1-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#claim-conserved-in-time-1-2-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#claim-conserved-in-time-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Claim 1.1.1"><a href="#claim-conserved-in-time" title="Copy heading and permalink for Claim 1.1.1" aria-label="Copy heading and permalink for Claim 1.1.1">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sub-conserved-in-time-4"><h4 class="heading"><span class="title"><span class="twemoji" title=":logo:"></span> Take-Home Message.</span></h4>
+<div class="para logical" id="sub-conserved-in-time-4-2">
+<div class="displaymath process-math" id="sub-conserved-in-time-4-2-1">
+\begin{equation*}
+\frac{dQ}{dt}=0
+\Leftrightarrow
+Q \text{  a  of } H
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sub-conserved-in-time-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: <span class="twemoji" title=":logo:"></span> Take-Home Message"><a href="#sub-conserved-in-time-4" title="Copy heading and permalink for Assemblage: <span class="twemoji" title=":logo:"></span> Take-Home Message" aria-label="Copy heading and permalink for Assemblage: <span class="twemoji" title=":logo:"></span> Take-Home Message">🔗</a></div>
+</article><div class="autopermalink" data-description="Subsection 1.1.1: Conserved in time"><a href="#sub-conserved-in-time" title="Copy heading and permalink for Subsection 1.1.1: Conserved in time" aria-label="Copy heading and permalink for Subsection 1.1.1: Conserved in time">🔗</a></div>
+</section>
+<section class="conclusion" id="sec-hamiltonian-noether-6">
+<div class="para" id="sec-hamiltonian-noether-6-1">
+<code class="code-inline tex2jax_ignore">🖇️ Linked Notes:</code><div class="autopermalink" data-description="Paragraph"><a href="#sec-hamiltonian-noether-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-hamiltonian-noether-6-2">
+<code class="code-inline tex2jax_ignore">🔖 References:</code> <a href="appendix-bibliography.html#physicswithelliot2022hamiltoniannoether" class="xref" data-knowl="./knowl/xref/physicswithelliot2022hamiltoniannoether.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 8">[Physics with Elliot: The Most Beautiful Result in Classical Physics, biblio]</a><div class="autopermalink" data-description="Paragraph"><a href="#sec-hamiltonian-noether-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><div class="autopermalink" data-description="Section 1.1: Hamiltonian Noether’s Theorem"><a href="#sec-hamiltonian-noether" title="Copy heading and permalink for Section 1.1: Hamiltonian Noether’s Theorem" aria-label="Copy heading and permalink for Section 1.1: Hamiltonian Noether’s Theorem">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="ch-eigenotes.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-entropy-taximony.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer" style="background: rgba(0, 0, 0, 0.7); border-top: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 1.5rem 1rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem;">
+<img src="external/logo.png" alt="eigenscribe logo" style="width: 35px; height: 35px; filter: drop-shadow(0 0 8px rgba(0, 232, 255, 0.5));">
+<p style="font-family: Aclonica, sans-serif; background: linear-gradient(130deg, #00ffee, #0a95eb); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-size: 1rem; margin: 0;">eigenscribe © 2025-2026</p>
+</div>
+<script src="graph/d3.min.js"></script>
+<script src="graph/graph-toggle.js"></script>
+<script>(function(){var sp=document.getElementById("searchresultsplaceholder");var sb=document.getElementById("searchbutton");var cb=document.getElementById("closesearchresults");if(sp)sp.style.display="none";if(sb)sb.addEventListener("click",function(){if(sp){sp.classList.add("search-active");sp.style.display="flex";}});if(cb)cb.addEventListener("click",function(){if(sp){sp.classList.remove("search-active");sp.style.display="none";}});})();</script>
+<style id="toc-color-override">
+.ptx-toc li.toc-frontmatter.contains-active,
+.ptx-toc li.toc-backmatter.contains-active {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important;
+  background-color: rgba(20, 181, 255, 0.2) !important;
+  border-color: rgba(20, 181, 255, 0.4) !important;
+  border-radius: 16px !important;
+}
+.toc-frontmatter.contains-active .toc-title-box a,
+.toc-backmatter.contains-active .toc-title-box a,
+.toc-frontmatter.contains-active a.internal,
+.toc-backmatter.contains-active a.internal {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+</style>
+<script>
+(function() {
+  function overrideTocColors() {
+    document.querySelectorAll(".toc-frontmatter, .toc-backmatter").forEach(function(el) {
+      if (el.classList.contains("contains-active") || el.classList.contains("active")) {
+        el.style.setProperty("background", "linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16))", "important");
+        el.style.setProperty("background-color", "rgba(20, 181, 255, 0.2)", "important");
+        el.style.setProperty("border-radius", "16px", "important");
+        // Override anchors inside
+        el.querySelectorAll("a, .internal").forEach(function(a) {
+          a.style.setProperty("background", "transparent", "important");
+          a.style.setProperty("background-color", "transparent", "important");
+          a.style.setProperty("background-image", "none", "important");
+        });
+      }
+    });
+  }
+  overrideTocColors();
+  document.addEventListener("DOMContentLoaded", overrideTocColors);
+  window.addEventListener("load", overrideTocColors);
+  setInterval(overrideTocColors, 100);
+})();
+</script>
+</body>
+</html>
+
+

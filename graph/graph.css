@@ -1,0 +1,297 @@
+:root {
+  --bg-color: #0a0a0f;
+  --bg-image: url('space-bg.png');
+  --node-color: #8b5cf6;
+  --node-hover-color: #3b82f6;
+  --link-color: rgba(139, 92, 246, 0.3);
+  --link-hover-color: rgba(168, 85, 247, 0.7);
+  --prerequisite-link-color: #4ade80;
+  --text-color: #e0e0e0;
+  --tooltip-bg: rgba(10, 10, 15, 0.95);
+  --tooltip-border: rgba(0, 255, 238, 0.5);
+  --control-bg: rgba(20, 20, 30, 0.8);
+  --control-hover: rgba(0, 255, 238, 0.3);
+}
+
+[data-theme="light"] {
+  --bg-color: #f5f5f7;
+  --bg-image: none;
+  --node-color: #0891b2;
+  --node-hover-color: #7c3aed;
+  --link-color: rgba(8, 145, 178, 0.3);
+  --link-hover-color: rgba(124, 58, 237, 0.5);
+  --prerequisite-link-color: #16a34a;
+  --text-color: #1f2937;
+  --tooltip-bg: rgba(255, 255, 255, 0.95);
+  --tooltip-border: rgba(8, 145, 178, 0.5);
+  --control-bg: rgba(255, 255, 255, 0.9);
+  --control-hover: rgba(8, 145, 178, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  overflow: hidden;
+}
+
+#graph-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: var(--bg-image, url('./space-bg.png')) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0a0a0f;
+}
+
+#graph-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#graph-controls-container, .graph-controls-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  z-index: 100;
+  pointer-events: none;
+}
+
+#graph-controls, .graph-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  z-index: 100;
+  pointer-events: auto;
+}
+
+.control-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.search-container {
+  position: relative;
+  width: 220px;
+}
+
+.graph-search {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--control-bg, rgba(20, 20, 30, 0.8));
+  border: 1px solid var(--tooltip-border, rgba(0, 255, 238, 0.3));
+  border-radius: 8px;
+  color: var(--text-color, #e0e0e0);
+  font-size: 14px;
+  backdrop-filter: blur(8px);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.graph-search:focus {
+  border-color: var(--node-color, #00ffee);
+  box-shadow: 0 0 8px rgba(0, 255, 238, 0.3);
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  background: var(--tooltip-bg, rgba(10, 10, 15, 0.95));
+  border: 1px solid var(--tooltip-border, rgba(0, 255, 238, 0.5));
+  border-radius: 8px;
+  z-index: 101;
+}
+
+.search-result-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.search-result-item:hover {
+  background: rgba(0, 255, 238, 0.1);
+}
+
+.search-results.hidden { display: none; }
+
+#graph-title, .graph-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(0, 255, 238, 0.5);
+  z-index: 100;
+  pointer-events: none;
+  text-align: left;
+  white-space: normal;
+  max-width: 200px;
+  line-height: 1.2;
+  opacity: 0.5;
+}
+
+#graph-controls button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 6px;
+  background: linear-gradient(145deg, rgba(59, 130, 246, 0.15), rgba(217, 70, 239, 0.2));
+  color: var(--text-color);
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#graph-controls button:hover {
+  background: linear-gradient(145deg, rgba(59, 130, 246, 0.3), rgba(217, 70, 239, 0.35));
+  border-color: rgba(59, 130, 246, 0.6);
+  transform: scale(1.1);
+  color: #fff;
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.3);
+}
+
+#graph-tooltip {
+  position: absolute;
+  padding: 8px 12px;
+  background: var(--tooltip-bg);
+  border: 1px solid var(--tooltip-border);
+  border-radius: 8px;
+  font-size: 13px;
+  pointer-events: none;
+  z-index: 200;
+  max-width: 240px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.15s ease;
+}
+
+#graph-tooltip.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#graph-tooltip .tooltip-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--node-color);
+}
+
+#graph-tooltip .tooltip-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+#graph-tooltip .tooltip-tag {
+  padding: 2px 8px;
+  background: var(--link-color);
+  border-radius: 12px;
+  font-size: 11px;
+}
+
+.node {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  filter: drop-shadow(0 0 4px var(--node-color));
+}
+
+.node:hover {
+  fill: var(--node-hover-color);
+}
+
+.node-label {
+  font-size: 8px;
+  fill: var(--text-color);
+  pointer-events: none;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.node-label.visible {
+  opacity: 0.35;
+}
+
+.node-label.important {
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.link {
+  stroke: var(--link-color);
+  stroke-width: 1px;
+  stroke-opacity: 0.4;
+  stroke-linecap: round;
+  transition: all 0.2s ease;
+}
+
+.link.prerequisite {
+  stroke: var(--prerequisite-link-color);
+  filter: drop-shadow(0 0 2px var(--prerequisite-link-color));
+}
+
+.link.highlighted {
+  stroke: var(--link-hover-color);
+  stroke-width: 4px;
+  filter: drop-shadow(0 0 6px var(--node-hover-color));
+}
+
+.node.highlighted {
+  fill: var(--node-hover-color);
+}
+
+.node.dimmed {
+  opacity: 0.2;
+}
+
+.link.dimmed {
+  opacity: 0.1;
+}
+
+.node.search-match {
+  stroke: #fff;
+  stroke-width: 3px;
+  filter: drop-shadow(0 0 8px #fff);
+}
+.node.search-dimmed {
+  opacity: 0.2;
+}
+.link.search-dimmed {
+  opacity: 0.1;
+}

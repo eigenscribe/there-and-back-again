@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<section class="paragraphs"><h2 class="heading"><span class="title">Comparison of Finite Difference Scheme Properties.</span></h2>
+<div class="para">The following tables summarize common finite difference schemes for first and second derivatives.<div class="autopermalink" data-description="Paragraph"><a href="#finite-difference-comparison-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">A.1.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>First-Derivative Finite Difference Schemes<div class="autopermalink" data-description="Table A.1.1: First-Derivative Finite Difference Schemes"><a href="#tab-first-derivative-finite-difference" title="Copy heading and permalink for Table A.1.1: First-Derivative Finite Difference Schemes" aria-label="Copy heading and permalink for Table A.1.1: First-Derivative Finite Difference Schemes">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b1 r1 l1 t1 lines">Scheme and Formulation</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Error</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Grid Points</th>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0" style="max-width:300px;">
+<div class="para">
+<dfn class="terminology">Forward Difference</dfn><div class="autopermalink" data-description="Paragraph"><a href="#tab-first-derivative-finite-difference-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{df}{dx} \approx \frac{f(x+\Delta x) - f(x)}{\Delta x}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#tab-first-derivative-finite-difference-2-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\mathcal{O}(\Delta x)\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0" style="max-width:300px;">
+<div class="para">
+<dfn class="terminology">Backward Difference</dfn><div class="autopermalink" data-description="Paragraph"><a href="#tab-first-derivative-finite-difference-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{df}{dx} \approx \frac{f(x) - f(x-\Delta x)}{\Delta x}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#tab-first-derivative-finite-difference-2-6-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\mathcal{O}(\Delta x)\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0" style="max-width:300px;">
+<div class="para">
+<dfn class="terminology">Central Difference</dfn><div class="autopermalink" data-description="Paragraph"><a href="#tab-first-derivative-finite-difference-2-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="para">Second-order accurate central difference scheme:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{df}{dx} \approx \frac{f(x+\Delta x) - f(x-\Delta x)}{2\Delta x}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#tab-first-derivative-finite-difference-2-7-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\mathcal{O}(\Delta x^2)\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+</table></div>
+</figure>
+<figure class="table table-like"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">A.1.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Second-Derivative Finite Difference Schemes<div class="autopermalink" data-description="Table A.1.2: Second-Derivative Finite Difference Schemes"><a href="#tab-second-derivative-finite-difference" title="Copy heading and permalink for Table A.1.2: Second-Derivative Finite Difference Schemes" aria-label="Copy heading and permalink for Table A.1.2: Second-Derivative Finite Difference Schemes">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b1 r1 l1 t1 lines">Scheme and Formulation</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Error</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Grid Points</th>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0" style="max-width:300px;">
+<div class="para">
+<dfn class="terminology">Central Difference</dfn><div class="autopermalink" data-description="Paragraph"><a href="#tab-second-derivative-finite-difference-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{d^2f}{dx^2} \approx \frac{f(x+\Delta x) - 2f(x) + f(x-\Delta x)}{\Delta x^2}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#tab-second-derivative-finite-difference-2-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\mathcal{O}(\Delta x^2)\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+</table></div>
+</figure><div class="autopermalink" data-description="Paragraphs: Comparison of Finite Difference Scheme Properties"><a href="#finite-difference-comparison" title="Copy heading and permalink for Paragraphs: Comparison of Finite Difference Scheme Properties" aria-label="Copy heading and permalink for Paragraphs: Comparison of Finite Difference Scheme Properties">🔗</a></div>
+</section><span class="incontext"><a class="internal" href="sec-computational-methods.html#finite-difference-comparison">In Context</a></span>
+</body>
+</html>
+

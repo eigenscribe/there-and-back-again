@@ -1,0 +1,237 @@
+:root {
+  /* ============================================================ */
+  /*  Section 2: Theme Variables / Color + Typography Definitions    */
+  /* ============================================================ */
+  /* Typography Definitions (Simplified for IDE resolution) */
+  --font-heading: 'Aclonica', sans-serif;
+  --font-body: 'Merriweather', Georgia, serif;
+  --font-mono: 'Fira Code', monospace;
+}
+
+:root,
+:root.dark-mode,
+html,
+html.dark-mode {
+  /* Override PreTeXt theme colors - cyan/purple instead of blue/red */
+
+  --primary-color-light: #00e8ff !important;
+  --primary-color: #14b5ff !important;
+  --primary-color-dark: #3a98ff !important;
+  --primary-color-darker: #7952f5 !important;
+  --primary-purple: #7952f5 !important;
+
+  --secondary-color-light: #9b7dff !important;
+  --secondary-color: #9b7dff !important;
+  --secondary-color-dark: #4c48f2 !important;
+
+  --tertiary-color-light: rgba(112, 224, 0, 1.0 ) !important;
+  --tertiary-color-medium: #38b000 !important;
+  --tertiary-color-dark: #006400 !important;
+
+  --quaternary-color-light: rgba(254, 182, 57, 1.0) !important;
+  --quaternary-color: rgba(255, 120, 61, 1.0) !important;
+  --quaternary-color-dark: rgba(240, 84, 0, 1.0) !important;
+
+  --pernary-color-light: rgba(255, 118, 161, 1.0) !important;
+  --pernary-color: rgba(255, 64, 161, 1.0) !important;
+  --pernary-color-dark: #f76166 !important;
+
+  /* Grey Colors */
+  --primary-color-gray-1: rgba(20, 181, 255, 0.05) !important;
+  --primary-color-gray-2: rgba(20, 181, 255, 0.10) !important;
+  --primary-color-gray-3: rgba(20, 181, 255, 0.15) !important;
+  --primary-color-gray-4: rgba(20, 181, 255, 0.2) !important;
+  --primary-color-gray-5: rgba(20, 181, 255, 0.4) !important;
+  --primary-color-gray-6: rgba(20, 181, 255, 0.6) !important;
+
+  --secondary-color-gray-1: rgba(155, 125, 255, 0.05) !important;
+  --secondary-color-gray-2: rgba(155, 125, 255, 0.10) !important;
+  --secondary-color-gray-3: rgba(155, 125, 255, 0.15) !important;
+  --secondary-color-gray-4: rgba(155, 125, 255, 0.2) !important;
+  --secondary-color-gray-5: rgba(155, 125, 255, 0.4) !important;
+  --secondary-color-gray-6: rgba(155, 125, 255, 0.6) !important;
+
+  --tertiary-color-gray-1: rgba(50, 224, 0, 0.05) !important;
+  --tertiary-color-gray-2: rgba(50, 224, 0, 0.10) !important;
+  --tertiary-color-gray-3: rgba(50, 224, 0, 0.15) !important;
+  --tertiary-color-gray-4: rgba(50, 224, 0, 0.2) !important;
+  --tertiary-color-gray-5: rgba(50, 224, 0, 0.4) !important;
+  --tertiary-color-gray-6: rgba(50, 224, 0, 0.6) !important;
+
+  --quaternary-color-gray-1: rgba(255, 120, 61, 0.05) !important;
+  --quaternary-color-gray-2: rgba(255, 120, 87, 0.10) !important;
+  --quaternary-color-gray-3: rgba(255, 120, 61, 0.15) !important;
+  --quaternary-color-gray-4: rgba(255, 120, 61, 0.2) !important;
+  --quaternary-color-gray-5: rgba(255, 120, 61, 0.4) !important;
+  --quaternary-color-gray-6: rgba(255, 120, 61, 0.6) !important;
+
+  --pernary-color-gray-1: rgba(255, 118, 161, 0.05) !important;
+  --pernary-color-gray-2: rgba(255, 118, 161, 0.10) !important;
+  --pernary-color-gray-3: rgba(255, 118, 161, 0.15) !important;
+  --pernary-color-gray-4: rgba(255, 118, 161, 0.2) !important;
+  --pernary-color-gray-5: rgba(255, 118, 161, 0.4) !important;
+  --pernary-color-gray-6: rgba(255, 118, 161, 0.6) !important;
+
+
+  /* TOC active item overrides - these are the actual variables PreTeXt uses */
+  --tocitem-active-background: var(--primary-color-gray-4) !important;
+  --tocitem-active-text-color: #14b5ff !important;
+  --tocitem-active-border-color: var(--primary-color-gray-5) !important;
+  --tocitem-active-background-hover: var(--primary-color-gray-3) !important;
+
+  /* TOC specific overrides */
+  --toc-item-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), rgba(121, 82, 245, 0.15)) !important;
+  --toc-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), rgba(121, 82, 245, 0.15)) !important;
+  --toc-active-border-color: rgba(20, 181, 255, 0.4) !important;
+
+  /* Colors - Matching original design */
+  --color-bg: #0d1117 !important;
+  --color-surface: #161b22 !important;
+  --color-primary: var(--primary-color) !important;
+  --color-secondary: var(--secondary-color) !important;
+  --color-text: #C5F8FF !important;
+  --color-muted: #8b949e !important;
+  --color-link: #14b5ff !important;
+  --color-link-hover: #00e8ff !important;
+  --color-math: var(--primary-color-light) !important;
+  --color-warning: #FF8800 !important;
+  --color-widget-button: c4b5fd !important;
+
+  /* Node Colors - Realignment for Zettel Tree */
+  --color-keter: #FFF9D6 !important;       /* 1. Keter */
+  --color-keter-dark: #887722 !important;
+  --color-section: #00FFFF !important;     /* 2. Cyan */
+  --color-section-dark: #228888 !important;
+  --color-subsection: #00E8FF !important;  /* 3. Lighter Blue */
+  --color-subsection-dark: #228888 !important;
+  --color-example: #14B5FF !important;     /* 4. Sky */
+  --color-example-dark: #224488 !important;
+  --color-sub: #0070EB !important;         /* 5. Blue */
+  --color-sub-dark: #113377 !important;
+  --color-appendix: #4CC9F0 !important;    /* 6. Sky Blue */
+  --color-appendix-dark: #226688 !important;
+  --color-definition: #7952F5 !important;  /* 7. Purple */
+  --color-definition-dark: #332288 !important;
+  --color-ga: #5E17EB !important;          /* 8. Deep Purple */
+  --color-ga-dark: #221166 !important;
+  --color-claim: #FF66B3 !important;       /* 9. Pink */
+  --color-claim-dark: #883355 !important;
+  --color-theorem: #038B00 !important;     /* 10. Green */
+  --color-theorem-dark: #115511 !important;
+
+  /* Gradients */
+  --gradient-blue: linear-gradient(
+          130deg,
+          #00e8ff,
+          #14b5ff,
+          #3a98ff,
+          #0070eb
+  ) !important;
+
+  --gradient-blue-light-to-dark: var(--gradient-blue) !important;
+
+  --gradient-blue-transparent: linear-gradient(
+          130deg,
+          rgba(0, 232, 255, 0.6),
+          rgba(20, 181, 255, 0.6),
+          rgba(58, 152, 255, 0.6),
+          rgba(0, 112, 235, 0.6)
+  ) !important;
+
+  --gradient-orange: linear-gradient(
+          130deg,
+          #FFB700,
+          #FF8800,
+          #FF5500
+  ) !important;
+
+  --gradient-purple-to-pink-1: linear-gradient(
+  135deg,
+            rgba(99, 102, 241),
+            rgba(139, 92, 246),
+            rgba(168, 85, 247)
+  ) !important;
+
+  --gradient-cyan-to-blue: linear-gradient(
+          130deg,
+          #0a95eb,
+          #00ffee
+  ) !important;
+
+  --gradient-pink: linear-gradient(
+          to right bottom,
+          #ff76a1,
+          #ff40a1,
+          #f76166,
+          #ff3881
+  ) !important;
+
+  --gradient-blue-to-purple-1: linear-gradient(
+          to right bottom,
+          #7952f5,
+          #5280ff,
+          #14b5ff,
+          #00e8ff
+  ) !important;
+
+  --gradient-blue-to-purple-2: linear-gradient(
+          to right bottom,
+          #5E17EB,
+          #7066FF,
+          #14A5FF,
+          #00C8FF
+  );
+
+  --gradient-blue-to-purple-to-pink: linear-gradient(
+          135deg,
+          #ec4899,
+          #8b5cf6,
+          #3b82f6,
+          #00f2ff
+  );
+
+  /* Tag element gradient */
+    --tag-element-gradient: var(--gradient-blue-transparent) !important;
+    --tag-pill-purple: var(--gradient-purple-transparent) !important;
+
+  /* Typography */
+    --font-aclonica: 'Aclonica', sans-serif;
+
+    /* Borders & Radius */
+    --border-xs: 4px;
+    --border-sm: 8px;
+    --border-md: 12px;
+    --border-lg: 24px;
+    --border-xl: 40px;
+
+    --radius-xs: 4px;
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 50px;
+    --radius-pill: var(--radius-xl);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.4);
+
+    --shadow-header:   0 2px 10px rgba(0, 0, 0, 0.3);
+    --shadow-logo:     0 2px 8px rgba(0, 0, 0, 0.3);
+    --shadow-button:   0 4px 15px 0 rgba(56, 152, 255, 0.5);
+    --shadow-text:     0 1px 3px rgba(0, 0, 0, 0.5);
+    --shadow-button-2: 0 4px 15px 0 rgba(20, 165, 255, 0.6);
+    --shadow-tag:      0 4px 15px rgba(0, 0, 0, 0.2);
+
+    /* Glassmorphism */
+    --glass-bg: rgba(0, 0, 0, 0.5);
+    --glass-border: rgba(255, 255, 255, 0.1);
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+
+}
