@@ -13,7 +13,7 @@
 
     <subsection xml:id="subsec-python-rule-of-thumb">
         <title>Python Rule of Thumb</title>
-        <note>
+        <assemblage>
             <p>
                 The primary goal is to routinely write scripts that read like math and code.
             </p>
@@ -26,7 +26,7 @@
                     <li><p>Proof it works.</p></li>
                 </ol>
             </p>
-        </note>
+        </assemblage>
     </subsection>
 
     <subsection xml:id="sub-python-template">

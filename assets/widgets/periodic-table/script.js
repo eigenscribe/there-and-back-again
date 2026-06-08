@@ -56,7 +56,7 @@ const resizeObserver = new ResizeObserver(entries => {
     const width = entry.contentRect.width;
       // 19 columns * tile-size. Base width should match the natural width of the grid.
     // In style.css, tile-size is up to 40px. 19 * 40 = 760. plus gaps and labels.
-    const BASE_WIDTH = 860; 
+    const BASE_WIDTH = 780; 
     const isSidebar = entry.target.closest('.ptx-sidebar-right') !== null || window.innerWidth < 900;
     
     if (width < BASE_WIDTH && width > 0) {
@@ -75,7 +75,7 @@ const resizeObserver = new ResizeObserver(entries => {
       
       const legend = root.querySelector('.legend');
       if (legend) {
-        legend.style.padding = "0 20px";
+        legend.style.padding = "0 5px";
         legend.style.width = "100%";
         legend.style.justifyContent = "center";
       }
