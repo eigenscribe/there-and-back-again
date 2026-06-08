@@ -79,6 +79,17 @@
     font-size: 1rem !important;
   }
 
+  /* ---- Table adjustments ---- */
+  .ptx-content table.tabular td,
+  .ptx-content table.tabular th {
+    padding: 0.5rem 0.45rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  .ptx-content .tabular-box {
+    border-radius: 8px !important;
+  }
+
   /* ---- Reduce heavy visual effects ---- */
   .ptx-page > .ptx-main,
   .ptx-navbar,
