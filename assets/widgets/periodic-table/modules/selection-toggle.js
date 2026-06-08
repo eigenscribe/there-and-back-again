@@ -23,7 +23,7 @@ export function buildSelectionToggle() {
     container.innerHTML = `
       <div class="toggle-content">
         <div class="toggle-header">
-          <div class="toggle-symbol" style="background: linear-gradient(135deg, ${c1}, ${c2}); -webkit-background-clip: text; color: transparent;">${el.symbol}</div>
+          <div class="toggle-symbol" style="background: linear-gradient(135deg, ${c1}, 61.8%, ${c2}); -webkit-background-clip: text; color: transparent;">${el.symbol}</div>
           <div class="toggle-main-info">
             <div class="toggle-name">${el.name}</div>
             <div class="toggle-number">Atomic Number: ${el.number}</div>

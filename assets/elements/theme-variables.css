@@ -80,8 +80,8 @@ html.dark-mode {
   --tocitem-active-background-hover: var(--primary-color-gray-3) !important;
 
   /* TOC specific overrides */
-  --toc-item-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), rgba(121, 82, 245, 0.15)) !important;
-  --toc-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), rgba(121, 82, 245, 0.15)) !important;
+  --toc-item-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), 61.8%, rgba(121, 82, 245, 0.15)) !important;
+  --toc-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), 61.8%, rgba(121, 82, 245, 0.15)) !important;
   --toc-active-border-color: rgba(20, 181, 255, 0.4) !important;
 
   /* Colors - Matching original design */
@@ -122,72 +122,73 @@ html.dark-mode {
   /* Gradients */
   --gradient-blue: linear-gradient(
           130deg,
-          #00e8ff,
-          #14b5ff,
-          #3a98ff,
-          #0070eb
+          #00e8ff 0%,
+          #14b5ff 38.2%,
+          #3a98ff 61.8%,
+          #0070eb 100%
   ) !important;
 
   --gradient-blue-light-to-dark: var(--gradient-blue) !important;
 
   --gradient-blue-transparent: linear-gradient(
           130deg,
-          rgba(0, 232, 255, 0.6),
-          rgba(20, 181, 255, 0.6),
-          rgba(58, 152, 255, 0.6),
-          rgba(0, 112, 235, 0.6)
+          rgba(0, 232, 255, 0.6) 0%,
+          rgba(20, 181, 255, 0.6) 38.2%,
+          rgba(58, 152, 255, 0.6) 61.8%,
+          rgba(0, 112, 235, 0.6) 100%
   ) !important;
 
   --gradient-orange: linear-gradient(
           130deg,
-          #FFB700,
-          #FF8800,
-          #FF5500
+          #FFB700 0%,
+          #FF8800 61.8%,
+          #FF5500 100%
   ) !important;
 
   --gradient-purple-to-pink-1: linear-gradient(
   135deg,
-            rgba(99, 102, 241),
-            rgba(139, 92, 246),
-            rgba(168, 85, 247)
+            rgba(99, 102, 241) 0%,
+            rgba(139, 92, 246) 61.8%,
+            rgba(168, 85, 247) 100%
   ) !important;
 
   --gradient-cyan-to-blue: linear-gradient(
           130deg,
           #0a95eb,
+          61.8%,
           #00ffee
   ) !important;
 
   --gradient-pink: linear-gradient(
           to right bottom,
-          #ff76a1,
-          #ff40a1,
-          #f76166,
-          #ff3881
+          #ff76a1 0%,
+          #ff40a1 38.2%,
+          #f76166 61.8%,
+          #ff3881 100%
   ) !important;
 
   --gradient-blue-to-purple-1: linear-gradient(
           to right bottom,
-          #7952f5,
-          #5280ff,
-          #14b5ff,
-          #00e8ff
+          #7952f5 0%,
+          #5280ff 38.2%,
+          #14b5ff 61.8%,
+          #00e8ff 100%
   ) !important;
 
   --gradient-blue-to-purple-2: linear-gradient(
           to right bottom,
-          #5E17EB,
-          #7066FF,
-          #14A5FF,
-          #00C8FF
+          #5E17EB 0%,
+          #7066FF 38.2%,
+          #14A5FF 61.8%,
+          #00C8FF 100%
   );
 
   --gradient-blue-to-purple-to-pink: linear-gradient(
           135deg,
-          #ec4899,
-          #8b5cf6,
-          #3b82f6,
-          #00f2ff
+          #ec4899 0%,
+          #8b5cf6 38.2%,
+          #3b82f6 61.8%,
+          #00f2ff 100%
   );
 
   /* Tag element gradient */

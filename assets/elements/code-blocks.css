@@ -158,7 +158,7 @@ pre[class*="language-"].line-numbers { border-right: none !important; }
   position: absolute !important;
   top: 20px !important;
   right: 16px !important;
-  background: linear-gradient(145deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.4)) !important;
+  background: linear-gradient(145deg, rgba(20, 181, 255, 0.3), 61.8%, rgba(121, 82, 245, 0.4)) !important;
   border: 1px solid rgba(20, 181, 255, 0.5) !important;
   border-radius: 4px !important;
   padding: 4px 6px !important;
@@ -170,7 +170,7 @@ pre[class*="language-"].line-numbers { border-right: none !important; }
 }
 
 .code-copy:hover {
-  background: linear-gradient(145deg, rgba(20, 181, 255, 0.5), rgba(121, 82, 245, 0.6)) !important;
+  background: linear-gradient(145deg, rgba(20, 181, 255, 0.5), 61.8%, rgba(121, 82, 245, 0.6)) !important;
   border-color: rgba(20, 181, 255, 0.8) !important;
   box-shadow: 0 0 12px rgba(20, 181, 255, 0.4) !important;
   transform: scale(1.05);
@@ -195,7 +195,7 @@ pre[class*="language-"].line-numbers { border-right: none !important; }
 .ptx-content pre.program.clipboardable,
 .ptx-content pre.program.line-numbers,
 .ptx-content pre.clipboardable.line-numbers {
-  background: linear-gradient(135deg, rgba(20,181,255,0.04), rgba(121,82,245,0.03)) !important;
+  background: linear-gradient(135deg, rgba(20,181,255,0.04), 61.8%, rgba(121,82,245,0.03)) !important;
   background-color: rgba(8,10,14,0.6) !important;
   border: 1px solid rgba(255,255,255,0.06) !important;
   border-radius: 12px !important;
@@ -228,7 +228,7 @@ code[class*="language-"].line-numbers .line-numbers-rows {
   width: 3.6em !important;
   border-right: 1px solid rgba(255,255,255,0.04) !important;
   color: rgba(220,240,255,0.55) !important;
-  background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0)) !important;
+  background: linear-gradient(180deg, rgba(255,255,255,0.01), 61.8%, rgba(0,0,0,0)) !important;
   z-index: 3 !important;
   text-align: right !important;
   padding-right: 0.6em !important;
@@ -282,13 +282,13 @@ pre[class*="language-"].line-numbers > code {
 /* Ensure highlighted lines are subtle and readable */
 pre[class*="language-"] .line-highlight,
 code[class*="language-"] .line-highlight {
-  background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(20,181,255,0.02)) !important;
+  background: linear-gradient(90deg, rgba(255,255,255,0.02), 61.8%, rgba(20,181,255,0.02)) !important;
   box-shadow: inset 0 0 0 1px rgba(20,181,255,0.02) !important;
 }
 
 /* Soften copy button so it sits on the glass panel without heavy blur */
 .code-copy {
-  background: linear-gradient(145deg, rgba(20,181,255,0.08), rgba(121,82,245,0.06)) !important;
+  background: linear-gradient(145deg, rgba(20,181,255,0.08), 61.8%, rgba(121,82,245,0.06)) !important;
   border: 1px solid rgba(20,181,255,0.12) !important;
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;

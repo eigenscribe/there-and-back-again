@@ -56,7 +56,7 @@
 .ptx-content section.exercises > :is(h1, h2, h3).heading,
 .ptx-content section.solutions > :is(h1, h2, h3).heading,
 .ptx-content .exercisegroup > h4.heading {
-  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
+  background: linear-gradient(130deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -104,7 +104,7 @@
 
 /* Specific gradients for different levels */
 .ptx-content h3.heading {
-  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
+  background: linear-gradient(130deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -112,7 +112,7 @@
 }
 
 .ptx-content h4.heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading) {
-  background: linear-gradient(120deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
+  background: linear-gradient(120deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -120,7 +120,7 @@
 }
 
 .ptx-content h5.heading:not(.theorem-like .heading, .definition-like .heading, .example-like .heading, .remark-like .heading, .note .heading, .aside .heading, .assemblage-like .heading, .introduction .heading) {
-  background: linear-gradient(110deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
+  background: linear-gradient(110deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -152,7 +152,7 @@
 /* Level specific adjustments */
 .ptx-content h1.heading {
   font-size: 2.5rem !important;
-  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
+  background: linear-gradient(130deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -161,7 +161,7 @@
 
 .ptx-content h2.heading {
   font-size: 1.65rem !important;
-  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
+  background: linear-gradient(130deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -209,7 +209,7 @@
 
 /* Front Matter page title - matches website header gradient */
 .ptx-content section.frontmatter > :is(h1, h2).heading {
-  background: linear-gradient(110deg, #00ffee, #00d4ff, #1e90ff) !important;
+  background: linear-gradient(110deg, #00ffee 0%, #00d4ff 61.8%, #1e90ff 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -228,7 +228,7 @@
 
 .ptx-content section.frontmatter > :is(h1, h2).heading::after {
   display: none !important;
-  background: linear-gradient(110deg, #00ffee, #00d4ff, #1e90ff) !important;
+  background: linear-gradient(110deg, #00ffee 0%, #00d4ff 61.8%, #1e90ff 100%) !important;
 }
 
 .ptx-content section.introduction {
@@ -260,7 +260,7 @@
   margin-bottom: 0.75rem !important;
   border: none !important;
   border-bottom: none !important;
-  background: linear-gradient(130deg, #00e8ff, #14b5ff, #3a98ff, #0070eb) !important;
+  background: linear-gradient(130deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;

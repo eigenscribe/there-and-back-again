@@ -227,7 +227,7 @@ function showOverlay(el, gradients) {
     <div id="close-btn">&times;</div>
     <div class="modal-content">
        <div class="modal-header">
-          <div class="modal-symbol" style="background: linear-gradient(135deg, ${c1}, ${c2}); -webkit-background-clip: text; color: transparent;">${el.symbol}</div>
+          <div class="modal-symbol" style="background: linear-gradient(135deg, ${c1}, 61.8%, ${c2}); -webkit-background-clip: text; color: transparent;">${el.symbol}</div>
           <div class="modal-title-info">
             <h3>${el.name}</h3>
             <div class="modal-number">Atomic Number: ${el.number}</div>

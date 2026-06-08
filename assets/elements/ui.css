@@ -14,7 +14,7 @@
   align-items: center !important;
   justify-content: center !important;
   gap: 6px !important;
-  background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), rgba(30, 130, 230, 0.35)) !important;
+  background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), 61.8%, rgba(30, 130, 230, 0.35)) !important;
   border: 1px solid rgba(0, 200, 255, 0.45) !important;
   padding: 8px 14px !important;
   border-radius: 8px !important;
@@ -28,7 +28,7 @@
 }
 
 .ptx-navbar .button:hover {
-  background: linear-gradient(135deg, rgba(0, 230, 255, 0.45), rgba(50, 150, 250, 0.5)) !important;
+  background: linear-gradient(135deg, rgba(0, 230, 255, 0.45), 61.8%, rgba(50, 150, 250, 0.5)) !important;
   border-color: rgba(0, 220, 255, 0.65) !important;
   transform: scale(1.03) !important;
   color: var(--color-text) !important;
@@ -45,7 +45,7 @@
 .ptx-content button,
 .ptx-content input[type="button"],
 .ptx-content input[type="submit"] {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.15), rgba(121, 82, 245, 0.1)) !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.15), 61.8%, rgba(121, 82, 245, 0.1)) !important;
   border: 1px solid rgba(20, 181, 255, 0.3) !important;
   color: var(--color-text) !important;
   padding: 0.5rem 1rem !important;
@@ -60,7 +60,7 @@
 .ptx-content button:hover,
 .ptx-content input[type="button"]:hover,
 .ptx-content input[type="submit"]:hover {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.25), rgba(121, 82, 245, 0.15)) !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.25), 61.8%, rgba(121, 82, 245, 0.15)) !important;
   border-color: rgba(20, 181, 255, 0.5) !important;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(20, 181, 255, 0.2);
@@ -140,7 +140,7 @@ button.light-dark-button {
 }
 
 .widget-toggle-btn.active {
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef);
+  background: linear-gradient(130deg, #3b82f6 0%, #8b5cf6 61.8%, #d946ef 100%);
   border-color: transparent;
 }
 
@@ -278,7 +278,7 @@ button.light-dark-button {
   justify-content: center;
   gap: 6px;
   padding: 8px 14px;
-  background: linear-gradient(135deg, rgba(30, 130, 255, 0.2), rgba(139, 92, 246, 0.25)) !important;
+  background: linear-gradient(135deg, rgba(30, 130, 255, 0.2), 61.8%, rgba(139, 92, 246, 0.25)) !important;
   border: 1px solid rgba(100, 149, 237, 0.4) !important;
   border-radius: 8px;
   color: #e0e0e0 !important;
@@ -294,7 +294,7 @@ button.light-dark-button {
 }
 
 #graph-toggle-btn:hover {
-  background: linear-gradient(135deg, rgba(30, 130, 255, 0.35), rgba(139, 92, 246, 0.4)) !important;
+  background: linear-gradient(135deg, rgba(30, 130, 255, 0.35), 61.8%, rgba(139, 92, 246, 0.4)) !important;
   border-color: rgba(100, 149, 237, 0.6) !important;
   transform: scale(1.03);
   color: #fff !important;
@@ -302,7 +302,7 @@ button.light-dark-button {
 }
 
 #graph-toggle-btn.active {
-  background: linear-gradient(135deg, rgba(30, 130, 255, 0.35), rgba(139, 92, 246, 0.4)) !important;
+  background: linear-gradient(135deg, rgba(30, 130, 255, 0.35), 61.8%, rgba(139, 92, 246, 0.4)) !important;
   border-color: rgba(100, 149, 237, 0.7) !important;
   box-shadow: 0 0 15px rgba(100, 149, 237, 0.4) !important;
   color: #fff !important;
@@ -321,7 +321,7 @@ button.light-dark-button {
   align-items: center;
   gap: 8px;
   padding: 10px 18px;
-  background: linear-gradient(135deg, rgba(20, 20, 30, 0.9), rgba(30, 30, 45, 0.9));
+  background: linear-gradient(135deg, rgba(20, 20, 30, 0.9), 61.8%, rgba(30, 30, 45, 0.9));
   border: 1px solid rgba(20, 181, 255, 0.4);
   border-radius: 8px;
   color: var(--color-widget-button) !important;
@@ -334,7 +334,7 @@ button.light-dark-button {
 }
 
 #graph-close-btn:hover {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(168, 85, 247, 0.3));
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), 61.8%, rgba(168, 85, 247, 0.3));
   border-color: rgba(168, 85, 247, 0.5);
 }
 
@@ -353,7 +353,7 @@ button.light-dark-button {
   height: 28px;
   border: 1px solid rgba(20, 181, 255, 0.3);
   border-radius: 6px;
-  background: linear-gradient(145deg, rgba(20, 181, 255, 0.15), rgba(121, 82, 245, 0.2));
+  background: linear-gradient(145deg, rgba(20, 181, 255, 0.15), 61.8%, rgba(121, 82, 245, 0.2));
   color: #e0e0e0;
   font-size: 14px;
   cursor: pointer;
@@ -367,7 +367,7 @@ button.light-dark-button {
 }
 
 .graph-btn:hover {
-  background: linear-gradient(145deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.35));
+  background: linear-gradient(145deg, rgba(20, 181, 255, 0.3), 61.8%, rgba(121, 82, 245, 0.35));
   border-color: rgba(20, 181, 255, 0.6);
   transform: scale(1.1);
   color: #fff;
@@ -467,7 +467,7 @@ dialog#ptx-search-modal::backdrop {
 #ptx-search-results h2,
 .search-results-heading {
   font-family: var(--font-heading) !important;
-  background: linear-gradient(135deg, #14b5ff, #a855f7) !important;
+  background: linear-gradient(135deg, #14b5ff, 61.8%, #a855f7) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -512,7 +512,7 @@ dialog#ptx-search-modal::backdrop {
 /* Close button for search */
 dialog#ptx-search-modal button[type="button"],
 .closesearchresults {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.25), rgba(168, 85, 247, 0.25)) !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.25), 61.8%, rgba(168, 85, 247, 0.25)) !important;
   border: 1px solid rgba(20, 181, 255, 0.4) !important;
   border-radius: 6px !important;
   color: #14b5ff !important;
@@ -523,7 +523,7 @@ dialog#ptx-search-modal button[type="button"],
 
 dialog#ptx-search-modal button[type="button"]:hover,
 .closesearchresults:hover {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.4), rgba(168, 85, 247, 0.35)) !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.4), 61.8%, rgba(168, 85, 247, 0.35)) !important;
   border-color: #14b5ff !important;
 }
 
@@ -644,7 +644,7 @@ body .ptx-navbar .searchbox #searchresultsplaceholder.search-active,
 /* Search results heading */
 .search-results-heading {
   font-family: var(--font-heading) !important;
-  background: linear-gradient(135deg, #14b5ff, #a855f7) !important;
+  background: linear-gradient(135deg, #14b5ff, 61.8%, #a855f7) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -699,7 +699,7 @@ body .ptx-navbar .searchbox #searchresultsplaceholder.search-active,
 
 /* Search button in nav */
 .searchwidget .searchbutton {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), rgba(168, 85, 247, 0.2)) !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), 61.8%, rgba(168, 85, 247, 0.2)) !important;
   border: 1px solid rgba(20, 181, 255, 0.4) !important;
   border-radius: 8px !important;
   color: #14b5ff !important;

@@ -112,7 +112,7 @@ class NotesGraph {
         font-family: 'Aclonica', sans-serif;
         font-size: 0.7rem;
         font-weight: bold;
-        background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef);
+        background: linear-gradient(130deg, #3b82f6 0%, #8b5cf6 61.8%, #d946ef 100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;

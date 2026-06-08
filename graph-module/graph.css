@@ -144,7 +144,7 @@ body {
   font-family: 'Aclonica', sans-serif;
   font-size: 0.7rem;
   font-weight: bold;
-  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef);
+  background: linear-gradient(130deg, #3b82f6 0%, #8b5cf6 61.8%, #d946ef 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -163,7 +163,7 @@ body {
   height: 32px;
   border: 1px solid rgba(59, 130, 246, 0.3);
   border-radius: 6px;
-  background: linear-gradient(145deg, rgba(59, 130, 246, 0.15), rgba(217, 70, 239, 0.2));
+  background: linear-gradient(145deg, rgba(59, 130, 246, 0.15), 61.8%, rgba(217, 70, 239, 0.2));
   color: var(--text-color);
   font-size: 16px;
   cursor: pointer;
@@ -177,7 +177,7 @@ body {
 }
 
 #graph-controls button:hover {
-  background: linear-gradient(145deg, rgba(59, 130, 246, 0.3), rgba(217, 70, 239, 0.35));
+  background: linear-gradient(145deg, rgba(59, 130, 246, 0.3), 61.8%, rgba(217, 70, 239, 0.35));
   border-color: rgba(59, 130, 246, 0.6);
   transform: scale(1.1);
   color: #fff;

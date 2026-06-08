@@ -99,10 +99,10 @@ body.pretext {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #00ffee, #14b5ff);
+  background: linear-gradient(180deg, #00ffee, 61.8%, #14b5ff);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #00ffff, #00e8ff);
+  background: linear-gradient(180deg, #00ffff, 61.8%, #00e8ff);
 }

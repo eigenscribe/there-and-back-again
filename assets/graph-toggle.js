@@ -280,7 +280,7 @@ function createCanvasGraph(d3, container, data) {
   title.style.fontFamily = "'Aclonica', sans-serif";
   title.style.fontSize = "1.1rem";
   title.style.fontWeight = "bold";
-  title.style.background = "linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef)";
+  title.style.background = "linear-gradient(130deg, #3b82f6 0%, #8b5cf6 61.8%, #d946ef 100%)";
   title.style.webkitBackgroundClip = "text";
   title.style.backgroundClip = "text";
   title.style.webkitTextFillColor = "transparent";

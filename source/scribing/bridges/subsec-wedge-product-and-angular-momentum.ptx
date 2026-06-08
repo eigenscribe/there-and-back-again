@@ -21,15 +21,13 @@
                 <prefigure xmlns="https://prefigure.org"
                           label="prefigure-wedge-product-angular-momentum"
                 >
-                    <diagram dimensions="(300,300)" margins="5">
+                    <diagram dimensions="(300,250)" margins="(35,30,50,30)">
                         <coordinates bbox="(-2, -2, 2, 2)">
                             <grid-axes h-frame="bottom"
                                        v-frame="left"
+                                       xlabel="q"
+                                       ylabel="p"
                             />
-                            <axes decorations="yes">
-                                <xlabel>Space <m>q</m></xlabel>
-                                <ylabel alignment="ne">Momentum <m>p</m></ylabel>
-                            </axes>
 
                             <ellipse center="(0,0)" axes="(1,0.7)" stroke="rbg(67, 97, 238)" fill="#00E8FF" fill-opacity="0.3"/>
                         </coordinates>

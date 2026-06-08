@@ -133,7 +133,7 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #d946ef, #8b5cf6, #3b82f6) !important;
+  background: linear-gradient(130deg, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
 }
 
 .ptx-content .theorem-like .heading::after,
@@ -183,7 +183,7 @@
 .ptx-content .hint .heading,
 .ptx-content .hint summary.knowl__link,
 .ptx-content .definition-like .heading {
-  background-image: linear-gradient(130deg, #d946ef, #8b5cf6, #3b82f6) !important;
+  background-image: linear-gradient(130deg, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
   font-family: 'Aclonica', sans-serif !important;
   letter-spacing: 0.02em;
   -webkit-background-clip: text !important;
@@ -204,10 +204,10 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #d946ef, #8b5cf6, #3b82f6) !important;
+  background: linear-gradient(130deg, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
 }
 .ptx-content .definition-like::before {
-  background: linear-gradient(to bottom, #d946ef, #8b5cf6, #3b82f6) !important;
+  background: linear-gradient(to bottom, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
 }
 
 /* 🟣 Purple Gradient: Hints */
@@ -231,23 +231,23 @@
   color: #8b5cf6 !important;
 }
 .ptx-content .hint::before {
-  background: linear-gradient(to bottom, #d946ef, #8b5cf6, #3b82f6) !important;
+  background: linear-gradient(to bottom, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
 }
 
 /* 📗 Green Gradient: Theorems, Proofs */
 .ptx-content .theorem-like .heading,
 .ptx-content .proof .heading {
-  background-image: linear-gradient(130deg, #038B00, #1a801a) !important;
+  background-image: linear-gradient(130deg, #038B00, 61.8%, #1a801a) !important;
 }
 .ptx-content .theorem-like::before,
 .ptx-content .proof::before {
-  background: linear-gradient(to bottom, #038B00, #1a801a) !important;
+  background: linear-gradient(to bottom, #038B00, 61.8%, #1a801a) !important;
 }
 
 /* 🌸 Pink Gradient: Solutions */
 .ptx-content .solution .heading,
 .ptx-content .solution summary.knowl__link {
-  background-image: linear-gradient(130deg, #ff40a1, #ff76a1, #ff40a1) !important;
+  background-image: linear-gradient(130deg, #ff40a1 0%, #ff76a1 38.2%, #ff76a1 61.8%, #ff40a1 100%) !important;
   font-family: 'Aclonica', sans-serif !important;
   font-size: 1rem !important;
   letter-spacing: 0.02em;
@@ -260,7 +260,7 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #ff40a1, #ff76a1, #ff40a1) !important;
+  background: linear-gradient(130deg, #ff40a1 0%, #ff76a1 38.2%, #ff76a1 61.8%, #ff40a1 100%) !important;
 }
 .ptx-content .solution summary.knowl__link {
   -webkit-background-clip: text !important;
@@ -282,13 +282,13 @@
   color: #ff40a1 !important;
 }
 .ptx-content .solution::before {
-  background: linear-gradient(to bottom, #ff40a1, #ff76a1) !important;
+  background: linear-gradient(to bottom, #ff40a1, 61.8%, #ff76a1) !important;
 }
 
 /* 🟦 Sky Blue Gradient: Answers */
 .ptx-content .answer .heading,
 .ptx-content .answer summary.knowl__link {
-  background-image: linear-gradient(130deg, #14b5ff, #3a98ff, #14b5ff) !important;
+  background-image: linear-gradient(130deg, #14b5ff 0%, #3a98ff 38.2%, #3a98ff 61.8%, #14b5ff 100%) !important;
   font-family: 'Aclonica', sans-serif !important;
   font-size: 1rem !important;
   letter-spacing: 0.02em;
@@ -301,7 +301,7 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #14b5ff, #3a98ff, #14b5ff) !important;
+  background: linear-gradient(130deg, #14b5ff 0%, #3a98ff 38.2%, #3a98ff 61.8%, #14b5ff 100%) !important;
 }
 .ptx-content .answer summary.knowl__link {
   -webkit-background-clip: text !important;
@@ -323,7 +323,7 @@
   color: #14b5ff !important;
 }
 .ptx-content .answer::before {
-  background: linear-gradient(to bottom, #14b5ff, #3a98ff) !important;
+  background: linear-gradient(to bottom, #14b5ff, 61.8%, #3a98ff) !important;
 }
 
 /* 🔵 Blue Gradient: Examples, Exercises, Introductions, Biblio */
@@ -332,14 +332,14 @@
 .ptx-content section.introduction .heading,
 .ptx-content .biblio .heading,
 .ptx-content .abstract .heading {
-  background-image: linear-gradient(130deg, #14B5FF, #3366bb) !important;
+  background-image: linear-gradient(130deg, #14B5FF, 61.8%, #3366bb) !important;
 }
 .ptx-content .example-like::before,
 .ptx-content .exercise-like::before,
 .ptx-content section.introduction::before,
 .ptx-content .biblio::before,
 .ptx-content .abstract::before {
-  background: linear-gradient(to bottom, #14B5FF, #3366bb) !important;
+  background: linear-gradient(to bottom, #14B5FF, 61.8%, #3366bb) !important;
 }
 
 /* 🔵 Blue-Purple Gradient: Remarks, Insights, Warnings (Admonitions) -> Now ORANGE */
@@ -358,12 +358,12 @@
 .ptx-content .note .heading,
 .ptx-content .aside .heading,
 .ptx-content .assemblage-like .heading {
-  background-image: linear-gradient(130deg, #5280ff, #7952f5, #5E17EB) !important;
+  background-image: linear-gradient(130deg, #5280ff 0%, #7952f5 61.8%, #5E17EB 100%) !important;
 }
 .ptx-content .note::before,
 .ptx-content .aside::before,
 .ptx-content .assemblage-like::before {
-  background: linear-gradient(to bottom, #5280ff, #7952f5, #5E17EB) !important;
+  background: linear-gradient(to bottom, #5280ff 0%, #7952f5 61.8%, #5E17EB 100%) !important;
 }
 
 /* ============================================
@@ -435,7 +435,7 @@
 .ptx-content .note {
   background: linear-gradient(135deg, 
     rgba(59, 130, 246, 0.1) 0%, 
-    rgba(139, 92, 246, 0.1) 50%,
+    rgba(139, 92, 246, 0.1) 61.8%,
     rgba(217, 70, 239, 0.1) 100%
   ) !important;
   backdrop-filter: blur(12px);
@@ -488,12 +488,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #14b5ff, #7952f5);
+    background: linear-gradient(to bottom, #14b5ff, 61.8%, #7952f5);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #00ffee, #14b5ff);
+    background: linear-gradient(to bottom, #00ffee, 61.8%, #14b5ff);
 }
 
 .emoji {

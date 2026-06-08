@@ -14,6 +14,7 @@
     background: linear-gradient(
         145deg,
         rgba(15, 23, 42, 0.16),
+        61.8%,
         rgba(8, 13, 26, 0.08)
     ) !important;
     -webkit-backdrop-filter: blur(20px) saturate(185%) !important;
@@ -42,9 +43,9 @@
 .ptx-content table.tabular tr.header-horizontal {
     background: linear-gradient(
         135deg,
-        rgba(56, 189, 248, 0.52),
-        rgba(99, 102, 241, 0.46),
-        rgba(192, 132, 252, 0.42)
+        rgba(56, 189, 248, 0.52) 0%,
+        rgba(99, 102, 241, 0.46) 61.8%,
+        rgba(192, 132, 252, 0.42) 100%
     ) !important;
     border-bottom: 1px solid rgba(226, 246, 255, 0.3) !important;
     box-shadow:
@@ -77,10 +78,10 @@
     height: 64% !important;
     background: linear-gradient(
         180deg,
-        rgba(56, 189, 248, 0),
-        rgba(226, 246, 255, 0.62),
-        rgba(192, 132, 252, 0.55),
-        rgba(56, 189, 248, 0)
+        rgba(56, 189, 248, 0) 0%,
+        rgba(226, 246, 255, 0.62) 38.2%,
+        rgba(192, 132, 252, 0.55) 61.8%,
+        rgba(56, 189, 248, 0) 100%
     ) !important;
     box-shadow: 0 0 10px rgba(125, 211, 252, 0.35) !important;
 }
@@ -123,10 +124,10 @@
     height: 76% !important;
     background: linear-gradient(
         180deg,
-        rgba(56, 189, 248, 0),
-        rgba(56, 189, 248, 0.24),
-        rgba(192, 132, 252, 0.18),
-        rgba(56, 189, 248, 0)
+        rgba(56, 189, 248, 0) 0%,
+        rgba(56, 189, 248, 0.24) 38.2%,
+        rgba(192, 132, 252, 0.18) 61.8%,
+        rgba(56, 189, 248, 0) 100%
     ) !important;
 }
 
