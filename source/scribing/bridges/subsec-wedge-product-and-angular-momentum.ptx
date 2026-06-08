@@ -29,7 +29,7 @@
                                        ylabel="p"
                             />
 
-                            <ellipse center="(0,0)" axes="(1,0.7)" stroke="rbg(67, 97, 238)" fill="#00E8FF" fill-opacity="0.3"/>
+                            <ellipse center="(0,0)" axes="(0.8,0.3)" stroke="rbg(67, 97, 238)" fill="#00E8FF" fill-opacity="0.3"/>
                         </coordinates>
                     </diagram>
                 </prefigure>
