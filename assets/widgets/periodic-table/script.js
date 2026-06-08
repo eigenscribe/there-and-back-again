@@ -87,7 +87,7 @@ const resizeObserver = new ResizeObserver(entries => {
       // Limit scaling - scale up if needed, but don't overflow
       // Using a slightly less aggressive multiplier to fill width, 
       // the resize observer will handle overflow if it happens.
-      scale = scale * 0.95;
+      scale = scale * 0.85;
       scale = Math.min(scale, 3.5); 
       if (scale < 0.1) scale = 0.1;
 
@@ -182,10 +182,10 @@ fetch("elements.json")
 
     // Initial scale calculation after elements are added
     setTimeout(() => {
-        const rootWidth = root.offsetWidth - 32; // Account for padding
+        const rootWidth = root.offsetWidth - 16; // Account for reduced padding (0.5rem * 16px = 8px per side)
         const gridWidth = grid.offsetWidth;
         if (rootWidth > 0 && gridWidth > 0) {
-            let scale = (rootWidth / gridWidth) * 0.95;
+            let scale = (rootWidth / gridWidth) * 0.8;
             scale = Math.min(scale, 1.15);
             grid.style.transform = `scale(${scale})`;
             grid.style.transformOrigin = "top center";
