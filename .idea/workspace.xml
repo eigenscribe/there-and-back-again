@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AIDiffSettings">
+    <option name="showAIDiff" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="hypothesis definition added">
+      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/metadata.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/metadata.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/theme-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/theme-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/graph.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="2146" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="abb6097a-26a9-408d-bb7b-0596bc2b4362" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.232783019540367" />
+      <entry key="MS500" value="3.203281531668468" />
+      <entry key="S2" value="10.23094229532947" />
+      <entry key="S5" value="23.951829843790176" />
+      <entry key="S10" value="46.28907017207345" />
+      <entry key="S30" value="105.00958743066528" />
+      <entry key="S60" value="149.27921274063686" />
+      <entry key="M2" value="191.85286986484667" />
+      <entry key="M5" value="266.7933907012731" />
+      <entry key="M10" value="397.6164290383289" />
+      <entry key="M15" value="539.5028478901388" />
+      <entry key="M30" value="976.6012288613753" />
+      <entry key="H1" value="1721.1344211193682" />
+      <entry key="H2" value="2766.7996724965" />
+      <entry key="H4" value="4150.859634703778" />
+      <entry key="D1" value="13591.402107044965" />
+      <entry key="W1" value="21698.04548286663" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="1.2459343227625383E-211" />
+      <entry key="S10" value="3.529779487110422E-106" />
+      <entry key="S30" value="7.067229449463066E-36" />
+      <entry key="S60" value="2.658426122749688E-18" />
+      <entry key="M2" value="1.6304844531593373E-9" />
+      <entry key="M5" value="3.109119869228616E-4" />
+      <entry key="M10" value="0.021740555810430193" />
+      <entry key="M15" value="0.11033529426172729" />
+      <entry key="M30" value="0.7758969457275795" />
+      <entry key="H1" value="2.613234491395226" />
+      <entry key="H2" value="5.681428644955777" />
+      <entry key="H4" value="9.99826541056751" />
+      <entry key="D1" value="41.805888517904314" />
+      <entry key="W1" value="68.55238399129543" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.2028515273636402" />
+      <entry key="MS500" value="3.1887409910780438" />
+      <entry key="S2" value="10.22120767234209" />
+      <entry key="S5" value="23.943163884943928" />
+      <entry key="S10" value="46.28080914747767" />
+      <entry key="S30" value="105.00342095694752" />
+      <entry key="S60" value="149.274876210007" />
+      <entry key="M2" value="191.85010366404106" />
+      <entry key="M5" value="266.79216477143694" />
+      <entry key="M10" value="397.63683067236224" />
+      <entry key="M15" value="539.6114669636084" />
+      <entry key="M30" value="977.3735862828636" />
+      <entry key="H1" value="1723.7422788713507" />
+      <entry key="H2" value="2772.4756274119136" />
+      <entry key="H4" value="4160.853077939529" />
+      <entry key="D1" value="13633.203986433871" />
+      <entry key="W1" value="21766.596908527605" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3EUaO1hb9MoV254Z0yJhKMDjgQq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/my_folder/USAGE-GUIDES&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_folder/USAGE-GUIDES" />
+      <recent name="$PROJECT_DIR$/assets/elements" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/FORMAL_STATEMENTS" />
+      <recent name="$PROJECT_DIR$/my_folder" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/widgets/periodic-table/images" />
+      <recent name="$PROJECT_DIR$/assets/widgets/periodic-table" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="" />
+      <created>1780235566204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780235566204</updated>
+    </task>
+    <task id="LOCAL-00030" summary="updated note metadata block to generalize to include all supported metadata blocks">
+      <option name="closed" value="true" />
+      <created>1780379709234</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1780379709234</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added a table element">
+      <option name="closed" value="true" />
+      <created>1780380289771</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1780380289771</updated>
+    </task>
+    <task id="LOCAL-00032" summary="tag styling edits">
+      <option name="closed" value="true" />
+      <created>1780382926008</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1780382926008</updated>
+    </task>
+    <task id="LOCAL-00033" summary="tag styling edits">
+      <option name="closed" value="true" />
+      <created>1780384298615</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1780384298615</updated>
+    </task>
+    <task id="LOCAL-00034" summary="'spliting' stylesheet into individual stylesheets">
+      <option name="closed" value="true" />
+      <created>1780386538733</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1780386538733</updated>
+    </task>
+    <task id="LOCAL-00035" summary="'spliting' stylesheet into individual stylesheets">
+      <option name="closed" value="true" />
+      <created>1780387746761</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1780387746761</updated>
+    </task>
+    <task id="LOCAL-00036" summary="'spliting' stylesheet into individual stylesheets">
+      <option name="closed" value="true" />
+      <created>1780389230352</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1780389230352</updated>
+    </task>
+    <task id="LOCAL-00037" summary="deployment fix">
+      <option name="closed" value="true" />
+      <created>1780389874601</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1780389874601</updated>
+    </task>
+    <task id="LOCAL-00038" summary="deployment fix">
+      <option name="closed" value="true" />
+      <created>1780390204580</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1780390204580</updated>
+    </task>
+    <task id="LOCAL-00039" summary="deployment fix">
+      <option name="closed" value="true" />
+      <created>1780390606971</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1780390606971</updated>
+    </task>
+    <task id="LOCAL-00040" summary="deployment fix">
+      <option name="closed" value="true" />
+      <created>1780391028197</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1780391028197</updated>
+    </task>
+    <task id="LOCAL-00041" summary="mostly finished sectioning stylesheets">
+      <option name="closed" value="true" />
+      <created>1780392312289</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1780392312289</updated>
+    </task>
+    <task id="LOCAL-00042" summary="mostly finished sectioning stylesheets">
+      <option name="closed" value="true" />
+      <created>1780393300797</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1780393300797</updated>
+    </task>
+    <task id="LOCAL-00043" summary="mostly finished sectioning stylesheets">
+      <option name="closed" value="true" />
+      <created>1780393913590</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1780393913590</updated>
+    </task>
+    <task id="LOCAL-00044" summary="mostly finished sectioning stylesheets">
+      <option name="closed" value="true" />
+      <created>1780394412102</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1780394412102</updated>
+    </task>
+    <task id="LOCAL-00045" summary="mostly finished sectioning stylesheets">
+      <option name="closed" value="true" />
+      <created>1780394727486</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1780394727486</updated>
+    </task>
+    <task id="LOCAL-00046" summary="mostly finished sectioning stylesheets">
+      <option name="closed" value="true" />
+      <created>1780395858503</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1780395858503</updated>
+    </task>
+    <task id="LOCAL-00047" summary="mostly finished sectioning stylesheets">
+      <option name="closed" value="true" />
+      <created>1780396400181</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1780396400181</updated>
+    </task>
+    <task id="LOCAL-00048" summary="mostly finished sectioning stylesheets">
+      <option name="closed" value="true" />
+      <created>1780398330930</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1780398330930</updated>
+    </task>
+    <task id="LOCAL-00049" summary="updating the preamble content">
+      <option name="closed" value="true" />
+      <created>1780399120346</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1780399120346</updated>
+    </task>
+    <task id="LOCAL-00050" summary="updating the preamble content">
+      <option name="closed" value="true" />
+      <created>1780402154113</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1780402154123</updated>
+    </task>
+    <task id="LOCAL-00051" summary="updating the preamble content">
+      <option name="closed" value="true" />
+      <created>1780402644807</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1780402644807</updated>
+    </task>
+    <task id="LOCAL-00052" summary="updating the preamble content">
+      <option name="closed" value="true" />
+      <created>1780403626388</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1780403626389</updated>
+    </task>
+    <task id="LOCAL-00053" summary="updating the preamble content">
+      <option name="closed" value="true" />
+      <created>1780405043305</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1780405043305</updated>
+    </task>
+    <task id="LOCAL-00054" summary="updating the preamble content">
+      <option name="closed" value="true" />
+      <created>1780407703416</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1780407703416</updated>
+    </task>
+    <task id="LOCAL-00055" summary="updating the preamble content">
+      <option name="closed" value="true" />
+      <created>1780408210969</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1780408210969</updated>
+    </task>
+    <task id="LOCAL-00056" summary="added a widgets folder in assets directory and started working on a periodic table widget">
+      <option name="closed" value="true" />
+      <created>1780493943921</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1780493943921</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Starting to build the periodic table widget">
+      <option name="closed" value="true" />
+      <created>1780494968997</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1780494968997</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Updated README.md for periodic table widget">
+      <option name="closed" value="true" />
+      <created>1780523412360</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1780523412360</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Cleaned up the frontmatter a bit">
+      <option name="closed" value="true" />
+      <created>1780528661358</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1780528661361</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Added a PDF of a pretext guide I found online to my-folder, which i also renamed SOFIAS-FOLDER">
+      <option name="closed" value="true" />
+      <created>1780528994245</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1780528994245</updated>
+    </task>
+    <task id="LOCAL-00061" summary="minor updates to methodology and architecture sections in frontmatter">
+      <option name="closed" value="true" />
+      <created>1780772957550</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1780772957551</updated>
+    </task>
+    <task id="LOCAL-00062" summary="fixed periodic-table.ptx">
+      <option name="closed" value="true" />
+      <created>1780773321367</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1780773321367</updated>
+    </task>
+    <task id="LOCAL-00063" summary="working on periodic-table widget (in assets folder)">
+      <option name="closed" value="true" />
+      <created>1780826083831</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1780826083831</updated>
+    </task>
+    <task id="LOCAL-00064" summary="fixed graph ui for now">
+      <option name="closed" value="true" />
+      <created>1780866873805</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1780866873805</updated>
+    </task>
+    <task id="LOCAL-00065" summary="included note id and tag alerts">
+      <option name="closed" value="true" />
+      <created>1780867521866</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1780867521866</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fixed 404 error in graph module">
+      <option name="closed" value="true" />
+      <created>1780867770772</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1780867770772</updated>
+    </task>
+    <task id="LOCAL-00067" summary="changed link and node styling,">
+      <option name="closed" value="true" />
+      <created>1780868022124</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1780868022124</updated>
+    </task>
+    <task id="LOCAL-00068" summary="changed link and node styling,">
+      <option name="closed" value="true" />
+      <created>1780869141764</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1780869141764</updated>
+    </task>
+    <task id="LOCAL-00069" summary="added @sec-formal-structures table-formal-statements.ptx">
+      <option name="closed" value="true" />
+      <created>1780878256390</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1780878256390</updated>
+    </task>
+    <task id="LOCAL-00070" summary="added @sec-formal-structures table-formal-statements.ptx">
+      <option name="closed" value="true" />
+      <created>1780878845090</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1780878845090</updated>
+    </task>
+    <task id="LOCAL-00071" summary="hypothesis definition added">
+      <option name="closed" value="true" />
+      <created>1780879687955</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1780879687955</updated>
+    </task>
+    <task id="LOCAL-00072" summary="added all the nodes">
+      <option name="closed" value="true" />
+      <created>1780880545882</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1780880545882</updated>
+    </task>
+    <task id="LOCAL-00073" summary="added all the nodes">
+      <option name="closed" value="true" />
+      <created>1780881679392</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1780881679392</updated>
+    </task>
+    <task id="LOCAL-00074" summary="updated pretext">
+      <option name="closed" value="true" />
+      <created>1780882191802</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1780882191802</updated>
+    </task>
+    <task id="LOCAL-00075" summary="updated pretext">
+      <option name="closed" value="true" />
+      <created>1780883708431</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1780883708431</updated>
+    </task>
+    <task id="LOCAL-00076" summary="updated node color gradients">
+      <option name="closed" value="true" />
+      <created>1780884263297</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1780884263297</updated>
+    </task>
+    <task id="LOCAL-00077" summary="updated node colors">
+      <option name="closed" value="true" />
+      <created>1780884691396</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1780884691396</updated>
+    </task>
+    <task id="LOCAL-00078" summary="hypothesis definition added">
+      <option name="closed" value="true" />
+      <created>1780889004435</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1780889004435</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated note metadata block to generalize to include all supported metadata blocks" />
+    <MESSAGE value="added a table element" />
+    <MESSAGE value="tag styling edits" />
+    <MESSAGE value="'spliting' stylesheet into individual stylesheets" />
+    <MESSAGE value="deployment fix" />
+    <MESSAGE value="mostly finished sectioning stylesheets" />
+    <MESSAGE value="updating the preamble content" />
+    <MESSAGE value="added a widgets folder in assets directory and started working on a periodic table widget" />
+    <MESSAGE value="Starting to build the periodic table widget" />
+    <MESSAGE value="Updated README.md for periodic table widget" />
+    <MESSAGE value="Cleaned up the frontmatter a bit" />
+    <MESSAGE value="Added a PDF of a pretext guide I found online to my-folder, which i also renamed SOFIAS-FOLDER" />
+    <MESSAGE value="minor updates to methodology and architecture sections in frontmatter" />
+    <MESSAGE value="fixed periodic-table.ptx" />
+    <MESSAGE value="working on periodic-table widget (in assets folder)" />
+    <MESSAGE value="fixed graph ui for now" />
+    <MESSAGE value="included note id and tag alerts" />
+    <MESSAGE value="fixed 404 error in graph module" />
+    <MESSAGE value="changed link and node styling," />
+    <MESSAGE value="added @sec-formal-structures table-formal-statements.ptx" />
+    <MESSAGE value="added all the nodes" />
+    <MESSAGE value="updated pretext" />
+    <MESSAGE value="updated node color gradients" />
+    <MESSAGE value="updated node colors" />
+    <MESSAGE value="hypothesis definition added" />
+    <option name="LAST_COMMIT_MESSAGE" value="hypothesis definition added" />
+  </component>
+</project>
