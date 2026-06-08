@@ -50,6 +50,8 @@ cp assets/ember.png output/web/external/
 cp assets/orb.png output/web/external/
 cp assets/space-bg.png output/web/external/
 cp assets/favicon.png output/web/
+mkdir -p output/web/external/widgets/periodic-table
+cp -r assets/widgets/periodic-table/ output/web/external/widgets/
 
 # Update the graph data from source
 echo "Updating graph data..."

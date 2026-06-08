@@ -5,7 +5,7 @@
     <title>Interactive Periodic Table</title>
 
     <!-- One request, so PreTeXt only needs to whitelist style.css -->
-    <link rel="stylesheet" href="style.css?v=1.0.1" />
+    <link rel="stylesheet" href="style.css?v=1.0.4" />
 
     <!-- Google‐font download is optional – comment the next line if you work offline -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,7 +18,13 @@
     <!--  Everything lives inside this one container  -->
     <div id="periodic-table-app"></div>
 
+    <div id="modal">
+        <div class="modal-box">
+            <!-- Content will be injected by script.js -->
+        </div>
+    </div>
+
     <!--  Vanilla ES-module that bootstraps the UI  -->
-    <script type="module" src="script.js?v=1.0.1"></script>
+    <script type="module" src="script.js?v=1.0.4"></script>
 </body>
 </html>

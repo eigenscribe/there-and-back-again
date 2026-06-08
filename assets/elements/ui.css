@@ -193,7 +193,7 @@ button.light-dark-button {
    ============================================ */
 #graph-sidebar-container {
   width: 100%;
-  height: 350px;
+  height: 180px;
   position: relative;
   background-image: url('../space-bg.png') !important;
   background-size: cover;
@@ -207,7 +207,7 @@ button.light-dark-button {
 
 #periodic-sidebar-container {
   width: 100%;
-  height: 250px;
+  height: 180px;
   position: relative;
   background-image: url('../space-bg.png') !important;
   background-size: cover;
@@ -224,6 +224,7 @@ button.light-dark-button {
   display: flex;
   flex-direction: column;
   gap: 0;
+  background: rgba(13, 17, 23, 0.3);
 }
 
 .sidebar-widget-wrapper .widget-header {
@@ -258,7 +259,6 @@ button.light-dark-button {
   background-size: cover; 
   background-repeat: no-repeat; 
   overflow: hidden;
-  
 }
 
 #graph-overlay.visible {

@@ -106,7 +106,7 @@ async function loadPeriodicTable() {
 
   container.innerHTML = `
     <div class="periodic-sidebar-wrapper" style="width: 100%; height: auto; max-height: 85vh; overflow: hidden; position: relative; background: rgba(0,0,0,0.1); border-radius: 8px;">
-      <iframe src="external/widgets/periodic-table/index.html" style="width: 100%; height: 250px; border: none; overflow: hidden; background: transparent;" allowtransparency="true" scrolling="no"></iframe>
+      <iframe src="external/widgets/periodic-table/index.html" style="width: 100%; height: 180px; border: none; overflow: hidden; background: transparent;" allowtransparency="true" scrolling="no"></iframe>
     </div>
   `;
 }

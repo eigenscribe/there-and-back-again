@@ -3,6 +3,7 @@ export function buildLegend(categories, onHover) {
   wrapper.className = "legend";
 
   Object.entries(categories).forEach(([cat, gradient]) => {
+    if (cat === "unknown") return;
     const btn = document.createElement("button");
     btn.textContent = cat.replace("-", " ");
     btn.style.background = `linear-gradient(90deg,${gradient[0]},${gradient[1]})`;
