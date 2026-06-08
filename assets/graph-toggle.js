@@ -215,7 +215,7 @@ function createCanvasGraph(d3, container, data) {
   title.style.fontFamily = "'Aclonica', sans-serif";
   title.style.fontSize = "1.1rem";
   title.style.fontWeight = "bold";
-  title.style.background = "linear-gradient(to right, #14b5ff, #5280ff, #7952f5)";
+  title.style.background = "linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef)";
   title.style.webkitBackgroundClip = "text";
   title.style.backgroundClip = "text";
   title.style.webkitTextFillColor = "transparent";
@@ -282,12 +282,19 @@ function createCanvasGraph(d3, container, data) {
   const maxConnections = Math.max(...connectionValues);
   
   function getNodeColor(nodeId) {
+    if (nodeId.startsWith('ch-') || nodeId.startsWith('sec-')) return '#3b82f6';
+    if (nodeId.startsWith('app-') || nodeId.startsWith('ga-')) return '#636ff6';
+    if (nodeId.startsWith('subsec-') || nodeId.startsWith('sub-')) return '#8b5cf6';
+    if (nodeId.startsWith('def-') || nodeId.startsWith('thm-') || nodeId.startsWith('claim-')) return '#b251f2';
+    if (nodeId.startsWith('ex-')) return '#d946ef';
+
     const connections = linkCounts.get(nodeId) || 0;
-    if (maxConnections === minConnections) return '#a855f7';
+    if (maxConnections === minConnections) return '#8b5cf6';
     const t = (connections - minConnections) / (maxConnections - minConnections);
-    const r = Math.round(236 + (124 - 236) * t);
-    const g = Math.round(72 + (58 - 72) * t);
-    const b = Math.round(153 + (237 - 153) * t);
+    // Interpolate between blue (#3b82f6) and magenta (#d946ef)
+    const r = Math.round(59 + (217 - 59) * t);
+    const g = Math.round(130 + (70 - 130) * t);
+    const b = Math.round(246 + (239 - 246) * t);
     return `rgb(${r}, ${g}, ${b})`;
   }
 

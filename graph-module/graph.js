@@ -112,7 +112,7 @@ class NotesGraph {
         font-family: 'Aclonica', sans-serif;
         font-size: 0.7rem;
         font-weight: bold;
-        background: linear-gradient(to right, #00ffee, #0a95eb, #7952f5);
+        background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -630,9 +630,16 @@ class NotesGraph {
   }
 
   getNodeColor(node) {
+    const id = node.id || '';
+    if (id.startsWith('ch-') || id.startsWith('sec-')) return '#3b82f6';
+    if (id.startsWith('app-') || id.startsWith('ga-')) return '#636ff6';
+    if (id.startsWith('subsec-') || id.startsWith('sub-')) return '#8b5cf6';
+    if (id.startsWith('def-') || id.startsWith('thm-') || id.startsWith('claim-')) return '#b251f2';
+    if (id.startsWith('ex-')) return '#d946ef';
+    
     if (node.color) return node.color;
     const style = getComputedStyle(document.documentElement);
-    return style.getPropertyValue('--node-color').trim() || '#00ffee';
+    return style.getPropertyValue('--node-color').trim() || '#8b5cf6';
   }
 
   drag() {

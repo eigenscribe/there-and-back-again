@@ -1,9 +1,9 @@
 :root {
   --bg-color: #0a0a0f;
   --bg-image: url('space-bg.png');
-  --node-color: #00ffee;
-  --node-hover-color: #a855f7;
-  --link-color: rgba(0, 255, 238, 0.4);
+  --node-color: #8b5cf6;
+  --node-hover-color: #3b82f6;
+  --link-color: rgba(139, 92, 246, 0.3);
   --link-hover-color: rgba(168, 85, 247, 0.7);
   --prerequisite-link-color: #4ade80;
   --text-color: #e0e0e0;
@@ -144,7 +144,7 @@ body {
   font-family: 'Aclonica', sans-serif;
   font-size: 0.7rem;
   font-weight: bold;
-  background: linear-gradient(to right, #14b5ff, #5280ff, #7952f5);
+  background: linear-gradient(130deg, #3b82f6, #8b5cf6, #d946ef);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
