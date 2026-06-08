@@ -106,7 +106,7 @@ h2{
   --tile-size: clamp(12px, 2.5vw, 40px); /* Even smaller to fit noble gases in sidebar */
   display:grid;gap:0.08rem; /* Even tighter gap */
   grid-template-columns:repeat(19,var(--tile-size));
-  padding: 0; /* Removed horizontal padding */
+  padding-bottom: 20px; /* Space for the rounded corners */
   position: relative;
   justify-content: center; 
   margin: 0 auto;
@@ -120,7 +120,7 @@ h2{
   .grid {
     --tile-size: clamp(10px, 4vw, 30px);
     gap:0.08rem;
-    padding: 0;
+    padding-bottom: 15px;
   }
   h1 {
     font-size: 1.8rem;
@@ -154,7 +154,7 @@ h2{
   .grid {
     --tile-size: 35px; /* Keep it at base size, let script.js scale the container */
     gap: 0.15rem;
-    padding: 0;
+    padding-bottom: 10px;
   }
   .tile {
     border-width: 1px;
