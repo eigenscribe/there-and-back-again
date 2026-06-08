@@ -4,9 +4,8 @@
     <title>Physical Interpretations of the Wedge Product</title>
         <introduction>
         <p>
-            <term>Note ID:</term> <tag>202604110004</tag> |
-            <term>Tags:</term> <tag>geometric algebra</tag>, <tag>classical mechanics</tag>, <tag>vector calculus</tag> |
-            <term>PreFigure Demo:</term> <tag>🔗 <url href="https://prefigure.org">Interactive</url></tag>
+            <tag>202604110004</tag> | <tag>geometric algebra</tag> <tag>classical mechanics</tag> <tag>vector calculus</tag> |
+            <alert>PreFigure Demo:</alert> <tag>🔗 <url href="https://prefigure.org">Interactive</url></tag>
         </p>
         </introduction>
 
@@ -20,12 +19,12 @@
         </subsubsection>
 
         <conclusion>
-                    <p>
-                        🖇️ <alert>Linked Notes:</alert> <!-- <xref ref="sec-geometric-algebra" detail="sec" /> -->
-                    </p>
-                    <p>
-                        🔖 <alert>References:</alert> <xref ref="hestenes1993hamiltonian" detail="biblio"><em>Hamiltonian Mechanics with Geometric Calculus</em></xref>
-                    </p>
+           <p>
+              <alert>🔗 Linked Notes:</alert> <!-- <xref ref="sec-geometric-algebra" detail="sec" /> -->
+           </p>
+           <p>
+              <alert>🔖 References:</alert> <xref ref="hestenes1993hamiltonian" detail="biblio"><em>Hamiltonian Mechanics with Geometric Calculus</em></xref>
+           </p>
         </conclusion>
 
 </subsection>

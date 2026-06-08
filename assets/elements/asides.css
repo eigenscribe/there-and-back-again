@@ -133,10 +133,9 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #00e8ff, #14b5ff, #00e8ff) !important;
+  background: linear-gradient(130deg, #d946ef, #8b5cf6, #3b82f6) !important;
 }
 
-.ptx-content .definition-like .heading::after,
 .ptx-content .theorem-like .heading::after,
 .ptx-content .proof .heading::after,
 .ptx-content .example-like .heading::after,
@@ -181,27 +180,42 @@
   vertical-align: middle !important;
 }
 
-/* 🟣 Purple Gradient: Definitions */
+.ptx-content .hint .heading,
+.ptx-content .hint summary.knowl__link,
 .ptx-content .definition-like .heading {
   background-image: linear-gradient(130deg, #d946ef, #8b5cf6, #3b82f6) !important;
+  font-family: 'Aclonica', sans-serif !important;
+  letter-spacing: 0.02em;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  background-size: 200% auto !important;
+  animation: gradient-shift 5s ease infinite !important;
+}
+
+/* 🟣 Purple Gradient: Definitions */
+.ptx-content .definition-like .heading {
+  font-size: 1.15rem !important;
+}
+.ptx-content .definition-like .heading::after {
+  content: "" !important;
+  display: block !important;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background: linear-gradient(130deg, #d946ef, #8b5cf6, #3b82f6) !important;
 }
 .ptx-content .definition-like::before {
   background: linear-gradient(to bottom, #d946ef, #8b5cf6, #3b82f6) !important;
 }
 
-/* 🌑 Cyan Gradient: Hints */
+/* 🟣 Purple Gradient: Hints */
 .ptx-content .hint .heading,
 .ptx-content .hint summary.knowl__link {
-  background-image: linear-gradient(130deg, #00e8ff, #14b5ff, #00e8ff) !important;
-  font-family: 'Aclonica', sans-serif !important;
   font-size: 1rem !important;
-  letter-spacing: 0.02em;
 }
 .ptx-content .hint summary.knowl__link {
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent !important;
   display: list-item !important; /* Use list-item to keep the marker */
   list-style: disclosure-closed !important; /* Ensure arrow is visible */
   width: fit-content !important;
@@ -214,10 +228,10 @@
   color: inherit !important;
 }
 .ptx-content .hint summary.knowl__link::marker {
-  color: #00e8ff !important;
+  color: #8b5cf6 !important;
 }
 .ptx-content .hint::before {
-  background: linear-gradient(to bottom, #00e8ff, #14b5ff) !important;
+  background: linear-gradient(to bottom, #d946ef, #8b5cf6, #3b82f6) !important;
 }
 
 /* 📗 Green Gradient: Theorems, Proofs */

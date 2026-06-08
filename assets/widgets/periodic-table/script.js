@@ -17,15 +17,6 @@ const gradients = {          //  exactly the same colors you used in React
 };
 
 // -------------------------------------------------------------------
-// 1.  Title
-// -------------------------------------------------------------------
-root.insertAdjacentHTML("beforeend",
-  `<header style="text-align:center">
-     <h1>Interactive Periodic Table</h1>
-     <h2>Eigenscribe — glassmorphic edition</h2>
-   </header>`);
-
-// -------------------------------------------------------------------
 // 2.  Legend  (hover filtering)
 // -------------------------------------------------------------------
 let hoveredCat = null;
@@ -57,14 +48,14 @@ groupLabels.slice(1).forEach(lbl=>{
 
 // fetch data -> draw tiles
 fetch("elements.json").then(r=>r.json()).then(elements=>{
-  elements.forEach(el=>{ el.gridRow += 1; el.gridCol += 1 }); // shift, because labels occupy first row/col
-
-  // period labels (we need them *after* corner + group row)
-  periodLabels.forEach(p=>{
-    const d = document.createElement("div");d.className="period-label";d.textContent=p;
+  // period labels
+  periodLabels.forEach(p => {
+    const d = document.createElement("div");
+    d.className = "period-label";
+    d.textContent = p;
+    d.style.gridColumn = 1;
+    d.style.gridRow = p + 1;
     grid.appendChild(d);
-    // each row has 18 + 1 columns, skip 18 placeholders, JS will inject the actual tiles later
-    for(let i=1;i<=18;i++) grid.appendChild(document.createElement("div"));
   });
 
   // finally place tiles at their absolute position using CSS Grid coordinates
