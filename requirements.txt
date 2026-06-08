@@ -15,6 +15,8 @@ idna==3.18
 Jinja2==3.1.6
 lxml==6.1.1
 MarkupSafe==3.0.3
+networkx==3.6.1
+numpy==2.4.6
 packaging==26.2
 pandoc==2.4
 pdfCropMargins==1.0.9
@@ -23,6 +25,7 @@ plasTeX==3.1
 playwright==1.60.0
 plumbum==1.10.0
 ply==3.11
+prefig==0.6.5
 pretext==2.41.2
 psutil==7.2.2
 pydantic==2.13.4
@@ -36,6 +39,8 @@ pypng==0.20220715.0
 python-dateutil==2.9.0.post0
 qrcode==7.4.2
 requests==2.34.2
+scipy==1.17.1
+shapely==2.1.2
 single-version==1.6.0
 six==1.17.0
 smmap==5.0.3
