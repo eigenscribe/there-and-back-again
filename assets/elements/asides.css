@@ -29,6 +29,41 @@
   margin: 1.25rem 0;
   position: relative !important;
   transition: all 0.3s ease;
+  /* Ensure children don't burst out */
+  overflow: hidden;
+}
+
+/* Ensure display math blocks stay within bounds of callouts */
+.ptx-content .definition-like .displaymath,
+.ptx-content .theorem-like .displaymath,
+.ptx-content .solution .displaymath,
+.ptx-content .proof .displaymath,
+.ptx-content .example-like .displaymath,
+.ptx-content .hint .displaymath,
+.ptx-content .remark-like .displaymath,
+.ptx-content .assemblage-like .displaymath,
+.ptx-content .insight .displaymath,
+.ptx-content .warning .displaymath,
+.ptx-content .exercise-like .displaymath,
+.ptx-content .answer .displaymath,
+.ptx-content .abstract .displaymath,
+.ptx-content .definition-like mjx-container,
+.ptx-content .theorem-like mjx-container,
+.ptx-content .solution mjx-container,
+.ptx-content .proof mjx-container,
+.ptx-content .example-like mjx-container,
+.ptx-content .hint mjx-container,
+.ptx-content .remark-like mjx-container,
+.ptx-content .assemblage-like mjx-container,
+.ptx-content .insight mjx-container,
+.ptx-content .warning mjx-container,
+.ptx-content .exercise-like mjx-container,
+.ptx-content .answer mjx-container,
+.ptx-content .abstract mjx-container {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    max-width: 100% !important;
+    padding-bottom: 0.5rem !important; /* Space for potential scrollbar */
 }
 
 .ptx-content .definition-like:hover,

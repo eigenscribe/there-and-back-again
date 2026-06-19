@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Linear regression definition added. needs polishing and is an example of another styling issue (need long equations to be scrollable horizontally)">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="linear regression section update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +45,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0038524715019272" />
-      <entry key="MS500" value="1.3292142533261224" />
-      <entry key="S2" value="1.9640955989700761" />
-      <entry key="S5" value="3.1602085866485377" />
-      <entry key="S10" value="4.835213154512447" />
-      <entry key="S30" value="8.743542236769484" />
-      <entry key="S60" value="14.778967305044985" />
-      <entry key="M2" value="24.133294063891015" />
-      <entry key="M5" value="42.85193258087113" />
-      <entry key="M10" value="75.45116557801681" />
-      <entry key="M15" value="109.58510356092089" />
-      <entry key="M30" value="197.5863969406746" />
-      <entry key="H1" value="301.2624277517005" />
-      <entry key="H2" value="425.17529910591776" />
-      <entry key="H4" value="936.3960175327586" />
-      <entry key="D1" value="10158.341718864414" />
-      <entry key="W1" value="21569.210179286732" />
+      <entry key="MS100" value="1.075488031180127" />
+      <entry key="MS500" value="2.0309873838886787" />
+      <entry key="S2" value="3.42151223575555" />
+      <entry key="S5" value="5.365961675415251" />
+      <entry key="S10" value="7.632543721365011" />
+      <entry key="S30" value="10.660073648027227" />
+      <entry key="S60" value="12.310697402818176" />
+      <entry key="M2" value="17.71345490421542" />
+      <entry key="M5" value="40.33326008460526" />
+      <entry key="M10" value="76.77853479146378" />
+      <entry key="M15" value="112.30716317746322" />
+      <entry key="M30" value="204.7788853866155" />
+      <entry key="H1" value="318.3298634243458" />
+      <entry key="H2" value="451.88120951720236" />
+      <entry key="H4" value="961.2160608811755" />
+      <entry key="D1" value="10163.422275343055" />
+      <entry key="W1" value="21605.5770932278" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -69,36 +70,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="1.074075322392064E-195" />
-      <entry key="M2" value="3.2773088386541366E-98" />
-      <entry key="M5" value="1.014394644531238E-39" />
-      <entry key="M10" value="3.1849588282063085E-20" />
-      <entry key="M15" value="1.0048983339011802E-13" />
-      <entry key="M30" value="3.2517275060509097E-7" />
-      <entry key="H1" value="8.315090317748151E-4" />
-      <entry key="H2" value="0.08131673000125408" />
-      <entry key="H4" value="1.1606575740794014" />
-      <entry key="D1" value="29.24633721793202" />
-      <entry key="W1" value="65.8621719636726" />
+      <entry key="S60" value="1.846951677495794E-198" />
+      <entry key="M2" value="1.3590260032448877E-99" />
+      <entry key="M5" value="2.8398219167385447E-40" />
+      <entry key="M10" value="1.6851784705895698E-20" />
+      <entry key="M15" value="6.573805430323747E-14" />
+      <entry key="M30" value="2.6300348574374453E-7" />
+      <entry key="H1" value="7.478089364680244E-4" />
+      <entry key="H2" value="0.07711551192111431" />
+      <entry key="H4" value="1.1302773632018932" />
+      <entry key="D1" value="29.11733590003326" />
+      <entry key="W1" value="65.82059209460236" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9764020728783999" />
-      <entry key="MS500" value="1.3218642548847348" />
-      <entry key="S2" value="1.961419268704391" />
-      <entry key="S5" value="3.1585176528413785" />
-      <entry key="S10" value="4.833901628908174" />
-      <entry key="S30" value="8.742710117132155" />
-      <entry key="S60" value="14.778232124435657" />
-      <entry key="M2" value="24.132677679282132" />
-      <entry key="M5" value="42.85145417499841" />
-      <entry key="M10" value="75.45068467086125" />
-      <entry key="M15" value="109.58460251258462" />
-      <entry key="M30" value="197.585902040124" />
-      <entry key="H1" value="301.26286165480616" />
-      <entry key="H2" value="425.2562882324978" />
-      <entry key="H4" value="937.5559971237109" />
-      <entry key="D1" value="10187.585255670017" />
-      <entry key="W1" value="21635.071432581008" />
+      <entry key="MS100" value="1.0523729426391821" />
+      <entry key="MS500" value="2.020740778530491" />
+      <entry key="S2" value="3.4148921127222547" />
+      <entry key="S5" value="5.357035814575036" />
+      <entry key="S10" value="7.624700394381927" />
+      <entry key="S30" value="10.656145357681796" />
+      <entry key="S60" value="12.308484187232853" />
+      <entry key="M2" value="17.712158092930363" />
+      <entry key="M5" value="40.33247893780318" />
+      <entry key="M10" value="76.7779081737589" />
+      <entry key="M15" value="112.30657314722664" />
+      <entry key="M30" value="204.77834583862594" />
+      <entry key="H1" value="318.33018175660396" />
+      <entry key="H2" value="451.95797780838427" />
+      <entry key="H4" value="962.3456595830062" />
+      <entry key="D1" value="10192.536820090616" />
+      <entry key="W1" value="21671.396766790673" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -109,32 +110,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/my_folder/USAGE-GUIDES&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/my_folder/USAGE-GUIDES",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.python.group.settings",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my_folder/USAGE-GUIDES" />
@@ -162,14 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00042" summary="mostly finished sectioning stylesheets">
-      <option name="closed" value="true" />
-      <created>1780393300797</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1780393300797</updated>
     </task>
     <task id="LOCAL-00043" summary="mostly finished sectioning stylesheets">
       <option name="closed" value="true" />
@@ -555,14 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1781842883737</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="linear regression section update">
+      <option name="closed" value="true" />
+      <created>1781845182661</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1781845182661</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Starting to build the periodic table widget" />
     <MESSAGE value="Updated README.md for periodic table widget" />
     <MESSAGE value="Cleaned up the frontmatter a bit" />
     <MESSAGE value="Added a PDF of a pretext guide I found online to my-folder, which i also renamed SOFIAS-FOLDER" />
@@ -587,6 +587,7 @@
     <MESSAGE value="requirement updates" />
     <MESSAGE value="linear algebra section added" />
     <MESSAGE value="Linear regression definition added. needs polishing and is an example of another styling issue (need long equations to be scrollable horizontally)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linear regression definition added. needs polishing and is an example of another styling issue (need long equations to be scrollable horizontally)" />
+    <MESSAGE value="linear regression section update" />
+    <option name="LAST_COMMIT_MESSAGE" value="linear regression section update" />
   </component>
 </project>

@@ -105,8 +105,12 @@
     padding: 1rem !important;
   }
 
-  .ptx-content .displaymath {
+  .ptx-content .displaymath,
+  .ptx-content mjx-container {
     padding: 1rem !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    max-width: 100% !important;
   }
 
   /* ---- Navbar buttons ---- */
