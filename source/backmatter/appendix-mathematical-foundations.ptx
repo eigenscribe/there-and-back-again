@@ -6,7 +6,5 @@
     <p>Non-geometric algebra mathematics.</p>
   </introduction>
 
-  <xi:include href="MATHEMATICAL_FOUNDATIONS/COMPUTATIONAL_METHODS/sec-computational-methods.ptx"/>
-
 
 </appendix>

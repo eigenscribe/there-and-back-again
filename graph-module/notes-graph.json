@@ -29,6 +29,15 @@
       "color": "#9013fe"
     },
     {
+      "id": "app-computational-methods",
+      "title": "Computational Methods",
+      "url": "app-computational-methods.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "app-mathematical-foundations",
       "title": "Mathematical Foundations",
       "url": "app-mathematical-foundations.html",
