@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-linear-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Algebra</title>
+  <idx>Linear Algebra</idx>
+  <introduction>
+    <!-- insert intro here -->
+  </introduction>
+
+  <xi:include href="linear-regression.ptx"/>
+
+ </section>

@@ -6,5 +6,8 @@
     <p>Non-geometric algebra mathematics.</p>
   </introduction>
 
+    <xi:include href="MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/sec-linear-algebra.ptx"/>
+
+
 
 </appendix>

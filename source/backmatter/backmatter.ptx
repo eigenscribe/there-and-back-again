@@ -3,6 +3,7 @@
 <backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Backmatter</title>
 
+  <xi:include href="appendix-mathematical-foundations.ptx"/>
   <xi:include href="appendix-geometric-algebra.ptx"/>
   <xi:include href="appendix-computational-methods.ptx"/>
 

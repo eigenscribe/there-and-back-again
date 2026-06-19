@@ -78,6 +78,28 @@
       "color": "#9013fe"
     },
     {
+      "id": "sec-linear-algebra",
+      "title": "Linear Algebra",
+      "url": "sec-linear-algebra.html",
+      "tags": [
+        "linear algebra"
+      ],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-linear-regression",
+      "title": "Linear Regression",
+      "url": "subsec-linear-regression.html",
+      "tags": [
+        "linear regression"
+      ],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "subsec-hypotheses",
       "title": "Hypotheses",
       "url": "subsec-hypotheses.html",
