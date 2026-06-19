@@ -18,21 +18,58 @@
 
                 <image width="60%">
                     <prefigure xmlns="https://prefigure.org"
-                              label="prefigure-wedge-product-angular-momentum"
-                    >
-                        <diagram dimensions="(300,250)" margins="(35,30,50,30)">
-                            <coordinates bbox="(-1, -1, 1, 1)">
+                              label="prefigure-wedge-product-angular-momentum">
+
+                        <diagram dimensions="(300,250)"
+                                 margins="(35,30,50,30)">
+
+                            <coordinates bbox="(-1,-1,1,1)">
+
+                                <!-- Filled phase-space orbit -->
                                 <grid-axes h-frame="bottom"
                                            v-frame="left"
                                            xlabel="q"
-                                           ylabel="p"
-                                />
+                                           ylabel="p"/>
 
-                                <ellipse center="(0,0)" axes="(0.8,0.5)" stroke="rbg(67, 97, 238)" fill="#00E8FF" fill-opacity="0.3"/>
+                                 <!-- Filled phase-space orbit -->
+                                <ellipse center="(0,0)"
+                                         axes="(0.8,0.5)"
+                                         fill="#00E8FF"
+                                         fill-opacity="0.25"
+                                         stroke="none"/>
+
+                                <!-- Ellipse outline -->
+                                <ellipse center="(0,0)"
+                                         axes="(0.8,0.5)"
+                                         fill="none"
+                                         stroke="#4361EE"
+                                         stroke-width="2"/>
+
+                                <!-- Golden-angle-inspired flow arrow -->
+                                <path stroke="#4361EE"
+                                      stroke-width="2"
+                                      fill="none"
+                                      arrows="1"
+                                      arrow-size="6"
+                                      start="(0.0, 0.5)"/>
+
+
+                                <!-- Central label -->
+                                <label anchor="(0,0)"
+                                       alignment="center">
+                                   <m>\bivec{L} = q \wedge p</m>
+                                </label>
+
                             </coordinates>
+
                         </diagram>
                     </prefigure>
                 </image>
+                <warning>
+                    <p>
+                        The above diagram is not complete; just ignore it for the time being. Should be updated soon :)
+                    </p>
+                </warning>
             </claim>
 
 

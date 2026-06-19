@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="stylesheet adjustments (golden ratio scaling and best practice color contrast)">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated note-like element gradient">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/subsec-wedge-product-and-angular-momentum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/subsec-wedge-product-and-angular-momentum.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000000144" />
-      <entry key="MS500" value="1.002235092591506" />
-      <entry key="S2" value="1.6002536467310444" />
-      <entry key="S5" value="3.9602127681040162" />
-      <entry key="S10" value="7.161104115072095" />
-      <entry key="S30" value="14.421218352829749" />
-      <entry key="S60" value="19.251771307213684" />
-      <entry key="M2" value="22.933580171333762" />
-      <entry key="M5" value="25.81993385091645" />
-      <entry key="M10" value="27.871592781596966" />
-      <entry key="M15" value="30.026855030404707" />
-      <entry key="M30" value="35.49989643821711" />
-      <entry key="H1" value="49.87562404590844" />
-      <entry key="H2" value="121.24434650277222" />
-      <entry key="H4" value="440.89518024367726" />
-      <entry key="D1" value="8795.788045934605" />
-      <entry key="W1" value="21205.743714207827" />
+      <entry key="MS100" value="1.000033593914367" />
+      <entry key="MS500" value="1.233542769670183" />
+      <entry key="S2" value="3.217779847958547" />
+      <entry key="S5" value="7.000907533468967" />
+      <entry key="S10" value="10.942692413215482" />
+      <entry key="S30" value="16.296081143993945" />
+      <entry key="S60" value="18.80134283119344" />
+      <entry key="M2" value="20.89326023803834" />
+      <entry key="M5" value="25.423024798957947" />
+      <entry key="M10" value="35.06151225067523" />
+      <entry key="M15" value="48.22566536050752" />
+      <entry key="M30" value="92.78192316225892" />
+      <entry key="H1" value="157.82394939996462" />
+      <entry key="H2" value="255.9627710866241" />
+      <entry key="H4" value="553.8234881245143" />
+      <entry key="D1" value="8674.983405473464" />
+      <entry key="W1" value="21323.08853693397" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -69,36 +69,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="3.3809963732304654E-293" />
-      <entry key="M2" value="5.814633585386466E-147" />
-      <entry key="M5" value="3.204859101785234E-59" />
-      <entry key="M10" value="5.6611520462416826E-30" />
-      <entry key="M15" value="3.176796951270955E-20" />
-      <entry key="M30" value="1.8283014774941772E-10" />
-      <entry key="H1" value="1.9716680712182635E-5" />
-      <entry key="H2" value="0.01252170080159926" />
-      <entry key="H4" value="0.45545536062537517" />
-      <entry key="D1" value="25.02429020631497" />
-      <entry key="W1" value="64.41147315893997" />
+      <entry key="S60" value="3.0584E-319" />
+      <entry key="M2" value="5.5301560153486114E-160" />
+      <entry key="M5" value="1.9819603111710526E-64" />
+      <entry key="M10" value="1.4078222524065428E-32" />
+      <entry key="M15" value="5.83111305133247E-22" />
+      <entry key="M30" value="2.4770160024940692E-11" />
+      <entry key="H1" value="7.257287107493361E-6" />
+      <entry key="H2" value="0.007596850377114754" />
+      <entry key="H4" value="0.3547569751954218" />
+      <entry key="D1" value="24.003576480291457" />
+      <entry key="W1" value="64.02941656422357" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794202975869409" />
-      <entry key="MS500" value="0.9980712653668782" />
-      <entry key="S2" value="1.5982524947959855" />
-      <entry key="S5" value="3.9579121609172314" />
-      <entry key="S10" value="7.1589330718492965" />
-      <entry key="S30" value="14.41965549941212" />
-      <entry key="S60" value="19.250697467006297" />
-      <entry key="M2" value="22.93293120931157" />
-      <entry key="M5" value="25.819639414566836" />
-      <entry key="M10" value="27.871435591158928" />
-      <entry key="M15" value="30.026744539636198" />
-      <entry key="M30" value="35.499834121265906" />
-      <entry key="H1" value="49.87559630789663" />
-      <entry key="H2" value="121.25678829808878" />
-      <entry key="H4" value="441.35034648224564" />
-      <entry key="D1" value="8820.809933604565" />
-      <entry key="W1" value="21270.154287924484" />
+      <entry key="MS100" value="0.9526706326890392" />
+      <entry key="MS500" value="1.2224566762778828" />
+      <entry key="S2" value="3.212204300771152" />
+      <entry key="S5" value="6.996571055090025" />
+      <entry key="S10" value="10.939347819455584" />
+      <entry key="S30" value="16.294390337550652" />
+      <entry key="S60" value="18.800352949321997" />
+      <entry key="M2" value="20.892702772181117" />
+      <entry key="M5" value="25.422749316588888" />
+      <entry key="M10" value="35.06132021096325" />
+      <entry key="M15" value="48.225486181058045" />
+      <entry key="M30" value="92.78174423429887" />
+      <entry key="H1" value="157.82380013636822" />
+      <entry key="H2" value="255.9702271986129" />
+      <entry key="H4" value="554.1779663108784" />
+      <entry key="D1" value="8698.984667254384" />
+      <entry key="W1" value="21387.11705790658" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -162,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00046" summary="mostly finished sectioning stylesheets">
-      <option name="closed" value="true" />
-      <created>1780395858503</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1780395858503</updated>
     </task>
     <task id="LOCAL-00047" summary="mostly finished sectioning stylesheets">
       <option name="closed" value="true" />
@@ -555,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781869293650</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="updated note-like element gradient">
+      <option name="closed" value="true" />
+      <created>1781872202614</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1781872202614</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added a PDF of a pretext guide I found online to my-folder, which i also renamed SOFIAS-FOLDER" />
     <MESSAGE value="minor updates to methodology and architecture sections in frontmatter" />
     <MESSAGE value="fixed periodic-table.ptx" />
     <MESSAGE value="working on periodic-table widget (in assets folder)" />
@@ -598,6 +597,7 @@
     <MESSAGE value="linear regression section update" />
     <MESSAGE value="updated assemblage styling" />
     <MESSAGE value="stylesheet adjustments (golden ratio scaling and best practice color contrast)" />
-    <option name="LAST_COMMIT_MESSAGE" value="stylesheet adjustments (golden ratio scaling and best practice color contrast)" />
+    <MESSAGE value="updated note-like element gradient" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated note-like element gradient" />
   </component>
 </project>
