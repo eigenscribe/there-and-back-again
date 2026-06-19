@@ -8,6 +8,21 @@
     100% { background-position: 0% 50%; }
 }
 
+.ptx-content .assemblage-like {
+  background: linear-gradient(135deg, rgba(20, 232, 255, 0.08), rgba(121, 82, 245, 0.08)) !important;
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  border: 1px solid var(--ptg-glass-border) !important;
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  padding-left: calc(var(--space-xl) + 5px * var(--phi)) !important;
+  margin: var(--space-xl) 0;
+  position: relative !important;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 20px rgba(121, 82, 245, 0.1) !important;
+}
+
 .ptx-content .definition-like,
 .ptx-content .theorem-like,
 .ptx-content .solution,
@@ -15,7 +30,6 @@
 .ptx-content .example-like,
 .ptx-content .hint,
 .ptx-content .remark-like,
-.ptx-content .assemblage-like,
 .ptx-content .insight,
 .ptx-content .warning,
 .ptx-content .exercise-like,
@@ -66,6 +80,13 @@
     padding-bottom: 0.5rem !important; /* Space for potential scrollbar */
 }
 
+.ptx-content .assemblage-like:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(135deg, rgba(20, 232, 255, 0.12), rgba(121, 82, 245, 0.12)) !important;
+  box-shadow: 0 0 30px rgba(20, 181, 255, 0.35), 0 12px 40px 0 rgba(0, 0, 0, 0.35) !important;
+  border-color: rgba(20, 181, 255, 0.4) !important;
+}
+
 .ptx-content .definition-like:hover,
 .ptx-content .theorem-like:hover,
 .ptx-content .solution:hover,
@@ -73,7 +94,6 @@
 .ptx-content .example-like:hover,
 .ptx-content .hint:hover,
 .ptx-content .remark-like:hover,
-.ptx-content .assemblage-like:hover,
 .ptx-content .insight:hover,
 .ptx-content .warning:hover,
 .ptx-content .exercise-like:hover,
@@ -111,7 +131,6 @@
 .ptx-content .biblio::before,
 .ptx-content .aside::before,
 .ptx-content .answer::before,
-.ptx-content .assemblage-like::before,
 .ptx-content section.introduction::before,
 .ptx-content .abstract::before {
   content: "";
@@ -139,7 +158,6 @@
 .ptx-content .answer .heading,
 .ptx-content .biblio .heading,
 .ptx-content section.introduction .heading,
-.ptx-content .assemblage-like .heading,
 .ptx-content .abstract .heading {
   font-family: var(--font-heading) !important;
   font-weight: bold !important;
@@ -182,7 +200,6 @@
 .ptx-content .aside .heading::after,
 .ptx-content .biblio .heading::after,
 .ptx-content section.introduction .heading::after,
-.ptx-content .assemblage-like .heading::after,
 .ptx-content .abstract .heading::after,
 .ptx-content .definition-like .heading::before,
 .ptx-content .theorem-like .heading::before,
@@ -196,7 +213,6 @@
 .ptx-content .aside .heading::before,
 .ptx-content .biblio .heading::before,
 .ptx-content section.introduction .heading::before,
-.ptx-content .assemblage-like .heading::before,
 .ptx-content .abstract .heading::before {
   content: none !important;
   display: none !important;
@@ -389,15 +405,43 @@
   background: var(--gradient-orange) !important;
 }
 
+.ptx-content .assemblage-like .heading::after,
+.ptx-content .assemblage-like .heading::before {
+  content: none !important;
+  display: none !important;
+}
+
 /* 🟣 Note: Purple Gradient (from previous warning style) */
-.ptx-content .note .heading,
-.ptx-content .aside .heading,
 .ptx-content .assemblage-like .heading {
+  background-image: var(--ptg-gradient-eigen) !important;
+  font-size: var(--font-size-md) !important;
+  margin-bottom: var(--space-md) !important;
+  font-family: var(--font-aclonica), sans-serif !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+}
+
+.ptx-content .note .heading,
+.ptx-content .aside .heading {
   background-image: linear-gradient(130deg, #5280ff 0%, #7952f5 61.8%, #5E17EB 100%) !important;
 }
-.ptx-content .note::before,
-.ptx-content .aside::before,
 .ptx-content .assemblage-like::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  background: var(--ptg-gradient-eigen) !important;
+  width: calc(5px * var(--phi)) !important;
+  border-radius: var(--radius-md) 0 0 var(--radius-md) !important;
+}
+
+.ptx-content .note::before,
+.ptx-content .aside::before {
   background: linear-gradient(to bottom, #5280ff 0%, #7952f5 61.8%, #5E17EB 100%) !important;
 }
 
@@ -454,8 +498,8 @@
   color: var(--color-text) !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  margin: 0.5rem 0 !important;
-  margin-bottom: 0.5rem !important;
+  margin: var(--space-sm) 0 !important;
+  margin-bottom: var(--space-sm) !important;
 }
 
 .ptx-content .aside *,
@@ -479,7 +523,7 @@
   border-radius: 16px !important; 
   padding: 1.25rem !important;
   padding-left: 1.75rem !important;
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-xl);
   color: var(--color-text) !important;
   position: relative !important;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);

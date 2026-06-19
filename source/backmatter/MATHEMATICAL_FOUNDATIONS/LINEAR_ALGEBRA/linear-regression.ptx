@@ -55,10 +55,9 @@
             </md>
             where
             <md>
-              s_1 = \sum_{i=1}^n x_i \, , \quad
-              s_2 = \sum_{i=1}^n x_i^2 \, , \quad
-              c_{xy} = \sum_{i=1}^n x_iy_i \, , \quad
-              \text{and}
+              s_1 = \sum_{i=1}^n x_i \, , \qquad
+              s_2 = \sum_{i=1}^n x_i^2 \, , \qquad
+              c_{xy} = \sum_{i=1}^n x_iy_i \, , \qquad
               \quad c_y = \sum_{i=1}^n y_i
             </md>
         </p>

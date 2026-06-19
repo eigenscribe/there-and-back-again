@@ -22,7 +22,7 @@ body.pretext {
 }
 
 #cover-image {
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-xl);
   background: transparent !important;
   border: none !important;
   border-left: none !important;
@@ -65,7 +65,7 @@ body.pretext {
   background: transparent !important;
   border-left: none !important;
   padding: 0 !important;
-  margin-bottom: 2rem !important;
+  margin-bottom: var(--space-xl) !important;
   border-radius: 0 !important;
 }
 
@@ -90,8 +90,13 @@ body.pretext {
 }
 
 /* Custom Scrollbar */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #14b5ff rgba(0, 0, 0, 0.5);
+}
+
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {

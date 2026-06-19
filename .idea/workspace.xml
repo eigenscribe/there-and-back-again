@@ -10,7 +10,13 @@
     <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="linear regression section update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/theme-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/theme-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/gold-standards/ch-gold-standards.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/gold-standards/ch-gold-standards.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="947" />
+    <option name="cachedIndexableFilesCount" value="1632" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -45,23 +51,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.075488031180127" />
-      <entry key="MS500" value="2.0309873838886787" />
-      <entry key="S2" value="3.42151223575555" />
-      <entry key="S5" value="5.365961675415251" />
-      <entry key="S10" value="7.632543721365011" />
-      <entry key="S30" value="10.660073648027227" />
-      <entry key="S60" value="12.310697402818176" />
-      <entry key="M2" value="17.71345490421542" />
-      <entry key="M5" value="40.33326008460526" />
-      <entry key="M10" value="76.77853479146378" />
-      <entry key="M15" value="112.30716317746322" />
-      <entry key="M30" value="204.7788853866155" />
-      <entry key="H1" value="318.3298634243458" />
-      <entry key="H2" value="451.88120951720236" />
-      <entry key="H4" value="961.2160608811755" />
-      <entry key="D1" value="10163.422275343055" />
-      <entry key="W1" value="21605.5770932278" />
+      <entry key="MS100" value="1.001091886158374" />
+      <entry key="MS500" value="1.3157275985690289" />
+      <entry key="S2" value="2.20621014126015" />
+      <entry key="S5" value="2.6274059134458776" />
+      <entry key="S10" value="2.8029309589834677" />
+      <entry key="S30" value="2.931745351207358" />
+      <entry key="S60" value="2.9655406923293333" />
+      <entry key="M2" value="2.982686472014117" />
+      <entry key="M5" value="2.993522062916605" />
+      <entry key="M10" value="3.2586183953176837" />
+      <entry key="M15" value="5.545892982932819" />
+      <entry key="M30" value="33.88684641850533" />
+      <entry key="H1" value="126.89193688942" />
+      <entry key="H2" value="285.4518858033315" />
+      <entry key="H4" value="762.7972203517069" />
+      <entry key="D1" value="9773.6181714445" />
+      <entry key="W1" value="21489.33986168792" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,36 +76,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="1.846951677495794E-198" />
-      <entry key="M2" value="1.3590260032448877E-99" />
-      <entry key="M5" value="2.8398219167385447E-40" />
-      <entry key="M10" value="1.6851784705895698E-20" />
-      <entry key="M15" value="6.573805430323747E-14" />
-      <entry key="M30" value="2.6300348574374453E-7" />
-      <entry key="H1" value="7.478089364680244E-4" />
-      <entry key="H2" value="0.07711551192111431" />
-      <entry key="H4" value="1.1302773632018932" />
-      <entry key="D1" value="29.11733590003326" />
-      <entry key="W1" value="65.82059209460236" />
+      <entry key="S60" value="2.7043811439063074E-223" />
+      <entry key="M2" value="5.200366471611666E-112" />
+      <entry key="M5" value="3.0648807388078284E-45" />
+      <entry key="M10" value="5.536140949498895E-23" />
+      <entry key="M15" value="1.452750399551564E-15" />
+      <entry key="M30" value="3.909746354422105E-8" />
+      <entry key="H1" value="2.883262544235234E-4" />
+      <entry key="H2" value="0.04788378979845413" />
+      <entry key="H4" value="0.8906527530152294" />
+      <entry key="D1" value="27.983725627596133" />
+      <entry key="W1" value="65.44825259151172" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0523729426391821" />
-      <entry key="MS500" value="2.020740778530491" />
-      <entry key="S2" value="3.4148921127222547" />
-      <entry key="S5" value="5.357035814575036" />
-      <entry key="S10" value="7.624700394381927" />
-      <entry key="S30" value="10.656145357681796" />
-      <entry key="S60" value="12.308484187232853" />
-      <entry key="M2" value="17.712158092930363" />
-      <entry key="M5" value="40.33247893780318" />
-      <entry key="M10" value="76.7779081737589" />
-      <entry key="M15" value="112.30657314722664" />
-      <entry key="M30" value="204.77834583862594" />
-      <entry key="H1" value="318.33018175660396" />
-      <entry key="H2" value="451.95797780838427" />
-      <entry key="H4" value="962.3456595830062" />
-      <entry key="D1" value="10192.536820090616" />
-      <entry key="W1" value="21671.396766790673" />
+      <entry key="MS100" value="0.9669983313755248" />
+      <entry key="MS500" value="1.3066611876897052" />
+      <entry key="S2" value="2.2019516340561975" />
+      <entry key="S5" value="2.6252880301934347" />
+      <entry key="S10" value="2.8017836469283948" />
+      <entry key="S30" value="2.9313410906860695" />
+      <entry key="S60" value="2.9653356860833835" />
+      <entry key="M2" value="2.9825832383275883" />
+      <entry key="M5" value="2.9934805779132105" />
+      <entry key="M10" value="3.2585946191376998" />
+      <entry key="M15" value="5.54586182125663" />
+      <entry key="M30" value="33.88674491250732" />
+      <entry key="H1" value="126.89203752694598" />
+      <entry key="H2" value="285.49953725407363" />
+      <entry key="H4" value="763.687327936049" />
+      <entry key="D1" value="9801.599212506462" />
+      <entry key="W1" value="21554.787200637064" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -110,32 +116,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/my_folder/USAGE-GUIDES",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.python.group.settings",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/my_folder/USAGE-GUIDES&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.python.group.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my_folder/USAGE-GUIDES" />
@@ -163,14 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00043" summary="mostly finished sectioning stylesheets">
-      <option name="closed" value="true" />
-      <created>1780393913590</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1780393913590</updated>
     </task>
     <task id="LOCAL-00044" summary="mostly finished sectioning stylesheets">
       <option name="closed" value="true" />
@@ -556,11 +554,30 @@
       <option name="project" value="LOCAL" />
       <updated>1781845182661</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="linear regression section update">
+      <option name="closed" value="true" />
+      <created>1781848318142</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1781848318142</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated README.md for periodic table widget" />

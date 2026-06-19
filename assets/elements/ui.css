@@ -48,7 +48,7 @@
   background: linear-gradient(135deg, rgba(20, 181, 255, 0.15), 61.8%, rgba(121, 82, 245, 0.1)) !important;
   border: 1px solid rgba(20, 181, 255, 0.3) !important;
   color: var(--color-text) !important;
-  padding: 0.5rem 1rem !important;
+  padding: var(--space-sm) var(--space-lg) !important;
   border-radius: 8px !important;
   font-family: 'Aclonica', sans-serif;
   font-size: 0.9rem !important;
@@ -79,7 +79,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  padding: 2rem 1rem !important;
+  padding: var(--space-xl) var(--space-lg) !important;
   text-align: center !important;
   position: relative;
   margin-top: auto;
@@ -166,7 +166,7 @@ button.light-dark-button {
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--space-sm);
   filter: drop-shadow(0 4px 12px rgba(20, 181, 255, 0.6)) !important;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1) !important;
   text-shadow: 0 0 20px rgba(20, 181, 255, 0.3) !important;
@@ -220,7 +220,7 @@ button.light-dark-button {
 }
 
 .sidebar-widget-wrapper {
-  padding: 1.5rem 1rem;
+  padding: calc(var(--space-xl) / 1.333) var(--space-lg);
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -558,7 +558,7 @@ body .ptx-navbar .searchbox #searchresultsplaceholder,
   max-height: min(80vh, 600px) !important;
   overflow: hidden !important;
   flex-direction: column !important;
-  gap: 1rem !important;
+  gap: var(--space-lg) !important;
   box-sizing: border-box !important;
 }
 
