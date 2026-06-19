@@ -16,6 +16,15 @@
                 Vectors in the <strong>vector space</strong> <m>\mathcal{V}_n\in\mathbb{R}^n</m>. These are grade-1 objects in Clifford algebra.
             </p>
         </li>
+
+        <li>
+            <title><m>C(A)</m></title>
+            <idx>column space</idx>
+            <p>
+              The <term>column space</term> of a matrix <m>A</m>.
+            </p>
+        </li>
+
         <li>
             <title><m>(\vec{q},\vec{p})</m></title>
             <idx>phase space</idx>

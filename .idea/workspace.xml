@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated assemblage styling">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="stylesheet adjustments (golden ratio scaling and best practice color contrast)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0753680661424656" />
-      <entry key="MS500" value="1.7234126524850177" />
-      <entry key="S2" value="3.3553887216455736" />
-      <entry key="S5" value="5.055405013909097" />
-      <entry key="S10" value="6.207690877974657" />
-      <entry key="S30" value="7.308729378316879" />
-      <entry key="S60" value="7.640820283938905" />
-      <entry key="M2" value="7.818487712845513" />
-      <entry key="M5" value="8.073796556544028" />
-      <entry key="M10" value="8.68715252608719" />
-      <entry key="M15" value="10.010261839763128" />
-      <entry key="M30" value="28.51517040866636" />
-      <entry key="H1" value="106.7552606671877" />
-      <entry key="H2" value="259.82818579862663" />
-      <entry key="H4" value="724.467594121912" />
-      <entry key="D1" value="9680.08465274036" />
-      <entry key="W1" value="21465.30519208192" />
+      <entry key="MS100" value="1.0000000000000144" />
+      <entry key="MS500" value="1.002235092591506" />
+      <entry key="S2" value="1.6002536467310444" />
+      <entry key="S5" value="3.9602127681040162" />
+      <entry key="S10" value="7.161104115072095" />
+      <entry key="S30" value="14.421218352829749" />
+      <entry key="S60" value="19.251771307213684" />
+      <entry key="M2" value="22.933580171333762" />
+      <entry key="M5" value="25.81993385091645" />
+      <entry key="M10" value="27.871592781596966" />
+      <entry key="M15" value="30.026855030404707" />
+      <entry key="M30" value="35.49989643821711" />
+      <entry key="H1" value="49.87562404590844" />
+      <entry key="H2" value="121.24434650277222" />
+      <entry key="H4" value="440.89518024367726" />
+      <entry key="D1" value="8795.788045934605" />
+      <entry key="W1" value="21205.743714207827" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,36 +69,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="7.966771283318898E-230" />
-      <entry key="M2" value="2.822546949710281E-115" />
-      <entry key="M5" value="1.514455336404844E-46" />
-      <entry key="M10" value="1.2306330764087786E-23" />
-      <entry key="M15" value="5.330958482174772E-16" />
-      <entry key="M30" value="2.368403704493262E-8" />
-      <entry key="H1" value="2.2440770504870275E-4" />
-      <entry key="H2" value="0.042244026145421824" />
-      <entry key="H4" value="0.8365594475148108" />
-      <entry key="D1" value="27.693016616835397" />
-      <entry key="W1" value="65.35068743892529" />
+      <entry key="S60" value="3.3809963732304654E-293" />
+      <entry key="M2" value="5.814633585386466E-147" />
+      <entry key="M5" value="3.204859101785234E-59" />
+      <entry key="M10" value="5.6611520462416826E-30" />
+      <entry key="M15" value="3.176796951270955E-20" />
+      <entry key="M30" value="1.8283014774941772E-10" />
+      <entry key="H1" value="1.9716680712182635E-5" />
+      <entry key="H2" value="0.01252170080159926" />
+      <entry key="H4" value="0.45545536062537517" />
+      <entry key="D1" value="25.02429020631497" />
+      <entry key="W1" value="64.41147315893997" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.053237311300054" />
-      <entry key="MS500" value="1.716204996401376" />
-      <entry key="S2" value="3.35145387167907" />
-      <entry key="S5" value="5.052685021941626" />
-      <entry key="S10" value="6.205900118112629" />
-      <entry key="S30" value="7.307989426973567" />
-      <entry key="S60" value="7.640428334561823" />
-      <entry key="M2" value="7.81828582606078" />
-      <entry key="M5" value="8.073712319781771" />
-      <entry key="M10" value="8.687105900800642" />
-      <entry key="M15" value="10.010222789627171" />
-      <entry key="M30" value="28.51509508424182" />
-      <entry key="H1" value="106.7553320700177" />
-      <entry key="H2" value="259.87022138666117" />
-      <entry key="H4" value="725.3036397788394" />
-      <entry key="D1" value="9707.77501239138" />
-      <entry key="W1" value="21530.654967199192" />
+      <entry key="MS100" value="0.9794202975869409" />
+      <entry key="MS500" value="0.9980712653668782" />
+      <entry key="S2" value="1.5982524947959855" />
+      <entry key="S5" value="3.9579121609172314" />
+      <entry key="S10" value="7.1589330718492965" />
+      <entry key="S30" value="14.41965549941212" />
+      <entry key="S60" value="19.250697467006297" />
+      <entry key="M2" value="22.93293120931157" />
+      <entry key="M5" value="25.819639414566836" />
+      <entry key="M10" value="27.871435591158928" />
+      <entry key="M15" value="30.026744539636198" />
+      <entry key="M30" value="35.499834121265906" />
+      <entry key="H1" value="49.87559630789663" />
+      <entry key="H2" value="121.25678829808878" />
+      <entry key="H4" value="441.35034648224564" />
+      <entry key="D1" value="8820.809933604565" />
+      <entry key="W1" value="21270.154287924484" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -163,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00045" summary="mostly finished sectioning stylesheets">
-      <option name="closed" value="true" />
-      <created>1780394727486</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1780394727486</updated>
     </task>
     <task id="LOCAL-00046" summary="mostly finished sectioning stylesheets">
       <option name="closed" value="true" />
@@ -556,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781859270686</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="stylesheet adjustments (golden ratio scaling and best practice color contrast)">
+      <option name="closed" value="true" />
+      <created>1781869293650</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1781869293650</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cleaned up the frontmatter a bit" />
     <MESSAGE value="Added a PDF of a pretext guide I found online to my-folder, which i also renamed SOFIAS-FOLDER" />
     <MESSAGE value="minor updates to methodology and architecture sections in frontmatter" />
     <MESSAGE value="fixed periodic-table.ptx" />
@@ -599,6 +597,7 @@
     <MESSAGE value="Linear regression definition added. needs polishing and is an example of another styling issue (need long equations to be scrollable horizontally)" />
     <MESSAGE value="linear regression section update" />
     <MESSAGE value="updated assemblage styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated assemblage styling" />
+    <MESSAGE value="stylesheet adjustments (golden ratio scaling and best practice color contrast)" />
+    <option name="LAST_COMMIT_MESSAGE" value="stylesheet adjustments (golden ratio scaling and best practice color contrast)" />
   </component>
 </project>
