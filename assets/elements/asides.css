@@ -37,10 +37,10 @@
 .ptx-content .answer,
 .ptx-content .abstract {
   background: rgba(255, 255, 255, 0.05) !important;
-  border-radius: 8px;
-  padding: 1.25rem;
-  padding-left: 1.75rem !important;
-  margin: 1.25rem 0;
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  padding-left: calc(var(--space-xl) + 5px * var(--phi)) !important;
+  margin: var(--space-xl) 0;
   position: relative !important;
   transition: all 0.3s ease;
   /* Ensure children don't burst out */
@@ -161,13 +161,13 @@
 .ptx-content .abstract .heading {
   font-family: var(--font-heading) !important;
   font-weight: bold !important;
-  font-size: 1.15rem !important;
+  font-size: var(--font-size-md) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;
   margin-top: 0 !important;
-  margin-bottom: 0.75rem !important;
+  margin-bottom: var(--space-md) !important;
   display: block !important;
   border: none !important;
   border-bottom: none !important;
@@ -186,7 +186,7 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
+  background: linear-gradient(130deg, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
 }
 
 .ptx-content .theorem-like .heading::after,
@@ -224,6 +224,7 @@
 .ptx-content summary.knowl__link {
   cursor: pointer;
   outline: none !important;
+  margin-bottom: var(--space-md) !important;
 }
 .ptx-content summary.knowl__link .heading {
   display: inline !important;
@@ -234,7 +235,7 @@
 .ptx-content .hint .heading,
 .ptx-content .hint summary.knowl__link,
 .ptx-content .definition-like .heading {
-  background-image: linear-gradient(130deg, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
+  background-image: linear-gradient(130deg, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
   font-family: 'Aclonica', sans-serif !important;
   letter-spacing: 0.02em;
   -webkit-background-clip: text !important;
@@ -255,10 +256,10 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
+  background: linear-gradient(130deg, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
 }
 .ptx-content .definition-like::before {
-  background: linear-gradient(to bottom, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
+  background: linear-gradient(to bottom, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
 }
 
 /* 🟣 Purple Gradient: Hints */
@@ -282,17 +283,17 @@
   color: #8b5cf6 !important;
 }
 .ptx-content .hint::before {
-  background: linear-gradient(to bottom, #d946ef 0%, #8b5cf6 61.8%, #3b82f6 100%) !important;
+  background: linear-gradient(to bottom, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
 }
 
 /* 📗 Green Gradient: Theorems, Proofs */
 .ptx-content .theorem-like .heading,
 .ptx-content .proof .heading {
-  background-image: linear-gradient(130deg, #038B00, 61.8%, #1a801a) !important;
+  background-image: linear-gradient(130deg, #039600, 61.8%, #209d20) !important;
 }
 .ptx-content .theorem-like::before,
 .ptx-content .proof::before {
-  background: linear-gradient(to bottom, #038B00, 61.8%, #1a801a) !important;
+  background: linear-gradient(to bottom, #039600, 61.8%, #209d20) !important;
 }
 
 /* 🌸 Pink Gradient: Solutions */
@@ -383,14 +384,14 @@
 .ptx-content section.introduction .heading,
 .ptx-content .biblio .heading,
 .ptx-content .abstract .heading {
-  background-image: linear-gradient(130deg, #14B5FF, 61.8%, #3366bb) !important;
+  background-image: linear-gradient(130deg, #14B5FF, 61.8%, #4a7dd0) !important;
 }
 .ptx-content .example-like::before,
 .ptx-content .exercise-like::before,
 .ptx-content section.introduction::before,
 .ptx-content .biblio::before,
 .ptx-content .abstract::before {
-  background: linear-gradient(to bottom, #14B5FF, 61.8%, #3366bb) !important;
+  background: linear-gradient(to bottom, #14B5FF, 61.8%, #4a7dd0) !important;
 }
 
 /* 🔵 Blue-Purple Gradient: Remarks, Insights, Warnings (Admonitions) -> Now ORANGE */
@@ -411,9 +412,9 @@
   display: none !important;
 }
 
-/* 🟣 Note: Purple Gradient (from previous warning style) */
+/* 🔵 Blue-Purple Gradient: Assemblage */
 .ptx-content .assemblage-like .heading {
-  background-image: var(--ptg-gradient-eigen) !important;
+  background-image: linear-gradient(130deg, #14b5ff 0%, #8564f6 61.8%, #905df5 100%) !important;
   font-size: var(--font-size-md) !important;
   margin-bottom: var(--space-md) !important;
   font-family: var(--font-aclonica), sans-serif !important;
@@ -425,9 +426,10 @@
   letter-spacing: 0.5px !important;
 }
 
+/* 🟠 Cooler Pink-Purple Gradient: Note & Aside */
 .ptx-content .note .heading,
 .ptx-content .aside .heading {
-  background-image: linear-gradient(130deg, #5280ff 0%, #7952f5 61.8%, #5E17EB 100%) !important;
+  background-image: linear-gradient(130deg, #ff40a1 0%, #a855f7 61.8%, #8564f6 100%) !important;
 }
 .ptx-content .assemblage-like::before {
   content: "" !important;
@@ -435,14 +437,14 @@
   top: 0 !important;
   left: 0 !important;
   bottom: 0 !important;
-  background: var(--ptg-gradient-eigen) !important;
+  background: linear-gradient(130deg, #14b5ff 0%, #8564f6 61.8%, #905df5 100%) !important;
   width: calc(5px * var(--phi)) !important;
   border-radius: var(--radius-md) 0 0 var(--radius-md) !important;
 }
 
 .ptx-content .note::before,
 .ptx-content .aside::before {
-  background: linear-gradient(to bottom, #5280ff 0%, #7952f5 61.8%, #5E17EB 100%) !important;
+  background: linear-gradient(to bottom, #ff40a1 0%, #a855f7 61.8%, #7952f5 100%) !important;
 }
 
 /* ============================================
@@ -464,40 +466,40 @@
   /* CRITICAL: Remove any left/right margins that push it right */
   margin-left: 0 !important;
   margin-right: 0 !important;
-  margin-top: 1.5rem !important;
-  margin-bottom: 1.5rem !important;
+  margin-top: var(--space-xl) !important;
+  margin-bottom: var(--space-xl) !important;
   
   /* Reset padding to ensure it touches the edges of the text column */
-  padding-left: 1.25rem !important;
-  padding-right: 0.5rem !important;
-  padding-top: 0.75rem !important;
-  padding-bottom: 0.75rem !important;;
+  padding-left: var(--space-xl) !important;
+  padding-right: var(--space-md) !important;
+  padding-top: var(--space-md) !important;
+  padding-bottom: var(--space-md) !important;
 
   /* Text alignment inside box */
   text-align: left !important;
 
   /* Optional: Make it look like a distinct "callout" box */
-  background: rgba(20, 181, 255, 0.05) !important;
-  border-radius: 8px !important; 
+  background: rgba(255, 64, 161, 0.05) !important;
+  border-radius: var(--radius-md) !important; 
 }
 
 /* 2. If the aside is inside a wrapper that has padding, we need to negate it */
 /* This targets the specific PreTeXt structure often used for asides */
 .ptx-content .aside > .content,
 .aside > .content {
-  padding-left: 1.5rem !important; /* Add padding back ONLY to the text, not the box */
-  padding-right: 1.5rem !important;
+  padding-left: var(--space-xl) !important; /* Add padding back ONLY to the text, not the box */
+  padding-right: var(--space-xl) !important;
 }
 
 
 /* 4. Ensure the text inside flows naturally */
 .ptx-content .aside p,
 .aside p {
-  font-size: 0.95rem !important;
-  line-height: 1.6 !important;
+  font-size: var(--font-size-sm) !important;
+  line-height: var(--phi) !important;
   color: var(--color-text) !important;
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
+  padding-left: var(--space-xl) !important;
+  padding-right: var(--space-xl) !important;
   margin: var(--space-sm) 0 !important;
   margin-bottom: var(--space-sm) !important;
 }
@@ -513,16 +515,16 @@
   ===================*/
 .ptx-content .note {
   background: linear-gradient(135deg, 
-    rgba(59, 130, 246, 0.1) 0%, 
-    rgba(139, 92, 246, 0.1) 61.8%,
-    rgba(217, 70, 239, 0.1) 100%
+    rgba(255, 64, 161, 0.1) 0%, 
+    rgba(168, 85, 247, 0.1) 61.8%,
+    rgba(121, 82, 245, 0.1) 100%
   ) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
-  border-radius: 16px !important; 
-  padding: 1.25rem !important;
-  padding-left: 1.75rem !important;
+  border-radius: var(--radius-lg) !important; 
+  padding: var(--space-xl) !important;
+  padding-left: calc(var(--space-xl) + 5px * var(--phi)) !important;
   margin-bottom: var(--space-xl);
   color: var(--color-text) !important;
   position: relative !important;
@@ -542,8 +544,8 @@
 
 /* Lists */
 .ptx-content ol, .ptx-content ul {
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-left: var(--space-xl);
+  margin-bottom: var(--space-xl);
 }
 
 .ptx-content ol li::marker {
@@ -552,8 +554,8 @@
 }
 
 .ptx-content li {
-  margin-bottom: 0.5rem;
-  line-height: 1.7;
+  margin-bottom: var(--space-sm);
+  line-height: var(--phi);
 }
 
 /* Global Styles from User Snippet */

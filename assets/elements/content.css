@@ -279,6 +279,15 @@
   content: "" !important;
 }
 
+/* Summary links on index pages (chapter/part/frontmatter) */
+.ptx-content .summary-links a::after {
+  border-left-color: var(--primary-color-light) !important;
+}
+
+.ptx-content .summary-links a:hover::after {
+  border-left-color: var(--color-link-hover) !important;
+}
+
 /* Links */
 .ptx-content a {
   color: var(--primary-color) !important;
