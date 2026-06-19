@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="subsec-linear-regression" xmlns:xi="http://www.w3.org/2001/XInclude">
-
-    <!--  subsec-linear-regression.ptx  -->
     <title>Linear Regression</title>
     <idx>linear regression</idx>
 
     <definition>
-
       <title>Linear Regression</title>
       <statement>
-
         <p>
           Given <m>\vec{x}=\left(x_1,x_2,\ldots,x_n\right)</m> and <m>\vec{y}=\left(y_1,y_2,\ldots,y_n\right)</m>, the
           <term>line of best fit</term> is the line <m>y=mx+b</m> constructed via
-
-            <me>
+            <md>
               \underbrace{
                 \begin{bmatrix}
                   x_1 &amp; x_2 &amp; \dots &amp; x_n \\
@@ -57,16 +52,51 @@
                 \end{bmatrix}
               }
 
-            </me>
+            </md>
             where
-            <me>
-              s_1 = \sum_{i=1}^n x_i \, , \quad s_2 = \sum_{i=1}^n x_i^2 \, , \quad c_{xy} = \sum_{i=1}^n x_iy_i \, , \quad \text{and} \quad c_y = \sum_{i=1}^n y_i
-            </me>
+            <md>
+              s_1 = \sum_{i=1}^n x_i \, , \quad
+              s_2 = \sum_{i=1}^n x_i^2 \, , \quad
+              c_{xy} = \sum_{i=1}^n x_iy_i \, , \quad
+              \text{and}
+              \quad c_y = \sum_{i=1}^n y_i
+            </md>
         </p>
+      </statement>
+    </definition>
 
+    <definition>
+      <title>Least Squares Solution</title>
+      <statement>
+        <p>
+          The <term>least squares solution</term> to a system <m>A\vec{x}=\vec{b}</m> with no solution is:
+          <md>
+            A^T\underbrace{A\vec{x}^*}_{\text{Proj}_{C(A)}(\vec{b})} = A^T \ \vec{b} \, .
+          </md>
+        </p>
       </statement>
 
     </definition>
+
+    <remark>
+      <statement>
+        <p>
+          Importantly, <m>A\vec{x}^* = \text{Proj}_{C(A)}(\vec{b})</m> minimizes <m>|| A\vec{x}-\vec{b} || </m>.
+        </p>
+      </statement>
+    </remark>
+
+    <note>
+      <statement>
+        <p>
+          By definition, <m>(A\vec{x}^*-\vec{b})\perp C(A)</m>.
+          <md>
+            \implies (A\vec{x}^*-\vec{b}) \in C(A)^\perp \implies (A\vec{x}^*-\vec{b})\in N(A^T) \, .
+          </md>
+        </p>
+      </statement>
+    </note>
+
 
 
 
