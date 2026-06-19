@@ -7,12 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="requirement updates">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/sec-linear-algebra.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="linear algebra section added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +45,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0002156577216665" />
-      <entry key="MS500" value="1.2282005967856628" />
-      <entry key="S2" value="2.167027284531163" />
-      <entry key="S5" value="3.262707560023424" />
-      <entry key="S10" value="4.847553479368594" />
-      <entry key="S30" value="8.81428783145288" />
-      <entry key="S60" value="12.11378795529113" />
-      <entry key="M2" value="16.220235139651095" />
-      <entry key="M5" value="28.094966043505334" />
-      <entry key="M10" value="54.35496194656926" />
-      <entry key="M15" value="76.04673824555702" />
-      <entry key="M30" value="112.60780614301699" />
-      <entry key="H1" value="140.49649125795247" />
-      <entry key="H2" value="212.8211816282747" />
-      <entry key="H4" value="761.3291797392778" />
-      <entry key="D1" value="10140.549429306535" />
-      <entry key="W1" value="21329.971849042926" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000444150224261" />
+      <entry key="S2" value="1.1877929738157207" />
+      <entry key="S5" value="2.071527084580657" />
+      <entry key="S10" value="3.5325116272395913" />
+      <entry key="S30" value="8.429831231422455" />
+      <entry key="S60" value="14.47068332103631" />
+      <entry key="M2" value="24.71727917917347" />
+      <entry key="M5" value="50.358770355529074" />
+      <entry key="M10" value="87.23206493259696" />
+      <entry key="M15" value="119.11431332123419" />
+      <entry key="M30" value="186.54847722439186" />
+      <entry key="H1" value="251.47579317330894" />
+      <entry key="H2" value="344.1254880459206" />
+      <entry key="H4" value="867.9181723612005" />
+      <entry key="D1" value="10164.35000861192" />
+      <entry key="W1" value="21464.3169842229" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -72,36 +70,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="3.7490577100443696E-176" />
-      <entry key="M2" value="1.9362483595975878E-88" />
-      <entry key="M5" value="8.218346068511549E-36" />
-      <entry key="M10" value="2.8667680875661134E-18" />
-      <entry key="M15" value="2.0182793898235473E-12" />
-      <entry key="M30" value="1.4572824148010053E-6" />
-      <entry key="H1" value="0.0017602800243657045" />
-      <entry key="H2" value="0.11831431696884544" />
-      <entry key="H4" value="1.4000153818471244" />
-      <entry key="D1" value="30.174698040738647" />
-      <entry key="W1" value="66.15685130094866" />
+      <entry key="S60" value="6.6030183216116784E-186" />
+      <entry key="M2" value="2.569633888633092E-93" />
+      <entry key="M5" value="9.20340429417393E-38" />
+      <entry key="M10" value="3.033713743193098E-19" />
+      <entry key="M15" value="4.515466699064694E-13" />
+      <entry key="M30" value="6.892938497023742E-7" />
+      <entry key="H1" value="0.001210631863517155" />
+      <entry key="H2" value="0.09811885480293803" />
+      <entry key="H4" value="1.2749418942674855" />
+      <entry key="D1" value="29.707711447612915" />
+      <entry key="W1" value="66.00960751211727" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9594724309532352" />
-      <entry key="MS500" value="1.2183410314732925" />
-      <entry key="S2" value="2.1629483961252656" />
-      <entry key="S5" value="3.2603896939645396" />
-      <entry key="S10" value="4.845875828263213" />
-      <entry key="S30" value="8.813238915247167" />
-      <entry key="S60" value="12.11305238649599" />
-      <entry key="M2" value="16.219738974204958" />
-      <entry key="M5" value="28.09458468045831" />
-      <entry key="M10" value="54.35453585215548" />
-      <entry key="M15" value="76.04632090421194" />
-      <entry key="M30" value="112.60748561468725" />
-      <entry key="H1" value="140.4980464143081" />
-      <entry key="H2" value="212.939284691866" />
-      <entry key="H4" value="762.7284990335795" />
-      <entry key="D1" value="10170.721256960078" />
-      <entry key="W1" value="21396.127780235227" />
+      <entry key="MS100" value="0.9526379980439373" />
+      <entry key="MS500" value="0.9907839547536841" />
+      <entry key="S2" value="1.1850594054555226" />
+      <entry key="S5" value="2.069891069812736" />
+      <entry key="S10" value="3.531245505250256" />
+      <entry key="S30" value="8.428877952932847" />
+      <entry key="S60" value="14.469845027726103" />
+      <entry key="M2" value="24.716522377431893" />
+      <entry key="M5" value="50.3581069809443" />
+      <entry key="M10" value="87.23144192633896" />
+      <entry key="M15" value="119.1137158246453" />
+      <entry key="M30" value="186.54797787943969" />
+      <entry key="H1" value="251.4766541643691" />
+      <entry key="H2" value="344.2233168795438" />
+      <entry key="H4" value="869.1924200282396" />
+      <entry key="D1" value="10194.054883610057" />
+      <entry key="W1" value="21530.325672165516" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -165,14 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00040" summary="deployment fix">
-      <option name="closed" value="true" />
-      <created>1780391028197</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1780391028197</updated>
     </task>
     <task id="LOCAL-00041" summary="mostly finished sectioning stylesheets">
       <option name="closed" value="true" />
@@ -558,14 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1781839414595</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="linear algebra section added">
+      <option name="closed" value="true" />
+      <created>1781840907206</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1781840907206</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updating the preamble content" />
     <MESSAGE value="added a widgets folder in assets directory and started working on a periodic table widget" />
     <MESSAGE value="Starting to build the periodic table widget" />
     <MESSAGE value="Updated README.md for periodic table widget" />
@@ -590,6 +587,7 @@
     <MESSAGE value="updated actionarea opacity" />
     <MESSAGE value="updating preimage diagram of action" />
     <MESSAGE value="requirement updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirement updates" />
+    <MESSAGE value="linear algebra section added" />
+    <option name="LAST_COMMIT_MESSAGE" value="linear algebra section added" />
   </component>
 </project>

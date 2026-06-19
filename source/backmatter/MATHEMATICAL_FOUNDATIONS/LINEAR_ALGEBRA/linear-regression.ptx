@@ -6,6 +6,68 @@
     <title>Linear Regression</title>
     <idx>linear regression</idx>
 
+    <definition>
+
+      <title>Linear Regression</title>
+      <statement>
+
+        <p>
+          Given <m>\vec{x}=\left(x_1,x_2,\ldots,x_n\right)</m> and <m>\vec{y}=\left(y_1,y_2,\ldots,y_n\right)</m>, the
+          <term>line of best fit</term> is the line <m>y=mx+b</m> constructed via
+
+            <me>
+              \underbrace{
+                \begin{bmatrix}
+                  x_1 &amp; x_2 &amp; \dots &amp; x_n \\
+                  1 &amp; 1 &amp; \dots &amp; 1
+                \end{bmatrix}
+                \begin{bmatrix}
+                  x_1 &amp; 1 \\
+                  x_2 &amp; 1 \\
+                  \vdots &amp; \vdots \\
+                  x_n &amp; 1
+                \end{bmatrix}
+              }_{
+                \begin{bmatrix}
+                  s_2 &amp; s_1 \\
+                  s_1 &amp; n
+                \end{bmatrix}
+              }
+              \begin{bmatrix}
+                m \\
+                b
+              \end{bmatrix}
+              =
+              \underbrace{
+                \begin{bmatrix}
+                  x_1 &amp; x_2 &amp; \dots &amp; x_n \\
+                  1 &amp; 1 &amp; \dots &amp; 1
+                \end{bmatrix}
+                \begin{bmatrix}
+                  y_1 \\
+                  y_2 \\
+                  \vdots \\
+                  y_n
+                \end{bmatrix}
+              }_{
+                \begin{bmatrix}
+                  c_{xy}
+                  \\
+                  c_{y}
+                \end{bmatrix}
+              }
+
+            </me>
+            where
+            <me>
+              s_1 = \sum_{i=1}^n x_i \, , \quad s_2 = \sum_{i=1}^n x_i^2 \, , \quad c_{xy} = \sum_{i=1}^n x_iy_i \, , \quad \text{and} \quad c_y = \sum_{i=1}^n y_i
+            </me>
+        </p>
+
+      </statement>
+
+    </definition>
+
 
 
 </subsection>
