@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="linear-regression subsection split into scalar arithmetic vs general derivation subsubsections. still need to create general derivation -&gt; want to connect to normal equation that was just created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,23 +45,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000002178743959" />
-      <entry key="MS500" value="1.046646946764267" />
-      <entry key="S2" value="1.7077986958320825" />
-      <entry key="S5" value="3.1361733555072706" />
-      <entry key="S10" value="4.623903748524904" />
-      <entry key="S30" value="7.137436482652743" />
-      <entry key="S60" value="10.888914529978841" />
-      <entry key="M2" value="19.94426122953603" />
-      <entry key="M5" value="46.217077640788695" />
-      <entry key="M10" value="89.50393095540491" />
-      <entry key="M15" value="133.81050377445513" />
-      <entry key="M30" value="252.65534329213028" />
-      <entry key="H1" value="397.92576583481804" />
-      <entry key="H2" value="520.6364681339553" />
-      <entry key="H4" value="619.1266186084487" />
-      <entry key="D1" value="5553.342035029128" />
-      <entry key="W1" value="20343.807441979217" />
+      <entry key="MS100" value="1.000004262718175" />
+      <entry key="MS500" value="1.0992354714317865" />
+      <entry key="S2" value="2.0741278262826164" />
+      <entry key="S5" value="3.4187571287027407" />
+      <entry key="S10" value="5.326163967629408" />
+      <entry key="S30" value="12.951691910546975" />
+      <entry key="S60" value="22.849503405849173" />
+      <entry key="M2" value="37.662112427929515" />
+      <entry key="M5" value="67.56841626199372" />
+      <entry key="M10" value="115.45693172958737" />
+      <entry key="M15" value="163.82811101555356" />
+      <entry key="M30" value="297.4387563461769" />
+      <entry key="H1" value="480.61080483620265" />
+      <entry key="H2" value="653.077282280456" />
+      <entry key="H4" value="791.3963175066912" />
+      <entry key="D1" value="5706.195915961733" />
+      <entry key="W1" value="20534.77057375742" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,34 +72,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="7.152556553212256E-137" />
-      <entry key="M10" value="8.457285640699232E-69" />
-      <entry key="M15" value="4.151517857810537E-46" />
-      <entry key="M30" value="2.090049330949981E-23" />
-      <entry key="H1" value="6.66635085090919E-12" />
-      <entry key="H2" value="7.2809911641067625E-6" />
-      <entry key="H4" value="0.01098270728605014" />
-      <entry key="D1" value="13.450518713804962" />
-      <entry key="W1" value="58.94482714787184" />
+      <entry key="M5" value="1.2496728192216885E-138" />
+      <entry key="M10" value="1.1178885571936463E-69" />
+      <entry key="M15" value="1.0772551646853296E-46" />
+      <entry key="M30" value="1.0646635213164283E-23" />
+      <entry key="H1" value="4.757908496999497E-12" />
+      <entry key="H2" value="6.151123735244122E-6" />
+      <entry key="H4" value="0.010094652852672137" />
+      <entry key="D1" value="13.262824707334063" />
+      <entry key="W1" value="58.826612551828276" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659365393776396" />
-      <entry key="MS500" value="1.039417511887628" />
-      <entry key="S2" value="1.7049648237194959" />
-      <entry key="S5" value="3.1342600006287324" />
-      <entry key="S10" value="4.622518640858067" />
-      <entry key="S30" value="7.135101738270314" />
-      <entry key="S60" value="10.884814819693743" />
-      <entry key="M2" value="19.939672501955606" />
-      <entry key="M5" value="46.21307947967813" />
-      <entry key="M10" value="89.50087722219283" />
-      <entry key="M15" value="133.80802686990907" />
-      <entry key="M30" value="252.65370751151977" />
-      <entry key="H1" value="397.92476074937724" />
-      <entry key="H2" value="520.6359020921801" />
-      <entry key="H4" value="619.1372837458274" />
-      <entry key="D1" value="5566.791201396524" />
-      <entry key="W1" value="20402.751436639905" />
+      <entry key="MS100" value="0.9726590935662079" />
+      <entry key="MS500" value="1.093156884686349" />
+      <entry key="S2" value="2.07125412864145" />
+      <entry key="S5" value="3.416830264177776" />
+      <entry key="S10" value="5.324571960480123" />
+      <entry key="S30" value="12.950271876116734" />
+      <entry key="S60" value="22.848225695200984" />
+      <entry key="M2" value="37.66105036267498" />
+      <entry key="M5" value="67.56751618774442" />
+      <entry key="M10" value="115.45571525073161" />
+      <entry key="M15" value="163.82670620579182" />
+      <entry key="M30" value="297.4373541797509" />
+      <entry key="H1" value="480.60973286963906" />
+      <entry key="H2" value="653.0766052203577" />
+      <entry key="H4" value="791.4060148616031" />
+      <entry key="D1" value="5719.457388740839" />
+      <entry key="W1" value="20593.59635283308" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -162,14 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00051" summary="updating the preamble content">
-      <option name="closed" value="true" />
-      <created>1780402644807</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1780402644807</updated>
     </task>
     <task id="LOCAL-00052" summary="updating the preamble content">
       <option name="closed" value="true" />
@@ -555,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781948875869</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="linear-regression subsection split into scalar arithmetic vs general derivation subsubsections. still need to create general derivation -&gt; want to connect to normal equation that was just created">
+      <option name="closed" value="true" />
+      <created>1781949542140</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1781949542140</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="included note id and tag alerts" />
     <MESSAGE value="fixed 404 error in graph module" />
     <MESSAGE value="changed link and node styling," />
     <MESSAGE value="added @sec-formal-structures table-formal-statements.ptx" />
@@ -598,6 +599,7 @@
     <MESSAGE value="minor latex equation tinkering for enhanced readability (problem isn't resolved, but can be improved later)" />
     <MESSAGE value="added a normal equation page to linear algebra section of mathematical foundations appendix and half-way through first round of polishing linear regression page" />
     <MESSAGE value="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners" />
-    <option name="LAST_COMMIT_MESSAGE" value="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners" />
+    <MESSAGE value="linear-regression subsection split into scalar arithmetic vs general derivation subsubsections. still need to create general derivation -&gt; want to connect to normal equation that was just created" />
+    <option name="LAST_COMMIT_MESSAGE" value="linear-regression subsection split into scalar arithmetic vs general derivation subsubsections. still need to create general derivation -&gt; want to connect to normal equation that was just created" />
   </component>
 </project>

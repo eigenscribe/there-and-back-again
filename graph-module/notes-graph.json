@@ -113,6 +113,7 @@
       "title": "Linear Regression",
       "url": "subsec-linear-regression.html",
       "tags": [
+        "least squares solution",
         "line of best fit",
         "linear regression"
       ],
@@ -128,6 +129,15 @@
         "line of best fit"
       ],
       "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right),\n                   ...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-least-squares-solution",
+      "title": "def-least-squares-solution",
+      "url": "subsec-linear-regression.html#def-least-squares-solution",
+      "tags": [],
+      "description": "The least squares solution to a system A\\vec{x}=\\vec{b} with no solution is:\n                    \n                   ...",
       "group": "backmatter",
       "color": "#9013fe"
     },

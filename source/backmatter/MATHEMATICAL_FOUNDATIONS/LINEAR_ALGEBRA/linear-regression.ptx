@@ -80,6 +80,44 @@
         </definition>
     </subsubsection>
 
+    <subsubsection xml:id="subsubsec-least-squares-solution">
+        <title>Least Squares Solution</title>
+        <idx>least squares solution</idx>
+
+        <definition xml:id="def-least-squares-solution">
+            <statement>
+                <p>
+                    The <term>least squares solution</term> to a system <m>A\vec{x}=\vec{b}</m> with no solution is:
+                    <md>
+                        A^T\underbrace{
+                                A\vec{x}^*
+                            }_{
+                                \mathord{\text{Proj}_{C(A)} \, \vec{b}}
+                            }
+                        =
+                        A^T \vec{b}
+                    </md>
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+             <statement>
+                 Importantly, <md>A\vec{x}^*=\text{Proj}_{C(A)}\vec{b}</md> minimizes the <m>L^2</m> vector norm: <md>\|A\vec{x}-\vec{b}\|^2</md>.
+             </statement>
+        </remark>
+
+        <note>
+            <statement>
+                By definition, <m>A\vec{x}^*-\vec{b} \perp C(A)</m>.
+                Therefore, <md> A\vec{x}^*-\vec{b} \in C(A) \implies A\vec{x}^*-\vec{b} \in N(A^T)</md>.
+            </statement>
+
+        </note>
+
+
+    </subsubsection>
+
 
 
 </subsection>
