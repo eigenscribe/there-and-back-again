@@ -94,7 +94,7 @@ html.dark-mode {
   --color-muted: #8b949e !important;
   --color-link: #14b5ff !important;
   --color-link-hover: #00e8ff !important;
-  --color-math: var(--primary-color-light) !important;
+  --color-math: #00E8FF !important; /* Node Color: Subsection (Cyan) */
   --color-warning: #FF8800 !important;
   --color-widget-button: c4b5fd !important;
 

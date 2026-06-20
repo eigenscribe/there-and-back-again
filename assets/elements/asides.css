@@ -9,10 +9,10 @@
 }
 
 .ptx-content .assemblage-like {
-  background: linear-gradient(135deg, rgba(255, 64, 161, 0.08), rgba(168, 85, 247, 0.08)) !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.1), rgba(121, 82, 245, 0.1)) !important;
   backdrop-filter: blur(12px) saturate(160%);
   -webkit-backdrop-filter: blur(12px) saturate(160%);
-  border: 1px solid var(--ptg-glass-border) !important;
+  border: 1px solid rgba(20, 181, 255, 0.3) !important;
   border-radius: var(--radius-md);
   padding: var(--space-xl);
   padding-left: calc(var(--space-xl) + 5px * var(--phi) * var(--phi)) !important;
@@ -73,11 +73,108 @@
 .ptx-content .warning mjx-container,
 .ptx-content .exercise-like mjx-container,
 .ptx-content .answer mjx-container,
-.ptx-content .abstract mjx-container {
+.ptx-content .abstract mjx-container,
+.ptx-content .note mjx-container,
+.ptx-content .aside mjx-container {
     overflow-x: auto !important;
     overflow-y: hidden !important;
     max-width: 100% !important;
     padding-bottom: 0.5rem !important; /* Space for potential scrollbar */
+}
+
+/* Match math color to block colors */
+.ptx-content .definition-like mjx-container,
+.ptx-content .hint mjx-container {
+  color: #7952F5 !important; /* Node Color: Definition (Purple) */
+  text-shadow: 
+    0 0 2px rgba(121, 82, 245, 0.7), 
+    0 0 8px rgba(121, 82, 245, 0.4);
+}
+
+.ptx-content .assemblage-like mjx-container {
+  color: #14B5FF !important; /* Signature Blue for Assemblage Math */
+  text-shadow: 
+    0 0 2px rgba(20, 181, 255, 0.7), 
+    0 0 8px rgba(20, 181, 255, 0.4);
+}
+
+.ptx-content .theorem-like mjx-container,
+.ptx-content .proof mjx-container {
+  color: #038B00 !important; /* Node Color: Theorem (Green) */
+  text-shadow: 
+    0 0 2px rgba(3, 139, 0, 0.7), 
+    0 0 8px rgba(3, 139, 0, 0.4);
+}
+
+.ptx-content .solution mjx-container {
+  color: #FF66B3 !important; /* Node Color: Claim/Solution (Pink) */
+  text-shadow: 
+    0 0 2px rgba(255, 102, 179, 0.7), 
+    0 0 8px rgba(255, 102, 179, 0.4);
+}
+
+.ptx-content .answer mjx-container {
+  color: #14B5FF !important; /* Node Color: Example/Answer (Sky Blue) */
+  text-shadow: 
+    0 0 2px rgba(20, 181, 255, 0.7), 
+    0 0 8px rgba(20, 181, 255, 0.4);
+}
+
+.ptx-content .example-like mjx-container,
+.ptx-content .exercise-like mjx-container,
+.ptx-content .abstract mjx-container,
+.ptx-content section.introduction mjx-container {
+  color: #14B5FF !important; /* Node Color: Example (Sky Blue) */
+  text-shadow: 
+    0 0 2px rgba(20, 181, 255, 0.7), 
+    0 0 8px rgba(20, 181, 255, 0.4);
+}
+
+.ptx-content .remark-like mjx-container,
+.ptx-content .insight mjx-container,
+.ptx-content .warning mjx-container {
+  color: #FF8800 !important; /* Global Warning/Admonition (Orange) */
+  text-shadow: 
+    0 0 2px rgba(255, 136, 0, 0.7), 
+    0 0 8px rgba(255, 136, 0, 0.4);
+}
+
+.ptx-content .note mjx-container,
+.ptx-content .aside mjx-container {
+  color: #5E17EB !important; /* Node Color: GA/Note (Deep Purple) */
+  text-shadow: 
+    0 0 2px rgba(94, 23, 235, 0.7), 
+    0 0 8px rgba(94, 23, 235, 0.4);
+}
+
+/* Specific displaymath backgrounds within blocks to match theme */
+.ptx-content .definition-like .displaymath,
+.ptx-content .hint .displaymath {
+  background: rgba(0, 0, 0, 0.25) !important; /* Slightly darker for better contrast */
+  border-color: rgba(121, 82, 245, 0.3);
+}
+
+.ptx-content .assemblage-like .displaymath {
+  background: rgba(0, 0, 0, 0.45) !important; /* Extremely dark backdrop for assemblage contrast */
+  border-color: rgba(20, 181, 255, 0.3);
+}
+
+.ptx-content .theorem-like .displaymath,
+.ptx-content .proof .displaymath {
+  background: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(3, 139, 0, 0.25);
+}
+
+.ptx-content .solution .displaymath {
+  background: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(255, 102, 179, 0.3);
+}
+
+.ptx-content .remark-like .displaymath,
+.ptx-content .insight .displaymath,
+.ptx-content .warning .displaymath {
+  background: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(255, 136, 0, 0.3);
 }
 
 .ptx-content .assemblage-like:hover {
@@ -473,7 +570,7 @@
 
 /* 🟣 Purple Gradient: Assemblage */
 .ptx-content .assemblage-like .heading {
-  background-image: linear-gradient(130deg, #a855f7 0%, #8564f6 61.8%, #905df5 100%) !important;
+  background-image: linear-gradient(130deg, #14B5FF 0%, #8564f6 61.8%, #7952f5 100%) !important;
   font-size: var(--font-size-md) !important;
   margin-bottom: var(--space-md) !important;
   font-family: var(--font-aclonica), sans-serif !important;
@@ -496,7 +593,7 @@
   top: 0 !important;
   left: 0 !important;
   bottom: 0 !important;
-  background: linear-gradient(130deg, #a855f7 0%, #8564f6 61.8%, #905df5 100%) !important;
+  background: linear-gradient(130deg, #14B5FF 0%, #8564f6 61.8%, #7952f5 100%) !important;
 }
 
 .ptx-content .note::before,

@@ -364,14 +364,45 @@
 
 /* Math Content */
 .ptx-content .displaymath {
-  background: rgba(0, 155, 245, 0.05) !important;
-  border: 1px solid rgba(0, 176, 245, 0.2);
-  border-radius: 8px;
-  padding: 1.5rem !important;
-  margin: 1.5rem 0 !important;
+  background: rgba(0, 0, 0, 0.2) !important; /* Darker background for contrast */
+  border: 1px solid rgba(0, 176, 245, 0.25); /* Subtle border */
+  border-radius: var(--radius-md);
+  padding: var(--space-xl) !important;
+  margin: var(--space-xl) 0 !important;
   overflow-x: auto;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(2px); /* Subtle glass effect */
+}
+
+.ptx-content .displaymath:hover {
+  background: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(0, 176, 245, 0.4);
+  box-shadow: 0 0 15px rgba(20, 181, 255, 0.1);
 }
 
 .ptx-content mjx-container {
   color: var(--color-math) !important;
+  font-size: 1.05em; /* Subtle boost for readability */
+  text-shadow: 
+    0 0 2px rgba(0, 232, 255, 0.7), 
+    0 0 8px rgba(0, 232, 255, 0.4); /* Aligned vibrant glow */
+  letter-spacing: 0.015em; /* Slightly increased for clarity */
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Golden Ratio Spacing for Math */
+.ptx-content mjx-container[display="true"] {
+  margin-top: var(--space-xl) !important;
+  margin-bottom: var(--space-xl) !important;
+}
+
+.ptx-content .displaymath mjx-container {
+  padding: var(--space-md) 0 !important;
+}
+
+/* Inline Math */
+.ptx-content m mjx-container,
+.ptx-content .mjx-chtml.m mjx-container {
+  padding: 0 0.1em;
 }

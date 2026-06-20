@@ -7,8 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="linear-regression subsubsection added, section still incomplete, but not as incomplete as before. still need to finish the normal equation page (see Linear Algebra 2 cheat sheet in notability app).">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/theme-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/theme-variables.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +46,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000027528365214" />
-      <entry key="MS500" value="1.1317581229057532" />
-      <entry key="S2" value="3.403041087008121" />
-      <entry key="S5" value="8.054628761612662" />
-      <entry key="S10" value="14.720543669528105" />
-      <entry key="S30" value="31.104011794727754" />
-      <entry key="S60" value="40.43300587328421" />
-      <entry key="M2" value="49.22718394485443" />
-      <entry key="M5" value="74.57300977227898" />
-      <entry key="M10" value="120.85405946906742" />
-      <entry key="M15" value="168.56401718610581" />
-      <entry key="M30" value="303.3655653378618" />
-      <entry key="H1" value="494.27115383599113" />
-      <entry key="H2" value="679.1268621245464" />
-      <entry key="H4" value="828.2925345089064" />
-      <entry key="D1" value="5739.527921796192" />
-      <entry key="W1" value="20578.133008455887" />
+      <entry key="MS100" value="1.0410037374081222" />
+      <entry key="MS500" value="1.8927996274531735" />
+      <entry key="S2" value="4.331391151169079" />
+      <entry key="S5" value="6.17189098898269" />
+      <entry key="S10" value="7.445747876330641" />
+      <entry key="S30" value="8.906637297469988" />
+      <entry key="S60" value="9.469294672571516" />
+      <entry key="M2" value="10.883705389089824" />
+      <entry key="M5" value="17.266499244682056" />
+      <entry key="M10" value="23.58597078683941" />
+      <entry key="M15" value="27.617450036339662" />
+      <entry key="M30" value="53.810270480451564" />
+      <entry key="H1" value="169.9276765355645" />
+      <entry key="H2" value="391.7597780667059" />
+      <entry key="H4" value="635.7541219579668" />
+      <entry key="D1" value="5476.212294804367" />
+      <entry key="W1" value="20456.862872810147" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,34 +73,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="4.3974134698937684E-139" />
-      <entry key="M10" value="6.631304948892592E-70" />
-      <entry key="M15" value="7.605344849508318E-47" />
-      <entry key="M30" value="8.945663075665753E-24" />
-      <entry key="H1" value="4.36130206499459E-12" />
-      <entry key="H2" value="5.889175600603123E-6" />
-      <entry key="H4" value="0.00987737196506104" />
-      <entry key="D1" value="13.214813339476116" />
-      <entry key="W1" value="58.79614352270483" />
+      <entry key="M5" value="9.325009446688146E-146" />
+      <entry key="M10" value="3.053690295930664E-73" />
+      <entry key="M15" value="4.535267457878511E-49" />
+      <entry key="M30" value="6.908035066604347E-25" />
+      <entry key="H1" value="1.211956871139625E-12" />
+      <entry key="H2" value="3.1044881265733744E-6" />
+      <entry key="H4" value="0.00717148605745192" />
+      <entry key="D1" value="12.52820904293681" />
+      <entry key="W1" value="58.34968954395547" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659390437407992" />
-      <entry key="MS500" value="1.124403166846387" />
-      <entry key="S2" value="3.396100251749518" />
-      <entry key="S5" value="8.03491209918893" />
-      <entry key="S10" value="14.696357784199686" />
-      <entry key="S30" value="31.08335102019522" />
-      <entry key="S60" value="40.41840389038301" />
-      <entry key="M2" value="49.218244025295135" />
-      <entry key="M5" value="74.56868257394841" />
-      <entry key="M10" value="120.85124601246443" />
-      <entry key="M15" value="168.56161086751732" />
-      <entry key="M30" value="303.36366975045786" />
-      <entry key="H1" value="494.2698099266927" />
-      <entry key="H2" value="679.1260325985378" />
-      <entry key="H4" value="828.3019323222212" />
-      <entry key="D1" value="5752.741372943361" />
-      <entry key="W1" value="20636.92831676811" />
+      <entry key="MS100" value="1.026394869165845" />
+      <entry key="MS500" value="1.8866041334603352" />
+      <entry key="S2" value="4.327466061666051" />
+      <entry key="S5" value="6.169532282365479" />
+      <entry key="S10" value="7.444240787137447" />
+      <entry key="S30" value="8.905991250695696" />
+      <entry key="S60" value="9.46894311705432" />
+      <entry key="M2" value="10.883502270502845" />
+      <entry key="M5" value="17.266372544818186" />
+      <entry key="M10" value="23.58588402038896" />
+      <entry key="M15" value="27.617371457785737" />
+      <entry key="M30" value="53.81008755088647" />
+      <entry key="H1" value="169.92728351619863" />
+      <entry key="H2" value="391.7593306525176" />
+      <entry key="H4" value="635.7609401052081" />
+      <entry key="D1" value="5488.739211558786" />
+      <entry key="W1" value="20515.211733360706" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -162,14 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00053" summary="updating the preamble content">
-      <option name="closed" value="true" />
-      <created>1780405043305</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1780405043305</updated>
     </task>
     <task id="LOCAL-00054" summary="updating the preamble content">
       <option name="closed" value="true" />
@@ -555,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781951490590</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)">
+      <option name="closed" value="true" />
+      <created>1781957623897</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1781957623897</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed link and node styling," />
     <MESSAGE value="added @sec-formal-structures table-formal-statements.ptx" />
     <MESSAGE value="added all the nodes" />
     <MESSAGE value="updated pretext" />
@@ -598,6 +600,7 @@
     <MESSAGE value="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners" />
     <MESSAGE value="linear-regression subsection split into scalar arithmetic vs general derivation subsubsections. still need to create general derivation -&gt; want to connect to normal equation that was just created" />
     <MESSAGE value="linear-regression subsubsection added, section still incomplete, but not as incomplete as before. still need to finish the normal equation page (see Linear Algebra 2 cheat sheet in notability app)." />
-    <option name="LAST_COMMIT_MESSAGE" value="linear-regression subsubsection added, section still incomplete, but not as incomplete as before. still need to finish the normal equation page (see Linear Algebra 2 cheat sheet in notability app)." />
+    <MESSAGE value="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)" />
   </component>
 </project>
