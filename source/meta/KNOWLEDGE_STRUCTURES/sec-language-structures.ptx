@@ -13,33 +13,90 @@
       </p>
     </introduction>
 
-    <!-- Consist of vs. Comprise -->
-    <table xml:id="tab-patent-transitional-phrases">
+    <subsection xml:id="sub-patent-transitional-phrases">
         <title>Patent Claim Transitional Phrases</title>
         <introduction>
-            <p>
-                <tag>202606200001</tag> | <tag>patent claims</tag>
-            </p>
+           <p>
+              <tag>202606200001</tag> | <tag>patent claims</tag>
+           </p>
         </introduction>
-        <tabular bottom="minor" top="minor" left="minor" right="minor">
-            <row header="yes">
-                <cell>Phrase</cell>
-                <cell>Meaning</cell>
-                <cell>Additional Elements Permitted?</cell>
-                <cell>Examples</cell>
-            </row>
-
-            <row>
-                <cell><term>comprising</term></cell>
-                <cell>Open-ended; includes <em>at least</em> the listed elements.</cell>
-                <cell>Yes</cell>
-                <cell>A widget comprising A, B, and C may also contain D and E.</cell>
-            </row>
-        </tabular>
 
 
-    </table>
+        <table xml:id="tab-patent-transitional-phrases">
+            <title>Patent Claim Transitional Phrases</title>
 
+            <tabular bottom="minor" top="minor" left="minor" right="minor">
+                <row header="yes">
+                    <cell>Phrase</cell>
+                    <cell>Meaning</cell>
+                    <cell>Additional Elements Permitted?</cell>
+                    <cell>Examples</cell>
+                </row>
+
+                <row>
+                    <cell><term>comprising</term></cell>
+                    <cell>Open-ended; includes <em>at least</em> the listed elements.</cell>
+                    <cell>Yes</cell>
+                    <cell>A widget comprising A, B, and C may also contain D and E.</cell>
+                </row>
+
+                <row>
+                    <cell><term>consisting of</term></cell>
+                    <cell>Closed; limited to <em>exactly</em> the listed elements.</cell>
+                    <cell>No</cell>
+                    <cell>A widget consisting of A, B, and C excludes D and E.</cell>
+                </row>
+
+                <row>
+                    <cell><term>consisting essentially of</term></cell>
+                    <cell>Partially open; additional elements are allowed <em>if</em> they do not affect the invention.</cell>
+                    <cell>Sometimes</cell>
+                    <cell>A widget consisting essentially of A, B, and C may include minor additives that do no change its essential characteristics.</cell>
+                </row>
+            </tabular>
+
+
+        </table>
+
+        <paragraphs>
+            <title>Memory Aid</title>
+                <dl>
+
+                    <li>
+                        <title><term>Comprising</term></title>
+                        <p><m>A \subseteq X</m></p>
+                        <p>
+                            Corresponds with an <em>open</em> claim.
+                        </p>
+                        <p>
+                            Such claims set <em>minimum requirements</em>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <title><term>Consisting of</term></title>
+                        <p><m>A = X</m></p>
+                        <p>
+                            Corresponds with a <em>closed</em> claim.
+                        </p>
+                        <p>
+                            Such claims set <em>exact specifications</em>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <title><term>Consisting essentially of</term></title>
+                        <p><m>A \approx X</m></p>
+                        <p>
+                            Corresponds with a <em>semi-open</em> claim.
+                        </p>
+                    </li>
+
+                </dl>
+        </paragraphs>
+
+
+    </subsection>
 
 
 </section>

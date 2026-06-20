@@ -303,6 +303,17 @@
       "color": "#f5a623"
     },
     {
+      "id": "sub-patent-transitional-phrases",
+      "title": "Patent Claim Transitional Phrases",
+      "url": "sec-language-structures.html#sub-patent-transitional-phrases",
+      "tags": [
+        "patent claims"
+      ],
+      "description": "202606200001 | patent claims",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
       "id": "sec-reasoning-taxonomy",
       "title": "Reasoning Taxonomy",
       "url": "sec-reasoning-taxonomy.html",
