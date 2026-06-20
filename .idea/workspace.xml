@@ -7,9 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="wedge product diagram. still incomplete, but progress was made">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="minor latex equation tinkering for enhanced readability (problem isn't resolved, but can be improved later)">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/normal-equation.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/sec-linear-algebra.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/sec-linear-algebra.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +49,21 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0000000010020642" />
-      <entry key="H1" value="1.0005285148176866" />
-      <entry key="H2" value="1.4749086722297562" />
-      <entry key="H4" value="24.806101124540533" />
-      <entry key="D1" value="5118.625660247058" />
-      <entry key="W1" value="19786.410396337895" />
+      <entry key="S2" value="1.0000000000001568" />
+      <entry key="S5" value="1.0000153653127493" />
+      <entry key="S10" value="1.0076900597972396" />
+      <entry key="S30" value="1.566474186960987" />
+      <entry key="S60" value="3.241390128049598" />
+      <entry key="M2" value="9.456210403228724" />
+      <entry key="M5" value="36.735647845576416" />
+      <entry key="M10" value="83.15411002719893" />
+      <entry key="M15" value="129.11711445137502" />
+      <entry key="M30" value="240.1619577283126" />
+      <entry key="H1" value="358.2765975916264" />
+      <entry key="H2" value="448.85803795079886" />
+      <entry key="H4" value="523.826089575976" />
+      <entry key="D1" value="5478.399998467521" />
+      <entry key="W1" value="20243.214266170904" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -71,34 +74,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="1.0668487594395232E-130" />
-      <entry key="M10" value="1.032884539961298E-65" />
-      <entry key="M15" value="4.743374659453234E-44" />
-      <entry key="M30" value="2.234070099964774E-22" />
-      <entry key="H1" value="2.179507142475116E-11" />
-      <entry key="H2" value="1.3165142638403686E-5" />
-      <entry key="H4" value="0.014768178782387039" />
-      <entry key="D1" value="14.131077832737345" />
-      <entry key="W1" value="59.36193112492149" />
+      <entry key="M5" value="1.202138241128026E-135" />
+      <entry key="M10" value="3.4671893110503622E-68" />
+      <entry key="M15" value="1.063419487175497E-45" />
+      <entry key="M30" value="3.345071374542588E-23" />
+      <entry key="H1" value="8.433592117002316E-12" />
+      <entry key="H2" value="8.18941193402288E-6" />
+      <entry key="H4" value="0.011647709091339834" />
+      <entry key="D1" value="13.582953610800079" />
+      <entry key="W1" value="59.02739019469466" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9330329915368074" />
-      <entry key="MS500" value="0.9862327044933592" />
-      <entry key="S2" value="0.9965402628278678" />
-      <entry key="S5" value="0.9986146661010289" />
-      <entry key="S10" value="0.9993070929904525" />
-      <entry key="S30" value="0.9997689776295918" />
-      <entry key="S60" value="0.9998844821426083" />
-      <entry key="M2" value="0.9999422394031608" />
-      <entry key="M5" value="0.9999768953608976" />
-      <entry key="M10" value="0.99998844761372" />
-      <entry key="M15" value="0.9999922983943179" />
-      <entry key="M30" value="0.999996150191807" />
-      <entry key="H1" value="1.0005265889344372" />
-      <entry key="H2" value="1.4749206227292946" />
-      <entry key="H4" value="24.820857119875676" />
-      <entry key="D1" value="5132.755375092647" />
-      <entry key="W1" value="19845.771497093727" />
+      <entry key="MS100" value="0.9460576467255959" />
+      <entry key="MS500" value="0.9889709163809315" />
+      <entry key="S2" value="0.997231251352226" />
+      <entry key="S5" value="0.9989069343958032" />
+      <entry key="S10" value="1.0071330884852336" />
+      <entry key="S30" value="1.566225584500518" />
+      <entry key="S60" value="3.2411762691316035" />
+      <entry key="M2" value="9.455947044778421" />
+      <entry key="M5" value="36.73526079970814" />
+      <entry key="M10" value="83.15365592768171" />
+      <entry key="M15" value="129.11663522785716" />
+      <entry key="M30" value="240.16150804373365" />
+      <entry key="H1" value="358.2762634779108" />
+      <entry key="H2" value="448.85783775093984" />
+      <entry key="H4" value="523.8376111559617" />
+      <entry key="D1" value="5491.981620517722" />
+      <entry key="W1" value="20302.240827559745" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -109,43 +112,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/my_folder/USAGE-GUIDES&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.python.group.settings&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.python.group.settings",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA" />
       <recent name="$PROJECT_DIR$/my_folder/USAGE-GUIDES" />
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
       <recent name="$PROJECT_DIR$/source/backmatter" />
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS" />
       <recent name="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/FORMAL_STATEMENTS" />
       <recent name="$PROJECT_DIR$/my_folder" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -162,14 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00048" summary="mostly finished sectioning stylesheets">
-      <option name="closed" value="true" />
-      <created>1780398330930</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1780398330930</updated>
     </task>
     <task id="LOCAL-00049" summary="updating the preamble content">
       <option name="closed" value="true" />
@@ -555,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781877147062</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="minor latex equation tinkering for enhanced readability (problem isn't resolved, but can be improved later)">
+      <option name="closed" value="true" />
+      <created>1781943554476</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1781943554476</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed periodic-table.ptx" />
     <MESSAGE value="working on periodic-table widget (in assets folder)" />
     <MESSAGE value="fixed graph ui for now" />
     <MESSAGE value="included note id and tag alerts" />
@@ -598,6 +601,7 @@
     <MESSAGE value="stylesheet adjustments (golden ratio scaling and best practice color contrast)" />
     <MESSAGE value="updated note-like element gradient" />
     <MESSAGE value="wedge product diagram. still incomplete, but progress was made" />
-    <option name="LAST_COMMIT_MESSAGE" value="wedge product diagram. still incomplete, but progress was made" />
+    <MESSAGE value="minor latex equation tinkering for enhanced readability (problem isn't resolved, but can be improved later)" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor latex equation tinkering for enhanced readability (problem isn't resolved, but can be improved later)" />
   </component>
 </project>

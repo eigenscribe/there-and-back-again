@@ -78,6 +78,26 @@
       "color": "#9013fe"
     },
     {
+      "id": "subsec-normal-equation",
+      "title": "Normal Equation",
+      "url": "subsec-normal-equation.html",
+      "tags": [
+        "normal equation"
+      ],
+      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}.\n            Then the ...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-normal-equation",
+      "title": "Normal Equation",
+      "url": "subsec-normal-equation.html#def-normal-equation",
+      "tags": [],
+      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}.\n            Then the ...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-linear-algebra",
       "title": "Linear Algebra",
       "url": "sec-linear-algebra.html",
@@ -90,12 +110,24 @@
     },
     {
       "id": "subsec-linear-regression",
-      "title": "Linear Regression",
+      "title": "Linear Regression: :logo: Eigenscribe Notation & Derivation",
       "url": "subsec-linear-regression.html",
       "tags": [
+        "line of best fit",
         "linear regression"
       ],
-      "description": "Given \\vec{x}=\\left(x_1,x_2,\\ldots,x_n\\right) and \\vec{y}=\\left(y_1,y_2,\\ldots,y_n\\right), the\n          line of best...",
+      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right),\n                we ...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-best-fit-line",
+      "title": "Line of Best Fit",
+      "url": "subsec-linear-regression.html#def-best-fit-line",
+      "tags": [
+        "line of best fit"
+      ],
+      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right),\n                we ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -718,6 +750,12 @@
     }
   ],
   "links": [
+    {
+      "source": "def-best-fit-line",
+      "target": "def-normal-equation",
+      "type": "reference",
+      "weight": 2
+    },
     {
       "source": "sub-pretext-inline",
       "target": "sec-pretext-cheat-sheet",

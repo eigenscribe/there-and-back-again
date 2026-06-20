@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-normal-equation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Normal Equation</title>
+    <idx>normal equation</idx>
+
+
+    <definition xml:id="def-normal-equation">
+        <title>Normal Equation</title>
+
+        <p>
+            Let <m>\mathcal{V}\subseteq\mathbb{R}^n</m> be a vector space and <m>\mathcal{V}^\perp \perp \mathcal{V}</m>.
+            Then the <term> normal equation</term> of the linear system <m>\vec{A}\vec{x}=\vec{b}</m> is defined as:
+
+            <md>
+                A^T A \vec{x} = A^T \vec{b}
+            </md>
+
+            where we assume <m>A\in\mathbb{R}^{n\times k}</m> and <m>\vec{b}\in\mathbb{R}^n</m>.
+
+
+
+        </p>
+        <note>
+            <p>
+                The above framework used to define the normal equation implies that <em>if</em> a valid solution <m>\vec{x}</m> exists, it will be a <m>k\times 1</m>
+                column vector.
+            </p>
+        </note>
+
+
+    </definition>
+
+
+
+</subsection>
