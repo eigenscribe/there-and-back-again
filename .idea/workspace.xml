@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added a normal equation page to linear algebra section of mathematical foundations appendix and half-way through first round of polishing linear regression page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/theme-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/theme-variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners">
       <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,23 +43,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000291625482778" />
-      <entry key="MS500" value="1.1628031886448034" />
-      <entry key="S2" value="2.0375841344292294" />
-      <entry key="S5" value="2.5355081863883635" />
-      <entry key="S10" value="2.8163487629761255" />
-      <entry key="S30" value="3.950829613429628" />
-      <entry key="S60" value="5.6509139180241235" />
-      <entry key="M2" value="10.936376602406668" />
-      <entry key="M5" value="34.666403133315065" />
-      <entry key="M10" value="79.22664062994981" />
-      <entry key="M15" value="124.62921140079318" />
-      <entry key="M30" value="241.06174583164588" />
-      <entry key="H1" value="374.770236028546" />
-      <entry key="H2" value="482.81990545701126" />
-      <entry key="H4" value="570.2399577300358" />
-      <entry key="D1" value="5513.374635363783" />
-      <entry key="W1" value="20291.94066760205" />
+      <entry key="MS100" value="1.0000002178743959" />
+      <entry key="MS500" value="1.046646946764267" />
+      <entry key="S2" value="1.7077986958320825" />
+      <entry key="S5" value="3.1361733555072706" />
+      <entry key="S10" value="4.623903748524904" />
+      <entry key="S30" value="7.137436482652743" />
+      <entry key="S60" value="10.888914529978841" />
+      <entry key="M2" value="19.94426122953603" />
+      <entry key="M5" value="46.217077640788695" />
+      <entry key="M10" value="89.50393095540491" />
+      <entry key="M15" value="133.81050377445513" />
+      <entry key="M30" value="252.65534329213028" />
+      <entry key="H1" value="397.92576583481804" />
+      <entry key="H2" value="520.6364681339553" />
+      <entry key="H4" value="619.1266186084487" />
+      <entry key="D1" value="5553.342035029128" />
+      <entry key="W1" value="20343.807441979217" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -74,34 +70,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="2.6329027566358946E-136" />
-      <entry key="M10" value="1.6226234884611484E-68" />
-      <entry key="M15" value="6.410099192388614E-46" />
-      <entry key="M30" value="2.5970807704068848E-23" />
-      <entry key="H1" value="7.431091807044138E-12" />
-      <entry key="H2" value="7.68728060091612E-6" />
-      <entry key="H4" value="0.011284972986098863" />
-      <entry key="D1" value="13.511520325443584" />
-      <entry key="W1" value="58.98294315057033" />
+      <entry key="M5" value="7.152556553212256E-137" />
+      <entry key="M10" value="8.457285640699232E-69" />
+      <entry key="M15" value="4.151517857810537E-46" />
+      <entry key="M30" value="2.090049330949981E-23" />
+      <entry key="H1" value="6.66635085090919E-12" />
+      <entry key="H2" value="7.2809911641067625E-6" />
+      <entry key="H4" value="0.01098270728605014" />
+      <entry key="D1" value="13.450518713804962" />
+      <entry key="W1" value="58.94482714787184" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.3208620594375288" />
-      <entry key="MS500" value="0.8906358091479115" />
-      <entry key="S2" value="1.756762612043826" />
-      <entry key="S5" value="2.3523427949865514" />
-      <entry key="S10" value="2.7072272073122217" />
-      <entry key="S30" value="3.909738713856551" />
-      <entry key="S60" value="5.629646617876782" />
-      <entry key="M2" value="10.925327590663356" />
-      <entry key="M5" value="34.6614285346717" />
-      <entry key="M10" value="79.22376995747291" />
-      <entry key="M15" value="124.6270817543925" />
-      <entry key="M30" value="241.060434619508" />
-      <entry key="H1" value="374.76944853916734" />
-      <entry key="H2" value="482.8194677452164" />
-      <entry key="H4" value="570.2509947677013" />
-      <entry key="D1" value="5526.884810056258" />
-      <entry key="W1" value="20350.922779557146" />
+      <entry key="MS100" value="0.9659365393776396" />
+      <entry key="MS500" value="1.039417511887628" />
+      <entry key="S2" value="1.7049648237194959" />
+      <entry key="S5" value="3.1342600006287324" />
+      <entry key="S10" value="4.622518640858067" />
+      <entry key="S30" value="7.135101738270314" />
+      <entry key="S60" value="10.884814819693743" />
+      <entry key="M2" value="19.939672501955606" />
+      <entry key="M5" value="46.21307947967813" />
+      <entry key="M10" value="89.50087722219283" />
+      <entry key="M15" value="133.80802686990907" />
+      <entry key="M30" value="252.65370751151977" />
+      <entry key="H1" value="397.92476074937724" />
+      <entry key="H2" value="520.6359020921801" />
+      <entry key="H4" value="619.1372837458274" />
+      <entry key="D1" value="5566.791201396524" />
+      <entry key="W1" value="20402.751436639905" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -166,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00050" summary="updating the preamble content">
-      <option name="closed" value="true" />
-      <created>1780402154113</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1780402154123</updated>
     </task>
     <task id="LOCAL-00051" summary="updating the preamble content">
       <option name="closed" value="true" />
@@ -559,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781948211810</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners">
+      <option name="closed" value="true" />
+      <created>1781948875869</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1781948875869</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed graph ui for now" />
     <MESSAGE value="included note id and tag alerts" />
     <MESSAGE value="fixed 404 error in graph module" />
     <MESSAGE value="changed link and node styling," />
@@ -602,6 +597,7 @@
     <MESSAGE value="wedge product diagram. still incomplete, but progress was made" />
     <MESSAGE value="minor latex equation tinkering for enhanced readability (problem isn't resolved, but can be improved later)" />
     <MESSAGE value="added a normal equation page to linear algebra section of mathematical foundations appendix and half-way through first round of polishing linear regression page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a normal equation page to linear algebra section of mathematical foundations appendix and half-way through first round of polishing linear regression page" />
+    <MESSAGE value="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners" />
+    <option name="LAST_COMMIT_MESSAGE" value="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners" />
   </component>
 </project>

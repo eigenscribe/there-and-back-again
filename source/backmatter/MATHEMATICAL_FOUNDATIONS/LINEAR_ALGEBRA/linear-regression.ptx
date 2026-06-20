@@ -1,81 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="subsec-linear-regression" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Linear Regression: Scalar Arithmetic Notation &amp; Derivation</title>
+    <title>Linear Regression</title>
     <idx>linear regression</idx>
 
-    <!--
-      NOTE TO THE READER:
-      This section uses a specific visualization style (heavy underbracing) favored in Sofia's personal cheat sheets for
-      rapid pattern matching. While standard texts often separate the matrix form from the scalar expansion, this format
-      explicitly links the two steps for cognitive efficiency.
-    -->
+    <subsubsection xml:id="subsubsec-linear-regression-scalar-arithmetic-notation">
+        <title>Scalar Arithmetic Notation &amp; Derivation</title>
 
-    <definition xml:id="def-best-fit-line">
-        <title>Line of Best Fit</title>
-        <idx>line of best fit</idx>
-        <statement>
-            <p>
-                Given <em>data vectors</em> <m>\vec{x}=\left(x_1, \dots, x_n\right)</m> and <m>\vec{y}=\left(y_1, \dots, y_n\right)</m>,
-                we seek the <term>line of best fit</term>: <md>y=mx+b \, .</md>
-            </p>
-            <p>
-                The following derivation of this line proceeds via the <xref ref="def-normal-equation" text="normal equation" />, visualized below as
-                a single 'logical chain' of matrix operations:
-            </p>
-            <md>
-                \underbrace{
-                    \begin{bmatrix}
-                        x_1 &amp; x_2 &amp; \dots &amp; x_n \\
-                        1   &amp; 1   &amp; \dots &amp; 1   \\
-                    \end{bmatrix}
-                    \begin{bmatrix}
-                        x_1 &amp; 1 \\
-                        x_2 &amp; 1 \\
-                        \vdots &amp; \vdots \\
-                        x_n &amp; 1
-                    \end{bmatrix}
-                }_{
-                    \begin{bmatrix}
-                        s_2 &amp; s_1 \\
-                        s_1 &amp; n
-                    \end{bmatrix}
-                }
-                \begin{bmatrix}
-                    m \\
-                    b
-                \end{bmatrix}
-                =
-                \underbrace{
-                    \begin{bmatrix}
-                        x_1 &amp; x_2 &amp; \dots &amp; x_n \\
-                        1   &amp; 1   &amp; \dots &amp; 1
-                    \end{bmatrix}
-                    \begin{bmatrix}
-                        y_1 \\
-                        y_2 \\
-                        \vdots \\
-                        y_n
-                    \end{bmatrix}
-                }_{
-                    \begin{bmatrix}
-                    c_{xy} \\
-                    c_y
-                    \end{bmatrix}
-                } \, .
-            </md>
-            <p>
-                 Here, the scalar sums are defined as:
-                 <md math="display">
-                   s_1 = \sum_{i=1}^n x_i \, , \quad
-                    s_2 = \sum_{i=1}^n x_i^2 \, , \quad
-                    c_{xy} = \sum_{i=1}^n x_i y_i \, , \quad
-                    c_y = \sum_{i=1}^n y_i
-                 </md>
-            </p>
-        </statement>
-    </definition>
+        <!--
+          NOTE TO THE READER:
+          This section uses a specific visualization style (heavy underbracing) favored in Sofia's personal cheat sheets for
+          rapid pattern matching. While standard texts often separate the matrix form from the scalar expansion, this format
+          explicitly links the two steps for cognitive efficiency.
+        -->
 
+        <definition xml:id="def-best-fit-line">
+            <title>Line of Best Fit</title>
+            <idx>line of best fit</idx>
+            <statement>
+                <p>
+                    Given <em>data vectors</em> <m>\vec{x}=\left(x_1, \dots, x_n\right)</m> and <m>\vec{y}=\left(y_1, \dots, y_n\right)</m>,
+                    we seek the <term>line of best fit</term>: <md>y=mx+b \, .</md>
+                </p>
+                <p>
+                    The following derivation of this line is visualized below as
+                    a single 'logical chain' of matrix operations:
+                </p>
+                <md>
+                    \underbrace{
+                        \begin{bmatrix}
+                            x_1 &amp; x_2 &amp; \dots &amp; x_n \\
+                            1   &amp; 1   &amp; \dots &amp; 1   \\
+                        \end{bmatrix}
+                        \begin{bmatrix}
+                            x_1 &amp; 1 \\
+                            x_2 &amp; 1 \\
+                            \vdots &amp; \vdots \\
+                            x_n &amp; 1
+                        \end{bmatrix}
+                    }_{
+                        \begin{bmatrix}
+                            s_2 &amp; s_1 \\
+                            s_1 &amp; n
+                        \end{bmatrix}
+                    }
+                    \begin{bmatrix}
+                        m \\
+                        b
+                    \end{bmatrix}
+                    =
+                    \underbrace{
+                        \begin{bmatrix}
+                            x_1 &amp; x_2 &amp; \dots &amp; x_n \\
+                            1   &amp; 1   &amp; \dots &amp; 1
+                        \end{bmatrix}
+                        \begin{bmatrix}
+                            y_1 \\
+                            y_2 \\
+                            \vdots \\
+                            y_n
+                        \end{bmatrix}
+                    }_{
+                        \begin{bmatrix}
+                        c_{xy} \\
+                        c_y
+                        \end{bmatrix}
+                    } \, .
+                </md>
+                <p>
+                     Here, the scalar sums are defined as:
+                     <md math="display">
+                       s_1 = \sum_{i=1}^n x_i \, , \quad
+                        s_2 = \sum_{i=1}^n x_i^2 \, , \quad
+                        c_{xy} = \sum_{i=1}^n x_i y_i \, , \quad
+                        c_y = \sum_{i=1}^n y_i
+                     </md>
+                </p>
+            </statement>
+        </definition>
+    </subsubsection>
 
 
 

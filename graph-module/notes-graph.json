@@ -110,13 +110,13 @@
     },
     {
       "id": "subsec-linear-regression",
-      "title": "Linear Regression: Scalar Arithmetic Notation & Derivation",
+      "title": "Linear Regression",
       "url": "subsec-linear-regression.html",
       "tags": [
         "line of best fit",
         "linear regression"
       ],
-      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right),\n                we ...",
+      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right),\n                   ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -127,7 +127,7 @@
       "tags": [
         "line of best fit"
       ],
-      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right),\n                we ...",
+      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right),\n                   ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -750,12 +750,6 @@
     }
   ],
   "links": [
-    {
-      "source": "def-best-fit-line",
-      "target": "def-normal-equation",
-      "type": "reference",
-      "weight": 2
-    },
     {
       "source": "sub-pretext-inline",
       "target": "sec-pretext-cheat-sheet",
