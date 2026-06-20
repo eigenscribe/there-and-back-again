@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="subsec-linear-regression" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Linear Regression: :logo: Eigenscribe Notation &amp; Derivation</title>
+    <title>Linear Regression: Scalar Arithmetic Notation &amp; Derivation</title>
     <idx>linear regression</idx>
 
     <!--

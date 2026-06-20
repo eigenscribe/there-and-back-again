@@ -23,6 +23,7 @@ html.dark-mode {
   --secondary-color-light: #9b7dff !important;
   --secondary-color: #9b7dff !important;
   --secondary-color-dark: #4c48f2 !important;
+  --secondary-color-darker: #332288 !important; /* Golden ratio influenced darker purple */
 
   --tertiary-color-light: rgba(112, 224, 0, 1.0 ) !important;
   --tertiary-color-medium: #38b000 !important;
