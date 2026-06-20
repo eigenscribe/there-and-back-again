@@ -7,11 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="mat text adjusted to match callout. fixed the assemblage block styling finally">
+      <change afterPath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/sec-language-structures.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/theme-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/theme-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/ch-knowledge-structures.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/ch-knowledge-structures.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +46,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0410037374081222" />
-      <entry key="MS500" value="1.8927996274531735" />
-      <entry key="S2" value="4.331391151169079" />
-      <entry key="S5" value="6.17189098898269" />
-      <entry key="S10" value="7.445747876330641" />
-      <entry key="S30" value="8.906637297469988" />
-      <entry key="S60" value="9.469294672571516" />
-      <entry key="M2" value="10.883705389089824" />
-      <entry key="M5" value="17.266499244682056" />
-      <entry key="M10" value="23.58597078683941" />
-      <entry key="M15" value="27.617450036339662" />
-      <entry key="M30" value="53.810270480451564" />
-      <entry key="H1" value="169.9276765355645" />
-      <entry key="H2" value="391.7597780667059" />
-      <entry key="H4" value="635.7541219579668" />
-      <entry key="D1" value="5476.212294804367" />
-      <entry key="W1" value="20456.862872810147" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.000003891942899" />
+      <entry key="S60" value="1.0130243676967714" />
+      <entry key="M2" value="1.9676619427849436" />
+      <entry key="M5" value="20.77172226212646" />
+      <entry key="M10" value="82.83614321027434" />
+      <entry key="M15" value="151.58091724758341" />
+      <entry key="M30" value="309.54788553291576" />
+      <entry key="H1" value="487.770612054733" />
+      <entry key="H2" value="727.2883050099138" />
+      <entry key="H4" value="1040.0230575053556" />
+      <entry key="D1" value="5773.548528098548" />
+      <entry key="W1" value="20948.494105274694" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -73,34 +73,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="9.325009446688146E-146" />
-      <entry key="M10" value="3.053690295930664E-73" />
-      <entry key="M15" value="4.535267457878511E-49" />
-      <entry key="M30" value="6.908035066604347E-25" />
-      <entry key="H1" value="1.211956871139625E-12" />
-      <entry key="H2" value="3.1044881265733744E-6" />
-      <entry key="H4" value="0.00717148605745192" />
-      <entry key="D1" value="12.52820904293681" />
-      <entry key="W1" value="58.34968954395547" />
+      <entry key="M5" value="2.0578170246871478E-155" />
+      <entry key="M10" value="4.536320457947766E-78" />
+      <entry key="M15" value="2.7406614783990083E-52" />
+      <entry key="M30" value="1.698168494755998E-26" />
+      <entry key="H1" value="1.90020426355274E-13" />
+      <entry key="H2" value="1.2292679669886807E-6" />
+      <entry key="H4" value="0.004512710143116568" />
+      <entry key="D1" value="11.597392923170995" />
+      <entry key="W1" value="57.70969072112897" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.026394869165845" />
-      <entry key="MS500" value="1.8866041334603352" />
-      <entry key="S2" value="4.327466061666051" />
-      <entry key="S5" value="6.169532282365479" />
-      <entry key="S10" value="7.444240787137447" />
-      <entry key="S30" value="8.905991250695696" />
-      <entry key="S60" value="9.46894311705432" />
-      <entry key="M2" value="10.883502270502845" />
-      <entry key="M5" value="17.266372544818186" />
-      <entry key="M10" value="23.58588402038896" />
-      <entry key="M15" value="27.617371457785737" />
-      <entry key="M30" value="53.81008755088647" />
-      <entry key="H1" value="169.92728351619863" />
-      <entry key="H2" value="391.7593306525176" />
-      <entry key="H4" value="635.7609401052081" />
-      <entry key="D1" value="5488.739211558786" />
-      <entry key="W1" value="20515.211733360706" />
+      <entry key="MS100" value="0.9526379980439373" />
+      <entry key="MS500" value="0.9903428719330246" />
+      <entry key="S2" value="0.9975769252644544" />
+      <entry key="S5" value="0.9990300646389034" />
+      <entry key="S10" value="0.9995149146655609" />
+      <entry key="S30" value="0.9998421702430847" />
+      <entry key="S60" value="1.0129427680302543" />
+      <entry key="M2" value="1.9675939338673378" />
+      <entry key="M5" value="20.77147564166121" />
+      <entry key="M10" value="82.83564729850109" />
+      <entry key="M15" value="151.58031037635342" />
+      <entry key="M30" value="309.54726547359127" />
+      <entry key="H1" value="487.770092391961" />
+      <entry key="H2" value="727.2878449306327" />
+      <entry key="H4" value="1040.0271900994924" />
+      <entry key="D1" value="5785.144695892009" />
+      <entry key="W1" value="21006.20297190598" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -165,14 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00054" summary="updating the preamble content">
-      <option name="closed" value="true" />
-      <created>1780407703416</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1780407703416</updated>
     </task>
     <task id="LOCAL-00055" summary="updating the preamble content">
       <option name="closed" value="true" />
@@ -558,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781957623897</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="mat text adjusted to match callout. fixed the assemblage block styling finally">
+      <option name="closed" value="true" />
+      <created>1781959510365</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1781959510365</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added @sec-formal-structures table-formal-statements.ptx" />
     <MESSAGE value="added all the nodes" />
     <MESSAGE value="updated pretext" />
     <MESSAGE value="updated node color gradients" />
@@ -601,6 +600,7 @@
     <MESSAGE value="linear-regression subsection split into scalar arithmetic vs general derivation subsubsections. still need to create general derivation -&gt; want to connect to normal equation that was just created" />
     <MESSAGE value="linear-regression subsubsection added, section still incomplete, but not as incomplete as before. still need to finish the normal equation page (see Linear Algebra 2 cheat sheet in notability app)." />
     <MESSAGE value="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)" />
+    <MESSAGE value="mat text adjusted to match callout. fixed the assemblage block styling finally" />
+    <option name="LAST_COMMIT_MESSAGE" value="mat text adjusted to match callout. fixed the assemblage block styling finally" />
   </component>
 </project>

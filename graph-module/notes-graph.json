@@ -263,8 +263,21 @@
       "id": "ch-knowledge-structures",
       "title": "Knowledge Structures",
       "url": "ch-knowledge-structures.html",
+      "tags": [
+        "formal statements",
+        "language structures",
+        "reasoning structures"
+      ],
+      "description": "The sections in this chapter collect recurring patterns that help organize, communicate, and reason about\n        kno...",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sec-language-structures",
+      "title": "Language Structures & English Grammar",
+      "url": "sec-language-structures.html",
       "tags": [],
-      "description": "",
+      "description": "As with the other the sections of the Knowledge Structures chapter, the priority is not exhaustive documentation of\n ...",
       "group": "meta",
       "color": "#f5a623"
     },

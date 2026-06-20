@@ -3,10 +3,65 @@
 <chapter xml:id="ch-knowledge-structures" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Knowledge Structures</title>
   <introduction>
-    
+      <p>
+        The sections in this chapter collect recurring patterns that help organize, communicate, and reason about
+        knowledge structures that are used in mathematics, science, and technical communication.
+      </p>
+      <p>
+        Like most of the content in this Zettelkasten (particularly during this initial brain dump/PreTeXt learning curve phase),
+        rather than focusing on any particular subject, these sections focus on teh forms through which knowledge is express, justified,
+        and communicated.
+      </p>
+      <p>
+          Currently, the topics fall into three broad categories:
+              <dl>
+                  <li>
+                    <title><em>Formal Statements</em></title>
+                    <idx>formal statements</idx>
+                    <p>
+                      What kind of claim is being made?
+                    </p>
+                  </li>
+
+                  <li>
+                    <title><em>Reasoning Structures</em></title>
+                    <idx>reasoning structures</idx>
+                    <p>
+                      How is the claim justified?
+                    </p>
+                  </li>
+
+                  <li>
+                    <title><em>Language Structures</em></title>
+                    <idx>language structures</idx>
+                    <p>
+                      How is the claim communicated?
+                    </p>
+                  </li>
+
+              </dl>
+      </p>
+      <warning>
+
+      </warning>
+      <remark>
+          <p>
+            Knowledge does not only exist in facts, results, and grand ideas. It not only exists, but cannot persist without
+            effective communication. This chapter collects notes on those reoccurring structures as Eigenscribe Inc.-related projects
+            evolve.
+          </p>
+          <p>
+            While the sections in this chapter aim to be consistent with common conventions as much as possible, they are
+            intended to be used as organizational guides rather than a comprehensive reference manual of technical terms.
+            As this chapter evolves, additional sections that have practical applications in enhancing understanding,
+            creating/brainstorming new ideas/applications, or increasing effective communication of scientific knowledge for
+            :logo: Eigenscribe Inc. will be added.
+          </p>
+      </remark>
   </introduction>
 
   <xi:include href="FORMAL_STATEMENTS/sec-formal-statements.ptx" />
   <xi:include href="sec-reasoning-taxonomy.ptx" />
+  <xi:include href="sec-language-structures.ptx" />
 
 </chapter>
