@@ -7,11 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="mat text adjusted to match callout. fixed the assemblage block styling finally">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/sec-language-structures.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/sec-language-structures.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +42,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.7760889952866814" />
-      <entry key="MS500" value="5.881496321418646" />
-      <entry key="S2" value="18.439440618900722" />
-      <entry key="S5" value="33.4636456178373" />
-      <entry key="S10" value="50.889441854538724" />
-      <entry key="S30" value="89.63883756593418" />
-      <entry key="S60" value="110.27434107921232" />
-      <entry key="M2" value="124.49395729219935" />
-      <entry key="M5" value="150.94949667453454" />
-      <entry key="M10" value="214.1937408501638" />
-      <entry key="M15" value="283.10822643615376" />
-      <entry key="M30" value="442.07111520595504" />
-      <entry key="H1" value="621.983080451873" />
-      <entry key="H2" value="862.8552907293172" />
-      <entry key="H4" value="1176.628810048166" />
-      <entry key="D1" value="5910.4424697113955" />
-      <entry key="W1" value="21086.411458842944" />
+      <entry key="MS100" value="1.0000169200491602" />
+      <entry key="MS500" value="1.1584532774369083" />
+      <entry key="S2" value="2.3240893826153513" />
+      <entry key="S5" value="3.458033137018" />
+      <entry key="S10" value="4.2201412898619335" />
+      <entry key="S30" value="7.781053288207313" />
+      <entry key="S60" value="18.993104213994137" />
+      <entry key="M2" value="44.99730859157185" />
+      <entry key="M5" value="95.06478015120001" />
+      <entry key="M10" value="152.04087877687044" />
+      <entry key="M15" value="212.18979452328983" />
+      <entry key="M30" value="385.18340468260016" />
+      <entry key="H1" value="620.8950700112117" />
+      <entry key="H2" value="917.8221135987591" />
+      <entry key="H4" value="1278.0947815576128" />
+      <entry key="D1" value="6030.063119359681" />
+      <entry key="W1" value="21249.931967331773" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,34 +69,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="1.854822810624663E-155" />
-      <entry key="M10" value="4.3067688463983867E-78" />
-      <entry key="M15" value="2.6474064321022963E-52" />
-      <entry key="M30" value="1.6690271117328789E-26" />
-      <entry key="H1" value="1.8838295031905444E-13" />
-      <entry key="H2" value="1.2239599794978206E-6" />
-      <entry key="H4" value="0.004502956646174656" />
-      <entry key="D1" value="11.59321150615436" />
-      <entry key="W1" value="57.706717816789805" />
+      <entry key="M5" value="2.420185389237661E-157" />
+      <entry key="M10" value="4.919541926099466E-79" />
+      <entry key="M15" value="6.232601432990332E-53" />
+      <entry key="M30" value="8.098186218523732E-27" />
+      <entry key="H1" value="1.312211314425136E-13" />
+      <entry key="H2" value="1.0215233768584395E-6" />
+      <entry key="H4" value="0.004113753943538988" />
+      <entry key="D1" value="11.419853086349748" />
+      <entry key="W1" value="57.58264697265264" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.715847807453607" />
-      <entry key="MS500" value="5.840482708686192" />
-      <entry key="S2" value="18.403634650439848" />
-      <entry key="S5" value="33.43725926211863" />
-      <entry key="S10" value="50.86904778316774" />
-      <entry key="S30" value="89.62644096312248" />
-      <entry key="S60" value="110.26661651956911" />
-      <entry key="M2" value="124.48957152133615" />
-      <entry key="M5" value="150.94740274587036" />
-      <entry key="M10" value="214.19230932687265" />
-      <entry key="M15" value="283.1069940685815" />
-      <entry key="M30" value="442.0701798394926" />
-      <entry key="H1" value="621.982401567719" />
-      <entry key="H2" value="862.854750604602" />
-      <entry key="H4" value="1176.632892648647" />
-      <entry key="D1" value="5922.03444967958" />
-      <entry key="W1" value="21144.11735163358" />
+      <entry key="MS100" value="0.9659527877993402" />
+      <entry key="MS500" value="1.1507347940183563" />
+      <entry key="S2" value="2.320701851026594" />
+      <entry key="S5" value="3.456086023054359" />
+      <entry key="S10" value="4.218939540717289" />
+      <entry key="S30" value="7.779878107733297" />
+      <entry key="S60" value="18.991150060750723" />
+      <entry key="M2" value="44.99474452959294" />
+      <entry key="M5" value="95.06251966694128" />
+      <entry key="M10" value="152.03907646454257" />
+      <entry key="M15" value="212.18818705918727" />
+      <entry key="M30" value="385.1821095417632" />
+      <entry key="H1" value="620.8941081479948" />
+      <entry key="H2" value="917.8213970806348" />
+      <entry key="H4" value="1278.09837248105" />
+      <entry key="D1" value="6041.481735303837" />
+      <entry key="W1" value="21307.51378759817" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -162,14 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00055" summary="updating the preamble content">
-      <option name="closed" value="true" />
-      <created>1780408210969</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1780408210969</updated>
     </task>
     <task id="LOCAL-00056" summary="added a widgets folder in assets directory and started working on a periodic table widget">
       <option name="closed" value="true" />
@@ -555,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781959510365</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling">
+      <option name="closed" value="true" />
+      <created>1781974974240</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1781974974240</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added all the nodes" />
     <MESSAGE value="updated pretext" />
     <MESSAGE value="updated node color gradients" />
     <MESSAGE value="updated node colors" />
@@ -598,6 +596,7 @@
     <MESSAGE value="linear-regression subsubsection added, section still incomplete, but not as incomplete as before. still need to finish the normal equation page (see Linear Algebra 2 cheat sheet in notability app)." />
     <MESSAGE value="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)" />
     <MESSAGE value="mat text adjusted to match callout. fixed the assemblage block styling finally" />
-    <option name="LAST_COMMIT_MESSAGE" value="mat text adjusted to match callout. fixed the assemblage block styling finally" />
+    <MESSAGE value="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling" />
   </component>
 </project>
