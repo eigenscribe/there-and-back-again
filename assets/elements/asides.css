@@ -335,10 +335,10 @@
   background: linear-gradient(to bottom, #039600, 61.8%, #209d20) !important;
 }
 
-/* 🟦 Blue-Purple Gradient: Solutions */
+/* 🟦 Pink Gradient: Solutions */
 .ptx-content .solution .heading,
 .ptx-content .solution summary.knowl__link {
-  background-image: linear-gradient(130deg, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
+  background-image: var(--gradient-pink) !important;
   font-family: 'Aclonica', sans-serif !important;
   font-size: 1rem !important;
   letter-spacing: 0.02em;
@@ -351,7 +351,7 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
+  background: var(--gradient-pink) !important;
 }
 .ptx-content .solution summary.knowl__link {
   -webkit-background-clip: text !important;
