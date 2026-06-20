@@ -4,7 +4,7 @@
 set -e
 
 # Check if running on Windows (Git Bash/WSL) and if a PowerShell script exists
-if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" || "$OSTYPE" == "win32" ]]; then
   if [ -f "build.ps1" ]; then
     echo "🪟 Windows detected. Running build.ps1 via PowerShell..."
     powershell.exe -ExecutionPolicy Bypass -File build.ps1
@@ -14,7 +14,11 @@ fi
 
 # Activate virtual environment if it exists
 if [ -d ".venv" ]; then
-  source .venv/bin/activate
+  if [ -f ".venv/bin/activate" ]; then
+    source .venv/bin/activate
+  elif [ -f ".venv/Scripts/activate" ]; then
+    source .venv/Scripts/activate
+  fi
 fi
 
 
@@ -28,7 +32,13 @@ rm -rf output/web/
 
 # Build the PreTeXt project
 echo "Building PreTeXt project..."
-pretext build web
+if command -v pretext >/dev/null 2>&1; then
+  pretext build web
+elif python3 -m pretext --version >/dev/null 2>&1; then
+  python3 -m pretext build web
+else
+  python -m pretext build web
+fi
 
 # 🚨 CRITICAL CHECK
 if [ ! -d "output/web" ]; then

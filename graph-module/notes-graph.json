@@ -11,6 +11,15 @@
       "color": "#a0a0a0"
     },
     {
+      "id": "app-computational-methods",
+      "title": "Computational Methods",
+      "url": "app-computational-methods.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "app-reference",
       "title": "Empirical Foundations",
       "url": "app-reference.html",
@@ -29,11 +38,11 @@
       "color": "#9013fe"
     },
     {
-      "id": "app-computational-methods",
-      "title": "Computational Methods",
-      "url": "app-computational-methods.html",
+      "id": "app-geometric-algebra",
+      "title": "Geometric Algebra",
+      "url": "app-geometric-algebra.html",
       "tags": [],
-      "description": "",
+      "description": "Geometric algebra provides simple formulations and unique insight for many different physical processes.",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -47,11 +56,22 @@
       "color": "#9013fe"
     },
     {
-      "id": "app-geometric-algebra",
-      "title": "Geometric Algebra",
-      "url": "app-geometric-algebra.html",
+      "id": "sec-ga-hodge-dual",
+      "title": "Hodge Dual",
+      "url": "sec-ga-hodge-dual.html",
+      "tags": [
+        "hodge dual"
+      ],
+      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "ga-hodge-dual-3D",
+      "title": "The Cross Product as a Dual Wedge Product",
+      "url": "sec-ga-hodge-dual.html#ga-hodge-dual-3D",
       "tags": [],
-      "description": "Geometric algebra provides simple formulations and unique insight for many different physical processes.",
+      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -78,33 +98,32 @@
       "color": "#9013fe"
     },
     {
-      "id": "subsec-normal-equation",
-      "title": "Normal Equation",
-      "url": "subsec-normal-equation.html",
-      "tags": [
-        "normal equation"
-      ],
-      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}.\n            Then the ...",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "def-normal-equation",
-      "title": "Normal Equation",
-      "url": "subsec-normal-equation.html#def-normal-equation",
+      "id": "subsec-periodic-table",
+      "title": "Periodic Table of Elements",
+      "url": "subsec-periodic-table.html",
       "tags": [],
-      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}.\n            Then the ...",
+      "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "sec-linear-algebra",
-      "title": "Linear Algebra",
-      "url": "sec-linear-algebra.html",
+      "id": "subsec-hypotheses",
+      "title": "Hypotheses",
+      "url": "subsec-hypotheses.html",
       "tags": [
-        "linear algebra"
+        "type i error",
+        "type ii error"
       ],
-      "description": "",
+      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-hypothesis",
+      "title": "Hypothesis",
+      "url": "subsec-hypotheses.html#def-hypothesis",
+      "tags": [],
+      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -142,54 +161,84 @@
       "color": "#9013fe"
     },
     {
-      "id": "subsec-hypotheses",
-      "title": "Hypotheses",
-      "url": "subsec-hypotheses.html",
+      "id": "subsec-normal-equation",
+      "title": "Normal Equation",
+      "url": "subsec-normal-equation.html",
       "tags": [
-        "type i error",
-        "type ii error"
+        "normal equation"
       ],
-      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
+      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}.\n            Then the ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "def-hypothesis",
-      "title": "Hypothesis",
-      "url": "subsec-hypotheses.html#def-hypothesis",
+      "id": "def-normal-equation",
+      "title": "Normal Equation",
+      "url": "subsec-normal-equation.html#def-normal-equation",
       "tags": [],
-      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
+      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}.\n            Then the ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "subsec-periodic-table",
-      "title": "Periodic Table of Elements",
-      "url": "subsec-periodic-table.html",
-      "tags": [],
+      "id": "sec-linear-algebra",
+      "title": "Linear Algebra",
+      "url": "sec-linear-algebra.html",
+      "tags": [
+        "linear algebra"
+      ],
       "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "sec-ga-hodge-dual",
-      "title": "Hodge Dual",
-      "url": "sec-ga-hodge-dual.html",
-      "tags": [
-        "hodge dual"
-      ],
-      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
-      "group": "backmatter",
-      "color": "#9013fe"
+      "id": "ch-cheat-sheets",
+      "title": "My Cheat Sheets",
+      "url": "ch-cheat-sheets.html",
+      "tags": [],
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
-      "id": "ga-hodge-dual-3D",
-      "title": "The Cross Product as a Dual Wedge Product",
-      "url": "sec-ga-hodge-dual.html#ga-hodge-dual-3D",
+      "id": "sec-git",
+      "title": "Terminal Cheat Sheet",
+      "url": "sec-git.html",
+      "tags": [
+        "bash",
+        "git",
+        "terminal"
+      ],
+      "description": "Multiline version (safter, less likely to accidentally earase local changes):",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sub-git-local-reset",
+      "title": "Local Git Reset",
+      "url": "sec-git.html#sub-git-local-reset",
       "tags": [],
-      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
-      "group": "backmatter",
-      "color": "#9013fe"
+      "description": "Multiline version (safter, less likely to accidentally earase local changes):",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sub-pip-update-requirements",
+      "title": "Update pip requirements.txt",
+      "url": "sec-git.html#sub-pip-update-requirements",
+      "tags": [],
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "ch-gold-standards",
+      "title": "Gold Standards",
+      "url": "ch-gold-standards.html",
+      "tags": [],
+      "description": "Gold standard boilerplates and polishing guidelines. This is useful for both myself and giving to LLMs during develop...",
+      "group": "meta",
+      "color": "#f5a623"
     },
     {
       "id": "sec-python-gold-standards",
@@ -230,11 +279,24 @@
       "color": "#f5a623"
     },
     {
-      "id": "ch-gold-standards",
-      "title": "Gold Standards",
-      "url": "ch-gold-standards.html",
+      "id": "ch-knowledge-structures",
+      "title": "Knowledge Structures",
+      "url": "ch-knowledge-structures.html",
+      "tags": [
+        "formal statements",
+        "language structures",
+        "reasoning structures"
+      ],
+      "description": "The sections in this chapter collect recurring patterns that help organize, communicate, and reason about\n        kno...",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sec-language-structures",
+      "title": "Language Structures & English Grammar",
+      "url": "sec-language-structures.html",
       "tags": [],
-      "description": "Gold standard boilerplates and polishing guidelines. This is useful for both myself and giving to LLMs during develop...",
+      "description": "As with the other the sections of the Knowledge Structures chapter, the priority is not exhaustive documentation of\n ...",
       "group": "meta",
       "color": "#f5a623"
     },
@@ -260,33 +322,20 @@
       "color": "#f5a623"
     },
     {
-      "id": "ch-knowledge-structures",
-      "title": "Knowledge Structures",
-      "url": "ch-knowledge-structures.html",
-      "tags": [
-        "formal statements",
-        "language structures",
-        "reasoning structures"
-      ],
-      "description": "The sections in this chapter collect recurring patterns that help organize, communicate, and reason about\n        kno...",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "sec-language-structures",
-      "title": "Language Structures & English Grammar",
-      "url": "sec-language-structures.html",
-      "tags": [],
-      "description": "As with the other the sections of the Knowledge Structures chapter, the priority is not exhaustive documentation of\n ...",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
       "id": "sec-formal-statements",
       "title": "Formal Statements",
       "url": "sec-formal-statements.html",
       "tags": [],
       "description": "",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "ch-pretext",
+      "title": "PreTeXt Authoring",
+      "url": "ch-pretext.html",
+      "tags": [],
+      "description": "Resources for authoring and managing content using the PreTeXt XML framework.",
       "group": "meta",
       "color": "#f5a623"
     },
@@ -439,53 +488,39 @@
       "color": "#f5a623"
     },
     {
-      "id": "ch-pretext",
-      "title": "PreTeXt Authoring",
-      "url": "ch-pretext.html",
+      "id": "ch-sofias-practice-problems",
+      "title": "My Practice Problems",
+      "url": "ch-sofias-practice-problems.html",
       "tags": [],
-      "description": "Resources for authoring and managing content using the PreTeXt XML framework.",
-      "group": "meta",
-      "color": "#f5a623"
+      "description": "",
+      "group": "practice-problems",
+      "color": "#ff6b6b"
     },
     {
-      "id": "sec-git",
-      "title": "Terminal Cheat Sheet",
-      "url": "sec-git.html",
+      "id": "ch-quantum-computing-practice-sets",
+      "title": "Quantum Computing Practice Problems",
+      "url": "ch-quantum-computing-practice-sets.html",
       "tags": [
-        "bash",
-        "git",
-        "terminal"
+        "qiskit",
+        "state vectors",
+        "tensor products"
       ],
-      "description": "Multiline version (safter, less likely to accidentally earase local changes):",
-      "group": "meta",
-      "color": "#f5a623"
+      "description": "A collection of practice problems generated with the assistance of AI. These problems were designed to accompany IBM ...",
+      "group": "practice-problems",
+      "color": "#ff6b6b"
     },
     {
-      "id": "sub-git-local-reset",
-      "title": "Local Git Reset",
-      "url": "sec-git.html#sub-git-local-reset",
-      "tags": [],
-      "description": "Multiline version (safter, less likely to accidentally earase local changes):",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "sub-pip-update-requirements",
-      "title": "Update pip requirements.txt",
-      "url": "sec-git.html#sub-pip-update-requirements",
-      "tags": [],
-      "description": "",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "ch-cheat-sheets",
-      "title": "My Cheat Sheets",
-      "url": "ch-cheat-sheets.html",
-      "tags": [],
-      "description": "",
-      "group": "meta",
-      "color": "#f5a623"
+      "id": "sec-qc-practice-set-1",
+      "title": "Introduction to Quantum Computing with Qiskit",
+      "url": "sec-qc-practice-set-1.html",
+      "tags": [
+        "qiskit",
+        "state vectors",
+        "tensor products"
+      ],
+      "description": "202604120001 |\n                tensor products, Qiskit, state vectors",
+      "group": "practice-problems",
+      "color": "#ff6b6b"
     },
     {
       "id": "ch-bridges",
@@ -502,20 +537,6 @@
       "url": "sec-physics-and-geometric-algebra.html",
       "tags": [],
       "description": "The :logo: Eigenscribe \u00a9 methodology  system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to ...",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "subsec-wedge-product-and-angular-momentum",
-      "title": "Physical Interpretations of the Wedge Product",
-      "url": "subsec-wedge-product-and-angular-momentum.html",
-      "tags": [
-        "classical mechanics",
-        "geometric algebra",
-        "vector calculus",
-        "\ud83d\udd17"
-      ],
-      "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems.",
       "group": "bridges",
       "color": "#50e3c2"
     },
@@ -546,31 +567,18 @@
       "color": "#50e3c2"
     },
     {
-      "id": "ch-field-notes",
-      "title": "Field Notes",
-      "url": "ch-field-notes.html",
-      "tags": [],
-      "description": "Important artifacts, concpts, and insighs encountered in literature.",
-      "group": "field-notes",
-      "color": "#f8e71c"
-    },
-    {
-      "id": "sec-feynmann-lectures",
-      "title": "Feynman Lectures",
-      "url": "sec-feynmann-lectures.html",
-      "tags": [],
-      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy...",
-      "group": "field-notes",
-      "color": "#f8e71c"
-    },
-    {
-      "id": "claim-vector-potential-generalization",
-      "title": "claim-vector-potential-generalization",
-      "url": "sec-feynmann-lectures.html#claim-vector-potential-generalization",
-      "tags": [],
-      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy...",
-      "group": "field-notes",
-      "color": "#f8e71c"
+      "id": "subsec-wedge-product-and-angular-momentum",
+      "title": "Physical Interpretations of the Wedge Product",
+      "url": "subsec-wedge-product-and-angular-momentum.html",
+      "tags": [
+        "classical mechanics",
+        "geometric algebra",
+        "vector calculus",
+        "\ud83d\udd17"
+      ],
+      "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems.",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
       "id": "ch-eigenotes",
@@ -698,18 +706,45 @@
       "color": "#d0021b"
     },
     {
-      "id": "sec-post-quantum",
-      "title": "Post-Quantum",
-      "url": "sec-post-quantum.html",
+      "id": "ch-field-notes",
+      "title": "Field Notes",
+      "url": "ch-field-notes.html",
+      "tags": [],
+      "description": "Important artifacts, concpts, and insighs encountered in literature.",
+      "group": "field-notes",
+      "color": "#f8e71c"
+    },
+    {
+      "id": "sec-feynmann-lectures",
+      "title": "Feynman Lectures",
+      "url": "sec-feynmann-lectures.html",
+      "tags": [],
+      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy...",
+      "group": "field-notes",
+      "color": "#f8e71c"
+    },
+    {
+      "id": "claim-vector-potential-generalization",
+      "title": "claim-vector-potential-generalization",
+      "url": "sec-feynmann-lectures.html#claim-vector-potential-generalization",
+      "tags": [],
+      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy...",
+      "group": "field-notes",
+      "color": "#f8e71c"
+    },
+    {
+      "id": "ch-setting-the-stage",
+      "title": "\ud83c\udfad Setting the Stage",
+      "url": "ch-setting-the-stage.html",
       "tags": [],
       "description": "",
       "group": "setting-the-stage",
       "color": "#a0a0a0"
     },
     {
-      "id": "ch-setting-the-stage",
-      "title": "\ud83c\udfad Setting the Stage",
-      "url": "ch-setting-the-stage.html",
+      "id": "sec-post-quantum",
+      "title": "Post-Quantum",
+      "url": "sec-post-quantum.html",
       "tags": [],
       "description": "",
       "group": "setting-the-stage",
@@ -735,50 +770,9 @@
       "description": "",
       "group": "setting-the-stage",
       "color": "#a0a0a0"
-    },
-    {
-      "id": "ch-sofias-practice-problems",
-      "title": "My Practice Problems",
-      "url": "ch-sofias-practice-problems.html",
-      "tags": [],
-      "description": "",
-      "group": "practice-problems",
-      "color": "#ff6b6b"
-    },
-    {
-      "id": "ch-quantum-computing-practice-sets",
-      "title": "Quantum Computing Practice Problems",
-      "url": "ch-quantum-computing-practice-sets.html",
-      "tags": [
-        "qiskit",
-        "state vectors",
-        "tensor products"
-      ],
-      "description": "A collection of practice problems generated with the assistance of AI. These problems were designed to accompany IBM ...",
-      "group": "practice-problems",
-      "color": "#ff6b6b"
-    },
-    {
-      "id": "sec-qc-practice-set-1",
-      "title": "Introduction to Quantum Computing with Qiskit",
-      "url": "sec-qc-practice-set-1.html",
-      "tags": [
-        "qiskit",
-        "state vectors",
-        "tensor products"
-      ],
-      "description": "202604120001 |\n                tensor products, Qiskit, state vectors",
-      "group": "practice-problems",
-      "color": "#ff6b6b"
     }
   ],
   "links": [
-    {
-      "source": "sub-pretext-inline",
-      "target": "sec-pretext-cheat-sheet",
-      "type": "reference",
-      "weight": 2
-    },
     {
       "source": "def-ga-uniform-b-field-vector-potential",
       "target": "claim-vector-potential-generalization",

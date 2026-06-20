@@ -4,7 +4,7 @@
 $ErrorActionPreference = "Stop"
 
 # Activate virtual environment if it exists
-if (Test-Path ".venv") {
+if (Test-Path ".venv\Scripts\Activate.ps1") {
     Write-Host "Activating virtual environment..."
     & .venv\Scripts\Activate.ps1
 }
@@ -17,7 +17,11 @@ if (Test-Path "output/web") { Remove-Item -Recurse -Force "output/web" }
 
 # Build the PreTeXt project
 Write-Host "Building PreTeXt project..."
-pretext build web
+if (Get-Command "pretext" -ErrorAction SilentlyContinue) {
+    pretext build web
+} else {
+    python3 -m pretext build web
+}
 
 # 🚨 CRITICAL CHECK
 if (-not (Test-Path "output/web")) {
@@ -39,6 +43,8 @@ Copy-Item "assets/ember.png" "output/web/external/"
 Copy-Item "assets/orb.png" "output/web/external/"
 Copy-Item "assets/space-bg.png" "output/web/external/"
 Copy-Item "assets/favicon.png" "output/web/"
+New-Item -ItemType Directory -Path "output/web/external/widgets/periodic-table" -Force | Out-Null
+Copy-Item -Recurse "assets/widgets/periodic-table/*" "output/web/external/widgets/periodic-table/" -Force
 
 # Update the graph data from source
 Write-Host "Updating graph data..."
