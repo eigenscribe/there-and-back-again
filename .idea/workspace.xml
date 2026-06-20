@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="polished language structures section. that intro is good to go for the time being :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/sec-language-structures.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/sec-language-structures.ptx" afterDir="false" />
@@ -18,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2093" />
+    <option name="cachedIndexableFilesCount" value="2098" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -42,23 +42,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000169200491602" />
-      <entry key="MS500" value="1.1584532774369083" />
-      <entry key="S2" value="2.3240893826153513" />
-      <entry key="S5" value="3.458033137018" />
-      <entry key="S10" value="4.2201412898619335" />
-      <entry key="S30" value="7.781053288207313" />
-      <entry key="S60" value="18.993104213994137" />
-      <entry key="M2" value="44.99730859157185" />
-      <entry key="M5" value="95.06478015120001" />
-      <entry key="M10" value="152.04087877687044" />
-      <entry key="M15" value="212.18979452328983" />
-      <entry key="M30" value="385.18340468260016" />
-      <entry key="H1" value="620.8950700112117" />
-      <entry key="H2" value="917.8221135987591" />
-      <entry key="H4" value="1278.0947815576128" />
-      <entry key="D1" value="6030.063119359681" />
-      <entry key="W1" value="21249.931967331773" />
+      <entry key="MS100" value="1.0000751464358952" />
+      <entry key="MS500" value="1.1884742552400596" />
+      <entry key="S2" value="3.009699838148149" />
+      <entry key="S5" value="6.312698441961158" />
+      <entry key="S10" value="9.992988215473229" />
+      <entry key="S30" value="18.95155557064032" />
+      <entry key="S60" value="27.81351213524866" />
+      <entry key="M2" value="40.64978000903022" />
+      <entry key="M5" value="81.2998022814635" />
+      <entry key="M10" value="150.7799774648092" />
+      <entry key="M15" value="217.46306524671277" />
+      <entry key="M30" value="402.20161178346666" />
+      <entry key="H1" value="663.9552365126818" />
+      <entry key="H2" value="990.9098005991143" />
+      <entry key="H4" value="1377.6214300458146" />
+      <entry key="D1" value="6143.840652119898" />
+      <entry key="W1" value="21386.80278892837" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -69,34 +69,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="2.420185389237661E-157" />
-      <entry key="M10" value="4.919541926099466E-79" />
-      <entry key="M15" value="6.232601432990332E-53" />
-      <entry key="M30" value="8.098186218523732E-27" />
-      <entry key="H1" value="1.312211314425136E-13" />
-      <entry key="H2" value="1.0215233768584395E-6" />
-      <entry key="H4" value="0.004113753943538988" />
-      <entry key="D1" value="11.419853086349748" />
-      <entry key="W1" value="57.58264697265264" />
+      <entry key="M5" value="2.7157782012285846E-158" />
+      <entry key="M10" value="1.6479631558392415E-79" />
+      <entry key="M15" value="3.006200271052168E-53" />
+      <entry key="M30" value="5.624216580650188E-27" />
+      <entry key="H1" value="1.0935557203617107E-13" />
+      <entry key="H2" value="9.325387322208905E-7" />
+      <entry key="H4" value="0.0039304981507259" />
+      <entry key="D1" value="11.333448207608841" />
+      <entry key="W1" value="57.52020394779441" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659527877993402" />
-      <entry key="MS500" value="1.1507347940183563" />
-      <entry key="S2" value="2.320701851026594" />
-      <entry key="S5" value="3.456086023054359" />
-      <entry key="S10" value="4.218939540717289" />
-      <entry key="S30" value="7.779878107733297" />
-      <entry key="S60" value="18.991150060750723" />
-      <entry key="M2" value="44.99474452959294" />
-      <entry key="M5" value="95.06251966694128" />
-      <entry key="M10" value="152.03907646454257" />
-      <entry key="M15" value="212.18818705918727" />
-      <entry key="M30" value="385.1821095417632" />
-      <entry key="H1" value="620.8941081479948" />
-      <entry key="H2" value="917.8213970806348" />
-      <entry key="H4" value="1278.09837248105" />
-      <entry key="D1" value="6041.481735303837" />
-      <entry key="W1" value="21307.51378759817" />
+      <entry key="MS100" value="0.9013186595736312" />
+      <entry key="MS500" value="1.164676854545827" />
+      <entry key="S2" value="2.998433407324545" />
+      <entry key="S5" value="6.304359813951888" />
+      <entry key="S10" value="9.986560542740703" />
+      <entry key="S30" value="18.947780603363093" />
+      <entry key="S60" value="27.810845839638564" />
+      <entry key="M2" value="40.64785507254689" />
+      <entry key="M5" value="81.29816499475203" />
+      <entry key="M10" value="150.77834817381915" />
+      <entry key="M15" value="217.46148398990587" />
+      <entry key="M30" value="402.2002287637139" />
+      <entry key="H1" value="663.9541682958438" />
+      <entry key="H2" value="990.909006260952" />
+      <entry key="H4" value="1377.6247890593536" />
+      <entry key="D1" value="6155.172860292639" />
+      <entry key="W1" value="21444.3221653094" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -161,14 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00056" summary="added a widgets folder in assets directory and started working on a periodic table widget">
-      <option name="closed" value="true" />
-      <created>1780493943921</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1780493943921</updated>
     </task>
     <task id="LOCAL-00057" summary="Starting to build the periodic table widget">
       <option name="closed" value="true" />
@@ -554,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781974974240</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="polished language structures section. that intro is good to go for the time being :)">
+      <option name="closed" value="true" />
+      <created>1781977919835</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1781977919836</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated pretext" />
     <MESSAGE value="updated node color gradients" />
     <MESSAGE value="updated node colors" />
     <MESSAGE value="hypothesis definition added" />
@@ -597,6 +596,7 @@
     <MESSAGE value="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)" />
     <MESSAGE value="mat text adjusted to match callout. fixed the assemblage block styling finally" />
     <MESSAGE value="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling" />
+    <MESSAGE value="polished language structures section. that intro is good to go for the time being :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="polished language structures section. that intro is good to go for the time being :)" />
   </component>
 </project>

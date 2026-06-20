@@ -13,6 +13,33 @@
       </p>
     </introduction>
 
+    <!-- Consist of vs. Comprise -->
+    <table xml:id="tab-patent-transitional-phrases">
+        <title>Patent Claim Transitional Phrases</title>
+        <introduction>
+            <p>
+                <tag>202606200001</tag> | <tag>patent claims</tag>
+            </p>
+        </introduction>
+        <tabular bottom="minor" top="minor" left="minor" right="minor">
+            <row header="yes">
+                <cell>Phrase</cell>
+                <cell>Meaning</cell>
+                <cell>Additional Elements Permitted?</cell>
+                <cell>Examples</cell>
+            </row>
+
+            <row>
+                <cell><term>comprising</term></cell>
+                <cell>Open-ended; includes <em>at least</em> the listed elements.</cell>
+                <cell>Yes</cell>
+                <cell>A widget comprising A, B, and C may also contain D and E.</cell>
+            </row>
+        </tabular>
+
+
+    </table>
+
 
 
 </section>

@@ -295,7 +295,9 @@
       "id": "sec-language-structures",
       "title": "Language Structures & English Grammar",
       "url": "sec-language-structures.html",
-      "tags": [],
+      "tags": [
+        "patent claims"
+      ],
       "description": "As with the other sections in the Knowledge Structures chapter, the goal here is not to provide exhaustive documentat...",
       "group": "meta",
       "color": "#f5a623"
