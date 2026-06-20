@@ -70,7 +70,7 @@
         <p>
           The <term>least squares solution</term> to a system <m>A\vec{x}=\vec{b}</m> with no solution is:
           <md>
-            A^T\underbrace{A\vec{x}^*}_{\text{Proj}_{C(A)}(\vec{b})} = A^T \ \vec{b} \, .
+            A^T \mathord{\underbrace{A\vec{x}^*}_{\text{Proj}_{C(A)}\vec{b}}} = A^T \ \vec{b} \, .
           </md>
         </p>
       </statement>
@@ -80,7 +80,7 @@
     <remark>
       <statement>
         <p>
-          Importantly, <m>A\vec{x}^* = \text{Proj}_{C(A)}(\vec{b})</m> minimizes <m>|| A\vec{x}-\vec{b} || </m>.
+          Importantly, <m>A\vec{x}^* = \text{Proj}_{C(A)}\vec{b}</m> minimizes <m>|| A\vec{x}-\vec{b} || </m>.
         </p>
       </statement>
     </remark>

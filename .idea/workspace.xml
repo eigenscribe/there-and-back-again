@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated note-like element gradient">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="wedge product diagram. still incomplete, but progress was made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/subsec-wedge-product-and-angular-momentum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/subsec-wedge-product-and-angular-momentum.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000033593914367" />
-      <entry key="MS500" value="1.233542769670183" />
-      <entry key="S2" value="3.217779847958547" />
-      <entry key="S5" value="7.000907533468967" />
-      <entry key="S10" value="10.942692413215482" />
-      <entry key="S30" value="16.296081143993945" />
-      <entry key="S60" value="18.80134283119344" />
-      <entry key="M2" value="20.89326023803834" />
-      <entry key="M5" value="25.423024798957947" />
-      <entry key="M10" value="35.06151225067523" />
-      <entry key="M15" value="48.22566536050752" />
-      <entry key="M30" value="92.78192316225892" />
-      <entry key="H1" value="157.82394939996462" />
-      <entry key="H2" value="255.9627710866241" />
-      <entry key="H4" value="553.8234881245143" />
-      <entry key="D1" value="8674.983405473464" />
-      <entry key="W1" value="21323.08853693397" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0000000010020642" />
+      <entry key="H1" value="1.0005285148176866" />
+      <entry key="H2" value="1.4749086722297562" />
+      <entry key="H4" value="24.806101124540533" />
+      <entry key="D1" value="5118.625660247058" />
+      <entry key="W1" value="19786.410396337895" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -69,36 +69,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="3.0584E-319" />
-      <entry key="M2" value="5.5301560153486114E-160" />
-      <entry key="M5" value="1.9819603111710526E-64" />
-      <entry key="M10" value="1.4078222524065428E-32" />
-      <entry key="M15" value="5.83111305133247E-22" />
-      <entry key="M30" value="2.4770160024940692E-11" />
-      <entry key="H1" value="7.257287107493361E-6" />
-      <entry key="H2" value="0.007596850377114754" />
-      <entry key="H4" value="0.3547569751954218" />
-      <entry key="D1" value="24.003576480291457" />
-      <entry key="W1" value="64.02941656422357" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="1.0668487594395232E-130" />
+      <entry key="M10" value="1.032884539961298E-65" />
+      <entry key="M15" value="4.743374659453234E-44" />
+      <entry key="M30" value="2.234070099964774E-22" />
+      <entry key="H1" value="2.179507142475116E-11" />
+      <entry key="H2" value="1.3165142638403686E-5" />
+      <entry key="H4" value="0.014768178782387039" />
+      <entry key="D1" value="14.131077832737345" />
+      <entry key="W1" value="59.36193112492149" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526706326890392" />
-      <entry key="MS500" value="1.2224566762778828" />
-      <entry key="S2" value="3.212204300771152" />
-      <entry key="S5" value="6.996571055090025" />
-      <entry key="S10" value="10.939347819455584" />
-      <entry key="S30" value="16.294390337550652" />
-      <entry key="S60" value="18.800352949321997" />
-      <entry key="M2" value="20.892702772181117" />
-      <entry key="M5" value="25.422749316588888" />
-      <entry key="M10" value="35.06132021096325" />
-      <entry key="M15" value="48.225486181058045" />
-      <entry key="M30" value="92.78174423429887" />
-      <entry key="H1" value="157.82380013636822" />
-      <entry key="H2" value="255.9702271986129" />
-      <entry key="H4" value="554.1779663108784" />
-      <entry key="D1" value="8698.984667254384" />
-      <entry key="W1" value="21387.11705790658" />
+      <entry key="MS100" value="0.9330329915368074" />
+      <entry key="MS500" value="0.9862327044933592" />
+      <entry key="S2" value="0.9965402628278678" />
+      <entry key="S5" value="0.9986146661010289" />
+      <entry key="S10" value="0.9993070929904525" />
+      <entry key="S30" value="0.9997689776295918" />
+      <entry key="S60" value="0.9998844821426083" />
+      <entry key="M2" value="0.9999422394031608" />
+      <entry key="M5" value="0.9999768953608976" />
+      <entry key="M10" value="0.99998844761372" />
+      <entry key="M15" value="0.9999922983943179" />
+      <entry key="M30" value="0.999996150191807" />
+      <entry key="H1" value="1.0005265889344372" />
+      <entry key="H2" value="1.4749206227292946" />
+      <entry key="H4" value="24.820857119875676" />
+      <entry key="D1" value="5132.755375092647" />
+      <entry key="W1" value="19845.771497093727" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -162,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00047" summary="mostly finished sectioning stylesheets">
-      <option name="closed" value="true" />
-      <created>1780396400181</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1780396400181</updated>
     </task>
     <task id="LOCAL-00048" summary="mostly finished sectioning stylesheets">
       <option name="closed" value="true" />
@@ -555,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781872202614</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="wedge product diagram. still incomplete, but progress was made">
+      <option name="closed" value="true" />
+      <created>1781877147062</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1781877147062</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minor updates to methodology and architecture sections in frontmatter" />
     <MESSAGE value="fixed periodic-table.ptx" />
     <MESSAGE value="working on periodic-table widget (in assets folder)" />
     <MESSAGE value="fixed graph ui for now" />
@@ -598,6 +597,7 @@
     <MESSAGE value="updated assemblage styling" />
     <MESSAGE value="stylesheet adjustments (golden ratio scaling and best practice color contrast)" />
     <MESSAGE value="updated note-like element gradient" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated note-like element gradient" />
+    <MESSAGE value="wedge product diagram. still incomplete, but progress was made" />
+    <option name="LAST_COMMIT_MESSAGE" value="wedge product diagram. still incomplete, but progress was made" />
   </component>
 </project>
