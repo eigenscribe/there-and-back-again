@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-dirac-delta" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Dirac Delta Function</title>
+    <idx>dirac delta</idx>
+
+
+    <note>
+
+        <me>
+
+            \int^b_a {\delta(x-c) \, dx}
+
+                = \begin{cases}
+                    0 &amp; \text{if } c\in(-\infty,a) \cup (b,\infty) \\
+                    1 &amp; \text{if } c\in[a,b]
+                   \end{cases}
+
+        </me>
+
+    </note>
+
+
+
+</subsection>

@@ -141,10 +141,10 @@
 
 .ptx-content .note mjx-container,
 .ptx-content .aside mjx-container {
-  color: #5E17EB !important; /* Node Color: GA/Note (Deep Purple) */
+  color: #a855f7 !important; /* Node Color: GA/Note (Light Purple) */
   text-shadow: 
-    0 0 2px rgba(94, 23, 235, 0.7), 
-    0 0 8px rgba(94, 23, 235, 0.4);
+    0 0 2px rgba(168, 85, 247, 0.7), 
+    0 0 8px rgba(168, 85, 247, 0.4);
 }
 
 /* Specific displaymath backgrounds within blocks to match theme */
