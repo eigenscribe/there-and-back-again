@@ -7,16 +7,60 @@
 
     <note>
 
+        <p>
+            Conventionally, the value of the integral of the Dirac delta function is unambiguous whenever the <em>support</em> delta function
+            strictly lies inside or outside the bounds of the interval over which the integral is being taken.
+            Ambiguity arises when the delta spike occurs precisely at the bounds of the interval.
+        </p>
+        <p>
+            For the purposes of :logo: <em>There and Back Again</em>, we will mathematically represent this nuance as follows:
+        </p>
+
         <me>
 
             \int^b_a {\delta(x-c) \, dx}
 
                 = \begin{cases}
                     0 &amp; \text{if } c\in(-\infty,a) \cup (b,\infty) \\
-                    1 &amp; \text{if } c\in[a,b]
+                    1 &amp; \text{if } c\in(a,b) \\
+                    * &amp; \text{if } c\in {a,b}
                    \end{cases}
-
         </me>
+
+        <remark>
+            <p>
+                This is an example of a statement whose value depends on an
+                interpretive convention rather than solely on formal manipulation.
+                The distinction appears because the Dirac delta is a distribution,
+                not an ordinary function.
+            </p>
+        </remark>
+
+
+        <dl>
+            <title>Endpoint conventions</title>
+
+            <li>
+                <title><em>full-contribution convention</em></title>
+
+                <me>
+                    * = 1
+                </me>
+            </li>
+
+            <li>
+                <title><em>symmetric convention</em></title>
+
+                <me>
+                    * = \frac{1}{2}
+                </me>
+
+                <p>
+                   Induced by the symmetric Heaviside step function <m>H(x)</m> where <m>H(0)=\tfrac{1}{2}</m> .
+                </p>
+            </li>
+
+        </dl>
 
     </note>
 
