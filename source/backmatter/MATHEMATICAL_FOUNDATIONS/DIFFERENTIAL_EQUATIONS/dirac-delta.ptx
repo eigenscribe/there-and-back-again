@@ -8,7 +8,7 @@
     <note>
 
         <p>
-            Conventionally, the value of the integral of the Dirac delta function is unambiguous whenever the <em>support</em> delta function
+            Conventionally, the value of the integral of the Dirac delta function is unambiguous whenever the <em>support</em> of the delta function
             strictly lies inside or outside the bounds of the interval over which the integral is being taken.
             Ambiguity arises when the delta spike occurs precisely at the bounds of the interval.
         </p>
