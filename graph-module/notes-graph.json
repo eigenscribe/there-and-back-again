@@ -93,7 +93,7 @@
       "tags": [
         "dirac delta"
       ],
-      "description": "Conventionally, the value of the integral of the Dirac delta function is unambiguous whenever the support delta funct...",
+      "description": "Conventionally, the value of the integral of the Dirac delta function is unambiguous whenever the support of the delt...",
       "group": "backmatter",
       "color": "#9013fe"
     },

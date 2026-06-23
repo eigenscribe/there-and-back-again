@@ -65,4 +65,20 @@
     </statement>
   </gi>
 
+  <gi xml:id="gls-support">
+    <title>Support</title>
+    <idx>support</idx>
+
+    <p>
+        The <term>support</term> of a function <m>f: X\rightarrow \mathbb{R}</m> is the subset of its domain <m>X</m>
+        on which the function is nonzero.
+    </p>
+
+    <me>
+        \operatorname{supp}(f)
+        =
+        \{x \in X : f(x)\neq 0\}.
+    </me>
+  </gi>
+
 </glossary>
