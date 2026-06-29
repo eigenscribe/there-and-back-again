@@ -8,6 +8,6 @@
 
   <xi:include href="sec-hamiltonian-noether.ptx" />
   <xi:include href="sec-entropy-taximony.ptx" />
-  <xi:include href="PHYSICS_CONSTRAINTS_AND_MODEL_ARCHITECTURE/sec-physics-constraints-and-model-architecture.ptx" />
+  <xi:include href="PHYSICS_INFORMED_MACHINE_LEARNING/sec-physics-informed-machine-learning.ptx" />
 
 </chapter>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="subsec-l2-normalization" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsubsection xml:id="subsubsec-l2-normalization" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>L2 Normalization of Learned Wavefunctions</title>
 
     <p>
@@ -80,4 +80,4 @@
     </listing>
 
 
-</subsection>
+</subsubsection>

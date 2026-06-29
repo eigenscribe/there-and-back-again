@@ -732,7 +732,7 @@
     },
     {
       "id": "sec-physics-constraints-and-model-architecture",
-      "title": "Physics constraints and model architecture",
+      "title": "Physics-Informed Machine Learning",
       "url": "sec-physics-constraints-and-model-architecture.html",
       "tags": [],
       "description": "The physics constraints and model architecture used in Scriber Labs physics-informed machine learning projects are di...",
@@ -740,14 +740,11 @@
       "color": "#d0021b"
     },
     {
-      "id": "subsec-l2-normalization",
-      "title": "L2 Normalization of Learned Wavefunctions",
-      "url": "subsec-l2-normalization.html",
-      "tags": [
-        "hard normalization",
-        "normalization by construction"
-      ],
-      "description": "In quantum mechanics, the Born rule requires that the total probability of finding a particle anywhere in space equal...",
+      "id": "subsec-physics-constraints-and-model-architecture",
+      "title": "Physics constraints and model architecture",
+      "url": "sec-physics-constraints-and-model-architecture.html#subsec-physics-constraints-and-model-architecture",
+      "tags": [],
+      "description": "",
       "group": "eigenotes",
       "color": "#d0021b"
     },
