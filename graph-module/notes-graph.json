@@ -731,6 +731,24 @@
       "color": "#d0021b"
     },
     {
+      "id": "sec-physics-constraints-and-model-architecture",
+      "title": "Physics constraints and model architecture",
+      "url": "sec-physics-constraints-and-model-architecture.html",
+      "tags": [],
+      "description": "The physics constraints and model architecture used in Scriber Labs physics-informed machine learning projects are di...",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
+      "id": "subsec-l2-normalization",
+      "title": "L2 Normalization",
+      "url": "subsec-l2-normalization.html",
+      "tags": [],
+      "description": "",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
       "id": "sec-post-quantum",
       "title": "Post-Quantum",
       "url": "sec-post-quantum.html",

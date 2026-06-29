@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-physics-constraints-and-model-architecture" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Physics constraints and model architecture</title>
+    <introduction>
+        <p>
+            The physics constraints and model architecture used in Scriber Labs physics-informed machine learning projects are discussed in detail in the following sections.
+        </p>
+    </introduction>
+
+    <xi:include href="subsec-l2-normalization.ptx" />
+
+</section>
