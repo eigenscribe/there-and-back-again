@@ -741,10 +741,13 @@
     },
     {
       "id": "subsec-l2-normalization",
-      "title": "L2 Normalization",
+      "title": "L2 Normalization of Learned Wavefunctions",
       "url": "subsec-l2-normalization.html",
-      "tags": [],
-      "description": "",
+      "tags": [
+        "hard normalization",
+        "normalization by construction"
+      ],
+      "description": "In quantum mechanics, the Born rule requires that the total probability of finding a particle anywhere in space equal...",
       "group": "eigenotes",
       "color": "#d0021b"
     },

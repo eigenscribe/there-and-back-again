@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="subsec-l2-normalization" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>L2 Normalization</title>
+    <title>L2 Normalization of Learned Wavefunctions</title>
 
+    <p>
 
+        In quantum mechanics, the <term>Born rule</term> requires that the total probability of finding a particle anywhere in space equals unity.
+        For a one-dimensional wavefunction <m>\psi(x)</m>, this requires
+        <md>
+            \int_{-\infty}^{\infty}{ | \psi(x) |^2  \, dx} = 1 \, .
+        </md>
+
+        On a uniform spatial grid with spacing <m>\Delta x</m>, the integral is replaced by a discrete sum, yielding the constraint
+        <md>
+            \sum_{i}{ |\psi(x_i) |^2 \, \Delta x} = 1 \, .
+        </md>
+
+        Any neural network that parameterizes a wavefunction must respect this constraint for its output to be physically interpretable as a quantum state.
+    </p>
+
+    <remark xml:id="subsec-l2-normalization-project-2-remark">
+        <title>Normalization in Scriber Labs PIML Project</title>
+        <idx>hard normalization</idx>
+        <idx>normalization by construction</idx>
+
+        <statement>
+            <p>
+                Note that the following remark pertains specifically to the Scriber Labs project, low-fidelity inverse Scrödinger solver via physics-informed machine learning.
+            </p>
+            <p>
+                In the context of the
+                Rather than enforcing normalization as a soft penalty in the loss function <mdash/> which would compete with other loss terms
+                and never guarantee exact satisfaction<mdash/>we enforce it <em>by construction</em> inside the forward pass of the network.
+                Given the raw output <m>\psi_{\mathrm{raw}}(x)</m> of a multilayer perceptron, we rescale it to unit norm:
+                <md>
+                    \psi(x) = \frac{\psi_{\mathrm{raw}}(x)}{\sqrt{\sum_{i} \psi_{\mathrm{raw}}(x_i)^2} \, \Delta x + \epsilon} \, ,
+                </md>
+                where <m>\epsilon = 10^{-8}</m> is a small constant added for numerical stability during early training, when the network output may be near zero.
+            </p>
+            <p>
+                This approach, sometimes called <term>hard normalization</term> or <term>normalization by construction</term> ensures that every wavefunction emitted by the model is a valid quantum state at every training step.
+                Moreover, it eliminates the need for a dedicated normalization loss term and prevents the optimizer from trading physical validity against other objectives such as
+                the Schrödinger residual or data mismatch.
+            </p>
+        </statement>
+    </remark>
+
+    <note>
+        <p>
+            L2 normalization guarantees a unit norm but does not enforce <em>orthogonality</em> between distinct eigenstates.
+            For multi-state problems where the eigenstates must satisfy <m>\langle \psi_m | \psi_n \rangle = \delta_{mn}</m>.
+            This can be achieved via a Gram<ndash/>Schmidt procedure after the normalization step.
+        </p>
+    </note>
 
 
 </subsection>
