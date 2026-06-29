@@ -54,5 +54,30 @@
         </p>
     </note>
 
+    <listing xml:id="lst-l2-norm-impl">
+        <caption>Hard L2 normalization enforced inside the forward pass.</caption>
+        <program language="python">
+            <input>
+                class NormalizedWavefunctionNet(nn.Module):
+                    """Wraps an MLP to enforce L2 normalization by construction."""
+
+                def __init__(self, base_net: nn.Module, dx: float) -> None:
+                    super().__init__()
+                    self.base_net = base_net
+                    self.dx = dx
+
+                def forward(self, x: torch.Tensor) -> torch.Tensor:
+                    psi_raw = self.base_net(x)
+                    norm_sq = torch.sum(psi_raw ** 2) * self.dx
+                    norm = torch.sqrt(norm_sq + 1e-8)
+                    return psi_raw / norm
+
+            </input>
+        </program>
+
+
+
+    </listing>
+
 
 </subsection>
