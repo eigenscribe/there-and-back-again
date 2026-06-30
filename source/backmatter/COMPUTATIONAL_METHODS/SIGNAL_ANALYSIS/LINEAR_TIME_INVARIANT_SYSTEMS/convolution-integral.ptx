@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsubsection xml:id="subsubsec-convolution-integral" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Convolution Integral and LTI Systems</title>
+
+  <definition>
+    <title>Convolution Integral</title>
+    <idx>convolution integral</idx>
+
+    <statement>
+        <p>
+            The <term>convolution integral</term>,
+
+            <md>
+                (x * h)(t) = \int_{-\infty}^{\infty} x(\tau) h(t-\tau) \, d\tau
+            </md>
+
+
+            encapsulates <xref ref="rem-dirac-delta-continuous-superposition"/> and completely characterizes
+            the input-output behavior of a LTI system.
+        </p>
+    </statement>
+
+
+  </definition>
+
+
+ </subsubsection>

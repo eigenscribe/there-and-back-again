@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsubsection xml:id="subsubsec-dirac-delta-lti-systems" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Dirac Delta Distribution and LTI systems</title>
+
+
+
+    <definition xml:id="def-dirac-delta" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <title>Sifting Property of the Dirac Distribution</title>
+      <idx>sifting property</idx>
+
+      <notation>
+        <usage><m>\delta(t)</m></usage>
+        <description>The Dirac delta function</description>
+      </notation>
+
+      <statement>
+        <p>
+            The <term>Dirac delta distribution</term>, denoted <m>\delta(t)</m>, is an idealized impulse concentrated
+            at instant in time. Although it is commonly referred to as a function, it is more properly understood as a
+            <term>distribution</term> (generalized function) whose defining property is the <term>sifting property</term>:
+            <md>
+                \int_{-\infty}^{\infty} \delta(t-a) f(a) \, dt = f(a) \, ,
+            </md>
+            where <m>f(t)</m> is assumed to be a sufficiently well-behaved function.
+        </p>
+
+      </statement>
+    </definition>
+
+    <remark>
+        <p>
+            Intuitively, <m>\delta(t-a)</m> extracts the value of a signal at time <m>t=a</m>. The delta distribution
+            as described in <xref ref="note-dirac-delta-interpretation"/> has a total area,
+            <md>
+                \int_{-\infty}^{\infty} \delta(t-a) \, dt = 1 \, .
+            </md>
+
+            This highlights the fact that the Dirac delta is more appropriately labelled a <term> distribution</term> rather than a function.
+            Specifically, its meaning is determined via its behavior under integration rather than its value at a given point.
+        </p>
+
+    </remark>
+
+    <definition>
+        <title>Impulse response</title>
+        <idx>impulse response</idx>
+        <notation>
+            <usage><m>h(t)</m></usage>
+            <description>The impulse response of an LTI system to some input</description>
+        </notation>
+        <statement>
+            <p>
+                In the context of LTI systems, the Dirac delta plays a fundamental role in the definition of an idealized
+                response of a system to some impulse input. Specifically, if if an LTI system is excited by <m>\delta(t)</m>,
+                the resulting output is called the <term>impulse response</term>, <m>h(t)</m>.
+            </p>
+        </statement>
+
+    </definition>
+
+    <remark xml:id="rem-dirac-delta-continuous-superposition">
+      <p>
+       Any signal <m>x(t)</m> can be represented as a continuous superposition of shifted impulses,
+         <md>
+           x(t) = \int_{-\infty}^{\infty} \delta(t-\tau) x(\tau) \, d\tau \, .
+         </md>
+      </p>
+    </remark>
+
+
+ </subsubsection>

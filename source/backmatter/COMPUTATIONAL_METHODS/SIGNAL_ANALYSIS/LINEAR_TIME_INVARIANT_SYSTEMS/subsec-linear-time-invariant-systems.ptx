@@ -12,6 +12,7 @@
   </introduction>
 
   <!-- insert subsubsections here -->
-  <xi:include href="def-dirac-delta.ptx"/>
+  <xi:include href="dirac-delta-lti-systems.ptx"/>
+  <xi:include href="convolution-integral.ptx"/>
 
  </subsection>

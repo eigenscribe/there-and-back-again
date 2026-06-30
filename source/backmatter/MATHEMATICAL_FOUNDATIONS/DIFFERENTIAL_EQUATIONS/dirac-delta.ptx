@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="subsec-dirac-delta" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Dirac Delta Function</title>
+    <title>Dirac Delta Distribution</title>
     <idx>dirac delta</idx>
+    <introduction>
+        Here we define the Dirac delta distribution and its integral over an interval. Boundary conditions are
+        carefully considered and defined in a way that allows for context-specific interpretations. For more
+        introductory material on the Dirac delta distribution in the context of linear time invariant (LTI) systems
+        see <xref ref="subsubsec-dirac-delta-lti-systems"/>.
+    </introduction>
 
 
-    <note>
+    <note xml:id="note-dirac-delta-interpretation">
 
         <p>
-            Conventionally, the value of the integral of the Dirac delta function is unambiguous whenever the <em>support</em> of the delta function
+            Conventionally, the value of the integral of the Dirac delta distribution is unambiguous whenever the <em>support</em> of the delta function
             strictly lies inside or outside the bounds of the interval over which the integral is being taken.
             Ambiguity arises when the delta spike occurs precisely at the bounds of the interval.
         </p>

@@ -102,6 +102,17 @@
       "color": "#9013fe"
     },
     {
+      "id": "def-dirac-delta",
+      "title": "Sifting Property of the Dirac Distribution",
+      "url": "subsubsec-dirac-delta-lti-systems.html#def-dirac-delta",
+      "tags": [
+        "sifting property"
+      ],
+      "description": "The Dirac delta distribution, denoted \\delta(t), is an idealized impulse concentrated\n            at instant in time....",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "subsubsec-linear-time-invariant-systems",
       "title": "Linear Time-Invariant Systems",
       "url": "subsubsec-linear-time-invariant-systems.html",
@@ -109,17 +120,6 @@
         "linear time-invariant systems"
       ],
       "description": "Here, we introduce the fundamental ideas, terminology, and tools used to analyze one-dimensional signals in\n        t...",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "def-dirac-delta",
-      "title": "Dirac Delta Function",
-      "url": "def-dirac-delta.html",
-      "tags": [
-        "dirac delta function"
-      ],
-      "description": "The operational definition of the Dirac delta function can be written in terms of the sifting property:\n        \n    ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -134,12 +134,12 @@
     },
     {
       "id": "subsec-dirac-delta",
-      "title": "Dirac Delta Function",
+      "title": "Dirac Delta Distribution",
       "url": "subsec-dirac-delta.html",
       "tags": [
         "dirac delta"
       ],
-      "description": "Conventionally, the value of the integral of the Dirac delta function is unambiguous whenever the support of the delt...",
+      "description": "Conventionally, the value of the integral of the Dirac delta distribution is unambiguous whenever the support of the ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
