@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="subsec-numerical-methods" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="subsec-numerical-methods" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Numerical Methods</title>
   <idx>numerical methods methods</idx>
   <introduction>
@@ -9,6 +9,6 @@
     </p>
   </introduction>
 
-  <xi:include href="subsubsec-finite-difference.ptx"/>
+  <xi:include href="finite-difference.ptx"/>
 
-</subsection>
+</section>

@@ -67,6 +67,19 @@
       "color": "#9013fe"
     },
     {
+      "id": "finite-difference-comparison",
+      "title": "Comparison of Finite Difference Scheme Properties",
+      "url": "finite-difference-comparison.html",
+      "tags": [
+        "backward difference",
+        "central difference",
+        "forward difference"
+      ],
+      "description": "The following tables summarize common finite difference schemes for first and second derivatives.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "subsec-numerical-methods",
       "title": "Numerical Methods",
       "url": "subsec-numerical-methods.html",
@@ -74,6 +87,39 @@
         "numerical methods methods"
       ],
       "description": "Numerical methods hurt my head. \ud83e\udd2f",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "sec-signal-analysis",
+      "title": "Signal Analysis",
+      "url": "sec-signal-analysis.html",
+      "tags": [
+        "signal analysis"
+      ],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsubsec-linear-time-invariant-systems",
+      "title": "Linear Time-Invariant Systems",
+      "url": "subsubsec-linear-time-invariant-systems.html",
+      "tags": [
+        "linear time-invariant systems"
+      ],
+      "description": "Here, we introduce the fundamental ideas, terminology, and tools used to analyze one-dimensional signals in\n        t...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-dirac-delta",
+      "title": "Dirac Delta",
+      "url": "def-dirac-delta.html",
+      "tags": [
+        "dirac delta function"
+      ],
+      "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },

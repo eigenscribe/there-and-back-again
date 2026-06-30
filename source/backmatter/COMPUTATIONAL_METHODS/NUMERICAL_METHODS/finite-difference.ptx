@@ -1,4 +1,4 @@
-<paragraphs xml:id="finite-difference-comparison">
+<subsection xml:id="finite-difference-comparison">
   <title>Comparison of Finite Difference Scheme Properties</title>
   <idx>forward difference</idx>
   <idx>backward difference</idx>
@@ -114,4 +114,4 @@
       </row>
     </tabular>
   </table>
-</paragraphs>
+</subsection>

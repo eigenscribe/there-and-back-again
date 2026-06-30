@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-signal-analysis" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Signal Analysis</title>
+  <idx>signal analysis</idx>
+  <introduction>
+    <!-- insert intro here -->
+  </introduction>
+
+  <!-- insert subsubsections here -->
+  <xi:include href="LINEAR_TIME_INVARIANT_SYSTEMS/subsec-linear-time-invariant-systems.ptx"/>
+
+ </section>

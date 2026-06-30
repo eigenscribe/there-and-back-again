@@ -6,7 +6,8 @@
 
   </introduction>
 
-  <xi:include href="COMPUTATIONAL_METHODS/NUMERICAL_METHODS/subsec-numerical-methods.ptx"/>
+  <xi:include href="COMPUTATIONAL_METHODS/NUMERICAL_METHODS/sec-numerical-methods.ptx"/>
+  <xi:include href="COMPUTATIONAL_METHODS/SIGNAL_ANALYSIS/sec-signal-analysis.ptx"/>
 
 
 
