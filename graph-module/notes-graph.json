@@ -114,12 +114,12 @@
     },
     {
       "id": "def-dirac-delta",
-      "title": "Dirac Delta",
+      "title": "Dirac Delta Function",
       "url": "def-dirac-delta.html",
       "tags": [
         "dirac delta function"
       ],
-      "description": "",
+      "description": "The operational definition of the Dirac delta function can be written in terms of the sifting property:\n        \n    ...",
       "group": "backmatter",
       "color": "#9013fe"
     },

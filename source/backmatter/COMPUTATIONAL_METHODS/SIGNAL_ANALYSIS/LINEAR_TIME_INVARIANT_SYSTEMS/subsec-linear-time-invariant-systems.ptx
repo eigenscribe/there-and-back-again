@@ -6,9 +6,8 @@
   <introduction>
     <p>
         Here, we introduce the fundamental ideas, terminology, and tools used to analyze one-dimensional signals in
-        the time domain. Conceptual connections to the frequency domain, sampling, and basic transforms (e.g.,
-        Laplace, Fourier, Z) will be briefly discussed to give the reader a sense of the broader scope of the study of
-        signals and systems.
+        the time domain. Linear time-invariant (LTI) systems are fully characterized by their impulse response, which
+        connects to the delta function, convolution, and system output in a single conceptual chain.
     </p>
   </introduction>
 
