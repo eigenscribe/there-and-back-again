@@ -8,12 +8,14 @@
 
   <!-- Math macros for convenience -->
   <macros>
+    \addtolength{\jot}{0.5ex}
     \newcommand{\N}{\mathbb{N}}
     \newcommand{\Z}{\mathbb{Z}}
     \newcommand{\Q}{\mathbb{Q}}
     \newcommand{\R}{\mathbb{R}}
     \newcommand{\C}{\mathbb{C}}
     \newcommand{\bivec}[1]{\overset{\curvearrowleft}{#1}}
+    \newcommand{\proofmark}{\class{twemoji-proofmark}{\text{M}}}
   </macros>
   <prefigure-preamble xmlns="https://prefigure.org">
     <graph stroke="#0070EB"/>
@@ -21,9 +23,11 @@
   </prefigure-preamble>
 
   <pkg name="amssymb"/>
+  <pkg name="cancel"/>
 
   <!-- LaTeX preamble for diagrams -->
   <latex-image-preamble>
+    \setlength{\jot}{1.0ex}
     % Minimal LaTeX preamble for extracted images (avoid global package option clashes)
     % Provide only the packages needed for TikZ/PGF and image extraction.
     \usepackage{tikz}

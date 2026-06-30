@@ -39,8 +39,23 @@
   background-image: url('../orb.png');
   animation: eigenote-pulse 3s infinite ease-in-out;
 }
-.twemoji[title=":proofmark:"] {
+.twemoji[title=":proofmark:"],
+.twemoji-proofmark {
   background-image: url('../proofmark.png');
+}
+
+/* Specific styling for MathJax class version */
+mjx-class.twemoji-proofmark,
+.twemoji-proofmark {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: -0.2em;
+  color: transparent;
+  overflow: hidden;
 }
 .twemoji[title=":logo:"] {
   background-image: url('../logo.png');

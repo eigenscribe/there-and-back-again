@@ -58,6 +58,7 @@ cp assets/cover.png output/web/external/
 cp assets/favicon.png output/web/external/
 cp assets/ember.png output/web/external/
 cp assets/orb.png output/web/external/
+cp assets/proofmark.png output/web/external/
 cp assets/space-bg.png output/web/external/
 cp assets/favicon.png output/web/
 mkdir -p output/web/external/widgets/periodic-table
@@ -147,6 +148,8 @@ find output/web -name "*.html" -print0 | while IFS= read -r -d '' file; do
   # Inject custom emoji spans (moved to recursive find to cover knowls)
   perl -i -pe 's/:favicon:/<span class="twemoji" title=":favicon:"><\/span>/g' "$file"
   perl -i -pe 's/:proofmark:/<span class="twemoji" title=":proofmark:"><\/span>/g' "$file"
+  # Special case for LaTeX macros to avoid breaking MathJax
+  perl -i -pe "s/\\\\newcommand\\{\\\\proofmark\\}\\{\\\\class\\{twemoji-proofmark\\}\\{\\\\text\\{M\\}\\}\\}/\\\\newcommand{\\\\proofmark}{\\\\class{twemoji-proofmark}{\\\\text{M}}}/g" "$file"
   perl -i -pe 's/:eigenote:/<span class="twemoji" title=":eigenote:"><\/span>/g' "$file"
   perl -i -pe 's/:ember:/<span class="twemoji" title=":ember:"><\/span>/g' "$file"
   perl -i -pe 's/:logo:/<span class="twemoji" title=":logo:"><\/span>/g' "$file"

@@ -17,18 +17,84 @@
     <task>
         <statement>
             <p>
-                Find the vector potential <m>\vec{A}</m> such that <m>\bivec{B} = \vec{\nabla} \wedge \vec{A}</m>.
-                Specifically, verify that the following two gauges satisfy this condition:
+                Show that vector potentials <m>\vec{A}</m> for symmetry gauge and Landau gauge satisfy the
+                condition that <m>\bivec{B} = \vec{\nabla} \wedge \vec{A}</m> for a uniform magnetic field.
             </p>
-            <ul>
-                <li><alert>Symmetry Gauge:</alert> <m>\vec{A}_{\text{sym}} = \frac{B_0}{2}(x\mathbf{e}_y - y\mathbf{e}_x)</m></li>
-                <li><alert>Landau Gauge:</alert> <m>\vec{A}_{\text{Landau}} = -B_0 y \mathbf{e}_x</m></li>
-            </ul>
         </statement>
         <hint>
-            Expand <m>\vec{\nabla} \wedge \vec{A}</m> using the definition <m>(\vec{\nabla} \wedge \vec{A})_{ij} = \partial_i A_j - \partial_j A_i</m>.
-            Show that only the <m>xy</m>-component is non-zero and equals <m>B_0</m>.
+            <ul>
+                <li><term>Landau Gauge:</term> <md>\vec{A}_{\text{Landau}} = -B_0 y \mathbf{e}_x</md></li>
+                <li><term>Symmetry Gauge:</term> <md>\vec{A}_{\text{sym}} = \frac{B_0}{2}(x\mathbf{e}_y - y\mathbf{e}_x)</md></li>
+            </ul>
         </hint>
+        <solution>
+            <p>
+            Part 1: Show that the Landau gauge potential satisfies <m>\bivec{B}=\vec{\nabla}\wedge\vec{A}</m> such that
+            <m>\bivec{B} = B_0\mathbf{e}_x\mathbf{e}_y</m>.
+            </p>
+            <p>
+                <em>Step 1:</em> Rewrite the Landau gauge potential in vector form.
+                <md>
+                    \vec{A}_{\text{Landau}} = -B_0 y \mathbf{e}_x = \begin{bmatrix} -B_0 y \\ 0 \\ 0 \end{bmatrix}
+                </md>
+            </p>
+            <p>
+                <em>Step 2:</em> Evaluate <m>\bivec{B} = \vec{\nabla} \wedge \vec{A}_{\text{Landau}}</m>.
+                <md>
+                    <mrow>
+                        \vec{\nabla} \wedge \vec{A}_{\text{Landau}} \amp=
+                        \begin{bmatrix} \partial_x \\ \partial_y \\ \partial_z \end{bmatrix}
+                        \wedge
+                        \begin{bmatrix} -B_0 y \\ 0 \\ 0 \end{bmatrix}
+                    </mrow>
+                    <mrow>
+                        \amp=
+                        (\partial_x \mathbf{e}_x) \wedge (-B_0 y \mathbf{e}_x + 0\mathbf{e}_y + 0\mathbf{e}_z)
+                    </mrow>
+                    <mrow>
+                        \amp\quad + (\partial_y \mathbf{e}_y) \wedge (-B_0 y \mathbf{e}_x + 0\mathbf{e}_y + 0\mathbf{e}_z)
+                    </mrow>
+                    <mrow>
+                        \amp\quad + (\partial_z \mathbf{e}_z) \wedge (-B_0 y \mathbf{e}_x + 0\mathbf{e}_y + 0\mathbf{e}_z)
+                    </mrow>
+
+                    <mrow>
+                        \amp=
+                        (\partial_x \mathbf{e}_x) \wedge (-B_0 y \mathbf{e}_x)
+                    </mrow>
+                    <mrow>
+                        \amp\quad + (\partial_y \mathbf{e}_y) \wedge (-B_0 y \mathbf{e}_x)
+                    </mrow>
+                    <mrow>
+                        \amp\quad + (\partial_z \mathbf{e}_z) \wedge (-B_0 y \mathbf{e}_x)
+                    </mrow>
+
+                    <mrow>
+                        \amp=
+                        \cancelto{0}{(-\partial_x B_0 y)}\cancelto{0}{(\mathbf{e}_x \wedge \mathbf{e}_x)}
+                    </mrow>
+                    <mrow>
+                        \amp\quad + (-\partial_y B_0 y)(\mathbf{e}_y \wedge \mathbf{e}_x)
+                    </mrow>
+                    <mrow>
+                        \amp\quad + \cancelto{0}{(-\partial_z B_0 y)}(\mathbf{e}_z \wedge \mathbf{e}_x)
+                    </mrow>
+
+                    <mrow>
+                        \amp= -B_0(-\mathbf{e}_x \wedge \mathbf{e}_y)
+                    </mrow>
+                    <mrow>
+                        \amp= B_0 (\mathbf{e}_x \wedge \mathbf{e}_y) \quad \proofmark
+                    </mrow>
+                </md>
+            </p>
+
+        </solution>
+        <solution>
+            <p>Part 2: Show that the symmetry gauge potential satisfies <m>\bivec{B}=\vec{\nabla}\wedge\vec{A}</m>.</p>
+
+        </solution>
+
     </task>
 
     <task>
