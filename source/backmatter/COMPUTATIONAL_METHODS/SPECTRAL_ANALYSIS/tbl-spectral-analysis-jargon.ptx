@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="tbl-spectral-jargon" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Spectral Density and "Energy" Terms</title>
+    <tabular top="major" bottom="minor" left="minor" right="minor">
+
+        <col halign="left"/>
+        <col halign="left"/>
+        <col halign="left"/>
+        <row header="yes" bottom="medium">
+            <cell>Term</cell>
+            <cell>Mathematical Interpretation (Non-Physical Data)</cell>
+            <cell>Typical Interpretation (Physical Data in SI Units)</cell>
+        </row>
+        <row>
+            <cell><term>Energy</term></cell>
+            <cell>Total squared variance over time</cell>
+            <cell>
+                <quantity>
+                    <mag>1</mag>
+                    <unit base="joule"/>
+                </quantity>
+                <m>=</m>
+                <quantity>
+                    <mag>1</mag>
+                    <unit prefix="kilo" base="gram"/>
+                    <unit base="meter" exp="2"/>
+                    <per base="second" exp="2"/>
+                </quantity>
+            </cell>
+        </row>
+        <row>
+            <cell><term>Power</term></cell>
+            <cell>Time-averaged variance</cell>
+            <cell>
+                <quantity>
+                    <mag>1</mag>
+                    <unit base="watt"/>
+                </quantity>
+                <m>=</m>
+                <quantity>
+                    <unit base="joule"/>
+                    <per base="second"/>
+                </quantity>
+            </cell>
+        </row>
+        <row>
+            <cell><term>Density</term></cell>
+            <cell>Quantity distributed over a continuous domain</cell>
+            <cell>
+                Quantity per unit of that domain (e.g.,
+                <quantity>
+                    <unit base="watt"/>
+                    <per base="hertz"/>
+                </quantity>
+                )
+            </cell>
+        </row>
+
+
+
+    </tabular>
+</table>

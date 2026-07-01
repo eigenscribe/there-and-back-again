@@ -10,5 +10,6 @@
   </introduction>
 
   <xi:include href="tbl-norm-taxonomy.ptx"/>
+  <xi:include href="tbl-spectral-analysis-jargon.ptx"/>
 
  </section>
