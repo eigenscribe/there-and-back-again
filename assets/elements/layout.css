@@ -83,6 +83,9 @@ body.pretext {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ptx-page .ptx-main {

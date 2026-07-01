@@ -108,7 +108,7 @@
 .ptx-main {
   grid-area: main !important;
   width: 100% !important;
-  max-width: 1400px !important;
+  max-width: 1600px !important;
   margin: 0 auto !important;
   transition: max-width 0.4s ease, font-size 0.4s ease;
 }

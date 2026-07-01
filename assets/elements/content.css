@@ -3,12 +3,13 @@
   background: rgba(0, 0, 0, 0.6);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  padding: var(--space-xl);
+  padding: var(--space-xl) var(--space-xxl);
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .ptx-content {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 var(--space-xl);
 }
