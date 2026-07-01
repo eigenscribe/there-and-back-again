@@ -56,17 +56,6 @@
       "color": "#9013fe"
     },
     {
-      "id": "sec-computational-methods",
-      "title": "Computational Methods",
-      "url": "sec-computational-methods.html",
-      "tags": [
-        "computational methods"
-      ],
-      "description": "",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
       "id": "finite-difference-comparison",
       "title": "Comparison of Finite Difference Scheme Properties",
       "url": "finite-difference-comparison.html",
@@ -120,6 +109,15 @@
         "linear time-invariant systems"
       ],
       "description": "Here, we introduce the fundamental ideas, terminology, and tools used to analyze one-dimensional signals in\n        t...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "sec-spectral-analysis",
+      "title": "Spectral Analysis",
+      "url": "sec-spectral-analysis.html",
+      "tags": [],
+      "description": "This section provides a quick-reference guide to translating mathematical\n        definitions into scientific and eng...",
       "group": "backmatter",
       "color": "#9013fe"
     },

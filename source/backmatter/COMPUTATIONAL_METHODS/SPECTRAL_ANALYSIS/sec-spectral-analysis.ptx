@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-spectral-analysis" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Spectral Analysis</title>
+  <introduction>
+    <p>
+        This section provides a quick-reference guide to translating mathematical
+        definitions into scientific and engineering terms.
+    </p>
+  </introduction>
+
+  <xi:include href="tbl-norm-taxonomy.ptx"/>
+
+ </section>

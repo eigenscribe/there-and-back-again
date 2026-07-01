@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="tbl-norm-taxonomy" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Taxonomy of Norms: Mathematics vs. Physical Sciences</title>
+
+    <tabular top="major" bottom="minor" left="minor" right="minor">
+
+        <col halign="left"/>
+        <col halign="center"/>
+        <col halign="left"/>
+        <col halign="left"/>
+        <row header="yes" bottom="medium">
+            <cell>Norm Name</cell>
+            <cell>Data Type</cell>
+            <cell>Notation</cell>
+            <cell>Mathematical Formulation</cell>
+            <cell>Common Applications</cell>
+        </row>
+        <row>
+            <cell><term>Euclidean norm</term> (equivalent to <m>L_2</m>-norm)</cell>
+            <cell>Vectors</cell>
+            <cell><m>\| \vec{x} \|_2</m></cell>
+            <cell><m>\sqrt{\sum_i^n x_i^2}</m></cell>
+            <cell>Distance metrics, linear regression</cell>
+        </row>
+        <row>
+            <cell><term>Frobenius norm</term></cell>
+            <cell>Matrices</cell>
+            <cell><m>\| A \|_F</m></cell>
+            <cell><m>\sqrt{\sum_{i=1}^m \sum_{j=1}^{n}A_{ij}}</m></cell>
+            <cell>Matrix magnitude optimization, loss functions, and PCA</cell>
+        </row>
+        <row>
+            <cell><term>Physics Norm</term></cell>
+            <cell>Vectors and Matrices</cell>
+            <cell> \mdash </cell>
+            <cell><m>\sqrt{A^T W A}</m> where <m>W</m> is a <em>weight matrix</em></cell>
+            <cell>Finite element analysis, fluid dynamics, and control systems</cell>
+        </row>
+    </tabular>
+
+ </table>

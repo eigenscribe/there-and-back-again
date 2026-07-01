@@ -8,7 +8,7 @@
 
   <xi:include href="COMPUTATIONAL_METHODS/NUMERICAL_METHODS/sec-numerical-methods.ptx"/>
   <xi:include href="COMPUTATIONAL_METHODS/SIGNAL_ANALYSIS/sec-signal-analysis.ptx"/>
-
+  <xi:include href="COMPUTATIONAL_METHODS/SPECTRAL_ANALYSIS/sec-spectral-analysis.ptx"/>
 
 
 </appendix>
