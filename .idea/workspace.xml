@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="polished language structures section. that intro is good to go for the time being :)&#10;&#10;started comprising vs. consisting of table">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="changed probability p style in entropy taximony page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/sec-language-structures.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/sec-language-structures.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/ga-uniform-b-field.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/ga-uniform-b-field.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2109" />
+    <option name="cachedIndexableFilesCount" value="2175" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -42,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0743362485644001" />
-      <entry key="MS500" value="2.3747647482057297" />
-      <entry key="S2" value="5.463734295682546" />
-      <entry key="S5" value="10.458886366609782" />
-      <entry key="S10" value="18.361550936321642" />
-      <entry key="S30" value="34.150721465614104" />
-      <entry key="S60" value="42.781903993823136" />
-      <entry key="M2" value="52.14737407986323" />
-      <entry key="M5" value="88.05398821255545" />
-      <entry key="M10" value="161.9104520703314" />
-      <entry key="M15" value="237.45537571878515" />
-      <entry key="M30" value="449.1470951052302" />
-      <entry key="H1" value="770.6990727947604" />
-      <entry key="H2" value="1174.4190757491763" />
-      <entry key="H4" value="1632.2514679686153" />
-      <entry key="D1" value="6447.62312674944" />
-      <entry key="W1" value="21747.428390472036" />
+      <entry key="MS100" value="1.4997955370169507" />
+      <entry key="MS500" value="3.4274713817039224" />
+      <entry key="S2" value="10.449249711715828" />
+      <entry key="S5" value="17.239761810591787" />
+      <entry key="S10" value="21.069396483079668" />
+      <entry key="S30" value="26.817186588198798" />
+      <entry key="S60" value="35.32064214549674" />
+      <entry key="M2" value="56.37249258570648" />
+      <entry key="M5" value="108.23865874084682" />
+      <entry key="M10" value="152.38095655320342" />
+      <entry key="M15" value="174.10638612629825" />
+      <entry key="M30" value="201.17355496842262" />
+      <entry key="H1" value="224.3757502972884" />
+      <entry key="H2" value="302.0026082258782" />
+      <entry key="H4" value="493.8158180632186" />
+      <entry key="D1" value="4057.09509414691" />
+      <entry key="W1" value="21654.697712177385" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="1.6879535245334188E-160" />
-      <entry key="M10" value="1.2992136989475584E-80" />
-      <entry key="M15" value="5.527218566622169E-54" />
-      <entry key="M30" value="2.4116062507086577E-27" />
-      <entry key="H1" value="7.160825636396032E-14" />
-      <entry key="H2" value="7.546194070145751E-7" />
-      <entry key="H4" value="0.0035357222526222194" />
-      <entry key="D1" value="11.135263246356617" />
-      <entry key="W1" value="57.37542379696788" />
+      <entry key="S2" value="3.681732294845359E-92" />
+      <entry key="S5" value="2.669444419258534E-37" />
+      <entry key="S10" value="5.1666666422932E-19" />
+      <entry key="S30" value="8.024232069602522E-7" />
+      <entry key="S60" value="8.957807806379002E-4" />
+      <entry key="M2" value="0.029929597067750502" />
+      <entry key="M5" value="0.24571991026508058" />
+      <entry key="M10" value="0.49570143258324284" />
+      <entry key="M15" value="0.6263447612717581" />
+      <entry key="M30" value="0.7914194597504896" />
+      <entry key="H1" value="0.8896175918756618" />
+      <entry key="H2" value="0.9431991006935607" />
+      <entry key="H4" value="0.9731088498837364" />
+      <entry key="D1" value="5.263568897051625" />
+      <entry key="W1" value="51.2791755157191" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0453349107074896" />
-      <entry key="MS500" value="2.3619870188758174" />
-      <entry key="S2" value="5.455876718949627" />
-      <entry key="S5" value="10.452095061532964" />
-      <entry key="S10" value="18.354948869333853" />
-      <entry key="S30" value="34.14605838398586" />
-      <entry key="S60" value="42.77884199634242" />
-      <entry key="M2" value="52.145467548889904" />
-      <entry key="M5" value="88.05264029423137" />
-      <entry key="M10" value="161.9089375480556" />
-      <entry key="M15" value="237.45369694368523" />
-      <entry key="M30" value="449.14535509303886" />
-      <entry key="H1" value="770.6976109694042" />
-      <entry key="H2" value="1174.4179901695356" />
-      <entry key="H4" value="1632.254250561009" />
-      <entry key="D1" value="6458.757129138293" />
-      <entry key="W1" value="21804.80298264463" />
+      <entry key="MS100" value="1.4687446787087153" />
+      <entry key="MS500" value="3.4130969550252455" />
+      <entry key="S2" value="10.438465752855016" />
+      <entry key="S5" value="17.23254360373827" />
+      <entry key="S10" value="21.06494695475393" />
+      <entry key="S30" value="26.8152607857987" />
+      <entry key="S60" value="35.32019087688733" />
+      <entry key="M2" value="56.400927682668545" />
+      <entry key="M5" value="108.48221735391513" />
+      <entry key="M10" value="152.87473513296118" />
+      <entry key="M15" value="174.7311584192754" />
+      <entry key="M30" value="201.96400460033453" />
+      <entry key="H1" value="225.26481882386474" />
+      <entry key="H2" value="302.94547334384015" />
+      <entry key="H4" value="494.78868579696007" />
+      <entry key="D1" value="4062.358016537712" />
+      <entry key="W1" value="21705.97612025918" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -107,32 +106,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.root",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA" />
@@ -140,17 +139,17 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA" />
+      <recent name="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/SIGNAL_ANALYSIS" />
+      <recent name="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/SPECTRAL_ANALYSIS" />
+      <recent name="$PROJECT_DIR$/source/scribing/eigenotes/PHYSICS_CONSTRAINTS_AND_MODEL_ARCHITECTURE" />
       <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
-      <recent name="$PROJECT_DIR$/source/backmatter" />
-      <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS" />
-      <recent name="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/FORMAL_STATEMENTS" />
-      <recent name="$PROJECT_DIR$/my_folder" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
       </set>
     </attachedChunks>
   </component>
@@ -161,110 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Updated README.md for periodic table widget">
-      <option name="closed" value="true" />
-      <created>1780523412360</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1780523412360</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Cleaned up the frontmatter a bit">
-      <option name="closed" value="true" />
-      <created>1780528661358</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1780528661361</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Added a PDF of a pretext guide I found online to my-folder, which i also renamed SOFIAS-FOLDER">
-      <option name="closed" value="true" />
-      <created>1780528994245</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1780528994245</updated>
-    </task>
-    <task id="LOCAL-00061" summary="minor updates to methodology and architecture sections in frontmatter">
-      <option name="closed" value="true" />
-      <created>1780772957550</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1780772957551</updated>
-    </task>
-    <task id="LOCAL-00062" summary="fixed periodic-table.ptx">
-      <option name="closed" value="true" />
-      <created>1780773321367</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1780773321367</updated>
-    </task>
-    <task id="LOCAL-00063" summary="working on periodic-table widget (in assets folder)">
-      <option name="closed" value="true" />
-      <created>1780826083831</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1780826083831</updated>
-    </task>
-    <task id="LOCAL-00064" summary="fixed graph ui for now">
-      <option name="closed" value="true" />
-      <created>1780866873805</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1780866873805</updated>
-    </task>
-    <task id="LOCAL-00065" summary="included note id and tag alerts">
-      <option name="closed" value="true" />
-      <created>1780867521866</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1780867521866</updated>
-    </task>
-    <task id="LOCAL-00066" summary="fixed 404 error in graph module">
-      <option name="closed" value="true" />
-      <created>1780867770772</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1780867770772</updated>
-    </task>
-    <task id="LOCAL-00067" summary="changed link and node styling,">
-      <option name="closed" value="true" />
-      <created>1780868022124</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1780868022124</updated>
-    </task>
-    <task id="LOCAL-00068" summary="changed link and node styling,">
-      <option name="closed" value="true" />
-      <created>1780869141764</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1780869141764</updated>
-    </task>
-    <task id="LOCAL-00069" summary="added @sec-formal-structures table-formal-statements.ptx">
-      <option name="closed" value="true" />
-      <created>1780878256390</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1780878256390</updated>
-    </task>
-    <task id="LOCAL-00070" summary="added @sec-formal-structures table-formal-statements.ptx">
-      <option name="closed" value="true" />
-      <created>1780878845090</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1780878845090</updated>
     </task>
     <task id="LOCAL-00071" summary="hypothesis definition added">
       <option name="closed" value="true" />
@@ -554,7 +449,111 @@
       <option name="project" value="LOCAL" />
       <updated>1781978926585</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="updated pretext and added a new section to eigenotes">
+      <option name="closed" value="true" />
+      <created>1782757622152</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1782757622152</updated>
+    </task>
+    <task id="LOCAL-00108" summary="added an eigenote on l2 normalization of learned eigenfunctions in an inverse Schrodinger solver">
+      <option name="closed" value="true" />
+      <created>1782760266521</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1782760266521</updated>
+    </task>
+    <task id="LOCAL-00109" summary="updated l2 normalization eigenote">
+      <option name="closed" value="true" />
+      <created>1782760720953</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1782760720953</updated>
+    </task>
+    <task id="LOCAL-00110" summary="updated l2 normalization eigenote">
+      <option name="closed" value="true" />
+      <created>1782761123925</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1782761123925</updated>
+    </task>
+    <task id="LOCAL-00111" summary="starated a signals analysis section i ncomputational methods appendix">
+      <option name="closed" value="true" />
+      <created>1782783137118</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1782783137118</updated>
+    </task>
+    <task id="LOCAL-00112" summary="adding dirac delta function definition">
+      <option name="closed" value="true" />
+      <created>1782829984458</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1782829984458</updated>
+    </task>
+    <task id="LOCAL-00113" summary="connected the dirac delta page in the differential equations section of the mathematical foundations appendix with the dirac delta and lti systems page in the signal analysis section of the computational methods appendix">
+      <option name="closed" value="true" />
+      <created>1782834979885</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1782834979885</updated>
+    </task>
+    <task id="LOCAL-00114" summary="updated math proofmark details and added a part 1 solution to exercise 1 in practice set 1 for vector potential stuff">
+      <option name="closed" value="true" />
+      <created>1782841349488</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1782841349488</updated>
+    </task>
+    <task id="LOCAL-00115" summary="messed with main page margines, but idk if it did much good">
+      <option name="closed" value="true" />
+      <created>1782906663885</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1782906663885</updated>
+    </task>
+    <task id="LOCAL-00116" summary="added a spectral analysis section with a norm table to computational methods appendix">
+      <option name="closed" value="true" />
+      <created>1782909727718</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1782909727719</updated>
+    </task>
+    <task id="LOCAL-00117" summary="added a spectral analysis jargon table comparing interpretations of terms that are used to describe some physical dimension vs their use in spectral analysis">
+      <option name="closed" value="true" />
+      <created>1782911588395</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1782911588395</updated>
+    </task>
+    <task id="LOCAL-00118" summary="relocated the spectral analysis section content inside the signal analysis content as a spectral analysis subsection">
+      <option name="closed" value="true" />
+      <created>1782971133372</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1782971133372</updated>
+    </task>
+    <task id="LOCAL-00119" summary="changed probability p style in entropy taximony page">
+      <option name="closed" value="true" />
+      <created>1782993278136</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1782993278136</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,18 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated node colors" />
-    <MESSAGE value="hypothesis definition added" />
-    <MESSAGE value="installed prefig" />
-    <MESSAGE value="installed prefig i think" />
-    <MESSAGE value="working on the action as a bivector image" />
-    <MESSAGE value="updated actionarea opacity" />
-    <MESSAGE value="updating preimage diagram of action" />
-    <MESSAGE value="requirement updates" />
-    <MESSAGE value="linear algebra section added" />
-    <MESSAGE value="Linear regression definition added. needs polishing and is an example of another styling issue (need long equations to be scrollable horizontally)" />
-    <MESSAGE value="linear regression section update" />
-    <MESSAGE value="updated assemblage styling" />
     <MESSAGE value="stylesheet adjustments (golden ratio scaling and best practice color contrast)" />
     <MESSAGE value="updated note-like element gradient" />
     <MESSAGE value="wedge product diagram. still incomplete, but progress was made" />
@@ -597,6 +584,18 @@
     <MESSAGE value="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling" />
     <MESSAGE value="polished language structures section. that intro is good to go for the time being :)" />
     <MESSAGE value="polished language structures section. that intro is good to go for the time being :)&#10;&#10;started comprising vs. consisting of table" />
-    <option name="LAST_COMMIT_MESSAGE" value="polished language structures section. that intro is good to go for the time being :)&#10;&#10;started comprising vs. consisting of table" />
+    <MESSAGE value="updated pretext and added a new section to eigenotes" />
+    <MESSAGE value="added an eigenote on l2 normalization of learned eigenfunctions in an inverse Schrodinger solver" />
+    <MESSAGE value="updated l2 normalization eigenote" />
+    <MESSAGE value="starated a signals analysis section i ncomputational methods appendix" />
+    <MESSAGE value="adding dirac delta function definition" />
+    <MESSAGE value="connected the dirac delta page in the differential equations section of the mathematical foundations appendix with the dirac delta and lti systems page in the signal analysis section of the computational methods appendix" />
+    <MESSAGE value="updated math proofmark details and added a part 1 solution to exercise 1 in practice set 1 for vector potential stuff" />
+    <MESSAGE value="messed with main page margines, but idk if it did much good" />
+    <MESSAGE value="added a spectral analysis section with a norm table to computational methods appendix" />
+    <MESSAGE value="added a spectral analysis jargon table comparing interpretations of terms that are used to describe some physical dimension vs their use in spectral analysis" />
+    <MESSAGE value="relocated the spectral analysis section content inside the signal analysis content as a spectral analysis subsection" />
+    <MESSAGE value="changed probability p style in entropy taximony page" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed probability p style in entropy taximony page" />
   </component>
 </project>

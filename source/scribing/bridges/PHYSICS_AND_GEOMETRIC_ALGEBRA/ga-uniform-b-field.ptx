@@ -29,8 +29,8 @@
     <dl>
 
         <li>
-            <title>Symmetry Gauge</title>
-            <idx><term>symmetry gauge</term></idx>
+            <title><term>Symmetry Gauge</term></title>
+            <idx>symmetry gauge</idx>
             <p>
                 Preserves rotational symmetry.
                 <md>
@@ -40,8 +40,8 @@
         </li>
 
         <li>
-            <title>Landau Gauge</title>
-            <idx><term>landau gauge</term></idx>
+            <title><term>Landau Gauge</term></title>
+            <idx>landau gauge</idx>
             <p>
                 Preserves translational symmetry along the <m>x</m>-axis.
                 <md>
