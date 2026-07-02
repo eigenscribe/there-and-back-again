@@ -9,5 +9,7 @@
 
   <!-- insert subsubsections here -->
   <xi:include href="LINEAR_TIME_INVARIANT_SYSTEMS/subsec-linear-time-invariant-systems.ptx"/>
+  <xi:include href="SPECTRAL_ANALYSIS/subsec-spectral-analysis.ptx"/>
+
 
  </section>

@@ -113,9 +113,9 @@
       "color": "#9013fe"
     },
     {
-      "id": "sec-spectral-analysis",
+      "id": "subsec-spectral-analysis",
       "title": "Spectral Analysis",
-      "url": "sec-spectral-analysis.html",
+      "url": "subsec-spectral-analysis.html",
       "tags": [],
       "description": "This section provides a quick-reference guide to translating mathematical\n        definitions into scientific and eng...",
       "group": "backmatter",

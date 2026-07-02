@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-spectral-analysis" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-spectral-analysis" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Spectral Analysis</title>
   <introduction>
     <p>
@@ -12,4 +12,4 @@
   <xi:include href="tbl-norm-taxonomy.ptx"/>
   <xi:include href="tbl-spectral-analysis-jargon.ptx"/>
 
- </section>
+ </subsection>
