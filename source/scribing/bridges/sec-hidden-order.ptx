@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precept [
+    <!ENTITY date "2026-07-02">
+]>
+
+
+<section xml:id="sec-hidden-order" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Lens of Representation: Revealing Hidden Order</title>
+  <introduction>
+    <p>
+        A distinguishing feature between science and mathematics is the description of observations versus the description
+        of structured logic. Yet, the most profound breakthroughs often happen when the observations and their corresponding
+        systems are viewed from a new perspective that allows for their representation in terms of alternate forms of
+        structured logic.
+    </p>
+    <p>
+        This section will explore this profound relation between observed data and the structured logic used to
+        represent them in terms of four primary representation lenses in which hidden order emerges.
+    </p>
+
+  </introduction>
+
+  <ol>
+    <li>
+        <p>
+            <alert>Hidden Order Through Frequency and Basis Change</alert>
+        </p>
+        <p>
+            Transforming time-domain signals into frequency or scale domains reveals structure masked by noise or complexity.
+        </p>
+        <ul>
+            <li><p><em>Fourier Transform</em>: Uncovers periodicity in chaotic signals.</p></li>
+            <li><p><em>Laplace/Wavelets</em>: Reveals transient structures and scaling laws.</p></li>
+            <li><p><em>Principal Component Analysis (PCA) / SVD</em>: Uncovers low-dimensional manifolds hidden in
+            high dimensional data.</p></li>
+        </ul>
+    </li>
+    <li>
+        <p>
+            <alert>Hidden Order Through Geometric Symmetry</alert>
+        </p>
+        <p>
+            Representing physical laws in coordinate-independent forms (like Geometric Algebra) reveals conserved quantities and symmetries.
+        </p>
+    </li>
+  </ol>
+</section>

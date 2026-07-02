@@ -565,6 +565,15 @@
       "color": "#f5a623"
     },
     {
+      "id": "sec-hidden-order",
+      "title": "The Lens of Representation: Revealing Hidden Order",
+      "url": "sec-hidden-order.html",
+      "tags": [],
+      "description": "This section will explore this profound relation between observed data and the structured logic used to\n        repre...",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
       "id": "ch-bridges",
       "title": "Conceptual Bridges",
       "url": "ch-bridges.html",

@@ -3,7 +3,7 @@
 <chapter xml:id="ch-bridges" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Conceptual Bridges</title>
 
-
-  <xi:include href="PHYSICS_AND_GEOMETRIC_ALGEBRA/sec-physics-and-geometric-algebra.ptx"/>
+    <xi:include href="sec-hidden-order.ptx"/>
+    <xi:include href="PHYSICS_AND_GEOMETRIC_ALGEBRA/sec-physics-and-geometric-algebra.ptx"/>
 
 </chapter>
