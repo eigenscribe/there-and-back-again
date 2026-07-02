@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-physics-and-geometric-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Geometric Algebra and Physics</title>
+    <introduction>
+      <p>
+        The :logo: <em>Eigenscribe © methodology </em> system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to reformulate classical electromagnetism and quantum mechanics, replacing fragmented concepts from vector calculus with a coherent geometric framework.
+      </p>
+    </introduction>
+
+        <xi:include href="wedge-product-and-angular-momentum.ptx" />
+        <xi:include href="ga-uniform-b-field.ptx" />
+
+</section>

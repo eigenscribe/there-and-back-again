@@ -569,7 +569,7 @@
       "title": "Conceptual Bridges",
       "url": "ch-bridges.html",
       "tags": [],
-      "description": "The :logo: Eigenscribe \u00a9 methodology  system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to ...",
+      "description": "",
       "group": "bridges",
       "color": "#50e3c2"
     },
@@ -717,7 +717,7 @@
       "title": "Gibbs Entropy",
       "url": "sec-entropy-taximony.html#def-gibbs-entropy",
       "tags": [],
-      "description": "The Gibbs entropy of a macroscopic system is defined in terms of the probabilities \\mathbb{p}_i of being in microstat...",
+      "description": "The Gibbs entropy of a macroscopic system is defined in terms of the probabilities p_i of being in microstate i:\n    ...",
       "group": "eigenotes",
       "color": "#d0021b"
     },

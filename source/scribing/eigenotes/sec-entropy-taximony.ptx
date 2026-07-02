@@ -54,9 +54,9 @@
             <title>Gibbs Entropy</title>
             <statement>
                 <p>
-                    The <term>Gibbs entropy</term> of a macroscopic system is defined in terms of the probabilities <m>\mathbb{p}_i</m> of being in microstate <m>i</m>:
+                    The <term>Gibbs entropy</term> of a macroscopic system is defined in terms of the probabilities <m>p_i</m> of being in microstate <m>i</m>:
                     <md>
-                        S_\text{Gibbs} := -k_B \sum_i{\mathbb{p}_i \ln{\mathbb{p}_i}}
+                        S_\text{Gibbs} := -k_B \sum_i{p_i \ln{p_i}}
                     </md>
                 </p>
                 
@@ -71,7 +71,7 @@
                 <p>
                     The <term>Shannon entropy</term> of a discrete random variable with possible outcomes <m>i\in\{1,2,\ldots,n\}</m> where <m>n\in\mathbb{N}</m> and corresponding probabilities <m>\mathbb{p}_i</m> is defined as:
                     <md>
-                        H_\text{Shannon} := -\sum_{i=1}^n{\mathbb{p}_i \log_2{\mathbb{p}_i}} .
+                        H_\text{Shannon} := -\sum_{i=1}^n{p_i \log_2{p_i}} .
                     </md>
                 </p>
                 
