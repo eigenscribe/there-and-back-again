@@ -11,7 +11,7 @@
     </p>
   </introduction>
 
-  <xi:include href="information-pipeline.ptx"/>
+  <xi:include href="conceptual-pipeline.ptx"/>
   <xi:include href="before-and-after-boltzmann.ptx"/>
 
 </section>

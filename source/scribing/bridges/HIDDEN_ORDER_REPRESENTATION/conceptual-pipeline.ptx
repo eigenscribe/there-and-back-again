@@ -4,7 +4,7 @@
 ]>
 
 
-<assemblage xml:id="bridges-information-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
+<assemblage xml:id="conceptual-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Information Pipeline</title>
 
   <figure xml:id="fig-information-pipeline">
@@ -13,9 +13,8 @@
       <description>A mermaid diagram showing the information pipeline from measured data to function.</description>
       <mermaid>
         graph LR
-          MD[measured data] --> S[structure]
-          S -- Bridge --> R[representation]
-          R -- crossing --> O[order]
+          S[structure] -- "Bridge 🌉" --> R[representation]
+          R -- "Crossing 👟" --> O[order]
           O --> F[function]
       </mermaid>
     </image>
