@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<note xml:id="note-neuro-q" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>NeuroQ</title>
+
+  <p>
+      <em>Justification:</em> NeuroQ seems to unify several long-term interests (e.g.,
+      statistical mechanics, biophysics, stochastic processes, Scrödinger dynamics, the representation of
+      information processed withing and between physical systems).
+  </p>
+  <p>
+      <em>Current Status:</em> Although tempting to jump into it, but not yet actionable. Return to after
+      low fidelity physics-informed machine learning project batch is complete.
+  </p>
+
+
+</note>

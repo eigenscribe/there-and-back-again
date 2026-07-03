@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-bridges" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Conceptual Bridges</title>
+  <title>Bridges</title>
+      <introduction>>
+        <p>
+            The purpose of this chapter is to investigate how scientific representations of physical systems reveal structural relationships in nature.
+        </p>
+     </introduction>
 
-    <xi:include href="sec-hidden-order.ptx"/>
+    <xi:include href="bridges-information-pipeline.ptx"/>
+
+
+    <xi:include href="hidden-order-representation.ptx"/>
     <xi:include href="PHYSICS_AND_GEOMETRIC_ALGEBRA/sec-physics-and-geometric-algebra.ptx"/>
+    <xi:include href="FUTURE_CROSSINGS/sec-future-crossings.ptx"/>
+
 
 </chapter>

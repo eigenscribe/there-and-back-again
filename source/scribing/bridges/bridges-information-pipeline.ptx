@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precept [
+    <!ENTITY date "2026-07-02">
+]>
+
+
+<section xml:id="sec-bridges-information-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Information Pipeline</title>
+
+  <!-- insert mermaid diagram of pipeline here -->
+
+</section>
