@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precept [
+    <!ENTITY date "2026-07-02">
+]>
+
+
+<assemblage xml:id="bridges-information-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Information Pipeline</title>
+
+  <figure xml:id="fig-information-pipeline">
+    <caption>The Information Pipeline for Conceptual Bridges</caption>
+    <image xml:id="mermaid-info-pipeline">
+      <description>A mermaid diagram showing the information pipeline from measured data to function.</description>
+      <mermaid>
+        graph LR
+          MD[measured data] --> S[structure]
+          S -- Bridge --> R[representation]
+          R -- crossing --> O[order]
+          O --> F[function]
+      </mermaid>
+    </image>
+  </figure>
+
+</assemblage>

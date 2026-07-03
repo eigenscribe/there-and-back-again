@@ -1,0 +1,199 @@
+/* ============================================================ */
+/*  Mermaid Diagram Styling  —  There and Back Again            */
+/* ============================================================ */
+/* This file applies the website's visual language to Mermaid   */
+/* diagrams, including the Aclonica font, theme colors, and     */
+/* golden ratio scaling for borders and spacing.                */
+
+/* Global Mermaid Container */
+.mermaid {
+    font-family: var(--font-aclonica) !important;
+    margin: var(--space-xl) auto !important;
+    display: flex;
+    justify-content: center;
+}
+
+/* Node Styling - Using Glassmorphic Surface & Primary Accent */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon,
+.mermaid .node path,
+.mermaid .node.clickable {
+    fill: var(--color-surface) !important;
+    stroke: var(--primary-color) !important;
+    stroke-width: var(--border-sm) !important; /* Golden ratio scaled */
+    rx: var(--radius-sm) !important;
+    ry: var(--radius-sm) !important;
+    filter: drop-shadow(0 0 12px var(--primary-color-gray-6)) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+/* Hover effects for interactive nodes */
+.mermaid .node:hover rect,
+.mermaid .node:hover circle,
+.mermaid .node:hover ellipse,
+.mermaid .node:hover polygon,
+.mermaid .node:hover path {
+    stroke: var(--primary-color-light) !important;
+    filter: drop-shadow(0 0 15px var(--primary-color-light)) !important;
+    cursor: pointer;
+}
+
+/* Label & Text Styling */
+.mermaid .node .label,
+.mermaid .label text,
+.mermaid span.nodeLabel,
+.mermaid .cluster-label,
+.mermaid .entityLabel {
+    color: var(--color-text) !important;
+    fill: var(--color-text) !important;
+    font-family: var(--font-aclonica) !important;
+    font-size: var(--font-size-xs) !important;
+    font-weight: bold !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Edge / Path Styling - Consistent with Primary Color */
+.mermaid .edgePath .path {
+    stroke: var(--primary-color) !important;
+    stroke-width: var(--border-sm) !important;
+    opacity: 1;
+}
+
+/* Edge Labels (Relationships) */
+.mermaid .edgeLabel {
+    background-color: transparent !important;
+    color: var(--primary-color-light) !important;
+    font-family: var(--font-aclonica) !important;
+    font-size: var(--font-size-lg) !important;
+    font-weight: bold !important;
+    padding: var(--space-sm) !important;
+    border-radius: var(--radius-sm) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8) !important;
+}
+
+.mermaid .edgeLabel rect {
+    fill: rgba(13, 17, 23, 0.85) !important;
+    backdrop-filter: blur(4px) !important;
+    stroke: var(--primary-color-gray-4) !important;
+    stroke-width: 1px !important;
+    rx: var(--radius-xs) !important;
+    ry: var(--radius-xs) !important;
+}
+
+/* Arrowheads & Markers */
+.mermaid .marker {
+    fill: var(--primary-color) !important;
+    stroke: none !important;
+}
+
+/* Cluster / Group Styling */
+.mermaid .cluster rect {
+    fill: var(--glass-bg) !important;
+    stroke: var(--glass-border) !important;
+    stroke-width: var(--border-sm) !important;
+    rx: var(--radius-md) !important;
+    ry: var(--radius-md) !important;
+}
+
+/* Decision / Question Nodes (Diamond) */
+.mermaid .node .polygon {
+    fill: var(--color-surface) !important;
+    stroke: var(--quaternary-color) !important;
+}
+
+/* Note Styling */
+.mermaid .note {
+    fill: var(--tertiary-color-gray-2) !important;
+    stroke: var(--tertiary-color-medium) !important;
+}
+
+.mermaid .noteText {
+    fill: var(--color-text) !important;
+    font-family: var(--font-body) !important;
+    font-weight: bold !important;
+}
+
+/* Sequence Diagram Styling */
+.mermaid .actor {
+    fill: var(--color-surface) !important;
+    stroke: var(--primary-color) !important;
+}
+
+.mermaid text.actor {
+    fill: var(--color-text) !important;
+    font-family: var(--font-aclonica) !important;
+    font-weight: bold !important;
+}
+
+.mermaid .messageLine0, .mermaid .messageLine1 {
+    stroke: var(--primary-color) !important;
+    stroke-width: var(--border-sm) !important;
+}
+
+.mermaid .messageText {
+    fill: var(--color-text) !important;
+    font-family: var(--font-aclonica) !important;
+    font-weight: bold !important;
+}
+
+.mermaid .labelBox {
+    fill: var(--color-surface) !important;
+    stroke: var(--primary-color) !important;
+}
+
+.mermaid .loopText, .mermaid .loopLine {
+    fill: var(--color-text) !important;
+    stroke: var(--primary-color) !important;
+}
+
+/* ER Diagram Styling */
+.mermaid .er.entityBox {
+    fill: var(--color-surface) !important;
+    stroke: var(--primary-color) !important;
+    stroke-width: var(--border-sm) !important;
+}
+
+.mermaid .er.attributeBoxOdd, .mermaid .er.attributeBoxEven {
+    fill: var(--primary-color-gray-1) !important;
+    stroke: var(--primary-color-gray-4) !important;
+}
+
+.mermaid .er.relationshipLabelBox {
+    fill: rgba(13, 17, 23, 0.85) !important;
+}
+
+.mermaid .er.relationshipLine {
+    stroke: var(--primary-color) !important;
+    stroke-width: var(--border-sm) !important;
+}
+
+/* Pie Chart Styling */
+.mermaid .pieTitleText {
+    fill: var(--color-text) !important;
+    font-family: var(--font-aclonica) !important;
+    font-weight: bold !important;
+}
+
+.mermaid .slice {
+    stroke: var(--color-bg) !important;
+    stroke-width: var(--border-sm) !important;
+}
+
+.mermaid .legend text {
+    fill: var(--color-text) !important;
+    font-family: var(--font-aclonica) !important;
+    font-weight: bold !important;
+}
+
+/* SVG Scaling and Responsiveness */
+.mermaid svg {
+    max-width: 100% !important;
+    height: auto !important;
+    padding: var(--space-md) !important;
+    background: transparent !important;
+}
