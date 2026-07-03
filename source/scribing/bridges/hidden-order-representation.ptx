@@ -6,7 +6,25 @@
 
 <section xml:id="sec-hidden-order" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Lens of Representation: Uncovering Hidden Order</title>
-  
+  <introduction>
+        Many of the most profound ideas in science are rooted in taking on new perspectives to think about
+        physical systems that already have a well-established conventional representation. The <alert>big ideas</alert>
+        do not emerge from changes in the physical system themselves (nor the methods used to observe and measure them), but rather
+        newfound understandings that reveal hidden structures in nature.
+  </introduction>
 
-    
+  <remark xml:id="boltzmann-transitions">
+    <title>Before and After Boltzmann: Mysterious Variable-to-Combinatoric Counting-to-Clarity</title>
+
+    <statement>
+      <p>
+        Before Boltzmann and his Second Law of Thermodynamics, <alert>entropy</alert> was an esoteric-like thermodynamic quantity <m>S</m>.
+        Boltzmann was able to frame this headache of a physical quantity as a combinatorial statement rooted in basic counting (see
+        <xref ref="def-boltzmann-entropy"/> for details on the Boltzmann entropy formulation).
+      </p>
+    </statement>
+
+
+
+  </remark>
 </section>

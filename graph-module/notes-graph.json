@@ -578,7 +578,7 @@
       "title": "The Lens of Representation: Uncovering Hidden Order",
       "url": "sec-hidden-order.html",
       "tags": [],
-      "description": "",
+      "description": "Before Boltzmann and his Second Law of Thermodynamics, entropy was an esoteric-like thermodynamic quantity S.\n       ...",
       "group": "bridges",
       "color": "#50e3c2"
     },
@@ -898,6 +898,12 @@
     {
       "source": "sub-pretext-inline",
       "target": "sec-pretext-cheat-sheet",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "sec-hidden-order",
+      "target": "def-boltzmann-entropy",
       "type": "reference",
       "weight": 2
     },
