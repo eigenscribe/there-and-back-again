@@ -574,18 +574,18 @@
       "color": "#50e3c2"
     },
     {
-      "id": "sec-hidden-order",
-      "title": "The Lens of Representation: Uncovering Hidden Order",
-      "url": "sec-hidden-order.html",
+      "id": "sec-hidden-order-representation",
+      "title": "Hidden Order Representation",
+      "url": "sec-hidden-order-representation.html",
       "tags": [],
-      "description": "",
+      "description": "Many of the most profound ideas in science are rooted in taking on new perspectives to think about\n      physical sys...",
       "group": "bridges",
       "color": "#50e3c2"
     },
     {
-      "id": "ch-future-crossings",
+      "id": "sec-future-crossings",
       "title": "Future Crossings",
-      "url": "ch-future-crossings.html",
+      "url": "sec-future-crossings.html",
       "tags": [],
       "description": "",
       "group": "bridges",
@@ -593,7 +593,7 @@
     },
     {
       "id": "sec-physics-and-geometric-algebra",
-      "title": "Geometric Algebra and Physics",
+      "title": "Physics and Geometric Algebra",
       "url": "sec-physics-and-geometric-algebra.html",
       "tags": [],
       "description": "The :logo: Eigenscribe \u00a9 methodology  system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to ...",

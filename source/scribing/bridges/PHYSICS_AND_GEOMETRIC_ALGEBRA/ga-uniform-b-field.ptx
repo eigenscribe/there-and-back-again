@@ -59,7 +59,7 @@
         <statement>
             <p>
                 Consider two gauges of a uniform magnetic field <m>\vec{B}=B_0\mathbf{e}_z</m> with respective potentials <m>\vec{A}_1</m> and <m>\vec{A}_2</m>.
-                For such gauges, there is always some scalar function $\chi$ that can be used to relate the respective vector potentials as follows:
+                For such gauges, there is always some scalar function <m>\chi</m> that can be used to relate the respective vector potentials as follows:
 
                 <md>
                   \vec{A}_1= \vec{A}_2 + \vec{\nabla}\chi \, .
@@ -70,7 +70,9 @@
     </lemma>
 
     <conclusion>
-        🔗 <alert>Linked Notes:</alert> <xref ref="claim-vector-potential-generalization"/>
+        <p>
+            🔗 <alert>Linked Notes:</alert> <xref ref="claim-vector-potential-generalization"/>
+        </p>
     </conclusion>
 
 </subsection>

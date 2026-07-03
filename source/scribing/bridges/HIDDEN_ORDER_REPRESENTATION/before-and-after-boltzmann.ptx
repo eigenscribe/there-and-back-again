@@ -4,7 +4,7 @@
     <title>Before and After Boltzmann: From Mysterious Variable to Profound Understanding </title>
     <p>
       Before Boltzmann and his formulation of entropy <fn><xref ref="def-boltzmann-entropy"/></fn>, <alert>entropy</alert> was an esoteric-like thermodynamic quantity <m>S</m>.
-      Boltzmann was able to frame this headache of a physical quantity as a\time combinatorial statement rooted in basic counting and leveraged the fact logarithms have the property
+      Boltzmann was able to frame this headache of a physical quantity as a combinatorial statement rooted in basic counting and leveraged the fact logarithms have the property
       that
       <md>
         \log{\Omega_A \times \Omega_B} = \log\Omega_A + \log\Omega_B

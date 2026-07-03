@@ -2,87 +2,84 @@
 
 <subsection xml:id="subsec-wedge-product-and-angular-momentum" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Physical Interpretations of the Wedge Product</title>
-        <introduction>
+  <introduction>
+    <p>
+      <tag>202604110004</tag> | <tag>geometric algebra</tag> <tag>classical mechanics</tag> <tag>vector calculus</tag> |
+      <alert>PreFigure Demo:</alert> <tag>🔗 <url href="https://prefigure.org">Interactive</url></tag>
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-wedge-product-angular-momentum">
+    <title>Wedge Product and Angular Momentum</title>
+    <claim>
+      <p>
+        The <term>wedge product</term> captures oriented area and is analogous to angular momentum or flux in physical systems.
+      </p>
+
+      <image width="60%">
+        <prefigure xmlns="https://prefigure.org"
+                  label="prefigure-wedge-product-angular-momentum">
+
+          <diagram dimensions="(300,250)"
+                   margins="(35,30,50,30)">
+
+            <coordinates bbox="(-1,-1,1,1)">
+
+              <!-- Filled phase-space orbit -->
+              <grid-axes h-frame="bottom"
+                         v-frame="left"
+                         xlabel="q"
+                         ylabel="p"/>
+
+              <!-- Filled phase-space orbit -->
+              <ellipse center="(0,0)"
+                       axes="(0.8,0.5)"
+                       fill="#00E8FF"
+                       fill-opacity="0.25"
+                       stroke="none"/>
+
+              <!-- Ellipse outline -->
+              <ellipse center="(0,0)"
+                       axes="(0.8,0.5)"
+                       fill="none"
+                       stroke="#4361EE"
+                       stroke-width="2"/>
+
+              <!-- Golden-angle-inspired flow arrow -->
+              <path stroke="#4361EE"
+                    stroke-width="2"
+                    fill="none"
+                    arrows="1"
+                    arrow-size="6"
+                    start="(0.0, 0.5)"/>
+
+
+              <!-- Central label -->
+              <label anchor="(0,0)"
+                     alignment="center">
+                <m>\bivec{L} = q \wedge p</m>
+              </label>
+
+            </coordinates>
+
+          </diagram>
+        </prefigure>
+      </image>
+      <warning>
         <p>
-            <tag>202604110004</tag> | <tag>geometric algebra</tag> <tag>classical mechanics</tag> <tag>vector calculus</tag> |
-            <alert>PreFigure Demo:</alert> <tag>🔗 <url href="https://prefigure.org">Interactive</url></tag>
+          The above diagram is not complete; just ignore it for the time being. Should be updated soon :)
         </p>
-        </introduction>
+      </warning>
+    </claim>
+  </subsubsection>
 
-        <subsubsection xml:id="subsubsec-wedge-product-angular-momentum">
-            <title>Wedge Product and Angular Momentum</title>
-            <claim>
-                <p>
-                    The <term>wedge product</term> captures oriented area and is analogous to angular momentum or flux in physical systems.
-                </p>
-
-                <image width="60%">
-                    <prefigure xmlns="https://prefigure.org"
-                              label="prefigure-wedge-product-angular-momentum">
-
-                        <diagram dimensions="(300,250)"
-                                 margins="(35,30,50,30)">
-
-                            <coordinates bbox="(-1,-1,1,1)">
-
-                                <!-- Filled phase-space orbit -->
-                                <grid-axes h-frame="bottom"
-                                           v-frame="left"
-                                           xlabel="q"
-                                           ylabel="p"/>
-
-                                 <!-- Filled phase-space orbit -->
-                                <ellipse center="(0,0)"
-                                         axes="(0.8,0.5)"
-                                         fill="#00E8FF"
-                                         fill-opacity="0.25"
-                                         stroke="none"/>
-
-                                <!-- Ellipse outline -->
-                                <ellipse center="(0,0)"
-                                         axes="(0.8,0.5)"
-                                         fill="none"
-                                         stroke="#4361EE"
-                                         stroke-width="2"/>
-
-                                <!-- Golden-angle-inspired flow arrow -->
-                                <path stroke="#4361EE"
-                                      stroke-width="2"
-                                      fill="none"
-                                      arrows="1"
-                                      arrow-size="6"
-                                      start="(0.0, 0.5)"/>
-
-
-                                <!-- Central label -->
-                                <label anchor="(0,0)"
-                                       alignment="center">
-                                   <m>\bivec{L} = q \wedge p</m>
-                                </label>
-
-                            </coordinates>
-
-                        </diagram>
-                    </prefigure>
-                </image>
-                <warning>
-                    <p>
-                        The above diagram is not complete; just ignore it for the time being. Should be updated soon :)
-                    </p>
-                </warning>
-            </claim>
-
-
-
-        </subsubsection>
-
-        <conclusion>
-           <p>
-              <alert>🔗 Linked Notes:</alert> <!-- <xref ref="sec-geometric-algebra" detail="sec" /> -->
-           </p>
-           <p>
-              <alert>🔖 References:</alert> <xref ref="hestenes1993hamiltonian" detail="biblio"><em>Hamiltonian Mechanics with Geometric Calculus</em></xref>
-           </p>
-        </conclusion>
+  <conclusion>
+    <p>
+      <alert>🔗 Linked Notes:</alert> <!-- <xref ref="sec-geometric-algebra" detail="sec" /> -->
+    </p>
+    <p>
+      <alert>🔖 References:</alert> <xref ref="hestenes1993hamiltonian" detail="biblio"><em>Hamiltonian Mechanics with Geometric Calculus</em></xref>
+    </p>
+  </conclusion>
 
 </subsection>

@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-hidden-order" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>The Lens of Representation: Uncovering Hidden Order</title>
+<section xml:id="sec-hidden-order-representation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hidden Order Representation</title>
   <introduction>
-    Many of the most profound ideas in science are rooted in taking on new perspectives to think about
-    physical systems that already have a well-established conventional representation. The <alert>big ideas</alert>
-    do not emerge from changes in the physical system themselves (nor the methods used to observe and measure them), but rather
-    newfound understandings that reveal hidden structures in nature.
+    <p>
+      Many of the most profound ideas in science are rooted in taking on new perspectives to think about
+      physical systems that already have a well-established conventional representation. The <alert>big ideas</alert>
+      do not emerge from changes in the physical system themselves (nor the methods used to observe and measure them), but rather
+      newfound understandings that reveal hidden structures in nature.
+    </p>
   </introduction>
 
-  <xi:include href="before-and-after-boltzmann.ptx"/>
   <xi:include href="information-pipeline.ptx"/>
+  <xi:include href="before-and-after-boltzmann.ptx"/>
 
 </section>
