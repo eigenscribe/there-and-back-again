@@ -4,14 +4,19 @@
   <title>Eigenscribe Methodology</title>
 
   <assemblage>
-    <p>
-      The :logo: <em>Eigenscribe methodology</em> :logo: is a structured approach to reasoning that aims to empower independent learning and research by emphasizing transparency and reproducibility. This is particularly important at the dawn of the AI era where the ability to sanity check is vital not only the individual but for the fidelity of the scientific ecosystem as a whole.
-    </p>
 
     <p>
-      At its core, the framework strives to enable responsible AI-assisted developing in a way that maximizes the benefits reaped from AI without sacrificing quality nor a human-supervised understanding of conclusions and systems derived. Rather than requiring that all ideas originate from fully reduced assumptions, the system allows exploratory and heuristic reasoning, which is progressively refined into formal, reproducible forms.
+      The :logo: <em>Eigenscribe methodology</em> is an evolving framework for organizing and refining technical
+      understanding. It emphasizes transparency, reproducibility, and responsible reasoning, principles that have become
+      increasingly important in the dawn of the AI era. Its general approach is to make assumptions, inferential steps,
+      and <term>epistemic</term> boundaries visible so that conclusions can be critically examined and independently
+      sanity-checked. Importantly, rather than requiring that all ideas originate from fully reduced foundations, this
+      methodology is designed to allow exploratory and heuristic reasoning while encouraging progressive refinement
+      toward more formal and reproducible structures.
     </p>
+
   </assemblage>
+
 
 
 </paragraphs>
