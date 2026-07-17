@@ -74,11 +74,11 @@
         on which the function is nonzero.
     </p>
 
-    <me>
+    <md>
         \operatorname{supp}(f)
         =
         \{x \in X : f(x)\neq 0\}.
-    </me>
+    </md>
   </gi>
 
 </glossary>

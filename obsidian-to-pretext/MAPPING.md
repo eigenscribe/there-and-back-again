@@ -44,7 +44,7 @@ This document describes how Obsidian Markdown elements are converted to PreTeXt 
 | Markdown | PreTeXt | Notes |
 |----------|---------|-------|
 | `$inline$` | `<m>inline</m>` | Inline math |
-| `$$block$$` | `<me>block</me>` | Block equation |
+| `$$block$$` | `<md>block</md>` | Block equation |
 
 ### Lists
 
@@ -65,9 +65,9 @@ Becomes:
 
 ```xml
 <program language="python">
-<input>
+<code>
 code here
-</input>
+</code>
 </program>
 ```
 

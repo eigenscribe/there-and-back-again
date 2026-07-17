@@ -22,8 +22,7 @@
             For the purposes of :logo: <em>There and Back Again</em>, we will mathematically represent this nuance as follows:
         </p>
 
-        <me>
-
+        <md>
             \int^b_a {\delta(x-c) \, dx}
 
                 = \begin{cases}
@@ -31,7 +30,7 @@
                     1 &amp; \text{if } c\in(a,b) \\
                     * &amp; \text{if } c\in {a,b}
                    \end{cases}
-        </me>
+        </md>
 
         <remark>
             <p>
@@ -49,17 +48,17 @@
             <li>
                 <title><em>full-contribution convention</em></title>
 
-                <me>
+                <md>
                     * = 1
-                </me>
+                </md>
             </li>
 
             <li>
                 <title><em>symmetric convention</em></title>
 
-                <me>
+                <md>
                     * = \frac{1}{2}
-                </me>
+                </md>
 
                 <p>
                    Induced by the symmetric Heaviside step function <m>H(x)</m> where <m>H(0)=\tfrac{1}{2}</m> .

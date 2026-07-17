@@ -4,35 +4,65 @@
   <title>The Architecture: Networked Mathematical Thinking</title>
 
   <p>
-     To support the first-principles guidelines, :logo: <em>There and Back Again</em> is divided into the functional layers.
-     Each a distinct purpose in the research lifecycle:
+     To support the first-principles guidelines, :logo: <em>There and Back Again</em> is divided into five functional layers.
+     Each has a distinct purpose in the research lifecycle:
   </p>
+
+  <figure xml:id="fig-system-architecture">
+    <caption>The Five Functional Layers of Eigenscribe</caption>
+    <image xml:id="mermaid-system-architecture">
+      <description>A mermaid diagram showing the five functional layers: Frontmatter, Scribing, Practice Problems, Meta, and Backmatter.</description>
+      <mermaid>
+        graph TD
+          FM[Frontmatter]
+          SC[Scribing]
+          PP[Practice Problems]
+          MT[Meta]
+          BM[Backmatter]
+          FM -- "Rules" --> SC
+          SC -- "Application" --> PP
+          SC -- "Utilities" --> MT
+          PP -- "Reference" --> BM
+          MT -- "Reference" --> BM
+      </mermaid>
+    </image>
+  </figure>
 
   <dl>
 
-    <dt>Frontmatter</dt>
-    <dd>The "constitution" of the :logo: <em>There and Back Again</em> where strict conventions, notations, and methodology is established.</dd>
+    <li>
+      <title>Frontmatter</title>
+      <p>The "constitution" of the :logo: <em>There and Back Again</em> where strict conventions, notations, and methodology is established.</p>
+    </li>
 
-    <dt>🪶 Scribing</dt>
-    <dd>
-      The "living" layer containing field notes, historical context, and the narrative of discovery.
-      This is where <strong>concept bridges</strong> are forged, linking fields like Geometric Algebra and Quantum Mechanics through shared primitives.
-    </dd>
+    <li>
+      <title>🪶 Scribing</title>
+      <p>
+        The "living" layer containing field notes, historical context, and the narrative of discovery.
+        This is where <strong>concept bridges</strong> are forged, linking fields like Geometric Algebra and Quantum Mechanics through shared primitives.
+      </p>
+    </li>
 
-    <dt>⚽️ Practice Problems</dt>
-    <dd>
-      A dedicated library of practice sets, designed to test understanding and reinforce application of theory.
-    </dd>
+    <li>
+      <title>⚽️ Practice Problems</title>
+      <p>
+        A dedicated library of practice sets, designed to test understanding and reinforce application of theory.
+      </p>
+    </li>
 
-    <dt>🔱Meta</dt>
-    <dd>
-      A collection of meta-information and cheatsheets for :logo: <em>Eigenscribe ©</em> :logo: .
-    </dd>
+    <li>
+      <title>🔱Meta</title>
+      <p>
+        A collection of meta-information and cheatsheets for :logo: <em>Eigenscribe ©</em> :logo: .
+      </p>
+    </li>
 
-    <dt>Backmatter</dt>
-    <dd>
-      Foundational appendices, glossary and index terms, and a bibliography.
-    </dd>
+    <li>
+      <title>Backmatter</title>
+      <p>
+        Foundational appendices, glossary and index terms, and a bibliography.
+      </p>
+    </li>
 
   </dl>
 

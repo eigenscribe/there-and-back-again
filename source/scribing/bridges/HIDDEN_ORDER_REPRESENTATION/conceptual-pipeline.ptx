@@ -7,8 +7,7 @@
 <assemblage xml:id="conceptual-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Information Pipeline</title>
 
-  <figure xml:id="fig-information-pipeline">
-    <caption>The Information Pipeline for Conceptual Bridges</caption>
+  <sidebyside xml:id="fig-information-pipeline">
     <image xml:id="mermaid-info-pipeline">
       <description>A mermaid diagram showing the information pipeline from measured data to function.</description>
       <mermaid>
@@ -18,6 +17,6 @@
           O --> F[function]
       </mermaid>
     </image>
-  </figure>
+  </sidebyside>
 
 </assemblage>

@@ -256,7 +256,7 @@ class ObsidianToPreText:
             code = code.replace('&', '&amp;')
             code = code.replace('<', '&lt;')
             code = code.replace('>', '&gt;')
-            return f'<program language="{lang}">\n<input>\n{code}</input>\n</program>'
+            return f'<program language="{lang}">\n<code>\n{code}</code>\n</program>'
         
         return self.CODE_BLOCK_PATTERN.sub(replace_block, content)
 
@@ -330,7 +330,7 @@ class ObsidianToPreText:
     def finalize_structure(self, content: str) -> str:
         """Convert markers to proper PreTeXt structure and wrap paragraphs."""
         block_math_pattern = re.compile(r'__BLOCK_MATH_START__(.+?)__BLOCK_MATH_END__')
-        content = block_math_pattern.sub(r'<me>\1</me>', content)
+        content = block_math_pattern.sub(r'<md>\1</md>', content)
         
         lines = content.split('\n')
         result = []
@@ -422,7 +422,7 @@ class ObsidianToPreText:
                 i += 1
                 continue
             
-            if line.startswith('<me>'):
+            if line.startswith('<md>'):
                 flush_para()
                 result.append(line)
                 i += 1
@@ -434,7 +434,7 @@ class ObsidianToPreText:
                 i += 1
                 continue
             
-            if line.startswith('</me>') or line.startswith('</program>') or line.startswith('</input>') or line.startswith('<input>'):
+            if line.startswith('</md>') or line.startswith('</program>') or line.startswith('</code>') or line.startswith('<code>'):
                 result.append(line)
                 i += 1
                 continue

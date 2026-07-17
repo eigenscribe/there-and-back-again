@@ -279,7 +279,7 @@ Create a new section in the appropriate chapter file (e.g., `source/ch-prototype
       <title>Your Definition</title>
       <statement>
         <p>A formal definition using display math:</p>
-        <me>\int_a^b f(x)\,dx = F(b) - F(a)</me>
+        <md>\int_a^b f(x)\,dx = F(b) - F(a)</md>
       </statement>
     </definition>
   </subsection>

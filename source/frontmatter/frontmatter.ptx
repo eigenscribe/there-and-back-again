@@ -39,38 +39,35 @@
   </introduction>
 
   <abstract>
+
     <p>
-      :logo: <em>There and Back Again</em> is a <pretext />-powered personal knowledge management system developed by Eigenscribe © that demonstrates an integrated workflow for technical learning, documentation, and research.
-      By separating raw derivation, conceptual synthesis, and canonical reference into distinct, interlinked layers, it serves as a living case study in networked mathematical thinking.
-    </p>
+      :logo: <em>There and Back Again</em> is a <pretext />-powered personal knowledge management system that demonstrates
+      an integrated workflow for technical learning, documentation, and research. By integrating reconstructive derivation,
+      conceptual synthesis, and canonical reference into distinct, interlinked layers, it serves as an evolving personal
+      case study in how interconnected hierarchies of ideas reveal the mathematical structures of nature.
   </abstract>
 
   <preface xml:id="preface">
 
     <title>Preface</title>
 
+    <idx>first-principles reasoning</idx>
+
     <!-- 1. Eigenscribe Framework (core system layer) -->
-    <paragraphs xml:id="eigenscribe-framework">
-      <title>The Eigenscribe Framework</title>
-      <idx>first-principles reasoning</idx>
+    <xi:include href="./METHODOLOGY/eigen-methodology.ptx"/>
+    <xi:include href="./METHODOLOGY/first-principles.ptx"/>
+    <xi:include href="./METHODOLOGY/eigen-architecture.ptx"/>
+    <xi:include href="./METHODOLOGY/dynamic-document.ptx"/>
 
-
-      <!-- Include your dedicated first-principles file -->
-      <xi:include href="./METHODOLOGY/eigen-methodology.ptx"/>
-      <xi:include href="./METHODOLOGY/first-principles.ptx"/>
-      <xi:include href="./METHODOLOGY/eigen-architecture.ptx"/>
-      <xi:include href="./METHODOLOGY/dynamic-document.ptx"/>
-
-    </paragraphs>
   </preface>
 
   <!-- 3. Conventions -->
   <preface xml:id="conventions">
     <title>Conventions</title>
 
-    <xi:include href="CONVENTIONS/math-notation.ptx"/>
-    <xi:include href="CONVENTIONS/abbreviations.ptx"/>
-    <xi:include href="CONVENTIONS/icons.ptx"/>
+    <xi:include href="./CONVENTIONS/math-notation.ptx"/>
+    <xi:include href="./CONVENTIONS/abbreviations.ptx"/>
+    <xi:include href="./CONVENTIONS/icons.ptx"/>
 
   </preface>
   

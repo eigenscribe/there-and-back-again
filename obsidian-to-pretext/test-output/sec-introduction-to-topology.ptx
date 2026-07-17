@@ -13,7 +13,7 @@
 <li><p>Arbitrary unions of open sets are open</p></li>
 <li><p>Finite intersections of open sets are open</p></li>
 </ol>
-<me>\tau \subseteq \mathcal{P}(X)</me>
+<md>\tau \subseteq \mathcal{P}(X)</md>
 </paragraphs>
 <paragraphs xml:id="para-related-topics">
 <title>Related Topics</title>

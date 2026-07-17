@@ -6,7 +6,7 @@ Convert your Obsidian Markdown notes to PreTeXt XML format for professional math
 
 - **YAML Frontmatter** parsing (title, tags, aliases)
 - **Wikilink conversion** to PreTeXt `<xref>` elements
-- **MathJax preservation** (`$inline$` → `<m>`, `$$block$$` → `<me>`)
+- **MathJax preservation** (`$inline$` → `<m>`, `$$block$$` → `<md>`)
 - **One note = one section** with stable `xml:id`
 - **Automatic backlink generation**
 - **Graph data export** for visualization
