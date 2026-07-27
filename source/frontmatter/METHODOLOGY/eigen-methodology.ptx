@@ -3,8 +3,6 @@
 <paragraphs xml:id="par-eigen-methodology" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Eigenscribe Methodology</title>
 
-  <assemblage>
-
     <p>
       The :logo: <em>Eigenscribe methodology</em> is an evolving framework for organizing and refining technical
       understanding. It emphasizes transparency, reproducibility, and responsible reasoning, principles that have become
@@ -14,9 +12,5 @@
       methodology is designed to allow exploratory and heuristic reasoning while encouraging progressive refinement
       toward more formal and reproducible structures.
     </p>
-
-  </assemblage>
-
-
 
 </paragraphs>

@@ -7,20 +7,39 @@ The main source file is `source/main.ptx`.  This includes the other chapters of 
 
 To compile the book as an accessible website with all custom enhancements, use the provided build scripts:
 
+- **Windows (PowerShell/Git Bash/CMD):**
+  ```powershell
+  ./build.ps1
+  ```
+  *(Note: build.sh will automatically call build.ps1 on Windows)*
+
 - **Mac/Linux:**
   ```bash
   ./build.sh
   ```
-- **Windows (PowerShell):**
-  ```powershell
-  ./build.ps1
-  ```
-- **Windows (Git Bash):**
-  ```bash
-  ./build.sh
-  ```
 
-To preview your output, run `pretext view web`.
+### Running PreTeXt Commands
+
+If you get a "command not found" error when running `pretext`, it is because the virtual environment is not active. You have two options:
+
+1. **Use the helper scripts (Recommended):**
+   Instead of `pretext`, use `./ptx.sh` (Bash) or `.\ptx.bat` (Windows/CMD).
+   ```bash
+   ./ptx.sh view web
+   ```
+   or
+   ```cmd
+   .\ptx.bat view web
+   ```
+
+2. **Activate the environment manually:**
+   - **Bash (Git Bash/Mac/Linux):** `source .venv/Scripts/activate` (Windows) or `source .venv/bin/activate` (Mac/Linux)
+   - **PowerShell:** `.\.venv\Scripts\Activate.ps1`
+   - **CMD:** `.\.venv\Scripts\activate.bat`
+
+Once active, you can run `pretext view web` directly.
+
+To preview your output, run `pretext view web` (after activation) or `./ptx.sh view web`.
 
 To deploy your output to GitHub pages, run `pretext deploy`.
 

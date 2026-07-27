@@ -66,7 +66,11 @@ cp -r assets/widgets/periodic-table/ output/web/external/widgets/
 
 # Update the graph data from source
 echo "Updating graph data..."
-python3 graph-module/update_graph.py
+if command -v python >/dev/null 2>&1; then
+  python graph-module/update_graph.py
+else
+  python3 graph-module/update_graph.py
+fi
 
 # Copy graph module files
 echo "Copying graph module files..."

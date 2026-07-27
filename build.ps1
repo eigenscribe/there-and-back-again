@@ -19,6 +19,8 @@ if (Test-Path "output/web") { Remove-Item -Recurse -Force "output/web" }
 Write-Host "Building PreTeXt project..."
 if (Get-Command "pretext" -ErrorAction SilentlyContinue) {
     pretext build web
+} elseif (Get-Command "python" -ErrorAction SilentlyContinue) {
+    python -m pretext build web
 } else {
     python3 -m pretext build web
 }
@@ -48,7 +50,11 @@ Copy-Item -Recurse "assets/widgets/periodic-table/*" "output/web/external/widget
 
 # Update the graph data from source
 Write-Host "Updating graph data..."
-python3 graph-module/update_graph.py
+if (Get-Command "python" -ErrorAction SilentlyContinue) {
+    python graph-module/update_graph.py
+} else {
+    python3 graph-module/update_graph.py
+}
 
 # Copy graph module files
 Write-Host "Copying graph module files..."
