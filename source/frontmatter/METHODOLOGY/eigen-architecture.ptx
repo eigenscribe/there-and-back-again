@@ -4,8 +4,8 @@
   <title>The Architecture: Networked Mathematical Thinking</title>
 
   <p>
-     To support the first-principles guidelines, :logo: <em>There and Back Again</em> is divided into five functional layers.
-     Each has a distinct purpose in the research lifecycle:
+     To support the first-principles guidelines, :logo: <em>There and Back Again</em> is divided into five functional
+     layers. Each has a distinct purpose in the research lifecycle:
   </p>
 
   <figure xml:id="fig-system-architecture">
@@ -32,7 +32,8 @@
 
     <li>
       <title>Frontmatter</title>
-      <p>The "constitution" of the :logo: <em>There and Back Again</em> where strict conventions, notations, and methodology is established.</p>
+      <p>The "constitution" of the :logo: <em>There and Back Again</em> where conventions, notations, and methodology
+      is established.</p>
     </li>
 
     <li>
@@ -65,9 +66,5 @@
     </li>
 
   </dl>
-
-
-
-
 
 </paragraphs>

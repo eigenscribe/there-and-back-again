@@ -5,7 +5,14 @@
   <idx>first-principles</idx>
 
    <p>
-     At the core of this system is the <strong>Eigenscribe methodology</strong>, which demands that all reasoning be grounded in explicit assumptions and traceable inference.
+     Scientific understanding tends to be most durable when constructed from a parsimonious, well-defined set of
+     assumptions. At its core, the :logo: <em>Eigenscribe methodology</em> provides a framework for reasoning that
+     minimizes treating equations, definitions, and theorems as isolated "black boxes" facts to be memorized. Instead,
+     it aims to derive concepts from shared mathematical and physical foundations, making the relationships between
+     interdisciplinary ideas explicit. Building knowledge in this manner not only strengthens long-term understanding,
+     but also reveals the interconnectedness of scientific disciplines and potentiates the discovery of new connections
+     that might otherwise remain obscure. Most importantly, this approach is meant to increase versatility and improve
+     adaptability when confronting unfamiliar problems.
    </p>
 
    <bestpractice xml:id="bp-eigenscribe-reasoning-guidelines">
@@ -17,13 +24,28 @@
          <ol>
            <title>Core Guidelines</title>
 
-           <li><strong>Explicit Assumptions:</strong> Foundational assumptions must be justified by empirical observation, physical law, or formal axioms.</li>
-           <li><strong>Traceable Inference</strong> Every inferential step must be transparent, allowing for independent sanity checks and reproduction by the reader.</li>
-           <li><strong>Falsifiability</strong> All derived results and conclusions must remain open to revision. The system is designed for iterative correction, where conclusions can be refined once new evidence emerges.</li>
-           <li><strong>Shared Primitives</strong> Connections between disparate domains ("bridges") are constructed from shared mathematical primitives, not mere analogy</li>
-           <li><strong>Ember Warning:</strong> Any heuristics, analogies, etc. violating the above guidelines should be marked with a :ember: </li>
-           <li><strong>Transparent AI Usage</strong> AI-generated content must be clearly marked as such.</li>
+           <li><alert>Explicit Assumptions:</alert> Every line of reasoning begins from assumptions that are
+           explicitly identified and, whenever possible, justified by empirical observation, canonical physical laws and
+           mathematical concepts, or formal axioms.</li>
 
+           <li><alert>Traceable Inference</alert> Every inferential step must be transparent, allowing for independent
+           sanity checks and reproduction by the reader.</li>
+
+           <li><alert>Falsifiability</alert> All derived results and conclusions remain provisional and open to
+           revision in light of new evidence. The system is designed for iterative correction, where conclusions can
+           be refined once new evidence emerges.</li>
+
+           <li><alert>Shared Primitives</alert> Connections between disciplines ("<em>concept bridges</em>")
+           are constructed from mathematical structures, physical principles, or computational abstractions rather than
+           superficial analogy.</li>
+
+           <li><alert>Ember Warning:</alert> Heuristic arguments, speculative ideas, incomplete derivations, or
+           informal analogies that do not satisfy the preceding guidelines should be explicitly marked with the
+           :ember: symbol.</li>
+
+           <li><alert>Transparent AI Usage</alert> Artificial intelligence is treated as a collaborative reasoning tool
+           rather than an authority. AI-assisted content should be clearly identified and remain subject to the same
+           standards of verification and reproducibility as human-generated work.</li>
 
          </ol>
        </p>

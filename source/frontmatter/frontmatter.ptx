@@ -53,19 +53,25 @@
 
     <title>Preface</title>
 
-    <idx>first-principles reasoning</idx>
+    <p>
+        In this work, the prefix <em>eigen-</em> refers to the search for conceptual invariants: mathematical
+        structures in physics, scientific principles, and modes of reasoning that retain their essential characteristics
+        across different domains. Just as <term>eigenvectors</term> remain aligned with themselves under a change of basis,
+        the goal is to identify ideas whose explanatory implications remain consistent and persistent across different
+        representations and disciplinary boundaries
+    </p>
 
     <!-- 1. Eigenscribe Framework (core system layer) -->
     <xi:include href="./METHODOLOGY/eigen-methodology.ptx"/>
+    <xi:include href="./METHODOLOGY/first-principles.ptx"/>
     <!-- ✅: revisit First Principles and Architecture sections after core content organization stabilizes -->
-    <!-- <xi:include href="./METHODOLOGY/first-principles.ptx"/> -->
     <!-- <xi:include href="./METHODOLOGY/eigen-architecture.ptx"/> -->
     <!-- end of ✅ list -->
     <xi:include href="./METHODOLOGY/dynamic-document.ptx"/>
 
   </preface>
 
-  <!-- 3. Conventions -->
+  <!-- 2. Conventions -->
   <preface xml:id="conventions">
     <title>Conventions</title>
 
@@ -73,6 +79,31 @@
     <xi:include href="./CONVENTIONS/abbreviations.ptx"/>
     <xi:include href="./CONVENTIONS/icons.ptx"/>
 
+  </preface>
+
+  <!-- 3. Acknowledgements -->
+  <preface xml:id="acknowledgements">
+    <title>Acknowledgements</title>
+
+    <p>
+        This work is dedicated to my Dad.
+    </p>
+
+    <p>
+        Thank you for always believing in me and supporting my academic pursuits. I would not be who I am today without
+        you're enthusiasm, advice, generosity, and willingness to nurture my curiosity. You are the one who introduced
+        me to the beauty of mathematics and physics, and your faith in me gives me the confidence to continue my
+        academic journey wholeheartedly.
+    </p>
+
+    <p>
+        This project would not exist without your support. Thank you for helping me build it, and for helping me become
+        a person capable of building it.
+    </p>
+
+    <p>
+        I love you so much, and I look forward to seeing you in the next chapter.
+    </p>
   </preface>
   
 </frontmatter>
