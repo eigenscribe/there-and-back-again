@@ -7,12 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="changed probability p style in entropy taximony page">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="removed assemblage styling from eigenscribe methodology">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/linear-regression.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +112,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "PowerShell.build.ps1 (1).executor": "Run",
+    "PowerShell.build.ps1 (2).executor": "Run",
     "PowerShell.build.ps1.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -193,14 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00071" summary="hypothesis definition added">
-      <option name="closed" value="true" />
-      <created>1780879687955</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1780879687955</updated>
     </task>
     <task id="LOCAL-00072" summary="added all the nodes">
       <option name="closed" value="true" />
@@ -586,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782993278136</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="removed assemblage styling from eigenscribe methodology">
+      <option name="closed" value="true" />
+      <created>1785116270626</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1785116270626</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stylesheet adjustments (golden ratio scaling and best practice color contrast)" />
     <MESSAGE value="updated note-like element gradient" />
     <MESSAGE value="wedge product diagram. still incomplete, but progress was made" />
     <MESSAGE value="minor latex equation tinkering for enhanced readability (problem isn't resolved, but can be improved later)" />
@@ -629,6 +626,7 @@
     <MESSAGE value="added a spectral analysis jargon table comparing interpretations of terms that are used to describe some physical dimension vs their use in spectral analysis" />
     <MESSAGE value="relocated the spectral analysis section content inside the signal analysis content as a spectral analysis subsection" />
     <MESSAGE value="changed probability p style in entropy taximony page" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed probability p style in entropy taximony page" />
+    <MESSAGE value="removed assemblage styling from eigenscribe methodology" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed assemblage styling from eigenscribe methodology" />
   </component>
 </project>

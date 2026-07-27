@@ -107,17 +107,14 @@
              </statement>
         </remark>
 
-        <note>
+        <remark>
             <statement>
                 By definition, <m>A\vec{x}^*-\vec{b} \perp C(A)</m>.
                 Therefore, <md> A\vec{x}^*-\vec{b} \in C(A) \implies A\vec{x}^*-\vec{b} \in N(A^T)</md>.
             </statement>
 
-        </note>
-
+        </remark>
 
     </subsubsection>
-
-
 
 </subsection>
