@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated the glossary definition of support">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/eular_lagrange.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/sec-calculus-of-variations.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/eular_lagrange.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/euler_lagrange.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000001479" />
-      <entry key="MS500" value="1.0027218543482155" />
-      <entry key="S2" value="1.4338233885418712" />
-      <entry key="S5" value="4.026259436073052" />
-      <entry key="S10" value="8.817036801190206" />
-      <entry key="S30" value="23.773327830293187" />
-      <entry key="S60" value="42.462925903909415" />
-      <entry key="M2" value="72.58415861977377" />
-      <entry key="M5" value="134.21844308649943" />
-      <entry key="M10" value="196.80659270550626" />
-      <entry key="M15" value="238.7821308304292" />
-      <entry key="M30" value="345.4882938683793" />
-      <entry key="H1" value="531.237081808409" />
-      <entry key="H2" value="776.0156228082858" />
-      <entry key="H4" value="1086.8859073412598" />
-      <entry key="D1" value="4673.47333532509" />
-      <entry key="W1" value="22353.53705431872" />
+      <entry key="MS100" value="1.320921835569705" />
+      <entry key="MS500" value="4.053270165860283" />
+      <entry key="S2" value="9.230431577380434" />
+      <entry key="S5" value="11.78130261792471" />
+      <entry key="S10" value="13.045454365753198" />
+      <entry key="S30" value="18.074130609940035" />
+      <entry key="S60" value="32.0649404321463" />
+      <entry key="M2" value="62.03924317249332" />
+      <entry key="M5" value="129.5076437334381" />
+      <entry key="M10" value="198.53415421045716" />
+      <entry key="M15" value="244.20329674560838" />
+      <entry key="M30" value="355.3944272163056" />
+      <entry key="H1" value="543.9239138085014" />
+      <entry key="H2" value="791.2120929763497" />
+      <entry key="H4" value="1104.1233484002944" />
+      <entry key="D1" value="4692.0710193102705" />
+      <entry key="W1" value="22373.214320910374" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="2.4640879385148256E-187" />
-      <entry key="S30" value="6.269295409683011E-63" />
-      <entry key="S60" value="7.917940375623678E-32" />
-      <entry key="M2" value="2.8237103622777646E-16" />
-      <entry key="M5" value="6.96926185156053E-7" />
-      <entry key="M10" value="0.0012347909964067153" />
-      <entry key="M15" value="0.016524884617705512" />
-      <entry key="M30" value="0.24146198560244592" />
-      <entry key="H1" value="0.9649196639007557" />
-      <entry key="H2" value="1.9549858952636832" />
-      <entry key="H4" value="2.7941553016627507" />
-      <entry key="D1" value="7.752616899498217" />
-      <entry key="W1" value="53.75590352079895" />
+      <entry key="S10" value="4.603521960081074E-190" />
+      <entry key="S30" value="7.721412240666488E-64" />
+      <entry key="S60" value="2.7787612231396565E-32" />
+      <entry key="M2" value="1.6727831645178553E-16" />
+      <entry key="M5" value="5.6524220621751E-7" />
+      <entry key="M10" value="0.0011120321783308974" />
+      <entry key="M15" value="0.015410652800118631" />
+      <entry key="M30" value="0.23317933945865663" />
+      <entry key="H1" value="0.9482258855888586" />
+      <entry key="H2" value="1.9380008064672536" />
+      <entry key="H4" value="2.7819908895819854" />
+      <entry key="D1" value="7.746981472389006" />
+      <entry key="W1" value="53.75031956495703" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726549474124285" />
-      <entry key="MS500" value="0.9971732366956817" />
-      <entry key="S2" value="1.4318048846517246" />
-      <entry key="S5" value="4.024147567980628" />
-      <entry key="S10" value="8.814804710971849" />
-      <entry key="S30" value="23.771366867970983" />
-      <entry key="S60" value="42.461197477858775" />
-      <entry key="M2" value="72.5827053396435" />
-      <entry key="M5" value="134.21731328954533" />
-      <entry key="M10" value="196.80675209126125" />
-      <entry key="M15" value="238.79694510016515" />
-      <entry key="M30" value="345.724030583909" />
-      <entry key="H1" value="532.1926395652777" />
-      <entry key="H2" value="777.9619066275912" />
-      <entry key="H4" value="1089.6740629239923" />
-      <entry key="D1" value="4681.224084755805" />
-      <entry key="W1" value="22407.292009047676" />
+      <entry key="MS100" value="1.264909044725359" />
+      <entry key="MS500" value="4.015662663821327" />
+      <entry key="S2" value="9.210299041189197" />
+      <entry key="S5" value="11.771180100578466" />
+      <entry key="S10" value="13.039693266938123" />
+      <entry key="S30" value="18.071504974579298" />
+      <entry key="S60" value="32.06295177432093" />
+      <entry key="M2" value="62.03760800642967" />
+      <entry key="M5" value="129.506389938967" />
+      <entry key="M10" value="198.5341235250662" />
+      <entry key="M15" value="244.2169946828437" />
+      <entry key="M30" value="355.6220182870709" />
+      <entry key="H1" value="544.8629098907952" />
+      <entry key="H2" value="793.1414523363879" />
+      <entry key="H4" value="1106.8993581926" />
+      <entry key="D1" value="4699.816133420138" />
+      <entry key="W1" value="22426.96369160325" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -108,36 +106,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "PowerShell.build.ps1 (1).executor": "Run",
-    "PowerShell.build.ps1 (2).executor": "Run",
-    "PowerShell.build.ps1.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;PowerShell.build.ps1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;PowerShell.build.ps1 (2).executor&quot;: &quot;Run&quot;,
+    &quot;PowerShell.build.ps1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA" />
@@ -152,14 +150,7 @@
       <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
     </key>
   </component>
-  <component name="RunManager" selected="PowerShell.build.ps1">
-    <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
-      <steps>
-        <latexmkCompile id="a3147870-d002-4514-aeea-2f527f05ac4b" />
-        <pdfViewer id="0a65d1c7-20b1-400b-a424-b3a9da7e77d4" />
-      </steps>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="build.ps1 (1)" type="PowerShellRunType" factoryName="PowerShell" temporary="true" scriptUrl="$PROJECT_DIR$/build.ps1" executablePath="$PROJECT_DIR$/../../../../Windows/System32/WindowsPowerShell/v1.0/powershell.exe">
       <envs />
       <method v="2" />
@@ -170,6 +161,30 @@
     </configuration>
     <configuration name="build.ps1" type="PowerShellRunType" factoryName="PowerShell" temporary="true" scriptUrl="$PROJECT_DIR$/build.ps1" executablePath="$PROJECT_DIR$/../../../../Windows/System32/WindowsPowerShell/v1.0/powershell.exe">
       <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="there-and-back-again" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
   </component>

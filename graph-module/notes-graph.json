@@ -122,6 +122,15 @@
       "color": "#9013fe"
     },
     {
+      "id": "sec-calculus-of-variations",
+      "title": "Calculus of Variations",
+      "url": "sec-calculus-of-variations.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-differential-equations",
       "title": "Differential Equations",
       "url": "sec-differential-equations.html",
