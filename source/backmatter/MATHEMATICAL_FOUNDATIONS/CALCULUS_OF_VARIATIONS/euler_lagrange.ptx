@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <paragraphs xml:id="subsec-euler-lagrange" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Euler-Lagrange Equation</title>
-    <idx>euler-lagrange equation</idx>
+    <title>Calculus of Variations Formulation of the Euler-Lagrange Equation</title>
 
     <definition>
-        <title>Calcus of Variations Formulation of the Euler-Lagrange Equation</title>
+        <title>The Euler-Lagrange Equation</title>
+        <idx>euler-lagrange equation</idx>
         <statement>
             <p>
                 For a functional <m>I(y) := \int{F\big(x,y(x),y'(x)\big) \, dx}</m>, the <term>Euler-Lagrange Equation</term> is
