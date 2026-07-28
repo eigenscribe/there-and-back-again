@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-calculus-of-variations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Calculus of Variations</title>
+
+  <introduction>
+    <!-- insert intro here -->
+  </introduction>
+
+  <xi:include href="euler_lagrange.ptx"/>
+
+ </section>

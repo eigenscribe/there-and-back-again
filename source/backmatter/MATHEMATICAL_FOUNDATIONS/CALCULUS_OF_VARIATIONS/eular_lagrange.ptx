@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="subsec-euler-lagrange" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Euler-Lagrange Equation</title>
+    <idx>euler-lagrange equation</idx>
+
+    <definition>
+        <title>Calcus of Variations Formulation of the Euler-Lagrange Equation</title>
+        <statement>
+        <p>
+            For a functional <m>I=\int{F(x,y,y') \, dx}</m>, the <term>Euler-Lagrange Equation</term> is
+            <md>
+              \frac{\partial F}{\partial x} - \frac{d}{dx} \big( \frac{\partial F}{\partial y'} \big) = 0
+            </md>
+        </p>
+        </statement>
+
+    </definition>
+
+</paragraphs>
