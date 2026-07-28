@@ -75,7 +75,7 @@
     <idx>support</idx>
 
     <p>
-        The <term>support</term> of a function <m>f: X\rightarrow \mathbb{R}</m> is the subset of its domain <m>X</m>
+        The subset of the domain <m>X</m> of a function <m>f: X\rightarrow \mathbb{R}</m>
         on which the function is nonzero.
     </p>
 
