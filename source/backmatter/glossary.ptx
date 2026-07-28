@@ -5,9 +5,14 @@
 
   <gi xml:id="gls-first-principles-logic">
     <title>First-Principles Reasoning</title>
-    <idx><term>first-principles reasoning</term></idx>
+    <idx>first-principles reasoning</idx>
     <statement>
-        <p> A method of reasoning in which claims, hypotheses, models, or systems are explicitly decomposed into their most fundamental, independently verifiable assumptions, and conclusions are derived via transparent, stepwise inference based on those assumptions. This helps ensure the fidelity of the reasoning process and that conclusions are traceable and reproducible by the reader.</p>
+        <p>
+          A method of reasoning in which claims, hypotheses, models, or systems are explicitly decomposed into their
+          most fundamental, independently verifiable assumptions, and conclusions are derived via transparent, stepwise
+          inference based on those assumptions. This helps ensure the fidelity of the reasoning process and that
+          conclusions are traceable and reproducible by the reader.
+        </p>
     </statement>
   </gi>
 
@@ -26,7 +31,7 @@
     <idx>Poisson bracket</idx>
     <statement>
       <p>
-          The <term>Poisson bracket</term> provides a fundamental operation in Hamiltonian mechanics and symplectic geometry.
+          Provides a fundamental operation in Hamiltonian mechanics and symplectic geometry.
           Specifically, it tells you how an observable <m>A</m> changes due to some other observable <m>B</m> acting as a generator.
       </p>
     </statement>
@@ -38,7 +43,7 @@
 
     <statement>
       <p>
-          A <term>power spectral density</term> is a function <m>S_{xx}(f)</m> describing how the power of a signal is distributed over frequency <m>f</m>.
+          A function <m>S_{xx}(f)</m> describing how the power of a signal is distributed over frequency <m>f</m>.
       </p>
     </statement>
   </gi>
