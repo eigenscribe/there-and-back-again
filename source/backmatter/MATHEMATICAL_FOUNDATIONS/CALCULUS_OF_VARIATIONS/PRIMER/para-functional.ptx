@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-functional" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Functional</title>
+  <idx>functional</idx>
+
+  <p>
+    A <term>functional</term> is a mapping <m>J : \mathcal{F} \to \mathbb{R}</m>, where <m>\mathcal{F}</m> denotes a
+    function space.
+  </p>
+
+  <definition>
+  <title>Standard Form of a Functional</title>
+
+      <statement>
+        <p>
+          In the calculus of variations, the <alert>standard form</alert> of a functional <m>J[y]</m> is typically written as
+            <md>
+              J[y] = \int_a^b{F\big(x,y(x),y_x(x)\big)\,dx} \, .
+            </md>
+        </p>
+      </statement>
+
+  </definition>
+
+</paragraphs>

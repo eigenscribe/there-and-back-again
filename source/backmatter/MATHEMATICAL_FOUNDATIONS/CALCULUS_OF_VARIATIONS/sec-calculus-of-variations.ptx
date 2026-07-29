@@ -7,6 +7,7 @@
     <!-- insert intro here -->
   </introduction>
 
-  <xi:include href="euler_lagrange.ptx"/>
+  <xi:include href="PRIMER/subsec-calculus-of-variations-primer.ptx"/>
+  <xi:include href="subsec-euler-lagrange.ptx"/>
 
  </section>

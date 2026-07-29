@@ -122,9 +122,29 @@
       "color": "#9013fe"
     },
     {
+      "id": "subsec-euler-lagrange",
+      "title": "Calculus of Variations Formulation of the Euler-Lagrange Equation",
+      "url": "subsec-euler-lagrange.html",
+      "tags": [
+        "euler-lagrange equation"
+      ],
+      "description": "For a functional J[y] := \\int{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is\n                \n      ...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-calculus-of-variations",
       "title": "Calculus of Variations",
       "url": "sec-calculus-of-variations.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-calculus-of-variations-primer",
+      "title": "Calculus of Variations Primer",
+      "url": "subsec-calculus-of-variations-primer.html",
       "tags": [],
       "description": "",
       "group": "backmatter",
