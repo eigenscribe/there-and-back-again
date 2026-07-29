@@ -7,14 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated bounds on calculus of variations definitions">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-function-space.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-functional.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-functional.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2143" />
+    <option name="cachedIndexableFilesCount" value="2367" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -38,23 +42,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000005945298772" />
-      <entry key="S2" value="1.2251798603455475" />
-      <entry key="S5" value="3.95376364940491" />
-      <entry key="S10" value="9.499513689636657" />
-      <entry key="S30" value="20.75658662340563" />
-      <entry key="S60" value="26.001270030743665" />
-      <entry key="M2" value="29.243642908667574" />
-      <entry key="M5" value="31.52953203711915" />
-      <entry key="M10" value="36.095904173379274" />
-      <entry key="M15" value="48.46942053701801" />
-      <entry key="M30" value="121.80459364550643" />
-      <entry key="H1" value="317.4012738686428" />
-      <entry key="H2" value="650.7836544787898" />
-      <entry key="H4" value="1083.8003219398756" />
-      <entry key="D1" value="4780.072593339168" />
-      <entry key="W1" value="22546.83216436381" />
+      <entry key="MS100" value="1.0137924831762348" />
+      <entry key="MS500" value="1.487795382169215" />
+      <entry key="S2" value="3.0550209672657043" />
+      <entry key="S5" value="4.890808358317907" />
+      <entry key="S10" value="6.302015750370463" />
+      <entry key="S30" value="11.44739644200725" />
+      <entry key="S60" value="20.372844131770066" />
+      <entry key="M2" value="34.49842451530166" />
+      <entry key="M5" value="60.43237256101004" />
+      <entry key="M10" value="81.42077108376387" />
+      <entry key="M15" value="98.39811727064262" />
+      <entry key="M30" value="169.77351296415026" />
+      <entry key="H1" value="358.9049428056664" />
+      <entry key="H2" value="691.8965111968886" />
+      <entry key="H4" value="1131.1532363720864" />
+      <entry key="D1" value="4835.705481872223" />
+      <entry key="W1" value="22609.7960669917" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -62,37 +66,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="6.6253803844984324E-133" />
-      <entry key="S60" value="8.139697564290545E-67" />
-      <entry key="M2" value="9.053534656637628E-34" />
-      <entry key="M5" value="7.007869254418533E-14" />
-      <entry key="M10" value="3.9155525621475344E-7" />
-      <entry key="M15" value="7.684309322810759E-5" />
-      <entry key="M30" value="0.016465767129167454" />
-      <entry key="H1" value="0.25197517621110666" />
-      <entry key="H2" value="0.9990263168151899" />
-      <entry key="H4" value="1.9974098678473684" />
-      <entry key="D1" value="7.330795398749234" />
-      <entry key="W1" value="53.32798002847384" />
+      <entry key="S30" value="9.712247518229147E-139" />
+      <entry key="S60" value="9.855138473408336E-70" />
+      <entry key="M2" value="3.150252750964884E-35" />
+      <entry key="M5" value="1.8289291549510262E-14" />
+      <entry key="M10" value="2.000315519755114E-7" />
+      <entry key="M15" value="4.910681900195385E-5" />
+      <entry key="M30" value="0.013162865725691865" />
+      <entry key="H1" value="0.2252900433676982" />
+      <entry key="H2" value="0.9446459115669308" />
+      <entry key="H4" value="1.942286320111351" />
+      <entry key="D1" value="7.296682377792187" />
+      <entry key="W1" value="53.29245831318392" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794202975869268" />
-      <entry key="MS500" value="0.9958556741240014" />
-      <entry key="S2" value="1.223907455619437" />
-      <entry key="S5" value="3.952083615081533" />
-      <entry key="S10" value="9.497407518002097" />
-      <entry key="S30" value="20.754928437347253" />
-      <entry key="S60" value="26.000199045371712" />
-      <entry key="M2" value="29.243030065413855" />
-      <entry key="M5" value="31.52926298802857" />
-      <entry key="M10" value="36.09572894144912" />
-      <entry key="M15" value="48.469306126765616" />
-      <entry key="M30" value="121.82041971316524" />
-      <entry key="H1" value="317.65053803461234" />
-      <entry key="H2" value="651.7780271807725" />
-      <entry key="H4" value="1085.7933123412154" />
-      <entry key="D1" value="4787.401596277787" />
-      <entry key="W1" value="22600.15919921782" />
+      <entry key="MS100" value="0.9929289322125069" />
+      <entry key="MS500" value="1.481481687041043" />
+      <entry key="S2" value="3.0513657032560695" />
+      <entry key="S5" value="4.888412673818691" />
+      <entry key="S10" value="6.300458360714104" />
+      <entry key="S30" value="11.44635608212957" />
+      <entry key="S60" value="20.371836188714394" />
+      <entry key="M2" value="34.49745702351085" />
+      <entry key="M5" value="60.43149740546136" />
+      <entry key="M10" value="81.42009882333026" />
+      <entry key="M15" value="98.39759810942" />
+      <entry key="M30" value="169.78590653088446" />
+      <entry key="H1" value="359.1276698976885" />
+      <entry key="H2" value="692.8366845672841" />
+      <entry key="H4" value="1133.0911883684723" />
+      <entry key="D1" value="4843.0003738935775" />
+      <entry key="W1" value="22663.08757986647" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -163,7 +167,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-6fa658e1df1a-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.369" />
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
       </set>
     </attachedChunks>
   </component>
@@ -174,22 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00079" summary="installed prefig">
-      <option name="closed" value="true" />
-      <created>1780947470315</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1780947470315</updated>
-    </task>
-    <task id="LOCAL-00080" summary="installed prefig i think">
-      <option name="closed" value="true" />
-      <created>1780951320231</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1780951320231</updated>
     </task>
     <task id="LOCAL-00081" summary="working on the action as a bivector image">
       <option name="closed" value="true" />
@@ -567,7 +555,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785286898177</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="updated bounds on calculus of variations definitions">
+      <option name="closed" value="true" />
+      <created>1785360717410</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1785360717411</updated>
+    </task>
+    <task id="LOCAL-00129" summary="updated bounds on calculus of variations definitions">
+      <option name="closed" value="true" />
+      <created>1785360722738</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1785360722738</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linear-regression subsection split into scalar arithmetic vs general derivation subsubsections. still need to create general derivation -&gt; want to connect to normal equation that was just created" />
     <MESSAGE value="linear-regression subsubsection added, section still incomplete, but not as incomplete as before. still need to finish the normal equation page (see Linear Algebra 2 cheat sheet in notability app)." />
     <MESSAGE value="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)" />
     <MESSAGE value="mat text adjusted to match callout. fixed the assemblage block styling finally" />
@@ -610,6 +613,7 @@
     <MESSAGE value="updated typo in name of euler_lagrange.ptx file" />
     <MESSAGE value="added functional definition and a calculus of variations primer subsection" />
     <MESSAGE value="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x" />
+    <MESSAGE value="updated bounds on calculus of variations definitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated bounds on calculus of variations definitions" />
   </component>
 </project>

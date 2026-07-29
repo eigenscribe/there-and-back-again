@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-function-space" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Function Space</title>
+  <idx>function space</idx>
+
+  <definition>
+      <statement>
+        <p>
+          A <term>function space</term> <m>\mathcal{F}</m> is a collection of functions <m>F\in\mathcal{F}</m> that share
+          the same domain and codomain.
+        </p>
+      </statement>
+
+  </definition>
+
+</paragraphs>
