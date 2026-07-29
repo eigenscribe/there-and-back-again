@@ -17,7 +17,7 @@
         <p>
           In the calculus of variations, the <alert>standard form</alert> of a functional <m>J[y]</m> is typically written as
             <md>
-              J[y] = \int_a^b{F\big(x,y(x),y_x(x)\big)\,dx} \, .
+              J[y] = \int_{x_1}^{x_2}{F\big(x,y(x),y_x(x)\big)\,dx} \, .
             </md>
         </p>
       </statement>
