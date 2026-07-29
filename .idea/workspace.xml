@@ -7,13 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated typo in name of euler_lagrange.ptx file">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-functional.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/euler_lagrange.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/sec-calculus-of-variations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/sec-calculus-of-variations.ptx" afterDir="false" />
-    </list>
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000004122434765" />
-      <entry key="MS500" value="1.0528482679610949" />
-      <entry key="S2" value="1.4794659160747252" />
-      <entry key="S5" value="1.7481592812692093" />
-      <entry key="S10" value="1.994924294732182" />
-      <entry key="S30" value="4.235868625276547" />
-      <entry key="S60" value="7.476912808654839" />
-      <entry key="M2" value="13.196079941561202" />
-      <entry key="M5" value="33.464280022052556" />
-      <entry key="M10" value="71.58903697297283" />
-      <entry key="M15" value="112.0363516878145" />
-      <entry key="M30" value="236.5808844344517" />
-      <entry key="H1" value="463.0820971215261" />
-      <entry key="H2" value="784.5359675305295" />
-      <entry key="H4" value="1178.1602447499297" />
-      <entry key="D1" value="4830.781169768237" />
-      <entry key="W1" value="22562.114645185135" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000005945298772" />
+      <entry key="S2" value="1.2251798603455475" />
+      <entry key="S5" value="3.95376364940491" />
+      <entry key="S10" value="9.499513689636657" />
+      <entry key="S30" value="20.75658662340563" />
+      <entry key="S60" value="26.001270030743665" />
+      <entry key="M2" value="29.243642908667574" />
+      <entry key="M5" value="31.52953203711915" />
+      <entry key="M10" value="36.095904173379274" />
+      <entry key="M15" value="48.46942053701801" />
+      <entry key="M30" value="121.80459364550643" />
+      <entry key="H1" value="317.4012738686428" />
+      <entry key="H2" value="650.7836544787898" />
+      <entry key="H4" value="1083.8003219398756" />
+      <entry key="D1" value="4780.072593339168" />
+      <entry key="W1" value="22546.83216436381" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="4.57443543197E-313" />
-      <entry key="S30" value="7.705115750583623E-105" />
-      <entry key="S60" value="8.777936676981313E-53" />
-      <entry key="M2" value="9.401783707836693E-27" />
-      <entry key="M5" value="4.488929922375797E-11" />
-      <entry key="M10" value="9.909950284931883E-6" />
-      <entry key="M15" value="6.624052769718699E-4" />
-      <entry key="M30" value="0.04834387312938695" />
-      <entry key="H1" value="0.43175511746440126" />
-      <entry key="H2" value="1.307726115901148" />
-      <entry key="H4" value="2.285267930526839" />
-      <entry key="D1" value="7.497148057517752" />
-      <entry key="W1" value="53.49919841202819" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="6.6253803844984324E-133" />
+      <entry key="S60" value="8.139697564290545E-67" />
+      <entry key="M2" value="9.053534656637628E-34" />
+      <entry key="M5" value="7.007869254418533E-14" />
+      <entry key="M10" value="3.9155525621475344E-7" />
+      <entry key="M15" value="7.684309322810759E-5" />
+      <entry key="M30" value="0.016465767129167454" />
+      <entry key="H1" value="0.25197517621110666" />
+      <entry key="H2" value="0.9990263168151899" />
+      <entry key="H4" value="1.9974098678473684" />
+      <entry key="D1" value="7.330795398749234" />
+      <entry key="W1" value="53.32798002847384" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726553511719139" />
-      <entry key="MS500" value="1.0470991032737402" />
-      <entry key="S2" value="1.4775823305503595" />
-      <entry key="S5" value="1.7472935529780345" />
-      <entry key="S10" value="1.9944343804665836" />
-      <entry key="S30" value="4.235511550529423" />
-      <entry key="S60" value="7.476586037925738" />
-      <entry key="M2" value="13.195783902097116" />
-      <entry key="M5" value="33.463972803856834" />
-      <entry key="M10" value="71.58868469518661" />
-      <entry key="M15" value="112.03655476476537" />
-      <entry key="M30" value="236.62767652368734" />
-      <entry key="H1" value="463.50934008225266" />
-      <entry key="H2" value="785.8376634765107" />
-      <entry key="H4" value="1180.440485937502" />
-      <entry key="D1" value="4838.276489497087" />
-      <entry key="W1" value="22615.612896071598" />
+      <entry key="MS100" value="0.9794202975869268" />
+      <entry key="MS500" value="0.9958556741240014" />
+      <entry key="S2" value="1.223907455619437" />
+      <entry key="S5" value="3.952083615081533" />
+      <entry key="S10" value="9.497407518002097" />
+      <entry key="S30" value="20.754928437347253" />
+      <entry key="S60" value="26.000199045371712" />
+      <entry key="M2" value="29.243030065413855" />
+      <entry key="M5" value="31.52926298802857" />
+      <entry key="M10" value="36.09572894144912" />
+      <entry key="M15" value="48.469306126765616" />
+      <entry key="M30" value="121.82041971316524" />
+      <entry key="H1" value="317.65053803461234" />
+      <entry key="H2" value="651.7780271807725" />
+      <entry key="H4" value="1085.7933123412154" />
+      <entry key="D1" value="4787.401596277787" />
+      <entry key="W1" value="22600.15919921782" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -109,35 +103,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "PowerShell.build.ps1 (1).executor": "Run",
-    "PowerShell.build.ps1 (2).executor": "Run",
-    "PowerShell.build.ps1.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;PowerShell.build.ps1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;PowerShell.build.ps1 (2).executor&quot;: &quot;Run&quot;,
+    &quot;PowerShell.build.ps1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA" />
@@ -165,30 +159,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="there-and-back-again" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -204,22 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00077" summary="updated node colors">
-      <option name="closed" value="true" />
-      <created>1780884691396</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1780884691396</updated>
-    </task>
-    <task id="LOCAL-00078" summary="hypothesis definition added">
-      <option name="closed" value="true" />
-      <created>1780889004435</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1780889004435</updated>
     </task>
     <task id="LOCAL-00079" summary="installed prefig">
       <option name="closed" value="true" />
@@ -597,7 +551,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785281340780</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="added functional definition and a calculus of variations primer subsection">
+      <option name="closed" value="true" />
+      <created>1785284214464</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1785284214464</updated>
+    </task>
+    <task id="LOCAL-00127" summary="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x">
+      <option name="closed" value="true" />
+      <created>1785286898177</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1785286898177</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,8 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a normal equation page to linear algebra section of mathematical foundations appendix and half-way through first round of polishing linear regression page" />
-    <MESSAGE value="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners" />
     <MESSAGE value="linear-regression subsection split into scalar arithmetic vs general derivation subsubsections. still need to create general derivation -&gt; want to connect to normal equation that was just created" />
     <MESSAGE value="linear-regression subsubsection added, section still incomplete, but not as incomplete as before. still need to finish the normal equation page (see Linear Algebra 2 cheat sheet in notability app)." />
     <MESSAGE value="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)" />
@@ -640,6 +608,8 @@
     <MESSAGE value="updated first principles glossary definition" />
     <MESSAGE value="updated the glossary definition of support" />
     <MESSAGE value="updated typo in name of euler_lagrange.ptx file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated typo in name of euler_lagrange.ptx file" />
+    <MESSAGE value="added functional definition and a calculus of variations primer subsection" />
+    <MESSAGE value="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x" />
   </component>
 </project>

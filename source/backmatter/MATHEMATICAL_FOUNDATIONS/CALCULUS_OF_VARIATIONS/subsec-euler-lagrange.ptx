@@ -8,7 +8,7 @@
         <idx>euler-lagrange equation</idx>
         <statement>
             <p>
-                For a functional <m>J[y] := \int{F\big(x,y(x),y_x(x)\big) \, dx}</m>, the <term>Euler-Lagrange Equation</term> is
+                For a functional <m>J[y] := \int_{x_1}^{x_2}{F\big(x,y(x),y_x(x)\big) \, dx}</m>, the <term>Euler-Lagrange Equation</term> is
                 <md>
                   \frac{\partial F}{\partial x} - \frac{d}{dx} \big( \frac{\partial F}{\partial y_x} \big) = 0
                 </md>
