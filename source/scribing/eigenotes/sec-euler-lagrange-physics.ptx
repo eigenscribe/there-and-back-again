@@ -5,6 +5,13 @@
 
   <idx>euler-lagrange-equation</idx>
 
+  <introduction>
+      <p>
+        <tag>202607290001</tag> |
+        <tag>Lagrangian mechanics</tag>, <tag>Euler-Lagrange</tag>, <tag>variational principles</tag>
+      </p>
+  </introduction>
+
   <definition xml:id="def-euler-lagrange-physics">
     <title>Physics Formulation of the Euler-Lagrange Equation</title>
 
