@@ -133,11 +133,31 @@
       "color": "#9013fe"
     },
     {
+      "id": "def-euler-lagrange",
+      "title": "The Euler-Lagrange Equation",
+      "url": "subsec-euler-lagrange.html#def-euler-lagrange",
+      "tags": [
+        "euler-lagrange equation"
+      ],
+      "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is\n           ...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-calculus-of-variations",
       "title": "Calculus of Variations",
       "url": "sec-calculus-of-variations.html",
       "tags": [],
       "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-functional",
+      "title": "Standard Form of a Functional",
+      "url": "para-functional.html#def-functional",
+      "tags": [],
+      "description": "In the calculus of variations, the standard form of a functional J[y] is typically written as\n            \n          ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -697,6 +717,26 @@
       "color": "#f8e71c"
     },
     {
+      "id": "sec-euler-lagrange-physics",
+      "title": "Euler-Lagrange Equations in Physics",
+      "url": "sec-euler-lagrange-physics.html",
+      "tags": [
+        "euler-lagrange-equation"
+      ],
+      "description": "The Euler-Lagrange equation in physics is the necessary condition\n        satisfied by a function that makes a functi...",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
+      "id": "def-euler-lagrange-physics",
+      "title": "Physics Formulation of the Euler-Lagrange Equation",
+      "url": "sec-euler-lagrange-physics.html#def-euler-lagrange-physics",
+      "tags": [],
+      "description": "The Euler-Lagrange equation in physics is the necessary condition\n        satisfied by a function that makes a functi...",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
       "id": "ch-eigenotes",
       "title": "\ud83d\udcdc Eigenotes",
       "url": "ch-eigenotes.html",
@@ -926,6 +966,24 @@
       "target": "claim-vector-potential-generalization",
       "type": "reference",
       "weight": 2
+    },
+    {
+      "source": "def-euler-lagrange",
+      "target": "def-euler-lagrange-physics",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "def-functional",
+      "target": "def-euler-lagrange-physics",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "sec-calculus-of-variations",
+      "target": "def-euler-lagrange-physics",
+      "type": "prerequisite",
+      "weight": 3
     }
   ]
 }

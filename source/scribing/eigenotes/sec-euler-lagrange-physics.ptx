@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-euler-lagrange-physics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Euler-Lagrange Equations in Physics</title>
+
+  <idx>euler-lagrange-equation</idx>
+
+  <definition xml:id="def-euler-lagrange-physics">
+    <title>Physics Formulation of the Euler-Lagrange Equation</title>
+
+    <statement>
+
+      <p>
+        The <xref ref="def-euler-lagrange" text="custom">Euler-Lagrange equation</xref> in <alert>physics</alert> is the necessary condition
+        satisfied by a function that makes a <xref ref="def-functional" text="custom">functional</xref>, stationary under admissible
+        <em>variations</em>. It is written as
+
+          <md>
+            \frac{\partial L}{\partial q} - \frac{d}{dt} \Big( \frac{\partial L}{\partial \dot{q}} \Big) = 0 \, .
+          </md>
+      </p>
+
+    </statement>
+
+  </definition>
+
+  <subsection>
+    <title>Euler-Lagrange Equation in Classical Mechanics</title>
+
+    <remark>
+      <statement>
+        <p>
+          In classical mechanics, the <em>functional</em> is called the <term>action</term>
+
+          <md>
+            S[q] = \int_{t_0}^{t_1}{L\big(t, q(t), \dot{q}(t) \big) \, dt}
+          </md>
+
+          where <m>L</m> denotes the <term>Lagrangian</term> of the system.
+        </p>
+        <p>
+          The requirement that the action be stationary gives the <xref ref="def-euler-lagrange-physics"/>
+          <em>physics formulation of the Euler-Lagrange equation</em> and determines the equations of motion for a classical system.
+        </p>
+      </statement>
+    </remark>
+
+    <context>
+      <title>Lagrangian Mechanics</title>
+      <p>
+        Rather than beginning with the forces acting on the system (as in Newtonian mechanics),
+        <em>Lagrangian mechanics</em> begins with a scalar quantity called the <em>action</em> that does not undergo
+        first-order changes in time due to small perturbations in its physical trajectory.
+      </p>
+    </context>
+
+    <paragraphs>
+    <title>Connections</title>
+      <ul>
+        <li>
+          Built upon <xref ref="sec-calculus-of-variations" text="custom">calculus of variations</xref> and the concept of a
+          <xref ref="def-functional" text="custom">functional</xref>.
+        </li>
+
+        <li>
+          Generalizes to <em>field theory</em>, where it produces the Euler-Lagrange field equations.
+        </li>
+
+        <li>
+          Forms the mathematical foundation of <em>variational integrators</em>, which discretize the action rather than
+          the equations of motion.
+        </li>
+
+        <li>
+          Closely parallels other variational principles, such as energy minimization in <em>self-consistent field
+          methods</em>.
+        </li>
+      </ul>
+    </paragraphs>
+
+  </subsection>
+
+</section>

@@ -10,7 +10,7 @@
     function space.
   </p>
 
-  <definition>
+  <definition xml:id="def-functional">
     <title>Standard Form of a Functional</title>
 
     <statement>

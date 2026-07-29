@@ -7,10 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated bounds on calculus of variations definitions">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-function-space.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="edited function space definition">
+      <change afterPath="$PROJECT_DIR$/source/scribing/eigenotes/sec-euler-lagrange-physics.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-functional.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-functional.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/PHYSICS_INFORMED_MACHINE_LEARNING/sec-physics-informed-machine-learning.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/PHYSICS_INFORMED_MACHINE_LEARNING/sec-physics-informed-machine-learning.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/ch-eigenotes.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/ch-eigenotes.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +45,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0137924831762348" />
-      <entry key="MS500" value="1.487795382169215" />
-      <entry key="S2" value="3.0550209672657043" />
-      <entry key="S5" value="4.890808358317907" />
-      <entry key="S10" value="6.302015750370463" />
-      <entry key="S30" value="11.44739644200725" />
-      <entry key="S60" value="20.372844131770066" />
-      <entry key="M2" value="34.49842451530166" />
-      <entry key="M5" value="60.43237256101004" />
-      <entry key="M10" value="81.42077108376387" />
-      <entry key="M15" value="98.39811727064262" />
-      <entry key="M30" value="169.77351296415026" />
-      <entry key="H1" value="358.9049428056664" />
-      <entry key="H2" value="691.8965111968886" />
-      <entry key="H4" value="1131.1532363720864" />
-      <entry key="D1" value="4835.705481872223" />
-      <entry key="W1" value="22609.7960669917" />
+      <entry key="MS100" value="1.0077338166859686" />
+      <entry key="MS500" value="1.5255446457529964" />
+      <entry key="S2" value="3.2796273677498764" />
+      <entry key="S5" value="5.628464127966249" />
+      <entry key="S10" value="9.072116430440182" />
+      <entry key="S30" value="20.56056123259362" />
+      <entry key="S60" value="32.37930313061199" />
+      <entry key="M2" value="46.21961546644774" />
+      <entry key="M5" value="75.09623684652662" />
+      <entry key="M10" value="127.68929376294888" />
+      <entry key="M15" value="179.37317155872057" />
+      <entry key="M30" value="307.3633943461532" />
+      <entry key="H1" value="510.1645541314008" />
+      <entry key="H2" value="862.2102443237579" />
+      <entry key="H4" value="1375.1887423326073" />
+      <entry key="D1" value="5195.047304428621" />
+      <entry key="W1" value="23062.46964445807" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -66,37 +69,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="9.712247518229147E-139" />
-      <entry key="S60" value="9.855138473408336E-70" />
-      <entry key="M2" value="3.150252750964884E-35" />
-      <entry key="M5" value="1.8289291549510262E-14" />
-      <entry key="M10" value="2.000315519755114E-7" />
-      <entry key="M15" value="4.910681900195385E-5" />
-      <entry key="M30" value="0.013162865725691865" />
-      <entry key="H1" value="0.2252900433676982" />
-      <entry key="H2" value="0.9446459115669308" />
-      <entry key="H4" value="1.942286320111351" />
-      <entry key="D1" value="7.296682377792187" />
-      <entry key="W1" value="53.29245831318392" />
+      <entry key="S30" value="1.4879682436107018E-208" />
+      <entry key="S60" value="1.2198310706152036E-104" />
+      <entry key="M2" value="1.1083167062537653E-52" />
+      <entry key="M5" value="1.9086411157346526E-21" />
+      <entry key="M10" value="6.461929276866344E-11" />
+      <entry key="M15" value="2.311981032019688E-7" />
+      <entry key="M30" value="9.031745327840132E-4" />
+      <entry key="H1" value="0.05901366875206558" />
+      <entry key="H2" value="0.48347537317030703" />
+      <entry key="H4" value="1.3895235296859962" />
+      <entry key="D1" value="6.900558112979181" />
+      <entry key="W1" value="52.86919796192007" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9929289322125069" />
-      <entry key="MS500" value="1.481481687041043" />
-      <entry key="S2" value="3.0513657032560695" />
-      <entry key="S5" value="4.888412673818691" />
-      <entry key="S10" value="6.300458360714104" />
-      <entry key="S30" value="11.44635608212957" />
-      <entry key="S60" value="20.371836188714394" />
-      <entry key="M2" value="34.49745702351085" />
-      <entry key="M5" value="60.43149740546136" />
-      <entry key="M10" value="81.42009882333026" />
-      <entry key="M15" value="98.39759810942" />
-      <entry key="M30" value="169.78590653088446" />
-      <entry key="H1" value="359.1276698976885" />
-      <entry key="H2" value="692.8366845672841" />
-      <entry key="H4" value="1133.0911883684723" />
-      <entry key="D1" value="4843.0003738935775" />
-      <entry key="W1" value="22663.08757986647" />
+      <entry key="MS100" value="0.9801768958470756" />
+      <entry key="MS500" value="1.5167498363636331" />
+      <entry key="S2" value="3.2747158008340116" />
+      <entry key="S5" value="5.625239651352623" />
+      <entry key="S10" value="9.069612128603676" />
+      <entry key="S30" value="20.558718413693192" />
+      <entry key="S60" value="32.377833345029075" />
+      <entry key="M2" value="46.21853679916691" />
+      <entry key="M5" value="75.09549672982408" />
+      <entry key="M10" value="127.68862824592443" />
+      <entry key="M15" value="179.37251565472428" />
+      <entry key="M30" value="307.3636445629946" />
+      <entry key="H1" value="510.222438398821" />
+      <entry key="H2" value="862.6911378134934" />
+      <entry key="H4" value="1376.5749980680264" />
+      <entry key="D1" value="5201.946138185834" />
+      <entry key="W1" value="23115.337899944265" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -143,11 +146,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/scribing/eigenotes" />
+      <recent name="$PROJECT_DIR$/source/scribing/\" />
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA" />
       <recent name="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/SIGNAL_ANALYSIS" />
-      <recent name="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/SPECTRAL_ANALYSIS" />
-      <recent name="$PROJECT_DIR$/source/scribing/eigenotes/PHYSICS_CONSTRAINTS_AND_MODEL_ARCHITECTURE" />
     </key>
   </component>
   <component name="RunManager">
@@ -178,46 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00081" summary="working on the action as a bivector image">
-      <option name="closed" value="true" />
-      <created>1780953342093</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1780953342093</updated>
-    </task>
-    <task id="LOCAL-00082" summary="working on the action as a bivector image">
-      <option name="closed" value="true" />
-      <created>1780954044145</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1780954044145</updated>
-    </task>
-    <task id="LOCAL-00083" summary="updated actionarea opacity">
-      <option name="closed" value="true" />
-      <created>1780959414042</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1780959414042</updated>
-    </task>
-    <task id="LOCAL-00084" summary="updated actionarea opacity">
-      <option name="closed" value="true" />
-      <created>1780961211772</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1780961211772</updated>
-    </task>
-    <task id="LOCAL-00085" summary="updating preimage diagram of action">
-      <option name="closed" value="true" />
-      <created>1780961333285</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1780961333285</updated>
     </task>
     <task id="LOCAL-00086" summary="updating preimage diagram of action">
       <option name="closed" value="true" />
@@ -571,7 +534,47 @@
       <option name="project" value="LOCAL" />
       <updated>1785360722738</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="added the term 'function space' to the calculus of variations primer subsection in mathematical foundations appendix">
+      <option name="closed" value="true" />
+      <created>1785361245161</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1785361245161</updated>
+    </task>
+    <task id="LOCAL-00131" summary="edited function space definition">
+      <option name="closed" value="true" />
+      <created>1785362300872</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1785362300872</updated>
+    </task>
+    <task id="LOCAL-00132" summary="edited function space definition">
+      <option name="closed" value="true" />
+      <created>1785362457432</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1785362457432</updated>
+    </task>
+    <task id="LOCAL-00133" summary="edited function space definition">
+      <option name="closed" value="true" />
+      <created>1785362548586</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1785362548586</updated>
+    </task>
+    <task id="LOCAL-00134" summary="edited function space definition">
+      <option name="closed" value="true" />
+      <created>1785362873116</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1785362873116</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,8 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linear-regression subsubsection added, section still incomplete, but not as incomplete as before. still need to finish the normal equation page (see Linear Algebra 2 cheat sheet in notability app)." />
-    <MESSAGE value="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)" />
     <MESSAGE value="mat text adjusted to match callout. fixed the assemblage block styling finally" />
     <MESSAGE value="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling" />
     <MESSAGE value="polished language structures section. that intro is good to go for the time being :)" />
@@ -614,6 +615,8 @@
     <MESSAGE value="added functional definition and a calculus of variations primer subsection" />
     <MESSAGE value="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x" />
     <MESSAGE value="updated bounds on calculus of variations definitions" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated bounds on calculus of variations definitions" />
+    <MESSAGE value="added the term 'function space' to the calculus of variations primer subsection in mathematical foundations appendix" />
+    <MESSAGE value="edited function space definition" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited function space definition" />
   </component>
 </project>

@@ -3,9 +3,11 @@
 <subsection xml:id="subsec-euler-lagrange" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Calculus of Variations Formulation of the Euler-Lagrange Equation</title>
 
-    <definition>
+    <definition xml:id="def-euler-lagrange">
         <title>The Euler-Lagrange Equation</title>
+
         <idx>euler-lagrange equation</idx>
+
         <statement>
             <p>
                 For a functional <m>J[y] := \int_{x_1}^{x_2}{F\big(x,y(x),y_x(x)\big) \, dx}</m>, the <term>Euler-Lagrange Equation</term> is
