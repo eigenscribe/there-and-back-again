@@ -8,7 +8,7 @@
       <statement>
         <p>
           A <term>function space</term> <m>\mathcal{F}</m> is a collection of functions <m>F\in\mathcal{F}</m> that share
-          the same domain and codomain.
+          the same domain and codomain, and specified mathematical properties.
         </p>
       </statement>
 
