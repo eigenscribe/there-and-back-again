@@ -162,6 +162,15 @@
       "color": "#9013fe"
     },
     {
+      "id": "def-path",
+      "title": "def-path",
+      "url": "para-path.html#def-path",
+      "tags": [],
+      "description": "A path is a function f(x_1,x_2,\\dots) that assigns the value of one or more dependent\n          variables to each val...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "subsec-calculus-of-variations-primer",
       "title": "Calculus of Variations Primer",
       "url": "subsec-calculus-of-variations-primer.html",
@@ -721,9 +730,12 @@
       "title": "Euler-Lagrange Equations in Physics",
       "url": "sec-euler-lagrange-physics.html",
       "tags": [
-        "euler-lagrange-equation"
+        "euler-lagrange",
+        "euler-lagrange-equation",
+        "lagrangian mechanics",
+        "variational principles"
       ],
-      "description": "The Euler-Lagrange equation in physics is the necessary condition\n        satisfied by a function that makes a functi...",
+      "description": "202607290001 |\n        Lagrangian mechanics, Euler-Lagrange, variational principles",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -732,7 +744,7 @@
       "title": "Physics Formulation of the Euler-Lagrange Equation",
       "url": "sec-euler-lagrange-physics.html#def-euler-lagrange-physics",
       "tags": [],
-      "description": "The Euler-Lagrange equation in physics is the necessary condition\n        satisfied by a function that makes a functi...",
+      "description": "The Euler-Lagrange equation in physics is\n        the necessary condition satisfied by a function that makes a\n      ...",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -956,6 +968,12 @@
   ],
   "links": [
     {
+      "source": "def-path",
+      "target": "def-functional",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "sub-pretext-inline",
       "target": "sec-pretext-cheat-sheet",
       "type": "reference",
@@ -975,6 +993,12 @@
     },
     {
       "source": "def-functional",
+      "target": "def-euler-lagrange-physics",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "def-path",
       "target": "def-euler-lagrange-physics",
       "type": "prerequisite",
       "weight": 3

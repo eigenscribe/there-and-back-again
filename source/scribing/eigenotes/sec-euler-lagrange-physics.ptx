@@ -18,9 +18,10 @@
     <statement>
 
       <p>
-        The <xref ref="def-euler-lagrange" text="custom">Euler-Lagrange equation</xref> in <alert>physics</alert> is the necessary condition
-        satisfied by a function that makes a <xref ref="def-functional" text="custom">functional</xref>, stationary under admissible
-        <em>variations</em>. It is written as
+        The <xref ref="def-euler-lagrange" text="custom">Euler-Lagrange equation</xref> in <alert>physics</alert> is
+        the necessary condition satisfied by a function that makes a
+        <xref ref="def-functional" text="custom">functional</xref>, stationary under admissible <em>variations</em>.
+        It is written as
 
           <md>
             \frac{\partial L}{\partial q} - \frac{d}{dt} \Big( \frac{\partial L}{\partial \dot{q}} \Big) = 0 \, .
@@ -37,17 +38,37 @@
     <remark>
       <statement>
         <p>
-          In classical mechanics, the <em>functional</em> is called the <term>action</term>
+          The <xref ref="def-path" text="custom">path</xref> of a classical system is typically attributed to the
+          trajectory <m>q(t)</m>.
+        </p>
+      </statement>
+    </remark>
+
+    <definition>
+      <title>Action</title>
+
+      <statement>
+        <p>
+          In classical mechanics, the <xref ref="def-functional" text="custom">functional</xref> is called the
+          <term>action</term>
 
           <md>
             S[q] = \int_{t_0}^{t_1}{L\big(t, q(t), \dot{q}(t) \big) \, dt}
           </md>
 
-          where <m>L</m> denotes the <term>Lagrangian</term> of the system.
+          where <m>L=T-V</m> denotes the <term>Lagrangian</term> of the system. Here, <m>T</m> is the kinetic energy
+          of the system and <m>V</m> is the potential energy.
         </p>
+      </statement>
+
+    </definition>
+
+    <remark>
+      <statement>
         <p>
-          The requirement that the action be stationary gives the <xref ref="def-euler-lagrange-physics"/>
-          <em>physics formulation of the Euler-Lagrange equation</em> and determines the equations of motion for a classical system.
+          The requirement that the action be stationary gives the
+          <xref ref="def-euler-lagrange-physics" text="custom">physics formulation of the Euler-Lagrange equation</xref>
+          and determines the equations of motion for a classical system.
         </p>
       </statement>
     </remark>
@@ -57,7 +78,7 @@
       <p>
         Rather than beginning with the forces acting on the system (as in Newtonian mechanics),
         <em>Lagrangian mechanics</em> begins with a scalar quantity called the <em>action</em> that does not undergo
-        first-order changes in time due to small perturbations in its physical trajectory.
+        first-order changes due to infinitesimal changes in the system's physical trajectory (or path).
       </p>
     </context>
 

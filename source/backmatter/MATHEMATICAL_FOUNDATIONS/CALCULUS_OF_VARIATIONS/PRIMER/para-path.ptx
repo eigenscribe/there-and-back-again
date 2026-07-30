@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-path" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Path</title>
+  <idx>path</idx>
+
+  <definition xml:id="def-path">
+      <statement>
+        <p>
+          A <term>path</term> is a function <m>f(x_1,x_2,\dots)</m> that assigns the value of one or more dependent
+          variables to each value of an independent variable <m>y=f(x_1,x_2,\dots)</m>. In the context of calculus of
+          variations, a path is the object over which a <xref ref="def-functional" text="custom">functional</xref> is
+          optimized.
+        </p>
+      </statement>
+  </definition>
+
+</paragraphs>

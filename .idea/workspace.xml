@@ -7,9 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added an eigenote about the physics formulation of the Euler-Lagrange equation">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added and introduction to sec-euler-lagrange-physics.ptx and removed unnecessary spacing in sec-hamiltonian-noether.ptx">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-path.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/sec-euler-lagrange-physics.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/sec-euler-lagrange-physics.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/sec-hamiltonian-noether.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/sec-hamiltonian-noether.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0293912849098799" />
-      <entry key="MS500" value="1.721241965630551" />
-      <entry key="S2" value="2.6692712367294122" />
-      <entry key="S5" value="3.6992877712592334" />
-      <entry key="S10" value="5.369898988036656" />
-      <entry key="S30" value="9.842412350686992" />
-      <entry key="S60" value="13.026496954731671" />
-      <entry key="M2" value="19.93874522293931" />
-      <entry key="M5" value="51.91356882445792" />
-      <entry key="M10" value="108.70618660461363" />
-      <entry key="M15" value="163.2245868262361" />
-      <entry key="M30" value="300.2977753947018" />
-      <entry key="H1" value="514.0524238694602" />
-      <entry key="H2" value="874.9272275924463" />
-      <entry key="H4" value="1397.719692374639" />
-      <entry key="D1" value="5231.990366092058" />
-      <entry key="W1" value="23108.261237717266" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000373633307743" />
+      <entry key="S2" value="1.2179734977901724" />
+      <entry key="S5" value="2.3092389028416083" />
+      <entry key="S10" value="4.199217196574299" />
+      <entry key="S30" value="11.883162977431535" />
+      <entry key="S60" value="19.76294669905663" />
+      <entry key="M2" value="31.091770067672048" />
+      <entry key="M5" value="63.21503048106898" />
+      <entry key="M10" value="105.9512906565624" />
+      <entry key="M15" value="141.13865992168118" />
+      <entry key="M30" value="248.208957097619" />
+      <entry key="H1" value="461.2961368319074" />
+      <entry key="H2" value="841.9037731727079" />
+      <entry key="H4" value="1408.204224350486" />
+      <entry key="D1" value="5323.011153850546" />
+      <entry key="W1" value="23252.97562983129" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -65,37 +68,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="2.5448470893846063E-214" />
-      <entry key="S60" value="1.5952681925599927E-107" />
-      <entry key="M2" value="4.008029294156768E-54" />
-      <entry key="M5" value="5.05860860082431E-22" />
-      <entry key="M10" value="3.3267150429715134E-11" />
-      <entry key="M15" value="1.4850914612090535E-7" />
-      <entry key="M30" value="7.238626197605088E-4" />
-      <entry key="H1" value="0.05283173195968755" />
-      <entry key="H2" value="0.4574519403667712" />
-      <entry key="H4" value="1.3516102100011163" />
-      <entry key="D1" value="6.868814860159066" />
-      <entry key="W1" value="52.83438590458792" />
+      <entry key="S30" value="2.9683522274523187E-249" />
+      <entry key="S60" value="5.448294523994785E-125" />
+      <entry key="M2" value="7.407033730478498E-63" />
+      <entry key="M5" value="1.6244877928562654E-25" />
+      <entry key="M10" value="5.961537622557525E-13" />
+      <entry key="M15" value="1.0169860422051442E-8" />
+      <entry key="M30" value="1.8942489096737195E-4" />
+      <entry key="H1" value="0.027026219274667775" />
+      <entry key="H2" value="0.32718297572892935" />
+      <entry key="H4" value="1.1430732871906382" />
+      <entry key="D1" value="6.679627530678418" />
+      <entry key="W1" value="52.62400156081086" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.986281125678031" />
-      <entry key="MS500" value="1.523945168316361" />
-      <entry key="S2" value="2.4272829326060252" />
-      <entry key="S5" value="3.5436167012262345" />
-      <entry key="S10" value="5.258999856254073" />
-      <entry key="S30" value="9.785152634155953" />
-      <entry key="S60" value="12.993292499389362" />
-      <entry key="M2" value="19.920635673779866" />
-      <entry key="M5" value="51.90566374972849" />
-      <entry key="M10" value="108.70187934835266" />
-      <entry key="M15" value="163.22149386415754" />
-      <entry key="M30" value="300.29662451263687" />
-      <entry key="H1" value="514.1035646147405" />
-      <entry key="H2" value="875.3818955886654" />
-      <entry key="H4" value="1399.0679531598657" />
-      <entry key="D1" value="5238.857436024373" />
-      <entry key="W1" value="23161.094677693705" />
+      <entry key="MS100" value="0.9726549474122855" />
+      <entry key="MS500" value="0.9948417255703046" />
+      <entry key="S2" value="1.2162763797539247" />
+      <entry key="S5" value="2.307943228280944" />
+      <entry key="S10" value="4.198042448441139" />
+      <entry key="S30" value="11.88207688021303" />
+      <entry key="S60" value="19.76204095507135" />
+      <entry key="M2" value="31.091003663610625" />
+      <entry key="M5" value="63.2143160265245" />
+      <entry key="M10" value="105.9505767820091" />
+      <entry key="M15" value="141.13785449149913" />
+      <entry key="M30" value="248.20815428671895" />
+      <entry key="H1" value="461.32193757189253" />
+      <entry key="H2" value="842.2287430019267" />
+      <entry key="H4" value="1409.3443409901688" />
+      <entry key="D1" value="5329.689061775357" />
+      <entry key="W1" value="23305.59868592765" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -177,14 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00087" summary="updating preimage diagram of action">
-      <option name="closed" value="true" />
-      <created>1780991373483</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1780991373483</updated>
     </task>
     <task id="LOCAL-00088" summary="requirement updates">
       <option name="closed" value="true" />
@@ -570,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785368328854</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="added and introduction to sec-euler-lagrange-physics.ptx and removed unnecessary spacing in sec-hamiltonian-noether.ptx">
+      <option name="closed" value="true" />
+      <created>1785368634048</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1785368634048</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling" />
     <MESSAGE value="polished language structures section. that intro is good to go for the time being :)" />
     <MESSAGE value="polished language structures section. that intro is good to go for the time being :)&#10;&#10;started comprising vs. consisting of table" />
     <MESSAGE value="updated pretext and added a new section to eigenotes" />
@@ -613,6 +615,7 @@
     <MESSAGE value="added the term 'function space' to the calculus of variations primer subsection in mathematical foundations appendix" />
     <MESSAGE value="edited function space definition" />
     <MESSAGE value="added an eigenote about the physics formulation of the Euler-Lagrange equation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added an eigenote about the physics formulation of the Euler-Lagrange equation" />
+    <MESSAGE value="added and introduction to sec-euler-lagrange-physics.ptx and removed unnecessary spacing in sec-hamiltonian-noether.ptx" />
+    <option name="LAST_COMMIT_MESSAGE" value="added and introduction to sec-euler-lagrange-physics.ptx and removed unnecessary spacing in sec-hamiltonian-noether.ptx" />
   </component>
 </project>
