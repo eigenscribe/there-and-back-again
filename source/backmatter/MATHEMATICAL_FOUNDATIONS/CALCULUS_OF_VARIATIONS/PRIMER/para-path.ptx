@@ -15,4 +15,12 @@
       </statement>
   </definition>
 
+  <definition xml:id="def-admissible-path">
+    <p>
+      An <term>admissible path</term> is a <xref ref="def-path" text="custom">path</xref> satisfying the boundary
+      conditions along with any additional constraints for a particular variational problem.
+    </p>
+
+  </definition>
+
 </paragraphs>

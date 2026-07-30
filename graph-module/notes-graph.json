@@ -171,6 +171,15 @@
       "color": "#9013fe"
     },
     {
+      "id": "def-admissible-path",
+      "title": "Admissible path",
+      "url": "para-path.html#def-admissible-path",
+      "tags": [],
+      "description": "An admissible path is a path satisfying the boundary\n      conditions along with any additional constraints for a par...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "subsec-calculus-of-variations-primer",
       "title": "Calculus of Variations Primer",
       "url": "subsec-calculus-of-variations-primer.html",
@@ -970,6 +979,12 @@
     {
       "source": "def-path",
       "target": "def-functional",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-admissible-path",
+      "target": "def-path",
       "type": "reference",
       "weight": 2
     },
