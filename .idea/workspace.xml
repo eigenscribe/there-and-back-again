@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added para-variation.ptx to calculus of variations section in the mathematical foundations appendix">
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-functional.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-functional.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate">
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,61 +40,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0020921370844287" />
-      <entry key="MS500" value="1.4893758243204402" />
-      <entry key="S2" value="2.721207537924172" />
-      <entry key="S5" value="3.3917926301558854" />
-      <entry key="S10" value="4.120787269130216" />
-      <entry key="S30" value="9.096741774923954" />
-      <entry key="S60" value="17.361811640192972" />
-      <entry key="M2" value="35.32943519432107" />
-      <entry key="M5" value="90.8985117073984" />
-      <entry key="M10" value="175.9648541091959" />
-      <entry key="M15" value="249.28773454617058" />
-      <entry key="M30" value="422.758169467928" />
-      <entry key="H1" value="689.1776952813826" />
-      <entry key="H2" value="1114.9708513978658" />
-      <entry key="H4" value="1732.0554328050544" />
-      <entry key="D1" value="5732.815454929694" />
-      <entry key="W1" value="23711.402628641557" />
+      <entry key="MS100" value="1.000000000000056" />
+      <entry key="MS500" value="1.002316084504495" />
+      <entry key="S2" value="1.395708818552294" />
+      <entry key="S5" value="2.4855478516388008" />
+      <entry key="S10" value="3.4093423026735445" />
+      <entry key="S30" value="4.3691995568433235" />
+      <entry key="S60" value="4.669859139320872" />
+      <entry key="M2" value="4.8311273130815096" />
+      <entry key="M5" value="5.401535241501668" />
+      <entry key="M10" value="17.67513005317043" />
+      <entry key="M15" value="48.58176614093442" />
+      <entry key="M30" value="184.49667267531925" />
+      <entry key="H1" value="459.3964831937217" />
+      <entry key="H2" value="917.3080005111652" />
+      <entry key="H4" value="1580.83868414238" />
+      <entry key="D1" value="5668.144018374534" />
+      <entry key="W1" value="23693.446371921014" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="8.058899279273468E-156" />
-      <entry key="S10" value="2.838820050526853E-78" />
-      <entry key="S30" value="1.415943599416359E-26" />
-      <entry key="S60" value="1.189934283654497E-13" />
-      <entry key="M2" value="3.4495424097327543E-7" />
-      <entry key="M5" value="0.0026007858609084214" />
-      <entry key="M10" value="0.05099790055395183" />
-      <entry key="M15" value="0.13752074049044416" />
-      <entry key="M30" value="0.3709020684301058" />
-      <entry key="H1" value="0.6246960049105981" />
-      <entry key="H2" value="1.0299832086553613" />
-      <entry key="H4" value="1.881815475758285" />
-      <entry key="D1" value="7.5102471314245856" />
-      <entry key="W1" value="53.4518178904117" />
+      <entry key="S5" value="2.5434681624097362E-306" />
+      <entry key="S10" value="1.594825433208814E-153" />
+      <entry key="S30" value="1.1683448564779181E-51" />
+      <entry key="S60" value="3.4181059908638055E-26" />
+      <entry key="M2" value="1.8488120485500325E-13" />
+      <entry key="M5" value="8.067836810769379E-6" />
+      <entry key="M10" value="0.0028403937774147876" />
+      <entry key="M15" value="0.020056371808547434" />
+      <entry key="M30" value="0.14164502983811803" />
+      <entry key="H1" value="0.38604663477703094" />
+      <entry key="H2" value="0.8096842023525475" />
+      <entry key="H4" value="1.6684753561969718" />
+      <entry key="D1" value="7.361133400230124" />
+      <entry key="W1" value="53.29890173157671" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9746103399873302" />
-      <entry key="MS500" value="1.4789147938684573" />
-      <entry key="S2" value="2.7157936027441525" />
-      <entry key="S5" value="3.389029710116458" />
-      <entry key="S10" value="4.119173545936269" />
-      <entry key="S30" value="9.095786653535209" />
-      <entry key="S60" value="17.360970103014523" />
-      <entry key="M2" value="35.328579997223" />
-      <entry key="M5" value="90.90008015982337" />
-      <entry key="M10" value="176.0143554808663" />
-      <entry key="M15" value="249.4234527706366" />
-      <entry key="M30" value="423.1270638153117" />
-      <entry key="H1" value="689.8004655670545" />
-      <entry key="H2" value="1115.9984102219985" />
-      <entry key="H4" value="1733.934259632514" />
-      <entry key="D1" value="5740.323947240708" />
-      <entry key="W1" value="23764.853493448674" />
+      <entry key="MS100" value="0.9395227492140638" />
+      <entry key="MS500" value="0.9898810388510348" />
+      <entry key="S2" value="1.3905396143070672" />
+      <entry key="S5" value="2.4806466531130402" />
+      <entry key="S10" value="3.40555628929521" />
+      <entry key="S30" value="4.367450327090348" />
+      <entry key="S60" value="4.668906263106746" />
+      <entry key="M2" value="4.830629728916586" />
+      <entry key="M5" value="5.401334787497911" />
+      <entry key="M10" value="17.677776338066803" />
+      <entry key="M15" value="48.60147793878763" />
+      <entry key="M30" value="184.63750049357176" />
+      <entry key="H1" value="459.7813099141282" />
+      <entry key="H2" value="918.1157623203593" />
+      <entry key="H4" value="1582.5045009174023" />
+      <entry key="D1" value="5675.5034302630565" />
+      <entry key="W1" value="23746.744323075025" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -177,14 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00091" summary="linear regression section update">
-      <option name="closed" value="true" />
-      <created>1781845182661</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1781845182661</updated>
     </task>
     <task id="LOCAL-00092" summary="linear regression section update">
       <option name="closed" value="true" />
@@ -570,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785373557031</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate">
+      <option name="closed" value="true" />
+      <created>1785375013752</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1785375013752</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added an eigenote on l2 normalization of learned eigenfunctions in an inverse Schrodinger solver" />
     <MESSAGE value="updated l2 normalization eigenote" />
     <MESSAGE value="starated a signals analysis section i ncomputational methods appendix" />
     <MESSAGE value="adding dirac delta function definition" />
@@ -613,6 +611,7 @@
     <MESSAGE value="updated sec-euler-lagrange-physics.ptx and added para-path.ptx to the primer subsection of calculus of variations section in the mathematical foundations appendix" />
     <MESSAGE value="added admissible path definition in para-path.ptx" />
     <MESSAGE value="added para-variation.ptx to calculus of variations section in the mathematical foundations appendix" />
-    <option name="LAST_COMMIT_MESSAGE" value="added para-variation.ptx to calculus of variations section in the mathematical foundations appendix" />
+    <MESSAGE value="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate" />
+    <option name="LAST_COMMIT_MESSAGE" value="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate" />
   </component>
 </project>
