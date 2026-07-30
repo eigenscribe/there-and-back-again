@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-variation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Variation</title>
+  <idx>variation</idx>
+
+  <definition>
+    <idx>variation</idx>
+    <statement>
+      <p>
+        A <term>variation</term> is an infinitesimal perturbation of an <xref ref="def-admissible-path" text="custom">
+        admissible path</xref> <m>y(x)</m>. A typical variation is written as
+      </p>
+      <md>
+        y(x) \rightarrow y(x) + \varepsilon \eta(x)
+      </md>
+      <p>
+        where <m>\eta(x)</m> is an arbitrary perturbation satisfying the boundary conditions and <m>\varepsilon</m> is
+        some small parameter.
+      </p>
+    </statement>
+
+  </definition>
+
+  <remark>
+    <p>
+      Variations determine how a <xref ref="def-functional" text="custom">functional</xref> changes in response to small
+      changes in its input.
+    </p>
+  </remark>
+
+</paragraphs>

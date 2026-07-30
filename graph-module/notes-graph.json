@@ -165,16 +165,20 @@
       "id": "def-path",
       "title": "def-path",
       "url": "para-path.html#def-path",
-      "tags": [],
-      "description": "A path is a function f(x_1,x_2,\\dots) that assigns the value of one or more dependent\n          variables to each val...",
+      "tags": [
+        "path"
+      ],
+      "description": "A path is a function f(x_1,x_2,\\dots) that assigns the value of one or more dependent\n        variables to each value...",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
       "id": "def-admissible-path",
-      "title": "Admissible path",
+      "title": "def-admissible-path",
       "url": "para-path.html#def-admissible-path",
-      "tags": [],
+      "tags": [
+        "admissible path"
+      ],
       "description": "An admissible path is a path satisfying the boundary\n      conditions along with any additional constraints for a par...",
       "group": "backmatter",
       "color": "#9013fe"
