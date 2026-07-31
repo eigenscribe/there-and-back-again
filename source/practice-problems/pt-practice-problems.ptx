@@ -2,13 +2,6 @@
 
 <part xml:id="pt-practice-problems" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>⚽ Practice Problems</title>
-  <introduction>
-    <blockquote>
-        <p>
-            <q>Dedicate yourself to practice problems.</q> - Professor Allan Adams, MIT 8.04 (Quantum Physics I), Spring 2013.
-        </p>
-    </blockquote>
-  </introduction>
 
   <xi:include href="./quantum-computing/ch-quantum-computing-practice-sets.ptx" />
 

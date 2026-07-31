@@ -2,9 +2,6 @@
 
 <part xml:id="pt-meta" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>🔱 Meta</title>
-  <introduction>
-    <!-- introductory text here -->
-  </introduction>
 
   <xi:include href="./PRETEXT/ch-pretext.ptx" />
   <xi:include href="./cheat-sheets/ch-cheat-sheets.ptx" />

@@ -31,12 +31,6 @@
     <titlepage-items />
   </titlepage>
 
-  <introduction>
-    <figure xml:id="cover-image">
-      <image source="cover.png" width="60%" />
-      <shortdescription>chat GPT's summary of my year in 2025.</shortdescription>
-    </figure>
-  </introduction>
 
   <abstract>
 

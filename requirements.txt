@@ -26,7 +26,7 @@ playwright==1.60.0
 plumbum==1.10.0
 ply==3.11
 prefig==0.6.5
-pretext==2.41.2
+pretext==2.45.0
 psutil==7.2.2
 pydantic==2.13.4
 pydantic-xml==2.14.3
