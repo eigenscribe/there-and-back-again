@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-intensive-properties" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Intensive Properties</title>
+
+  <definition>
+    <idx>intensive property</idx>
+    <statement>
+      <p>
+        An <term>intensive property</term> is a property whose value does not scale with the size of the system.
+      </p>
+    </statement>
+  </definition>
+
+  <remark>
+    <statement>
+      <p>
+        If two identical systems <m>A</m> and <m>B</m> are combined, their <em>intensive properties</em> do not change.
+      </p>
+   </statement>
+  </remark>
+
+  <example>
+    <title>Examples of Intensive Properties</title>
+
+    <p>
+      <ul>
+        <li>Temperature</li>
+        <li>Pressure</li>
+        <li>Density</li>
+        <li>Concentration</li>
+        <li>Chemical potential</li>
+      </ul>
+    </p>
+
+  </example>
+
+</paragraphs>

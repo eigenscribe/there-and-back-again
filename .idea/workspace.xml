@@ -7,12 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="emphasized the word &quot;Dad&quot; in the acknowledgement section">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/sec-physical-properties.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/appendix-physical-foundations.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed some typos">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-intensive.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,22 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00093" summary="updated assemblage styling">
-      <option name="closed" value="true" />
-      <created>1781859270686</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1781859270686</updated>
-    </task>
-    <task id="LOCAL-00094" summary="stylesheet adjustments (golden ratio scaling and best practice color contrast)">
-      <option name="closed" value="true" />
-      <created>1781869293650</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1781869293650</updated>
     </task>
     <task id="LOCAL-00095" summary="updated note-like element gradient">
       <option name="closed" value="true" />
@@ -573,7 +556,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785377388112</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="added extensive property definition and physical foundations appendix">
+      <option name="closed" value="true" />
+      <created>1785459094303</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1785459094303</updated>
+    </task>
+    <task id="LOCAL-00143" summary="fixed some typos">
+      <option name="closed" value="true" />
+      <created>1785459196932</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1785459196932</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,8 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="starated a signals analysis section i ncomputational methods appendix" />
-    <MESSAGE value="adding dirac delta function definition" />
     <MESSAGE value="connected the dirac delta page in the differential equations section of the mathematical foundations appendix with the dirac delta and lti systems page in the signal analysis section of the computational methods appendix" />
     <MESSAGE value="updated math proofmark details and added a part 1 solution to exercise 1 in practice set 1 for vector potential stuff" />
     <MESSAGE value="messed with main page margines, but idk if it did much good" />
@@ -616,6 +613,8 @@
     <MESSAGE value="added para-variation.ptx to calculus of variations section in the mathematical foundations appendix" />
     <MESSAGE value="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate" />
     <MESSAGE value="emphasized the word &quot;Dad&quot; in the acknowledgement section" />
-    <option name="LAST_COMMIT_MESSAGE" value="emphasized the word &quot;Dad&quot; in the acknowledgement section" />
+    <MESSAGE value="added extensive property definition and physical foundations appendix" />
+    <MESSAGE value="fixed some typos" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some typos" />
   </component>
 </project>

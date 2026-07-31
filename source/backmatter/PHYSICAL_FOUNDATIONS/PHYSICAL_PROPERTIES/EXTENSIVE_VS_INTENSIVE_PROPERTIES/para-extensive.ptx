@@ -4,6 +4,7 @@
   <title>Extensive Properties</title>
 
   <definition>
+    <idx>extensive property</idx>
     <statement>
       <p>
         An <term>extensive property</term> is a property whose value is proportional to the <alert>size</alert> or
@@ -25,7 +26,7 @@
   </remark>
 
   <example>
-    <title>Examples of Extensive Properties
+    <title>Examples of Extensive Properties</title>
 
     <p>
       <ul>
@@ -37,6 +38,6 @@
       </ul>
     </p>
 
-  <example>
+  </example>
 
 </paragraphs>
