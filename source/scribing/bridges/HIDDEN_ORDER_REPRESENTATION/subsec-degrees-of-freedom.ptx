@@ -21,7 +21,7 @@
     <title>Degrees of Freedom Definitions Across Different Disciplines</title>
     <idx>degrees of freedom</idx>
 
-    <tabular bottom="minor" top="minor" left="minor" right="minor">
+    <tabular bottom="minor" top="minor" left="major" right="minor">
 
       <col width = "20%"/>
       <col width = "30%"/>
