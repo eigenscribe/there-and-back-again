@@ -21,6 +21,11 @@ if [ -d ".venv" ]; then
   fi
 fi
 
+# Ensure local validator is in PATH
+if [ -d ".bin" ]; then
+  export PATH="$PWD/.bin:$PATH"
+fi
+
 
 # Remove old cache and build artifacts to ensure a clean build
 echo "🧹 Forcing PreTeXt rebuild..."
