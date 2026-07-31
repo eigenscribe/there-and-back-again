@@ -13,7 +13,7 @@
     </statement>
   </definition>
 
-  <remark>
+  <remark xml:id="remark-second-law-prelude">
     <statement>
       <p>
         Multiple different microstates may give rise to the same

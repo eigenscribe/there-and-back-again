@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added macroscopic property to the physical properties section in the physical foundations appendix">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/para-microstates.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/subsec-state-variables.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/subsec-state-variables.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/macrostate.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/para-macrostates.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/microstate.ptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/subsec-macrostates-and-microstates.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/subsec-macrostates-and-microstates.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="polished physical foundations defintions">
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/para-macrostates.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/para-macrostates.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/para-microstates.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/para-microstates.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000016671438" />
-      <entry key="MS500" value="1.0195889577188153" />
-      <entry key="S2" value="1.7747738443627141" />
-      <entry key="S5" value="3.6418930780907326" />
-      <entry key="S10" value="5.793672213859993" />
-      <entry key="S30" value="10.801262227524218" />
-      <entry key="S60" value="18.338200050831567" />
-      <entry key="M2" value="33.56033910748247" />
-      <entry key="M5" value="76.5189542230865" />
-      <entry key="M10" value="146.2492470449522" />
-      <entry key="M15" value="207.33275631784034" />
-      <entry key="M30" value="363.73064422517746" />
-      <entry key="H1" value="646.4340235441157" />
-      <entry key="H2" value="1130.9016691510872" />
-      <entry key="H4" value="1846.21852360975" />
-      <entry key="D1" value="6047.806533656786" />
-      <entry key="W1" value="24136.48295718856" />
+      <entry key="MS100" value="1.001177612385454" />
+      <entry key="MS500" value="1.2984337912561195" />
+      <entry key="S2" value="2.456671828200286" />
+      <entry key="S5" value="3.8787185459402047" />
+      <entry key="S10" value="5.803128774532007" />
+      <entry key="S30" value="13.081560978866062" />
+      <entry key="S60" value="22.852462758543407" />
+      <entry key="M2" value="38.928399074551095" />
+      <entry key="M5" value="82.11109454387226" />
+      <entry key="M10" value="152.0683737886353" />
+      <entry key="M15" value="215.19763248700147" />
+      <entry key="M30" value="377.1991835471519" />
+      <entry key="H1" value="664.8879246822166" />
+      <entry key="H2" value="1154.5892116778434" />
+      <entry key="H4" value="1876.7280481047635" />
+      <entry key="D1" value="6092.175204926879" />
+      <entry key="W1" value="24188.013967806306" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="9.9367938172284E-131" />
-      <entry key="S10" value="9.968346812399867E-66" />
-      <entry key="S30" value="2.152159129868758E-22" />
-      <entry key="S60" value="1.4670239022826923E-11" />
-      <entry key="M2" value="3.8301748031685015E-6" />
-      <entry key="M5" value="0.0068122052016660935" />
-      <entry key="M10" value="0.08260275545851874" />
-      <entry key="M15" value="0.19121154672884655" />
-      <entry key="M30" value="0.4759542143364676" />
-      <entry key="H1" value="0.8664265245230026" />
-      <entry key="H2" value="1.4046097767799464" />
-      <entry key="H4" value="2.3283130630518922" />
-      <entry key="D1" value="8.154662133713874" />
-      <entry key="W1" value="54.098433741867694" />
+      <entry key="S5" value="2.5230037104143162E-151" />
+      <entry key="S10" value="5.0229510354116263E-76" />
+      <entry key="S30" value="7.949130891587869E-26" />
+      <entry key="S60" value="2.819420311267507E-13" />
+      <entry key="M2" value="5.309821382370125E-7" />
+      <entry key="M5" value="0.0030905249101758174" />
+      <entry key="M10" value="0.05563739634198074" />
+      <entry key="M15" value="0.1469249743288772" />
+      <entry key="M30" value="0.41721117367517474" />
+      <entry key="H1" value="0.8111984579550631" />
+      <entry key="H2" value="1.3591061435548435" />
+      <entry key="H4" value="2.2902886406900156" />
+      <entry key="D1" value="8.132313506555667" />
+      <entry key="W1" value="54.0772285506425" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726549490451197" />
-      <entry key="MS500" value="1.0139750275930852" />
-      <entry key="S2" value="1.7724495366163002" />
-      <entry key="S5" value="3.6400131922340324" />
-      <entry key="S10" value="5.792199203946283" />
-      <entry key="S30" value="10.800373369099322" />
-      <entry key="S60" value="18.337424755344603" />
-      <entry key="M2" value="33.55920669397597" />
-      <entry key="M5" value="76.52304975416429" />
-      <entry key="M10" value="146.32872172837688" />
-      <entry key="M15" value="207.52107741174456" />
-      <entry key="M30" value="364.2043285604364" />
-      <entry key="H1" value="647.2985614612186" />
-      <entry key="H2" value="1132.304188075351" />
-      <entry key="H4" value="1848.5442019765592" />
-      <entry key="D1" value="6055.959455654433" />
-      <entry key="W1" value="24190.580434829262" />
+      <entry key="MS100" value="0.9472030581302107" />
+      <entry key="MS500" value="1.2858555233429823" />
+      <entry key="S2" value="2.452229699996265" />
+      <entry key="S5" value="3.8762334052538563" />
+      <entry key="S10" value="5.801298850917396" />
+      <entry key="S30" value="13.080176943622785" />
+      <entry key="S60" value="22.851275518678204" />
+      <entry key="M2" value="38.92737702443806" />
+      <entry key="M5" value="82.11249001074124" />
+      <entry key="M10" value="152.12164660081302" />
+      <entry key="M15" value="215.3421581581313" />
+      <entry key="M30" value="377.61431238248707" />
+      <entry key="H1" value="665.697307709647" />
+      <entry key="H2" value="1155.946270869997" />
+      <entry key="H4" value="1879.0157331020837" />
+      <entry key="D1" value="6100.305781062375" />
+      <entry key="W1" value="24242.090240344118" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -182,14 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00108" summary="added an eigenote on l2 normalization of learned eigenfunctions in an inverse Schrodinger solver">
-      <option name="closed" value="true" />
-      <created>1782760266521</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1782760266521</updated>
     </task>
     <task id="LOCAL-00109" summary="updated l2 normalization eigenote">
       <option name="closed" value="true" />
@@ -575,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785513078731</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="polished physical foundations defintions">
+      <option name="closed" value="true" />
+      <created>1785514266454</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1785514266454</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added functional definition and a calculus of variations primer subsection" />
     <MESSAGE value="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x" />
     <MESSAGE value="updated bounds on calculus of variations definitions" />
     <MESSAGE value="added the term 'function space' to the calculus of variations primer subsection in mathematical foundations appendix" />
@@ -618,6 +613,7 @@
     <MESSAGE value="added the Winston Churchill quote to Dad acknowledgment " />
     <MESSAGE value="polished sec-physical-systems.ptx" />
     <MESSAGE value="added macroscopic property to the physical properties section in the physical foundations appendix" />
-    <option name="LAST_COMMIT_MESSAGE" value="added macroscopic property to the physical properties section in the physical foundations appendix" />
+    <MESSAGE value="polished physical foundations defintions" />
+    <option name="LAST_COMMIT_MESSAGE" value="polished physical foundations defintions" />
   </component>
 </project>

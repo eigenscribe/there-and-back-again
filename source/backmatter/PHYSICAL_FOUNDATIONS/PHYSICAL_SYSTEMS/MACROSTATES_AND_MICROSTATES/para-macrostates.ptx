@@ -34,4 +34,14 @@
     </p>
   </example>
 
+  <remark>
+    <statement>
+      <p>
+        A macrostate is typically a compressed description of a much larger collection of microscopic information.
+        <xref ref="remark-second-law-prelude"/> illustrates that macroscopic descriptions necessarily discard
+        microscopic detail.
+      </p>
+    </statement>
+  </remark>
+
 </paragraphs>
