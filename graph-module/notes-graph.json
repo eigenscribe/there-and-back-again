@@ -29,6 +29,15 @@
       "color": "#9013fe"
     },
     {
+      "id": "app-physical-foundations",
+      "title": "Physical Foundations",
+      "url": "app-physical-foundations.html",
+      "tags": [],
+      "description": "Non-geometric algebra mathematics.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "app-computational-methods",
       "title": "Computational Methods",
       "url": "app-computational-methods.html",
@@ -128,7 +137,7 @@
       "tags": [
         "euler-lagrange equation"
       ],
-      "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is\n           ...",
+      "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -139,7 +148,7 @@
       "tags": [
         "euler-lagrange equation"
       ],
-      "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is\n           ...",
+      "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -158,6 +167,17 @@
       "url": "para-functional.html#def-functional",
       "tags": [],
       "description": "In the calculus of variations, the standard form of a functional J[y] is typically written as\n            \n          ...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-stationary",
+      "title": "def-stationary",
+      "url": "para-functional.html#def-stationary",
+      "tags": [
+        "stationary"
+      ],
+      "description": "A functional is said to be stationary at a point along\n        an admissible path y=f(x) if all first order changes\n ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -301,6 +321,24 @@
       "id": "subsec-periodic-table",
       "title": "Periodic Table of Elements",
       "url": "subsec-periodic-table.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "sec-physical-properties",
+      "title": "Physical Properties",
+      "url": "sec-physical-properties.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-extensive-vs-intensive-properties",
+      "title": "Extensive vs. Intensive Properties",
+      "url": "subsec-extensive-vs-intensive-properties.html",
       "tags": [],
       "description": "",
       "group": "backmatter",
@@ -980,6 +1018,18 @@
     }
   ],
   "links": [
+    {
+      "source": "def-stationary",
+      "target": "def-admissible-path",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-stationary",
+      "target": "def-euler-lagrange",
+      "type": "reference",
+      "weight": 2
+    },
     {
       "source": "def-path",
       "target": "def-functional",
