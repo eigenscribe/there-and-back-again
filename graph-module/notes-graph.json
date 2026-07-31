@@ -330,8 +330,21 @@
       "id": "subsec-state-variables",
       "title": "State Variables",
       "url": "subsec-state-variables.html",
-      "tags": [],
-      "description": "",
+      "tags": [
+        "state variable"
+      ],
+      "description": "A state variable is a macrostate that\n        depends only on the equilibrium state of the system at a particular poi...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-state-variables",
+      "title": "def-state-variables",
+      "url": "subsec-state-variables.html#def-state-variables",
+      "tags": [
+        "state variable"
+      ],
+      "description": "A state variable is a macrostate that\n        depends only on the equilibrium state of the system at a particular poi...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -434,7 +447,7 @@
       "tags": [
         "macrostate"
       ],
-      "description": "An observable physical property of a physical\n        system.",
+      "description": "An observable physical property that characterizes a\n        physical system in a measurable way. We use\n         to ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -1146,6 +1159,24 @@
       "weight": 2
     },
     {
+      "source": "def-state-variables",
+      "target": "def-macrostate",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-state-variables",
+      "target": "def-extensive-property",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-state-variables",
+      "target": "def-intensive-property",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "def-system",
       "target": "def-macrostate",
       "type": "reference",
@@ -1172,6 +1203,12 @@
     {
       "source": "def-macrostate",
       "target": "def-system",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-macrostate",
+      "target": "def-state-variables",
       "type": "reference",
       "weight": 2
     },

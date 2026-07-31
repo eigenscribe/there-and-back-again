@@ -7,8 +7,25 @@
     <!-- insert intro here -->
   </introduction>
 
-  <definition>
-    <!-- insert definition here -->
+  <definition xml:id="def-state-variables">
+    <idx>state variable</idx>
+    <statement>
+      <p>
+        A <term>state variable</term> is a <xref ref="def-macrostate" text="custom">macrostate</xref> that
+        depends only on the equilibrium state of the system at a particular point in time. State variables are
+        can be classified as <xref ref="def-extensive-property" text="custom">extensive</xref> or
+        <xref ref="def-intensive-property" text="custom">intensive</xref>.
+      </p>
+    </statement>
   </definition>
+
+  <remark>
+    <statement>
+      <p>
+        State variables can be used to define changes in the <xref ref="def-macrostate" text="custom">macrostate</xref>
+        of a system between two points in time.
+      </p>
+    </statement>
+  </remark>
 
  </subsection>

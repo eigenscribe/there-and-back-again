@@ -7,7 +7,8 @@
     <statement>
       <p>
         An observable <xref ref="sec-physical-properties" text="custom">physical property</xref> that characterizes a
-        physical <xref ref="def-system" text="custom">system</xref> in a measurable way.
+        physical <xref ref="def-system" text="custom">system</xref> in a measurable way. We use
+        <xref ref="def-state-variables" text="state variables"/> to describe a particular macrostate.
       </p>
     </statement>
 
