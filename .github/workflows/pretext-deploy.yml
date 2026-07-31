@@ -1,4 +1,4 @@
-# This file was automatically generated with PreTeXt 2.41.2.
+# This file was automatically generated with PreTeXt 2.45.0.
 # If you modify this file, PreTeXt will no longer automatically update it.
 #
 
@@ -57,9 +57,7 @@ jobs:
         run: pretext --version
 
       - name: build deploy targets
-        run: |
-          chmod +x build.sh
-          ./build.sh
+        run: pretext build --deploys
 
       - name: run deploy
         run: pretext deploy --no-push
