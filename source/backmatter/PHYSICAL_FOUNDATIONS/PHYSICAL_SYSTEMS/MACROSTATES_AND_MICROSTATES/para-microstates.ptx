@@ -7,8 +7,9 @@
     <idx>microstate</idx>
     <statement>
       <p>
-        A <term>microstate</term> is a complete microscopic description of a system that specifies the state of every
-        constituent degree of freedom.
+        A <term>microstate</term> is a complete microscopic description of a
+        <xref ref="def-physical-system" text="custom">physical system</xref> that specifies the
+        state of every constituent <xref ref="def-degrees-of-freedom-physics" text="custom">degree of freedom</xref>.
       </p>
     </statement>
   </definition>

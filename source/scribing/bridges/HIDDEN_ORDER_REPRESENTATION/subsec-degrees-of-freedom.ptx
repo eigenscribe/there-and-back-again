@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-degrees-of-freedom">
+  <title>Degrees of Freedom</title>
+  <introduction>
+    <p>
+      <alert>Note Id:</alert> <tag>202607310001</tag> | <alert>Tags:</alert>
+      <tag>degrees of freedom</tag> <tag>physics</tag> <tag>statistics</tag> <tag>linear algebra</tag>
+      <tag>machine learning</tag>
+    </p>
+  </introduction>
+
+  <assemblage>
+    <p>
+      Across mathematics, physics, statistics, and machine learning, the notion of <em>degrees of freedom</em> captures
+      the same idea: the number of independent configurations available that give rise to a constrained system.
+    </p>
+  </assemblage>
+
+  <table xml:id="tab-degrees-of-freedom">
+    <title>Degrees of Freedom Definitions Across Different Disciplines</title>
+    <idx>degrees of freedom</idx>
+
+    <tabular bottom="minor" top="minor" left="minor" right="minor">
+
+      <col width = "20%"/>
+      <col width = "30%"/>
+      <col width = "50%"/>
+
+      <row header="yes">
+        <cell>Discipline</cell>
+        <cell>Definition</cell>
+        <cell>Example(s)</cell>
+      </row>
+
+      <row>
+        <cell><p>Physics</p></cell>
+
+        <cell>
+          <p xml:id="def-degrees-of-freedom-physics">
+            The independent variables required to specify the microscopic state of a
+            <xref ref="def-physical-system" text="custom">physical system</xref>.
+          </p>
+        </cell>
+
+        <cell>
+          <p>
+            <ul>
+              <li>Position <m>q</m> and momentum <m>p</m> of a particle.</li>
+              <li>Normal modes of a vibrating string.</li>
+              <li>Spin states in a quantum system.</li>
+            </ul>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell><p>Statistics</p></cell>
+
+        <cell>
+          <p xml:id="def-degrees-of-freedom-statistics">
+            The number of independent pieces of information remaining after accounting for constraints or estimated
+            parameters that describe an <em>estimator</em> or <em>statistical model</em>.
+          </p>
+        </cell>
+
+        <cell>
+          <p>
+            <ul>
+              <li><m>n-1</m> degrees of freedom for the <em>sample variance</em>.</li>
+              <li>Residual degrees of freedom in <em>linear regression</em>.</li>
+            </ul>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell><p>Linear Algebra</p></cell>
+
+        <cell>
+          <p xml:id="def-degrees-of-freedom-linear-algebra">
+            Corresponds to the size of the <em>null space</em> (called the <term>nullity</term>) of a
+            <em>vector space</em>.
+          </p>
+        </cell>
+
+        <cell>
+          <p>
+            <ul>
+              <li>A column vector <m>\mathbf{x}\in\mathbb{R}^n</m> has <m>n</m> degrees of freedom.</li>
+              <li>The <em>rank</em> of a matrix <m>\mathbf{A}\in\mathbb{R}^{m\times n}</m> has at most <m>nm</m> degrees
+              of freedom.</li>
+            </ul>
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell><p>Machine Learning</p></cell>
+
+        <cell>
+          <p>
+            The number of independent ways the model can adapt to a dataset.
+          </p>
+        </cell>
+
+        <cell>
+          <p>
+            <ul>
+              <li>Trainable parameters.</li>
+              <li>Effective model complexity after regularization.</li>
+            </ul>
+          </p>
+        </cell>
+      </row>
+
+    </tabular>
+
+  </table>
+ </subsection>
