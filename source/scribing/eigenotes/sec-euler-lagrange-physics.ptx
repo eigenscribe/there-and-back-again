@@ -44,13 +44,13 @@
       </statement>
     </remark>
 
-    <definition>
-      <title>Action</title>
+    <definition xml:id="def-action-classical-mechanics">
+      <title>Action (Classical Mechanics)</title>
 
       <statement>
         <p>
-          In classical mechanics, the <xref ref="def-functional" text="custom">functional</xref> is called the
-          <term>action</term>
+          In classical mechanics, the <xref ref="def-functional" text="custom">functional</xref> for the
+          <em>Euler-Lagrange equation</em> is called the <term>action</term>. 
 
           <md>
             S[q] = \int_{t_0}^{t_1}{L\big(t, q(t), \dot{q}(t) \big) \, dt}

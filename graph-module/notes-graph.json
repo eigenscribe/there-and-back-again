@@ -376,22 +376,65 @@
       "color": "#9013fe"
     },
     {
-      "id": "subsec-physical-properties-primer",
-      "title": "Physical Properties Primer",
-      "url": "subsec-physical-properties-primer.html",
+      "id": "subsec-physical-systems",
+      "title": "Physical Systems",
+      "url": "subsec-physical-systems.html",
       "tags": [],
       "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "def-physical-system",
-      "title": "def-physical-system",
-      "url": "para-physical-system.html#def-physical-system",
+      "id": "subsec-macrostates-and-microstates",
+      "title": "Macrostates and Microstates",
+      "url": "subsec-macrostates-and-microstates.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-physical-system",
+      "title": "Physical Systems",
+      "url": "subsec-physical-system.html",
       "tags": [
-        "physical system"
+        "physical system",
+        "system"
       ],
-      "description": "A physical system is a physical entity that adopts observable macrostates.",
+      "description": "A system is a physical entity that adopts observable\n        macrostates that can be measured.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-system",
+      "title": "def-system",
+      "url": "subsec-physical-system.html#def-system",
+      "tags": [
+        "system"
+      ],
+      "description": "A system is a physical entity that adopts observable\n        macrostates that can be measured.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-microstate",
+      "title": "Microstate",
+      "url": "def-microstate.html",
+      "tags": [
+        "microstate"
+      ],
+      "description": "A microstate is a constituent 'bit' of information, all of which are needed to describe the\n        macrostate.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-macrostate",
+      "title": "Macrostates",
+      "url": "def-macrostate.html",
+      "tags": [
+        "macrostate"
+      ],
+      "description": "An observable physical property of a physical\n        system.",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -851,6 +894,15 @@
       "color": "#d0021b"
     },
     {
+      "id": "def-action-classical-mechanics",
+      "title": "Action (Classical Mechanics)",
+      "url": "sec-euler-lagrange-physics.html#def-action-classical-mechanics",
+      "tags": [],
+      "description": "In classical mechanics, the functional for the\n          Euler-Lagrange equation is called the action. \n\n          \n ...",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
       "id": "ch-eigenotes",
       "title": "\ud83d\udcdc Eigenotes",
       "url": "ch-eigenotes.html",
@@ -1094,6 +1146,36 @@
       "weight": 2
     },
     {
+      "source": "def-system",
+      "target": "def-macrostate",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-system",
+      "target": "def-microstate",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-microstate",
+      "target": "def-macrostate",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-macrostate",
+      "target": "sec-physical-properties",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-macrostate",
+      "target": "def-system",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "sub-pretext-inline",
       "target": "sec-pretext-cheat-sheet",
       "type": "reference",
@@ -1124,8 +1206,20 @@
       "weight": 3
     },
     {
-      "source": "sec-calculus-of-variations",
+      "source": "def-functional",
+      "target": "def-action-classical-mechanics",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "def-action-classical-mechanics",
       "target": "def-euler-lagrange-physics",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "sec-calculus-of-variations",
+      "target": "def-action-classical-mechanics",
       "type": "prerequisite",
       "weight": 3
     }

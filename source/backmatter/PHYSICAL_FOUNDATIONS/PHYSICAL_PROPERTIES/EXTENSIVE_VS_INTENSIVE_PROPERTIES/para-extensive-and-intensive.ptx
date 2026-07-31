@@ -4,13 +4,13 @@
   <title>Relation between extensive and intensive properties</title>
 
     <assemblage>
-      <title>Rule of Thumb</title>
+      <title>:ember: Rule of Thumb</title>
       <p>
-        :ember: If the value of a property is doubled when the amount of material comprising the system is doubled,
+        If the value of a property is doubled when the amount of material comprising the system is doubled,
         then it is an <xref ref="def-extensive-property" text="custom">extensive property</xref>.
       </p>
       <p>
-        :ember: If the value of a property is unchanged when the amount of material comprising the system is
+        If the value of a property is unchanged when the amount of material comprising the system is
         doubled, then it is an <xref ref="def-intensive-property" text="custom">intensive property</xref>
       </p>
     </assemblage>

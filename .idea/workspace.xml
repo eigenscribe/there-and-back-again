@@ -7,17 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added physical properties primer  files and made a specific file for the extensive and intensive paragraph">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/subsec-state-variables.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/para-physical-system.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="reordered the files in the physical foundations appendix and added state variable paragraph in the physical properties section that needs to be completed">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/macrostate.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/microstate.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/subsec-macrostates-and-microstates.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/subsec-surroundings.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/PHYSICAL_PROPERTIES_PRIMER/para-physical-system.ptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/PHYSICAL_PROPERTIES_PRIMER/subsec-physical-properties-primer.ptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/sec-physical-properties.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/sec-physical-properties.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-physical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-physical-foundations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive-and-intensive.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive-and-intensive.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/para-physical-system.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/subsec-system.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/before-and-after-boltzmann.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/before-and-after-boltzmann.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/sec-euler-lagrange-physics.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/sec-euler-lagrange-physics.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/lagrange-joseph-louis.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/lagrange-joseph-louis.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,35 +115,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;PowerShell.build.ps1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;PowerShell.build.ps1 (2).executor&quot;: &quot;Run&quot;,
-    &quot;PowerShell.build.ps1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "PowerShell.build.ps1 (1).executor": "Run",
+    "PowerShell.build.ps1 (2).executor": "Run",
+    "PowerShell.build.ps1.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "junie.plugin.stays.banner.dismissed": "true",
+    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA" />
@@ -185,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00097" summary="minor latex equation tinkering for enhanced readability (problem isn't resolved, but can be improved later)">
-      <option name="closed" value="true" />
-      <created>1781943554476</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1781943554476</updated>
     </task>
     <task id="LOCAL-00098" summary="added a normal equation page to linear algebra section of mathematical foundations appendix and half-way through first round of polishing linear regression page">
       <option name="closed" value="true" />
@@ -578,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785464605817</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="reordered the files in the physical foundations appendix and added state variable paragraph in the physical properties section that needs to be completed">
+      <option name="closed" value="true" />
+      <created>1785466272576</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1785466272576</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="messed with main page margines, but idk if it did much good" />
     <MESSAGE value="added a spectral analysis section with a norm table to computational methods appendix" />
     <MESSAGE value="added a spectral analysis jargon table comparing interpretations of terms that are used to describe some physical dimension vs their use in spectral analysis" />
     <MESSAGE value="relocated the spectral analysis section content inside the signal analysis content as a spectral analysis subsection" />
@@ -621,6 +622,7 @@
     <MESSAGE value="fixed some typos" />
     <MESSAGE value="fixed some types that were causing build errors" />
     <MESSAGE value="added physical properties primer  files and made a specific file for the extensive and intensive paragraph" />
-    <option name="LAST_COMMIT_MESSAGE" value="added physical properties primer  files and made a specific file for the extensive and intensive paragraph" />
+    <MESSAGE value="reordered the files in the physical foundations appendix and added state variable paragraph in the physical properties section that needs to be completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="reordered the files in the physical foundations appendix and added state variable paragraph in the physical properties section that needs to be completed" />
   </component>
 </project>

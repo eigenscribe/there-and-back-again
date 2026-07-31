@@ -12,12 +12,11 @@
         <p>
             <alert>Citizenship:</alert> Italian-French
         </p>
-        <p>
-            <alert>The Hook:</alert> Reformulated Newton's laws into a scalar optimization problem, now known as the Principle of Least Action.
-        </p>
-        <p>
-            <alert>Core Contribution:</alert> Introduced the <term>Lagrangian function</term> and defined the <term>action</term>.
-        </p>
     </introduction>
+
+    <paragraphs>
+      <title>Core Contributions</title>
+
+    </paragraphs>
     
 </subsection>

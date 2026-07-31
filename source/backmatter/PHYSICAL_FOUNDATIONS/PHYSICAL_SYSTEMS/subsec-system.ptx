@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-physical-system" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Physical Systems</title>
+  <idx>physical system</idx>
+
+  <definition xml:id="def-system">
+    <idx>system</idx>
+    <statement>
+      <p>
+        A <term>system</term> is a physical entity that adopts observable
+        <xref ref="def-macrostate" text="custom">macrostates</xref> that can be measured.
+      </p>
+    </statement>
+  </definition>
+
+  <claim>
+    <p>
+      <em>Systems</em> tend to adopt the <xref ref="def-macrostate" text="custom">macrostate</xref> with the greatest
+      number of <xref ref="def-microstate" text="custom">microstates</xref>.
+    </p>
+  </claim>
+
+
+
+
+
+
+
+</subsection>
