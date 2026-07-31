@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-macroscopic-property" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Macroscopic Property</title>
+
+  <definition xml:id="def-macroscopic-property">
+    <idx>macroscopic property</idx>
+
+    <statement>
+      <p>
+        A <term>macroscopic property</term> is a measurable quantity that describes the collective behavior of a
+        <xref ref="def-physical-system" text="custom">physical system</xref> without specifying the
+        <xref ref="def-microstate" text="custom">microscopic state</xref> if its individual constituents.
+      </p>
+    </statement>
+
+  </definition>
+
+
+</subsection>

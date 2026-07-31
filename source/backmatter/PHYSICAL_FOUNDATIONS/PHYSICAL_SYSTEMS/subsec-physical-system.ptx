@@ -4,7 +4,7 @@
   <title>Physical Systems</title>
   <idx>physical system</idx>
 
-  <definition xml:id="def-system">
+  <definition xml:id="def-physical-system">
     <idx>physical system</idx>
     <statement>
       <p>
@@ -30,11 +30,6 @@
       <xref ref="def-microstate" text="custom">microstates</xref>.
     </p>
   </claim>
-
-
-
-
-
 
 
 </subsection>

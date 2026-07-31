@@ -7,6 +7,7 @@
     <!-- insert intro here -->
   </introduction>
 
+    <xi:include href="subsec-macroscopic-property.ptx"/>
     <xi:include href="subsec-state-variables.ptx"/>
     <xi:include href="subsec-extensive-vs-intensive-properties.ptx"/>
 

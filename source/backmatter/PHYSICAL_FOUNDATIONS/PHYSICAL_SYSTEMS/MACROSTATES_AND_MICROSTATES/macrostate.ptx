@@ -6,11 +6,25 @@
 
     <statement>
       <p>
-        A <term>macrostate</term> is an observable
-        <xref ref="sec-physical-properties" text="custom">physical property</xref> that characterizes a
-        physical <xref ref="def-system" text="custom">system</xref> in a measurable way. We use
-        <xref ref="def-state-variables" text="state variables"/> to describe a particular macrostate.
+        A <term>macrostate</term> is the complete specification of the measurable
+        <xref ref="def-macroscopic-property" text="custom">macroscopic properties</xref> that characterize a
+        <xref ref="def-physical-system" text="custom">physical system</xref> at a given instant.
       </p>
     </statement>
+
+    <example>
+      <p>
+        Examples include:
+      </p>
+      <ul>
+        <li>temperature</li>
+        <li>pressure</li>
+        <li>volume</li>
+        <li>particle number</li>
+        <li>charge</li>
+        <li>electric potential</li>
+        <li>magnetization</li>
+      </ul>
+    </example>
 
 </definition>
