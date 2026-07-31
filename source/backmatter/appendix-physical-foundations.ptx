@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="app-physical-foundations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Physical Foundations</title>
+  <introduction>
+    <p>Non-geometric algebra mathematics.</p>
+  </introduction>
+
+    <xi:include href="PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/sec-physical-properties.ptx"/>
+
+</appendix>

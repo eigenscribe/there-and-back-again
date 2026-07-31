@@ -7,8 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate">
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="emphasized the word &quot;Dad&quot; in the acknowledgement section">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/sec-physical-properties.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/appendix-physical-foundations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2367" />
+    <option name="cachedIndexableFilesCount" value="2426" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -40,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000000056" />
-      <entry key="MS500" value="1.002316084504495" />
-      <entry key="S2" value="1.395708818552294" />
-      <entry key="S5" value="2.4855478516388008" />
-      <entry key="S10" value="3.4093423026735445" />
-      <entry key="S30" value="4.3691995568433235" />
-      <entry key="S60" value="4.669859139320872" />
-      <entry key="M2" value="4.8311273130815096" />
-      <entry key="M5" value="5.401535241501668" />
-      <entry key="M10" value="17.67513005317043" />
-      <entry key="M15" value="48.58176614093442" />
-      <entry key="M30" value="184.49667267531925" />
-      <entry key="H1" value="459.3964831937217" />
-      <entry key="H2" value="917.3080005111652" />
-      <entry key="H4" value="1580.83868414238" />
-      <entry key="D1" value="5668.144018374534" />
-      <entry key="W1" value="23693.446371921014" />
+      <entry key="MS100" value="1.000000019662221" />
+      <entry key="MS500" value="1.0317352136621512" />
+      <entry key="S2" value="1.9787531722150915" />
+      <entry key="S5" value="3.5478582575081736" />
+      <entry key="S10" value="5.0001251653379875" />
+      <entry key="S30" value="7.728812614136544" />
+      <entry key="S60" value="9.09164957611838" />
+      <entry key="M2" value="9.963881163852921" />
+      <entry key="M5" value="11.004471870027514" />
+      <entry key="M10" value="23.084591264412733" />
+      <entry key="M15" value="53.52918716466561" />
+      <entry key="M30" value="188.51553807918836" />
+      <entry key="H1" value="462.9308627667358" />
+      <entry key="H2" value="920.8455704898363" />
+      <entry key="H4" value="1584.7163610649256" />
+      <entry key="D1" value="5672.875575348599" />
+      <entry key="W1" value="23698.688933448077" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="2.5434681624097362E-306" />
-      <entry key="S10" value="1.594825433208814E-153" />
-      <entry key="S30" value="1.1683448564779181E-51" />
-      <entry key="S60" value="3.4181059908638055E-26" />
-      <entry key="M2" value="1.8488120485500325E-13" />
-      <entry key="M5" value="8.067836810769379E-6" />
-      <entry key="M10" value="0.0028403937774147876" />
-      <entry key="M15" value="0.020056371808547434" />
-      <entry key="M30" value="0.14164502983811803" />
-      <entry key="H1" value="0.38604663477703094" />
-      <entry key="H2" value="0.8096842023525475" />
-      <entry key="H4" value="1.6684753561969718" />
-      <entry key="D1" value="7.361133400230124" />
-      <entry key="W1" value="53.29890173157671" />
+      <entry key="S5" value="5.322312516627034E-308" />
+      <entry key="S10" value="2.307013766024581E-154" />
+      <entry key="S30" value="6.13314730068311E-52" />
+      <entry key="S60" value="2.4765191904532118E-26" />
+      <entry key="M2" value="1.5736960286069175E-13" />
+      <entry key="M5" value="7.564292944315055E-6" />
+      <entry key="M10" value="0.0027503259705572835" />
+      <entry key="M15" value="0.019630112273373544" />
+      <entry key="M30" value="0.14013175011256288" />
+      <entry key="H1" value="0.38397891214419333" />
+      <entry key="H2" value="0.8075128970721058" />
+      <entry key="H4" value="1.6662367047758007" />
+      <entry key="D1" value="7.359486364415788" />
+      <entry key="W1" value="53.29719792526063" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9395227492140638" />
-      <entry key="MS500" value="0.9898810388510348" />
-      <entry key="S2" value="1.3905396143070672" />
-      <entry key="S5" value="2.4806466531130402" />
-      <entry key="S10" value="3.40555628929521" />
-      <entry key="S30" value="4.367450327090348" />
-      <entry key="S60" value="4.668906263106746" />
-      <entry key="M2" value="4.830629728916586" />
-      <entry key="M5" value="5.401334787497911" />
-      <entry key="M10" value="17.677776338066803" />
-      <entry key="M15" value="48.60147793878763" />
-      <entry key="M30" value="184.63750049357176" />
-      <entry key="H1" value="459.7813099141282" />
-      <entry key="H2" value="918.1157623203593" />
-      <entry key="H4" value="1582.5045009174023" />
-      <entry key="D1" value="5675.5034302630565" />
-      <entry key="W1" value="23746.744323075025" />
+      <entry key="MS100" value="0.9794203168445056" />
+      <entry key="MS500" value="1.0274608827275566" />
+      <entry key="S2" value="1.9769608732804065" />
+      <entry key="S5" value="3.5465876092462403" />
+      <entry key="S10" value="4.998839312969106" />
+      <entry key="S30" value="7.727600371924261" />
+      <entry key="S60" value="9.090805082243252" />
+      <entry key="M2" value="9.963378697040001" />
+      <entry key="M5" value="11.004251894027291" />
+      <entry key="M10" value="23.087137541911552" />
+      <entry key="M15" value="53.54846927897967" />
+      <entry key="M30" value="188.65485596610517" />
+      <entry key="H1" value="463.31362560517135" />
+      <entry key="H2" value="921.651164801735" />
+      <entry key="H4" value="1586.3799420818818" />
+      <entry key="D1" value="5680.233340474182" />
+      <entry key="W1" value="23751.985180810112" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -141,11 +145,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES" />
       <recent name="$PROJECT_DIR$/source/scribing/eigenotes" />
       <recent name="$PROJECT_DIR$/source/scribing/\" />
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA" />
-      <recent name="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/SIGNAL_ANALYSIS" />
     </key>
   </component>
   <component name="RunManager">
@@ -176,14 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00092" summary="linear regression section update">
-      <option name="closed" value="true" />
-      <created>1781848318142</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1781848318142</updated>
     </task>
     <task id="LOCAL-00093" summary="updated assemblage styling">
       <option name="closed" value="true" />
@@ -569,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785375013752</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="emphasized the word &quot;Dad&quot; in the acknowledgement section">
+      <option name="closed" value="true" />
+      <created>1785377388112</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1785377388112</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated l2 normalization eigenote" />
     <MESSAGE value="starated a signals analysis section i ncomputational methods appendix" />
     <MESSAGE value="adding dirac delta function definition" />
     <MESSAGE value="connected the dirac delta page in the differential equations section of the mathematical foundations appendix with the dirac delta and lti systems page in the signal analysis section of the computational methods appendix" />
@@ -612,6 +615,7 @@
     <MESSAGE value="added admissible path definition in para-path.ptx" />
     <MESSAGE value="added para-variation.ptx to calculus of variations section in the mathematical foundations appendix" />
     <MESSAGE value="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate" />
-    <option name="LAST_COMMIT_MESSAGE" value="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate" />
+    <MESSAGE value="emphasized the word &quot;Dad&quot; in the acknowledgement section" />
+    <option name="LAST_COMMIT_MESSAGE" value="emphasized the word &quot;Dad&quot; in the acknowledgement section" />
   </component>
 </project>

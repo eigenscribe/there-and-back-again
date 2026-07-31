@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-extensive-properties" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Extensive Properties</title>
+
+  <definition>
+    <statement>
+      <p>
+        An <term>extensive property</term> is a property whose value is proportional to the <alert>size</alert> or
+        <alert>amount</alert> of substance comprising the system.
+      </p>
+    </statement>
+  </definition>
+
+  <remark>
+    <statement>
+      <p>
+        If two identical systems <m>A</m> and <m>B</m> are combined, their <em>extensive properties</em> sum
+        together. For an extensive property <m>X</m> this can be mathematically represented as
+      </p>
+      <md>
+        X(A+B) = X(A) + X(B) \, .
+      </md>
+   </statement>
+  </remark>
+
+  <example>
+    <title>Examples of Extensive Properties
+
+    <p>
+      <ul>
+        <li>Mass</li>
+        <li>Volume</li>
+        <li>Internal energy</li>
+        <li>Entropy</li>
+        <li>Number of particles</li>
+      </ul>
+    </p>
+
+  <example>
+
+</paragraphs>
