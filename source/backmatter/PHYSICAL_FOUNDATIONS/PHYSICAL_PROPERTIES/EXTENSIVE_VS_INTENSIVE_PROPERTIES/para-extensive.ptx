@@ -3,7 +3,7 @@
 <paragraphs xml:id="para-extensive-properties" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Extensive Properties</title>
 
-  <definition>
+  <definition xml:id="def-extensive-property">
     <idx>extensive property</idx>
     <statement>
       <p>

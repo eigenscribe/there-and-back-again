@@ -3,7 +3,7 @@
 <paragraphs xml:id="para-intensive-properties" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Intensive Properties</title>
 
-  <definition>
+  <definition xml:id="def-intensive-property">
     <idx>intensive property</idx>
     <statement>
       <p>

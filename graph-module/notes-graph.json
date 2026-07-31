@@ -336,6 +336,28 @@
       "color": "#9013fe"
     },
     {
+      "id": "def-intensive-property",
+      "title": "def-intensive-property",
+      "url": "para-intensive-properties.html#def-intensive-property",
+      "tags": [
+        "intensive property"
+      ],
+      "description": "An intensive property is a property whose value does not scale with the size of the system.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-extensive-property",
+      "title": "def-extensive-property",
+      "url": "para-extensive-properties.html#def-extensive-property",
+      "tags": [
+        "extensive property"
+      ],
+      "description": "An extensive property is a property whose value is proportional to the size or\n        amount of substance comprising...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "subsec-extensive-vs-intensive-properties",
       "title": "Extensive vs. Intensive Properties",
       "url": "subsec-extensive-vs-intensive-properties.html",

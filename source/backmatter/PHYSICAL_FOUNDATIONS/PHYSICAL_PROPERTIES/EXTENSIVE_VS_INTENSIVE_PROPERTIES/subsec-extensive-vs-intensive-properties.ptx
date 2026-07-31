@@ -5,20 +5,7 @@
 
   <xi:include href="para-extensive.ptx"/>
   <xi:include href="para-intensive.ptx"/>
+  <xi:include href="para-extensive-and-intensive.ptx"/>
 
-  <paragraphs>
-    <title>Relation between extensive and intensive properties</title>
-
-    <remark>
-      <statement>
-        <p>
-          Often times, <em>intensive properties</em> are constructed from ratios or derivatives of
-          <em>extensive properties</em>.
-        </p>
-      </statement>
-    </remark>
-
-
-  </paragraphs>
 
 </subsection>
