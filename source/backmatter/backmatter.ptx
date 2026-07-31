@@ -6,8 +6,9 @@
   <xi:include href="appendix-mathematical-foundations.ptx"/>
   <xi:include href="appendix-geometric-algebra.ptx"/>
   <xi:include href="appendix-computational-methods.ptx"/>
-  <xi:include href="appendix-physical-foundations.ptx"/>
   <xi:include href="appendix-empirical-foundations.ptx"/>
+  <xi:include href="appendix-physical-foundations.ptx"/>
+
 
   <xi:include href="glossary.ptx"/>
 

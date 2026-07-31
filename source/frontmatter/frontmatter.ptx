@@ -85,25 +85,8 @@
   <preface xml:id="acknowledgements">
     <title>Acknowledgements</title>
 
-    <p>
-        This work is dedicated to my <em>Dad</em>.
-    </p>
+    <xi:include href="./ACKNOWLEDGEMENTS/dad.ptx"/>
 
-    <p>
-        Thank you for always believing in me and supporting my academic pursuits. I would not be who I am today without
-        your enthusiasm, advice, generosity, and willingness to nurture my curiosity. You are the one who introduced
-        me to the beauty of mathematics and physics, and your faith in me gives me the confidence to have faith in what
-        I've built and continue my academic journey wholeheartedly.
-    </p>
-
-    <p>
-        This project would not exist without your support. Thank you for helping me build it, and for your patience as I
-        learned to code and create websites such as this one.
-    </p>
-
-    <p>
-        I love you so much, and I look forward to seeing you in the next chapter.
-    </p>
   </preface>
   
 </frontmatter>

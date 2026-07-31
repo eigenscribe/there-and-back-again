@@ -7,7 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="mentioned path independence in the remark about state variables">
+      <change afterPath="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS/dad.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,11 +146,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS" />
       <recent name="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES" />
       <recent name="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS" />
       <recent name="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES" />
       <recent name="$PROJECT_DIR$/source/scribing/eigenotes" />
-      <recent name="$PROJECT_DIR$/source/scribing/\" />
     </key>
   </component>
   <component name="RunManager">
@@ -175,22 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00101" summary="linear-regression subsubsection added, section still incomplete, but not as incomplete as before. still need to finish the normal equation page (see Linear Algebra 2 cheat sheet in notability app).">
-      <option name="closed" value="true" />
-      <created>1781951490590</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1781951490590</updated>
-    </task>
-    <task id="LOCAL-00102" summary="updated soluiton element heading to be pink (matching the vertifcal bar -- somehow it got changed)">
-      <option name="closed" value="true" />
-      <created>1781957623897</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1781957623897</updated>
     </task>
     <task id="LOCAL-00103" summary="mat text adjusted to match callout. fixed the assemblage block styling finally">
       <option name="closed" value="true" />
@@ -568,7 +558,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785474470384</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition">
+      <option name="closed" value="true" />
+      <created>1785476165740</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1785476165740</updated>
+    </task>
+    <task id="LOCAL-00151" summary="mentioned path independence in the remark about state variables">
+      <option name="closed" value="true" />
+      <created>1785476255071</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1785476255071</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed probability p style in entropy taximony page" />
     <MESSAGE value="removed assemblage styling from eigenscribe methodology" />
     <MESSAGE value="updated first principles glossary definition" />
     <MESSAGE value="updated the glossary definition of support" />
@@ -611,6 +616,7 @@
     <MESSAGE value="added references to Lagrange's setting the stage page and then added macrostate and microstates definitions in the physical foundations appendix" />
     <MESSAGE value="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate" />
     <MESSAGE value="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition" />
+    <MESSAGE value="mentioned path independence in the remark about state variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="mentioned path independence in the remark about state variables" />
   </component>
 </project>

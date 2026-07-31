@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="subsec-physical-systems" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="subsec-physical-systems" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Physical Systems</title>
 
   <xi:include href="subsec-system.ptx"/>
   <!-- <xi:include href="subsec-surroundings.ptx"/> -->
   <xi:include href="subsec-macrostates-and-microstates.ptx"/>
 
-</subsection>
+</section>
