@@ -7,12 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="mentioned path independence in the remark about state variables">
-      <change afterPath="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS/dad.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter">
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS/dad.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS/dad.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,22 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00103" summary="mat text adjusted to match callout. fixed the assemblage block styling finally">
-      <option name="closed" value="true" />
-      <created>1781959510365</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1781959510365</updated>
-    </task>
-    <task id="LOCAL-00104" summary="made some build-related changes on windows computer (environment had been corrupted or something)... nothing changed as far as content and/or styling">
-      <option name="closed" value="true" />
-      <created>1781974974240</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1781974974240</updated>
     </task>
     <task id="LOCAL-00105" summary="polished language structures section. that intro is good to go for the time being :)">
       <option name="closed" value="true" />
@@ -574,7 +554,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785476255071</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter">
+      <option name="closed" value="true" />
+      <created>1785510625370</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1785510625370</updated>
+    </task>
+    <task id="LOCAL-00153" summary="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter">
+      <option name="closed" value="true" />
+      <created>1785510711683</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1785510711684</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed assemblage styling from eigenscribe methodology" />
     <MESSAGE value="updated first principles glossary definition" />
     <MESSAGE value="updated the glossary definition of support" />
     <MESSAGE value="updated typo in name of euler_lagrange.ptx file" />
@@ -617,6 +612,7 @@
     <MESSAGE value="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate" />
     <MESSAGE value="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition" />
     <MESSAGE value="mentioned path independence in the remark about state variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="mentioned path independence in the remark about state variables" />
+    <MESSAGE value="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter" />
   </component>
 </project>
