@@ -7,7 +7,7 @@
     <!-- insert intro here -->
   </introduction>
 
-      <xi:include href="EXTENSIVE_VS_INTENSIVE_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx"/>
-
+    <xi:include href="subsec-state-variables.ptx"/>
+    <xi:include href="subsec-extensive-vs-intensive-properties.ptx"/>
 
  </section>

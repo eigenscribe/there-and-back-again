@@ -7,14 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed some types that were causing build errors">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive-and-intensive.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/PHYSICAL_PROPERTIES_PRIMER/para-physical-system.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/PHYSICAL_PROPERTIES_PRIMER/subsec-physical-properties-primer.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added physical properties primer  files and made a specific file for the extensive and intensive paragraph">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/subsec-state-variables.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/para-physical-system.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-intensive.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-intensive.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/subsec-extensive-vs-intensive-properties.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/PHYSICAL_PROPERTIES_PRIMER/para-physical-system.ptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/PHYSICAL_PROPERTIES_PRIMER/subsec-physical-properties-primer.ptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/sec-physical-properties.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/sec-physical-properties.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-physical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-physical-foundations.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,11 +150,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES" />
+      <recent name="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS" />
       <recent name="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/EXTENSIVE_VS_INTENSIVE_PROPERTIES" />
       <recent name="$PROJECT_DIR$/source/scribing/eigenotes" />
       <recent name="$PROJECT_DIR$/source/scribing/\" />
-      <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER" />
-      <recent name="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA" />
     </key>
   </component>
   <component name="RunManager">
@@ -182,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00096" summary="wedge product diagram. still incomplete, but progress was made">
-      <option name="closed" value="true" />
-      <created>1781877147062</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1781877147062</updated>
     </task>
     <task id="LOCAL-00097" summary="minor latex equation tinkering for enhanced readability (problem isn't resolved, but can be improved later)">
       <option name="closed" value="true" />
@@ -575,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785460338580</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="added physical properties primer  files and made a specific file for the extensive and intensive paragraph">
+      <option name="closed" value="true" />
+      <created>1785464605817</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1785464605817</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated math proofmark details and added a part 1 solution to exercise 1 in practice set 1 for vector potential stuff" />
     <MESSAGE value="messed with main page margines, but idk if it did much good" />
     <MESSAGE value="added a spectral analysis section with a norm table to computational methods appendix" />
     <MESSAGE value="added a spectral analysis jargon table comparing interpretations of terms that are used to describe some physical dimension vs their use in spectral analysis" />
@@ -618,6 +620,7 @@
     <MESSAGE value="added extensive property definition and physical foundations appendix" />
     <MESSAGE value="fixed some typos" />
     <MESSAGE value="fixed some types that were causing build errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some types that were causing build errors" />
+    <MESSAGE value="added physical properties primer  files and made a specific file for the extensive and intensive paragraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="added physical properties primer  files and made a specific file for the extensive and intensive paragraph" />
   </component>
 </project>

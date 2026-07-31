@@ -33,7 +33,7 @@
       "title": "Physical Foundations",
       "url": "app-physical-foundations.html",
       "tags": [],
-      "description": "Non-geometric algebra mathematics.",
+      "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -327,6 +327,24 @@
       "color": "#9013fe"
     },
     {
+      "id": "subsec-state-variables",
+      "title": "State Variables",
+      "url": "subsec-state-variables.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-extensive-vs-intensive-properties",
+      "title": "Extensive vs. Intensive Properties",
+      "url": "subsec-extensive-vs-intensive-properties.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-physical-properties",
       "title": "Physical Properties",
       "url": "sec-physical-properties.html",
@@ -358,11 +376,22 @@
       "color": "#9013fe"
     },
     {
-      "id": "subsec-extensive-vs-intensive-properties",
-      "title": "Extensive vs. Intensive Properties",
-      "url": "subsec-extensive-vs-intensive-properties.html",
+      "id": "subsec-physical-properties-primer",
+      "title": "Physical Properties Primer",
+      "url": "subsec-physical-properties-primer.html",
       "tags": [],
       "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-physical-system",
+      "title": "def-physical-system",
+      "url": "para-physical-system.html#def-physical-system",
+      "tags": [
+        "physical system"
+      ],
+      "description": "A physical system is a physical entity that adopts observable macrostates.",
       "group": "backmatter",
       "color": "#9013fe"
     },

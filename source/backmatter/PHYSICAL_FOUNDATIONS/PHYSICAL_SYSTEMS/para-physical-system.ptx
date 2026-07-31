@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-physical-system" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Physical Systems</title>
+  <idx>physical system</idx>
+
+  <definition xml:id="def-physical-system">
+    <idx>physical system</idx>
+    <statement>
+      <p>
+        A <term>physical system</term> is a physical entity that adopts observable macrostates.
+      </p>
+    </statement>
+  </definition>
+
+
+</paragraphs>

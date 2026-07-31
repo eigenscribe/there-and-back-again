@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-extensive-vs-intensive-properties" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Extensive vs. Intensive Properties</title>
+
+  <xi:include href="EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive.ptx"/>
+  <xi:include href="EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-intensive.ptx"/>
+  <xi:include href="EXTENSIVE_VS_INTENSIVE_PROPERTIES/para-extensive-and-intensive.ptx"/>
+
+</subsection>
