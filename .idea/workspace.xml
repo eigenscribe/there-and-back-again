@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added references to Lagrange's setting the stage page and then added macrostate and microstates definitions in the physical foundations appendix">
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/subsec-state-variables.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES/subsec-state-variables.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate">
       <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/macrostate.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/macrostate.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,14 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00099" summary="admnonition styling with notelike and definitionlike elements. also fixed vertical bar scaling relative to corners">
-      <option name="closed" value="true" />
-      <created>1781948875869</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1781948875869</updated>
     </task>
     <task id="LOCAL-00100" summary="linear-regression subsection split into scalar arithmetic vs general derivation subsubsections. still need to create general derivation -&gt; want to connect to normal equation that was just created">
       <option name="closed" value="true" />
@@ -572,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785472902283</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate">
+      <option name="closed" value="true" />
+      <created>1785474225931</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1785474225931</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a spectral analysis jargon table comparing interpretations of terms that are used to describe some physical dimension vs their use in spectral analysis" />
     <MESSAGE value="relocated the spectral analysis section content inside the signal analysis content as a spectral analysis subsection" />
     <MESSAGE value="changed probability p style in entropy taximony page" />
     <MESSAGE value="removed assemblage styling from eigenscribe methodology" />
@@ -615,6 +612,7 @@
     <MESSAGE value="added physical properties primer  files and made a specific file for the extensive and intensive paragraph" />
     <MESSAGE value="reordered the files in the physical foundations appendix and added state variable paragraph in the physical properties section that needs to be completed" />
     <MESSAGE value="added references to Lagrange's setting the stage page and then added macrostate and microstates definitions in the physical foundations appendix" />
-    <option name="LAST_COMMIT_MESSAGE" value="added references to Lagrange's setting the stage page and then added macrostate and microstates definitions in the physical foundations appendix" />
+    <MESSAGE value="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate" />
   </component>
 </project>
