@@ -22,8 +22,8 @@
   <remark>
     <statement>
       <p>
-        State variables can be used to define changes in the <xref ref="def-macrostate" text="custom">macrostate</xref>
-        of a system between two points in time.
+        State variables can be used to define <em>path-independent</em> changes in the
+        <xref ref="def-macrostate" text="custom">macrostate</xref> of a system between two points in time.
       </p>
     </statement>
   </remark>
