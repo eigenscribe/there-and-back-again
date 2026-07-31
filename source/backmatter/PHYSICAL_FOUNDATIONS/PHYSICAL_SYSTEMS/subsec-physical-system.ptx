@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-physical-system" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Physical Systems</title>
+  <idx>physical system</idx>
+
+  <definition xml:id="def-system">
+    <idx>physical system</idx>
+    <statement>
+      <p>
+        A <term>physical system</term> is a collection of interacting components whose behavior can be described by a
+        set of <em>measurable</em> <xref ref="def-macrostate" text="custom">macroscopic variables</xref>.
+      </p>
+    </statement>
+    <context xml:id="context-thermodynamic-system">
+      <title>Thermodynamic systems</title>
+      <idx>system</idx>
+
+      <p>
+        In thermodynamics, a <term>system</term> is a collection of matter and/or energy that conceptually isolated for
+        the purpose of observation, measurement, or analysis.
+      </p>
+    </context>
+  </definition>
+
+  <claim>
+    <p>
+      Among all accessible <xref ref="def-macrostate" text="custom">macrostates</xref>, physical systems overwhelmingly
+      tend to be observed in those corresponding to the largest number of compatible
+      <xref ref="def-microstate" text="custom">microstates</xref>.
+    </p>
+  </claim>
+
+
+
+
+
+
+
+</subsection>

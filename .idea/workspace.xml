@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter">
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS/dad.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS/dad.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added the Winston Churchill quote to Dad acknowledgment 🩵">
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/macrostate.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/macrostate.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/sec-physical-systems.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/subsec-system.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/subsec-physical-system.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000019662221" />
-      <entry key="MS500" value="1.0317352136621512" />
-      <entry key="S2" value="1.9787531722150915" />
-      <entry key="S5" value="3.5478582575081736" />
-      <entry key="S10" value="5.0001251653379875" />
-      <entry key="S30" value="7.728812614136544" />
-      <entry key="S60" value="9.09164957611838" />
-      <entry key="M2" value="9.963881163852921" />
-      <entry key="M5" value="11.004471870027514" />
-      <entry key="M10" value="23.084591264412733" />
-      <entry key="M15" value="53.52918716466561" />
-      <entry key="M30" value="188.51553807918836" />
-      <entry key="H1" value="462.9308627667358" />
-      <entry key="H2" value="920.8455704898363" />
-      <entry key="H4" value="1584.7163610649256" />
-      <entry key="D1" value="5672.875575348599" />
-      <entry key="W1" value="23698.688933448077" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000002713374" />
+      <entry key="S5" value="1.000405254960284" />
+      <entry key="S10" value="1.057889592277585" />
+      <entry key="S30" value="3.8301431222453277" />
+      <entry key="S60" value="11.467050373352295" />
+      <entry key="M2" value="27.325232538049274" />
+      <entry key="M5" value="65.07500705303316" />
+      <entry key="M10" value="102.70270129361029" />
+      <entry key="M15" value="135.79582365839485" />
+      <entry key="M30" value="258.7013717816596" />
+      <entry key="H1" value="523.7961752399709" />
+      <entry key="H2" value="984.5586832597035" />
+      <entry key="H4" value="1661.771478959621" />
+      <entry key="D1" value="5781.924603111447" />
+      <entry key="W1" value="23826.432003736987" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="5.322312516627034E-308" />
-      <entry key="S10" value="2.307013766024581E-154" />
-      <entry key="S30" value="6.13314730068311E-52" />
-      <entry key="S60" value="2.4765191904532118E-26" />
-      <entry key="M2" value="1.5736960286069175E-13" />
-      <entry key="M5" value="7.564292944315055E-6" />
-      <entry key="M10" value="0.0027503259705572835" />
-      <entry key="M15" value="0.019630112273373544" />
-      <entry key="M30" value="0.14013175011256288" />
-      <entry key="H1" value="0.38397891214419333" />
-      <entry key="H2" value="0.8075128970721058" />
-      <entry key="H4" value="1.6662367047758007" />
-      <entry key="D1" value="7.359486364415788" />
-      <entry key="W1" value="53.29719792526063" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="1.6853748002661332E-184" />
+      <entry key="S30" value="5.523726480036277E-62" />
+      <entry key="S60" value="2.350260938712155E-31" />
+      <entry key="M2" value="4.847948987677287E-16" />
+      <entry key="M5" value="7.485541398191867E-7" />
+      <entry key="M10" value="8.651902333128011E-4" />
+      <entry key="M15" value="0.009079760835829386" />
+      <entry key="M30" value="0.09530426992403229" />
+      <entry key="H1" value="0.31666151139884197" />
+      <entry key="H2" value="0.7333198155604176" />
+      <entry key="H4" value="1.5878470763381896" />
+      <entry key="D1" value="7.300615919133263" />
+      <entry key="W1" value="53.23608263652003" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794203168445056" />
-      <entry key="MS500" value="1.0274608827275566" />
-      <entry key="S2" value="1.9769608732804065" />
-      <entry key="S5" value="3.5465876092462403" />
-      <entry key="S10" value="4.998839312969106" />
-      <entry key="S30" value="7.727600371924261" />
-      <entry key="S60" value="9.090805082243252" />
-      <entry key="M2" value="9.963378697040001" />
-      <entry key="M5" value="11.004251894027291" />
-      <entry key="M10" value="23.087137541911552" />
-      <entry key="M15" value="53.54846927897967" />
-      <entry key="M30" value="188.65485596610517" />
-      <entry key="H1" value="463.31362560517135" />
-      <entry key="H2" value="921.651164801735" />
-      <entry key="H4" value="1586.3799420818818" />
-      <entry key="D1" value="5680.233340474182" />
-      <entry key="W1" value="23751.985180810112" />
+      <entry key="MS100" value="0.9526379980439373" />
+      <entry key="MS500" value="0.9903428719330246" />
+      <entry key="S2" value="0.9975769255354232" />
+      <entry key="S5" value="0.9994350754141711" />
+      <entry key="S10" value="1.0573830960219437" />
+      <entry key="S30" value="3.8295868740265973" />
+      <entry key="S60" value="11.466263415257547" />
+      <entry key="M2" value="27.324349842086747" />
+      <entry key="M5" value="65.0742143720525" />
+      <entry key="M10" value="102.70294502096934" />
+      <entry key="M15" value="135.80431495220665" />
+      <entry key="M30" value="258.79587409759597" />
+      <entry key="H1" value="524.111699415592" />
+      <entry key="H2" value="985.2901907493608" />
+      <entry key="H4" value="1663.356759550606" />
+      <entry key="D1" value="5789.22350550039" />
+      <entry key="W1" value="23879.667136031974" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -177,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00105" summary="polished language structures section. that intro is good to go for the time being :)">
-      <option name="closed" value="true" />
-      <created>1781977919835</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1781977919836</updated>
     </task>
     <task id="LOCAL-00106" summary="polished language structures section. that intro is good to go for the time being :)&#10;&#10;started comprising vs. consisting of table">
       <option name="closed" value="true" />
@@ -570,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785510711684</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="added the Winston Churchill quote to Dad acknowledgment 🩵">
+      <option name="closed" value="true" />
+      <created>1785511179388</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1785511179388</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated first principles glossary definition" />
     <MESSAGE value="updated the glossary definition of support" />
     <MESSAGE value="updated typo in name of euler_lagrange.ptx file" />
     <MESSAGE value="added functional definition and a calculus of variations primer subsection" />
@@ -613,6 +614,7 @@
     <MESSAGE value="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition" />
     <MESSAGE value="mentioned path independence in the remark about state variables" />
     <MESSAGE value="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter" />
+    <MESSAGE value="added the Winston Churchill quote to Dad acknowledgment " />
+    <option name="LAST_COMMIT_MESSAGE" value="added the Winston Churchill quote to Dad acknowledgment " />
   </component>
 </project>
