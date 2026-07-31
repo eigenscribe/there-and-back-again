@@ -23,7 +23,8 @@
         </p>
         <note>
             <p>
-                The above framework used to define the normal equation implies that <em>if</em> a valid solution <m>\vec{x}</m> exists, it will be a <m>k\times 1</m>
+                The above framework used to define the normal equation implies that <em>if</em> a valid solution
+                <m>\vec{x}</m> exists, it will be a <m>k\times 1</m>
                 column vector.
             </p>
         </note>
