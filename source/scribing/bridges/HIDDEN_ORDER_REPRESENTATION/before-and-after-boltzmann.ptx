@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<assemblage xml:id="boltzmann-transitions">
+<assemblage xml:id="boltzmann-transitions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Before and After Boltzmann: From Mysterious Variable to Profound Understanding </title>
     <p>
       Before Boltzmann and his <xref ref="def-boltzmann-entropy" text="custom">formulation</xref>, <em>entropy</em> was

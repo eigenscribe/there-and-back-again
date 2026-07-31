@@ -7,11 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="polished marcrostate and microstate paragraphs">
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-degrees-of-freedom.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/para-microstates.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_SYSTEMS/MACROSTATES_AND_MICROSTATES/para-microstates.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated pretext">
+      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-data-geometry-map.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/before-and-after-boltzmann.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/before-and-after-boltzmann.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-degrees-of-freedom.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-degrees-of-freedom.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0004664487734583" />
-      <entry key="S2" value="1.1600375193621926" />
-      <entry key="S5" value="1.8694637348905179" />
-      <entry key="S10" value="3.0995398472556954" />
-      <entry key="S30" value="5.539741020811374" />
-      <entry key="S60" value="8.42024521194203" />
-      <entry key="M2" value="19.193664888361536" />
-      <entry key="M5" value="64.22882356296714" />
-      <entry key="M10" value="139.30903803891178" />
-      <entry key="M15" value="206.83668232277287" />
-      <entry key="M30" value="385.72434229328144" />
-      <entry key="H1" value="702.087179974515" />
-      <entry key="H2" value="1241.7167420563844" />
-      <entry key="H4" value="2045.899798703129" />
-      <entry key="D1" value="6449.543130668182" />
-      <entry key="W1" value="24644.135372783177" />
+      <entry key="MS100" value="1.0000000146356587" />
+      <entry key="MS500" value="1.0354650292756489" />
+      <entry key="S2" value="1.7195807676818662" />
+      <entry key="S5" value="3.051267022622847" />
+      <entry key="S10" value="6.427381479273694" />
+      <entry key="S30" value="18.639949490356816" />
+      <entry key="S60" value="29.166307311141235" />
+      <entry key="M2" value="39.925878088365415" />
+      <entry key="M5" value="52.2163262116691" />
+      <entry key="M10" value="60.810581605439246" />
+      <entry key="M15" value="66.44079352525327" />
+      <entry key="M30" value="96.25842134793714" />
+      <entry key="H1" value="248.5541888209974" />
+      <entry key="H2" value="694.6493708849858" />
+      <entry key="H4" value="1531.799140332973" />
+      <entry key="D1" value="6221.438500538413" />
+      <entry key="W1" value="24604.52805760971" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="8.507623069819527E-212" />
-      <entry key="S30" value="4.398143684893916E-71" />
-      <entry key="S60" value="6.631850182938263E-36" />
-      <entry key="M2" value="2.5752378886110987E-18" />
-      <entry key="M5" value="9.211433580631943E-8" />
-      <entry key="M10" value="3.0374860105106906E-4" />
-      <entry key="M15" value="0.004555408023049094" />
-      <entry key="M30" value="0.07346352453791313" />
-      <entry key="H1" value="0.3403964570207759" />
-      <entry key="H2" value="0.8804046607137394" />
-      <entry key="H4" value="1.8433368187929262" />
-      <entry key="D1" value="7.843318644191336" />
-      <entry key="W1" value="53.798421425827264" />
+      <entry key="S10" value="1.1299407088328303E-201" />
+      <entry key="S30" value="1.0415622197254478E-67" />
+      <entry key="S60" value="3.227324309277647E-34" />
+      <entry key="M2" value="1.7964755242634525E-17" />
+      <entry key="M5" value="2.003403936026055E-7" />
+      <entry key="M10" value="4.4761366155748997E-4" />
+      <entry key="M15" value="0.005858694046535248" />
+      <entry key="M30" value="0.07944354814755362" />
+      <entry key="H1" value="0.3447809354218868" />
+      <entry key="H2" value="0.9199975775332538" />
+      <entry key="H4" value="1.958476127876559" />
+      <entry key="D1" value="8.283015060000412" />
+      <entry key="W1" value="54.278458982860755" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9894347857725376" />
-      <entry key="S2" value="1.157040563535892" />
-      <entry key="S5" value="1.8676669843694709" />
-      <entry key="S10" value="3.0979216001462384" />
-      <entry key="S30" value="5.538609817762345" />
-      <entry key="S60" value="8.41941523655073" />
-      <entry key="M2" value="19.192890343182075" />
-      <entry key="M5" value="64.22785156677105" />
-      <entry key="M10" value="139.3080521202434" />
-      <entry key="M15" value="206.83981073148283" />
-      <entry key="M30" value="385.79627177842883" />
-      <entry key="H1" value="702.4260223857818" />
-      <entry key="H2" value="1242.5953553212119" />
-      <entry key="H4" value="2047.740787195438" />
-      <entry key="D1" value="6457.384728492234" />
-      <entry key="W1" value="24697.932836590735" />
+      <entry key="MS100" value="0.9726549616463677" />
+      <entry key="MS500" value="1.0296815640223118" />
+      <entry key="S2" value="1.7161063146380673" />
+      <entry key="S5" value="3.0229957880996614" />
+      <entry key="S10" value="6.34900275418883" />
+      <entry key="S30" value="18.539081845691637" />
+      <entry key="S60" value="29.08958470149418" />
+      <entry key="M2" value="39.87655866577865" />
+      <entry key="M5" value="52.19260660717603" />
+      <entry key="M10" value="60.798119322106075" />
+      <entry key="M15" value="66.43769334566045" />
+      <entry key="M30" value="96.33292560195127" />
+      <entry key="H1" value="248.89587603933902" />
+      <entry key="H2" value="695.5669819447565" />
+      <entry key="H4" value="1533.7551778384554" />
+      <entry key="D1" value="6229.719747866055" />
+      <entry key="W1" value="24658.805545072348" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -180,38 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00110" summary="updated l2 normalization eigenote">
-      <option name="closed" value="true" />
-      <created>1782761123925</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1782761123925</updated>
-    </task>
-    <task id="LOCAL-00111" summary="starated a signals analysis section i ncomputational methods appendix">
-      <option name="closed" value="true" />
-      <created>1782783137118</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1782783137118</updated>
-    </task>
-    <task id="LOCAL-00112" summary="adding dirac delta function definition">
-      <option name="closed" value="true" />
-      <created>1782829984458</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1782829984458</updated>
-    </task>
-    <task id="LOCAL-00113" summary="connected the dirac delta page in the differential equations section of the mathematical foundations appendix with the dirac delta and lti systems page in the signal analysis section of the computational methods appendix">
-      <option name="closed" value="true" />
-      <created>1782834979885</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1782834979885</updated>
     </task>
     <task id="LOCAL-00114" summary="updated math proofmark details and added a part 1 solution to exercise 1 in practice set 1 for vector potential stuff">
       <option name="closed" value="true" />
@@ -573,7 +540,39 @@
       <option name="project" value="LOCAL" />
       <updated>1785514744256</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="polished marcrostate and microstate paragraphs and added a degrees of freedom page in the bridges chapter">
+      <option name="closed" value="true" />
+      <created>1785519138674</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1785519138675</updated>
+    </task>
+    <task id="LOCAL-00160" summary="updated pretext">
+      <option name="closed" value="true" />
+      <created>1785526235502</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1785526235502</updated>
+    </task>
+    <task id="LOCAL-00161" summary="updated pretext">
+      <option name="closed" value="true" />
+      <created>1785526765028</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1785526765029</updated>
+    </task>
+    <task id="LOCAL-00162" summary="updated pretext">
+      <option name="closed" value="true" />
+      <created>1785526982053</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1785526982054</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,8 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated bounds on calculus of variations definitions" />
-    <MESSAGE value="added the term 'function space' to the calculus of variations primer subsection in mathematical foundations appendix" />
     <MESSAGE value="edited function space definition" />
     <MESSAGE value="added an eigenote about the physics formulation of the Euler-Lagrange equation" />
     <MESSAGE value="added and introduction to sec-euler-lagrange-physics.ptx and removed unnecessary spacing in sec-hamiltonian-noether.ptx" />
@@ -616,6 +613,8 @@
     <MESSAGE value="added macroscopic property to the physical properties section in the physical foundations appendix" />
     <MESSAGE value="polished physical foundations defintions" />
     <MESSAGE value="polished marcrostate and microstate paragraphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="polished marcrostate and microstate paragraphs" />
+    <MESSAGE value="polished marcrostate and microstate paragraphs and added a degrees of freedom page in the bridges chapter" />
+    <MESSAGE value="updated pretext" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pretext" />
   </component>
 </project>

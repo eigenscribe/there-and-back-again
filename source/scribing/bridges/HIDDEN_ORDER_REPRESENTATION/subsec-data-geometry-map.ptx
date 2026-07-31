@@ -4,17 +4,18 @@
   <title>Degrees of Freedom</title>
   <introduction>
     <p>
-      <alert>Note Id:</alert> <tag>202607310001</tag> | <alert>Tags:</alert>
-      <tag>degrees of freedom</tag> <tag>physics</tag> <tag>statistics</tag> <tag>linear algebra</tag>
-      <tag>machine learning</tag>
+      <alert>Note Id:</alert> <tag>202607310002</tag> | <alert>Tags:</alert>
+      <tag>data analysis</tag> <tag>geometry</tag>
     </p>
   </introduction>
 
   <assemblage>
-    <p>
-      Across mathematics, physics, statistics, and machine learning, the notion of <em>degrees of freedom</em> captures
-      the same idea: the number of independent configurations available that give rise to a constrained system.
-    </p>
+    <blockquote>
+      <p>
+        The computational methods and mathematical tools used to evaluate a dataset should be determined based on the
+        geometry of the data.
+      </p>
+    </blockquote>
   </assemblage>
 
   <table xml:id="tab-degrees-of-freedom">
@@ -74,45 +75,6 @@
         </cell>
       </row>
 
-      <row>
-        <cell><p>Linear Algebra</p></cell>
-
-        <cell>
-          <p xml:id="def-degrees-of-freedom-linear-algebra">
-            Corresponds to the size of the <em>null space</em> (called the <term>nullity</term>) of a
-            <em>vector space</em>.
-          </p>
-        </cell>
-
-        <cell>
-          <p>
-            <ul>
-              <li>A column vector <m>\mathbf{x}\in\mathbb{R}^n</m> has <m>n</m> degrees of freedom.</li>
-              <li>The <em>rank</em> of a matrix <m>\mathbf{A}\in\mathbb{R}^{m\times n}</m> has at most <m>nm</m> degrees
-              of freedom.</li>
-            </ul>
-          </p>
-        </cell>
-      </row>
-
-      <row>
-        <cell><p>Machine Learning</p></cell>
-
-        <cell>
-          <p>
-            The number of independent ways the model can adapt to a dataset.
-          </p>
-        </cell>
-
-        <cell>
-          <p>
-            <ul>
-              <li>Trainable parameters.</li>
-              <li>Effective model complexity after regularization.</li>
-            </ul>
-          </p>
-        </cell>
-      </row>
 
     </tabular>
 
