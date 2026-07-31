@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-microstates" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Microstates</title>
+
+  <definition xml:id="def-microstate">
+    <idx>microstate</idx>
+    <statement>
+      <p>
+        A <term>microstate</term> is a complete microscopic description of a system that specifies the state of every
+        constituent degree of freedom.
+      </p>
+    </statement>
+  </definition>
+
+  <remark>
+    <statement>
+      <p>
+        Multiple different microstates may give rise to the same
+        <xref ref="def-macrostate" text="custom">macrostate</xref>.
+      </p>
+    </statement>
+  </remark>
+</paragraphs>

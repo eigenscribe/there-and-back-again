@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<definition xml:id="def-macrostate" xmlns:xi="http://www.w3.org/2001/XInclude">
+<paragraphs xml:id="para-macrostates" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Macrostates</title>
-  <idx>macrostate</idx>
 
+  <definition xml:id="def-macrostate">
+    <idx>macrostate</idx>
     <statement>
       <p>
         A <term>macrostate</term> is the complete specification of the measurable
         <xref ref="def-macroscopic-property" text="custom">macroscopic properties</xref> that characterize a
         <xref ref="def-physical-system" text="custom">physical system</xref> at a given instant.
       </p>
-    </statement>
-
-    <example>
       <p>
-        Examples include:
+        The collection of all <xref ref="def-state-variable" text="custom">state variables</xref> defines the
+        macrostate of a <xref ref="def-physical-system" text="custom">physical system</xref>.
       </p>
+    </statement>
+  </definition>
+
+  <example>
+    <title>Macrostate examples</title>
+
+    <p>
       <ul>
         <li>temperature</li>
         <li>pressure</li>
@@ -25,6 +31,7 @@
         <li>electric potential</li>
         <li>magnetization</li>
       </ul>
-    </example>
+    </p>
+  </example>
 
-</definition>
+</paragraphs>

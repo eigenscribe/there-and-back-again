@@ -7,7 +7,7 @@
     <!-- insert intro here -->
   </introduction>
 
-  <xi:include href="MACROSTATES_AND_MICROSTATES/macrostate.ptx"/>
-  <xi:include href="MACROSTATES_AND_MICROSTATES/microstate.ptx"/>
+  <xi:include href="MACROSTATES_AND_MICROSTATES/para-macrostates.ptx"/>
+  <xi:include href="MACROSTATES_AND_MICROSTATES/para-microstates.ptx"/>
 
 </subsection>
