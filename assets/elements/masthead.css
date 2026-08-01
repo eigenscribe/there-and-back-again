@@ -13,20 +13,43 @@
   justify-content: flex-start !important;
 }
 
-.ptx-masthead .title-container h1 {
-  font-family: var(--font-heading) !important;
-  font-size: 1.5rem !important;
+.ptx-masthead .title-container .ptx-banner-heading {
+  font-family: var(--font-aclonica) !important;
+}
+
+.ptx-masthead .title-container .ptx-banner-heading .title {
+  font-family: var(--font-aclonica) !important;
+  font-size: 2.2rem !important;
   background: var(--gradient-cyan-to-blue);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.ptx-masthead .title-container h1 a {
+.ptx-masthead .title-container .ptx-banner-heading .subtitle {
+  font-family: var(--font-aclonica) !important;
+  font-size: 1.6rem !important;
   background: var(--gradient-cyan-to-blue);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.ptx-masthead .title-container h1,
+.ptx-masthead .title-container .heading {
+  font-family: var(--font-aclonica) !important;
+}
+
+.ptx-masthead .title-container h1 a,
+.ptx-masthead .title-container .heading a {
+  font-family: var(--font-aclonica) !important;
+  background: var(--gradient-cyan-to-blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none !important;
 }
 
 /* Ensure inline `code` in masthead titles renders with its own styling

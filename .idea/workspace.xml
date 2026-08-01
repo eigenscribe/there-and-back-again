@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added data geometry table for choosing mathematical tools for analyzing a particular data set">
-      <change afterPath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/boltzmann-ludwig.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/before-and-after-boltzmann.ptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/lagrange-joseph-louis.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/lagrange-joseph-louis.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/sec-pre-quantum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/sec-pre-quantum.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection.">
+      <change beforePath="$PROJECT_DIR$/assets/elements/masthead.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/masthead.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/theme-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/theme-variables.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,14 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00116" summary="added a spectral analysis section with a norm table to computational methods appendix">
-      <option name="closed" value="true" />
-      <created>1782909727718</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1782909727719</updated>
     </task>
     <task id="LOCAL-00117" summary="added a spectral analysis jargon table comparing interpretations of terms that are used to describe some physical dimension vs their use in spectral analysis">
       <option name="closed" value="true" />
@@ -577,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785529139326</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection.">
+      <option name="closed" value="true" />
+      <created>1785565853278</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1785565853279</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added and introduction to sec-euler-lagrange-physics.ptx and removed unnecessary spacing in sec-hamiltonian-noether.ptx" />
     <MESSAGE value="updated sec-euler-lagrange-physics.ptx and added para-path.ptx to the primer subsection of calculus of variations section in the mathematical foundations appendix" />
     <MESSAGE value="added admissible path definition in para-path.ptx" />
     <MESSAGE value="added para-variation.ptx to calculus of variations section in the mathematical foundations appendix" />
@@ -620,6 +615,7 @@
     <MESSAGE value="updated pretext" />
     <MESSAGE value="added xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; to some of the bridge notes" />
     <MESSAGE value="added data geometry table for choosing mathematical tools for analyzing a particular data set" />
-    <option name="LAST_COMMIT_MESSAGE" value="added data geometry table for choosing mathematical tools for analyzing a particular data set" />
+    <MESSAGE value="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection." />
+    <option name="LAST_COMMIT_MESSAGE" value="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection." />
   </component>
 </project>
