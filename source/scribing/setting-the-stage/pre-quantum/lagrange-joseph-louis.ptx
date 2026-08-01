@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="sub-lagrange-joseph-louis" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Joseph-Louis Lagrange</title>
-    <idx>The Lagrangian</idx>
-    <idx>the action</idx>
+  <title>Joseph-Louis Lagrange</title>
+  <idx>Joseph-Louis Lagrange</idx>
 
     <introduction>
-        <p>
-            <alert>Years:</alert> 1736-1813
-        </p>
-        <p>
-            <alert>Citizenship:</alert> Italian-French
-        </p>
+      <p>
+        <alert>Years:</alert> 1736-1813
+      </p>
+      <p>
+        <alert>Citizenship:</alert> Italian-French
+      </p>
+      <p>
+        <alert>Core Contributions:</alert>
+        <ul>
+          <li>
+            <xref ref="def-action-classical-mechanics" text="custom">Classical mechanics definition for
+            the action</xref>.
+          </li>
+        </ul>
+      </p>
     </introduction>
-
-    <paragraphs>
-      <title>Core Contributions</title>
-
-    </paragraphs>
     
 </subsection>

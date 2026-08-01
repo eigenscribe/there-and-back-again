@@ -12,7 +12,6 @@
   </introduction>
 
   <xi:include href="conceptual-pipeline.ptx"/>
-  <xi:include href="before-and-after-boltzmann.ptx"/>
   <xi:include href="subsec-degrees-of-freedom.ptx"/>
   <xi:include href="subsec-data-geometry-map.ptx"/>
 

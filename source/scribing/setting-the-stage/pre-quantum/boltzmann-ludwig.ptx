@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-boltzmann-ludwig" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Ludwig Boltzmann</title>
+  <idx>Ludwig Boltzmann</idx>
+
+  <introduction>
+    <p>
+      <alert>Years:</alert> 1844-1906
+    </p>
+
+    <p>
+      <alert>Citizenship:</alert> Austrian
+    </p>
+
+    <p>
+      <alert>Core Contributions:</alert>
+      <ul>
+        <li>
+          <p>
+            <xref ref="def-boltzmann-entropy" text="custom">Boltzmann entropy</xref>
+          </p>
+        </li>
+
+        <li><p>Second Law of Thermodynamics</p></li>
+      </ul>
+    </p>
+  </introduction>
+
+  <paragraphs xml:id="boltzmann-transitions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Before and After Boltzmann: From Mysterious Variable to Profound Understanding </title>
+    <p>
+      Before Boltzmann, <xref ref="sec-entropy-taximony" text="custom">entropy</xref> <m>S</m> was
+      an esoteric-like thermodynamic quantity. He was able to frame this headache of a physical quantity
+      as a <em>combinatorial statement</em> rooted in basic counting and leveraged the fact logarithms have the property
+      that
+
+      <md>
+      \log{\Omega_A \times \Omega_B} = \log\Omega_A + \log\Omega_B \, .
+      </md>
+
+    </p>
+
+  </paragraphs>
+
+</subsection>

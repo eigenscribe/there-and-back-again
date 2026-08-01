@@ -7,10 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; to some of the bridge notes">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added data geometry table for choosing mathematical tools for analyzing a particular data set">
+      <change afterPath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/boltzmann-ludwig.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/before-and-after-boltzmann.ptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-data-geometry-map.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-data-geometry-map.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-degrees-of-freedom.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-degrees-of-freedom.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/lagrange-joseph-louis.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/lagrange-joseph-louis.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/sec-pre-quantum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/sec-pre-quantum.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2426" />
+    <option name="cachedIndexableFilesCount" value="3001" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -42,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0028397900728911" />
-      <entry key="MS500" value="1.3096153184350765" />
-      <entry key="S2" value="1.9872966065129058" />
-      <entry key="S5" value="3.7015055180897156" />
-      <entry key="S10" value="6.5409270587368615" />
-      <entry key="S30" value="15.214234856123937" />
-      <entry key="S60" value="26.562172595213816" />
-      <entry key="M2" value="46.065180349185006" />
-      <entry key="M5" value="84.44300099780676" />
-      <entry key="M10" value="122.6059307254761" />
-      <entry key="M15" value="148.04777023580792" />
-      <entry key="M30" value="201.4859673538071" />
-      <entry key="H1" value="345.0180635491409" />
-      <entry key="H2" value="764.7892843573526" />
-      <entry key="H4" value="1591.2868994848186" />
-      <entry key="D1" value="6319.097973375747" />
-      <entry key="W1" value="24737.618298559846" />
+      <entry key="MS100" value="1.0000030347308522" />
+      <entry key="MS500" value="1.0802494978981108" />
+      <entry key="S2" value="2.2116343572264663" />
+      <entry key="S5" value="5.759789525781145" />
+      <entry key="S10" value="10.825250133201305" />
+      <entry key="S30" value="20.25912566074604" />
+      <entry key="S60" value="29.028218621069158" />
+      <entry key="M2" value="46.95106920037594" />
+      <entry key="M5" value="89.17529996457772" />
+      <entry key="M10" value="132.7143533495823" />
+      <entry key="M15" value="161.36405961106763" />
+      <entry key="M30" value="219.30907767020742" />
+      <entry key="H1" value="364.25895336208936" />
+      <entry key="H2" value="783.0742633219195" />
+      <entry key="H4" value="1609.1720072804676" />
+      <entry key="D1" value="6340.396815018919" />
+      <entry key="W1" value="24761.87053193939" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="1.2773232944807932E-250" />
-      <entry key="S30" value="5.036168792131632E-84" />
-      <entry key="S60" value="2.2441409920349446E-42" />
-      <entry key="M2" value="1.4980457242804532E-21" />
-      <entry key="M5" value="4.679613967704986E-9" />
-      <entry key="M10" value="6.841070815446148E-5" />
-      <entry key="M15" value="0.0016747422913211628" />
-      <entry key="M30" value="0.04247488551023479" />
-      <entry key="H1" value="0.2521041737505834" />
-      <entry key="H2" value="0.7866926269268093" />
-      <entry key="H4" value="1.8110376551963128" />
-      <entry key="D1" value="8.175669320350847" />
-      <entry key="W1" value="54.177405629656164" />
+      <entry key="S10" value="1.3403744591899273E-254" />
+      <entry key="S30" value="2.3754289658053564E-85" />
+      <entry key="S60" value="4.873837262163495E-43" />
+      <entry key="M2" value="6.981287318370082E-22" />
+      <entry key="M5" value="3.4480551665688883E-9" />
+      <entry key="M10" value="5.87227214806371E-5" />
+      <entry key="M15" value="0.001512641622525527" />
+      <entry key="M30" value="0.04036697878610386" />
+      <entry key="H1" value="0.2457689706417835" />
+      <entry key="H2" value="0.7767452162708509" />
+      <entry key="H4" value="1.7995513096431002" />
+      <entry key="D1" value="8.16700415001168" />
+      <entry key="W1" value="54.16919887772092" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9822016456252023" />
-      <entry key="MS500" value="1.3041800519309976" />
-      <entry key="S2" value="1.985181425794358" />
-      <entry key="S5" value="3.6997903309946354" />
-      <entry key="S10" value="6.539287371622633" />
-      <entry key="S30" value="15.212178382129697" />
-      <entry key="S60" value="26.559120825301445" />
-      <entry key="M2" value="46.05830001529461" />
-      <entry key="M5" value="84.43202710236645" />
-      <entry key="M10" value="122.59538672837769" />
-      <entry key="M15" value="148.0399964060058" />
-      <entry key="M30" value="201.52165289696248" />
-      <entry key="H1" value="345.2656212994696" />
-      <entry key="H2" value="765.5727365194435" />
-      <entry key="H4" value="1593.0950671279272" />
-      <entry key="D1" value="6327.271793217005" />
-      <entry key="W1" value="24791.794719473397" />
+      <entry key="MS100" value="0.9794232289437056" />
+      <entry key="MS500" value="1.075549335496764" />
+      <entry key="S2" value="2.2091564528889274" />
+      <entry key="S5" value="5.757573465239912" />
+      <entry key="S10" value="10.823186510026506" />
+      <entry key="S30" value="20.2577279091209" />
+      <entry key="S60" value="29.026766869153263" />
+      <entry key="M2" value="46.94742603497479" />
+      <entry key="M5" value="89.16702812038639" />
+      <entry key="M10" value="132.70520754713755" />
+      <entry key="M15" value="161.35697444120552" />
+      <entry key="M30" value="219.3429601248406" />
+      <entry key="H1" value="364.5002740418479" />
+      <entry key="H2" value="783.8478009753992" />
+      <entry key="H4" value="1610.9687027410603" />
+      <entry key="D1" value="6348.561970976258" />
+      <entry key="W1" value="24816.038746153914" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -129,8 +132,10 @@
     "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "advanced.settings",
@@ -168,7 +173,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+        <option value="bundled-python-sdk-6fa658e1df1a-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.369" />
       </set>
     </attachedChunks>
   </component>
@@ -179,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00115" summary="messed with main page margines, but idk if it did much good">
-      <option name="closed" value="true" />
-      <created>1782906663885</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1782906663885</updated>
     </task>
     <task id="LOCAL-00116" summary="added a spectral analysis section with a norm table to computational methods appendix">
       <option name="closed" value="true" />
@@ -572,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785527524993</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="added data geometry table for choosing mathematical tools for analyzing a particular data set">
+      <option name="closed" value="true" />
+      <created>1785529139326</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1785529139326</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added an eigenote about the physics formulation of the Euler-Lagrange equation" />
     <MESSAGE value="added and introduction to sec-euler-lagrange-physics.ptx and removed unnecessary spacing in sec-hamiltonian-noether.ptx" />
     <MESSAGE value="updated sec-euler-lagrange-physics.ptx and added para-path.ptx to the primer subsection of calculus of variations section in the mathematical foundations appendix" />
     <MESSAGE value="added admissible path definition in para-path.ptx" />
@@ -615,6 +619,7 @@
     <MESSAGE value="polished marcrostate and microstate paragraphs and added a degrees of freedom page in the bridges chapter" />
     <MESSAGE value="updated pretext" />
     <MESSAGE value="added xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; to some of the bridge notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; to some of the bridge notes" />
+    <MESSAGE value="added data geometry table for choosing mathematical tools for analyzing a particular data set" />
+    <option name="LAST_COMMIT_MESSAGE" value="added data geometry table for choosing mathematical tools for analyzing a particular data set" />
   </component>
 </project>
