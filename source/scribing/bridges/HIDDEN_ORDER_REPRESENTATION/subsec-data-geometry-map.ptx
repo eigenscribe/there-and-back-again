@@ -37,7 +37,7 @@
       </row>
 
       <row>
-        <cell><p>Measurements and signals</p></cell>
+        <cell><alert>Measurements and signals</alert></cell>
 
         <cell>
           <p>
@@ -59,7 +59,7 @@
       </row>
 
       <row>
-        <cell><p>Compositions</p></cell>
+        <cell><alert>Compositions</alert></cell>
 
         <cell>
           <p>
@@ -81,7 +81,7 @@
       </row>
 
       <row>
-        <cell><p>Probability distributions</p></cell>
+        <cell><alert>Probability distributions</alert></cell>
 
         <cell>
           <p>
@@ -103,7 +103,7 @@
       </row>
 
       <row>
-        <cell><p>Quantum states</p></cell>
+        <cell><alert>Quantum states</alert></cell>
 
         <cell>
           <p>
@@ -125,7 +125,7 @@
       </row>
 
       <row>
-        <cell><p>Networks</p></cell>
+        <cell><alert>Networks</alert></cell>
 
         <cell>
           <p>
@@ -147,7 +147,7 @@
       </row>
 
       <row>
-        <cell><p>Nonlinear systems</p></cell>
+        <cell><alert>Nonlinear systems</alert></cell>
 
         <cell>
           <p>

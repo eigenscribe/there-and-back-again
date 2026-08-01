@@ -1,90 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-hamiltonian-noether"
-         xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-hamiltonian-noether" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-    <title>Hamiltonian Noether's Theorem</title>
+  <title>Hamiltonian Noether's Theorem</title>
 
-    <idx>Hamiltonian mechanics</idx>
-    <idx>Noether's theorem</idx>
+  <idx>Hamiltonian mechanics</idx>
+  <idx>Noether's theorem</idx>
 
-    <introduction>
+  <introduction>
+    <p>
+      <tag>202605020001</tag> |
+      <tag>Hamiltonian mechanics</tag> <tag>Noether's theorem</tag>
+    </p>
+  </introduction>
+
+  <subsection xml:id="sub-conserved-in-time">
+    <title>Conserved in time</title>
+    <idx>conserved in time</idx>
+
+    <claim xml:id="claim-conserved-in-time">
+      <statement>
         <p>
-            <tag>202605020001</tag> |
-            <tag>Hamiltonian mechanics</tag>, <tag>Noether's theorem</tag>
+          A quantity <m>Q</m> is said to be <term>conserved in time</term> if
+
+          <md>
+            \{Q,H\}=0
+          </md>
         </p>
-    </introduction>
-
-    <subsection xml:id="sub-conserved-in-time">
-
-        <title>Conserved in time</title>
-
-        <idx>conserved in time</idx>
-
-        <claim xml:id="claim-conserved-in-time">
-            <statement>
-                <p>
-                    A quantity <m>Q</m> is said to be
-                    <term>conserved in time</term> if
-
-                    <md>
-                        \{Q,H\}=0
-                    </md>
-                </p>
-                <p>
-                    <alert>Two Interpretations:</alert>
-                    <ol>
-                        <li>
-                            <p>
-                                <m>Q</m> is a constant along the <em>flow</em> of <m>H</m>:
-                                <md>
-                                    \frac{dQ}{dt}=0
-                                </md>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>H</m> is <em>invariant</em>
-                                along the <em>flow</em> of <m>Q</m>
-                                (up to a minus sign). In other words, <m>Q</m> generates a symmetry of <m>H</m>.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-        </claim>
-
-        <assemblage>
-            <title>:logo: Take-Home Message</title>
-
-            <p>
+        <p>
+          <alert>Two Interpretations:</alert>
+          <ol>
+            <li>
+              <p>
+                <m>Q</m> is a constant along the <em>flow</em> of <m>H</m>:
                 <md>
-                    \frac{dQ}{dt}=0
-                    \Leftrightarrow
-                    Q \text{ <term>generates</term> a <term>symmetry</term> of } H
+                  \frac{dQ}{dt}=0
                 </md>
-            </p>
-        </assemblage>
-
-
-    </subsection>
-
-    <conclusion>
-
-        <p>
-            <tag>🖇️ Linked Notes:</tag>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>H</m> is <em>invariant</em> along the <em>flow</em> of <m>Q</m> (up to a minus sign).
+                In other words, <m>Q</m> generates a symmetry of <m>H</m>.
+              </p>
+            </li>
+          </ol>
         </p>
+      </statement>
+    </claim>
 
-        <p>
-            <tag>🔖 References:</tag>
+    <assemblage>
+      <title>:logo: Take-Home Message</title>
+      <p>
+        <md>
+          \frac{dQ}{dt}=0
+          \Leftrightarrow
+          Q \text{ <term>generates</term> a <term>symmetry</term> of } H
+        </md>
+      </p>
+    </assemblage>
 
-            <xref ref="physicswithelliot2022hamiltoniannoether"
-                  detail="biblio">
-                Physics with Elliot:
-                The Most Beautiful Result in Classical Physics
-            </xref>
-        </p>
 
-    </conclusion>
+  </subsection>
+
+  <conclusion>
+    <p>
+      <tag>🖇️ Linked Notes:</tag>
+    </p>
+
+    <p>
+      <tag>🔖 References:</tag>
+
+      <xref ref="physicswithelliot2022hamiltoniannoether" detail="biblio">
+        Physics with Elliot: The Most Beautiful Result in Classical Physics
+      </xref>
+    </p>
+
+  </conclusion>
 
 </section>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-global-vs-local-symmetry" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Global vs. Local (Gauge) Symmetry</title>
+
+  <idx>global symmetry</idx>
+  <idx>local (gauge) symmetry</idx>
+  <idx>noether's theorem</idx>
+
+  <introduction>
+     <p>
+        <tag>202608010001</tag> |
+        <tag>global symmetry</tag> <tag>local (gauge) symmetry</tag> <tag>Noether's theorem</tag>
+        <tag>variations</tag> <tag>generators</tag>
+    </p>
+  </introduction>
+
+  <table xml:id="tab-global-vs-local-symmetry">
+    <title>Global vs. Local (Gauge) Symmetry</title>
+
+    <tabular bottom="minor" top="minor" left="minor" right="minor">
+
+      <col width = "20%"/>
+      <col width = "40%"/>
+      <col width = "40%"/>
+
+      <row header="yes">
+        <cell>Concept</cell>
+        <cell>Global symmetry</cell>
+        <cell>Local (gauge) symmetry</cell>
+      </row>
+
+      <row>
+        <cell><alert>Symmetry range</alert></cell>
+        <cell><p>Same shift everywhere</p></cell>
+        <cell><p>Different shift at every point</p></cell>
+      </row>
+
+      <row>
+        <cell><alert>Generator action</alert></cell>
+        <cell><p>Translates states through space and time</p></cell>
+        <cell><p>Rotates internal phases locally</p></cell>
+      </row>
+
+      <row>
+        <cell><alert>Variational result</alert></cell>
+        <cell><p>Yields a <em>conserved quantity</em> (e.g., momentum and energy)</p></cell>
+        <cell><p>Yields a <em>physical force field</em> (e.g., electromagnetism and gluons)</p></cell>
+      </row>
+
+    </tabular>
+  </table>
+
+</section>
