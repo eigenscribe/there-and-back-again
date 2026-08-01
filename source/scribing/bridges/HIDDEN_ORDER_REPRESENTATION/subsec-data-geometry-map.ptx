@@ -33,7 +33,6 @@
         <cell>Data structure</cell>
         <cell>Natural geometry</cell>
         <cell>Representation</cell>
-        <cell>Representation</cell>
         <cell>Analysis tools</cell>
       </row>
 
@@ -104,7 +103,7 @@
       </row>
 
       <row>
-        <cell><p>Quantum states/signals</p></cell>
+        <cell><p>Quantum states</p></cell>
 
         <cell>
           <p>
@@ -126,7 +125,7 @@
       </row>
 
       <row>
-        <cell><p>Networks/signals</p></cell>
+        <cell><p>Networks</p></cell>
 
         <cell>
           <p>
@@ -148,7 +147,7 @@
       </row>
 
       <row>
-        <cell><p>Nonlinear systems/signals</p></cell>
+        <cell><p>Nonlinear systems</p></cell>
 
         <cell>
           <p>

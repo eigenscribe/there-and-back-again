@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection.">
-      <change beforePath="$PROJECT_DIR$/assets/elements/masthead.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/masthead.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/theme-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/theme-variables.css" afterDir="false" />
-    </list>
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed the font for the book title at the top left hand corner under the logo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,14 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00117" summary="added a spectral analysis jargon table comparing interpretations of terms that are used to describe some physical dimension vs their use in spectral analysis">
-      <option name="closed" value="true" />
-      <created>1782911588395</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1782911588395</updated>
     </task>
     <task id="LOCAL-00118" summary="relocated the spectral analysis section content inside the signal analysis content as a spectral analysis subsection">
       <option name="closed" value="true" />
@@ -573,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785565853279</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="fixed the font for the book title at the top left hand corner under the logo">
+      <option name="closed" value="true" />
+      <created>1785566451344</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1785566451344</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated sec-euler-lagrange-physics.ptx and added para-path.ptx to the primer subsection of calculus of variations section in the mathematical foundations appendix" />
     <MESSAGE value="added admissible path definition in para-path.ptx" />
     <MESSAGE value="added para-variation.ptx to calculus of variations section in the mathematical foundations appendix" />
     <MESSAGE value="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate" />
@@ -616,6 +612,7 @@
     <MESSAGE value="added xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; to some of the bridge notes" />
     <MESSAGE value="added data geometry table for choosing mathematical tools for analyzing a particular data set" />
     <MESSAGE value="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection." />
-    <option name="LAST_COMMIT_MESSAGE" value="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection." />
+    <MESSAGE value="fixed the font for the book title at the top left hand corner under the logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the font for the book title at the top left hand corner under the logo" />
   </component>
 </project>
