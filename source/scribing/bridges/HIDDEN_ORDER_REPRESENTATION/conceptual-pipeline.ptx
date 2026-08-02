@@ -18,7 +18,7 @@
       <mermaid>
         graph LR
           S[<term>structure</term>] -- "Constraint 🔳" --> O[order]
-          O -- "Information ℹ️" --> R[representation]
+          O -- "Formalization 🧩" --> R[representation]
           R -- "Inference 🧬" --> F[function]
       </mermaid>
     </image>
@@ -43,6 +43,13 @@
         <p>
           The underlying 'informational landscape' describing relations between
           <xref ref="def-physical-system" text="custom">physical systems</xref>.
+        </p>
+
+        <p>
+          <em>Informational landscape</em> refers to the totality of relationships, constraints, and
+          <xref ref="sec-physical-properties" text="custom">physical properties</xref> that characterize a
+          <xref ref="def-physical-system" text="custom">physical system</xref> independently of any particular
+          representation.
         </p>
       </li>
 
@@ -70,17 +77,17 @@
         <idx>representation</idx>
 
         <p>
-          A mathematical formulation of the order.
+          Manifestation of the order as a <xref ref="def-physical-system" text="custom">physical system</xref>.
         </p>
       </li>
 
       <li xml:id="def-function">
         <title><term>Function</term></title>
-        <idx>function (information pipeline)</idx>
+        <idx>function (concept bridge)</idx>
 
         <p>
-          <xref ref="def-physical-system" text="custom">Physical systems</xref> that are expressed from the
-          representation of the ordered information.
+          Resulting behavior of <xref ref="def-physical-system" text="custom">physical systems</xref> that are
+          expressed from the representation of the ordered information.
         </p>
       </li>
     </dl>
