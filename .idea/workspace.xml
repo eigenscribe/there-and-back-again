@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed some more typos">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added a physical landscape definition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" afterDir="false" />
     </list>
@@ -180,14 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00131" summary="edited function space definition">
-      <option name="closed" value="true" />
-      <created>1785362300872</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1785362300872</updated>
     </task>
     <task id="LOCAL-00132" summary="edited function space definition">
       <option name="closed" value="true" />
@@ -573,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785657159634</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="added a physical landscape definition">
+      <option name="closed" value="true" />
+      <created>1785659634729</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1785659634730</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added references to Lagrange's setting the stage page and then added macrostate and microstates definitions in the physical foundations appendix" />
     <MESSAGE value="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate" />
     <MESSAGE value="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition" />
     <MESSAGE value="mentioned path independence in the remark about state variables" />
@@ -616,6 +615,7 @@
     <MESSAGE value="updated @conceptual-pipeline.ptx and added boltzmann distribution to @boltzmann-ludwidg.ptx" />
     <MESSAGE value="fixed a typo" />
     <MESSAGE value="fixed some more typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some more typos" />
+    <MESSAGE value="added a physical landscape definition" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a physical landscape definition" />
   </component>
 </project>

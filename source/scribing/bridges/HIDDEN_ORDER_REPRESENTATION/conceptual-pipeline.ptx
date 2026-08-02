@@ -58,7 +58,7 @@
         <idx>constraint (concept bridge)</idx>
 
         <p>
-          The rules, laws, symmetries, or boundary conditions the define the set of feasible states that may emerge from
+          The rules, laws, symmetries, or boundary conditions that define the set of feasible states that may emerge from
           structure.
         </p>
       </li>
@@ -68,7 +68,19 @@
         <idx>order</idx>
 
         <p>
-          Patterns, regularities, and organization that emerge from constraints on the structure.
+          Patterns, regularities, and organization of <xref ref="sec-physical-properties" text="custom">physical
+          properties</xref> that emerge from constraints on their structure.
+        </p>
+      </li>
+
+      <li xml:id="def-formalization">
+        <title><term>Formalization</term></title>
+        <idx>formalization</idx>
+
+        <p>
+          The encoding of essential relationships between different
+          <xref ref="sec-physical-properties" text="custom">physical properties</xref> into a
+          mathematical language that preserves order.
         </p>
       </li>
 
@@ -77,7 +89,17 @@
         <idx>representation</idx>
 
         <p>
-          Manifestation of the order as a <xref ref="def-physical-system" text="custom">physical system</xref>.
+          A mathematical formulation that describes
+          <xref ref="def-physical-system" text="custom">physical systems</xref> and their properties.
+        </p>
+      </li>
+
+      <li xml:id="def-inference">
+        <title><term>Inference</term></title>
+        <idx>inference</idx>
+
+        <p>
+          The logical deduction of physical behavior from a mathematical representation.
         </p>
       </li>
 
