@@ -89,7 +89,7 @@
         <idx>representation</idx>
 
         <p>
-          A mathematical formulation that describes
+          A mathematical formulation that encodes
           <xref ref="def-physical-system" text="custom">physical systems</xref> and their properties.
         </p>
       </li>
