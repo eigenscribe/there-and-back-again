@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="polished conceptual-pipeline.ptx">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="rearranged some sections and subsections in the bridges chapter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-data-geometry-map.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/sec-data-geometry-map.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/subsec-degrees-of-freedom.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/sec-degrees-of-freedom.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/ch-eigenotes.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/ch-eigenotes.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,22 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00122" summary="updated the glossary definition of support">
-      <option name="closed" value="true" />
-      <created>1785276747349</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1785276747349</updated>
-    </task>
-    <task id="LOCAL-00123" summary="updated typo in name of euler_lagrange.ptx file">
-      <option name="closed" value="true" />
-      <created>1785280127697</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1785280127697</updated>
     </task>
     <task id="LOCAL-00124" summary="updated typo in name of euler_lagrange.ptx file">
       <option name="closed" value="true" />
@@ -577,7 +557,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785647493703</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="rearranged some sections and subsections in the bridges chapter">
+      <option name="closed" value="true" />
+      <created>1785648627329</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1785648627329</updated>
+    </task>
+    <task id="LOCAL-00172" summary="rearranged some sections and subsections in the bridges chapter">
+      <option name="closed" value="true" />
+      <created>1785648761012</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1785648761012</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="emphasized the word &quot;Dad&quot; in the acknowledgement section" />
     <MESSAGE value="added extensive property definition and physical foundations appendix" />
     <MESSAGE value="fixed some typos" />
     <MESSAGE value="fixed some types that were causing build errors" />
@@ -620,6 +615,7 @@
     <MESSAGE value="fixed some typos in the data geometry map table" />
     <MESSAGE value="added a table comparing global symmetry vs. local (gauge) symmetry" />
     <MESSAGE value="polished conceptual-pipeline.ptx" />
-    <option name="LAST_COMMIT_MESSAGE" value="polished conceptual-pipeline.ptx" />
+    <MESSAGE value="rearranged some sections and subsections in the bridges chapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="rearranged some sections and subsections in the bridges chapter" />
   </component>
 </project>

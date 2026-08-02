@@ -4,8 +4,8 @@
 ]>
 
 
-<subsection xml:id="information-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>:ember: Information Pipeline</title>
+<subsection xml:id="conceptual-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>:ember: Concept Pipeline</title>
 
   <introduction>
     <p>
@@ -13,18 +13,18 @@
     </p>
   </introduction>
 
-  <figure xml:id="fig-information-pipeline">
-    <image xml:id="mermaid-info-pipeline">
+  <figure xml:id="fig-concept-bridge">
+    <image xml:id="mermaid-concept-bridge">
       <mermaid>
         graph LR
-          S[structure] -- "Bridge 🌉" --> R[representation]
-          R -- "Crossing 👟" --> O[order]
-          O --> F[function]
+          S[structure] -- Constraint 🔳" --> O[order]
+          O -- "Information ℹ️"" --> R[representation]
+          R -- "Inference 🧬" --> F[function]
       </mermaid>
     </image>
     <caption>
       <p>
-        A mermaid diagram showing the :ember: <em>information pipeline</em> underlying measured data and the
+        A mermaid diagram showing the :ember: <term>concept bridge</term> underlying measured data and the
         rules the govern it.
       </p>
     </caption>
