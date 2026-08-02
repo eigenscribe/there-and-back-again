@@ -8,14 +8,12 @@
       <tag>degrees of freedom</tag> <tag>physics</tag> <tag>statistics</tag> <tag>linear algebra</tag>
       <tag>machine learning</tag>
     </p>
-  </introduction>
 
-  <assemblage>
     <p>
-      Across mathematics, physics, statistics, and machine learning, the notion of <em>degrees of freedom</em> captures
-      the same idea: the number of independent configurations available that give rise to a constrained system.
+      Across mathematics, physics, statistics, and machine learning, the notion of <term>degrees of freedom</term>
+      captures the same idea: the number of independent configurations available that give rise to a constrained system.
     </p>
-  </assemblage>
+  </introduction>
 
   <table xml:id="tab-degrees-of-freedom">
     <title>Degrees of Freedom Definitions Across Different Disciplines</title>

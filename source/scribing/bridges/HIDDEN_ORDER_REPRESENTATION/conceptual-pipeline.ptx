@@ -4,12 +4,17 @@
 ]>
 
 
-<assemblage xml:id="conceptual-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Information Pipeline</title>
+<subsection xml:id="information-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>:ember: Information Pipeline</title>
 
-  <sidebyside xml:id="fig-information-pipeline">
+  <introduction>
+    <p>
+      <alert>Note Id:</alert> <tag>2026070201</tag>
+    </p>
+  </introduction>
+
+  <figure xml:id="fig-information-pipeline">
     <image xml:id="mermaid-info-pipeline">
-      <description>A mermaid diagram showing the information pipeline from measured data to function.</description>
       <mermaid>
         graph LR
           S[structure] -- "Bridge 🌉" --> R[representation]
@@ -17,6 +22,59 @@
           O --> F[function]
       </mermaid>
     </image>
-  </sidebyside>
+    <caption>
+      <p>
+        A mermaid diagram showing the :ember: <em>information pipeline</em> underlying measured data and the
+        rules the govern it.
+      </p>
+    </caption>
+  </figure>
 
-</assemblage>
+  <assemblage>
+    <title>:ember: Interpretation</title>
+
+    <p>
+
+    <dl>
+      <li xml:id="def-structure">
+        <title><term>Structure</term></title>
+        <idx>structure</idx>
+
+        <p>
+          The underlying 'informational landscape' describing relations between
+          <xref ref="def-physical-system" text="custom">physical systems</xref>.
+        </p>
+      </li>
+
+      <li xml:id="def-representation">
+        <title><term>Representation</term></title>
+        <idx>representation</idx>
+
+        <p>
+          A mathematical representation of that structure.
+        </p>
+      </li>
+
+      <li xml:id="def-order">
+        <title><term>Order</term></title>
+        <idx>order</idx>
+
+        <p>
+          Patterns, regularities, and organization that emerges from the representation.
+        </p>
+      </li>
+
+      <li xml:id="def-function">
+        <title><term>Function</term></title>
+        <idx>function (information pipeline)</idx>
+
+        <p>
+          Predictions that come from the order.
+        </p>
+      </li>
+    </dl>
+
+    </p>
+  </assemblage>
+
+</subsection>
