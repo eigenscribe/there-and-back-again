@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="minor tag changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed a small typo in the mermaid diagram">
       <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/boltzmann-ludwig.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/boltzmann-ludwig.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +179,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
+    </task>
+    <task id="LOCAL-00127" summary="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x">
+      <option name="closed" value="true" />
+      <created>1785286898177</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1785286898177</updated>
     </task>
     <task id="LOCAL-00128" summary="updated bounds on calculus of variations definitions">
       <option name="closed" value="true" />
@@ -566,15 +572,7 @@
       <option name="project" value="LOCAL" />
       <updated>1785650549730</updated>
     </task>
-    <task id="LOCAL-00176" summary="minor tag changes">
-      <option name="closed" value="true" />
-      <created>1785650710812</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1785650710812</updated>
-    </task>
-    <option name="localTasksCounter" value="177" />
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,6 +590,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed some types that were causing build errors" />
     <MESSAGE value="added physical properties primer  files and made a specific file for the extensive and intensive paragraph" />
     <MESSAGE value="reordered the files in the physical foundations appendix and added state variable paragraph in the physical properties section that needs to be completed" />
     <MESSAGE value="added references to Lagrange's setting the stage page and then added macrostate and microstates definitions in the physical foundations appendix" />
@@ -616,7 +615,6 @@
     <MESSAGE value="rearranged some sections and subsections in the bridges chapter" />
     <MESSAGE value="updated the concept bridge diagram" />
     <MESSAGE value="fixed a small typo in the mermaid diagram" />
-    <MESSAGE value="minor tag changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor tag changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a small typo in the mermaid diagram" />
   </component>
 </project>

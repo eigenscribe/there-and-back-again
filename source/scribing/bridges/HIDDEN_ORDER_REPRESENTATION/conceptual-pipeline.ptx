@@ -19,7 +19,7 @@
         graph LR
           S[structure] -- "Constraint 🔳" --> O[order]
           O -- "Information ℹ️" --> R[representation]
-          R -- "Expression 🧬" --> F[function]
+          R -- "Inference 🧬" --> F[function]
       </mermaid>
     </image>
     <caption>
@@ -46,15 +46,6 @@
         </p>
       </li>
 
-      <li xml:id="def-constraint-concept-bridge">
-        <title><em>Constraint</em></title>
-        <idx>constraint (concept bridge)</idx>
-
-        <p>
-          The rules, laws, symmetries, or limitations the restrict the possible states a system may exist in.
-        </p>
-      </li>
-
       <li xml:id="def-order">
         <title><term>Order</term></title>
         <idx>order</idx>
@@ -69,7 +60,7 @@
         <idx>representation</idx>
 
         <p>
-          A mathematical formulation of the order.
+          A mathematical representation of the order.
         </p>
       </li>
 
@@ -78,8 +69,7 @@
         <idx>function (information pipeline)</idx>
 
         <p>
-          <xref ref="def-physical-systems" text="custom">Physical systems</term> that are expressed from the
-          representation of the ordered information.
+          Predictions that come from the order.
         </p>
       </li>
     </dl>
