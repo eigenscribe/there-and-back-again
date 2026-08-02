@@ -9,6 +9,7 @@
   </introduction>
 
   <xi:include href="HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx"/>
+  <xi:include href="sec-data-geometry-map.ptx"/>
   <xi:include href="PHYSICS_AND_GEOMETRIC_ALGEBRA/sec-physics-and-geometric-algebra.ptx"/>
   <xi:include href="FUTURE_CROSSINGS/sec-future-crossings.ptx"/>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="subsec-data-geometry-map" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="subsec-data-geometry-map" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Data Geometry Map</title>
   <introduction>
     <p>
@@ -15,7 +15,7 @@
   </introduction>
 
   <table xml:id="tab-data-geometry-map">
-    <title>Data Geometry Map</title>
+    <title>:ember: Data Geometry Map</title>
 
     <tabular bottom="minor" top="minor" left="major" right="minor">
 
@@ -167,4 +167,4 @@
     </tabular>
 
   </table>
- </subsection>
+ </section>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="subsec-degrees-of-freedom" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-degrees-of-freedom" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Degrees of Freedom</title>
   <introduction>
     <p>
@@ -115,4 +115,4 @@
     </tabular>
 
   </table>
- </subsection>
+ </section>
