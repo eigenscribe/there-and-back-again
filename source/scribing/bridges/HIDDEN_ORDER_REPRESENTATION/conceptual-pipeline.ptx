@@ -46,6 +46,16 @@
         </p>
       </li>
 
+      <li xml:id="def-constraint-concept-bridge">
+        <title><term><em>Constraint</em></title>
+        <idx>constraint (concept bridge)</idx>
+
+        <p>
+          The rules, laws, symmetries, or limitations the define the set of feasible states that may emerge from
+          structure.
+        </p>
+      </li>
+
       <li xml:id="def-order">
         <title><term>Order</term></title>
         <idx>order</idx>
@@ -60,7 +70,7 @@
         <idx>representation</idx>
 
         <p>
-          A mathematical representation of the order.
+          A mathematical formulation of the order.
         </p>
       </li>
 
@@ -69,7 +79,8 @@
         <idx>function (information pipeline)</idx>
 
         <p>
-          Predictions that come from the order.
+          <xref ref="def-physical-systems" text="custom">Physical systems</term> that are expressed from the
+          representation of the ordered information.
         </p>
       </li>
     </dl>
