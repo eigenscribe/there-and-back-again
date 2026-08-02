@@ -79,7 +79,7 @@
         <idx>function (information pipeline)</idx>
 
         <p>
-          <xref ref="def-physical-systems" text="custom">Physical systems</term> that are expressed from the
+          <xref ref="def-physical-system" text="custom">Physical systems</xref> that are expressed from the
           representation of the ordered information.
         </p>
       </li>
