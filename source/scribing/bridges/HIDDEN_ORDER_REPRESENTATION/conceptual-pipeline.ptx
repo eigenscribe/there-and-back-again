@@ -18,7 +18,7 @@
       <mermaid>
         graph LR
           S[structure] -- Constraint 🔳" --> O[order]
-          O -- "Information ℹ️"" --> R[representation]
+          O -- "Information ℹ️" --> R[representation]
           R -- "Inference 🧬" --> F[function]
       </mermaid>
     </image>
