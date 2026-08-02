@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed a small typo in the mermaid diagram" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed a small typo in the mermaid diagram">
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00126" summary="added functional definition and a calculus of variations primer subsection">
-      <option name="closed" value="true" />
-      <created>1785284214464</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1785284214464</updated>
     </task>
     <task id="LOCAL-00127" summary="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x">
       <option name="closed" value="true" />
@@ -570,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785650174065</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="fixed a small typo in the mermaid diagram">
+      <option name="closed" value="true" />
+      <created>1785650549730</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1785650549730</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

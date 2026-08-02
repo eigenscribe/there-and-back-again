@@ -24,7 +24,7 @@
     </image>
     <caption>
       <p>
-        A mermaid diagram showing the :ember: <term>concept bridge</term> underlying measured data and the
+        A mermaid diagram showing the <em>concept bridge</em> underlying measured data and the
         rules the govern it.
       </p>
     </caption>
@@ -46,21 +46,21 @@
         </p>
       </li>
 
-      <li xml:id="def-representation">
-        <title><term>Representation</term></title>
-        <idx>representation</idx>
-
-        <p>
-          A mathematical representation of that structure.
-        </p>
-      </li>
-
       <li xml:id="def-order">
         <title><term>Order</term></title>
         <idx>order</idx>
 
         <p>
-          Patterns, regularities, and organization that emerges from the representation.
+          Patterns, regularities, and organization that emerges from constraints on the structure.
+        </p>
+      </li>
+
+      <li xml:id="def-representation">
+        <title><term>Representation</term></title>
+        <idx>representation</idx>
+
+        <p>
+          A mathematical representation of the order.
         </p>
       </li>
 
