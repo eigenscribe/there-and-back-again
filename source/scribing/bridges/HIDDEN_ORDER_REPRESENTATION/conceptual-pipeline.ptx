@@ -51,7 +51,7 @@
         <idx>constraint (concept bridge)</idx>
 
         <p>
-          The rules, laws, symmetries, or limitations the define the set of feasible states that may emerge from
+          The rules, laws, symmetries, or boundary conditions the define the set of feasible states that may emerge from
           structure.
         </p>
       </li>
@@ -61,7 +61,7 @@
         <idx>order</idx>
 
         <p>
-          Patterns, regularities, and organization that emerges from constraints on the structure.
+          Patterns, regularities, and organization that emerge from constraints on the structure.
         </p>
       </li>
 

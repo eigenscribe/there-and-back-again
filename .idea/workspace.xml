@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed a small typo in the mermaid diagram">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" afterDir="false" />
-    </list>
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,30 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00127" summary="changed y' in the denominator of the partial differential in the second term of the euler-lagrange equation to y_x">
-      <option name="closed" value="true" />
-      <created>1785286898177</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1785286898177</updated>
-    </task>
-    <task id="LOCAL-00128" summary="updated bounds on calculus of variations definitions">
-      <option name="closed" value="true" />
-      <created>1785360717410</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1785360717411</updated>
-    </task>
-    <task id="LOCAL-00129" summary="updated bounds on calculus of variations definitions">
-      <option name="closed" value="true" />
-      <created>1785360722738</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1785360722738</updated>
     </task>
     <task id="LOCAL-00130" summary="added the term 'function space' to the calculus of variations primer subsection in mathematical foundations appendix">
       <option name="closed" value="true" />
@@ -573,7 +546,31 @@
       <option name="project" value="LOCAL" />
       <updated>1785650549730</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="updated @conceptual-pipeline.ptx and added boltzmann distribution to @boltzmann-ludwidg.ptx">
+      <option name="closed" value="true" />
+      <created>1785656768050</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1785656768050</updated>
+    </task>
+    <task id="LOCAL-00177" summary="updated @conceptual-pipeline.ptx and added boltzmann distribution to @boltzmann-ludwidg.ptx">
+      <option name="closed" value="true" />
+      <created>1785656827525</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1785656827525</updated>
+    </task>
+    <task id="LOCAL-00178" summary="fixed a typo">
+      <option name="closed" value="true" />
+      <created>1785656932720</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1785656932720</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,8 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed some types that were causing build errors" />
-    <MESSAGE value="added physical properties primer  files and made a specific file for the extensive and intensive paragraph" />
     <MESSAGE value="reordered the files in the physical foundations appendix and added state variable paragraph in the physical properties section that needs to be completed" />
     <MESSAGE value="added references to Lagrange's setting the stage page and then added macrostate and microstates definitions in the physical foundations appendix" />
     <MESSAGE value="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate" />
@@ -616,6 +611,8 @@
     <MESSAGE value="rearranged some sections and subsections in the bridges chapter" />
     <MESSAGE value="updated the concept bridge diagram" />
     <MESSAGE value="fixed a small typo in the mermaid diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed a small typo in the mermaid diagram" />
+    <MESSAGE value="updated @conceptual-pipeline.ptx and added boltzmann distribution to @boltzmann-ludwidg.ptx" />
+    <MESSAGE value="fixed a typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a typo" />
   </component>
 </project>
