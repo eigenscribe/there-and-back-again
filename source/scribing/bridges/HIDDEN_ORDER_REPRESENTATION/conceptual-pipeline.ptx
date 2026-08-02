@@ -17,7 +17,7 @@
     <image xml:id="mermaid-concept-bridge">
       <mermaid>
         graph LR
-          S[structure] -- "Constraint 🔳" --> O[order]
+          S[<term>structure</term>] -- "Constraint 🔳" --> O[order]
           O -- "Information ℹ️" --> R[representation]
           R -- "Inference 🧬" --> F[function]
       </mermaid>
@@ -47,7 +47,7 @@
       </li>
 
       <li xml:id="def-constraint-concept-bridge">
-        <title><term><em>Constraint</em></title>
+        <title><term>Constraint</term></title>
         <idx>constraint (concept bridge)</idx>
 
         <p>
