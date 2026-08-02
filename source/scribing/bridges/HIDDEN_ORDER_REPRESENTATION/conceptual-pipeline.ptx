@@ -19,12 +19,12 @@
         graph LR
           S[structure] -- "Constraint 🔳" --> O[order]
           O -- "Information ℹ️" --> R[representation]
-          R -- "Inference 🧬" --> F[function]
+          R -- "Expression 🧬" --> F[function]
       </mermaid>
     </image>
     <caption>
       <p>
-        A mermaid diagram showing the :ember: <term>concept bridge</term> underlying measured data and the
+        A mermaid diagram showing the <em>concept bridge</em> underlying measured data and the
         rules the govern it.
       </p>
     </caption>
@@ -46,12 +46,12 @@
         </p>
       </li>
 
-      <li xml:id="def-representation">
-        <title><term>Representation</term></title>
-        <idx>representation</idx>
+      <li xml:id="def-constraint-concept-bridge">
+        <title><term><em>Constraint</em></title>
+        <idx>constraint (concept bridge)</idx>
 
         <p>
-          A mathematical representation of that structure.
+          The rules, laws, symmetries, or limitations the restrict the possible states a system may exist in.
         </p>
       </li>
 
@@ -60,7 +60,16 @@
         <idx>order</idx>
 
         <p>
-          Patterns, regularities, and organization that emerges from the representation.
+          Patterns, regularities, and organization that emerges from constraints on the structure.
+        </p>
+      </li>
+
+      <li xml:id="def-representation">
+        <title><term>Representation</term></title>
+        <idx>representation</idx>
+
+        <p>
+          A mathematical formulation of the order.
         </p>
       </li>
 
@@ -69,7 +78,8 @@
         <idx>function (information pipeline)</idx>
 
         <p>
-          Predictions that come from the order.
+          <xref ref="def-physical-systems" text="custom">Physical systems</term> that are expressed from the
+          representation of the ordered information.
         </p>
       </li>
     </dl>
