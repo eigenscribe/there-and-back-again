@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated the concept bridge diagram" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed a small typo in the mermaid diagram" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,14 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00125" summary="updated typo in name of euler_lagrange.ptx file">
-      <option name="closed" value="true" />
-      <created>1785281340780</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1785281340780</updated>
     </task>
     <task id="LOCAL-00126" summary="added functional definition and a calculus of variations primer subsection">
       <option name="closed" value="true" />
@@ -570,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785649955348</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="fixed a small typo in the mermaid diagram">
+      <option name="closed" value="true" />
+      <created>1785650174065</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1785650174065</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed some typos" />
     <MESSAGE value="fixed some types that were causing build errors" />
     <MESSAGE value="added physical properties primer  files and made a specific file for the extensive and intensive paragraph" />
     <MESSAGE value="reordered the files in the physical foundations appendix and added state variable paragraph in the physical properties section that needs to be completed" />
@@ -613,6 +612,7 @@
     <MESSAGE value="polished conceptual-pipeline.ptx" />
     <MESSAGE value="rearranged some sections and subsections in the bridges chapter" />
     <MESSAGE value="updated the concept bridge diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the concept bridge diagram" />
+    <MESSAGE value="fixed a small typo in the mermaid diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a small typo in the mermaid diagram" />
   </component>
 </project>
