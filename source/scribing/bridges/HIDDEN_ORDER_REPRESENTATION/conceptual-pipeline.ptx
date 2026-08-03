@@ -41,12 +41,12 @@
         <idx>structure</idx>
 
         <p>
-          The underlying 'informational landscape' describing relations between
+          The underlying '<em>informational landscape</em>' describing relations between
           <xref ref="def-physical-system" text="custom">physical systems</xref>.
         </p>
 
         <p>
-          <em>Informational landscape</em> refers to the totality of relationships, constraints, and
+          <term>Informational landscape</term> refers to the totality of relationships, constraints, and
           <xref ref="sec-physical-properties" text="custom">physical properties</xref> that characterize a
           <xref ref="def-physical-system" text="custom">physical system</xref> independently of any particular
           representation.
