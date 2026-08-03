@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added a physical landscape definition">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" afterDir="false" />
-    </list>
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added &quot;formulaziation&quot; and &quot;inference&quot; definitions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,6 +150,13 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <steps>
+        <latexmkCompile id="ea956947-0a30-48e9-8fa6-10d64cf40309" />
+        <pdfViewer id="d96faab1-1ed8-460e-8343-3b09210912ba" />
+      </steps>
+      <method v="2" />
+    </configuration>
     <configuration name="build.ps1 (1)" type="PowerShellRunType" factoryName="PowerShell" temporary="true" scriptUrl="$PROJECT_DIR$/build.ps1" executablePath="$PROJECT_DIR$/../../../../Windows/System32/WindowsPowerShell/v1.0/powershell.exe">
       <envs />
       <method v="2" />
@@ -180,22 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00132" summary="edited function space definition">
-      <option name="closed" value="true" />
-      <created>1785362457432</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1785362457432</updated>
-    </task>
-    <task id="LOCAL-00133" summary="edited function space definition">
-      <option name="closed" value="true" />
-      <created>1785362548586</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1785362548586</updated>
     </task>
     <task id="LOCAL-00134" summary="edited function space definition">
       <option name="closed" value="true" />
@@ -573,7 +561,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785659634730</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="added &quot;formulaziation&quot; and &quot;inference&quot; definitions">
+      <option name="closed" value="true" />
+      <created>1785660483228</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1785660483228</updated>
+    </task>
+    <task id="LOCAL-00182" summary="added &quot;formulaziation&quot; and &quot;inference&quot; definitions">
+      <option name="closed" value="true" />
+      <created>1785660556390</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1785660556390</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate" />
     <MESSAGE value="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition" />
     <MESSAGE value="mentioned path independence in the remark about state variables" />
     <MESSAGE value="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter" />
@@ -616,6 +619,7 @@
     <MESSAGE value="fixed a typo" />
     <MESSAGE value="fixed some more typos" />
     <MESSAGE value="added a physical landscape definition" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a physical landscape definition" />
+    <MESSAGE value="added &quot;formulaziation&quot; and &quot;inference&quot; definitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added &quot;formulaziation&quot; and &quot;inference&quot; definitions" />
   </component>
 </project>

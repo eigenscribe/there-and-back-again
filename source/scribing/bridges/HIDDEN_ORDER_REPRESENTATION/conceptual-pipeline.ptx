@@ -17,7 +17,7 @@
     <image xml:id="mermaid-concept-bridge">
       <mermaid>
         graph LR
-          S[<term>structure</term>] -- "Constraint 🔳" --> O[order]
+          S[structure] -- "Constraint 🔳" --> O[order]
           O -- "Formalization 🧩" --> R[representation]
           R -- "Inference 🧬" --> F[function]
       </mermaid>
