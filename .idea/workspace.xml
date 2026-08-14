@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated dirac delta distribution definition in the differential equations section">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/there-and-back-again.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/there-and-back-again.iml" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added `pyproject.toml`, dependency lock file, and IntelliJ module files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/glossary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/glossary.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00135" summary="added an eigenote about the physics formulation of the Euler-Lagrange equation">
-      <option name="closed" value="true" />
-      <created>1785368328854</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1785368328854</updated>
     </task>
     <task id="LOCAL-00136" summary="added and introduction to sec-euler-lagrange-physics.ptx and removed unnecessary spacing in sec-hamiltonian-noether.ptx">
       <option name="closed" value="true" />
@@ -581,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786689526556</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="added `pyproject.toml`, dependency lock file, and IntelliJ module files">
+      <option name="closed" value="true" />
+      <created>1786743744892</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1786743744893</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mentioned path independence in the remark about state variables" />
     <MESSAGE value="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter" />
     <MESSAGE value="added the Winston Churchill quote to Dad acknowledgment " />
     <MESSAGE value="polished sec-physical-systems.ptx" />
@@ -624,6 +622,7 @@
     <MESSAGE value="added a physical landscape definition" />
     <MESSAGE value="added &quot;formulaziation&quot; and &quot;inference&quot; definitions" />
     <MESSAGE value="updated dirac delta distribution definition in the differential equations section" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated dirac delta distribution definition in the differential equations section" />
+    <MESSAGE value="added `pyproject.toml`, dependency lock file, and IntelliJ module files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added `pyproject.toml`, dependency lock file, and IntelliJ module files" />
   </component>
 </project>

@@ -16,6 +16,19 @@
     </statement>
   </gi>
 
+  <gi xml:id="gls-function">
+    <title>Functions</title>
+    <idx>function</idx>
+    <statement>
+      <p>
+        A mapping <m>f:A\rightarrow B</m> from a domain <m>A</m> to a codomain <m>B</m>. Such mappings assign exactly
+        one element <m>b\in B</m> (the <term>output</term>) to each element of the domain <m>a\in A</m> (the
+        <term>input</term>). Importantly, these mappings may be surjective, injective, both (i.e., bijective),
+        or neither.
+      </p>
+    </statement>
+  </gl>
+
   <gi xml:id="gls-numerical-integration">
     <title>Numerical Integration</title>
     <idx>numerical integration</idx>
