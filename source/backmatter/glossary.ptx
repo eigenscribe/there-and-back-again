@@ -3,6 +3,17 @@
 <glossary xml:id="gls-main" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Glossary</title>
 
+  <gi xml:id="gls-distribution">
+    <title>Distribution</title>
+    <idx>distribution</idx>
+    <statement>
+      <p>
+        A mathematical description of how a quantity (e.g., a probability) is allocated across a set of outcomes or
+        values.
+      </p>
+    </statement>
+  </gi>
+
   <gi xml:id="gls-first-principles-logic">
     <title>First-Principles Reasoning</title>
     <idx>first-principles reasoning</idx>
@@ -17,7 +28,7 @@
   </gi>
 
   <gi xml:id="gls-function">
-    <title>Functions</title>
+    <title>Function</title>
     <idx>function</idx>
     <statement>
       <p>
