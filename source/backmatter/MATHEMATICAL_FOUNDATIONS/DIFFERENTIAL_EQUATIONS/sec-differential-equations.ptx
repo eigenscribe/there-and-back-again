@@ -8,6 +8,6 @@
   </introduction>
 
 
-  <xi:include href="dirac-delta.ptx"/>
+  <xi:include href="DIRAC_DELTA/dirac-delta-overview.ptx"/>
 
  </section>

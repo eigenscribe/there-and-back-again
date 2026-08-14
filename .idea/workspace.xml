@@ -7,14 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added &quot;formulaziation&quot; and &quot;inference&quot; definitions" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added &quot;formulaziation&quot; and &quot;inference&quot; definitions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/dirac-delta.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/DIRAC_DELTA/dirac-delta-overview.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/sec-differential-equations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/sec-differential-equations.ptx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="3001" />
+    <option name="cachedIndexableFilesCount" value="2813" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -142,11 +147,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/DIRAC_DELTA" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges" />
       <recent name="$PROJECT_DIR$/source/scribing/eigenotes" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION" />
       <recent name="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS" />
-      <recent name="$PROJECT_DIR$/source/backmatter/PHYSICAL_FOUNDATIONS/PHYSICAL_PROPERTIES" />
     </key>
   </component>
   <component name="RunManager">

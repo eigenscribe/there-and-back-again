@@ -4,11 +4,28 @@
     <title>Dirac Delta Distribution</title>
     <idx>dirac delta</idx>
     <introduction>
-        Here we define the Dirac delta distribution and its integral over an interval. Boundary conditions are
-        carefully considered and defined in a way that allows for context-specific interpretations. For more
-        introductory material on the Dirac delta distribution in the context of linear time invariant (LTI) systems
-        see <xref ref="subsubsec-dirac-delta-lti-systems"/>.
+      <p>
+        Here we define the Dirac delta distribution and its relation to the unit step function.
+      </p>
     </introduction>
+
+    <definition xml:id="def-dirac-delta-distribution">
+      <title>Dirac delta distribution</title>
+
+        <p>
+          The <term>Dirac delta distribution</term> <m>\delta(x)</m>is a generalized distribution that equals zero everywhere
+          except at the point <m>x=0</m> with a total area of one:
+        </p>
+
+        <md>
+            \delta(x) =
+
+                \begin{cases}
+                    \infty &amp; x=0 \\
+                    0 &amp; x\neq 0
+                \end{cases}
+        </md>
+    </definition>
 
 
     <note xml:id="note-dirac-delta-interpretation">
@@ -31,16 +48,6 @@
                     * &amp; \text{if } c\in {a,b}
                    \end{cases}
         </md>
-
-        <remark>
-            <p>
-                This is an example of a statement whose value depends on an
-                interpretive convention rather than solely on formal manipulation.
-                The distinction appears because the Dirac delta is a distribution,
-                not an ordinary function.
-            </p>
-        </remark>
-
 
         <dl>
             <title>Endpoint conventions</title>
@@ -66,6 +73,15 @@
             </li>
 
         </dl>
+
+        <note>
+            <p>
+                This is an example of a statement whose value depends on an
+                interpretive convention rather than solely on formal manipulation.
+                The distinction appears because the Dirac delta is a distribution,
+                not an ordinary function.
+            </p>
+        </note>
 
     </note>
 
