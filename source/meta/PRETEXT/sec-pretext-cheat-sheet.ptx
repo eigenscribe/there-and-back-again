@@ -46,6 +46,14 @@
                 ]]>
             </code>
         </program>
+        <p>
+            <alert>Preview (Sample Rendered Subsection):</alert>
+        </p>
+        <assemblage>
+            <title>Subsection: sub-demo</title>
+            <p>Content with <m>E=mc^2</m> and <xref ref="ch-pretext"/>.</p>
+            <p>🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext-cheat-sheet"/></p>
+        </assemblage>
     </subsection>
 
     <subsection xml:id="sub-pretext-inline">
@@ -139,7 +147,7 @@
                     </code>
                 </program>
                 <p>
-                    <alert>Output:</alert>
+                    <alert>Preview:</alert>
                     <md number="yes">
                         <mrow xml:id="eq-schrodinger-example">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</mrow>
                     </md>
@@ -159,7 +167,7 @@
                     </code>
                 </program>
                 <p>
-                    <alert>Output:</alert>
+                    <alert>Preview:</alert>
                     <md>
                         <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
                         <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
@@ -187,7 +195,7 @@
             </code>
         </program>
         <p>
-            <alert>Output:</alert>
+            <alert>Preview:</alert>
         </p>
         <definition xml:id="def-unitary-example">
             <title>Unitary Operator</title>
@@ -209,7 +217,7 @@
             </code>
         </program>
         <p>
-            <alert>Output:</alert>
+            <alert>Preview:</alert>
         </p>
         <theorem xml:id="thm-noether-example">
             <title>Noether's Theorem</title>
@@ -229,7 +237,7 @@
             </code>
         </program>
         <p>
-            <alert>Output:</alert>
+            <alert>Preview:</alert>
         </p>
         <assemblage>
             <title>Key Concept</title>
@@ -313,7 +321,7 @@
                     </code>
                 </program>
                 <p>
-                    <alert>Output (approximate):</alert>
+                    <alert>Preview:</alert>
                 </p>
                 <blockquote>
                     <p>
@@ -345,6 +353,17 @@
                         ]]>
                     </code>
                 </program>
+                <p>
+                    <alert>Preview:</alert>
+                </p>
+                <blockquote>
+                    <p>
+                        🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext-cheat-sheet" />
+                    </p>
+                    <p>
+                        🔖 <alert>References:</alert> <xref ref="ch-pretext" />
+                    </p>
+                </blockquote>
             </li>
             <li>
                 <p>

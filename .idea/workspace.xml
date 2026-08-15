@@ -7,9 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added `pyproject.toml`, dependency lock file, and IntelliJ module files">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/backmatter/glossary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/glossary.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-cheat-sheet.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-cheat-sheet.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="2827" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -187,14 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00136" summary="added and introduction to sec-euler-lagrange-physics.ptx and removed unnecessary spacing in sec-hamiltonian-noether.ptx">
-      <option name="closed" value="true" />
-      <created>1785368634048</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1785368634048</updated>
     </task>
     <task id="LOCAL-00137" summary="updated sec-euler-lagrange-physics.ptx and added para-path.ptx to the primer subsection of calculus of variations section in the mathematical foundations appendix">
       <option name="closed" value="true" />
@@ -580,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786743744893</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting">
+      <option name="closed" value="true" />
+      <created>1786747445820</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1786747445820</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,8 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter" />
-    <MESSAGE value="added the Winston Churchill quote to Dad acknowledgment " />
     <MESSAGE value="polished sec-physical-systems.ptx" />
     <MESSAGE value="added macroscopic property to the physical properties section in the physical foundations appendix" />
     <MESSAGE value="polished physical foundations defintions" />
@@ -623,6 +624,8 @@
     <MESSAGE value="added &quot;formulaziation&quot; and &quot;inference&quot; definitions" />
     <MESSAGE value="updated dirac delta distribution definition in the differential equations section" />
     <MESSAGE value="added `pyproject.toml`, dependency lock file, and IntelliJ module files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added `pyproject.toml`, dependency lock file, and IntelliJ module files" />
+    <MESSAGE value="added function definition to glossary in `glossary.ptx`" />
+    <MESSAGE value="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting" />
   </component>
 </project>

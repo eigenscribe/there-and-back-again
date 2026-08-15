@@ -1332,8 +1332,32 @@
       "weight": 2
     },
     {
+      "source": "sub-pretext-structure",
+      "target": "ch-pretext",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "sub-pretext-structure",
+      "target": "sec-pretext-cheat-sheet",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "sub-pretext-inline",
       "target": "sec-pretext-cheat-sheet",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "sub-project-conventions",
+      "target": "sec-pretext-cheat-sheet",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "sub-project-conventions",
+      "target": "ch-pretext",
       "type": "reference",
       "weight": 2
     },
