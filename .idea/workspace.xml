@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated IntelliJ workspace configuration to reflect recent task changes">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00140" summary="added definitintion for a stationary fucntional. need to go polish and reconcile misunderstanding about whether the usage of the word &quot;point&quot; is appropriate">
-      <option name="closed" value="true" />
-      <created>1785375013752</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1785375013752</updated>
     </task>
     <task id="LOCAL-00141" summary="emphasized the word &quot;Dad&quot; in the acknowledgement section">
       <option name="closed" value="true" />
@@ -581,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786777162918</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration">
+      <option name="closed" value="true" />
+      <created>1786780542530</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1786780542530</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="polished physical foundations defintions" />
     <MESSAGE value="polished marcrostate and microstate paragraphs" />
     <MESSAGE value="polished marcrostate and microstate paragraphs and added a degrees of freedom page in the bridges chapter" />
     <MESSAGE value="updated pretext" />
@@ -624,6 +620,7 @@
     <MESSAGE value="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting" />
     <MESSAGE value="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`" />
     <MESSAGE value="updated IntelliJ workspace configuration to reflect recent task changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated IntelliJ workspace configuration to reflect recent task changes" />
+    <MESSAGE value="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration" />
   </component>
 </project>
