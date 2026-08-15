@@ -172,6 +172,11 @@ foreach ($file in $topLevelHtmlFiles) {
         $content = $content -replace '(</body>)', "<script src=`"graph/d3.min.js`"></script>`n<script src=`"graph/graph-toggle.js`"></script>`n`$1"
     }
     
+    # Inject interactive tabs script
+    if ($content -notmatch "elements/tabs.js") {
+        $content = $content -replace '(</body>)', "<script src=`"external/elements/tabs.js`"></script>`n`$1"
+    }
+    
     # Fix search bar
     if ($content -notmatch "search-fix") {
         $searchFixStyle = @"

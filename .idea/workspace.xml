@@ -7,11 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/glossary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/glossary.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-cheat-sheet.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-cheat-sheet.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/custom-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custom-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,14 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00137" summary="updated sec-euler-lagrange-physics.ptx and added para-path.ptx to the primer subsection of calculus of variations section in the mathematical foundations appendix">
-      <option name="closed" value="true" />
-      <created>1785372300723</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1785372300723</updated>
     </task>
     <task id="LOCAL-00138" summary="added admissible path definition in para-path.ptx">
       <option name="closed" value="true" />
@@ -583,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786747445820</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`">
+      <option name="closed" value="true" />
+      <created>1786770894127</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1786770894127</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="polished sec-physical-systems.ptx" />
     <MESSAGE value="added macroscopic property to the physical properties section in the physical foundations appendix" />
     <MESSAGE value="polished physical foundations defintions" />
     <MESSAGE value="polished marcrostate and microstate paragraphs" />
@@ -626,6 +625,7 @@
     <MESSAGE value="added `pyproject.toml`, dependency lock file, and IntelliJ module files" />
     <MESSAGE value="added function definition to glossary in `glossary.ptx`" />
     <MESSAGE value="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting" />
+    <MESSAGE value="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`" />
+    <option name="LAST_COMMIT_MESSAGE" value="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`" />
   </component>
 </project>
