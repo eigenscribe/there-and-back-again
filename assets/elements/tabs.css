@@ -1,0 +1,225 @@
+/* ============================================================ */
+/*  SOURCE / PREVIEW INTERACTIVE TABS COMPONENT                */
+/*  Matches modern PreTeXt documentation tabbed example widget */
+/* ============================================================ */
+
+.source-preview-tab-card {
+  margin: 1.75rem 0 !important;
+  border-radius: 14px !important;
+  background: linear-gradient(135deg, rgba(13, 20, 36, 0.78), rgba(20, 30, 55, 0.72)) !important;
+  backdrop-filter: blur(14px) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  border: 1px solid rgba(20, 181, 255, 0.28) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  overflow: hidden !important;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.source-preview-tab-card:hover {
+  border-color: rgba(20, 181, 255, 0.42) !important;
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.45), 0 0 16px rgba(20, 181, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
+}
+
+/* Tab Bar Header */
+.source-preview-tab-bar {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 0.5rem !important;
+  padding: 0.55rem 0.85rem !important;
+  background: rgba(8, 12, 22, 0.88) !important;
+  border-bottom: 1px solid rgba(20, 181, 255, 0.18) !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+/* Tab Buttons */
+.source-preview-tab-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.45rem !important;
+  padding: 0.38rem 0.95rem !important;
+  font-family: var(--font-heading, 'Aclonica', sans-serif) !important;
+  font-size: 0.84rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em !important;
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  outline: none !important;
+  opacity: 0.78 !important;
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Emoji Icons */
+.source-preview-tab-btn .tab-emoji {
+  display: inline-block !important;
+  font-size: 0.95rem !important;
+  line-height: 1 !important;
+  vertical-align: middle !important;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.2s ease !important;
+}
+
+/* Gradient Text Labels */
+.source-preview-tab-btn .tab-label {
+  display: inline-block !important;
+  font-family: var(--font-heading, 'Aclonica', sans-serif) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em !important;
+  transition: filter 0.2s ease, opacity 0.2s ease !important;
+}
+
+.source-preview-tab-btn .tab-label-source {
+  background: linear-gradient(135deg, #00f2fe 0%, #38bdf8 45%, #818cf8 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+.source-preview-tab-btn .tab-label-preview {
+  background: linear-gradient(135deg, #c084fc 0%, #f472b6 50%, #fb923c 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+.source-preview-tab-btn:hover {
+  opacity: 1 !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(255, 255, 255, 0.18) !important;
+}
+
+.source-preview-tab-btn.tab-btn-source:hover .tab-emoji {
+  transform: scale(1.15) rotate(-4deg) !important;
+}
+
+.source-preview-tab-btn.tab-btn-preview:hover .tab-emoji {
+  transform: scale(1.15) rotate(5deg) !important;
+}
+
+/* Active State: Source Tab (Cyan / Blue theme) */
+.source-preview-tab-btn.tab-btn-source.active {
+  opacity: 1 !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.22), rgba(58, 152, 255, 0.16)) !important;
+  border-color: rgba(0, 232, 255, 0.5) !important;
+  box-shadow: 0 2px 14px rgba(0, 232, 255, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+}
+
+.source-preview-tab-btn.tab-btn-source.active .tab-emoji {
+  transform: scale(1.08) !important;
+  filter: drop-shadow(0 0 6px rgba(0, 232, 255, 0.6)) !important;
+}
+
+.source-preview-tab-btn.tab-btn-source.active .tab-label-source {
+  filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.45)) !important;
+}
+
+/* Active State: Preview Tab (Purple / Pink / Amber theme) */
+.source-preview-tab-btn.tab-btn-preview.active {
+  opacity: 1 !important;
+  background: linear-gradient(135deg, rgba(192, 132, 252, 0.24), rgba(244, 114, 182, 0.16)) !important;
+  border-color: rgba(192, 132, 252, 0.5) !important;
+  box-shadow: 0 2px 14px rgba(192, 132, 252, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+}
+
+.source-preview-tab-btn.tab-btn-preview.active .tab-emoji {
+  transform: scale(1.08) !important;
+  filter: drop-shadow(0 0 6px rgba(244, 114, 182, 0.6)) !important;
+}
+
+.source-preview-tab-btn.tab-btn-preview.active .tab-label-preview {
+  filter: drop-shadow(0 0 8px rgba(244, 114, 182, 0.45)) !important;
+}
+
+.source-preview-tab-btn:focus-visible {
+  box-shadow: 0 0 0 2px rgba(0, 242, 254, 0.5) !important;
+}
+
+/* Tab Panels Container */
+.source-preview-panels {
+  position: relative !important;
+  width: 100% !important;
+}
+
+/* Panels */
+.source-preview-panel {
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.source-preview-panel[hidden] {
+  display: none !important;
+}
+
+/* Source Panel: seamless code block presentation */
+.source-preview-panel.panel-source {
+  background: rgba(10, 14, 24, 0.95) !important;
+}
+
+.source-preview-panel.panel-source .code-box {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.source-preview-panel.panel-source pre.program {
+  margin: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Preview Panel: rendered element container */
+.source-preview-panel.panel-preview {
+  padding: 1.4rem 1.6rem !important;
+  background: rgba(13, 20, 36, 0.4) !important;
+  min-height: 4rem !important;
+}
+
+.source-preview-panel.panel-preview > *:first-child {
+  margin-top: 0 !important;
+}
+
+.source-preview-panel.panel-preview > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+.source-preview-panel.panel-preview .displaymath {
+  margin: 0.5rem 0 !important;
+}
+
+.source-preview-panel.panel-preview pre {
+  margin: 0.5rem 0 !important;
+  background: rgba(10, 15, 25, 0.8) !important;
+  border: 1px solid rgba(20, 181, 255, 0.2) !important;
+  border-radius: 8px !important;
+  padding: 0.85rem 1.1rem !important;
+}
+
+.source-preview-panel.panel-preview table,
+.source-preview-panel.panel-preview .tabular {
+  margin: 0.5rem auto !important;
+}
+
+/* Animation on tab switch */
+.source-preview-panel.active {
+  animation: tabFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes tabFadeIn {
+  from {
+    opacity: 0.3;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
