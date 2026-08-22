@@ -7,8 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated IntelliJ workspace configuration and refined content in geometric algebra appendix.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated IntelliJ workspace configuration and refined reasoning taxonomy content.">
       <change beforePath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/sec-reasoning-taxonomy.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/KNOWLEDGE_STRUCTURES/sec-reasoning-taxonomy.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00145" summary="added physical properties primer  files and made a specific file for the extensive and intensive paragraph">
-      <option name="closed" value="true" />
-      <created>1785464605817</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1785464605817</updated>
     </task>
     <task id="LOCAL-00146" summary="reordered the files in the physical foundations appendix and added state variable paragraph in the physical properties section that needs to be completed">
       <option name="closed" value="true" />
@@ -581,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787399170924</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="Updated IntelliJ workspace configuration and refined reasoning taxonomy content.">
+      <option name="closed" value="true" />
+      <created>1787402404382</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1787402404382</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added data geometry table for choosing mathematical tools for analyzing a particular data set" />
     <MESSAGE value="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection." />
     <MESSAGE value="fixed the font for the book title at the top left hand corner under the logo" />
     <MESSAGE value="fixed some typos in the data geometry map table" />
@@ -624,6 +622,7 @@
     <MESSAGE value="Corrected Frobenius norm formula in taxonomy table and updated IntelliJ workspace configuration." />
     <MESSAGE value="Updated IntelliJ workspace configuration and fixed references in geometric algebra appendix and notes graph." />
     <MESSAGE value="Updated IntelliJ workspace configuration and refined content in geometric algebra appendix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated IntelliJ workspace configuration and refined content in geometric algebra appendix." />
+    <MESSAGE value="Updated IntelliJ workspace configuration and refined reasoning taxonomy content." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated IntelliJ workspace configuration and refined reasoning taxonomy content." />
   </component>
 </project>

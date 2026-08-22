@@ -109,14 +109,14 @@
       <title>Pattern Recognition</title>
       <idx>pattern recognition</idx>
       <p>
-        A PCA of several thermodynamic states shows that the first principal component changes systematically with
-        temperature. What underlying physical mechanisms might underlie the projected data?
+        Detecting and identifying recurring structures, consistencies, or relationships within observations, data, or
+        sequences.
       </p>
-      <p
-        ><em>Example:</em>
+      <p>
+        <em>Example:</em>
         <q>
-          Several thermodynamic quantities can be obtained by taking the derivative of of the logarithm of the partition
-          function. What recurring mathematical patterns might be present in these quantities?
+          A PCA of several thermodynamic states shows that the first principal component changes systematically with
+          temperature. What underlying physical mechanisms might underlie the projected data?
         </q>
       </p>
     </li>
