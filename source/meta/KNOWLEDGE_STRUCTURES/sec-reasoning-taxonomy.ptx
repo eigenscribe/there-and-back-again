@@ -99,7 +99,7 @@
       <p>
         <em>Example:</em>
         <q>
-          In what sense can the partition function be treated as an underlying statistical description of thermodynamic
+          In what sense can the partition function be treated as a underlying generating structure of thermodynamic
           quantities across various physical systems?
         </q>
       </p>
@@ -116,7 +116,8 @@
         <em>Example:</em>
         <q>
           A PCA of several thermodynamic states shows that the first principal component changes systematically with
-          temperature. What underlying physical mechanisms might underlie the projected data?
+          temperature. What underlying relation between temperature and the first principal component become evident
+          in the projected data?
         </q>
       </p>
     </li>
