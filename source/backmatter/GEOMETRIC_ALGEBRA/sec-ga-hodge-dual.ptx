@@ -10,14 +10,16 @@
             In Clifford algebra <m>\mathcal{Cl}(0,3)</m> (Euclidean 3-D space), the standard vector cross product $\vec{a}\times\vec{b}$ is equivalent to the dual of the geometric wedge product $\vec{a}\wedge\vec{b}$ as follows:
 
                 <md>
-                    \vec{a}\times\vec{b} = \vec{a}\wedge\vec{b}\mathcal{I}^{-1}
+                    \vec{a}\times\vec{b} = (\vec{a}\wedge\vec{b})\mathcal{I}^{-1}
                 </md>
             where <m>\mathcal{I}=\mathbf{e}_1\mathbf{e}_2\mathbf{e}_3</m> is the unit pseudoscalar in <m>\mathcal{Cl}(0,3)</m>.
         </p>
     </identity>
-    <note>
-        Note that <m>\mathcal{I}^{-1}=-\mathcal{I}</m>.
-    </note>
+    <remark>
+        <md>
+          \mathcal{I}^{-1}=-\mathcal{I}
+        </md>
+    </remark>
 
 
 

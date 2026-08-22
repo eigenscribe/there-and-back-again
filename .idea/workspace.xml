@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Corrected Frobenius norm formula in taxonomy table and updated IntelliJ workspace configuration.">
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/app-geometric-algebra/sec-ga-hodge-dual.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/sec-ga-hodge-dual.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-geometric-algebra.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-geometric-algebra.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated IntelliJ workspace configuration and fixed references in geometric algebra appendix and notes graph.">
+      <change beforePath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/sec-ga-hodge-dual.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/sec-ga-hodge-dual.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00143" summary="fixed some typos">
-      <option name="closed" value="true" />
-      <created>1785459196932</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1785459196932</updated>
     </task>
     <task id="LOCAL-00144" summary="fixed some types that were causing build errors">
       <option name="closed" value="true" />
@@ -582,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787398314778</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="Updated IntelliJ workspace configuration and fixed references in geometric algebra appendix and notes graph.">
+      <option name="closed" value="true" />
+      <created>1787398444192</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1787398444192</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated pretext" />
     <MESSAGE value="added xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; to some of the bridge notes" />
     <MESSAGE value="added data geometry table for choosing mathematical tools for analyzing a particular data set" />
     <MESSAGE value="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection." />
@@ -625,6 +622,7 @@
     <MESSAGE value="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration" />
     <MESSAGE value="Updated Python and dependency configuration: reduced dependencies in `pyproject.toml`, updated `requires-python` to `&gt;=3.11`, and minimized `requirements.txt`." />
     <MESSAGE value="Corrected Frobenius norm formula in taxonomy table and updated IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected Frobenius norm formula in taxonomy table and updated IntelliJ workspace configuration." />
+    <MESSAGE value="Updated IntelliJ workspace configuration and fixed references in geometric algebra appendix and notes graph." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated IntelliJ workspace configuration and fixed references in geometric algebra appendix and notes graph." />
   </component>
 </project>
