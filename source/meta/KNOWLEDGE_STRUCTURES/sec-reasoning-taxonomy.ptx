@@ -17,78 +17,152 @@
     <li>
       <title>Deductive Reasoning</title>
       <idx>deductive reasoning</idx>
-      <p>Drawing specific conclusions from general laws or principles.</p>
-      <p><em>Example:</em> <q>Given this mechanism, what must follow?</q></p>
+      <p>Apply known principles to derive a specific conclusion.</p>
+      <p><em>Example:</em> <q>Deriving the Boltzmann distribution from the maximum-entropy principle.</q></p>
     </li>
 
     <li>
       <title>Inductive Reasoning</title>
       <idx>inductive reasoning</idx>
-      <p>Generalizing from patterns or experimental observations.</p>
-      <p><em>Example:</em> <q>Given this data, what can we infer about X?</q></p>
+      <p>Generalizing from repeated observations.</p>
+      <p>
+        <em>Example:</em>
+        <q>
+          Given the analogous role of the partition function across several physical systems, what general principle
+          might we infer about its role in statistical descriptions?
+        </q>
+      </p>
     </li>
 
     <li>
       <title>Temporal Reasoning</title>
       <idx>temporal reasoning</idx>
-      <p>Predicting events or states based on order in time.</p>
-      <p><em>Example:</em> <q>If A happens before B, and B affects C, what is the downstream effect?</q></p>
+      <p>Reasoning involving the ordering, evolution, or dependence of events and states over time.</p>
+      <p>
+        <em>Example:</em>
+        <q>
+          Given an oscillator's initial phase and angular velocity, how does its state evolve over time according to its
+          equation of motion?
+        </q>
+      </p>
     </li>
 
     <li>
       <title>Spatial Reasoning</title>
       <idx>spatial reasoning</idx>
-      <p>Understanding structures, orientation, or symmetry.</p>
-      <p><em>Example:</em> <q>What is the normal force on an object sliding down a ramp inclined at angle X?</q></p>
+      <p>Reasoning about spatial relationships, geometry, orientation, position, or symmetry.</p>
+      <p>
+        <em>Example:</em>
+        <q>
+          Given a two-dimensional potential-energy surface, where are the stable equilibrium points and how are they
+          related according to their symmetries?
+        </q>
+      </p>
     </li>
 
     <li>
       <title>Causal Reasoning</title>
       <idx>causal reasoning</idx>
-      <p>Identifying cause-and-effect relationships.</p>
-      <p><em>Example:</em> <q>What arrangement of three electrons causes zero electric field at the center-of-mass location?</q></p>
+      <p>
+        Determining how a change in one variable, condition, or mechanism produces or influences a change in another.
+      </p>
+      <p>
+        <em>Example:</em>
+        <q>
+          How does a change in the temperature of a canonical ensemble affect corresponding changes in the Boltzmann
+          distribution?
+        </q>
+      </p>
     </li>
 
     <li>
       <title>Comparative Analysis</title>
       <idx>comparative analysis</idx>
-      <p>Judging between alternatives or evaluating differences across conditions.</p>
-      <p><em>Example:</em> <q>What is the percent difference in the ground-state energy of an atom trapped in a harmonic potential versus a quartic potential?</q></p>
+      <p>
+        Evaluating similarities, differences, or relative behavior among multiple alternatives, systems, or conditions.
+      </p>
+      <p>
+        <em>Example:</em>
+        <q>
+          How does the principal-component structure of a system differ between two thermodynamic regimes?
+        </q>
+      </p>
     </li>
 
     <li>
       <title>Abstract Reasoning</title>
       <idx>abstract reasoning</idx>
-      <p>Working with non-concrete or theoretical ideas.</p>
-      <p><em>Example:</em> <q>What is the entropy change in a hypothetical closed system with constraint X?</q></p>
+      <p>
+        Integrating concepts, relationships, or structures independent of a particular concrete instance or
+        observation.
+      </p>
+      <p>
+        <em>Example:</em>
+        <q>
+          In what sense can the partition function be treated as an underlying statistical description of thermodynamic
+          quantities across various physical systems?
+        </q>
+      </p>
     </li>
 
     <li>
       <title>Pattern Recognition</title>
       <idx>pattern recognition</idx>
-      <p>Spotting and interpreting regularities in data or sequences.</p>
-      <p><em>Example:</em> <q>The amounts of a radioactive isotope at times <m>t_1</m>, <m>t_2</m>, and <m>t_3</m> are <m>N_1</m>, <m>N_2</m>, and <m>N_3</m>. What is the half-life?</q></p>
+      <p>
+        A PCA of several thermodynamic states shows that the first principal component changes systematically with
+        temperature. What underlying physical mechanisms might underlie the projected data?
+      </p>
+      <p
+        ><em>Example:</em>
+        <q>
+          Several thermodynamic quantities can be obtained by taking the derivative of of the logarithm of the partition
+          function. What recurring mathematical patterns might be present in these quantities?
+        </q>
+      </p>
     </li>
 
     <li>
       <title>Statistical Reasoning</title>
       <idx>statistical reasoning</idx>
-      <p>Using data, probabilities, and distributions to reach conclusions.</p>
-      <p><em>Example:</em> <q>Determine the uncertainty in the extracted value of X given the experimental data.</q></p>
+      <p>
+        Drawing conclusions from data using probability theory, distributions, and sampling methods.
+      </p>
+      <p>
+        <em>Example:</em>
+        <q>
+          Given noisy observations of an observable, what parameter value is most strongly supported by the data, and
+          how uncertain is that estimate?
+        </q>
+      </p>
     </li>
 
     <li>
       <title>Abductive Reasoning</title>
       <idx>abductive reasoning</idx>
-      <p>Inferring the most likely explanation from incomplete evidence.</p>
-      <p><em>Example:</em> <q>As the temperature changes from <m>T_1</m> to <m>T_2</m>, the spatial correlation length increases exponentially. What is likely true about the material's location in phase space?</q></p>
+      <p>
+        Inferring the most plausible explanation for an observation obtained from a data set with incomplete
+        information about the system from which it was derived.
+      </p>
+      <p>
+        <em>Example:</em>
+        <q>
+          An EEG signal changes drastically under a particular stimulus condition. What biophysical mechanism best
+          accounts for this observation?
+        </q>
+      </p>
     </li>
 
     <li>
       <title>Hypothetical Reasoning</title>
       <idx>hypothetical reasoning</idx>
-      <p>Predicting outcomes under hypothetical or counterfactual scenarios.</p>
-      <p><em>Example:</em> <q>What would be the fractional change in Earth's gravitational field if the gravitational constant were doubled?</q></p>
+      <p>Predicting the result of assumed, hypothetical, or counterfactual conditions.</p>
+      <p>
+        <em>Example:</em>
+        <q>
+          Would a system of coupled oscillators synchronize according to the Kuramoto model if the internal frequencies
+          followed a particular distribution?
+        </q>
+      </p>
     </li>
   </dl>
 </section>
