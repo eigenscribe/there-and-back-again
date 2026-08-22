@@ -7,14 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated Python and dependency configuration: reduced dependencies in `pyproject.toml`, updated `requires-python` to `&gt;=3.11`, and minimized `requirements.txt`.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2848" />
+    <option name="cachedIndexableFilesCount" value="2852" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -185,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00141" summary="emphasized the word &quot;Dad&quot; in the acknowledgement section">
-      <option name="closed" value="true" />
-      <created>1785377388112</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1785377388112</updated>
     </task>
     <task id="LOCAL-00142" summary="added extensive property definition and physical foundations appendix">
       <option name="closed" value="true" />
@@ -578,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786780542530</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="Updated Python and dependency configuration: reduced dependencies in `pyproject.toml`, updated `requires-python` to `&gt;=3.11`, and minimized `requirements.txt`.">
+      <option name="closed" value="true" />
+      <created>1786781063592</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1786781063592</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="polished marcrostate and microstate paragraphs" />
     <MESSAGE value="polished marcrostate and microstate paragraphs and added a degrees of freedom page in the bridges chapter" />
     <MESSAGE value="updated pretext" />
     <MESSAGE value="added xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; to some of the bridge notes" />
@@ -621,6 +622,7 @@
     <MESSAGE value="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`" />
     <MESSAGE value="updated IntelliJ workspace configuration to reflect recent task changes" />
     <MESSAGE value="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration" />
+    <MESSAGE value="Updated Python and dependency configuration: reduced dependencies in `pyproject.toml`, updated `requires-python` to `&gt;=3.11`, and minimized `requirements.txt`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Python and dependency configuration: reduced dependencies in `pyproject.toml`, updated `requires-python` to `&gt;=3.11`, and minimized `requirements.txt`." />
   </component>
 </project>

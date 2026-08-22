@@ -27,13 +27,13 @@
             <cell><term>Frobenius norm</term></cell>
             <cell>Matrices</cell>
             <cell><m>\| A \|_F</m></cell>
-            <cell><m>\sqrt{\sum_{i=1}^m \sum_{j=1}^{n}A_{ij}}</m></cell>
+            <cell><m>\sqrt{\sum_{i=1}^m \sum_{j=1}^{n}A^2_{ij}}</m></cell>
             <cell>Matrix magnitude optimization, loss functions, and PCA</cell>
         </row>
         <row>
             <cell><term>Physics Norm</term></cell>
             <cell>Vectors and Matrices</cell>
-            <cell> \mdash </cell>
+            <cell> 🤔 </cell>
             <cell><m>\sqrt{A^T W A}</m> where <m>W</m> is a <em>weight matrix</em></cell>
             <cell>Finite element analysis, fluid dynamics, and control systems</cell>
         </row>
