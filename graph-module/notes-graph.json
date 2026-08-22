@@ -336,6 +336,26 @@
       "color": "#9013fe"
     },
     {
+      "id": "sec-ga-hodge-dual",
+      "title": "Hodge Dual",
+      "url": "sec-ga-hodge-dual.html",
+      "tags": [
+        "hodge dual"
+      ],
+      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "ga-hodge-dual-3D",
+      "title": "The Cross Product as a Dual Wedge Product",
+      "url": "sec-ga-hodge-dual.html#ga-hodge-dual-3D",
+      "tags": [],
+      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "subsec-macroscopic-property",
       "title": "Macroscopic Property",
       "url": "subsec-macroscopic-property.html",
@@ -480,26 +500,6 @@
         "microstate"
       ],
       "description": "A microstate is a complete microscopic description of a\n        physical system that specifies the\n        state of e...",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "sec-ga-hodge-dual",
-      "title": "Hodge Dual",
-      "url": "sec-ga-hodge-dual.html",
-      "tags": [
-        "hodge dual"
-      ],
-      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "ga-hodge-dual-3D",
-      "title": "The Cross Product as a Dual Wedge Product",
-      "url": "sec-ga-hodge-dual.html#ga-hodge-dual-3D",
-      "tags": [],
-      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
       "group": "backmatter",
       "color": "#9013fe"
     },
