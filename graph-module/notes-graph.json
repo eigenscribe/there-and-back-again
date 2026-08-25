@@ -15,16 +15,25 @@
       "title": "Empirical Foundations",
       "url": "app-reference.html",
       "tags": [],
+      "description": "The reliability of evidence supported by measurements.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "sec-research-methods",
+      "title": "Research Methods",
+      "url": "sec-research-methods.html",
+      "tags": [],
       "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "sec-methodological-frameworks",
-      "title": "Research Methods",
-      "url": "sec-methodological-frameworks.html",
+      "id": "sec-uncertainty-and-error",
+      "title": "Uncertainty and Error",
+      "url": "sec-uncertainty-and-error.html",
       "tags": [],
-      "description": "",
+      "description": "The reliability of evidence supported by measurements.",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -332,6 +341,40 @@
       "url": "subsec-periodic-table.html",
       "tags": [],
       "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-accuracy-vs-precision",
+      "title": "Accuracy vs. Precision",
+      "url": "subsec-accuracy-vs-precision.html",
+      "tags": [
+        "accuracy",
+        "precision"
+      ],
+      "description": "Accuracy and precision are closely related concepts that are often confused. This nuance is important to\n      unders...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-accuracy",
+      "title": "Accuracy",
+      "url": "subsec-accuracy-vs-precision.html#def-accuracy",
+      "tags": [
+        "accuracy"
+      ],
+      "description": "How closely a measurement is to the ground truth or reference value.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-precision",
+      "title": "Precision",
+      "url": "subsec-accuracy-vs-precision.html#def-precision",
+      "tags": [
+        "precision"
+      ],
+      "description": "Consistency with which reported measurements agree with each other.",
       "group": "backmatter",
       "color": "#9013fe"
     },

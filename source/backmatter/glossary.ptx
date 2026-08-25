@@ -94,6 +94,17 @@
     </statement>
   </gi>
 
+  <gi xml:id="gls-significant-figure">
+    <title>Significant Figure</title>
+    <idx>significant figure</idx>
+
+    <statement>
+      A digit of a numerical value that contributes to the <xref ref="def-precision" text="custom">precision</xref> of
+      a measurement and is therefore crucial for <xref ref="def-accuracy" text="custom">accurate</xref>
+      interpretation.
+    </statement>
+  </gi>
+
   <gi xml:id="gls-support">
     <title>Support</title>
     <idx>support</idx>

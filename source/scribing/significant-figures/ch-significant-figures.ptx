@@ -6,8 +6,9 @@
   <introduction>
     <p>
       The title of this chapter was inspired by Ian Stewart's <em>Significant Figures: The Lives and Work of Great
-      Mathematicians (2017)</em>, whose title makes a clever literary use of the mathematical term <term>significant
-      figure</term>.  I encountered Stewart's book while sorting through my father's belongings shortly after his
+      Mathematicians (2017)</em>, whose title makes a clever literary use of the mathematical term
+      <xref ref="gls-significant-figure" text="custom">significant figure</xref>.
+      I encountered Stewart's book while sorting through my father's belongings shortly after his
       passing in the summer of 2026, and its title struck me as a perfect match for the title of this chapter.
     </p>
     <p>

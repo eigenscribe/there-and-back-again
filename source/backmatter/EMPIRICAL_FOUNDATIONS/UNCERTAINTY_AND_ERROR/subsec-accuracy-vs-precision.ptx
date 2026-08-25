@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-accuracy-vs-precision" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Accuracy vs. Precision</title>
+
+  <introduction>
+    <p>
+      Accuracy and precision are closely related concepts that are often confused. This nuance is important to
+      understand due to the uncertain nature of measurement.
+    </p>
+  </introduction>
+
+  <definition xml:id="def-accuracy">
+    <title>Accuracy</title>
+    <idx>accuracy</idx>
+
+    <statement>
+      <p>
+        How closely a measurement is to the ground truth or reference value.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="def-precision">
+    <title>Precision</title>
+    <idx>precision</idx>
+
+    <statement>
+      <p>
+        Consistency with which reported measurements agree with each other.
+      </p>
+    </statement>
+  </definition>
+
+  <table xml:id="tbl-accuracy-vs-precision">
+    <title>
+      Action and precision are independent of each other.
+    </title>
+
+    <tabular top="major" bottom="major">
+
+      <row>
+        <cell header="yes"> </cell>
+        <cell header="yes"><alert>Low precision</alert></cell>
+        <cell header="yes"><alert>High precision</alert></cell>
+      </row>
+
+      <row>
+        <cell header="yes"><alert>High accuracy</alert></cell>
+        <cell>
+          <p>
+            <em>Accurate but imprecise</em>
+          </p>
+          <p>
+            Measurements vary substantially from each other, but their central tendency is close to the reference value.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <em>Accurate and precise</em>
+          </p>
+          <p>
+            Measurements cluster closely together and are centered near the reference value.
+          </p>
+        </cell>
+      </row>
+
+      <row>
+        <cell header="yes"><alert>Low accuracy</alert></cell>
+        <cell>
+          <p>
+            <em>Inaccurate and imprecise</em>
+          </p>
+          <p>
+            Measurements vary substantially from each other, and their central tendency is not close to the reference
+            value.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <em>Inaccurate but precise</em>
+          </p>
+          <p>
+            Measurements cluster together far from the reference value.
+          </p>
+        </cell>
+      </row>
+    </tabular>
+
+  </table>
+
+</subsection>

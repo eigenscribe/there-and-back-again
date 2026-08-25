@@ -7,15 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined reasoning taxonomy examples for clarity and precision.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration.">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/EMPIRICAL_FOUNDATIONS/UNCERTAINTY_AND_ERROR/subsec-accuracy-vs-precision.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/pt-scribing.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/pt-scribing.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/ch-setting-the-stage.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/ch-significant-figures.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/boltzmann-ludwig.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/boltzmann-ludwig.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/lagrange-joseph-louis.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/lagrange-joseph-louis.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/pre-quantum/sec-pre-quantum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/sec-pre-quantum.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/setting-the-stage/sec-post-quantum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/sec-post-quantum.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-empirical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-empirical-foundations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/glossary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/glossary.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/ch-significant-figures.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/ch-significant-figures.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00148" summary="edited the remark about state variables defining changes in the macrostate of a system between two points in time and updated the definition of a macrostate">
-      <option name="closed" value="true" />
-      <created>1785474225931</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1785474225931</updated>
     </task>
     <task id="LOCAL-00149" summary="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition">
       <option name="closed" value="true" />
@@ -587,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787402731973</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787637018838</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1787637018838</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed the font for the book title at the top left hand corner under the logo" />
     <MESSAGE value="fixed some typos in the data geometry map table" />
     <MESSAGE value="added a table comparing global symmetry vs. local (gauge) symmetry" />
     <MESSAGE value="polished conceptual-pipeline.ptx" />
@@ -630,6 +627,7 @@
     <MESSAGE value="Updated IntelliJ workspace configuration and refined content in geometric algebra appendix." />
     <MESSAGE value="Updated IntelliJ workspace configuration and refined reasoning taxonomy content." />
     <MESSAGE value="Refined reasoning taxonomy examples for clarity and precision." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined reasoning taxonomy examples for clarity and precision." />
+    <MESSAGE value="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration." />
   </component>
 </project>
