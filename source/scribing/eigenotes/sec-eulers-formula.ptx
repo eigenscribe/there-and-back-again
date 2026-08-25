@@ -21,20 +21,15 @@
     </statement>
   </definition>
 
-  <subsection xml:id="subsec-eulers-identity">
-    <title>One Identity to Rule Them All</title>
-    <idx>euler's identity</idx>
+  <identity>
+    <title>Euler's Identity</title>
 
-    <definition>
-      <title>Euler's Identity</title>
+    <statement>
+      <md>
+        e^{\mathcal{I} x} + 1 = 0
+      </md>
+    </statement>
 
-      <statement>
-        <md>
-          e^{\mathcal{I} x} + 1 = 0
-        </md>
-      </statement>
-
-    </definition>
-  </subsection>
+  </identity>
 
 </section>
