@@ -363,6 +363,7 @@ function createCanvasGraph(d3, container, data) {
     if (nodeId.startsWith('thm-')) return labelColors[7];
     if (nodeId.startsWith('claim-')) return labelColors[8];
     if (nodeId.startsWith('ex-')) return labelColors[9];
+    if (nodeId.startsWith('gls-')) return labelColors[6];
 
     const connections = linkCounts.get(nodeId) || 0;
     if (maxConnections === minConnections) return labelColors[6];

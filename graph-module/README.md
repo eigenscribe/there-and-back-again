@@ -90,7 +90,8 @@ new NotesGraph('#my-container', {
       "url": "relative/path.html",
       "tags": ["tag1", "tag2"],
       "description": "Brief description",
-      "color": "#optional-color"
+      "color": "#optional-color",
+      "group": "backmatter"
     }
   ],
   "links": [
@@ -114,6 +115,7 @@ new NotesGraph('#my-container', {
 | `tags` | No | Array of tags for categorization |
 | `description` | No | Tooltip description |
 | `color` | No | Custom node color |
+| `group` | No | Folder or collection used for grouping and coloring |
 | `aliases` | No | Alternative names (from Obsidian) |
 
 ### Link Types

@@ -7,8 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references.">
-      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-empirical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-empirical-foundations.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/graph-toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/graph-toggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/graph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/update_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/update_graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00150" summary="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition">
-      <option name="closed" value="true" />
-      <created>1785476165740</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1785476165740</updated>
     </task>
     <task id="LOCAL-00151" summary="mentioned path independence in the remark about state variables">
       <option name="closed" value="true" />
@@ -580,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787641568055</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content.">
+      <option name="closed" value="true" />
+      <created>1787642182077</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1787642182077</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a table comparing global symmetry vs. local (gauge) symmetry" />
     <MESSAGE value="polished conceptual-pipeline.ptx" />
     <MESSAGE value="rearranged some sections and subsections in the bridges chapter" />
     <MESSAGE value="updated the concept bridge diagram" />
@@ -623,6 +627,7 @@
     <MESSAGE value="Refined reasoning taxonomy examples for clarity and precision." />
     <MESSAGE value="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references." />
+    <MESSAGE value="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content." />
   </component>
 </project>

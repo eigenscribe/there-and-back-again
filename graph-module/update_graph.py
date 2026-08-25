@@ -13,20 +13,24 @@ def get_tags(elem):
     tags = []
     # 1. Existing <tag> elements
     for tag in elem.findall('.//tag'):
-        if tag.text:
-            text = tag.text.strip()
+        text = "".join(tag.itertext()).strip()
+        if text:
             if not re.match(r'^\d{8,}', text):
                 if ',' in text:
                     tags.extend([t.strip().lower() for t in text.split(',')])
                 else:
                     tags.append(text.lower())
-    # 2. Index terms <idx><term>
+    # 2. Index terms <idx><term> or <idx>
     for idx in elem.findall('.//idx'):
         term = idx.find('term')
-        if term is not None and term.text:
-            tags.append(term.text.strip().lower())
-        elif idx.text:
-            tags.append(idx.text.strip().lower())
+        if term is not None:
+            text = "".join(term.itertext()).strip()
+            if text:
+                tags.append(text.lower())
+        else:
+            text = "".join(idx.itertext()).strip()
+            if text:
+                tags.append(text.lower())
     
     # 3. Hashtags in text #geometric-algebra
     text_content = "".join(elem.itertext())
@@ -42,7 +46,15 @@ def get_description(elem):
         if "Note ID:" in text or "Tags:" in text or "🔗" in text or "🖇️" in text:
             continue
         if text:
-            # Clean up LaTeX if possible, but keeping it is okay too
+            text = " ".join(text.split())
+            if len(text) > 120: text = text[:117] + "..."
+            return text
+    # Fallback to statement if no p found or if statement has direct text
+    stmt = elem.find('.//statement')
+    if stmt is not None:
+        text = "".join(stmt.itertext()).strip()
+        if text and not any(x in text for x in ["Note ID:", "Tags:", "🔗", "🖇️"]):
+            text = " ".join(text.split())
             if len(text) > 120: text = text[:117] + "..."
             return text
     return ""
@@ -53,12 +65,13 @@ def update_graph():
     links = []
     id_to_file_id = {}
     supported_tags = ['chapter', 'section', 'subsection', 'appendix', 'claim', 'definition', 'example', 
-                      'theorem', 'lemma', 'proposition', 'corollary', 'identity']
+                      'theorem', 'lemma', 'proposition', 'corollary', 'identity', 'gi', 'glossary']
 
     # Group colors (Obsidian-like)
     group_colors = {
         "scribing": "#4a90e2",
         "backmatter": "#9013fe",
+        "glossary": "#f59e0b",
         "frontmatter": "#7ed321",
         "meta": "#f5a623",
         "bridges": "#50e3c2",
@@ -71,6 +84,7 @@ def update_graph():
 
     def get_group(filepath):
         parts = filepath.split(os.sep)
+        if os.path.basename(filepath) == 'glossary.ptx' or 'glossary' in parts: return 'glossary'
         if 'scribing' in parts:
             idx = parts.index('scribing')
             if idx + 1 < len(parts) and os.path.isdir(os.path.join(*parts[:idx+2])):
@@ -118,7 +132,7 @@ def update_graph():
                                 "is_foundation": is_foundation, "tag_type": elem.tag,
                                 "group": group, "color": color
                             }
-                            if elem.tag in ['chapter', 'section', 'appendix']:
+                            if elem.tag in ['chapter', 'section', 'appendix', 'glossary']:
                                 id_to_file_id[xml_id] = xml_id
                             else:
                                 id_to_file_id[xml_id] = file_main_id

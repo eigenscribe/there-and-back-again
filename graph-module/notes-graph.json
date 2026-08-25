@@ -65,6 +65,136 @@
       "color": "#9013fe"
     },
     {
+      "id": "gls-main",
+      "title": "Glossary",
+      "url": "gls-main.html",
+      "tags": [
+        "distribution",
+        "first-principles reasoning",
+        "function",
+        "numerical integration",
+        "poisson bracket",
+        "power spectral density",
+        "regression methods",
+        "root-finding algorithms",
+        "significant figure",
+        "support"
+      ],
+      "description": "A mathematical description of how a quantity (e.g., a probability) is allocated across a set of outcomes or values.",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-distribution",
+      "title": "Distribution",
+      "url": "gls-main.html#gls-distribution",
+      "tags": [
+        "distribution"
+      ],
+      "description": "A mathematical description of how a quantity (e.g., a probability) is allocated across a set of outcomes or values.",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-first-principles-logic",
+      "title": "First-Principles Reasoning",
+      "url": "gls-main.html#gls-first-principles-logic",
+      "tags": [
+        "first-principles reasoning"
+      ],
+      "description": "A method of reasoning in which claims, hypotheses, models, or systems are explicitly decomposed into their most funda...",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-function",
+      "title": "Function",
+      "url": "gls-main.html#gls-function",
+      "tags": [
+        "function"
+      ],
+      "description": "A mapping f:A\\rightarrow B from a domain A to a codomain B. Such mappings assign exactly one element b\\in B (the outp...",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-numerical-integration",
+      "title": "Numerical Integration",
+      "url": "gls-main.html#gls-numerical-integration",
+      "tags": [
+        "numerical integration"
+      ],
+      "description": "Methods for approximating definite integrals.",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-poisson-brackets",
+      "title": "Poisson Bracket",
+      "url": "gls-main.html#gls-poisson-brackets",
+      "tags": [
+        "poisson bracket"
+      ],
+      "description": "Provides a fundamental operation in Hamiltonian mechanics and symplectic geometry. Specifically, it tells you how an ...",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-power-spectral-density",
+      "title": "Power Spectral Density",
+      "url": "gls-main.html#gls-power-spectral-density",
+      "tags": [
+        "power spectral density"
+      ],
+      "description": "A function S_{xx}(f) describing how the power of a signal is distributed over frequency f.",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-regression-methods",
+      "title": "Regression Methods",
+      "url": "gls-main.html#gls-regression-methods",
+      "tags": [
+        "regression methods"
+      ],
+      "description": "Methods for fitting models to data.",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-root-finding",
+      "title": "Root-Finding Algorithms",
+      "url": "gls-main.html#gls-root-finding",
+      "tags": [
+        "root-finding algorithms"
+      ],
+      "description": "Methods for solving equations of the form f(x) = 0.",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-significant-figure",
+      "title": "Significant Figure",
+      "url": "gls-main.html#gls-significant-figure",
+      "tags": [
+        "significant figure"
+      ],
+      "description": "A digit of a numerical value that contributes to the precision of a measurement and is therefore crucial for accurate...",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-support",
+      "title": "Support",
+      "url": "gls-main.html#gls-support",
+      "tags": [
+        "support"
+      ],
+      "description": "The subset of the domain X of a function f: X\\rightarrow \\mathbb{R} on which the function is nonzero.",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
       "id": "app-geometric-algebra",
       "title": "Geometric Algebra",
       "url": "app-geometric-algebra.html",
@@ -115,7 +245,7 @@
       "tags": [
         "sifting property"
       ],
-      "description": "The Dirac delta distribution, denoted \\delta(t), is an idealized impulse concentrated\n            at instant in time....",
+      "description": "The Dirac delta distribution, denoted \\delta(t), is an idealized impulse concentrated at instant in time. Although it...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -126,7 +256,7 @@
       "tags": [
         "linear time-invariant systems"
       ],
-      "description": "Here, we introduce the fundamental ideas, terminology, and tools used to analyze one-dimensional signals in\n        t...",
+      "description": "Here, we introduce the fundamental ideas, terminology, and tools used to analyze one-dimensional signals in the time ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -135,7 +265,7 @@
       "title": "Spectral Analysis",
       "url": "subsec-spectral-analysis.html",
       "tags": [],
-      "description": "This section provides a quick-reference guide to translating mathematical\n        definitions into scientific and eng...",
+      "description": "This section provides a quick-reference guide to translating mathematical definitions into scientific and engineering...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -175,7 +305,7 @@
       "title": "Standard Form of a Functional",
       "url": "para-functional.html#def-functional",
       "tags": [],
-      "description": "In the calculus of variations, the standard form of a functional J[y] is typically written as\n            \n          ...",
+      "description": "In the calculus of variations, the standard form of a functional J[y] is typically written as J[y] = \\int_{x_1}^{x_2}...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -186,7 +316,7 @@
       "tags": [
         "stationary"
       ],
-      "description": "A functional is said to be stationary at a point along\n        an admissible path y=f(x) if all first order changes\n ...",
+      "description": "A functional is said to be stationary at a point along an admissible path y=f(x) if all first order changes to that p...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -197,7 +327,7 @@
       "tags": [
         "path"
       ],
-      "description": "A path is a function f(x_1,x_2,\\dots) that assigns the value of one or more dependent\n        variables to each value...",
+      "description": "A path is a function f(x_1,x_2,\\dots) that assigns the value of one or more dependent variables to each value of an i...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -208,7 +338,7 @@
       "tags": [
         "admissible path"
       ],
-      "description": "An admissible path is a path satisfying the boundary\n      conditions along with any additional constraints for a par...",
+      "description": "An admissible path is a path satisfying the boundary conditions along with any additional constraints for a particula...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -246,7 +376,7 @@
       "title": "Dirac delta distribution",
       "url": "subsec-dirac-delta.html#def-dirac-delta-distribution",
       "tags": [],
-      "description": "The Dirac delta distribution \\delta(x)is a generalized distribution that equals zero everywhere\n          except at t...",
+      "description": "The Dirac delta distribution \\delta(x)is a generalized distribution that equals zero everywhere except at the point x...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -257,7 +387,7 @@
       "tags": [
         "normal equation"
       ],
-      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}.\n            Then the ...",
+      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}. Then the normal equat...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -266,7 +396,7 @@
       "title": "Normal Equation",
       "url": "subsec-normal-equation.html#def-normal-equation",
       "tags": [],
-      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}.\n            Then the ...",
+      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}. Then the normal equat...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -290,7 +420,7 @@
         "line of best fit",
         "linear regression"
       ],
-      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right),\n                   ...",
+      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right), we seek the line of...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -301,7 +431,7 @@
       "tags": [
         "line of best fit"
       ],
-      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right),\n                   ...",
+      "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right), we seek the line of...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -310,7 +440,7 @@
       "title": "def-least-squares-solution",
       "url": "subsec-linear-regression.html#def-least-squares-solution",
       "tags": [],
-      "description": "The least squares solution to a system A\\vec{x}=\\vec{b} with no solution is:\n                    \n                   ...",
+      "description": "The least squares solution to a system A\\vec{x}=\\vec{b} with no solution is: A^T\\underbrace{ A\\vec{x}^* }_{ \\mathord{...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -352,7 +482,7 @@
         "accuracy",
         "precision"
       ],
-      "description": "Accuracy and precision are closely related concepts that are often confused. This nuance is important to\n      unders...",
+      "description": "Accuracy and precision are closely related concepts that are often confused. This nuance is important to understand d...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -405,7 +535,7 @@
       "tags": [
         "macroscopic property"
       ],
-      "description": "A macroscopic property is a measurable quantity that describes the collective behavior of a\n        physical system w...",
+      "description": "A macroscopic property is a measurable quantity that describes the collective behavior of a physical system without s...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -416,7 +546,7 @@
       "tags": [
         "macroscopic property"
       ],
-      "description": "A macroscopic property is a measurable quantity that describes the collective behavior of a\n        physical system w...",
+      "description": "A macroscopic property is a measurable quantity that describes the collective behavior of a physical system without s...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -427,7 +557,7 @@
       "tags": [
         "state variable"
       ],
-      "description": "A state variable is a measurable property of a\n        physical system whose value depends only on the equilibrium\n  ...",
+      "description": "A state variable is a measurable property of a physical system whose value depends only on the equilibrium state of t...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -438,7 +568,7 @@
       "tags": [
         "state variable"
       ],
-      "description": "A state variable is a measurable property of a\n        physical system whose value depends only on the equilibrium\n  ...",
+      "description": "A state variable is a measurable property of a physical system whose value depends only on the equilibrium state of t...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -478,7 +608,7 @@
       "tags": [
         "extensive property"
       ],
-      "description": "An extensive property is a physical property whose value scales with the size or\n        amount of material comprisin...",
+      "description": "An extensive property is a physical property whose value scales with the size or amount of material comprising the ph...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -508,7 +638,7 @@
         "physical system",
         "system"
       ],
-      "description": "A physical system is a collection of interacting components whose behavior can be described by a\n        set of measu...",
+      "description": "A physical system is a collection of interacting components whose behavior can be described by a set of measurable ma...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -520,7 +650,7 @@
         "physical system",
         "system"
       ],
-      "description": "A physical system is a collection of interacting components whose behavior can be described by a\n        set of measu...",
+      "description": "A physical system is a collection of interacting components whose behavior can be described by a set of measurable ma...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -531,7 +661,7 @@
       "tags": [
         "macrostate"
       ],
-      "description": "A macrostate is the complete specification of the measurable\n        macroscopic properties that characterize a\n     ...",
+      "description": "A macrostate is the complete specification of the measurable macroscopic properties that characterize a physical syst...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -542,7 +672,7 @@
       "tags": [
         "microstate"
       ],
-      "description": "A microstate is a complete microscopic description of a\n        physical system that specifies the\n        state of e...",
+      "description": "A microstate is a complete microscopic description of a physical system that specifies the state of every constituent...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -580,7 +710,7 @@
       "title": "Fundamental Features",
       "url": "sec-python-gold-standards.html#subsec-key-features",
       "tags": [],
-      "description": "Helps to make long scripts scannable.\n                        Meant to be used as semantic anchor points, not decorat...",
+      "description": "Helps to make long scripts scannable. Meant to be used as semantic anchor points, not decoration.",
       "group": "meta",
       "color": "#f5a623"
     },
@@ -610,7 +740,7 @@
         "statistical reasoning",
         "temporal reasoning"
       ],
-      "description": "Understanding these reasoning patterns allows us to diagnose our own cognitive\n      processes when building Eigenote...",
+      "description": "Understanding these reasoning patterns allows us to diagnose our own cognitive processes when building Eigenotes. We ...",
       "group": "meta",
       "color": "#f5a623"
     },
@@ -623,7 +753,7 @@
         "language structures",
         "reasoning structures"
       ],
-      "description": "The sections in this chapter collect recurring patterns that help organize, communicate, and reason about\n        kno...",
+      "description": "The sections in this chapter collect recurring patterns that help organize, communicate, and reason about knowledge s...",
       "group": "meta",
       "color": "#f5a623"
     },
@@ -671,7 +801,7 @@
         "xml",
         "\ud83d\udd17 interactive"
       ],
-      "description": "202606012315 |\n            pretext xml authoring",
+      "description": "202606012315 | pretext xml authoring",
       "group": "meta",
       "color": "#f5a623"
     },
@@ -881,7 +1011,7 @@
       "title": "Hidden Order Representation",
       "url": "sec-hidden-order-representation.html",
       "tags": [],
-      "description": "Many of the most profound ideas in science are rooted in taking on new perspectives to think about\n      physical sys...",
+      "description": "Many of the most profound ideas in science are rooted in taking on new perspectives to think about physical systems t...",
       "group": "bridges",
       "color": "#50e3c2"
     },
@@ -916,7 +1046,7 @@
       "title": "Physics and Geometric Algebra",
       "url": "sec-physics-and-geometric-algebra.html",
       "tags": [],
-      "description": "The :logo: Eigenscribe \u00a9 methodology  system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to ...",
+      "description": "The :logo: Eigenscribe \u00a9 methodology system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to r...",
       "group": "bridges",
       "color": "#50e3c2"
     },
@@ -928,7 +1058,7 @@
         "classical mechanics",
         "geometric algebra",
         "vector calculus",
-        "\ud83d\udd17"
+        "\ud83d\udd17 interactive"
       ],
       "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems.",
       "group": "bridges",
@@ -974,7 +1104,7 @@
       "title": "Feynman Lectures",
       "url": "sec-feynmann-lectures.html",
       "tags": [],
-      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy...",
+      "description": "The vector potential provides a mathematical framework for electromagnetism that can be generalized to hydrodynamics,...",
       "group": "field-notes",
       "color": "#f8e71c"
     },
@@ -983,7 +1113,7 @@
       "title": "claim-vector-potential-generalization",
       "url": "sec-feynmann-lectures.html#claim-vector-potential-generalization",
       "tags": [],
-      "description": "The vector potential provides a mathematical framework for\n            electromagnetism that can be generalized to hy...",
+      "description": "The vector potential provides a mathematical framework for electromagnetism that can be generalized to hydrodynamics,...",
       "group": "field-notes",
       "color": "#f8e71c"
     },
@@ -1001,7 +1131,7 @@
       "title": "\ud83c\udfad Significant Figures",
       "url": "ch-significant-figures.html",
       "tags": [],
-      "description": "The title of this chapter was inspired by Ian Stewart's Significant Figures: The Lives and Work of Great\n      Mathem...",
+      "description": "The title of this chapter was inspired by Ian Stewart's Significant Figures: The Lives and Work of Great Mathematicia...",
       "group": "significant-figures",
       "color": "#a0a0a0"
     },
@@ -1046,7 +1176,7 @@
         "lagrangian mechanics",
         "variational principles"
       ],
-      "description": "202607290001 |\n        Lagrangian mechanics, Euler-Lagrange, variational principles",
+      "description": "202607290001 | Lagrangian mechanics, Euler-Lagrange, variational principles",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1055,7 +1185,7 @@
       "title": "Physics Formulation of the Euler-Lagrange Equation",
       "url": "sec-euler-lagrange-physics.html#def-euler-lagrange-physics",
       "tags": [],
-      "description": "The Euler-Lagrange equation in physics is\n        the necessary condition satisfied by a function that makes a\n      ...",
+      "description": "The Euler-Lagrange equation in physics is the necessary condition satisfied by a function that makes a functional, st...",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1064,7 +1194,7 @@
       "title": "Action (Classical Mechanics)",
       "url": "sec-euler-lagrange-physics.html#def-action-classical-mechanics",
       "tags": [],
-      "description": "In classical mechanics, the functional for the\n          Euler-Lagrange equation is called the action. \n\n          \n ...",
+      "description": "In classical mechanics, the functional for the Euler-Lagrange equation is called the action. S[q] = \\int_{t_0}^{t_1}{...",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1088,7 +1218,7 @@
         "noether's theorem",
         "variations"
       ],
-      "description": "202608010001 |\n        global symmetry local (gauge) symmetry Noether's theorem\n        variations generators",
+      "description": "202608010001 | global symmetry local (gauge) symmetry Noether's theorem variations generators",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1133,7 +1263,7 @@
       "title": "Entropy in Statistical Mechanics",
       "url": "sec-entropy-taximony.html#subsec-entropy-statistical-mechanics",
       "tags": [],
-      "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by:\n                    \n ...",
+      "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by: S_\\text{Boltzmann} := ...",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1142,7 +1272,7 @@
       "title": "Boltzmann Entropy",
       "url": "sec-entropy-taximony.html#def-boltzmann-entropy",
       "tags": [],
-      "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by:\n                    \n ...",
+      "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by: S_\\text{Boltzmann} := ...",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1151,7 +1281,7 @@
       "title": "Gibbs Entropy",
       "url": "sec-entropy-taximony.html#def-gibbs-entropy",
       "tags": [],
-      "description": "The Gibbs entropy of a macroscopic system is defined in terms of the probabilities p_i of being in microstate i:\n    ...",
+      "description": "The Gibbs entropy of a macroscopic system is defined in terms of the probabilities p_i of being in microstate i: S_\\t...",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1184,7 +1314,7 @@
         "physics",
         "statistics"
       ],
-      "description": "Across mathematics, physics, statistics, and machine learning, the notion of degrees of freedom\n      captures the sa...",
+      "description": "Across mathematics, physics, statistics, and machine learning, the notion of degrees of freedom captures the same ide...",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1199,7 +1329,7 @@
         "\ud83d\udd16 references:",
         "\ud83d\udd87\ufe0f linked notes:"
       ],
-      "description": "202605020001 |\n      Hamiltonian mechanics Noether's theorem",
+      "description": "202605020001 | Hamiltonian mechanics Noether's theorem",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1210,7 +1340,7 @@
       "tags": [
         "conserved in time"
       ],
-      "description": "A quantity Q is said to be conserved in time if\n\n          \n            \\{Q,H\\}=0",
+      "description": "A quantity Q is said to be conserved in time if \\{Q,H\\}=0",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1219,7 +1349,7 @@
       "title": "claim-conserved-in-time",
       "url": "sec-hamiltonian-noether.html#claim-conserved-in-time",
       "tags": [],
-      "description": "A quantity Q is said to be conserved in time if\n\n          \n            \\{Q,H\\}=0",
+      "description": "A quantity Q is said to be conserved in time if \\{Q,H\\}=0",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1272,12 +1402,24 @@
         "state vectors",
         "tensor products"
       ],
-      "description": "202604120001 |\n                tensor products, Qiskit, state vectors",
+      "description": "202604120001 | tensor products, Qiskit, state vectors",
       "group": "practice-problems",
       "color": "#ff6b6b"
     }
   ],
   "links": [
+    {
+      "source": "gls-significant-figure",
+      "target": "def-precision",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "gls-significant-figure",
+      "target": "def-accuracy",
+      "type": "reference",
+      "weight": 2
+    },
     {
       "source": "def-stationary",
       "target": "def-admissible-path",
@@ -1421,6 +1563,12 @@
       "target": "claim-vector-potential-generalization",
       "type": "reference",
       "weight": 2
+    },
+    {
+      "source": "gls-significant-figure",
+      "target": "ch-significant-figures",
+      "type": "prerequisite",
+      "weight": 3
     },
     {
       "source": "sub-lagrange-joseph-louis",

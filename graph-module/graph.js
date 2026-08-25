@@ -643,7 +643,8 @@ class NotesGraph {
       'field-notes': 'var(--color-section)',
       'practice-problems': 'var(--color-definition)',
       'meta': 'var(--color-claim)',
-      'backmatter': 'var(--color-claim)'
+      'backmatter': 'var(--color-claim)',
+      'glossary': 'var(--color-definition)'
     };
 
     if (node.group && groupColors[node.group]) return groupColors[node.group];
@@ -659,6 +660,7 @@ class NotesGraph {
     if (id.startsWith('ga-')) return 'var(--color-ga)';
     if (id.startsWith('claim-')) return 'var(--color-claim)';
     if (id.startsWith('thm-')) return 'var(--color-theorem)';
+    if (id.startsWith('gls-')) return 'var(--color-definition)';
     
     if (node.color) return node.color;
     return 'var(--color-appendix)';
@@ -674,7 +676,8 @@ class NotesGraph {
       'field-notes': 'var(--color-section-dark)',
       'practice-problems': 'var(--color-definition-dark)',
       'meta': 'var(--color-claim-dark)',
-      'backmatter': 'var(--color-claim-dark)'
+      'backmatter': 'var(--color-claim-dark)',
+      'glossary': 'var(--color-definition-dark)'
     };
 
     if (node.group && groupColors[node.group]) return groupColors[node.group];
@@ -690,6 +693,7 @@ class NotesGraph {
     if (id.startsWith('ga-')) return 'var(--color-ga-dark)';
     if (id.startsWith('claim-')) return 'var(--color-claim-dark)';
     if (id.startsWith('thm-')) return 'var(--color-theorem-dark)';
+    if (id.startsWith('gls-')) return 'var(--color-definition-dark)';
     return 'var(--color-appendix-dark)';
   }
 
