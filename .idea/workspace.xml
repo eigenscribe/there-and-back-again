@@ -7,13 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration.">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/EMPIRICAL_FOUNDATIONS/UNCERTAINTY_AND_ERROR/subsec-accuracy-vs-precision.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references.">
       <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-empirical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-empirical-foundations.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/glossary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/glossary.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/ch-significant-figures.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/ch-significant-figures.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00149" summary="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition">
-      <option name="closed" value="true" />
-      <created>1785474470384</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1785474470384</updated>
     </task>
     <task id="LOCAL-00150" summary="added the &lt;term&gt;macrostate&lt;/term&gt; to the macrostate definition">
       <option name="closed" value="true" />
@@ -585,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787637018838</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references.">
+      <option name="closed" value="true" />
+      <created>1787641568055</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1787641568055</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed some typos in the data geometry map table" />
     <MESSAGE value="added a table comparing global symmetry vs. local (gauge) symmetry" />
     <MESSAGE value="polished conceptual-pipeline.ptx" />
     <MESSAGE value="rearranged some sections and subsections in the bridges chapter" />
@@ -628,6 +622,7 @@
     <MESSAGE value="Updated IntelliJ workspace configuration and refined reasoning taxonomy content." />
     <MESSAGE value="Refined reasoning taxonomy examples for clarity and precision." />
     <MESSAGE value="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration." />
+    <MESSAGE value="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references." />
   </component>
 </project>

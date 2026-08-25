@@ -3,8 +3,25 @@
 <appendix xml:id="app-reference" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Empirical Foundations</title>
 
+  <!--
+    <section xml:id="sec-measurement">
+      <title>Measurement</title>
+      <introduction>
+        <p>
+          How scientific evidence is collected and quantified.
+        </p>
+      </introduction>
+
+    </section>
+  -->
+
   <section xml:id="sec-research-methods">
     <title>Research Methods</title>
+    <introduction>
+      <p>
+        How scientific tests are designed and conducted.
+      </p>
+    </introduction>
 
     <xi:include href="EMPIRICAL_FOUNDATIONS/RESEARCH_METHODS/hypotheses.ptx"/>
   </section>
@@ -19,6 +36,19 @@
 
     <xi:include href="EMPIRICAL_FOUNDATIONS/UNCERTAINTY_AND_ERROR/subsec-accuracy-vs-precision.ptx"/>
   </section>
+
+  <!--
+    <section xml:id="sec-scientific-representation">
+      <title>Scientific Representation</title>
+      <introduction>
+        <p>
+          How scientific evidence is communicated.
+        </p>
+      </introduction>
+
+
+    </section>
+  -->
 
   <!--
     <section xml:id="sec-chemistry">
