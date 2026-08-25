@@ -270,7 +270,7 @@ function createCanvasGraph(d3, container, data) {
   const title = document.createElement('div');
   title.id = 'graph-title';
   title.className = 'graph-title';
-  title.textContent = 'There and Back Again Zettel Tree';
+  title.textContent = 'Zettel Tree';
   
   // Apply TOC title styling
   title.style.position = 'absolute';
@@ -506,7 +506,7 @@ function createCanvasGraph(d3, container, data) {
         }, 50);
       } else {
         if (titleElement) {
-          titleElement.textContent = 'There and Back Again Zettel Tree';
+          titleElement.textContent = 'Zettel Tree';
           titleElement.style.opacity = '0.7';
         }
         tooltip.classList.add('hidden');

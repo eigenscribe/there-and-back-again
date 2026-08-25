@@ -7,13 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Enhanced glossary integration in notes graph: added &quot;Glossary&quot; group supports, color coding, and updated IntelliJ workspace configuration.">
+      <change afterPath="$PROJECT_DIR$/source/scribing/eigenotes/sec-eulers-formula.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/graph-toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/graph-toggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/graph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/update_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/update_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/ch-eigenotes.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/ch-eigenotes.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/sec-hamiltonian-noether.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/sec-hamiltonian-noether.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000030347308522" />
-      <entry key="MS500" value="1.0802494978981108" />
-      <entry key="S2" value="2.2116343572264663" />
-      <entry key="S5" value="5.759789525781145" />
-      <entry key="S10" value="10.825250133201305" />
-      <entry key="S30" value="20.25912566074604" />
-      <entry key="S60" value="29.028218621069158" />
-      <entry key="M2" value="46.95106920037594" />
-      <entry key="M5" value="89.17529996457772" />
-      <entry key="M10" value="132.7143533495823" />
-      <entry key="M15" value="161.36405961106763" />
-      <entry key="M30" value="219.30907767020742" />
-      <entry key="H1" value="364.25895336208936" />
-      <entry key="H2" value="783.0742633219195" />
-      <entry key="H4" value="1609.1720072804676" />
-      <entry key="D1" value="6340.396815018919" />
-      <entry key="W1" value="24761.87053193939" />
+      <entry key="MS100" value="1.0030648751633304" />
+      <entry key="MS500" value="1.3578379647361392" />
+      <entry key="S2" value="2.7345773269318148" />
+      <entry key="S5" value="4.827232159421959" />
+      <entry key="S10" value="6.766960411448983" />
+      <entry key="S30" value="11.169984234269785" />
+      <entry key="S60" value="18.050364456604452" />
+      <entry key="M2" value="32.37920944913088" />
+      <entry key="M5" value="66.91049707100463" />
+      <entry key="M10" value="116.70685599901317" />
+      <entry key="M15" value="157.935926560677" />
+      <entry key="M30" value="244.20025820213147" />
+      <entry key="H1" value="402.29385974876647" />
+      <entry key="H2" value="815.2574535046809" />
+      <entry key="H4" value="1638.7859042376417" />
+      <entry key="D1" value="6400.045093916436" />
+      <entry key="W1" value="24847.331167357534" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="1.3403744591899273E-254" />
-      <entry key="S30" value="2.3754289658053564E-85" />
-      <entry key="S60" value="4.873837262163495E-43" />
-      <entry key="M2" value="6.981287318370082E-22" />
-      <entry key="M5" value="3.4480551665688883E-9" />
-      <entry key="M10" value="5.87227214806371E-5" />
-      <entry key="M15" value="0.001512641622525527" />
-      <entry key="M30" value="0.04036697878610386" />
-      <entry key="H1" value="0.2457689706417835" />
-      <entry key="H2" value="0.7767452162708509" />
-      <entry key="H4" value="1.7995513096431002" />
-      <entry key="D1" value="8.16700415001168" />
-      <entry key="W1" value="54.16919887772092" />
+      <entry key="S10" value="4.376020274998877E-289" />
+      <entry key="S30" value="7.592062508737826E-97" />
+      <entry key="S60" value="8.713244234346778E-49" />
+      <entry key="M2" value="9.33447600797536E-25" />
+      <entry key="M5" value="2.4436329827324474E-10" />
+      <entry key="M10" value="1.5632810410418906E-5" />
+      <entry key="M15" value="6.259744934184706E-4" />
+      <entry key="M30" value="0.025967882768729363" />
+      <entry key="H1" value="0.1971206843532526" />
+      <entry key="H2" value="0.6956345775440603" />
+      <entry key="H4" value="1.7030034230678683" />
+      <entry key="D1" value="8.092287877453417" />
+      <entry key="W1" value="54.09812403305571" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794232289437056" />
-      <entry key="MS500" value="1.075549335496764" />
-      <entry key="S2" value="2.2091564528889274" />
-      <entry key="S5" value="5.757573465239912" />
-      <entry key="S10" value="10.823186510026506" />
-      <entry key="S30" value="20.2577279091209" />
-      <entry key="S60" value="29.026766869153263" />
-      <entry key="M2" value="46.94742603497479" />
-      <entry key="M5" value="89.16702812038639" />
-      <entry key="M10" value="132.70520754713755" />
-      <entry key="M15" value="161.35697444120552" />
-      <entry key="M30" value="219.3429601248406" />
-      <entry key="H1" value="364.5002740418479" />
-      <entry key="H2" value="783.8478009753992" />
-      <entry key="H4" value="1610.9687027410603" />
-      <entry key="D1" value="6348.561970976258" />
-      <entry key="W1" value="24816.038746153914" />
+      <entry key="MS100" value="0.9824013642105026" />
+      <entry key="MS500" value="1.3517633115965573" />
+      <entry key="S2" value="2.731354795598962" />
+      <entry key="S5" value="4.824871038292717" />
+      <entry key="S10" value="6.765156293314154" />
+      <entry key="S30" value="11.162961589183919" />
+      <entry key="S60" value="18.03737660736453" />
+      <entry key="M2" value="32.366188340467126" />
+      <entry key="M5" value="66.90185805034726" />
+      <entry key="M10" value="116.69973025230898" />
+      <entry key="M15" value="157.92969837448507" />
+      <entry key="M30" value="244.22031552034736" />
+      <entry key="H1" value="402.48651891470587" />
+      <entry key="H2" value="815.9497623522265" />
+      <entry key="H4" value="1640.4859768871847" />
+      <entry key="D1" value="6408.1355122627365" />
+      <entry key="W1" value="24901.428302550074" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -192,14 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00151" summary="mentioned path independence in the remark about state variables">
-      <option name="closed" value="true" />
-      <created>1785476255071</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1785476255071</updated>
     </task>
     <task id="LOCAL-00152" summary="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter">
       <option name="closed" value="true" />
@@ -585,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787642182077</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="Enhanced glossary integration in notes graph: added &quot;Glossary&quot; group supports, color coding, and updated IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787643761963</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1787643761963</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="polished conceptual-pipeline.ptx" />
     <MESSAGE value="rearranged some sections and subsections in the bridges chapter" />
     <MESSAGE value="updated the concept bridge diagram" />
     <MESSAGE value="fixed a small typo in the mermaid diagram" />
@@ -628,6 +626,7 @@
     <MESSAGE value="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references." />
     <MESSAGE value="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content." />
+    <MESSAGE value="Enhanced glossary integration in notes graph: added &quot;Glossary&quot; group supports, color coding, and updated IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhanced glossary integration in notes graph: added &quot;Glossary&quot; group supports, color coding, and updated IntelliJ workspace configuration." />
   </component>
 </project>

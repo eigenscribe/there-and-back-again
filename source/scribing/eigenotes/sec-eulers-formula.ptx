@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-eulers-formula" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>One Formula to Rule Them All</title>
+
+  <introduction>
+    <p>
+      <tag>202608250001</tag> |
+      <tag>Euler's formula</tag>
+    </p>
+  </introduction>
+
+  <definition>
+    <title>Euler's Formula</title>
+    <idx>euler's formula</idx>
+
+    <statement>
+      <md>
+        e^{\mathcal{I} x} = cos(x) + \mathcal{I} sin(x)
+      </md>
+    </statement>
+  </definition>
+
+  <subsection xml:id="subsec-eulers-identity">
+    <title>One Identity to Rule Them All</title>
+    <idx>euler's identity</idx>
+
+    <definition>
+      <title>Euler's Identity</title>
+
+      <statement>
+        <md>
+          e^{\mathcal{I} x} + 1 = 0
+        </md>
+      </statement>
+
+    </definition>
+  </subsection>
+
+</section>

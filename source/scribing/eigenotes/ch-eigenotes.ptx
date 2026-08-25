@@ -7,6 +7,7 @@
   </introduction>
 
   <xi:include href="sec-degrees-of-freedom.ptx" />
+  <xi:include href="sec-eulers-formula.ptx" />
   <xi:include href="sec-euler-lagrange-physics.ptx" />
   <xi:include href="sec-hamiltonian-noether.ptx" />
   <xi:include href="sec-global-vs-local-symmetry.ptx" />

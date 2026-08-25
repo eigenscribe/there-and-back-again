@@ -1304,6 +1304,29 @@
       "color": "#d0021b"
     },
     {
+      "id": "sec-eulers-formula",
+      "title": "One Formula to Rule Them All",
+      "url": "sec-eulers-formula.html",
+      "tags": [
+        "euler's formula",
+        "euler's identity"
+      ],
+      "description": "202608250001 | Euler's formula",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
+      "id": "subsec-eulers-identity",
+      "title": "One Identity to Rule Them All",
+      "url": "sec-eulers-formula.html#subsec-eulers-identity",
+      "tags": [
+        "euler's identity"
+      ],
+      "description": "e^{\\mathcal{I} x} + 1 = 0",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
       "id": "sec-degrees-of-freedom",
       "title": "Degrees of Freedom",
       "url": "sec-degrees-of-freedom.html",
