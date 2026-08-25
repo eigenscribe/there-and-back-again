@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-significant-figures" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>🎭 Significant Figures</title>
+
+  <introduction>
+    <p>
+      The title of this chapter was inspired by Ian Stewart's <em>Significant Figures: The Lives and Work of Great
+      Mathematicians (2017)</em>, whose title makes a clever literary use of the mathematical term <term>significant
+      figure</term>.  I encountered Stewart's book while sorting through my father's belongings shortly after his
+      passing in the summer of 2026, and its title struck me as a perfect match for the title of this chapter.
+    </p>
+    <p>
+      Here, <em>significant figures</em> refers to influential mathematicians and scientists who built the historical
+      narrative of scientific discovery and curiosity. I retain the title with gratitude to Stewart for the
+      inspiration, and to my Dad for leaving the book where I could find it.
+    </p>
+  </introduction>
+
+  <xi:include href="./pre-quantum/sec-pre-quantum.ptx" />
+  <xi:include href="./sec-post-quantum.ptx" />
+   
+</chapter>

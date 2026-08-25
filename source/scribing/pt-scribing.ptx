@@ -6,6 +6,6 @@
   <xi:include href="./eigenotes/ch-eigenotes.ptx" />
   <xi:include href="./bridges/ch-bridges.ptx" />
   <xi:include href="./field-notes/ch-field-notes.ptx" />
-  <xi:include href="./setting-the-stage/ch-setting-the-stage.ptx" />
+  <xi:include href="./significant-figures/ch-significant-figures.ptx" />
 
 </part>

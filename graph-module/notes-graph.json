@@ -945,6 +945,55 @@
       "color": "#f8e71c"
     },
     {
+      "id": "sec-post-quantum",
+      "title": "Post-Quantum",
+      "url": "sec-post-quantum.html",
+      "tags": [],
+      "description": "",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "ch-significant-figures",
+      "title": "\ud83c\udfad Significant Figures",
+      "url": "ch-significant-figures.html",
+      "tags": [],
+      "description": "The title of this chapter was inspired by Ian Stewart's Significant Figures: The Lives and Work of Great\n      Mathem...",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "sub-lagrange-joseph-louis",
+      "title": "Joseph-Louis Lagrange",
+      "url": "sub-lagrange-joseph-louis.html",
+      "tags": [
+        "joseph-louis lagrange"
+      ],
+      "description": "Years: 1736-1813",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "subsec-boltzmann-ludwig",
+      "title": "Ludwig Boltzmann",
+      "url": "subsec-boltzmann-ludwig.html",
+      "tags": [
+        "ludwig boltzmann"
+      ],
+      "description": "Years: 1844-1906",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "sec-pre-quantum",
+      "title": "Pre-Quantum",
+      "url": "sec-pre-quantum.html",
+      "tags": [],
+      "description": "",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
       "id": "sec-euler-lagrange-physics",
       "title": "Euler-Lagrange Equations in Physics",
       "url": "sec-euler-lagrange-physics.html",
@@ -1150,55 +1199,6 @@
       "color": "#d0021b"
     },
     {
-      "id": "sec-post-quantum",
-      "title": "Post-Quantum",
-      "url": "sec-post-quantum.html",
-      "tags": [],
-      "description": "",
-      "group": "setting-the-stage",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "ch-setting-the-stage",
-      "title": "\ud83c\udfad Setting the Stage",
-      "url": "ch-setting-the-stage.html",
-      "tags": [],
-      "description": "",
-      "group": "setting-the-stage",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "sub-lagrange-joseph-louis",
-      "title": "Joseph-Louis Lagrange",
-      "url": "sub-lagrange-joseph-louis.html",
-      "tags": [
-        "joseph-louis lagrange"
-      ],
-      "description": "Years: 1736-1813",
-      "group": "setting-the-stage",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "subsec-boltzmann-ludwig",
-      "title": "Ludwig Boltzmann",
-      "url": "subsec-boltzmann-ludwig.html",
-      "tags": [
-        "ludwig boltzmann"
-      ],
-      "description": "Years: 1844-1906",
-      "group": "setting-the-stage",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "sec-pre-quantum",
-      "title": "Pre-Quantum",
-      "url": "sec-pre-quantum.html",
-      "tags": [],
-      "description": "",
-      "group": "setting-the-stage",
-      "color": "#a0a0a0"
-    },
-    {
       "id": "ch-sofias-practice-problems",
       "title": "My Practice Problems",
       "url": "ch-sofias-practice-problems.html",
@@ -1380,6 +1380,24 @@
       "weight": 2
     },
     {
+      "source": "sub-lagrange-joseph-louis",
+      "target": "def-action-classical-mechanics",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "subsec-boltzmann-ludwig",
+      "target": "def-boltzmann-entropy",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "subsec-boltzmann-ludwig",
+      "target": "sec-entropy-taximony",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "def-euler-lagrange",
       "target": "def-euler-lagrange-physics",
       "type": "prerequisite",
@@ -1420,24 +1438,6 @@
       "target": "sec-degrees-of-freedom",
       "type": "prerequisite",
       "weight": 3
-    },
-    {
-      "source": "sub-lagrange-joseph-louis",
-      "target": "def-action-classical-mechanics",
-      "type": "reference",
-      "weight": 2
-    },
-    {
-      "source": "subsec-boltzmann-ludwig",
-      "target": "def-boltzmann-entropy",
-      "type": "reference",
-      "weight": 2
-    },
-    {
-      "source": "subsec-boltzmann-ludwig",
-      "target": "sec-entropy-taximony",
-      "type": "reference",
-      "weight": 2
     }
   ]
 }
