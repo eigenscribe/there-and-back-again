@@ -5,5 +5,5 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "pretext>=2.45.0",
+    "pretext>=2.50.0",
 ]

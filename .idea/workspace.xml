@@ -7,10 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added Euler's formula section, updated notes graph with new entries, simplified Zettel Tree title, and adjusted IntelliJ workspace configuration.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refactored Euler's formula content: simplified structure, updated notes graph, and adjusted IntelliJ workspace configuration.">
+      <change beforePath="$PROJECT_DIR$/.devcontainer/devcontainer.json" beforeDir="false" afterPath="$PROJECT_DIR$/.devcontainer/devcontainer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pretext-cli.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pretext-cli.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pretext-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pretext-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/sec-eulers-formula.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/sec-eulers-formula.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codechat_config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/publication/publication.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/publication/publication.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/EMPIRICAL_FOUNDATIONS/UNCERTAINTY_AND_ERROR/subsec-accuracy-vs-precision.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/EMPIRICAL_FOUNDATIONS/UNCERTAINTY_AND_ERROR/subsec-accuracy-vs-precision.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/docinfo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/docinfo.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +50,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0001402219671627" />
-      <entry key="MS500" value="1.169701217210675" />
-      <entry key="S2" value="1.7475928016294557" />
-      <entry key="S5" value="2.24471673031913" />
-      <entry key="S10" value="2.5533077882598594" />
-      <entry key="S30" value="2.831828121040112" />
-      <entry key="S60" value="2.9158906503645783" />
-      <entry key="M2" value="3.344950035381042" />
-      <entry key="M5" value="14.400947539187614" />
-      <entry key="M10" value="51.2692687800179" />
-      <entry key="M15" value="90.76964840521933" />
-      <entry key="M30" value="185.36914511089853" />
-      <entry key="H1" value="350.94827400377795" />
-      <entry key="H2" value="761.1621586455835" />
-      <entry key="H4" value="1583.3458916236766" />
-      <entry key="D1" value="6365.121112184981" />
-      <entry key="W1" value="24830.13375479118" />
+      <entry key="MS100" value="1.0087849404290326" />
+      <entry key="MS500" value="1.9592017049861523" />
+      <entry key="S2" value="4.99367645893826" />
+      <entry key="S5" value="8.159599484219072" />
+      <entry key="S10" value="10.412844000342018" />
+      <entry key="S30" value="12.609620679629003" />
+      <entry key="S60" value="13.471870207757803" />
+      <entry key="M2" value="16.48871190974372" />
+      <entry key="M5" value="31.665832046720006" />
+      <entry key="M10" value="48.68387216408262" />
+      <entry key="M15" value="57.691047340437095" />
+      <entry key="M30" value="69.21324312971649" />
+      <entry key="H1" value="76.15150448036711" />
+      <entry key="H2" value="83.61379538543409" />
+      <entry key="H4" value="191.82096394242595" />
+      <entry key="D1" value="4163.9926479219175" />
+      <entry key="W1" value="23385.87914850032" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="1.47045802758E-312" />
-      <entry key="S30" value="1.1371494462400606E-104" />
-      <entry key="S60" value="1.0663720955839227E-52" />
-      <entry key="M2" value="1.0326529405293536E-26" />
-      <entry key="M5" value="4.0325685177024304E-11" />
-      <entry key="M10" value="6.350529669666861E-6" />
-      <entry key="M15" value="3.433511948079512E-4" />
-      <entry key="M30" value="0.019232135258157895" />
-      <entry key="H1" value="0.1696397718323239" />
-      <entry key="H2" value="0.6453256118189766" />
-      <entry key="H4" value="1.640266409687387" />
-      <entry key="D1" value="8.041822242180817" />
-      <entry key="W1" value="54.04979898901593" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="9.430529333365764E-166" />
+      <entry key="M5" value="9.768197433852228E-67" />
+      <entry key="M10" value="9.883853195829726E-34" />
+      <entry key="M15" value="9.934578693515241E-23" />
+      <entry key="M30" value="1.0345058486159463E-11" />
+      <entry key="H1" value="3.93441713178083E-6" />
+      <entry key="H2" value="0.003107815749422392" />
+      <entry key="H4" value="0.11382890863532642" />
+      <entry key="D1" value="5.155183941874183" />
+      <entry key="W1" value="50.723229512459056" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9795566851770235" />
-      <entry key="MS500" value="1.1645956208835733" />
-      <entry key="S2" value="1.7417394682989957" />
-      <entry key="S5" value="2.2377282621530763" />
-      <entry key="S10" value="2.54804249074269" />
-      <entry key="S30" value="2.829503519950667" />
-      <entry key="S60" value="2.914641159842932" />
-      <entry key="M2" value="3.344158096148217" />
-      <entry key="M5" value="14.399251150050842" />
-      <entry key="M10" value="51.26623350456543" />
-      <entry key="M15" value="90.7661366655316" />
-      <entry key="M30" value="185.3839508720007" />
-      <entry key="H1" value="351.1140494233757" />
-      <entry key="H2" value="761.8043865396368" />
-      <entry key="H4" value="1584.9833289473463" />
-      <entry key="D1" value="6373.161075504688" />
-      <entry key="W1" value="24884.182565672876" />
+      <entry key="MS100" value="0.9879439982693586" />
+      <entry key="MS500" value="1.9484957357985424" />
+      <entry key="S2" value="4.9853548527321605" />
+      <entry key="S5" value="8.153846734484537" />
+      <entry key="S10" value="10.40910165470973" />
+      <entry key="S30" value="12.608090538880065" />
+      <entry key="S60" value="13.471050433798993" />
+      <entry key="M2" value="16.488206150292214" />
+      <entry key="M5" value="31.66543536819096" />
+      <entry key="M10" value="48.68356610927671" />
+      <entry key="M15" value="57.69080557378986" />
+      <entry key="M30" value="69.2130982209643" />
+      <entry key="H1" value="76.15142867024561" />
+      <entry key="H2" value="83.61684648234495" />
+      <entry key="H4" value="191.93457510524854" />
+      <entry key="D1" value="4169.146636564314" />
+      <entry key="W1" value="23436.601450197573" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -189,14 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00153" summary="changed subsection tag to section for physical systems and reconstructed the acknowledgements files in the frontmatter">
-      <option name="closed" value="true" />
-      <created>1785510711683</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1785510711684</updated>
     </task>
     <task id="LOCAL-00154" summary="added the Winston Churchill quote to Dad acknowledgment 🩵">
       <option name="closed" value="true" />
@@ -582,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787651978459</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="Refactored Euler's formula content: simplified structure, updated notes graph, and adjusted IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787652792331</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1787652792331</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,8 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated the concept bridge diagram" />
-    <MESSAGE value="fixed a small typo in the mermaid diagram" />
     <MESSAGE value="updated @conceptual-pipeline.ptx and added boltzmann distribution to @boltzmann-ludwidg.ptx" />
     <MESSAGE value="fixed a typo" />
     <MESSAGE value="fixed some more typos" />
@@ -625,6 +631,8 @@
     <MESSAGE value="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content." />
     <MESSAGE value="Enhanced glossary integration in notes graph: added &quot;Glossary&quot; group supports, color coding, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Added Euler's formula section, updated notes graph with new entries, simplified Zettel Tree title, and adjusted IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Euler's formula section, updated notes graph with new entries, simplified Zettel Tree title, and adjusted IntelliJ workspace configuration." />
+    <MESSAGE value="Simplified notes graph by removing redundant subsections, refined Euler’s formula content, and adjusted IntelliJ workspace configuration." />
+    <MESSAGE value="Refactored Euler's formula content: simplified structure, updated notes graph, and adjusted IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Euler's formula content: simplified structure, updated notes graph, and adjusted IntelliJ workspace configuration." />
   </component>
 </project>

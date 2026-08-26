@@ -54,7 +54,11 @@
       \renewcommand{\resizebox}[3]{\OriginalResizebox{1.0\textwidth}{!}{#3}}
   </latex-image-preamble>
 
+  <directories external="../assets" />
+
   <!-- Cross-reference format -->
-  <cross-references text="type-global" />
+  <defaults>
+    <xrefs text="type-global" />
+  </defaults>
 
 </docinfo>

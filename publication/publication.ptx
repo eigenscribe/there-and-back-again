@@ -45,9 +45,8 @@
   <!-- stored or created.  Directories are relative to the main -->
   <!-- source PreTeXt file                                      -->
   <source>
-    <!-- Paths to folders containing external assets and generated assets -->
-    <!-- relative to your main source file.                               -->
-    <directories external="../assets" generated="../generated-assets" />
+    <!-- Paths to folders containing generated assets relative to your main source file -->
+    <directories generated="../generated-assets" />
   </source>
 
   <numbering>

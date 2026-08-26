@@ -38,6 +38,9 @@
     </title>
 
     <tabular top="major" bottom="major">
+      <col width="20%"/>
+      <col width="40%"/>
+      <col width="40%"/>
 
       <row>
         <cell header="yes"> </cell>
