@@ -203,7 +203,7 @@
       "tags": [
         "spurious correlations"
       ],
-      "description": "",
+      "description": "Non-causal correlations between variables that manifest due to third party factors.",
       "group": "glossary",
       "color": "#f59e0b"
     },
