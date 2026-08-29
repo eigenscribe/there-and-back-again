@@ -1071,10 +1071,22 @@
       "url": "para-clr-compositional-data.html",
       "tags": [
         "centered log-ratio (clr)",
+        "centered log-ratio (clr) transform",
         "compositional data",
         "spurious correlations"
       ],
       "description": "Many scientific datasets naturally consist of compositions. Examples include molecular abundances, microbiome composi...",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
+      "id": "def-clr-transform",
+      "title": "The CLR Transform",
+      "url": "para-clr-compositional-data.html#def-clr-transform",
+      "tags": [
+        "centered log-ratio (clr) transform"
+      ],
+      "description": "The centered log-ratio (CLR) transform of the i^\\text{th} element x_i in a compositional data vector \\mathbf{x} = (x_...",
       "group": "bridges",
       "color": "#50e3c2"
     },

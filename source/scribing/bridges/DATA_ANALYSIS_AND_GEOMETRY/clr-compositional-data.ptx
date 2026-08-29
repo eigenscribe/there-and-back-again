@@ -11,6 +11,8 @@
 
   <paragraphs>
     <title>Compositional Data</title>
+    <idx>compositional data</idx>
+
     <introduction>
       <p>
         Many scientific datasets naturally consist of <xref ref="gls-composition" text="custom">compositions</xref>.
@@ -20,17 +22,52 @@
     </introduction>
 
     <remark>
-      <idx>compositional data</idx>
+      <title>Constant-Sum Constraint</title>
+
       <statement>
         <p>
-          Compositional vectors satisfy a <em>constant-sum constraint</em>. Consequently, increasing one component
+          Compositional vectors satisfy a <alert>constant-sum constraint</alert>. Consequently, increasing one component
           necessarily decreases one or more of the other components. This creates
           <xref ref="gls-spurious-correlations" text="custom">spurious correlations</xref> when
           analyzed using conventional Euclidean methods.
         </p>
+
+        <p>
+          Due to this geometric constraint, methods such as principal component analysis (PCA), singular value
+          decomposition (SVD), and many clustering algorithms are not appropriate for analyzing compositional data.
+        </p>
       </statement>
     </remark>
 
+  </paragraphs>
+
+  <paragraphs>
+    <title>The Centered Log-Ratio (CLR) Transform</title>
+
+    <introduction>
+
+    </introduction>
+
+    <definition xml:id="def-clr-transform">
+      <title>The CLR Transform</title>
+      <idx>centered log-ratio (CLR) transform</idx>
+
+      <statement>
+        <p>
+          The <term>centered log-ratio (CLR) transform</term> of the <m>i^\text{th}</m> element <m>x_i</m> in a
+          compositional data vector <md>\mathbf{x} = (x_1, \dots , x_n) : \sum_i^n{x_i}=1</md> is defined as
+        </p>
+
+        <md>
+          \operatorname{CLR}(x_i) = \ln {\left(\frac{x_i}{g(\mathbf{x})} \right)}
+        </md>
+
+        <p>
+          where <m>g(\mathbf{x})</m> denotes the geometric mean of the elements in <m>\mathbf{x}</m>.
+        </p>
+      </statement>
+
+    </definition>
   </paragraphs>
 
 </subsection>
