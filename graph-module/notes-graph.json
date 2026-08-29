@@ -69,6 +69,7 @@
       "title": "Glossary",
       "url": "gls-main.html",
       "tags": [
+        "composition",
         "distribution",
         "first-principles reasoning",
         "function",
@@ -80,7 +81,18 @@
         "significant figure",
         "support"
       ],
-      "description": "A mathematical description of how a quantity (e.g., a probability) is allocated across a set of outcomes or values.",
+      "description": "Vectors whose components correspond with relative proportions of a whole.",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-composition",
+      "title": "Composition",
+      "url": "gls-main.html#gls-composition",
+      "tags": [
+        "composition"
+      ],
+      "description": "Vectors whose components correspond with relative proportions of a whole.",
       "group": "glossary",
       "color": "#f59e0b"
     },
@@ -1042,6 +1054,15 @@
       "color": "#50e3c2"
     },
     {
+      "id": "para-clr-compositional-data",
+      "title": "Compositional Data and the Centered Log-Ratio Transform",
+      "url": "para-clr-compositional-data.html",
+      "tags": [],
+      "description": "Many scientific datasets naturally consist of compositions. Examples include molecular abundances, microbiome composi...",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
       "id": "sec-physics-and-geometric-algebra",
       "title": "Physics and Geometric Algebra",
       "url": "sec-physics-and-geometric-algebra.html",
@@ -1548,6 +1569,12 @@
     {
       "source": "sec-physical-properties",
       "target": "conceptual-pipeline",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "gls-composition",
+      "target": "para-clr-compositional-data",
       "type": "prerequisite",
       "weight": 3
     },

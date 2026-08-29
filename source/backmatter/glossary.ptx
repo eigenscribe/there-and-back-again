@@ -3,6 +3,17 @@
 <glossary xml:id="gls-main" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Glossary</title>
 
+  <gi xml:id="gls-composition">
+    <title>Composition</title>
+    <idx>composition</idx>
+
+    <statement>
+      <p>
+        Vectors whose components correspond with relative proportions of a whole.
+      </p>
+    </statement>
+  </gi>
+
   <gi xml:id="gls-distribution">
     <title>Distribution</title>
     <idx>distribution</idx>

@@ -15,5 +15,6 @@
   </introduction>
 
   <xi:include href="tab-data-geometry-map.ptx"/>
+  <xi:include href="clr-compositional-data.ptx"/>
 
  </section>

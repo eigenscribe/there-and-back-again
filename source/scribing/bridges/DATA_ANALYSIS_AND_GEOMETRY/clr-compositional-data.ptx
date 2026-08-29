@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="para-clr-compositional-data" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Compositional Data and the Centered Log-Ratio Transform</title>
+
+    <paragraphs>
+      <title>Compositional Data</title>
+
+
+
+  <introduction>
+    <p>
+      Many scientific datasets naturally consist of <xref ref="gls-composition" text="custom">compositions</xref>.
+      Examples include molecular abundances, microbiome compositions, mineral fractions, metabolite concentrations, and
+      probability distributions over discrete states.
+    </p>
+  </introduction>
+
+  <remark>
+    <statement>
+      <p>
+        Compositional vectors satisfy a <em>constant-sum constraint</em>. Consequently, increasing one component
+        necessarily decreases one or more of the other components. This creates <em>spurious correlations</em> when
+        analyzed using conventional Euclidean methods.
+      </p>
+    </statement>
+  </remark>
+
+    </paragraphs>
+
+</subsection>

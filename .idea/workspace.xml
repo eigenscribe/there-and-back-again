@@ -7,8 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration.">
+      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/DATA_ANALYSIS_AND_GEOMETRY/clr-compositional-data.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/glossary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/glossary.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scribing/bridges/DATA_ANALYSIS_AND_GEOMETRY/sec-data-analysis-and-geometry.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/DATA_ANALYSIS_AND_GEOMETRY/sec-data-analysis-and-geometry.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.001154021139153" />
-      <entry key="MS500" value="1.327663844975247" />
-      <entry key="S2" value="2.524369296074026" />
-      <entry key="S5" value="3.269633898295252" />
-      <entry key="S10" value="3.7697965652610064" />
-      <entry key="S30" value="5.015737628036301" />
-      <entry key="S60" value="5.958735102012218" />
-      <entry key="M2" value="8.041054742611252" />
-      <entry key="M5" value="14.901260703013088" />
-      <entry key="M10" value="24.342764575321485" />
-      <entry key="M15" value="34.215852299241696" />
-      <entry key="M30" value="60.613125059891125" />
-      <entry key="H1" value="90.15822008807761" />
-      <entry key="H2" value="115.76482453386589" />
-      <entry key="H4" value="222.76223337001437" />
-      <entry key="D1" value="4126.773732342128" />
-      <entry key="W1" value="23367.54345982182" />
+      <entry key="MS100" value="1.0000155794086565" />
+      <entry key="MS500" value="1.1092723275526173" />
+      <entry key="S2" value="1.5760200072930592" />
+      <entry key="S5" value="1.8708172768774936" />
+      <entry key="S10" value="2.2326045775421903" />
+      <entry key="S30" value="4.494383894028603" />
+      <entry key="S60" value="8.66289594655119" />
+      <entry key="M2" value="16.23071120866959" />
+      <entry key="M5" value="43.50791470446425" />
+      <entry key="M10" value="82.2448833457616" />
+      <entry key="M15" value="108.81528975182715" />
+      <entry key="M30" value="159.17923852268228" />
+      <entry key="H1" value="213.2449579992347" />
+      <entry key="H2" value="261.70483387105776" />
+      <entry key="H4" value="374.80324848043483" />
+      <entry key="D1" value="4221.8452098339385" />
+      <entry key="W1" value="23480.28883536214" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -67,35 +70,35 @@
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
-      <entry key="M2" value="4.359241353827968E-173" />
-      <entry key="M5" value="1.1370102158549586E-69" />
-      <entry key="M10" value="3.372106288918954E-35" />
-      <entry key="M15" value="1.0450396462899082E-23" />
-      <entry key="M30" value="3.355247848987603E-12" />
-      <entry key="H1" value="2.2406613897258204E-6" />
-      <entry key="H2" value="0.002345325779549112" />
-      <entry key="H4" value="0.09888411454096546" />
-      <entry key="D1" value="5.035661073445957" />
-      <entry key="W1" value="50.55353332318216" />
+      <entry key="M2" value="4.889398790795763E-180" />
+      <entry key="M5" value="1.8866971140952574E-72" />
+      <entry key="M10" value="1.3736312560286616E-36" />
+      <entry key="M15" value="1.23721555899561E-24" />
+      <entry key="M30" value="1.1544653688610045E-12" />
+      <entry key="H1" value="1.3143298826586135E-6" />
+      <entry key="H2" value="0.0017962519518848813" />
+      <entry key="H4" value="0.0865383413311808" />
+      <entry key="D1" value="4.924968968575136" />
+      <entry key="W1" value="50.393267149374246" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9737543307593125" />
-      <entry key="MS500" value="1.3193081670292603" />
-      <entry key="S2" value="2.5200822367246585" />
-      <entry key="S5" value="3.2673862152976176" />
-      <entry key="S10" value="3.768496207981496" />
-      <entry key="S30" value="5.0151596056551755" />
-      <entry key="S60" value="5.958393044425705" />
-      <entry key="M2" value="8.040829596962528" />
-      <entry key="M5" value="14.901097248486026" />
-      <entry key="M10" value="24.342628438260025" />
-      <entry key="M15" value="34.215721937850994" />
-      <entry key="M30" value="60.6130060506382" />
-      <entry key="H1" value="90.15813246935667" />
-      <entry key="H2" value="115.76710195818873" />
-      <entry key="H4" value="222.86091493084416" />
-      <entry key="D1" value="4131.808223465986" />
-      <entry key="W1" value="23418.096068092866" />
+      <entry key="MS100" value="0.972670206201348" />
+      <entry key="MS500" value="1.1032889890865376" />
+      <entry key="S2" value="1.5740346002015655" />
+      <entry key="S5" value="1.8698636199063126" />
+      <entry key="S10" value="2.231989635815286" />
+      <entry key="S30" value="4.493922434070229" />
+      <entry key="S60" value="8.662407009701264" />
+      <entry key="M2" value="16.230019845130492" />
+      <entry key="M5" value="43.50672342080417" />
+      <entry key="M10" value="82.24353279983224" />
+      <entry key="M15" value="108.81403812254237" />
+      <entry key="M30" value="159.17832464975032" />
+      <entry key="H1" value="213.24438346826668" />
+      <entry key="H2" value="261.70629117512186" />
+      <entry key="H4" value="374.88945921371845" />
+      <entry key="D1" value="4226.769008510514" />
+      <entry key="W1" value="23530.681176643957" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -188,14 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00157" summary="polished physical foundations defintions">
-      <option name="closed" value="true" />
-      <created>1785514266454</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1785514266454</updated>
     </task>
     <task id="LOCAL-00158" summary="polished marcrostate and microstate paragraphs">
       <option name="closed" value="true" />
@@ -581,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787972052558</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787972513479</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1787972513479</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed some more typos" />
     <MESSAGE value="added a physical landscape definition" />
     <MESSAGE value="added &quot;formulaziation&quot; and &quot;inference&quot; definitions" />
     <MESSAGE value="updated dirac delta distribution definition in the differential equations section" />
@@ -624,6 +626,7 @@
     <MESSAGE value="Refactored Euler's formula content: simplified structure, updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Removed &quot;Physics-Informed Machine Learning&quot; section and related content, updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration." />
+    <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration." />
   </component>
 </project>
