@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined navbar styling with updated hover/active states, enhanced gradients, improved glowing effects, adjusted text contrast, and updated IntelliJ workspace configuration.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration.">
       <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00179" summary="fixed some more typos">
-      <option name="closed" value="true" />
-      <created>1785657159634</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1785657159634</updated>
     </task>
     <task id="LOCAL-00180" summary="added a physical landscape definition">
       <option name="closed" value="true" />
@@ -580,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787994656457</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787995280022</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1787995280022</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed &quot;Physics-Informed Machine Learning&quot; section and related content, updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Added &quot;Compositional Data&quot; subsection with centered log-ratio transform details, updated glossary and notes graph with &quot;Composition&quot; entry, and adjusted IntelliJ workspace configuration." />
@@ -623,6 +622,7 @@
     <MESSAGE value="Refined navbar styling with adjusted gradients, improved hover and active states, enhanced text contrast, updated glowing effects, and revised IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar styling with updated gradients, improved hover/active states, enhanced text contrast, adjusted glowing effects, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar styling with updated hover/active states, enhanced gradients, improved glowing effects, adjusted text contrast, and updated IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined navbar styling with updated hover/active states, enhanced gradients, improved glowing effects, adjusted text contrast, and updated IntelliJ workspace configuration." />
+    <MESSAGE value="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration." />
   </component>
 </project>
