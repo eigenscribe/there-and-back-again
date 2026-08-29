@@ -24,6 +24,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 3px rgba(20, 181, 255, 0.3)) drop-shadow(0 0 6px rgba(121, 82, 245, 0.18)) brightness(1.05);
+  transition: filter 0.3s ease;
 }
 
 .ptx-masthead .title-container .ptx-banner-heading .subtitle {
@@ -35,6 +37,8 @@
   -webkit-text-fill-color: transparent;
   display: inline-block;
   margin-left: 0.5rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 2px rgba(20, 181, 255, 0.25)) drop-shadow(0 0 5px rgba(121, 82, 245, 0.15)) brightness(1.04);
+  transition: filter 0.3s ease;
 }
 
 .ptx-masthead .title-container h1,
@@ -43,13 +47,24 @@
 }
 
 .ptx-masthead .title-container h1 a,
-.ptx-masthead .title-container .heading a {
+.ptx-masthead .title-container .heading a,
+.ptx-masthead .title-container .ptx-banner-heading a {
   font-family: var(--font-aclonica) !important;
   background: var(--gradient-cyan-to-blue);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none !important;
+  pointer-events: none !important;
+  cursor: default !important;
+}
+
+.ptx-masthead .title-container h1 a:hover,
+.ptx-masthead .title-container .heading a:hover,
+.ptx-masthead .title-container .ptx-banner-heading a:hover {
+  text-decoration: none !important;
+  pointer-events: none !important;
+  cursor: default !important;
 }
 
 /* Ensure inline `code` in masthead titles renders with its own styling

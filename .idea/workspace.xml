@@ -7,14 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Compositional Data&quot; subsection with centered log-ratio transform details, updated glossary and notes graph with &quot;Composition&quot; entry, and adjusted IntelliJ workspace configuration." />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated IntelliJ workspace configuration, refined &quot;Compositional Data&quot; subsection formatting, and enhanced notes graph and glossary alignment.">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/there-and-back-again.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/there-and-back-again.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/masthead.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/masthead.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2962" />
+    <option name="cachedIndexableFilesCount" value="2996" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -38,23 +45,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000029842178" />
-      <entry key="MS500" value="1.0197226880017518" />
-      <entry key="S2" value="1.3747499004388868" />
-      <entry key="S5" value="1.6753000388542643" />
-      <entry key="S10" value="1.8225911703536903" />
-      <entry key="S30" value="2.2591659515758065" />
-      <entry key="S60" value="4.288388487844108" />
-      <entry key="M2" value="10.384250223270573" />
-      <entry key="M5" value="35.424895812218004" />
-      <entry key="M10" value="74.09123664753133" />
-      <entry key="M15" value="101.66498469669523" />
-      <entry key="M30" value="154.34015854090973" />
-      <entry key="H1" value="210.61387031806623" />
-      <entry key="H2" value="260.8475501560023" />
-      <entry key="H4" value="374.7516490793708" />
-      <entry key="D1" value="4219.98503819124" />
-      <entry key="W1" value="23479.220676438406" />
+      <entry key="MS100" value="1.2975589065582092" />
+      <entry key="MS500" value="3.3555130363073773" />
+      <entry key="S2" value="6.4326718727702765" />
+      <entry key="S5" value="7.7655369549599875" />
+      <entry key="S10" value="8.338708400836882" />
+      <entry key="S30" value="9.081316643739184" />
+      <entry key="S60" value="11.169470459323648" />
+      <entry key="M2" value="17.2802182800669" />
+      <entry key="M5" value="42.31011635241024" />
+      <entry key="M10" value="80.9773407921737" />
+      <entry key="M15" value="108.56218501636361" />
+      <entry key="M30" value="161.2630929623048" />
+      <entry key="H1" value="217.56162826937225" />
+      <entry key="H2" value="267.8153103568331" />
+      <entry key="H4" value="381.72859316115324" />
+      <entry key="D1" value="4226.9421722530415" />
+      <entry key="W1" value="23486.186630936914" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -64,35 +71,35 @@
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
-      <entry key="M2" value="2.5305899332239082E-180" />
-      <entry key="M5" value="1.4497352915625766E-72" />
-      <entry key="M10" value="1.2041024148839166E-36" />
-      <entry key="M15" value="1.1332025636200341E-24" />
-      <entry key="M30" value="1.1048720754809555E-12" />
-      <entry key="H1" value="1.285789651232857E-6" />
-      <entry key="H2" value="0.0017766424104226292" />
-      <entry key="H4" value="0.08606467891242514" />
-      <entry key="D1" value="4.920465934305614" />
-      <entry key="W1" value="50.38668229048157" />
+      <entry key="M2" value="2.512166489852583E-180" />
+      <entry key="M5" value="1.4455042340753988E-72" />
+      <entry key="M10" value="1.2023440424510265E-36" />
+      <entry key="M15" value="1.1320990708667943E-24" />
+      <entry key="M30" value="1.1043339919442365E-12" />
+      <entry key="H1" value="1.285476517018132E-6" />
+      <entry key="H2" value="0.0017764260603373445" />
+      <entry key="H4" value="0.08605943850292794" />
+      <entry key="D1" value="4.920415999165848" />
+      <entry key="W1" value="50.38660924057709" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794203004694914" />
-      <entry key="MS500" value="1.015436206538844" />
-      <entry key="S2" value="1.3730618902286595" />
-      <entry key="S5" value="1.674416316931791" />
-      <entry key="S10" value="1.8220982674714656" />
-      <entry key="S30" value="2.258955325048228" />
-      <entry key="S60" value="4.288166955544444" />
-      <entry key="M2" value="10.383846655884824" />
-      <entry key="M5" value="35.42396202311319" />
-      <entry key="M10" value="74.09004355825871" />
-      <entry key="M15" value="101.66383213926271" />
-      <entry key="M30" value="154.33928084739614" />
-      <entry key="H1" value="210.6133067230433" />
-      <entry key="H2" value="260.84899078076023" />
-      <entry key="H4" value="374.83738755832974" />
-      <entry key="D1" value="4224.904334839396" />
-      <entry key="W1" value="23529.60643297314" />
+      <entry key="MS100" value="1.2601109629300118" />
+      <entry key="MS500" value="3.3345287181636807" />
+      <entry key="S2" value="6.422569850605144" />
+      <entry key="S5" value="7.76064745910373" />
+      <entry key="S10" value="8.336079778168049" />
+      <entry key="S30" value="9.08036215207321" />
+      <entry key="S60" value="11.168874059978688" />
+      <entry key="M2" value="17.279627825007555" />
+      <entry key="M5" value="42.30910916894892" />
+      <entry key="M10" value="80.97611135375534" />
+      <entry key="M15" value="108.5610081799481" />
+      <entry key="M30" value="161.2622029920572" />
+      <entry key="H1" value="217.56105845863493" />
+      <entry key="H2" value="267.81674762945477" />
+      <entry key="H4" value="381.81432483115736" />
+      <entry key="D1" value="4231.86141871318" />
+      <entry key="W1" value="23536.57231438527" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -185,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00159" summary="polished marcrostate and microstate paragraphs and added a degrees of freedom page in the bridges chapter">
-      <option name="closed" value="true" />
-      <created>1785519138674</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1785519138675</updated>
     </task>
     <task id="LOCAL-00160" summary="updated pretext">
       <option name="closed" value="true" />
@@ -578,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787975350873</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="Updated IntelliJ workspace configuration, refined &quot;Compositional Data&quot; subsection formatting, and enhanced notes graph and glossary alignment.">
+      <option name="closed" value="true" />
+      <created>1787976523755</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1787976523755</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added &quot;formulaziation&quot; and &quot;inference&quot; definitions" />
     <MESSAGE value="updated dirac delta distribution definition in the differential equations section" />
     <MESSAGE value="added `pyproject.toml`, dependency lock file, and IntelliJ module files" />
     <MESSAGE value="added function definition to glossary in `glossary.ptx`" />
@@ -621,6 +627,7 @@
     <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Added &quot;Compositional Data&quot; subsection with centered log-ratio transform details, updated glossary and notes graph with &quot;Composition&quot; entry, and adjusted IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Compositional Data&quot; subsection with centered log-ratio transform details, updated glossary and notes graph with &quot;Composition&quot; entry, and adjusted IntelliJ workspace configuration." />
+    <MESSAGE value="Updated IntelliJ workspace configuration, refined &quot;Compositional Data&quot; subsection formatting, and enhanced notes graph and glossary alignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated IntelliJ workspace configuration, refined &quot;Compositional Data&quot; subsection formatting, and enhanced notes graph and glossary alignment." />
   </component>
 </project>

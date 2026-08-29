@@ -210,26 +210,40 @@
 
 /* Front Matter page title - matches website header gradient */
 .ptx-content section.frontmatter > :is(h1, h2).heading {
-  background: linear-gradient(110deg, #00ffee 0%, #00d4ff 61.8%, #1e90ff 100%) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  font-family: var(--font-aclonica) !important;
   display: block !important;
   width: fit-content;
   max-width: 100%;
   border-bottom: none !important;
+  margin-bottom: 1.5rem;
+  background: none !important;
 }
 
-.ptx-content section.frontmatter > :is(h1, h2).heading > * {
-  background: none !important;
-  -webkit-background-clip: initial !important;
-  background-clip: initial !important;
-  -webkit-text-fill-color: inherit !important;
+.ptx-content section.frontmatter > :is(h1, h2).heading .title {
+  font-family: var(--font-aclonica) !important;
+  font-size: 2.5rem !important;
+  background: var(--gradient-cyan-to-blue);
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 3px rgba(20, 181, 255, 0.3)) drop-shadow(0 0 6px rgba(121, 82, 245, 0.18)) brightness(1.05);
+}
+
+.ptx-content section.frontmatter > :is(h1, h2).heading .subtitle {
+  font-family: var(--font-aclonica) !important;
+  font-size: 1.75rem !important;
+  background: var(--gradient-cyan-to-blue);
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: block;
+  margin-top: 0.5rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 2px rgba(20, 181, 255, 0.25)) drop-shadow(0 0 5px rgba(121, 82, 245, 0.15)) brightness(1.04);
 }
 
 .ptx-content section.frontmatter > :is(h1, h2).heading::after {
   display: none !important;
-  background: linear-gradient(110deg, #00ffee 0%, #00d4ff 61.8%, #1e90ff 100%) !important;
 }
 
 .ptx-content section.introduction {

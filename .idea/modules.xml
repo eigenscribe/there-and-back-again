@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../tse-landing-page/.idea/stream-links.iml" filepath="$PROJECT_DIR$/../tse-landing-page/.idea/stream-links.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/there-and-back-again.iml" filepath="$PROJECT_DIR$/.idea/there-and-back-again.iml" />
     </modules>
   </component>
