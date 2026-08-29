@@ -13,15 +13,15 @@
     <title>Compositional Data</title>
     <idx>compositional data</idx>
 
-    <introduction>
+    <assemblage>
       <p>
         Many scientific datasets naturally consist of <xref ref="gls-composition" text="custom">compositions</xref>.
         Examples include molecular abundances, microbiome compositions, mineral fractions, metabolite concentrations, and
         probability distributions over discrete states.
       </p>
-    </introduction>
+    </assemblage>
 
-    <remark>
+    <remark xml:id="remark-compositional-data-constraint">
       <title>Constant-Sum Constraint</title>
 
       <statement>
@@ -44,9 +44,14 @@
   <paragraphs>
     <title>The Centered Log-Ratio (CLR) Transform</title>
 
-    <introduction>
-
-    </introduction>
+    <assemblage>
+      <p>
+        The <xref ref="def-clr-transform" text="custom">centered log-ratio (CLR) transform</xref> can be used to
+        overcome the <xref ref="remark-compositional-data-constraint" text="custom">constant-sum constraint</xref>. It
+        acts as a map from the original simplex into an unconstrained Euclidean space as it effectively compares each
+        element of the composition to the geometric mean of the entire composition.
+      </p>
+    </assemblage>
 
     <definition xml:id="def-clr-transform">
       <title>The CLR Transform</title>
@@ -68,6 +73,14 @@
       </statement>
 
     </definition>
+
+    <assemblage>
+      <p>
+        After applying the CLR transform, conventional Euclidean techniques such as PCA, POD, SVD, clustering, and
+        manifold learning become mathematically appropriate. This is because distances under the CLR transformation
+        between two elements correspond with relative rather than absolute differences.
+      </p>
+    </assemblage>
   </paragraphs>
 
 </subsection>

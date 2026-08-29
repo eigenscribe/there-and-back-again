@@ -1613,6 +1613,12 @@
       "weight": 3
     },
     {
+      "source": "para-clr-compositional-data",
+      "target": "def-clr-transform",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "def-ga-uniform-b-field-vector-potential",
       "target": "claim-vector-potential-generalization",
       "type": "reference",
