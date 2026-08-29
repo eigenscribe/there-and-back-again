@@ -2,18 +2,18 @@
 /*  Section 9: Navbar, Footer, and Navigation Controls          */
 /* ============================================================ */
 .ptx-navbar {
-  background: linear-gradient(90deg, #051428 0%, #091d3e 30%, #0c2350 60%, #111e48 85%, #1c1539 100%) !important;
-  border-bottom: 1px solid rgba(56, 189, 248, 0.35) !important;
-  border-top: 1px solid rgba(0, 232, 255, 0.4) !important;
-  -webkit-backdrop-filter: blur(14px) !important;
-  backdrop-filter: blur(14px) !important;
+  background: linear-gradient(90deg, rgba(2, 6, 16, 0.88) 0%, rgba(5, 12, 28, 0.84) 30%, rgba(7, 14, 35, 0.84) 60%, rgba(11, 10, 32, 0.84) 85%, rgba(16, 8, 26, 0.88) 100%) !important;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.25) !important;
+  border-top: 1px solid rgba(0, 232, 255, 0.3) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
   padding: 0.6rem 1.25rem !important;
   position: sticky !important;
   top: 0 !important;
   z-index: 500 !important;
   display: flex !important;
   align-items: center !important;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(0, 232, 255, 0.25), inset 0 -1px 0 rgba(56, 189, 248, 0.2) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.7), inset 0 1px 0 0 rgba(255, 255, 255, 0.08), inset 0 -1px 0 0 rgba(56, 189, 248, 0.15) !important;
   min-height: 52px !important;
   box-sizing: border-box !important;
 }
@@ -74,8 +74,14 @@
   background: linear-gradient(135deg, rgba(4, 28, 48, 0.8) 0%, rgba(6, 38, 65, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(0, 232, 255, 0.5) 0%, rgba(20, 181, 255, 0.38) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  color: #38e1ff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(0, 232, 255, 0.35) !important;
+}
+
+.ptx-navbar .toc-toggle .name,
+.ptx-navbar #ptx-toc-toggle .name {
+  color: #38e1ff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(0, 232, 255, 0.35) !important;
 }
 
 .ptx-navbar .toc-toggle .icon,
@@ -88,8 +94,13 @@
   background: linear-gradient(135deg, rgba(6, 32, 58, 0.8) 0%, rgba(10, 36, 70, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(20, 181, 255, 0.5) 0%, rgba(56, 189, 248, 0.38) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  color: #60cdff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(56, 189, 248, 0.35) !important;
+}
+
+.ptx-navbar .index-button .name {
+  color: #60cdff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(56, 189, 248, 0.35) !important;
 }
 
 .ptx-navbar .index-button .icon {
@@ -101,8 +112,13 @@
   background: linear-gradient(135deg, rgba(8, 28, 65, 0.8) 0%, rgba(18, 26, 75, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(56, 189, 248, 0.5) 0%, rgba(99, 102, 241, 0.42) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  color: #9da8ff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(129, 140, 248, 0.35) !important;
+}
+
+.ptx-navbar .ptx-search-button .name {
+  color: #9da8ff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(129, 140, 248, 0.35) !important;
 }
 
 .ptx-navbar .ptx-search-button .icon {
@@ -114,8 +130,13 @@
   background: linear-gradient(135deg, rgba(16, 24, 72, 0.8) 0%, rgba(28, 22, 78, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(99, 102, 241, 0.5) 0%, rgba(139, 92, 246, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  color: #c4b5fd !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(167, 139, 250, 0.35) !important;
+}
+
+.ptx-navbar .ptx-read-aloud-button .name {
+  color: #c4b5fd !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(167, 139, 250, 0.35) !important;
 }
 
 .ptx-navbar .ptx-read-aloud-button .icon {
@@ -127,8 +148,13 @@
   background: linear-gradient(135deg, rgba(28, 20, 75, 0.8) 0%, rgba(42, 18, 75, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(139, 92, 246, 0.5) 0%, rgba(192, 38, 211, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  color: #d8b4fe !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(192, 132, 252, 0.35) !important;
+}
+
+.ptx-navbar .ptx-readability-options-button .name {
+  color: #d8b4fe !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(192, 132, 252, 0.35) !important;
 }
 
 .ptx-navbar .ptx-readability-options-button .icon {
@@ -140,8 +166,13 @@
   background: linear-gradient(135deg, rgba(42, 18, 72, 0.8) 0%, rgba(52, 16, 70, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(192, 38, 211, 0.5) 0%, rgba(217, 70, 239, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  color: #f0abfc !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(232, 121, 249, 0.35) !important;
+}
+
+.ptx-navbar .previous-button .name {
+  color: #f0abfc !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(232, 121, 249, 0.35) !important;
 }
 
 .ptx-navbar .previous-button .icon {
@@ -153,8 +184,13 @@
   background: linear-gradient(135deg, rgba(50, 16, 68, 0.8) 0%, rgba(58, 14, 62, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(217, 70, 239, 0.5) 0%, rgba(236, 72, 153, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  color: #f9a8d4 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(244, 114, 182, 0.35) !important;
+}
+
+.ptx-navbar .up-button .name {
+  color: #f9a8d4 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(244, 114, 182, 0.35) !important;
 }
 
 .ptx-navbar .up-button .icon {
@@ -166,8 +202,13 @@
   background: linear-gradient(135deg, rgba(56, 14, 60, 0.8) 0%, rgba(62, 12, 50, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(236, 72, 153, 0.5) 0%, rgba(244, 63, 94, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  color: #fda4af !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(251, 113, 133, 0.35) !important;
+}
+
+.ptx-navbar .next-button .name {
+  color: #fda4af !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(251, 113, 133, 0.35) !important;
 }
 
 .ptx-navbar .next-button .icon {
@@ -203,56 +244,113 @@
   background: linear-gradient(135deg, rgba(6, 36, 62, 0.88) 0%, rgba(8, 46, 78, 0.85) 100%) padding-box,
               linear-gradient(135deg, #00e8ff 0%, #14b5ff 100%) border-box !important;
   border: 1px solid transparent !important;
+  color: #70e8ff !important;
+  text-shadow: 0 0 8px rgba(0, 232, 255, 0.7) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(0, 232, 255, 0.4) !important;
+}
+
+.ptx-navbar .toc-toggle:hover .name,
+.ptx-navbar #ptx-toc-toggle:hover .name {
+  color: #70e8ff !important;
+  text-shadow: 0 0 8px rgba(0, 232, 255, 0.7) !important;
 }
 
 .ptx-navbar .index-button:hover {
   background: linear-gradient(135deg, rgba(8, 38, 70, 0.88) 0%, rgba(12, 44, 82, 0.85) 100%) padding-box,
               linear-gradient(135deg, #14b5ff 0%, #38bdf8 100%) border-box !important;
   border: 1px solid transparent !important;
+  color: #90dbff !important;
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.7) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(20, 181, 255, 0.4) !important;
+}
+
+.ptx-navbar .index-button:hover .name {
+  color: #90dbff !important;
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.7) !important;
 }
 
 .ptx-navbar .ptx-search-button:hover {
   background: linear-gradient(135deg, rgba(10, 32, 78, 0.88) 0%, rgba(20, 30, 88, 0.85) 100%) padding-box,
               linear-gradient(135deg, #38bdf8 0%, #818cf8 100%) border-box !important;
   border: 1px solid transparent !important;
+  color: #b9c2ff !important;
+  text-shadow: 0 0 8px rgba(129, 140, 248, 0.7) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(129, 140, 248, 0.4) !important;
+}
+
+.ptx-navbar .ptx-search-button:hover .name {
+  color: #b9c2ff !important;
+  text-shadow: 0 0 8px rgba(129, 140, 248, 0.7) !important;
 }
 
 .ptx-navbar .ptx-read-aloud-button:hover {
   background: linear-gradient(135deg, rgba(18, 28, 85, 0.88) 0%, rgba(32, 24, 92, 0.85) 100%) padding-box,
               linear-gradient(135deg, #818cf8 0%, #a78bfa 100%) border-box !important;
   border: 1px solid transparent !important;
+  color: #ddd6fe !important;
+  text-shadow: 0 0 8px rgba(167, 139, 250, 0.7) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(139, 92, 246, 0.4) !important;
+}
+
+.ptx-navbar .ptx-read-aloud-button:hover .name {
+  color: #ddd6fe !important;
+  text-shadow: 0 0 8px rgba(167, 139, 250, 0.7) !important;
 }
 
 .ptx-navbar .ptx-readability-options-button:hover {
   background: linear-gradient(135deg, rgba(32, 24, 88, 0.88) 0%, rgba(48, 20, 88, 0.85) 100%) padding-box,
               linear-gradient(135deg, #a78bfa 0%, #c084fc 100%) border-box !important;
   border: 1px solid transparent !important;
+  color: #e9d5ff !important;
+  text-shadow: 0 0 8px rgba(192, 132, 252, 0.7) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(192, 38, 211, 0.4) !important;
+}
+
+.ptx-navbar .ptx-readability-options-button:hover .name {
+  color: #e9d5ff !important;
+  text-shadow: 0 0 8px rgba(192, 132, 252, 0.7) !important;
 }
 
 .ptx-navbar .previous-button:hover {
   background: linear-gradient(135deg, rgba(48, 20, 82, 0.88) 0%, rgba(58, 18, 80, 0.85) 100%) padding-box,
               linear-gradient(135deg, #c084fc 0%, #e879f9 100%) border-box !important;
   border: 1px solid transparent !important;
+  color: #f5d0fe !important;
+  text-shadow: 0 0 8px rgba(232, 121, 249, 0.7) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(217, 70, 239, 0.4) !important;
+}
+
+.ptx-navbar .previous-button:hover .name {
+  color: #f5d0fe !important;
+  text-shadow: 0 0 8px rgba(232, 121, 249, 0.7) !important;
 }
 
 .ptx-navbar .up-button:hover {
   background: linear-gradient(135deg, rgba(56, 18, 78, 0.88) 0%, rgba(65, 16, 70, 0.85) 100%) padding-box,
               linear-gradient(135deg, #e879f9 0%, #f472b6 100%) border-box !important;
   border: 1px solid transparent !important;
+  color: #fbcfe8 !important;
+  text-shadow: 0 0 8px rgba(244, 114, 182, 0.7) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(236, 72, 153, 0.4) !important;
+}
+
+.ptx-navbar .up-button:hover .name {
+  color: #fbcfe8 !important;
+  text-shadow: 0 0 8px rgba(244, 114, 182, 0.7) !important;
 }
 
 .ptx-navbar .next-button:hover {
   background: linear-gradient(135deg, rgba(62, 16, 68, 0.88) 0%, rgba(68, 14, 58, 0.85) 100%) padding-box,
               linear-gradient(135deg, #f472b6 0%, #fb7185 100%) border-box !important;
   border: 1px solid transparent !important;
+  color: #fecdd3 !important;
+  text-shadow: 0 0 8px rgba(251, 113, 133, 0.7) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(244, 63, 94, 0.4) !important;
+}
+
+.ptx-navbar .next-button:hover .name {
+  color: #fecdd3 !important;
+  text-shadow: 0 0 8px rgba(251, 113, 133, 0.7) !important;
 }
 
 .ptx-navbar .button:hover .icon,
@@ -318,9 +416,17 @@
   background: linear-gradient(135deg, rgba(6, 36, 60, 0.85) 0%, rgba(12, 46, 75, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(0, 232, 255, 0.6) 0%, rgba(20, 181, 255, 0.5) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  color: #38e1ff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(0, 232, 255, 0.5) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(0, 232, 255, 0.25) !important;
+}
+
+.ptx-navbar .toc-toggle.active .name,
+.ptx-navbar .toc-toggle[aria-expanded="true"] .name,
+.ptx-navbar #ptx-toc-toggle.active .name,
+.ptx-navbar #ptx-toc-toggle[aria-expanded="true"] .name {
+  color: #38e1ff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(0, 232, 255, 0.5) !important;
 }
 
 .ptx-navbar .index-button.active,
@@ -328,9 +434,15 @@
   background: linear-gradient(135deg, rgba(8, 40, 70, 0.85) 0%, rgba(16, 46, 82, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(20, 181, 255, 0.6) 0%, rgba(56, 189, 248, 0.5) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  color: #60cdff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(56, 189, 248, 0.5) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(20, 181, 255, 0.25) !important;
+}
+
+.ptx-navbar .index-button.active .name,
+.ptx-navbar .index-button:active .name {
+  color: #60cdff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(56, 189, 248, 0.5) !important;
 }
 
 .ptx-navbar .ptx-search-button.active,
@@ -338,9 +450,15 @@
   background: linear-gradient(135deg, rgba(12, 36, 78, 0.85) 0%, rgba(25, 32, 88, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(56, 189, 248, 0.6) 0%, rgba(99, 102, 241, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  color: #9da8ff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(129, 140, 248, 0.5) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(99, 102, 241, 0.25) !important;
+}
+
+.ptx-navbar .ptx-search-button.active .name,
+.ptx-navbar .ptx-search-button[aria-expanded="true"] .name {
+  color: #9da8ff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(129, 140, 248, 0.5) !important;
 }
 
 .ptx-navbar .ptx-read-aloud-button[aria-expanded="true"],
@@ -348,9 +466,15 @@
   background: linear-gradient(135deg, rgba(22, 30, 85, 0.85) 0%, rgba(35, 26, 92, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(99, 102, 241, 0.6) 0%, rgba(139, 92, 246, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  color: #c4b5fd !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(167, 139, 250, 0.5) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(139, 92, 246, 0.25) !important;
+}
+
+.ptx-navbar .ptx-read-aloud-button[aria-expanded="true"] .name,
+.ptx-navbar .ptx-read-aloud-button.active .name {
+  color: #c4b5fd !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(167, 139, 250, 0.5) !important;
 }
 
 .ptx-navbar .ptx-readability-options-button[aria-expanded="true"],
@@ -358,9 +482,15 @@
   background: linear-gradient(135deg, rgba(35, 25, 88, 0.85) 0%, rgba(50, 22, 88, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(139, 92, 246, 0.6) 0%, rgba(192, 38, 211, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  color: #d8b4fe !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(192, 132, 252, 0.5) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(192, 38, 211, 0.25) !important;
+}
+
+.ptx-navbar .ptx-readability-options-button[aria-expanded="true"] .name,
+.ptx-navbar .ptx-readability-options-button.active .name {
+  color: #d8b4fe !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(192, 132, 252, 0.5) !important;
 }
 
 .ptx-navbar .previous-button.active,
@@ -368,9 +498,15 @@
   background: linear-gradient(135deg, rgba(50, 22, 85, 0.85) 0%, rgba(62, 20, 82, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(192, 38, 211, 0.6) 0%, rgba(217, 70, 239, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  color: #f0abfc !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(232, 121, 249, 0.5) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(217, 70, 239, 0.25) !important;
+}
+
+.ptx-navbar .previous-button.active .name,
+.ptx-navbar .previous-button:active .name {
+  color: #f0abfc !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(232, 121, 249, 0.5) !important;
 }
 
 .ptx-navbar .up-button.active,
@@ -378,9 +514,15 @@
   background: linear-gradient(135deg, rgba(58, 20, 80, 0.85) 0%, rgba(68, 18, 72, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(217, 70, 239, 0.6) 0%, rgba(236, 72, 153, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  color: #f9a8d4 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(244, 114, 182, 0.5) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(236, 72, 153, 0.25) !important;
+}
+
+.ptx-navbar .up-button.active .name,
+.ptx-navbar .up-button:active .name {
+  color: #f9a8d4 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(244, 114, 182, 0.5) !important;
 }
 
 .ptx-navbar .next-button.active,
@@ -388,9 +530,15 @@
   background: linear-gradient(135deg, rgba(65, 18, 70, 0.85) 0%, rgba(72, 16, 60, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(236, 72, 153, 0.6) 0%, rgba(244, 63, 94, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  color: #fda4af !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(251, 113, 133, 0.5) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(244, 63, 94, 0.25) !important;
+}
+
+.ptx-navbar .next-button.active .name,
+.ptx-navbar .next-button:active .name {
+  color: #fda4af !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(251, 113, 133, 0.5) !important;
 }
 
 .ptx-navbar .button:active:hover,

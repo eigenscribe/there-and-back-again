@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Enhanced masthead responsiveness and styling with updated scaling for titles and subtitles, added logo styling, and refined CSS structure; adjusted IntelliJ workspace configuration and updated task details.">
-      <change beforePath="$PROJECT_DIR$/assets/elements/masthead.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/masthead.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined masthead styling with improved responsiveness, adjusted title and subtitle scaling, removed redundant colon after titles, and updated IntelliJ workspace configuration.">
+      <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00174" summary="fixed a small typo in the mermaid diagram">
-      <option name="closed" value="true" />
-      <created>1785650174065</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1785650174065</updated>
     </task>
     <task id="LOCAL-00175" summary="fixed a small typo in the mermaid diagram">
       <option name="closed" value="true" />
@@ -581,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787991546909</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <task id="LOCAL-00223" summary="Refined masthead styling with improved responsiveness, adjusted title and subtitle scaling, removed redundant colon after titles, and updated IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787991913711</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1787991913711</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references." />
     <MESSAGE value="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content." />
     <MESSAGE value="Enhanced glossary integration in notes graph: added &quot;Glossary&quot; group supports, color coding, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Added Euler's formula section, updated notes graph with new entries, simplified Zettel Tree title, and adjusted IntelliJ workspace configuration." />
@@ -624,6 +622,7 @@
     <MESSAGE value="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Lightened definition node coloring in CSS for improved readability, updated notes graph links and task details, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Enhanced masthead responsiveness and styling with updated scaling for titles and subtitles, added logo styling, and refined CSS structure; adjusted IntelliJ workspace configuration and updated task details." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enhanced masthead responsiveness and styling with updated scaling for titles and subtitles, added logo styling, and refined CSS structure; adjusted IntelliJ workspace configuration and updated task details." />
+    <MESSAGE value="Refined masthead styling with improved responsiveness, adjusted title and subtitle scaling, removed redundant colon after titles, and updated IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined masthead styling with improved responsiveness, adjusted title and subtitle scaling, removed redundant colon after titles, and updated IntelliJ workspace configuration." />
   </component>
 </project>
