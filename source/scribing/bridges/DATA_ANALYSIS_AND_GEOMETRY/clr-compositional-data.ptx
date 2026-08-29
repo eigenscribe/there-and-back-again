@@ -18,7 +18,8 @@
         <statement>
           <p>
             Compositional vectors satisfy a <em>constant-sum constraint</em>. Consequently, increasing one component
-            necessarily decreases one or more of the other components. This creates <em>spurious correlations</em> when
+            necessarily decreases one or more of the other components. This creates
+            <xref ref="gls-spurious-correlations" text="custom">spurious correlations</xref> when
             analyzed using conventional Euclidean methods.
           </p>
         </statement>

@@ -110,9 +110,20 @@
     <idx>significant figure</idx>
 
     <statement>
-      A digit of a numerical value that contributes to the <xref ref="def-precision" text="custom">precision</xref> of
-      a measurement and is therefore crucial for <xref ref="def-accuracy" text="custom">accurate</xref>
-      interpretation.
+      <p>
+        A digit of a numerical value that contributes to the <xref ref="def-precision" text="custom">precision</xref> of
+        a measurement and is therefore crucial for <xref ref="def-accuracy" text="custom">accurate</xref>
+        interpretation.
+      </p>
+    </statement>
+  </gi>
+
+  <gi xml:id="gls-spurious-correlations">
+    <title>Spurious Correlations</title>
+    <idx>spurious correlations</idx>
+
+    <statement>
+
     </statement>
   </gi>
 

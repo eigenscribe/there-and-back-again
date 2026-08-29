@@ -79,6 +79,7 @@
         "regression methods",
         "root-finding algorithms",
         "significant figure",
+        "spurious correlations",
         "support"
       ],
       "description": "Vectors whose components correspond with relative proportions of a whole.",
@@ -192,6 +193,17 @@
         "significant figure"
       ],
       "description": "A digit of a numerical value that contributes to the precision of a measurement and is therefore crucial for accurate...",
+      "group": "glossary",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "gls-spurious-correlations",
+      "title": "Spurious Correlations",
+      "url": "gls-main.html#gls-spurious-correlations",
+      "tags": [
+        "spurious correlations"
+      ],
+      "description": "",
       "group": "glossary",
       "color": "#f59e0b"
     },
@@ -1574,6 +1586,12 @@
     },
     {
       "source": "gls-composition",
+      "target": "para-clr-compositional-data",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "gls-spurious-correlations",
       "target": "para-clr-compositional-data",
       "type": "prerequisite",
       "weight": 3
