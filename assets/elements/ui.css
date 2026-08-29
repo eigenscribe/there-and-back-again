@@ -1462,8 +1462,10 @@ dialog.ptx-dialog::backdrop,
   align-items: center !important;
   justify-content: space-between !important;
   flex-wrap: wrap !important;
-  gap: 12px !important;
-  margin: 3.5rem 0 2rem 0 !important;
+  gap: 16px !important;
+  width: 100% !important;
+  max-width: 900px !important;
+  margin: 3.5rem auto 2rem auto !important;
   padding: 1.25rem 1.5rem !important;
   background: linear-gradient(135deg, rgba(8, 14, 28, 0.75) 0%, rgba(12, 18, 38, 0.7) 100%) padding-box,
               linear-gradient(135deg, rgba(56, 189, 248, 0.25) 0%, rgba(129, 140, 248, 0.2) 50%, rgba(192, 132, 252, 0.25) 100%) border-box !important;
@@ -1475,12 +1477,28 @@ dialog.ptx-dialog::backdrop,
   box-sizing: border-box !important;
 }
 
+.ptx-content-footer .button,
+.ptx-content-footer button,
+.ptx-content-footer a.button,
+.ptx-content-footer span.button {
+  min-width: 96px !important;
+}
+
 @media (max-width: 600px) {
   .ptx-content-footer,
   #ptx-content-footer {
     justify-content: center !important;
-    gap: 8px !important;
+    gap: 10px !important;
     padding: 1rem !important;
+    margin: 2rem auto 1.5rem auto !important;
+  }
+
+  .ptx-content-footer .button,
+  .ptx-content-footer button,
+  .ptx-content-footer a.button,
+  .ptx-content-footer span.button {
+    min-width: 80px !important;
+    padding: 0 12px !important;
   }
 }
 
