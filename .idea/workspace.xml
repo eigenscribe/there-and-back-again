@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration.">
-      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Lightened definition node coloring in CSS for improved readability, updated notes graph links and task details, and adjusted IntelliJ workspace configuration.">
+      <change beforePath="$PROJECT_DIR$/assets/elements/masthead.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/masthead.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,14 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00172" summary="rearranged some sections and subsections in the bridges chapter">
-      <option name="closed" value="true" />
-      <created>1785648761012</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1785648761012</updated>
     </task>
     <task id="LOCAL-00173" summary="updated the concept bridge diagram">
       <option name="closed" value="true" />
@@ -580,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787990744997</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="Lightened definition node coloring in CSS for improved readability, updated notes graph links and task details, and adjusted IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787991065705</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1787991065705</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined reasoning taxonomy examples for clarity and precision." />
     <MESSAGE value="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references." />
     <MESSAGE value="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content." />
@@ -623,6 +623,7 @@
     <MESSAGE value="Added algebra and precalculus section with foundational definitions, means, and identities; updated notes graph with new references; revised IntelliJ workspace configuration." />
     <MESSAGE value="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration." />
     <MESSAGE value="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration." />
+    <MESSAGE value="Lightened definition node coloring in CSS for improved readability, updated notes graph links and task details, and adjusted IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lightened definition node coloring in CSS for improved readability, updated notes graph links and task details, and adjusted IntelliJ workspace configuration." />
   </component>
 </project>

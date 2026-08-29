@@ -99,6 +99,22 @@
     backdrop-filter: blur(6px) !important;
   }
 
+  /* ---- Masthead scaling ---- */
+  .ptx-masthead .title-container::before {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .ptx-masthead .title-container .title,
+  .ptx-masthead .title-container :is(h1, .heading, .ptx-banner-heading) .title {
+    font-size: 1.6rem !important;
+  }
+
+  .ptx-masthead .title-container .subtitle,
+  .ptx-masthead .title-container :is(h1, .heading, .ptx-banner-heading) .subtitle {
+    font-size: 1rem !important;
+  }
+
   /* ---- Code blocks: prevent sideways hell ---- */
   .ptx-content pre {
     font-size: 0.85rem !important;
@@ -186,6 +202,26 @@
 
 /* ---- Mobile Phones ---- */
 @media (max-width: 500px) {
+
+  /* ---- Masthead scaling ---- */
+  .ptx-masthead .title-container {
+    gap: 0.6rem !important;
+  }
+
+  .ptx-masthead .title-container::before {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .ptx-masthead .title-container .title,
+  .ptx-masthead .title-container :is(h1, .heading, .ptx-banner-heading) .title {
+    font-size: 1.25rem !important;
+  }
+
+  .ptx-masthead .title-container .subtitle,
+  .ptx-masthead .title-container :is(h1, .heading, .ptx-banner-heading) .subtitle {
+    font-size: 0.82rem !important;
+  }
 
   .ptx-content h1.heading {
     font-size: 1.6rem !important;
