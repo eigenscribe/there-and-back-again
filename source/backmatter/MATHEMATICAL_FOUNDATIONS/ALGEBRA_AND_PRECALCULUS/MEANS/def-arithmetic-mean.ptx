@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<definition xml:id="def-arithmetic-mean" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Arithmetic Mean</title>
+  <idx>arithmetic mean</idx>
+
+  <statement>
+    <p>
+      For a collection of real-valued numbers, <m>x_1, x_2, \dots, x_n \in \mathbb{R}</m>, the
+      <term>arithmetic mean</term> <m>\bar{x}</m> is defined as:
+    </p>
+    <md>
+      \bar{x} = \frac{1}{n}\sum_{i=1}^n x_i
+    </md>
+  </statement>
+
+</definition>

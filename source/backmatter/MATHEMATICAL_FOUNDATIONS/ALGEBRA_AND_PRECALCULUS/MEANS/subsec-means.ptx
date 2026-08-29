@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-means" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Means and Averages</title>
+
+  <xi:include href="def-arithmetic-mean.ptx"/>
+
+</subsection>

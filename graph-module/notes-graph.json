@@ -294,6 +294,49 @@
       "color": "#9013fe"
     },
     {
+      "id": "sec-algebra-and-precalculus",
+      "title": "Algebra and Precalculus",
+      "url": "sec-algebra-and-precalculus.html",
+      "tags": [
+        "algebra",
+        "precalculus"
+      ],
+      "description": "Foundational definitions, sequences, means, and classical identities.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-geometric-mean",
+      "title": "Geometric Mean",
+      "url": "def-geometric-mean.html",
+      "tags": [
+        "geometric mean"
+      ],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-means",
+      "title": "Means and Averages",
+      "url": "subsec-means.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-arithmetic-mean",
+      "title": "Arithmetic Mean",
+      "url": "def-arithmetic-mean.html",
+      "tags": [
+        "arithmetic mean"
+      ],
+      "description": "For a collection of real-valued numbers, x_1, x_2, \\dots, x_n \\in \\mathbb{R}, the arithmetic mean \\bar{x} is defined as:",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "subsec-euler-lagrange",
       "title": "Calculus of Variations Formulation of the Euler-Lagrange Equation",
       "url": "subsec-euler-lagrange.html",

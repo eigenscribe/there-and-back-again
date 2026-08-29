@@ -6,6 +6,7 @@
     <p>Non-geometric algebra mathematics.</p>
   </introduction>
 
+    <xi:include href="MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/sec-algebra-and-precalculus.ptx"/>
     <xi:include href="MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/sec-linear-algebra.ptx"/>
     <xi:include href="MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/sec-differential-equations.ptx"/>
     <xi:include href="MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/sec-calculus-of-variations.ptx"/>

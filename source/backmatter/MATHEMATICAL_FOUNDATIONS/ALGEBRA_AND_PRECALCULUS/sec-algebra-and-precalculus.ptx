@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-algebra-and-precalculus" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebra and Precalculus</title>
+  <idx>algebra</idx>
+  <idx>precalculus</idx>
+  <introduction>
+    <p>
+      Foundational definitions, sequences, means, and classical identities.
+    </p>
+  </introduction>
+
+  <xi:include href="MEANS/subsec-means.ptx"/>
+
+
+</section>
