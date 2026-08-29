@@ -118,31 +118,163 @@ pre[class*="language-"].line-numbers { border-right: none !important; }
   font-size: 0.92rem;
 }
 
-/* IBM Quantum-inspired syntax highlighting - colorful, clean, high contrast */
+/* IBM Quantum-inspired syntax highlighting - colorful, clean, high contrast across all languages */
+/* Keywords, XML/HTML tags, selectors */
+.ptx-content pre .token.keyword,
 .ptx-content pre .keyword,
-.ptx-content pre .kw { color: #19f9d8 !important; } /* Cyan - keywords (include, if, qreg) */
+.ptx-content pre .kw,
+.ptx-content pre .token.tag,
+.ptx-content pre .tag,
+.ptx-content pre .token.tag-name,
+.ptx-content pre .tag-name,
+.ptx-content pre .token.selector,
+.ptx-content pre .selector {
+  color: #19f9d8 !important; /* Cyan - keywords, XML tags, CSS selectors */
+}
+
+/* Strings, attribute values, regex */
+.ptx-content pre .token.string,
 .ptx-content pre .string,
-.ptx-content pre .st { color: #ff75c3 !important; } /* Magenta/Purple - strings */
+.ptx-content pre .st,
+.ptx-content pre .token.attr-value,
+.ptx-content pre .attr-value,
+.ptx-content pre .token.regex,
+.ptx-content pre .regex {
+  color: #ff75c3 !important; /* Magenta/Purple - strings, attribute values, regex */
+}
+
+/* Comments */
+.ptx-content pre .token.comment,
 .ptx-content pre .comment,
-.ptx-content pre .co { color: #4c739c !important; font-style: italic; }
+.ptx-content pre .co {
+  color: #4c739c !important; /* Muted blue - comments */
+  font-style: italic !important;
+}
+
+/* Functions, commands, methods */
+.ptx-content pre .token.function,
 .ptx-content pre .function,
-.ptx-content pre .fu { color: #14b5ff !important; } /* Blue - functions */
+.ptx-content pre .fu,
+.ptx-content pre .token.function-name,
+.ptx-content pre .function-name,
+.ptx-content pre .token.command,
+.ptx-content pre .command {
+  color: #14b5ff !important; /* Blue - functions, commands */
+}
+
+/* Numbers, numeric literals */
+.ptx-content pre .token.number,
 .ptx-content pre .number,
-.ptx-content pre .dv { color: #be58f9 !important; } /* Gold/Yellow - numbers */
+.ptx-content pre .dv {
+  color: #be58f9 !important; /* Purple - numbers */
+}
+
+/* Operators, punctuation, delimiters */
+.ptx-content pre .token.operator,
 .ptx-content pre .operator,
-.ptx-content pre .op { color: #939af8 !important; font-weight: 600 !important; } /* Light cyan - operators */
+.ptx-content pre .op,
+.ptx-content pre .token.punctuation,
+.ptx-content pre .punctuation,
+.ptx-content pre .token.attr-equals,
+.ptx-content pre .attr-equals {
+  color: #939af8 !important; /* Light cyan/purple - operators, punctuation */
+  font-weight: 600 !important;
+}
+
+/* Variables, environment variables, identifiers */
+.ptx-content pre .token.variable,
 .ptx-content pre .variable,
-.ptx-content pre .va { color: #00e000 !important; } /* Light gray - variables */
+.ptx-content pre .va,
+.ptx-content pre .token.environment,
+.ptx-content pre .environment {
+  color: #00e000 !important; /* Green - variables, env vars */
+}
+
+/* Types, class names, namespaces, parameters, CLI options/flags */
+.ptx-content pre .token.type,
 .ptx-content pre .type,
-.ptx-content pre .dt { color: #feb538 !important; } /* Yellow - types */
+.ptx-content pre .dt,
+.ptx-content pre .token.class-name,
+.ptx-content pre .class-name,
+.ptx-content pre .token.namespace,
+.ptx-content pre .namespace,
+.ptx-content pre .token.parameter,
+.ptx-content pre .parameter,
+.ptx-content pre .token.option,
+.ptx-content pre .option,
+.ptx-content pre .token.arg,
+.ptx-content pre .arg {
+  color: #feb538 !important; /* Yellow - types, class names, parameters, options */
+}
+
+/* Constants, booleans, entities, symbols */
+.ptx-content pre .token.constant,
 .ptx-content pre .constant,
-.ptx-content pre .cn { color: #fe38e4 !important; } /* Orange - constants */
+.ptx-content pre .cn,
+.ptx-content pre .token.boolean,
+.ptx-content pre .boolean,
+.ptx-content pre .token.entity,
+.ptx-content pre .entity,
+.ptx-content pre .token.symbol,
+.ptx-content pre .symbol {
+  color: #fe38e4 !important; /* Pink/Orange - constants, booleans, entities */
+}
+
+/* Builtins, properties */
+.ptx-content pre .token.builtin,
 .ptx-content pre .builtin,
-.ptx-content pre .bu { color: #00e8ff !important; } /* Cyan - builtins */
+.ptx-content pre .bu,
+.ptx-content pre .token.property,
+.ptx-content pre .property {
+  color: #00e8ff !important; /* Bright Cyan - builtins, properties */
+}
+
+/* Attributes, XML attribute names */
+.ptx-content pre .token.attribute,
 .ptx-content pre .attribute,
-.ptx-content pre .at { color: #6f78fa !important; } /* Purple - attributes */
+.ptx-content pre .at,
+.ptx-content pre .token.attr-name,
+.ptx-content pre .attr-name {
+  color: #6f78fa !important; /* Purple/Indigo - attributes, XML attribute names */
+}
+
+/* Preprocessor, CDATA, XML Prolog, Doctype, Decorators */
+.ptx-content pre .token.preprocessor,
 .ptx-content pre .preprocessor,
-.ptx-content pre .pp { color: #38fe52 !important; } /* Green - preprocessor */
+.ptx-content pre .pp,
+.ptx-content pre .token.cdata,
+.ptx-content pre .cdata,
+.ptx-content pre .token.prolog,
+.ptx-content pre .prolog,
+.ptx-content pre .token.doctype,
+.ptx-content pre .doctype,
+.ptx-content pre .token.decorator,
+.ptx-content pre .decorator {
+  color: #38fe52 !important; /* Bright Green - preprocessor, CDATA, prolog, doctype, decorators */
+}
+
+/* URLs */
+.ptx-content pre .token.url,
+.ptx-content pre .url {
+  color: #14b5ff !important; /* Blue - URLs */
+}
+
+/* Important */
+.ptx-content pre .token.important,
+.ptx-content pre .important {
+  color: #fe38e4 !important;
+  font-weight: bold !important;
+}
+
+/* Diff deleted/inserted */
+.ptx-content pre .token.deleted,
+.ptx-content pre .deleted {
+  color: #ff76a1 !important;
+}
+.ptx-content pre .token.inserted,
+.ptx-content pre .inserted {
+  color: #38fe52 !important;
+}
 
 /* Code block copy button styling */
 .ptx-content pre.clipboardable {

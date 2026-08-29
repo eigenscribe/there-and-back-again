@@ -149,6 +149,9 @@ foreach ($file in $allHtmlFiles) {
     # Remove brackets from <tag> elements
     $content = [regex]::Replace($content, '(<code class="code-inline tex2jax_ignore">)&lt;(.*?)&gt;(<\/code>)', '$1$2$3')
     
+    # Convert language-none in program blocks to language-bash for Prism syntax highlighting
+    $content = [regex]::Replace($content, '(<pre class="program[^"]*"><code class=")language-none(")', '$1language-bash$2')
+    
     Set-Content -Path $file.FullName -Value $content
 }
 

@@ -166,6 +166,9 @@ find output/web -name "*.html" -print0 | while IFS= read -r -d '' file; do
   # Remove brackets from <tag> elements (rendered as <code>&lt;...&gt;</code>)
   # This addresses the issue of removing brackets around special tag elements
   perl -i -pe 's/(<code class="code-inline tex2jax_ignore">)&lt;(.*?)&gt;(<\/code>)/$1$2$3/g' "$file"
+
+  # Convert language-none in program blocks to language-bash for Prism syntax highlighting
+  perl -i -pe 's/(<pre class="program[^"]*"><code class=")language-none(")/$1language-bash$2/g' "$file"
 done
 
 # 2. Process only top-level HTML files for path-sensitive injections
