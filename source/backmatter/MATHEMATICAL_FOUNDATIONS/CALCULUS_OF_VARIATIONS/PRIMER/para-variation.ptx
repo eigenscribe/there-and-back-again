@@ -4,29 +4,63 @@
   <title>Variation</title>
   <idx>variation</idx>
 
-  <definition>
+  <p>
+    Let <m>\eta(x)</m> be an admissible <term>variation function</term> and <m>\varepsilon</m> be a small parameter.
+  </p>
+
+  <definition xml:id="def-perturbation">
+    <title>Perturbation</title>
+    <idx>perturbation</idx>
+
+    <statement>
+      <p>
+        In calculus of variations, a <term>perturbation</term> is a small change
+      </p>
+      <md>
+        \delta y = \epsilon \eta(x) \, .
+      </md>
+    </statement>
+  </definition>
+
+  <definition xml:id="def-variation">
+    <title>Variation</title>
     <idx>variation</idx>
+
     <statement>
       <p>
         A <term>variation</term> is an infinitesimal perturbation of an <xref ref="def-admissible-path" text="custom">
         admissible path</xref> <m>y(x)</m>. A typical variation is written as
       </p>
       <md>
-        y(x) \rightarrow y(x) + \varepsilon \eta(x)
+        y(x) \rightarrow y(x) + \underbrace{\varepsilon \eta(x)}_{\delta y} \, .
       </md>
+    </statement>
+
+    <remark>
       <p>
-        where <m>\eta(x)</m> is an arbitrary perturbation satisfying the boundary conditions and <m>\varepsilon</m> is
-        some small parameter.
+        Variations determine how a <xref ref="def-functional" text="custom">functional</xref> changes in response to small
+        changes in its input.
+      </p>
+    </remark>
+  </definition>
+
+  <definition xml:id="def-first-variation">
+    <title>First Variation</title>
+    <idx>first variation</idx>
+
+    <statement>
+      <p>
+        The <term>first variation</term> is the first order change <m>\delta J</m> in the
+        <xref ref="def-functional" text="custom">functional</xref> with respect to parameter <m>\varepsilon</m> after a
+        <xref ref="def-perturbation" text="custom">perturbation</xref> <m>\delta y</m> is applied to <m>y(x)</m>.
       </p>
     </statement>
 
+    <remark>
+      <p>
+        First variation in calculus of variations is analogous to the first derivative in original calculus.
+      </p>
+    </remark>
   </definition>
-
-  <remark>
-    <p>
-      Variations determine how a <xref ref="def-functional" text="custom">functional</xref> changes in response to small
-      changes in its input.
-    </p>
-  </remark>
 
 </paragraphs>

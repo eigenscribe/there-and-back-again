@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <paragraphs xml:id="para-path" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Path</title>
+  <title>Paths</title>
 
   <definition xml:id="def-path">
+    <title>Path</title>
     <idx>path</idx>
     <statement>
       <p>
@@ -16,12 +17,29 @@
   </definition>
 
   <definition xml:id="def-admissible-path">
+    <title>Admissible Path</title>
     <idx>admissible path</idx>
     <p>
       An <term>admissible path</term> is a <xref ref="def-path" text="custom">path</xref> satisfying the boundary
       conditions along with any additional constraints for a particular variational problem.
     </p>
 
+  </definition>
+
+  <definition xml:id="def-stationary">
+    <title>Stationary Point</title>
+    <idx>stationary</idx>
+
+    <statement>
+      <p>
+        A <xref ref="def-functional" text="custom">functional</xref> is said to be <term>stationary</term> at a point along
+        an <xref ref="def-admissible-path" text="custom">admissible path</xref> <m>y=f(x)</m> if all first order changes
+        to that path at that point are zero. This is mathematically represented as
+      </p>
+      <md>
+        \delta J = 0 \, .
+      </md>
+    </statement>
   </definition>
 
 </paragraphs>

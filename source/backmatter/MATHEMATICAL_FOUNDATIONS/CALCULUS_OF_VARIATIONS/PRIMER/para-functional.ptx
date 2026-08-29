@@ -23,20 +23,7 @@
     </statement>
   </definition>
 
-  <definition xml:id="def-stationary">
-    <idx>stationary</idx>
 
-    <statement>
-      <p>
-        A <em>functional</em> is said to be <term>stationary</term> at a point along
-        an <xref ref="def-admissible-path" text="custom">admissible path</xref> <m>y=f(x)</m> if all first order changes
-        to that path at that point are zero. This is mathematically represented as
-      </p>
-      <md>
-        \delta J = 0 \, .
-      </md>
-    </statement>
-  </definition>
 
   <remark>
     <statement>

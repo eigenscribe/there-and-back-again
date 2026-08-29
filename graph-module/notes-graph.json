@@ -377,17 +377,6 @@
       "color": "#9013fe"
     },
     {
-      "id": "def-stationary",
-      "title": "def-stationary",
-      "url": "para-functional.html#def-stationary",
-      "tags": [
-        "stationary"
-      ],
-      "description": "A functional is said to be stationary at a point along an admissible path y=f(x) if all first order changes to that p...",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
       "id": "def-path",
       "title": "def-path",
       "url": "para-path.html#def-path",
@@ -406,6 +395,50 @@
         "admissible path"
       ],
       "description": "An admissible path is a path satisfying the boundary conditions along with any additional constraints for a particula...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-stationary",
+      "title": "def-stationary",
+      "url": "para-path.html#def-stationary",
+      "tags": [
+        "stationary"
+      ],
+      "description": "A functional is said to be stationary at a point along an admissible path y=f(x) if all first order changes to that p...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-perturbation",
+      "title": "Perturbation",
+      "url": "para-variation.html#def-perturbation",
+      "tags": [
+        "perturbation"
+      ],
+      "description": "In calculus of variations, a perturbation is a small change",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-variation",
+      "title": "Variation",
+      "url": "para-variation.html#def-variation",
+      "tags": [
+        "variation"
+      ],
+      "description": "A variation is an infinitesimal perturbation of an admissible path y(x). A typical variation is written as",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-first-variation",
+      "title": "First Variation",
+      "url": "para-variation.html#def-first-variation",
+      "tags": [
+        "first variation"
+      ],
+      "description": "The first variation is the first order change \\delta J in the functional with respect to parameter \\varepsilon after ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -1506,13 +1539,13 @@
       "weight": 2
     },
     {
-      "source": "def-stationary",
+      "source": "def-functional",
       "target": "def-admissible-path",
       "type": "reference",
       "weight": 2
     },
     {
-      "source": "def-stationary",
+      "source": "def-functional",
       "target": "def-euler-lagrange",
       "type": "reference",
       "weight": 2
@@ -1526,6 +1559,36 @@
     {
       "source": "def-admissible-path",
       "target": "def-path",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-stationary",
+      "target": "def-admissible-path",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-variation",
+      "target": "def-admissible-path",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-variation",
+      "target": "def-functional",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-first-variation",
+      "target": "def-functional",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-first-variation",
+      "target": "def-perturbation",
       "type": "reference",
       "weight": 2
     },

@@ -7,10 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined &quot;tabs.js&quot; logic for preview and source tab handling: improved auto-detection, added support for preview-first cases, streamlined tab and panel order management; updated IntelliJ workspace and PreTeXt examples.">
-      <change beforePath="$PROJECT_DIR$/assets/elements/code-blocks.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/code-blocks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks.">
+      <change beforePath="$PROJECT_DIR$/.idea/there-and-back-again.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/there-and-back-again.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-variation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-variation.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2996" />
+    <option name="cachedIndexableFilesCount" value="3164" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -42,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000011987813706" />
-      <entry key="MS500" value="1.065839396465926" />
-      <entry key="S2" value="1.7894641584477726" />
-      <entry key="S5" value="3.565735510797009" />
-      <entry key="S10" value="6.647458680612339" />
-      <entry key="S30" value="17.152441877889014" />
-      <entry key="S60" value="29.579971611381218" />
-      <entry key="M2" value="48.03775494536947" />
-      <entry key="M5" value="86.1758160204408" />
-      <entry key="M10" value="132.22450063336873" />
-      <entry key="M15" value="173.07941843706337" />
-      <entry key="M30" value="282.2279098584659" />
-      <entry key="H1" value="440.3152023246382" />
-      <entry key="H2" value="629.511180043925" />
-      <entry key="H4" value="849.9755341077274" />
-      <entry key="D1" value="4558.503604625585" />
-      <entry key="W1" value="23906.955084886533" />
+      <entry key="MS100" value="1.0369077642750422" />
+      <entry key="MS500" value="1.603337456280089" />
+      <entry key="S2" value="3.4520510880656694" />
+      <entry key="S5" value="7.131536972209302" />
+      <entry key="S10" value="11.440216430213235" />
+      <entry key="S30" value="22.324692769584207" />
+      <entry key="S60" value="31.536362074469384" />
+      <entry key="M2" value="43.66385036394625" />
+      <entry key="M5" value="67.35115830409241" />
+      <entry key="M10" value="91.40694519099179" />
+      <entry key="M15" value="110.72704377011057" />
+      <entry key="M30" value="172.81238246534647" />
+      <entry key="H1" value="320.17155986352157" />
+      <entry key="H2" value="569.2679417725101" />
+      <entry key="H4" value="881.4836706861776" />
+      <entry key="D1" value="4612.792785517882" />
+      <entry key="W1" value="24022.099312705635" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.3865548330728416E-260" />
-      <entry key="S10" value="1.1775206295741951E-130" />
-      <entry key="S30" value="4.901430416173371E-44" />
-      <entry key="S60" value="2.2139174366207256E-22" />
-      <entry key="M2" value="1.4879238678846162E-11" />
-      <entry key="M5" value="4.66694071662889E-5" />
-      <entry key="M10" value="0.006831501091728568" />
-      <entry key="M15" value="0.036003448014984174" />
-      <entry key="M30" value="0.18974574570984953" />
-      <entry key="H1" value="0.43559825883507874" />
-      <entry key="H2" value="0.6605224558361824" />
-      <entry key="H4" value="0.8591369157980717" />
-      <entry key="D1" value="5.410308147849181" />
-      <entry key="W1" value="50.654486911203946" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="2.6245168605861296E-111" />
+      <entry key="S60" value="5.123003865493445E-56" />
+      <entry key="M2" value="2.263405369237551E-28" />
+      <entry key="M5" value="8.747922698460166E-12" />
+      <entry key="M10" value="2.9576887426604054E-6" />
+      <entry key="M15" value="2.0604795674304487E-4" />
+      <entry key="M30" value="0.014354370649494167" />
+      <entry key="H1" value="0.11980975760398042" />
+      <entry key="H2" value="0.3464101544251971" />
+      <entry key="H4" value="0.622176916168074" />
+      <entry key="D1" value="5.127007116818171" />
+      <entry key="W1" value="50.26677837353462" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794214716977336" />
-      <entry key="MS500" value="1.0614124054067555" />
-      <entry key="S2" value="1.7866782672399426" />
-      <entry key="S5" value="3.5626216878515473" />
-      <entry key="S10" value="6.644605025829776" />
-      <entry key="S30" value="17.150346679443018" />
-      <entry key="S60" value="29.57831125306028" />
-      <entry key="M2" value="48.03647533971518" />
-      <entry key="M5" value="86.1749735231683" />
-      <entry key="M10" value="132.23038514669196" />
-      <entry key="M15" value="173.1138735087737" />
-      <entry key="M30" value="282.41462691469576" />
-      <entry key="H1" value="440.7473896275452" />
-      <entry key="H2" value="630.1689992125171" />
-      <entry key="H4" value="850.832847712544" />
-      <entry key="D1" value="4563.912519372471" />
-      <entry key="W1" value="23957.608609429466" />
+      <entry key="MS100" value="0.9951626388094165" />
+      <entry key="MS500" value="1.5915376624043427" />
+      <entry key="S2" value="3.445453933889238" />
+      <entry key="S5" value="7.126493970923034" />
+      <entry key="S10" value="11.436403965055002" />
+      <entry key="S30" value="22.322337881640212" />
+      <entry key="S60" value="31.534674627437845" />
+      <entry key="M2" value="43.66262062958841" />
+      <entry key="M5" value="67.35035648519542" />
+      <entry key="M10" value="91.40639636670889" />
+      <entry key="M15" value="110.72679979508905" />
+      <entry key="M30" value="172.82620465026957" />
+      <entry key="H1" value="320.29023203333753" />
+      <entry key="H2" value="569.6128139290521" />
+      <entry key="H4" value="882.104460083618" />
+      <entry key="D1" value="4617.918459832897" />
+      <entry key="W1" value="24072.365134278447" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -189,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00183" summary="updated dirac delta distribution definition in the differential equations section">
-      <option name="closed" value="true" />
-      <created>1786689526556</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1786689526556</updated>
     </task>
     <task id="LOCAL-00184" summary="added `pyproject.toml`, dependency lock file, and IntelliJ module files">
       <option name="closed" value="true" />
@@ -582,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787997604426</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks.">
+      <option name="closed" value="true" />
+      <created>1787998466964</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1787998466964</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated IntelliJ workspace configuration, refined &quot;Compositional Data&quot; subsection formatting, and enhanced notes graph and glossary alignment." />
     <MESSAGE value="Integrated &quot;tse-landing-page&quot; as a new IntelliJ module, updated workspace configuration, refined CSS for improved heading styles, and adjusted notes graph for enhanced alignment." />
     <MESSAGE value="Added &quot;Spurious Correlations&quot; entry to the glossary, updated related references under &quot;Compositional Data,&quot; and enhanced notes graph integration." />
     <MESSAGE value="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment." />
@@ -625,6 +627,7 @@
     <MESSAGE value="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration." />
     <MESSAGE value="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness." />
     <MESSAGE value="Refined &quot;tabs.js&quot; logic for preview and source tab handling: improved auto-detection, added support for preview-first cases, streamlined tab and panel order management; updated IntelliJ workspace and PreTeXt examples." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined &quot;tabs.js&quot; logic for preview and source tab handling: improved auto-detection, added support for preview-first cases, streamlined tab and panel order management; updated IntelliJ workspace and PreTeXt examples." />
+    <MESSAGE value="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks." />
   </component>
 </project>

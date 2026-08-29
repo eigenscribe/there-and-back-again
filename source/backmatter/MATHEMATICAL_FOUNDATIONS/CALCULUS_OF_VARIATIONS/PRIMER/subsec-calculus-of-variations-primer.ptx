@@ -5,6 +5,7 @@
 
   <xi:include href="para-function-space.ptx"/>
   <xi:include href="para-functional.ptx"/>
+  <xi:include href="para-variation.ptx"/>
   <xi:include href="para-path.ptx"/>
 
 </subsection>

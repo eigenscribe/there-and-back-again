@@ -22,7 +22,8 @@
     <remark>
       <statement>
         <p>
-          The Euler-Lagrange equation provides the necessary conditions for extremizing a path.
+          The Euler-Lagrange equation provides the necessary conditions for extremizing a path. However, it does not
+          provide details on the nature of the extremum (e.g., if it is a minimum, maximum, or saddle point).
         </p>
       </statement>
     </remark>
