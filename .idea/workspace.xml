@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated IntelliJ workspace configuration, refined &quot;Compositional Data&quot; subsection formatting, and enhanced notes graph and glossary alignment.">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/there-and-back-again.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/there-and-back-again.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/masthead.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/masthead.css" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment.">
+      <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +41,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000005654215" />
-      <entry key="MS500" value="1.0159206112962984" />
-      <entry key="S2" value="1.5507832072708563" />
-      <entry key="S5" value="2.2770363264555225" />
-      <entry key="S10" value="3.069437883603399" />
-      <entry key="S30" value="5.686982025233116" />
-      <entry key="S60" value="9.706969563831631" />
-      <entry key="M2" value="15.159443411873038" />
-      <entry key="M5" value="30.521338832868572" />
-      <entry key="M10" value="63.000763860743824" />
-      <entry key="M15" value="91.79135059428305" />
-      <entry key="M30" value="152.134556210451" />
-      <entry key="H1" value="218.1431960902052" />
-      <entry key="H2" value="277.0547879490603" />
-      <entry key="H4" value="395.1100633366257" />
-      <entry key="D1" value="4231.300582160201" />
-      <entry key="W1" value="23494.576639824285" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0005937279316983" />
+      <entry key="S2" value="1.1933845269849206" />
+      <entry key="S5" value="2.362336994095899" />
+      <entry key="S10" value="4.830880872728002" />
+      <entry key="S30" value="11.166461431185887" />
+      <entry key="S60" value="16.738327864566845" />
+      <entry key="M2" value="24.11592133671406" />
+      <entry key="M5" value="41.10856399765505" />
+      <entry key="M10" value="73.55043010325467" />
+      <entry key="M15" value="102.56182950076325" />
+      <entry key="M30" value="163.98642607254544" />
+      <entry key="H1" value="231.45440174617198" />
+      <entry key="H2" value="291.7127241851673" />
+      <entry key="H4" value="410.44455395806574" />
+      <entry key="D1" value="4245.352984321555" />
+      <entry key="W1" value="23509.23986412704" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -71,35 +67,35 @@
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
-      <entry key="M2" value="8.810486001273246E-182" />
-      <entry key="M5" value="3.784425385609099E-73" />
-      <entry key="M10" value="6.152038508812484E-37" />
-      <entry key="M15" value="7.242324171939215E-25" />
-      <entry key="M30" value="8.832775725307861E-13" />
-      <entry key="H1" value="1.1496417549429607E-6" />
-      <entry key="H2" value="0.0016799498854035482" />
-      <entry key="H4" value="0.08368991053280647" />
-      <entry key="D1" value="4.897573035920167" />
-      <entry key="W1" value="50.35312554158938" />
+      <entry key="M2" value="5.3373733669964106E-182" />
+      <entry key="M5" value="3.0969274715293563E-73" />
+      <entry key="M10" value="5.565248855718318E-37" />
+      <entry key="M15" value="6.774152814394807E-25" />
+      <entry key="M30" value="8.542514367514615E-13" />
+      <entry key="H1" value="1.130594286122981E-6" />
+      <entry key="H2" value="0.0016659749045780194" />
+      <entry key="H4" value="0.08334108840823315" />
+      <entry key="D1" value="4.894164906409803" />
+      <entry key="W1" value="50.348118362553386" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726549479584463" />
-      <entry key="MS500" value="1.0102759142598454" />
-      <entry key="S2" value="1.5483023473081585" />
-      <entry key="S5" value="2.2754595088623653" />
-      <entry key="S10" value="3.068308352269468" />
-      <entry key="S30" value="5.68290399894196" />
-      <entry key="S60" value="9.700002711294903" />
-      <entry key="M2" value="15.152768345714248" />
-      <entry key="M5" value="30.517125017097303" />
-      <entry key="M10" value="62.99788003755553" />
-      <entry key="M15" value="91.78902658910928" />
-      <entry key="M30" value="152.1330232476789" />
-      <entry key="H1" value="218.14226672420335" />
-      <entry key="H2" value="277.05593494290963" />
-      <entry key="H4" value="395.1933278028491" />
-      <entry key="D1" value="4236.196973220935" />
-      <entry key="W1" value="23544.928837634598" />
+      <entry key="MS100" value="0.9460576467255959" />
+      <entry key="MS500" value="0.9895556569888324" />
+      <entry key="S2" value="1.1879328146076595" />
+      <entry key="S5" value="2.335763362490196" />
+      <entry key="S10" value="4.780316391689027" />
+      <entry key="S30" value="11.115497027708084" />
+      <entry key="S60" value="16.701596983042023" />
+      <entry key="M2" value="24.091890107668146" />
+      <entry key="M5" value="41.09631922139011" />
+      <entry key="M10" value="73.54327969911792" />
+      <entry key="M15" value="102.55659532656351" />
+      <entry key="M30" value="163.98339676894162" />
+      <entry key="H1" value="231.45271025339494" />
+      <entry key="H2" value="291.71347182893635" />
+      <entry key="H4" value="410.52727620897923" />
+      <entry key="D1" value="4250.24593551109" />
+      <entry key="W1" value="23559.587050197646" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -192,30 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00160" summary="updated pretext">
-      <option name="closed" value="true" />
-      <created>1785526235502</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1785526235502</updated>
-    </task>
-    <task id="LOCAL-00161" summary="updated pretext">
-      <option name="closed" value="true" />
-      <created>1785526765028</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1785526765029</updated>
-    </task>
-    <task id="LOCAL-00162" summary="updated pretext">
-      <option name="closed" value="true" />
-      <created>1785526982053</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1785526982054</updated>
     </task>
     <task id="LOCAL-00163" summary="added xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; to some of the bridge notes">
       <option name="closed" value="true" />
@@ -585,7 +557,31 @@
       <option name="project" value="LOCAL" />
       <updated>1787976523755</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="Integrated &quot;tse-landing-page&quot; as a new IntelliJ module, updated workspace configuration, refined CSS for improved heading styles, and adjusted notes graph for enhanced alignment.">
+      <option name="closed" value="true" />
+      <created>1787978321688</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1787978321688</updated>
+    </task>
+    <task id="LOCAL-00210" summary="Added &quot;Spurious Correlations&quot; entry to the glossary, updated related references under &quot;Compositional Data,&quot; and enhanced notes graph integration.">
+      <option name="closed" value="true" />
+      <created>1787978564051</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1787978564051</updated>
+    </task>
+    <task id="LOCAL-00211" summary="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment.">
+      <option name="closed" value="true" />
+      <created>1787978648125</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1787978648126</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,9 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated dirac delta distribution definition in the differential equations section" />
-    <MESSAGE value="added `pyproject.toml`, dependency lock file, and IntelliJ module files" />
-    <MESSAGE value="added function definition to glossary in `glossary.ptx`" />
     <MESSAGE value="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting" />
     <MESSAGE value="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`" />
     <MESSAGE value="updated IntelliJ workspace configuration to reflect recent task changes" />
@@ -628,6 +621,9 @@
     <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Added &quot;Compositional Data&quot; subsection with centered log-ratio transform details, updated glossary and notes graph with &quot;Composition&quot; entry, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Updated IntelliJ workspace configuration, refined &quot;Compositional Data&quot; subsection formatting, and enhanced notes graph and glossary alignment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated IntelliJ workspace configuration, refined &quot;Compositional Data&quot; subsection formatting, and enhanced notes graph and glossary alignment." />
+    <MESSAGE value="Integrated &quot;tse-landing-page&quot; as a new IntelliJ module, updated workspace configuration, refined CSS for improved heading styles, and adjusted notes graph for enhanced alignment." />
+    <MESSAGE value="Added &quot;Spurious Correlations&quot; entry to the glossary, updated related references under &quot;Compositional Data,&quot; and enhanced notes graph integration." />
+    <MESSAGE value="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment." />
   </component>
 </project>

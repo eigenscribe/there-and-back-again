@@ -113,10 +113,44 @@
     max-width: 100% !important;
   }
 
-  /* ---- Navbar buttons ---- */
-  .ptx-navbar .button {
+  /* ---- Navbar buttons & controls ---- */
+  .ptx-navbar .button,
+  .ptx-navbar button,
+  .ptx-navbar a.button {
     font-size: 12px !important;
-    padding: 6px 10px !important;
+    padding: 5px 9px !important;
+    min-height: 32px !important;
+  }
+
+  .ptx-navbar .nav-other-controls,
+  .nav-other-controls {
+    flex-wrap: wrap !important;
+    gap: 4px !important;
+  }
+
+  #ptx-read-aloud-player {
+    flex-wrap: wrap !important;
+    max-width: 100% !important;
+    padding: 2px 4px !important;
+  }
+
+  #ptx-read-aloud-player .button,
+  .ptx-navbar .ptx-read-aloud-player .button {
+    min-height: 26px !important;
+    height: 26px !important;
+    padding: 2px 6px !important;
+    font-size: 11px !important;
+  }
+
+  dialog.ptx-dialog,
+  .ptx-navbar .ptx-read-aloud-settings-popup,
+  .ptx-navbar .ptx-readability-options-popup,
+  #ptx-read-aloud-settings-popup,
+  #ptx-readability-options-popup,
+  #ptx-search-dialog {
+    width: 94vw !important;
+    max-width: 94vw !important;
+    padding: 1.1rem !important;
   }
 
   /* ---- Graph overlay safety ---- */

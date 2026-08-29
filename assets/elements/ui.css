@@ -2,42 +2,587 @@
 /*  Section 9: Navbar, Footer, and Navigation Controls          */
 /* ============================================================ */
 .ptx-navbar {
-  background: rgba(0, 0, 0, 0.6) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  padding: 0.75rem 1.5rem !important;
+  background: rgba(10, 14, 20, 0.75) !important;
+  border-bottom: 1px solid rgba(20, 181, 255, 0.2) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  backdrop-filter: blur(12px) !important;
+  padding: 0.6rem 1.25rem !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 500 !important;
+  display: flex !important;
+  align-items: center !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+  min-height: 52px !important;
+  box-sizing: border-box !important;
 }
 
-.ptx-navbar .button {
+.ptx-navbar .ptx-navbar-contents {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem 0.75rem !important;
+  width: 100% !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  position: relative !important;
+}
+
+/* Base styling for all navbar buttons */
+.ptx-navbar .button,
+.ptx-navbar button,
+.ptx-navbar a.button,
+.ptx-navbar .toc-toggle,
+.ptx-navbar .index-button,
+.ptx-navbar .ptx-search-button,
+.ptx-navbar .ptx-read-aloud-button,
+.ptx-navbar .ptx-readability-options-button,
+.ptx-navbar .previous-button,
+.ptx-navbar .up-button,
+.ptx-navbar .next-button {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   gap: 6px !important;
-  background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), 61.8%, rgba(30, 130, 230, 0.35)) !important;
-  border: 1px solid rgba(0, 200, 255, 0.45) !important;
-  padding: 8px 14px !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), 61.8%, rgba(121, 82, 245, 0.22)) !important;
+  border: 1px solid rgba(20, 181, 255, 0.4) !important;
+  color: var(--color-text, #C5F8FF) !important;
+  padding: 7px 13px !important;
+  min-height: 36px !important;
   border-radius: 8px !important;
-  font-family: 'Aclonica', sans-serif;
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
   font-size: 13px !important;
+  font-weight: normal !important;
   cursor: pointer !important;
   -webkit-backdrop-filter: blur(8px) !important;
   backdrop-filter: blur(8px) !important;
-  transition: all 0.2s ease !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
   text-transform: none !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  box-sizing: border-box !important;
 }
 
-.ptx-navbar .button:hover {
-  background: linear-gradient(135deg, rgba(0, 230, 255, 0.45), 61.8%, rgba(50, 150, 250, 0.5)) !important;
-  border-color: rgba(0, 220, 255, 0.65) !important;
-  transform: scale(1.03) !important;
-  color: var(--color-text) !important;
-  box-shadow: 0 4px 16px rgba(0, 200, 255, 0.35) !important;
+.ptx-navbar .button .icon,
+.ptx-navbar button .icon,
+.ptx-navbar a.button .icon {
+  color: #00e8ff !important;
+  font-size: 18px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: color 0.2s ease, transform 0.2s ease !important;
+}
+
+/* Button Hover State */
+.ptx-navbar .button:hover,
+.ptx-navbar button:hover,
+.ptx-navbar a.button:hover,
+.ptx-navbar .toc-toggle:hover,
+.ptx-navbar .index-button:hover,
+.ptx-navbar .ptx-search-button:hover,
+.ptx-navbar .ptx-read-aloud-button:hover,
+.ptx-navbar .ptx-readability-options-button:hover,
+.ptx-navbar .previous-button:hover,
+.ptx-navbar .up-button:hover,
+.ptx-navbar .next-button:hover {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.38), 61.8%, rgba(121, 82, 245, 0.38)) !important;
+  border-color: rgba(0, 232, 255, 0.7) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px) scale(1.02) !important;
+  box-shadow: 0 4px 16px rgba(0, 232, 255, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+.ptx-navbar .button:hover .icon,
+.ptx-navbar button:hover .icon,
+.ptx-navbar a.button:hover .icon {
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+/* Button Active / Toggled States */
+.ptx-navbar .button:active,
+.ptx-navbar .button.active,
+.ptx-navbar .button.open,
+.ptx-navbar .button[aria-expanded="true"],
+.ptx-navbar button[aria-expanded="true"],
+.ptx-navbar a.button[aria-expanded="true"],
+.ptx-navbar .toc-toggle.active,
+.ptx-navbar .toc-toggle[aria-expanded="true"],
+.ptx-navbar .ptx-read-aloud-button[aria-expanded="true"],
+.ptx-navbar .ptx-read-aloud-button.active,
+.ptx-navbar .ptx-readability-options-button[aria-expanded="true"],
+.ptx-navbar .ptx-readability-options-button.active {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.45), 61.8%, rgba(121, 82, 245, 0.5)) !important;
+  border-color: #00e8ff !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 18px rgba(0, 232, 255, 0.5), inset 0 0 10px rgba(0, 232, 255, 0.3) !important;
+}
+
+.ptx-navbar .button:active .icon,
+.ptx-navbar .button.active .icon,
+.ptx-navbar .button.open .icon,
+.ptx-navbar .button[aria-expanded="true"] .icon,
+.ptx-navbar button[aria-expanded="true"] .icon {
+  color: #ffffff !important;
+  filter: drop-shadow(0 0 6px rgba(0, 232, 255, 0.8)) !important;
 }
 
 .ptx-navbar .button.disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+/* Nav other controls (Read Aloud & Readability) */
+.ptx-navbar .nav-other-controls,
+.nav-other-controls {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  position: relative !important;
+}
+
+/* Prevent PreTeXt from adding awkward bottom padding to body */
+body.pretext:has(.ptx-read-aloud-player:not([hidden])) {
+  padding-bottom: 0 !important;
+}
+
+/* Read Aloud Player Strip - Override bottom-100% absolute positioning */
+.ptx-navbar .ptx-read-aloud-player,
+#ptx-read-aloud-player {
+  position: relative !important;
+  top: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: auto !important;
+  height: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  padding: 3px 6px !important;
+  background: rgba(13, 17, 23, 0.9) !important;
+  border: 1px solid rgba(20, 181, 255, 0.35) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  backdrop-filter: blur(12px) !important;
+  margin: 0 2px !important;
+  vertical-align: middle !important;
+  z-index: 10 !important;
+  transition: all 0.25s ease !important;
+}
+
+.ptx-navbar .ptx-read-aloud-player[hidden],
+#ptx-read-aloud-player[hidden] {
+  display: none !important;
+}
+
+/* Player control buttons */
+#ptx-read-aloud-player .button,
+.ptx-navbar .ptx-read-aloud-player .button {
+  padding: 4px 8px !important;
+  min-height: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  font-size: 12px !important;
+  border-radius: 6px !important;
+  gap: 3px !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.18), 61.8%, rgba(121, 82, 245, 0.18)) !important;
+  border: 1px solid rgba(20, 181, 255, 0.3) !important;
+  color: var(--color-text, #C5F8FF) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+#ptx-read-aloud-player .button:hover,
+.ptx-navbar .ptx-read-aloud-player .button:hover {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.35), 61.8%, rgba(121, 82, 245, 0.35)) !important;
+  border-color: rgba(0, 232, 255, 0.6) !important;
+  color: #ffffff !important;
+  transform: scale(1.06) !important;
+  box-shadow: 0 2px 10px rgba(0, 232, 255, 0.35) !important;
+}
+
+#ptx-read-aloud-player .button .icon,
+.ptx-navbar .ptx-read-aloud-player .button .icon {
+  font-size: 16px !important;
+  color: #00e8ff !important;
+}
+
+#ptx-read-aloud-player .button:hover .icon,
+.ptx-navbar .ptx-read-aloud-player .button:hover .icon {
+  color: #ffffff !important;
+}
+
+/* Read aloud toggle (play/pause) button */
+#ptx-read-aloud-player #ptx-read-aloud-toggle,
+.ptx-navbar .ptx-read-aloud-player .ptx-read-aloud-toggle {
+  min-width: 32px !important;
+  background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), 61.8%, rgba(121, 82, 245, 0.3)) !important;
+  border-color: rgba(0, 200, 255, 0.5) !important;
+}
+
+#ptx-read-aloud-player[data-state="speaking"] #ptx-read-aloud-toggle {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.55), 61.8%, rgba(121, 82, 245, 0.55)) !important;
+  border-color: #00e8ff !important;
+  box-shadow: 0 0 14px rgba(0, 232, 255, 0.6), inset 0 0 8px rgba(0, 232, 255, 0.4) !important;
+  color: #ffffff !important;
+}
+
+#ptx-read-aloud-player[data-state="continue-ready"] #ptx-read-aloud-toggle {
+  animation: ptx-read-aloud-pulse 1.5s ease-in-out infinite !important;
+}
+
+@keyframes ptx-read-aloud-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(0, 232, 255, 0.6);
+    border-color: rgba(0, 232, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 14px 4px rgba(0, 232, 255, 0.8), inset 0 0 8px rgba(0, 232, 255, 0.5);
+    border-color: #00e8ff;
+  }
+}
+
+/* In-text highlight when read aloud is speaking */
+::highlight(ptx-read-aloud) {
+  background-color: rgba(0, 232, 255, 0.28) !important;
+  color: #ffffff !important;
+}
+
+.ptx-read-aloud-current-math,
+.ptx-read-aloud-current-block {
+  background-color: rgba(0, 232, 255, 0.22) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 0 12px rgba(0, 232, 255, 0.25) !important;
+  outline: 1px solid rgba(0, 232, 255, 0.45) !important;
+}
+
+/* Treebuttons */
+.ptx-navbar .treebuttons {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin-left: auto !important;
+}
+
+.ptx-navbar .treebuttons .button {
+  min-width: 38px !important;
+}
+
+/* PreTeXt Dialogs (Read aloud settings, Readability settings, Search) */
+dialog.ptx-dialog,
+.ptx-navbar .ptx-read-aloud-settings-popup,
+.ptx-navbar .ptx-readability-options-popup,
+.ptx-navbar .ptx-embed-popup,
+#ptx-read-aloud-settings-popup,
+#ptx-readability-options-popup,
+#ptx-search-dialog {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  margin: 0 !important;
+  bottom: auto !important;
+  right: auto !important;
+  width: min(92vw, 520px) !important;
+  max-width: 520px !important;
+  max-height: min(85vh, 650px) !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  background: rgba(13, 17, 23, 0.97) !important;
+  border: 1px solid rgba(20, 181, 255, 0.35) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.9), 0 0 32px rgba(20, 181, 255, 0.15) !important;
+  padding: 1.5rem !important;
+  color: var(--color-text, #C5F8FF) !important;
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  backdrop-filter: blur(20px) !important;
+  z-index: 10000 !important;
+  box-sizing: border-box !important;
+}
+
+dialog.ptx-dialog::backdrop,
+.ptx-navbar .ptx-read-aloud-settings-popup::backdrop,
+.ptx-navbar .ptx-readability-options-popup::backdrop,
+.ptx-navbar .ptx-embed-popup::backdrop,
+#ptx-search-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.8) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+/* Dialog controls top bar */
+.ptx-readability-options-popup-controls,
+.ptx-search-dialog-controls,
+.ptx-embed-popup-controls {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 1.25rem !important;
+  padding-bottom: 0.75rem !important;
+  border-bottom: 1px solid rgba(20, 181, 255, 0.25) !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Dialog Headings */
+.ptx-dialog .heading,
+.ptx-readability-options-popup-controls .heading,
+.ptx-read-aloud-settings-popup .heading,
+.ptx-search-results-heading {
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
+  font-size: 1.3rem !important;
+  margin: 0 !important;
+  background: var(--gradient-cyan-to-blue) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)) !important;
+}
+
+/* Close buttons in dialogs */
+.ptx-dialog .ptx-dialog-close-button,
+.ptx-readability-options-close-button,
+.ptx-read-aloud-settings-close-button,
+#ptx-search-close {
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  min-height: 36px !important;
+  padding: 0 !important;
+  border-radius: 8px !important;
+  background: rgba(20, 181, 255, 0.15) !important;
+  border: 1px solid rgba(20, 181, 255, 0.3) !important;
+  color: #14b5ff !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  flex-shrink: 0 !important;
+}
+
+.ptx-dialog .ptx-dialog-close-button:hover,
+.ptx-readability-options-close-button:hover,
+.ptx-read-aloud-settings-close-button:hover,
+#ptx-search-close:hover {
+  background: rgba(20, 181, 255, 0.3) !important;
+  border-color: rgba(20, 181, 255, 0.6) !important;
+  color: #ffffff !important;
+  transform: scale(1.08) !important;
+  box-shadow: 0 0 12px rgba(20, 181, 255, 0.4) !important;
+}
+
+.ptx-dialog .ptx-dialog-close-button .icon,
+.ptx-readability-options-close-button .icon,
+.ptx-read-aloud-settings-close-button .icon,
+#ptx-search-close .icon {
+  font-size: 20px !important;
+  color: inherit !important;
+}
+
+/* Dialog Options Groups & Labels */
+.ptx-readability-options-group {
+  margin: 0 0 1rem 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  row-gap: 0.6rem !important;
+  column-gap: 1rem !important;
+  align-items: center !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.ptx-readability-options-group label {
+  display: flex !important;
+  gap: 0.5rem !important;
+  align-items: center !important;
+  color: #d1d5db !important;
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
+  font-size: 13px !important;
+  cursor: pointer !important;
+  width: 100% !important;
+}
+
+.ptx-readability-options-group label .icon {
+  color: #00e8ff !important;
+  font-size: 18px !important;
+}
+
+.ptx-readability-slider-label {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+.ptx-readability-slider-label output,
+#ptx-read-aloud-rate-value,
+#ptx-readability-line-height-value,
+#ptx-readability-font-size-value {
+  color: #00e8ff !important;
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
+  font-weight: bold !important;
+  font-size: 13px !important;
+  margin-left: auto !important;
+}
+
+/* Range sliders */
+.ptx-dialog input[type="range"],
+.ptx-readability-options-group input[type="range"] {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  width: 100% !important;
+  height: 6px !important;
+  background: rgba(20, 181, 255, 0.25) !important;
+  border-radius: 3px !important;
+  outline: none !important;
+  cursor: pointer !important;
+  margin: 0.4rem 0 0.8rem 0 !important;
+}
+
+.ptx-dialog input[type="range"]::-webkit-slider-thumb,
+.ptx-readability-options-group input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+  background: linear-gradient(135deg, #00e8ff, #7952f5) !important;
+  border: 2px solid #ffffff !important;
+  box-shadow: 0 0 8px rgba(0, 232, 255, 0.6) !important;
+  cursor: pointer !important;
+  transition: transform 0.15s ease !important;
+}
+
+.ptx-dialog input[type="range"]::-webkit-slider-thumb:hover,
+.ptx-readability-options-group input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2) !important;
+  box-shadow: 0 0 12px rgba(0, 232, 255, 0.9) !important;
+}
+
+.ptx-dialog input[type="range"]::-moz-range-thumb,
+.ptx-readability-options-group input[type="range"]::-moz-range-thumb {
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+  background: linear-gradient(135deg, #00e8ff, #7952f5) !important;
+  border: 2px solid #ffffff !important;
+  box-shadow: 0 0 8px rgba(0, 232, 255, 0.6) !important;
+  cursor: pointer !important;
+}
+
+/* Select Dropdowns */
+.ptx-dialog select,
+.ptx-readability-options-group select,
+#ptx-read-aloud-voice,
+#ptx-read-aloud-asides {
+  width: 100% !important;
+  background: rgba(20, 25, 35, 0.95) !important;
+  border: 1px solid rgba(20, 181, 255, 0.35) !important;
+  border-radius: 8px !important;
+  color: #e0e0e0 !important;
+  padding: 8px 12px !important;
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
+  font-size: 13px !important;
+  cursor: pointer !important;
+  outline: none !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.75rem !important;
+  transition: border-color 0.2s, box-shadow 0.2s !important;
+}
+
+.ptx-dialog select:focus,
+#ptx-read-aloud-voice:focus,
+#ptx-read-aloud-asides:focus {
+  border-color: #00e8ff !important;
+  box-shadow: 0 0 10px rgba(0, 232, 255, 0.35) !important;
+}
+
+.ptx-dialog select option {
+  background: #0d1117 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Fieldsets */
+.ptx-dialog fieldset.ptx-readability-options-group,
+.ptx-readability-options-group:is(fieldset) {
+  border: 1px solid rgba(20, 181, 255, 0.25) !important;
+  border-radius: 10px !important;
+  padding: 0.75rem 1rem 1rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.ptx-dialog fieldset legend,
+.ptx-readability-options-group legend {
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
+  color: #00e8ff !important;
+  font-size: 12px !important;
+  padding: 0 6px !important;
+  letter-spacing: 0.5px !important;
+}
+
+.ptx-readability-options-group-theme label {
+  display: inline-flex !important;
+  width: auto !important;
+  margin-right: 1rem !important;
+}
+
+/* Checkboxes and Radios */
+.ptx-dialog input[type="checkbox"],
+.ptx-dialog input[type="radio"] {
+  accent-color: #00e8ff !important;
+  cursor: pointer !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+/* Reset button in Readability options */
+.ptx-readability-reset-button,
+#ptx-readability-reset-button {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  margin-top: 0.5rem !important;
+  padding: 10px 16px !important;
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), 61.8%, rgba(121, 82, 245, 0.22)) !important;
+  border: 1px solid rgba(20, 181, 255, 0.45) !important;
+  border-radius: 8px !important;
+  color: var(--color-text, #C5F8FF) !important;
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
+  font-size: 13px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.ptx-readability-reset-button:hover,
+#ptx-readability-reset-button:hover {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.4), 61.8%, rgba(121, 82, 245, 0.4)) !important;
+  border-color: #00e8ff !important;
+  color: #ffffff !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 16px rgba(0, 232, 255, 0.35) !important;
+}
+
+.ptx-readability-reset-button .icon {
+  color: #00e8ff !important;
+  font-size: 18px !important;
+}
+
+.ptx-readability-reset-button:hover .icon {
+  color: #ffffff !important;
 }
 
 /* Content buttons */
