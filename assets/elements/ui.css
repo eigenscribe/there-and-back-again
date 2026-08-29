@@ -46,10 +46,11 @@
   align-items: center !important;
   justify-content: center !important;
   gap: 6px !important;
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.12) 0%, rgba(56, 189, 248, 0.12) 50%, rgba(129, 140, 248, 0.12) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(5, 25, 45, 0.75) 0%, rgba(12, 28, 60, 0.7) 50%, rgba(25, 20, 65, 0.7) 100%) padding-box,
               linear-gradient(135deg, rgba(0, 232, 255, 0.45) 0%, rgba(56, 189, 248, 0.35) 50%, rgba(129, 140, 248, 0.4) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #e0f2fe !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85) !important;
   padding: 7px 13px !important;
   min-height: 36px !important;
   border-radius: 8px !important;
@@ -63,107 +64,115 @@
   text-transform: none !important;
   text-decoration: none !important;
   white-space: nowrap !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
   box-sizing: border-box !important;
 }
 
 /* Left-to-right color flow progression for individual buttons */
 .ptx-navbar .toc-toggle,
 .ptx-navbar #ptx-toc-toggle {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.18) 0%, rgba(20, 181, 255, 0.14) 100%) padding-box,
-              linear-gradient(135deg, rgba(0, 232, 255, 0.6) 0%, rgba(20, 181, 255, 0.45) 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(4, 28, 48, 0.8) 0%, rgba(6, 38, 65, 0.75) 100%) padding-box,
+              linear-gradient(135deg, rgba(0, 232, 255, 0.5) 0%, rgba(20, 181, 255, 0.38) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #e0f2fe !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
 }
 
 .ptx-navbar .toc-toggle .icon,
 .ptx-navbar #ptx-toc-toggle .icon {
-  color: #00e8ff !important;
-  filter: drop-shadow(0 0 3px rgba(0, 232, 255, 0.6)) !important;
+  color: #38e1ff !important;
+  filter: drop-shadow(0 0 3px rgba(0, 232, 255, 0.5)) !important;
 }
 
 .ptx-navbar .index-button {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.18) 0%, rgba(56, 189, 248, 0.14) 100%) padding-box,
-              linear-gradient(135deg, rgba(20, 181, 255, 0.6) 0%, rgba(56, 189, 248, 0.45) 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(6, 32, 58, 0.8) 0%, rgba(10, 36, 70, 0.75) 100%) padding-box,
+              linear-gradient(135deg, rgba(20, 181, 255, 0.5) 0%, rgba(56, 189, 248, 0.38) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #e0f2fe !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
 }
 
 .ptx-navbar .index-button .icon {
-  color: #38bdf8 !important;
-  filter: drop-shadow(0 0 3px rgba(56, 189, 248, 0.6)) !important;
+  color: #60cdff !important;
+  filter: drop-shadow(0 0 3px rgba(56, 189, 248, 0.5)) !important;
 }
 
 .ptx-navbar .ptx-search-button {
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.18) 0%, rgba(99, 102, 241, 0.18) 100%) padding-box,
-              linear-gradient(135deg, rgba(56, 189, 248, 0.6) 0%, rgba(99, 102, 241, 0.5) 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(8, 28, 65, 0.8) 0%, rgba(18, 26, 75, 0.75) 100%) padding-box,
+              linear-gradient(135deg, rgba(56, 189, 248, 0.5) 0%, rgba(99, 102, 241, 0.42) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #e0f2fe !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
 }
 
 .ptx-navbar .ptx-search-button .icon {
-  color: #818cf8 !important;
-  filter: drop-shadow(0 0 3px rgba(129, 140, 248, 0.6)) !important;
+  color: #9da8ff !important;
+  filter: drop-shadow(0 0 3px rgba(129, 140, 248, 0.5)) !important;
 }
 
 .ptx-navbar .ptx-read-aloud-button {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.18) 0%, rgba(139, 92, 246, 0.2) 100%) padding-box,
-              linear-gradient(135deg, rgba(99, 102, 241, 0.6) 0%, rgba(139, 92, 246, 0.55) 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(16, 24, 72, 0.8) 0%, rgba(28, 22, 78, 0.75) 100%) padding-box,
+              linear-gradient(135deg, rgba(99, 102, 241, 0.5) 0%, rgba(139, 92, 246, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #f3e8ff !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
 }
 
 .ptx-navbar .ptx-read-aloud-button .icon {
-  color: #a78bfa !important;
-  filter: drop-shadow(0 0 3px rgba(167, 139, 250, 0.6)) !important;
+  color: #c4b5fd !important;
+  filter: drop-shadow(0 0 3px rgba(167, 139, 250, 0.5)) !important;
 }
 
 .ptx-navbar .ptx-readability-options-button {
-  background: linear-gradient(135deg, rgba(139, 92, 246, 0.18) 0%, rgba(192, 38, 211, 0.2) 100%) padding-box,
-              linear-gradient(135deg, rgba(139, 92, 246, 0.6) 0%, rgba(192, 38, 211, 0.55) 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(28, 20, 75, 0.8) 0%, rgba(42, 18, 75, 0.75) 100%) padding-box,
+              linear-gradient(135deg, rgba(139, 92, 246, 0.5) 0%, rgba(192, 38, 211, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #fae8ff !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
 }
 
 .ptx-navbar .ptx-readability-options-button .icon {
-  color: #c084fc !important;
-  filter: drop-shadow(0 0 3px rgba(192, 132, 252, 0.6)) !important;
+  color: #d8b4fe !important;
+  filter: drop-shadow(0 0 3px rgba(192, 132, 252, 0.5)) !important;
 }
 
 .ptx-navbar .previous-button {
-  background: linear-gradient(135deg, rgba(192, 38, 211, 0.2) 0%, rgba(217, 70, 239, 0.2) 100%) padding-box,
-              linear-gradient(135deg, rgba(192, 38, 211, 0.6) 0%, rgba(217, 70, 239, 0.55) 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(42, 18, 72, 0.8) 0%, rgba(52, 16, 70, 0.75) 100%) padding-box,
+              linear-gradient(135deg, rgba(192, 38, 211, 0.5) 0%, rgba(217, 70, 239, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #fae8ff !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
 }
 
 .ptx-navbar .previous-button .icon {
-  color: #e879f9 !important;
-  filter: drop-shadow(0 0 3px rgba(232, 121, 249, 0.6)) !important;
+  color: #f0abfc !important;
+  filter: drop-shadow(0 0 3px rgba(232, 121, 249, 0.5)) !important;
 }
 
 .ptx-navbar .up-button {
-  background: linear-gradient(135deg, rgba(217, 70, 239, 0.2) 0%, rgba(236, 72, 153, 0.2) 100%) padding-box,
-              linear-gradient(135deg, rgba(217, 70, 239, 0.6) 0%, rgba(236, 72, 153, 0.55) 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(50, 16, 68, 0.8) 0%, rgba(58, 14, 62, 0.75) 100%) padding-box,
+              linear-gradient(135deg, rgba(217, 70, 239, 0.5) 0%, rgba(236, 72, 153, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #fdf2f8 !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
 }
 
 .ptx-navbar .up-button .icon {
-  color: #f472b6 !important;
-  filter: drop-shadow(0 0 3px rgba(244, 114, 182, 0.6)) !important;
+  color: #f9a8d4 !important;
+  filter: drop-shadow(0 0 3px rgba(244, 114, 182, 0.5)) !important;
 }
 
 .ptx-navbar .next-button {
-  background: linear-gradient(135deg, rgba(236, 72, 153, 0.2) 0%, rgba(244, 63, 94, 0.2) 100%) padding-box,
-              linear-gradient(135deg, rgba(236, 72, 153, 0.6) 0%, rgba(244, 63, 94, 0.55) 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(56, 14, 60, 0.8) 0%, rgba(62, 12, 50, 0.75) 100%) padding-box,
+              linear-gradient(135deg, rgba(236, 72, 153, 0.5) 0%, rgba(244, 63, 94, 0.45) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #ffe4e6 !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
 }
 
 .ptx-navbar .next-button .icon {
-  color: #fb7185 !important;
-  filter: drop-shadow(0 0 3px rgba(251, 113, 133, 0.6)) !important;
+  color: #fda4af !important;
+  filter: drop-shadow(0 0 3px rgba(251, 113, 133, 0.5)) !important;
 }
 
 .ptx-navbar .button .icon,
@@ -176,73 +185,74 @@
   transition: color 0.2s ease, transform 0.2s ease, filter 0.2s ease !important;
 }
 
-/* Button Hover State */
+/* Button Hover State - Subtle Glowing Highlights with High-Contrast Interior */
 .ptx-navbar .button:hover,
 .ptx-navbar button:hover,
 .ptx-navbar a.button:hover {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.22) 0%, rgba(56, 189, 248, 0.24) 50%, rgba(129, 140, 248, 0.22) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(8, 30, 56, 0.88) 0%, rgba(16, 32, 68, 0.85) 50%, rgba(30, 22, 75, 0.85) 100%) padding-box,
               linear-gradient(135deg, #00e8ff 0%, #38bdf8 50%, #818cf8 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.95) !important;
   transform: translateY(-1px) scale(1.02) !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 232, 255, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(0, 232, 255, 0.35) !important;
 }
 
 .ptx-navbar .toc-toggle:hover,
 .ptx-navbar #ptx-toc-toggle:hover {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.26) 0%, rgba(20, 181, 255, 0.22) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(6, 36, 62, 0.88) 0%, rgba(8, 46, 78, 0.85) 100%) padding-box,
               linear-gradient(135deg, #00e8ff 0%, #14b5ff 100%) border-box !important;
   border: 1px solid transparent !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 232, 255, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(0, 232, 255, 0.4) !important;
 }
 
 .ptx-navbar .index-button:hover {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.26) 0%, rgba(56, 189, 248, 0.22) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(8, 38, 70, 0.88) 0%, rgba(12, 44, 82, 0.85) 100%) padding-box,
               linear-gradient(135deg, #14b5ff 0%, #38bdf8 100%) border-box !important;
   border: 1px solid transparent !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(20, 181, 255, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(20, 181, 255, 0.4) !important;
 }
 
 .ptx-navbar .ptx-search-button:hover {
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.26) 0%, rgba(99, 102, 241, 0.26) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(10, 32, 78, 0.88) 0%, rgba(20, 30, 88, 0.85) 100%) padding-box,
               linear-gradient(135deg, #38bdf8 0%, #818cf8 100%) border-box !important;
   border: 1px solid transparent !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(99, 102, 241, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(129, 140, 248, 0.4) !important;
 }
 
 .ptx-navbar .ptx-read-aloud-button:hover {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.26) 0%, rgba(139, 92, 246, 0.28) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(18, 28, 85, 0.88) 0%, rgba(32, 24, 92, 0.85) 100%) padding-box,
               linear-gradient(135deg, #818cf8 0%, #a78bfa 100%) border-box !important;
   border: 1px solid transparent !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(139, 92, 246, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(139, 92, 246, 0.4) !important;
 }
 
 .ptx-navbar .ptx-readability-options-button:hover {
-  background: linear-gradient(135deg, rgba(139, 92, 246, 0.26) 0%, rgba(192, 38, 211, 0.28) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(32, 24, 88, 0.88) 0%, rgba(48, 20, 88, 0.85) 100%) padding-box,
               linear-gradient(135deg, #a78bfa 0%, #c084fc 100%) border-box !important;
   border: 1px solid transparent !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(192, 38, 211, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(192, 38, 211, 0.4) !important;
 }
 
 .ptx-navbar .previous-button:hover {
-  background: linear-gradient(135deg, rgba(192, 38, 211, 0.28) 0%, rgba(217, 70, 239, 0.28) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(48, 20, 82, 0.88) 0%, rgba(58, 18, 80, 0.85) 100%) padding-box,
               linear-gradient(135deg, #c084fc 0%, #e879f9 100%) border-box !important;
   border: 1px solid transparent !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(217, 70, 239, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(217, 70, 239, 0.4) !important;
 }
 
 .ptx-navbar .up-button:hover {
-  background: linear-gradient(135deg, rgba(217, 70, 239, 0.28) 0%, rgba(236, 72, 153, 0.28) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(56, 18, 78, 0.88) 0%, rgba(65, 16, 70, 0.85) 100%) padding-box,
               linear-gradient(135deg, #e879f9 0%, #f472b6 100%) border-box !important;
   border: 1px solid transparent !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(236, 72, 153, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(236, 72, 153, 0.4) !important;
 }
 
 .ptx-navbar .next-button:hover {
-  background: linear-gradient(135deg, rgba(236, 72, 153, 0.28) 0%, rgba(244, 63, 94, 0.28) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(62, 16, 68, 0.88) 0%, rgba(68, 14, 58, 0.85) 100%) padding-box,
               linear-gradient(135deg, #f472b6 0%, #fb7185 100%) border-box !important;
   border: 1px solid transparent !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(244, 63, 94, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(244, 63, 94, 0.4) !important;
 }
 
 .ptx-navbar .button:hover .icon,
@@ -250,7 +260,40 @@
 .ptx-navbar a.button:hover .icon {
   color: #ffffff !important;
   transform: scale(1.08) !important;
-  filter: drop-shadow(0 0 4px #00e8ff) !important;
+  filter: drop-shadow(0 0 4px rgba(0, 232, 255, 0.75)) !important;
+}
+
+.ptx-navbar .toc-toggle:hover .icon,
+.ptx-navbar #ptx-toc-toggle:hover .icon {
+  filter: drop-shadow(0 0 4px rgba(0, 232, 255, 0.85)) !important;
+}
+
+.ptx-navbar .index-button:hover .icon {
+  filter: drop-shadow(0 0 4px rgba(56, 189, 248, 0.85)) !important;
+}
+
+.ptx-navbar .ptx-search-button:hover .icon {
+  filter: drop-shadow(0 0 4px rgba(129, 140, 248, 0.85)) !important;
+}
+
+.ptx-navbar .ptx-read-aloud-button:hover .icon {
+  filter: drop-shadow(0 0 4px rgba(167, 139, 250, 0.85)) !important;
+}
+
+.ptx-navbar .ptx-readability-options-button:hover .icon {
+  filter: drop-shadow(0 0 4px rgba(192, 132, 252, 0.85)) !important;
+}
+
+.ptx-navbar .previous-button:hover .icon {
+  filter: drop-shadow(0 0 4px rgba(232, 121, 249, 0.85)) !important;
+}
+
+.ptx-navbar .up-button:hover .icon {
+  filter: drop-shadow(0 0 4px rgba(244, 114, 182, 0.85)) !important;
+}
+
+.ptx-navbar .next-button:hover .icon {
+  filter: drop-shadow(0 0 4px rgba(251, 113, 133, 0.85)) !important;
 }
 
 /* Button Active / Toggled / Highlighted States - Matching Gradient Borders with Toned Glow */
@@ -260,85 +303,94 @@
 .ptx-navbar .button[aria-expanded="true"],
 .ptx-navbar button[aria-expanded="true"],
 .ptx-navbar a.button[aria-expanded="true"] {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.3) 0%, rgba(56, 189, 248, 0.3) 50%, rgba(129, 140, 248, 0.3) 100%) padding-box,
-              linear-gradient(135deg, #00e8ff 0%, #38bdf8 50%, #818cf8 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(8, 35, 65, 0.85) 0%, rgba(18, 38, 75, 0.85) 50%, rgba(35, 25, 80, 0.85) 100%) padding-box,
+              linear-gradient(135deg, rgba(0, 232, 255, 0.65) 0%, rgba(56, 189, 248, 0.6) 50%, rgba(129, 140, 248, 0.65) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 232, 255, 0.3) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 232, 255, 0.25) !important;
 }
 
 .ptx-navbar .toc-toggle.active,
 .ptx-navbar .toc-toggle[aria-expanded="true"],
 .ptx-navbar #ptx-toc-toggle.active,
 .ptx-navbar #ptx-toc-toggle[aria-expanded="true"] {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.32) 0%, rgba(20, 181, 255, 0.28) 100%) padding-box,
-              linear-gradient(135deg, #00e8ff 0%, #14b5ff 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(6, 36, 60, 0.85) 0%, rgba(12, 46, 75, 0.85) 100%) padding-box,
+              linear-gradient(135deg, rgba(0, 232, 255, 0.6) 0%, rgba(20, 181, 255, 0.5) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 232, 255, 0.35) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(0, 232, 255, 0.25) !important;
 }
 
 .ptx-navbar .index-button.active,
 .ptx-navbar .index-button:active {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.32) 0%, rgba(56, 189, 248, 0.28) 100%) padding-box,
-              linear-gradient(135deg, #14b5ff 0%, #38bdf8 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(8, 40, 70, 0.85) 0%, rgba(16, 46, 82, 0.85) 100%) padding-box,
+              linear-gradient(135deg, rgba(20, 181, 255, 0.6) 0%, rgba(56, 189, 248, 0.5) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(20, 181, 255, 0.35) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(20, 181, 255, 0.25) !important;
 }
 
 .ptx-navbar .ptx-search-button.active,
 .ptx-navbar .ptx-search-button[aria-expanded="true"] {
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.32) 0%, rgba(99, 102, 241, 0.32) 100%) padding-box,
-              linear-gradient(135deg, #38bdf8 0%, #818cf8 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(12, 36, 78, 0.85) 0%, rgba(25, 32, 88, 0.85) 100%) padding-box,
+              linear-gradient(135deg, rgba(56, 189, 248, 0.6) 0%, rgba(99, 102, 241, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(99, 102, 241, 0.35) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(99, 102, 241, 0.25) !important;
 }
 
 .ptx-navbar .ptx-read-aloud-button[aria-expanded="true"],
 .ptx-navbar .ptx-read-aloud-button.active {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.32) 0%, rgba(139, 92, 246, 0.35) 100%) padding-box,
-              linear-gradient(135deg, #818cf8 0%, #a78bfa 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(22, 30, 85, 0.85) 0%, rgba(35, 26, 92, 0.85) 100%) padding-box,
+              linear-gradient(135deg, rgba(99, 102, 241, 0.6) 0%, rgba(139, 92, 246, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(139, 92, 246, 0.35) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(139, 92, 246, 0.25) !important;
 }
 
 .ptx-navbar .ptx-readability-options-button[aria-expanded="true"],
 .ptx-navbar .ptx-readability-options-button.active {
-  background: linear-gradient(135deg, rgba(139, 92, 246, 0.32) 0%, rgba(192, 38, 211, 0.35) 100%) padding-box,
-              linear-gradient(135deg, #a78bfa 0%, #c084fc 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(35, 25, 88, 0.85) 0%, rgba(50, 22, 88, 0.85) 100%) padding-box,
+              linear-gradient(135deg, rgba(139, 92, 246, 0.6) 0%, rgba(192, 38, 211, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(192, 38, 211, 0.35) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(192, 38, 211, 0.25) !important;
 }
 
 .ptx-navbar .previous-button.active,
 .ptx-navbar .previous-button:active {
-  background: linear-gradient(135deg, rgba(192, 38, 211, 0.32) 0%, rgba(217, 70, 239, 0.32) 100%) padding-box,
-              linear-gradient(135deg, #c084fc 0%, #e879f9 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(50, 22, 85, 0.85) 0%, rgba(62, 20, 82, 0.85) 100%) padding-box,
+              linear-gradient(135deg, rgba(192, 38, 211, 0.6) 0%, rgba(217, 70, 239, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(217, 70, 239, 0.35) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(217, 70, 239, 0.25) !important;
 }
 
 .ptx-navbar .up-button.active,
 .ptx-navbar .up-button:active {
-  background: linear-gradient(135deg, rgba(217, 70, 239, 0.32) 0%, rgba(236, 72, 153, 0.32) 100%) padding-box,
-              linear-gradient(135deg, #e879f9 0%, #f472b6 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(58, 20, 80, 0.85) 0%, rgba(68, 18, 72, 0.85) 100%) padding-box,
+              linear-gradient(135deg, rgba(217, 70, 239, 0.6) 0%, rgba(236, 72, 153, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(236, 72, 153, 0.35) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(236, 72, 153, 0.25) !important;
 }
 
 .ptx-navbar .next-button.active,
 .ptx-navbar .next-button:active {
-  background: linear-gradient(135deg, rgba(236, 72, 153, 0.32) 0%, rgba(244, 63, 94, 0.32) 100%) padding-box,
-              linear-gradient(135deg, #f472b6 0%, #fb7185 100%) border-box !important;
+  background: linear-gradient(135deg, rgba(65, 18, 70, 0.85) 0%, rgba(72, 16, 60, 0.85) 100%) padding-box,
+              linear-gradient(135deg, rgba(236, 72, 153, 0.6) 0%, rgba(244, 63, 94, 0.55) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(244, 63, 94, 0.35) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(244, 63, 94, 0.25) !important;
 }
 
 .ptx-navbar .button:active:hover,
@@ -347,8 +399,9 @@
 .ptx-navbar .button[aria-expanded="true"]:hover,
 .ptx-navbar button[aria-expanded="true"]:hover,
 .ptx-navbar a.button[aria-expanded="true"]:hover {
-  filter: brightness(1.1) !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 12px rgba(0, 232, 255, 0.4) !important;
+  filter: none !important;
+  transform: translateY(-1px) scale(1.02) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(0, 232, 255, 0.4) !important;
 }
 
 .ptx-navbar .button:active .icon,
@@ -420,93 +473,147 @@ body.pretext:has(.ptx-read-aloud-player:not([hidden])) {
   font-size: 12px !important;
   border-radius: 6px !important;
   gap: 3px !important;
-  background: linear-gradient(135deg, rgba(139, 92, 246, 0.25) 0%, rgba(192, 38, 211, 0.25) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(20, 16, 50, 0.85) 0%, rgba(35, 14, 55, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(139, 92, 246, 0.65) 0%, rgba(192, 38, 211, 0.6) 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #f5d0fe !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
   transition: all 0.2s ease !important;
 }
 
 #ptx-read-aloud-player .button:hover,
 .ptx-navbar .ptx-read-aloud-player .button:hover {
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.35) 0%, rgba(217, 70, 239, 0.38) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(28, 18, 62, 0.9) 0%, rgba(45, 16, 68, 0.9) 100%) padding-box,
               linear-gradient(135deg, #a78bfa 0%, #f0abfc 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  transform: scale(1.06) !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 8px rgba(217, 70, 239, 0.35) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.95) !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 8px rgba(217, 70, 239, 0.4) !important;
 }
 
 #ptx-read-aloud-player .button .icon,
 .ptx-navbar .ptx-read-aloud-player .button .icon {
   font-size: 16px !important;
-  color: #e879f9 !important;
-  filter: drop-shadow(0 0 3px rgba(232, 121, 249, 0.6)) !important;
+  color: #f0abfc !important;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.8)) !important;
   transition: all 0.2s ease !important;
 }
 
 #ptx-read-aloud-player .button:hover .icon,
 .ptx-navbar .ptx-read-aloud-player .button:hover .icon {
   color: #ffffff !important;
-  filter: drop-shadow(0 0 4px #00e8ff) !important;
+  filter: drop-shadow(0 0 4px rgba(217, 70, 239, 0.8)) !important;
 }
 
 /* Specific audio buttons styling with matching gradient outlines */
 #ptx-read-aloud-player #ptx-read-aloud-prev,
 .ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-prev {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.25) 0%, rgba(139, 92, 246, 0.25) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(14, 20, 60, 0.85) 0%, rgba(24, 18, 68, 0.85) 100%) padding-box,
               linear-gradient(135deg, #818cf8 0%, #a78bfa 100%) border-box !important;
   border: 1px solid transparent !important;
 }
 
+#ptx-read-aloud-player #ptx-read-aloud-prev:hover,
+.ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-prev:hover {
+  background: linear-gradient(135deg, rgba(18, 24, 72, 0.9) 0%, rgba(30, 22, 80, 0.9) 100%) padding-box,
+              linear-gradient(135deg, #818cf8 0%, #a78bfa 100%) border-box !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 8px rgba(129, 140, 248, 0.45) !important;
+}
+
 #ptx-read-aloud-player #ptx-read-aloud-prev .icon {
-  color: #a78bfa !important;
-  filter: drop-shadow(0 0 3px rgba(167, 139, 250, 0.6)) !important;
+  color: #c4b5fd !important;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.8)) !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-prev:hover .icon {
+  color: #ffffff !important;
+  filter: drop-shadow(0 0 4px rgba(167, 139, 250, 0.85)) !important;
 }
 
 #ptx-read-aloud-player #ptx-read-aloud-next,
 .ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-next {
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.25) 0%, rgba(217, 70, 239, 0.25) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(28, 16, 65, 0.85) 0%, rgba(42, 14, 65, 0.85) 100%) padding-box,
               linear-gradient(135deg, #c084fc 0%, #f0abfc 100%) border-box !important;
   border: 1px solid transparent !important;
 }
 
+#ptx-read-aloud-player #ptx-read-aloud-next:hover,
+.ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-next:hover {
+  background: linear-gradient(135deg, rgba(34, 20, 75, 0.9) 0%, rgba(48, 18, 75, 0.9) 100%) padding-box,
+              linear-gradient(135deg, #c084fc 0%, #f0abfc 100%) border-box !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 8px rgba(192, 38, 211, 0.45) !important;
+}
+
 #ptx-read-aloud-player #ptx-read-aloud-next .icon {
-  color: #f0abfc !important;
-  filter: drop-shadow(0 0 3px rgba(240, 171, 252, 0.6)) !important;
+  color: #f5d0fe !important;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.8)) !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-next:hover .icon {
+  color: #ffffff !important;
+  filter: drop-shadow(0 0 4px rgba(240, 171, 252, 0.85)) !important;
 }
 
 #ptx-read-aloud-player #ptx-read-aloud-settings-button,
 .ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-settings-button {
-  background: linear-gradient(135deg, rgba(192, 38, 211, 0.25) 0%, rgba(236, 72, 153, 0.25) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(38, 14, 62, 0.85) 0%, rgba(52, 12, 58, 0.85) 100%) padding-box,
               linear-gradient(135deg, #e879f9 0%, #f472b6 100%) border-box !important;
   border: 1px solid transparent !important;
 }
 
+#ptx-read-aloud-player #ptx-read-aloud-settings-button:hover,
+.ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-settings-button:hover {
+  background: linear-gradient(135deg, rgba(45, 18, 72, 0.9) 0%, rgba(58, 15, 68, 0.9) 100%) padding-box,
+              linear-gradient(135deg, #e879f9 0%, #f472b6 100%) border-box !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 8px rgba(236, 72, 153, 0.45) !important;
+}
+
 #ptx-read-aloud-player #ptx-read-aloud-settings-button .icon {
-  color: #f472b6 !important;
-  filter: drop-shadow(0 0 3px rgba(244, 114, 182, 0.6)) !important;
+  color: #fbcfe8 !important;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.8)) !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-settings-button:hover .icon {
+  color: #ffffff !important;
+  filter: drop-shadow(0 0 4px rgba(244, 114, 182, 0.85)) !important;
 }
 
 #ptx-read-aloud-player #ptx-read-aloud-continue,
 .ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-continue {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.25) 0%, rgba(139, 92, 246, 0.28) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(8, 30, 60, 0.85) 0%, rgba(22, 20, 70, 0.85) 100%) padding-box,
               linear-gradient(135deg, #00e8ff 0%, #a78bfa 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
   padding: 4px 10px !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-continue:hover,
+.ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-continue:hover {
+  background: linear-gradient(135deg, rgba(12, 36, 72, 0.9) 0%, rgba(28, 24, 82, 0.9) 100%) padding-box,
+              linear-gradient(135deg, #00e8ff 0%, #a78bfa 100%) border-box !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 8px rgba(0, 232, 255, 0.45) !important;
 }
 
 /* Read aloud toggle (play/pause) button */
 #ptx-read-aloud-player #ptx-read-aloud-toggle,
 .ptx-navbar .ptx-read-aloud-player .ptx-read-aloud-toggle {
   min-width: 34px !important;
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.25) 0%, rgba(139, 92, 246, 0.28) 50%, rgba(217, 70, 239, 0.25) 100%) padding-box,
+  background: linear-gradient(135deg, rgba(8, 35, 68, 0.85) 0%, rgba(25, 20, 75, 0.85) 50%, rgba(45, 14, 65, 0.85) 100%) padding-box,
               linear-gradient(135deg, #00e8ff 0%, #a78bfa 50%, #e879f9 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35), 0 0 8px rgba(0, 232, 255, 0.25) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), 0 0 6px rgba(0, 232, 255, 0.25) !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-toggle:hover,
+.ptx-navbar .ptx-read-aloud-player .ptx-read-aloud-toggle:hover {
+  background: linear-gradient(135deg, rgba(12, 40, 78, 0.9) 0%, rgba(32, 24, 85, 0.9) 50%, rgba(52, 18, 75, 0.9) 100%) padding-box,
+              linear-gradient(135deg, #00e8ff 0%, #a78bfa 50%, #e879f9 100%) border-box !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 10px rgba(0, 232, 255, 0.45) !important;
 }
 
 #ptx-read-aloud-player #ptx-read-aloud-toggle .icon {

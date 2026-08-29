@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined navbar styling in CSS for enhanced readability, responsiveness, and visual consistency; updated IntelliJ workspace configuration with adjusted tasks, completion values, and improved notes graph alignment.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined navbar styling with new gradient backgrounds, enhanced contrast, and updated hover/active states; adjusted IntelliJ workspace configuration to align with recent changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
     </list>
@@ -188,14 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00164" summary="added data geometry table for choosing mathematical tools for analyzing a particular data set">
-      <option name="closed" value="true" />
-      <created>1785529139326</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1785529139326</updated>
     </task>
     <task id="LOCAL-00165" summary="relocated the before and after boltzmann assemblage in the bridges section under Ludwig Boltzmann in setting the stage chapter. Also made some minor changes with the layout of the setting the stage chapter and included the classical mechanics defintion of the action under Joseph-Lous-Lagrange subsection.">
       <option name="closed" value="true" />
@@ -581,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787979435970</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="Refined navbar styling with new gradient backgrounds, enhanced contrast, and updated hover/active states; adjusted IntelliJ workspace configuration to align with recent changes.">
+      <option name="closed" value="true" />
+      <created>1787982003944</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1787982003944</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`" />
     <MESSAGE value="updated IntelliJ workspace configuration to reflect recent task changes" />
     <MESSAGE value="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration" />
     <MESSAGE value="Updated Python and dependency configuration: reduced dependencies in `pyproject.toml`, updated `requires-python` to `&gt;=3.11`, and minimized `requirements.txt`." />
@@ -624,6 +623,7 @@
     <MESSAGE value="Added &quot;Spurious Correlations&quot; entry to the glossary, updated related references under &quot;Compositional Data,&quot; and enhanced notes graph integration." />
     <MESSAGE value="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment." />
     <MESSAGE value="Refined navbar styling in CSS for enhanced readability, responsiveness, and visual consistency; updated IntelliJ workspace configuration with adjusted tasks, completion values, and improved notes graph alignment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined navbar styling in CSS for enhanced readability, responsiveness, and visual consistency; updated IntelliJ workspace configuration with adjusted tasks, completion values, and improved notes graph alignment." />
+    <MESSAGE value="Refined navbar styling with new gradient backgrounds, enhanced contrast, and updated hover/active states; adjusted IntelliJ workspace configuration to align with recent changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined navbar styling with new gradient backgrounds, enhanced contrast, and updated hover/active states; adjusted IntelliJ workspace configuration to align with recent changes." />
   </component>
 </project>
