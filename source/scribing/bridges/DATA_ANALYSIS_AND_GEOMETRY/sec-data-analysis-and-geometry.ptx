@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-data-geometry-map" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Data Geometry Map</title>
+  <introduction>
+    <p>
+      <alert>Note Id:</alert> <tag>202607310002</tag> | <alert>Tags:</alert>
+      <tag>data analysis</tag> <tag>geometry</tag>
+    </p>
+
+    <p>
+      <alert>Big Idea:</alert> The computational methods and mathematical tools used to evaluate a dataset should be determined based on the
+      geometry of the data.
+    </p>
+  </introduction>
+
+  <xi:include href="tab-data-geometry-map.ptx"/>
+
+ </section>

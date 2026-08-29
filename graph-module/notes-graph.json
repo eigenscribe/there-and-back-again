@@ -986,18 +986,6 @@
       "color": "#f5a623"
     },
     {
-      "id": "sec-data-geometry-map",
-      "title": "Data Geometry Map",
-      "url": "sec-data-geometry-map.html",
-      "tags": [
-        "data analysis",
-        "geometry"
-      ],
-      "description": "Big Idea: The computational methods and mathematical tools used to evaluate a dataset should be determined based on t...",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
       "id": "ch-bridges",
       "title": "Bridges",
       "url": "ch-bridges.html",
@@ -1038,6 +1026,18 @@
       "url": "sec-future-crossings.html",
       "tags": [],
       "description": "",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
+      "id": "sec-data-geometry-map",
+      "title": "Data Geometry Map",
+      "url": "sec-data-geometry-map.html",
+      "tags": [
+        "data analysis",
+        "geometry"
+      ],
+      "description": "Big Idea: The computational methods and mathematical tools used to evaluate a dataset should be determined based on t...",
       "group": "bridges",
       "color": "#50e3c2"
     },
