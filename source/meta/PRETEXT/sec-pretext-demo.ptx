@@ -129,6 +129,10 @@
       <p>
         Here is a sample Python script:
       </p>
+      <p>
+        <alert>Preview (Console Output):</alert>
+      </p>
+      <pre>Hello, PreTeXt!</pre>
       <program language="python">
         <code>
 def hello_world():
@@ -139,10 +143,6 @@ if __name__ == "__main__":
         </code>
       </program>
       <p>
-        <alert>Preview (Console Output):</alert>
-      </p>
-      <pre>Hello, PreTeXt!</pre>
-      <p>
         :favicon: Note the glassmorphic styling applied to the code block.
       </p>
     </subsubsection>
@@ -151,6 +151,14 @@ if __name__ == "__main__":
       <title>Mathematics</title>
       <p>
         Inline math like <m>E = mc^2</m> and display math:
+      </p>
+      <p>
+        <alert>Preview:</alert>
+      </p>
+      <p>
+        <md>
+          \int_a^b f(x) \, dx = F(b) - F(a)
+        </md>
       </p>
       <program language="xml">
         <code>
@@ -161,14 +169,6 @@ if __name__ == "__main__":
           ]]>
         </code>
       </program>
-      <p>
-        <alert>Preview:</alert>
-      </p>
-      <p>
-        <md>
-          \int_a^b f(x) \, dx = F(b) - F(a)
-        </md>
-      </p>
     </subsubsection>
 
     <subsubsection xml:id="subsec-tables">
@@ -176,6 +176,26 @@ if __name__ == "__main__":
       <p>
         Structured tabular data definition:
       </p>
+      <p>
+        <alert>Preview:</alert>
+      </p>
+      <table>
+        <title>Sample Data</title>
+        <tabular>
+          <row bottom="minor">
+            <cell>Category</cell>
+            <cell>Value</cell>
+          </row>
+          <row>
+            <cell>Alpha</cell>
+            <cell>100</cell>
+          </row>
+          <row>
+            <cell>Beta</cell>
+            <cell>200</cell>
+          </row>
+        </tabular>
+      </table>
       <program language="xml">
         <code>
           <![CDATA[
@@ -199,26 +219,6 @@ if __name__ == "__main__":
           ]]>
         </code>
       </program>
-      <p>
-        <alert>Preview:</alert>
-      </p>
-      <table>
-        <title>Sample Data</title>
-        <tabular>
-          <row bottom="minor">
-            <cell>Category</cell>
-            <cell>Value</cell>
-          </row>
-          <row>
-            <cell>Alpha</cell>
-            <cell>100</cell>
-          </row>
-          <row>
-            <cell>Beta</cell>
-            <cell>200</cell>
-          </row>
-        </tabular>
-      </table>
     </subsubsection>
 
     <subsubsection xml:id="subsec-prefigure-demo">

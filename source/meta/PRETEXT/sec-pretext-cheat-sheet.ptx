@@ -15,6 +15,14 @@
         <p>
             PreTeXt documents follow a strict hierarchical organization.
         </p>
+        <p>
+            <alert>Preview (Sample Rendered Subsection):</alert>
+        </p>
+        <assemblage>
+            <title>Subsection: sub-demo</title>
+            <p>Content with <m>E=mc^2</m> and <xref ref="ch-pretext"/>.</p>
+            <p>🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext-cheat-sheet"/></p>
+        </assemblage>
         <program language="xml">
             <code>
                 <![CDATA[
@@ -46,14 +54,6 @@
                 ]]>
             </code>
         </program>
-        <p>
-            <alert>Preview (Sample Rendered Subsection):</alert>
-        </p>
-        <assemblage>
-            <title>Subsection: sub-demo</title>
-            <p>Content with <m>E=mc^2</m> and <xref ref="ch-pretext"/>.</p>
-            <p>🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext-cheat-sheet"/></p>
-        </assemblage>
     </subsection>
 
     <subsection xml:id="sub-pretext-inline">
@@ -139,6 +139,12 @@
             <li>
                 <title>Single Line Equations</title>
                 <p>Use <c><![CDATA[<md>]]></c> for equations. Single-line equations no longer use <c><![CDATA[<me>]]></c> or <c><![CDATA[<men>]]></c> (deprecated). Use <c>@number="yes"</c> on <c><![CDATA[<md>]]></c> for numbering.</p>
+                <p>
+                    <alert>Preview:</alert>
+                    <md number="yes">
+                        <mrow xml:id="eq-schrodinger-example">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</mrow>
+                    </md>
+                </p>
                 <program language="xml">
                     <code>
                         <![CDATA[<md number="yes">
@@ -146,16 +152,17 @@
 </md>]]>
                     </code>
                 </program>
-                <p>
-                    <alert>Preview:</alert>
-                    <md number="yes">
-                        <mrow xml:id="eq-schrodinger-example">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</mrow>
-                    </md>
-                </p>
             </li>
             <li>
                 <title>Aligned Equations</title>
                 <p>Use <c><![CDATA[<md>]]></c> with <c><![CDATA[<mrow>]]></c> for multiple lines. Use <c><![CDATA[\amp]]></c> for alignment.</p>
+                <p>
+                    <alert>Preview:</alert>
+                    <md>
+                        <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
+                        <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
+                    </md>
+                </p>
                 <program language="xml">
                     <code>
                         <![CDATA[
@@ -166,13 +173,6 @@
                         ]]>
                     </code>
                 </program>
-                <p>
-                    <alert>Preview:</alert>
-                    <md>
-                        <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
-                        <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
-                    </md>
-                </p>
             </li>
         </ul>
         </subsection>
@@ -182,6 +182,15 @@
         <p>
             Structural blocks organize content into logical units with specific styling.
         </p>
+        <p>
+            <alert>Preview:</alert>
+        </p>
+        <definition xml:id="def-unitary-example">
+            <title>Unitary Operator</title>
+            <statement>
+                <p>An operator <m>U</m> is unitary if <m>U^\dagger U = I</m>.</p>
+            </statement>
+        </definition>
         <program language="xml">
             <code>
                 <![CDATA[
@@ -194,16 +203,16 @@
                 ]]>
             </code>
         </program>
+
         <p>
             <alert>Preview:</alert>
         </p>
-        <definition xml:id="def-unitary-example">
-            <title>Unitary Operator</title>
+        <theorem xml:id="thm-noether-example">
+            <title>Noether's Theorem</title>
             <statement>
-                <p>An operator <m>U</m> is unitary if <m>U^\dagger U = I</m>.</p>
+                <p>Every differentiable symmetry ... has a corresponding conservation law.</p>
             </statement>
-        </definition>
-
+        </theorem>
         <program language="xml">
             <code>
                 <![CDATA[
@@ -216,16 +225,14 @@
                 ]]>
             </code>
         </program>
+
         <p>
             <alert>Preview:</alert>
         </p>
-        <theorem xml:id="thm-noether-example">
-            <title>Noether's Theorem</title>
-            <statement>
-                <p>Every differentiable symmetry ... has a corresponding conservation law.</p>
-            </statement>
-        </theorem>
-
+        <assemblage>
+            <title>Key Concept</title>
+            <p>Assemblages are used for boxed summaries (Glassmorphic in this theme).</p>
+        </assemblage>
         <program language="xml">
             <code>
                 <![CDATA[
@@ -236,13 +243,6 @@
                 ]]>
             </code>
         </program>
-        <p>
-            <alert>Preview:</alert>
-        </p>
-        <assemblage>
-            <title>Key Concept</title>
-            <p>Assemblages are used for boxed summaries (Glassmorphic in this theme).</p>
-        </assemblage>
         </subsection>
 
     <subsection xml:id="sub-pretext-elements-table">
@@ -299,6 +299,14 @@
                 <p>
                     <alert>Note Metadata:</alert> Every note should include a metadata block (Note ID, Tags, etc.). This block can be placed in <c><![CDATA[<introduction>]]></c>, <c><![CDATA[<blockquote>]]></c>, <c><![CDATA[<aside>]]></c>, or <c><![CDATA[<paragraphs>]]></c>.
                 </p>
+                <p>
+                    <alert>Preview:</alert>
+                </p>
+                <blockquote>
+                    <p>
+                        <tag>202606012315</tag> | <tag>topic1</tag>, <tag>topic2</tag> | <alert>PreFigure Demo:</alert><tag>🔗 Interactive</tag>
+                    </p>
+                </blockquote>
                 <program language="xml">
                     <code>
                         <![CDATA[
@@ -320,14 +328,6 @@
                         ]]>
                     </code>
                 </program>
-                <p>
-                    <alert>Preview:</alert>
-                </p>
-                <blockquote>
-                    <p>
-                        <tag>202606012315</tag> | <tag>topic1</tag>, <tag>topic2</tag> | <alert>PreFigure Demo:</alert><tag>🔗 Interactive</tag>
-                    </p>
-                </blockquote>
             </li>
             <li>
                 <p>
@@ -339,6 +339,17 @@
                 <p>
                     <alert>Conclusion Metadata:</alert> Conclusions use <c><![CDATA[<alert>]]></c> tags for metadata labels (e.g., Linked Notes, References), which are automatically styled as blue glassmorphic pills.
                 </p>
+                <p>
+                    <alert>Preview:</alert>
+                </p>
+                <blockquote>
+                    <p>
+                        🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext-cheat-sheet" />
+                    </p>
+                    <p>
+                        🔖 <alert>References:</alert> <xref ref="ch-pretext" />
+                    </p>
+                </blockquote>
                 <program language="xml">
                     <code>
                         <![CDATA[
@@ -353,17 +364,6 @@
                         ]]>
                     </code>
                 </program>
-                <p>
-                    <alert>Preview:</alert>
-                </p>
-                <blockquote>
-                    <p>
-                        🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext-cheat-sheet" />
-                    </p>
-                    <p>
-                        🔖 <alert>References:</alert> <xref ref="ch-pretext" />
-                    </p>
-                </blockquote>
             </li>
             <li>
                 <p>

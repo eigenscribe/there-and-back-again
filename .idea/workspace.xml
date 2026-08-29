@@ -7,8 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration.">
-      <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-cheat-sheet.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-cheat-sheet.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,22 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00180" summary="added a physical landscape definition">
-      <option name="closed" value="true" />
-      <created>1785659634729</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1785659634730</updated>
-    </task>
-    <task id="LOCAL-00181" summary="added &quot;formulaziation&quot; and &quot;inference&quot; definitions">
-      <option name="closed" value="true" />
-      <created>1785660483228</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1785660483228</updated>
     </task>
     <task id="LOCAL-00182" summary="added &quot;formulaziation&quot; and &quot;inference&quot; definitions">
       <option name="closed" value="true" />
@@ -580,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787995280022</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787995851340</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1787995851340</updated>
+    </task>
+    <task id="LOCAL-00230" summary="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness.">
+      <option name="closed" value="true" />
+      <created>1787996205680</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1787996205680</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,8 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration." />
-    <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Added &quot;Compositional Data&quot; subsection with centered log-ratio transform details, updated glossary and notes graph with &quot;Composition&quot; entry, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Updated IntelliJ workspace configuration, refined &quot;Compositional Data&quot; subsection formatting, and enhanced notes graph and glossary alignment." />
     <MESSAGE value="Integrated &quot;tse-landing-page&quot; as a new IntelliJ module, updated workspace configuration, refined CSS for improved heading styles, and adjusted notes graph for enhanced alignment." />
@@ -623,6 +624,8 @@
     <MESSAGE value="Refined navbar styling with updated gradients, improved hover/active states, enhanced text contrast, adjusted glowing effects, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar styling with updated hover/active states, enhanced gradients, improved glowing effects, adjusted text contrast, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration." />
+    <MESSAGE value="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration." />
+    <MESSAGE value="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness." />
   </component>
 </project>
