@@ -7,14 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Removed &quot;Physics-Informed Machine Learning&quot; section and related content, updated notes graph, and adjusted IntelliJ workspace configuration.">
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/DATA_ANALYSIS_AND_GEOMETRY/sec-data-analysis-and-geometry.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/DATA_ANALYSIS_AND_GEOMETRY/tab-data-geometry-map.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/TODO.md" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration.">
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/sec-data-geometry-map.ptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/DATA_ANALYSIS_AND_GEOMETRY/sec-data-analysis-and-geometry.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/DATA_ANALYSIS_AND_GEOMETRY/sec-data-analysis-and-geometry.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +41,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0070410663305922" />
-      <entry key="MS500" value="1.409579078634568" />
-      <entry key="S2" value="2.476288150854618" />
-      <entry key="S5" value="3.507797765559824" />
-      <entry key="S10" value="4.831665334478221" />
-      <entry key="S30" value="8.255455320908881" />
-      <entry key="S60" value="10.781549394877711" />
-      <entry key="M2" value="13.693651931322785" />
-      <entry key="M5" value="18.802987628139466" />
-      <entry key="M10" value="26.502528543027136" />
-      <entry key="M15" value="36.035445629506555" />
-      <entry key="M30" value="61.636971551546075" />
-      <entry key="H1" value="89.1495630269641" />
-      <entry key="H2" value="112.61084714400327" />
-      <entry key="H4" value="219.53761113144643" />
-      <entry key="D1" value="4131.682661526743" />
-      <entry key="W1" value="23370.177654562114" />
+      <entry key="MS100" value="1.001154021139153" />
+      <entry key="MS500" value="1.327663844975247" />
+      <entry key="S2" value="2.524369296074026" />
+      <entry key="S5" value="3.269633898295252" />
+      <entry key="S10" value="3.7697965652610064" />
+      <entry key="S30" value="5.015737628036301" />
+      <entry key="S60" value="5.958735102012218" />
+      <entry key="M2" value="8.041054742611252" />
+      <entry key="M5" value="14.901260703013088" />
+      <entry key="M10" value="24.342764575321485" />
+      <entry key="M15" value="34.215852299241696" />
+      <entry key="M30" value="60.613125059891125" />
+      <entry key="H1" value="90.15822008807761" />
+      <entry key="H2" value="115.76482453386589" />
+      <entry key="H4" value="222.76223337001437" />
+      <entry key="D1" value="4126.773732342128" />
+      <entry key="W1" value="23367.54345982182" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -72,35 +67,35 @@
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
-      <entry key="M2" value="3.482722811453512E-172" />
-      <entry key="M5" value="2.610763696353175E-69" />
-      <entry key="M10" value="5.109787673104145E-35" />
-      <entry key="M15" value="1.3786917165459696E-23" />
-      <entry key="M30" value="3.853823372748941E-12" />
-      <entry key="H1" value="2.4013741454956855E-6" />
-      <entry key="H2" value="0.0024279792856504363" />
-      <entry key="H4" value="0.10061145484524715" />
-      <entry key="D1" value="5.050216255267554" />
-      <entry key="W1" value="50.57438194075053" />
+      <entry key="M2" value="4.359241353827968E-173" />
+      <entry key="M5" value="1.1370102158549586E-69" />
+      <entry key="M10" value="3.372106288918954E-35" />
+      <entry key="M15" value="1.0450396462899082E-23" />
+      <entry key="M30" value="3.355247848987603E-12" />
+      <entry key="H1" value="2.2406613897258204E-6" />
+      <entry key="H2" value="0.002345325779549112" />
+      <entry key="H4" value="0.09888411454096546" />
+      <entry key="D1" value="5.035661073445957" />
+      <entry key="W1" value="50.55353332318216" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9862688255884441" />
-      <entry key="MS500" value="1.4031697283762872" />
-      <entry key="S2" value="2.473294576593722" />
-      <entry key="S5" value="3.5060815654002244" />
-      <entry key="S10" value="4.830438543040571" />
-      <entry key="S30" value="8.254694685116556" />
-      <entry key="S60" value="10.781033302260592" />
-      <entry key="M2" value="13.693311991981943" />
-      <entry key="M5" value="18.802790309235448" />
-      <entry key="M10" value="26.50238222577412" />
-      <entry key="M15" value="36.03530870369049" />
-      <entry key="M30" value="61.636850227754415" />
-      <entry key="H1" value="89.14947632005874" />
-      <entry key="H2" value="112.61320831079189" />
-      <entry key="H4" value="219.63801820692262" />
-      <entry key="D1" value="4136.731704732333" />
-      <entry key="W1" value="23420.751111109366" />
+      <entry key="MS100" value="0.9737543307593125" />
+      <entry key="MS500" value="1.3193081670292603" />
+      <entry key="S2" value="2.5200822367246585" />
+      <entry key="S5" value="3.2673862152976176" />
+      <entry key="S10" value="3.768496207981496" />
+      <entry key="S30" value="5.0151596056551755" />
+      <entry key="S60" value="5.958393044425705" />
+      <entry key="M2" value="8.040829596962528" />
+      <entry key="M5" value="14.901097248486026" />
+      <entry key="M10" value="24.342628438260025" />
+      <entry key="M15" value="34.215721937850994" />
+      <entry key="M30" value="60.6130060506382" />
+      <entry key="H1" value="90.15813246935667" />
+      <entry key="H2" value="115.76710195818873" />
+      <entry key="H4" value="222.86091493084416" />
+      <entry key="D1" value="4131.808223465986" />
+      <entry key="W1" value="23418.096068092866" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -193,14 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00156" summary="added macroscopic property to the physical properties section in the physical foundations appendix">
-      <option name="closed" value="true" />
-      <created>1785513078731</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1785513078731</updated>
     </task>
     <task id="LOCAL-00157" summary="polished physical foundations defintions">
       <option name="closed" value="true" />
@@ -586,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787969756064</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787972052557</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1787972052558</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed a typo" />
     <MESSAGE value="fixed some more typos" />
     <MESSAGE value="added a physical landscape definition" />
     <MESSAGE value="added &quot;formulaziation&quot; and &quot;inference&quot; definitions" />
@@ -629,6 +623,7 @@
     <MESSAGE value="Simplified notes graph by removing redundant subsections, refined Euler’s formula content, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Refactored Euler's formula content: simplified structure, updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Removed &quot;Physics-Informed Machine Learning&quot; section and related content, updated notes graph, and adjusted IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed &quot;Physics-Informed Machine Learning&quot; section and related content, updated notes graph, and adjusted IntelliJ workspace configuration." />
+    <MESSAGE value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration." />
   </component>
 </project>
