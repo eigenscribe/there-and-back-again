@@ -85,10 +85,10 @@
 /* Match math color to block colors */
 .ptx-content .definition-like mjx-container,
 .ptx-content .hint mjx-container {
-  color: #7952F5 !important; /* Node Color: Definition (Purple) */
+  color: #9b7dff !important; /* Node Color: Definition (Purple) - lightened for readability */
   text-shadow: 
-    0 0 2px rgba(121, 82, 245, 0.7), 
-    0 0 8px rgba(121, 82, 245, 0.4);
+    0 0 2px rgba(155, 125, 255, 0.7), 
+    0 0 8px rgba(155, 125, 255, 0.4);
 }
 
 .ptx-content .assemblage-like mjx-container {

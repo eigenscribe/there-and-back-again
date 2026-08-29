@@ -7,11 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/def-arithmetic-mean.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/def-arithmetic-mean.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/def-geometric-mean.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/def-geometric-mean.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration.">
+      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00171" summary="rearranged some sections and subsections in the bridges chapter">
-      <option name="closed" value="true" />
-      <created>1785648627329</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1785648627329</updated>
     </task>
     <task id="LOCAL-00172" summary="rearranged some sections and subsections in the bridges chapter">
       <option name="closed" value="true" />
@@ -583,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787989671028</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787990744997</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1787990744997</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated IntelliJ workspace configuration and refined reasoning taxonomy content." />
     <MESSAGE value="Refined reasoning taxonomy examples for clarity and precision." />
     <MESSAGE value="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references." />
@@ -626,6 +622,7 @@
     <MESSAGE value="Refined &quot;Compositional Data&quot; subsection with enhanced CLR transform details, adjusted glossary, updated notes graph with new references, and revised IntelliJ workspace configuration." />
     <MESSAGE value="Added algebra and precalculus section with foundational definitions, means, and identities; updated notes graph with new references; revised IntelliJ workspace configuration." />
     <MESSAGE value="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration." />
+    <MESSAGE value="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration." />
   </component>
 </project>
