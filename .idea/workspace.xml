@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment.">
-      <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined navbar styling in CSS for enhanced readability, responsiveness, and visual consistency; updated IntelliJ workspace configuration with adjusted tasks, completion values, and improved notes graph alignment.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,23 +41,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0005937279316983" />
-      <entry key="S2" value="1.1933845269849206" />
-      <entry key="S5" value="2.362336994095899" />
-      <entry key="S10" value="4.830880872728002" />
-      <entry key="S30" value="11.166461431185887" />
-      <entry key="S60" value="16.738327864566845" />
-      <entry key="M2" value="24.11592133671406" />
-      <entry key="M5" value="41.10856399765505" />
-      <entry key="M10" value="73.55043010325467" />
-      <entry key="M15" value="102.56182950076325" />
-      <entry key="M30" value="163.98642607254544" />
-      <entry key="H1" value="231.45440174617198" />
-      <entry key="H2" value="291.7127241851673" />
-      <entry key="H4" value="410.44455395806574" />
-      <entry key="D1" value="4245.352984321555" />
-      <entry key="W1" value="23509.23986412704" />
+      <entry key="MS100" value="2.408251436007185" />
+      <entry key="MS500" value="7.350354162907694" />
+      <entry key="S2" value="13.428469650053682" />
+      <entry key="S5" value="15.90011630335197" />
+      <entry key="S10" value="16.897546191952323" />
+      <entry key="S30" value="17.62006675817407" />
+      <entry key="S60" value="17.808425722506932" />
+      <entry key="M2" value="17.903808658218136" />
+      <entry key="M5" value="18.017972749594893" />
+      <entry key="M10" value="20.70858871644011" />
+      <entry key="M15" value="29.393488585542308" />
+      <entry key="M30" value="72.68112681930943" />
+      <entry key="H1" value="151.65811331612815" />
+      <entry key="H2" value="239.67789589109452" />
+      <entry key="H4" value="375.7985747419504" />
+      <entry key="D1" value="4167.329969780014" />
+      <entry key="W1" value="23450.530124430425" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -67,35 +67,35 @@
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
-      <entry key="M2" value="5.3373733669964106E-182" />
-      <entry key="M5" value="3.0969274715293563E-73" />
-      <entry key="M10" value="5.565248855718318E-37" />
-      <entry key="M15" value="6.774152814394807E-25" />
-      <entry key="M30" value="8.542514367514615E-13" />
-      <entry key="H1" value="1.130594286122981E-6" />
-      <entry key="H2" value="0.0016659749045780194" />
-      <entry key="H4" value="0.08334108840823315" />
-      <entry key="D1" value="4.894164906409803" />
-      <entry key="W1" value="50.348118362553386" />
+      <entry key="M2" value="3.745742175579744E-189" />
+      <entry key="M5" value="4.260054480916037E-76" />
+      <entry key="M10" value="2.0640805828311822E-38" />
+      <entry key="M15" value="7.533839474441117E-26" />
+      <entry key="M30" value="2.848829149003075E-13" />
+      <entry key="H1" value="6.529006928732856E-7" />
+      <entry key="H2" value="0.001266014345313453" />
+      <entry key="H4" value="0.07265144451466794" />
+      <entry key="D1" value="4.783466970791355" />
+      <entry key="W1" value="50.18383444222645" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9895556569888324" />
-      <entry key="S2" value="1.1879328146076595" />
-      <entry key="S5" value="2.335763362490196" />
-      <entry key="S10" value="4.780316391689027" />
-      <entry key="S30" value="11.115497027708084" />
-      <entry key="S60" value="16.701596983042023" />
-      <entry key="M2" value="24.091890107668146" />
-      <entry key="M5" value="41.09631922139011" />
-      <entry key="M10" value="73.54327969911792" />
-      <entry key="M15" value="102.55659532656351" />
-      <entry key="M30" value="163.98339676894162" />
-      <entry key="H1" value="231.45271025339494" />
-      <entry key="H2" value="291.71347182893635" />
-      <entry key="H4" value="410.52727620897923" />
-      <entry key="D1" value="4250.24593551109" />
-      <entry key="W1" value="23559.587050197646" />
+      <entry key="MS100" value="2.346283325192612" />
+      <entry key="MS500" value="7.306866785692747" />
+      <entry key="S2" value="13.407428340155063" />
+      <entry key="S5" value="15.890030178437073" />
+      <entry key="S10" value="16.892165913943533" />
+      <entry key="S30" value="17.61819188511122" />
+      <entry key="S60" value="17.807477668278224" />
+      <entry key="M2" value="17.903331941040832" />
+      <entry key="M5" value="18.017764570188856" />
+      <entry key="M10" value="20.708227740433944" />
+      <entry key="M15" value="29.39284259433591" />
+      <entry key="M30" value="72.68008463211517" />
+      <entry key="H1" value="151.65712052737393" />
+      <entry key="H2" value="239.678456053862" />
+      <entry key="H4" value="375.8706827283788" />
+      <entry key="D1" value="4172.11224982034" />
+      <entry key="W1" value="23500.71302952761" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -188,14 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00163" summary="added xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; to some of the bridge notes">
-      <option name="closed" value="true" />
-      <created>1785527524993</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1785527524993</updated>
     </task>
     <task id="LOCAL-00164" summary="added data geometry table for choosing mathematical tools for analyzing a particular data set">
       <option name="closed" value="true" />
@@ -581,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787978648126</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="Refined navbar styling in CSS for enhanced readability, responsiveness, and visual consistency; updated IntelliJ workspace configuration with adjusted tasks, completion values, and improved notes graph alignment.">
+      <option name="closed" value="true" />
+      <created>1787979435970</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1787979435970</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting" />
     <MESSAGE value="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`" />
     <MESSAGE value="updated IntelliJ workspace configuration to reflect recent task changes" />
     <MESSAGE value="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration" />
@@ -624,6 +623,7 @@
     <MESSAGE value="Integrated &quot;tse-landing-page&quot; as a new IntelliJ module, updated workspace configuration, refined CSS for improved heading styles, and adjusted notes graph for enhanced alignment." />
     <MESSAGE value="Added &quot;Spurious Correlations&quot; entry to the glossary, updated related references under &quot;Compositional Data,&quot; and enhanced notes graph integration." />
     <MESSAGE value="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment." />
+    <MESSAGE value="Refined navbar styling in CSS for enhanced readability, responsiveness, and visual consistency; updated IntelliJ workspace configuration with adjusted tasks, completion values, and improved notes graph alignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined navbar styling in CSS for enhanced readability, responsiveness, and visual consistency; updated IntelliJ workspace configuration with adjusted tasks, completion values, and improved notes graph alignment." />
   </component>
 </project>

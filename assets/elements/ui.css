@@ -2,18 +2,18 @@
 /*  Section 9: Navbar, Footer, and Navigation Controls          */
 /* ============================================================ */
 .ptx-navbar {
-  background: rgba(10, 14, 20, 0.75) !important;
-  border-bottom: 1px solid rgba(20, 181, 255, 0.2) !important;
-  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  backdrop-filter: blur(12px) !important;
+  background: linear-gradient(90deg, #051428 0%, #091d3e 30%, #0c2350 60%, #111e48 85%, #1c1539 100%) !important;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.35) !important;
+  border-top: 1px solid rgba(0, 232, 255, 0.4) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  backdrop-filter: blur(14px) !important;
   padding: 0.6rem 1.25rem !important;
   position: sticky !important;
   top: 0 !important;
   z-index: 500 !important;
   display: flex !important;
   align-items: center !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(0, 232, 255, 0.25), inset 0 -1px 0 rgba(56, 189, 248, 0.2) !important;
   min-height: 52px !important;
   box-sizing: border-box !important;
 }
@@ -46,9 +46,10 @@
   align-items: center !important;
   justify-content: center !important;
   gap: 6px !important;
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), 61.8%, rgba(121, 82, 245, 0.22)) !important;
-  border: 1px solid rgba(20, 181, 255, 0.4) !important;
-  color: var(--color-text, #C5F8FF) !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.12) 0%, rgba(56, 189, 248, 0.12) 50%, rgba(129, 140, 248, 0.12) 100%) padding-box,
+              linear-gradient(135deg, rgba(0, 232, 255, 0.45) 0%, rgba(56, 189, 248, 0.35) 50%, rgba(129, 140, 248, 0.4) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #e0f2fe !important;
   padding: 7px 13px !important;
   min-height: 36px !important;
   border-radius: 8px !important;
@@ -62,64 +63,292 @@
   text-transform: none !important;
   text-decoration: none !important;
   white-space: nowrap !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
   box-sizing: border-box !important;
+}
+
+/* Left-to-right color flow progression for individual buttons */
+.ptx-navbar .toc-toggle,
+.ptx-navbar #ptx-toc-toggle {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.18) 0%, rgba(20, 181, 255, 0.14) 100%) padding-box,
+              linear-gradient(135deg, rgba(0, 232, 255, 0.6) 0%, rgba(20, 181, 255, 0.45) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #e0f2fe !important;
+}
+
+.ptx-navbar .toc-toggle .icon,
+.ptx-navbar #ptx-toc-toggle .icon {
+  color: #00e8ff !important;
+  filter: drop-shadow(0 0 3px rgba(0, 232, 255, 0.6)) !important;
+}
+
+.ptx-navbar .index-button {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.18) 0%, rgba(56, 189, 248, 0.14) 100%) padding-box,
+              linear-gradient(135deg, rgba(20, 181, 255, 0.6) 0%, rgba(56, 189, 248, 0.45) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #e0f2fe !important;
+}
+
+.ptx-navbar .index-button .icon {
+  color: #38bdf8 !important;
+  filter: drop-shadow(0 0 3px rgba(56, 189, 248, 0.6)) !important;
+}
+
+.ptx-navbar .ptx-search-button {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.18) 0%, rgba(99, 102, 241, 0.18) 100%) padding-box,
+              linear-gradient(135deg, rgba(56, 189, 248, 0.6) 0%, rgba(99, 102, 241, 0.5) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #e0f2fe !important;
+}
+
+.ptx-navbar .ptx-search-button .icon {
+  color: #818cf8 !important;
+  filter: drop-shadow(0 0 3px rgba(129, 140, 248, 0.6)) !important;
+}
+
+.ptx-navbar .ptx-read-aloud-button {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.18) 0%, rgba(139, 92, 246, 0.2) 100%) padding-box,
+              linear-gradient(135deg, rgba(99, 102, 241, 0.6) 0%, rgba(139, 92, 246, 0.55) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #f3e8ff !important;
+}
+
+.ptx-navbar .ptx-read-aloud-button .icon {
+  color: #a78bfa !important;
+  filter: drop-shadow(0 0 3px rgba(167, 139, 250, 0.6)) !important;
+}
+
+.ptx-navbar .ptx-readability-options-button {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.18) 0%, rgba(192, 38, 211, 0.2) 100%) padding-box,
+              linear-gradient(135deg, rgba(139, 92, 246, 0.6) 0%, rgba(192, 38, 211, 0.55) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #fae8ff !important;
+}
+
+.ptx-navbar .ptx-readability-options-button .icon {
+  color: #c084fc !important;
+  filter: drop-shadow(0 0 3px rgba(192, 132, 252, 0.6)) !important;
+}
+
+.ptx-navbar .previous-button {
+  background: linear-gradient(135deg, rgba(192, 38, 211, 0.2) 0%, rgba(217, 70, 239, 0.2) 100%) padding-box,
+              linear-gradient(135deg, rgba(192, 38, 211, 0.6) 0%, rgba(217, 70, 239, 0.55) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #fae8ff !important;
+}
+
+.ptx-navbar .previous-button .icon {
+  color: #e879f9 !important;
+  filter: drop-shadow(0 0 3px rgba(232, 121, 249, 0.6)) !important;
+}
+
+.ptx-navbar .up-button {
+  background: linear-gradient(135deg, rgba(217, 70, 239, 0.2) 0%, rgba(236, 72, 153, 0.2) 100%) padding-box,
+              linear-gradient(135deg, rgba(217, 70, 239, 0.6) 0%, rgba(236, 72, 153, 0.55) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #fdf2f8 !important;
+}
+
+.ptx-navbar .up-button .icon {
+  color: #f472b6 !important;
+  filter: drop-shadow(0 0 3px rgba(244, 114, 182, 0.6)) !important;
+}
+
+.ptx-navbar .next-button {
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.2) 0%, rgba(244, 63, 94, 0.2) 100%) padding-box,
+              linear-gradient(135deg, rgba(236, 72, 153, 0.6) 0%, rgba(244, 63, 94, 0.55) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffe4e6 !important;
+}
+
+.ptx-navbar .next-button .icon {
+  color: #fb7185 !important;
+  filter: drop-shadow(0 0 3px rgba(251, 113, 133, 0.6)) !important;
 }
 
 .ptx-navbar .button .icon,
 .ptx-navbar button .icon,
 .ptx-navbar a.button .icon {
-  color: #00e8ff !important;
   font-size: 18px !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  transition: color 0.2s ease, transform 0.2s ease !important;
+  transition: color 0.2s ease, transform 0.2s ease, filter 0.2s ease !important;
 }
 
 /* Button Hover State */
 .ptx-navbar .button:hover,
 .ptx-navbar button:hover,
-.ptx-navbar a.button:hover,
-.ptx-navbar .toc-toggle:hover,
-.ptx-navbar .index-button:hover,
-.ptx-navbar .ptx-search-button:hover,
-.ptx-navbar .ptx-read-aloud-button:hover,
-.ptx-navbar .ptx-readability-options-button:hover,
-.ptx-navbar .previous-button:hover,
-.ptx-navbar .up-button:hover,
-.ptx-navbar .next-button:hover {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.38), 61.8%, rgba(121, 82, 245, 0.38)) !important;
-  border-color: rgba(0, 232, 255, 0.7) !important;
+.ptx-navbar a.button:hover {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.22) 0%, rgba(56, 189, 248, 0.24) 50%, rgba(129, 140, 248, 0.22) 100%) padding-box,
+              linear-gradient(135deg, #00e8ff 0%, #38bdf8 50%, #818cf8 100%) border-box !important;
+  border: 1px solid transparent !important;
   color: #ffffff !important;
   transform: translateY(-1px) scale(1.02) !important;
-  box-shadow: 0 4px 16px rgba(0, 232, 255, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 232, 255, 0.25) !important;
+}
+
+.ptx-navbar .toc-toggle:hover,
+.ptx-navbar #ptx-toc-toggle:hover {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.26) 0%, rgba(20, 181, 255, 0.22) 100%) padding-box,
+              linear-gradient(135deg, #00e8ff 0%, #14b5ff 100%) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 232, 255, 0.3) !important;
+}
+
+.ptx-navbar .index-button:hover {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.26) 0%, rgba(56, 189, 248, 0.22) 100%) padding-box,
+              linear-gradient(135deg, #14b5ff 0%, #38bdf8 100%) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(20, 181, 255, 0.3) !important;
+}
+
+.ptx-navbar .ptx-search-button:hover {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.26) 0%, rgba(99, 102, 241, 0.26) 100%) padding-box,
+              linear-gradient(135deg, #38bdf8 0%, #818cf8 100%) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(99, 102, 241, 0.3) !important;
+}
+
+.ptx-navbar .ptx-read-aloud-button:hover {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.26) 0%, rgba(139, 92, 246, 0.28) 100%) padding-box,
+              linear-gradient(135deg, #818cf8 0%, #a78bfa 100%) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(139, 92, 246, 0.3) !important;
+}
+
+.ptx-navbar .ptx-readability-options-button:hover {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.26) 0%, rgba(192, 38, 211, 0.28) 100%) padding-box,
+              linear-gradient(135deg, #a78bfa 0%, #c084fc 100%) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(192, 38, 211, 0.3) !important;
+}
+
+.ptx-navbar .previous-button:hover {
+  background: linear-gradient(135deg, rgba(192, 38, 211, 0.28) 0%, rgba(217, 70, 239, 0.28) 100%) padding-box,
+              linear-gradient(135deg, #c084fc 0%, #e879f9 100%) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(217, 70, 239, 0.3) !important;
+}
+
+.ptx-navbar .up-button:hover {
+  background: linear-gradient(135deg, rgba(217, 70, 239, 0.28) 0%, rgba(236, 72, 153, 0.28) 100%) padding-box,
+              linear-gradient(135deg, #e879f9 0%, #f472b6 100%) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(236, 72, 153, 0.3) !important;
+}
+
+.ptx-navbar .next-button:hover {
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.28) 0%, rgba(244, 63, 94, 0.28) 100%) padding-box,
+              linear-gradient(135deg, #f472b6 0%, #fb7185 100%) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4), 0 0 8px rgba(244, 63, 94, 0.3) !important;
 }
 
 .ptx-navbar .button:hover .icon,
 .ptx-navbar button:hover .icon,
 .ptx-navbar a.button:hover .icon {
   color: #ffffff !important;
-  transform: scale(1.1) !important;
+  transform: scale(1.08) !important;
+  filter: drop-shadow(0 0 4px #00e8ff) !important;
 }
 
-/* Button Active / Toggled States */
+/* Button Active / Toggled / Highlighted States - Matching Gradient Borders with Toned Glow */
 .ptx-navbar .button:active,
 .ptx-navbar .button.active,
 .ptx-navbar .button.open,
 .ptx-navbar .button[aria-expanded="true"],
 .ptx-navbar button[aria-expanded="true"],
-.ptx-navbar a.button[aria-expanded="true"],
+.ptx-navbar a.button[aria-expanded="true"] {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.3) 0%, rgba(56, 189, 248, 0.3) 50%, rgba(129, 140, 248, 0.3) 100%) padding-box,
+              linear-gradient(135deg, #00e8ff 0%, #38bdf8 50%, #818cf8 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 232, 255, 0.3) !important;
+}
+
 .ptx-navbar .toc-toggle.active,
 .ptx-navbar .toc-toggle[aria-expanded="true"],
+.ptx-navbar #ptx-toc-toggle.active,
+.ptx-navbar #ptx-toc-toggle[aria-expanded="true"] {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.32) 0%, rgba(20, 181, 255, 0.28) 100%) padding-box,
+              linear-gradient(135deg, #00e8ff 0%, #14b5ff 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 232, 255, 0.35) !important;
+}
+
+.ptx-navbar .index-button.active,
+.ptx-navbar .index-button:active {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.32) 0%, rgba(56, 189, 248, 0.28) 100%) padding-box,
+              linear-gradient(135deg, #14b5ff 0%, #38bdf8 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(20, 181, 255, 0.35) !important;
+}
+
+.ptx-navbar .ptx-search-button.active,
+.ptx-navbar .ptx-search-button[aria-expanded="true"] {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.32) 0%, rgba(99, 102, 241, 0.32) 100%) padding-box,
+              linear-gradient(135deg, #38bdf8 0%, #818cf8 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(99, 102, 241, 0.35) !important;
+}
+
 .ptx-navbar .ptx-read-aloud-button[aria-expanded="true"],
-.ptx-navbar .ptx-read-aloud-button.active,
+.ptx-navbar .ptx-read-aloud-button.active {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.32) 0%, rgba(139, 92, 246, 0.35) 100%) padding-box,
+              linear-gradient(135deg, #818cf8 0%, #a78bfa 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(139, 92, 246, 0.35) !important;
+}
+
 .ptx-navbar .ptx-readability-options-button[aria-expanded="true"],
 .ptx-navbar .ptx-readability-options-button.active {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.45), 61.8%, rgba(121, 82, 245, 0.5)) !important;
-  border-color: #00e8ff !important;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.32) 0%, rgba(192, 38, 211, 0.35) 100%) padding-box,
+              linear-gradient(135deg, #a78bfa 0%, #c084fc 100%) border-box !important;
+  border: 1px solid transparent !important;
   color: #ffffff !important;
-  box-shadow: 0 0 18px rgba(0, 232, 255, 0.5), inset 0 0 10px rgba(0, 232, 255, 0.3) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(192, 38, 211, 0.35) !important;
+}
+
+.ptx-navbar .previous-button.active,
+.ptx-navbar .previous-button:active {
+  background: linear-gradient(135deg, rgba(192, 38, 211, 0.32) 0%, rgba(217, 70, 239, 0.32) 100%) padding-box,
+              linear-gradient(135deg, #c084fc 0%, #e879f9 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(217, 70, 239, 0.35) !important;
+}
+
+.ptx-navbar .up-button.active,
+.ptx-navbar .up-button:active {
+  background: linear-gradient(135deg, rgba(217, 70, 239, 0.32) 0%, rgba(236, 72, 153, 0.32) 100%) padding-box,
+              linear-gradient(135deg, #e879f9 0%, #f472b6 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(236, 72, 153, 0.35) !important;
+}
+
+.ptx-navbar .next-button.active,
+.ptx-navbar .next-button:active {
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.32) 0%, rgba(244, 63, 94, 0.32) 100%) padding-box,
+              linear-gradient(135deg, #f472b6 0%, #fb7185 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 10px rgba(244, 63, 94, 0.35) !important;
+}
+
+.ptx-navbar .button:active:hover,
+.ptx-navbar .button.active:hover,
+.ptx-navbar .button.open:hover,
+.ptx-navbar .button[aria-expanded="true"]:hover,
+.ptx-navbar button[aria-expanded="true"]:hover,
+.ptx-navbar a.button[aria-expanded="true"]:hover {
+  filter: brightness(1.1) !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 12px rgba(0, 232, 255, 0.4) !important;
 }
 
 .ptx-navbar .button:active .icon,
@@ -128,7 +357,7 @@
 .ptx-navbar .button[aria-expanded="true"] .icon,
 .ptx-navbar button[aria-expanded="true"] .icon {
   color: #ffffff !important;
-  filter: drop-shadow(0 0 6px rgba(0, 232, 255, 0.8)) !important;
+  filter: drop-shadow(0 0 4px #00e8ff) !important;
 }
 
 .ptx-navbar .button.disabled {
@@ -162,14 +391,14 @@ body.pretext:has(.ptx-read-aloud-player:not([hidden])) {
   height: auto !important;
   display: inline-flex !important;
   align-items: center !important;
-  gap: 4px !important;
-  padding: 3px 6px !important;
-  background: rgba(13, 17, 23, 0.9) !important;
-  border: 1px solid rgba(20, 181, 255, 0.35) !important;
+  gap: 5px !important;
+  padding: 4px 7px !important;
+  background: linear-gradient(90deg, rgba(14, 40, 80, 0.6) 0%, rgba(30, 27, 75, 0.6) 50%, rgba(88, 28, 135, 0.5) 100%) !important;
+  border: 1px solid rgba(56, 189, 248, 0.4) !important;
   border-radius: 10px !important;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  backdrop-filter: blur(12px) !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45), 0 0 10px rgba(56, 189, 248, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  backdrop-filter: blur(14px) !important;
   margin: 0 2px !important;
   vertical-align: middle !important;
   z-index: 10 !important;
@@ -191,74 +420,133 @@ body.pretext:has(.ptx-read-aloud-player:not([hidden])) {
   font-size: 12px !important;
   border-radius: 6px !important;
   gap: 3px !important;
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.18), 61.8%, rgba(121, 82, 245, 0.18)) !important;
-  border: 1px solid rgba(20, 181, 255, 0.3) !important;
-  color: var(--color-text, #C5F8FF) !important;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) !important;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.25) 0%, rgba(192, 38, 211, 0.25) 100%) padding-box,
+              linear-gradient(135deg, rgba(139, 92, 246, 0.65) 0%, rgba(192, 38, 211, 0.6) 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #f5d0fe !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+  transition: all 0.2s ease !important;
 }
 
 #ptx-read-aloud-player .button:hover,
 .ptx-navbar .ptx-read-aloud-player .button:hover {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.35), 61.8%, rgba(121, 82, 245, 0.35)) !important;
-  border-color: rgba(0, 232, 255, 0.6) !important;
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.35) 0%, rgba(217, 70, 239, 0.38) 100%) padding-box,
+              linear-gradient(135deg, #a78bfa 0%, #f0abfc 100%) border-box !important;
+  border: 1px solid transparent !important;
   color: #ffffff !important;
   transform: scale(1.06) !important;
-  box-shadow: 0 2px 10px rgba(0, 232, 255, 0.35) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 8px rgba(217, 70, 239, 0.35) !important;
 }
 
 #ptx-read-aloud-player .button .icon,
 .ptx-navbar .ptx-read-aloud-player .button .icon {
   font-size: 16px !important;
-  color: #00e8ff !important;
+  color: #e879f9 !important;
+  filter: drop-shadow(0 0 3px rgba(232, 121, 249, 0.6)) !important;
+  transition: all 0.2s ease !important;
 }
 
 #ptx-read-aloud-player .button:hover .icon,
 .ptx-navbar .ptx-read-aloud-player .button:hover .icon {
   color: #ffffff !important;
+  filter: drop-shadow(0 0 4px #00e8ff) !important;
+}
+
+/* Specific audio buttons styling with matching gradient outlines */
+#ptx-read-aloud-player #ptx-read-aloud-prev,
+.ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-prev {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.25) 0%, rgba(139, 92, 246, 0.25) 100%) padding-box,
+              linear-gradient(135deg, #818cf8 0%, #a78bfa 100%) border-box !important;
+  border: 1px solid transparent !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-prev .icon {
+  color: #a78bfa !important;
+  filter: drop-shadow(0 0 3px rgba(167, 139, 250, 0.6)) !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-next,
+.ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-next {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.25) 0%, rgba(217, 70, 239, 0.25) 100%) padding-box,
+              linear-gradient(135deg, #c084fc 0%, #f0abfc 100%) border-box !important;
+  border: 1px solid transparent !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-next .icon {
+  color: #f0abfc !important;
+  filter: drop-shadow(0 0 3px rgba(240, 171, 252, 0.6)) !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-settings-button,
+.ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-settings-button {
+  background: linear-gradient(135deg, rgba(192, 38, 211, 0.25) 0%, rgba(236, 72, 153, 0.25) 100%) padding-box,
+              linear-gradient(135deg, #e879f9 0%, #f472b6 100%) border-box !important;
+  border: 1px solid transparent !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-settings-button .icon {
+  color: #f472b6 !important;
+  filter: drop-shadow(0 0 3px rgba(244, 114, 182, 0.6)) !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-continue,
+.ptx-navbar .ptx-read-aloud-player #ptx-read-aloud-continue {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.25) 0%, rgba(139, 92, 246, 0.28) 100%) padding-box,
+              linear-gradient(135deg, #00e8ff 0%, #a78bfa 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  padding: 4px 10px !important;
 }
 
 /* Read aloud toggle (play/pause) button */
 #ptx-read-aloud-player #ptx-read-aloud-toggle,
 .ptx-navbar .ptx-read-aloud-player .ptx-read-aloud-toggle {
-  min-width: 32px !important;
-  background: linear-gradient(135deg, rgba(0, 210, 255, 0.3), 61.8%, rgba(121, 82, 245, 0.3)) !important;
-  border-color: rgba(0, 200, 255, 0.5) !important;
+  min-width: 34px !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.25) 0%, rgba(139, 92, 246, 0.28) 50%, rgba(217, 70, 239, 0.25) 100%) padding-box,
+              linear-gradient(135deg, #00e8ff 0%, #a78bfa 50%, #e879f9 100%) border-box !important;
+  border: 1px solid transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35), 0 0 8px rgba(0, 232, 255, 0.25) !important;
+}
+
+#ptx-read-aloud-player #ptx-read-aloud-toggle .icon {
+  color: #ffffff !important;
+  filter: drop-shadow(0 0 4px #00e8ff) !important;
 }
 
 #ptx-read-aloud-player[data-state="speaking"] #ptx-read-aloud-toggle {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.55), 61.8%, rgba(121, 82, 245, 0.55)) !important;
-  border-color: #00e8ff !important;
-  box-shadow: 0 0 14px rgba(0, 232, 255, 0.6), inset 0 0 8px rgba(0, 232, 255, 0.4) !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.45) 0%, rgba(139, 92, 246, 0.48) 50%, rgba(217, 70, 239, 0.45) 100%) padding-box,
+              linear-gradient(135deg, #00e8ff 0%, #a78bfa 50%, #e879f9 100%) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 232, 255, 0.4) !important;
   color: #ffffff !important;
 }
 
 #ptx-read-aloud-player[data-state="continue-ready"] #ptx-read-aloud-toggle {
-  animation: ptx-read-aloud-pulse 1.5s ease-in-out infinite !important;
+  animation: ptx-read-aloud-pulse 1.8s ease-in-out infinite !important;
 }
 
 @keyframes ptx-read-aloud-pulse {
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(0, 232, 255, 0.6);
-    border-color: rgba(0, 232, 255, 0.5);
+    box-shadow: 0 0 0 0 rgba(0, 232, 255, 0.4);
   }
   50% {
-    box-shadow: 0 0 14px 4px rgba(0, 232, 255, 0.8), inset 0 0 8px rgba(0, 232, 255, 0.5);
-    border-color: #00e8ff;
+    box-shadow: 0 0 10px 2px rgba(0, 232, 255, 0.5), inset 0 0 6px rgba(139, 92, 246, 0.4);
   }
 }
 
 /* In-text highlight when read aloud is speaking */
 ::highlight(ptx-read-aloud) {
-  background-color: rgba(0, 232, 255, 0.28) !important;
+  background-color: rgba(139, 92, 246, 0.28) !important;
   color: #ffffff !important;
 }
 
 .ptx-read-aloud-current-math,
 .ptx-read-aloud-current-block {
-  background-color: rgba(0, 232, 255, 0.22) !important;
+  background-color: rgba(0, 232, 255, 0.15) !important;
   border-radius: 6px !important;
-  box-shadow: 0 0 12px rgba(0, 232, 255, 0.25) !important;
-  outline: 1px solid rgba(0, 232, 255, 0.45) !important;
+  box-shadow: 0 0 14px rgba(168, 85, 247, 0.35), 0 0 8px rgba(0, 232, 255, 0.2) !important;
+  outline: 1px solid rgba(168, 85, 247, 0.55) !important;
 }
 
 /* Treebuttons */
@@ -293,15 +581,15 @@ dialog.ptx-dialog,
   max-height: min(85vh, 650px) !important;
   overflow-y: auto !important;
   overflow-x: hidden !important;
-  background: rgba(13, 17, 23, 0.97) !important;
-  border: 1px solid rgba(20, 181, 255, 0.35) !important;
-  border-radius: 16px !important;
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.9), 0 0 32px rgba(20, 181, 255, 0.15) !important;
+  background: linear-gradient(145deg, rgba(10, 16, 28, 0.98) 0%, rgba(18, 14, 32, 0.98) 50%, rgba(28, 12, 36, 0.98) 100%) !important;
+  border: 1px solid rgba(56, 189, 248, 0.45) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.95), 0 0 30px rgba(0, 232, 255, 0.22), 0 0 40px rgba(168, 85, 247, 0.28), inset 0 1px 0 rgba(0, 232, 255, 0.3), inset 0 -1px 0 rgba(217, 70, 239, 0.2) !important;
   padding: 1.5rem !important;
-  color: var(--color-text, #C5F8FF) !important;
+  color: #e0f2fe !important;
   font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
-  -webkit-backdrop-filter: blur(20px) !important;
-  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  backdrop-filter: blur(24px) !important;
   z-index: 10000 !important;
   box-sizing: border-box !important;
 }
@@ -311,9 +599,9 @@ dialog.ptx-dialog::backdrop,
 .ptx-navbar .ptx-readability-options-popup::backdrop,
 .ptx-navbar .ptx-embed-popup::backdrop,
 #ptx-search-dialog::backdrop {
-  background: rgba(0, 0, 0, 0.8) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
-  backdrop-filter: blur(8px) !important;
+  background: rgba(0, 0, 0, 0.82) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 /* Dialog controls top bar */
@@ -325,9 +613,10 @@ dialog.ptx-dialog::backdrop,
   justify-content: space-between !important;
   margin-bottom: 1.25rem !important;
   padding-bottom: 0.75rem !important;
-  border-bottom: 1px solid rgba(20, 181, 255, 0.25) !important;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.35) !important;
   width: 100% !important;
   box-sizing: border-box !important;
+  box-shadow: 0 1px 0 rgba(0, 232, 255, 0.15) !important;
 }
 
 /* Dialog Headings */
@@ -336,14 +625,15 @@ dialog.ptx-dialog::backdrop,
 .ptx-read-aloud-settings-popup .heading,
 .ptx-search-results-heading {
   font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
-  font-size: 1.3rem !important;
+  font-size: 1.35rem !important;
   margin: 0 !important;
-  background: var(--gradient-cyan-to-blue) !important;
+  background: linear-gradient(135deg, #00e8ff 0%, #38bdf8 25%, #a855f7 65%, #ec4899 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)) !important;
+  letter-spacing: 0.3px !important;
 }
 
 /* Close buttons in dialogs */
@@ -357,9 +647,9 @@ dialog.ptx-dialog::backdrop,
   min-height: 36px !important;
   padding: 0 !important;
   border-radius: 8px !important;
-  background: rgba(20, 181, 255, 0.15) !important;
-  border: 1px solid rgba(20, 181, 255, 0.3) !important;
-  color: #14b5ff !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.18) 0%, rgba(139, 92, 246, 0.25) 100%) !important;
+  border: 1px solid rgba(56, 189, 248, 0.45) !important;
+  color: #38bdf8 !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -372,11 +662,11 @@ dialog.ptx-dialog::backdrop,
 .ptx-readability-options-close-button:hover,
 .ptx-read-aloud-settings-close-button:hover,
 #ptx-search-close:hover {
-  background: rgba(20, 181, 255, 0.3) !important;
-  border-color: rgba(20, 181, 255, 0.6) !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.35) 0%, rgba(168, 85, 247, 0.45) 100%) !important;
+  border-color: #00e8ff !important;
   color: #ffffff !important;
   transform: scale(1.08) !important;
-  box-shadow: 0 0 12px rgba(20, 181, 255, 0.4) !important;
+  box-shadow: 0 0 16px rgba(0, 232, 255, 0.5), 0 0 16px rgba(168, 85, 247, 0.5) !important;
 }
 
 .ptx-dialog .ptx-dialog-close-button .icon,
@@ -389,7 +679,7 @@ dialog.ptx-dialog::backdrop,
 
 /* Dialog Options Groups & Labels */
 .ptx-readability-options-group {
-  margin: 0 0 1rem 0 !important;
+  margin: 0 0 1.1rem 0 !important;
   display: flex !important;
   flex-wrap: wrap !important;
   row-gap: 0.6rem !important;
@@ -403,7 +693,7 @@ dialog.ptx-dialog::backdrop,
   display: flex !important;
   gap: 0.5rem !important;
   align-items: center !important;
-  color: #d1d5db !important;
+  color: #e2e8f0 !important;
   font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
   font-size: 13px !important;
   cursor: pointer !important;
@@ -411,8 +701,9 @@ dialog.ptx-dialog::backdrop,
 }
 
 .ptx-readability-options-group label .icon {
-  color: #00e8ff !important;
+  color: #38bdf8 !important;
   font-size: 18px !important;
+  filter: drop-shadow(0 0 4px rgba(168, 85, 247, 0.5));
 }
 
 .ptx-readability-slider-label {
@@ -426,11 +717,17 @@ dialog.ptx-dialog::backdrop,
 #ptx-read-aloud-rate-value,
 #ptx-readability-line-height-value,
 #ptx-readability-font-size-value {
-  color: #00e8ff !important;
+  color: #00f0ff !important;
   font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
   font-weight: bold !important;
-  font-size: 13px !important;
+  font-size: 12px !important;
   margin-left: auto !important;
+  background: rgba(0, 232, 255, 0.12) !important;
+  border: 1px solid rgba(0, 232, 255, 0.4) !important;
+  border-radius: 6px !important;
+  padding: 2px 8px !important;
+  box-shadow: 0 0 10px rgba(0, 232, 255, 0.3), inset 0 0 6px rgba(0, 232, 255, 0.15) !important;
+  text-shadow: 0 0 6px #00e8ff;
 }
 
 /* Range sliders */
@@ -439,42 +736,44 @@ dialog.ptx-dialog::backdrop,
   -webkit-appearance: none !important;
   appearance: none !important;
   width: 100% !important;
-  height: 6px !important;
-  background: rgba(20, 181, 255, 0.25) !important;
-  border-radius: 3px !important;
+  height: 8px !important;
+  background: linear-gradient(90deg, rgba(0, 232, 255, 0.45) 0%, rgba(139, 92, 246, 0.5) 50%, rgba(217, 70, 239, 0.45) 100%) !important;
+  border: 1px solid rgba(56, 189, 248, 0.4) !important;
+  border-radius: 4px !important;
   outline: none !important;
   cursor: pointer !important;
-  margin: 0.4rem 0 0.8rem 0 !important;
+  margin: 0.5rem 0 0.9rem 0 !important;
+  box-shadow: 0 0 8px rgba(0, 232, 255, 0.25), inset 0 1px 3px rgba(0, 0, 0, 0.6) !important;
 }
 
 .ptx-dialog input[type="range"]::-webkit-slider-thumb,
 .ptx-readability-options-group input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none !important;
   appearance: none !important;
-  width: 18px !important;
-  height: 18px !important;
+  width: 20px !important;
+  height: 20px !important;
   border-radius: 50% !important;
-  background: linear-gradient(135deg, #00e8ff, #7952f5) !important;
+  background: linear-gradient(135deg, #00e8ff 0%, #a855f7 50%, #ec4899 100%) !important;
   border: 2px solid #ffffff !important;
-  box-shadow: 0 0 8px rgba(0, 232, 255, 0.6) !important;
+  box-shadow: 0 0 12px rgba(0, 232, 255, 0.8), 0 0 14px rgba(168, 85, 247, 0.8) !important;
   cursor: pointer !important;
-  transition: transform 0.15s ease !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease !important;
 }
 
 .ptx-dialog input[type="range"]::-webkit-slider-thumb:hover,
 .ptx-readability-options-group input[type="range"]::-webkit-slider-thumb:hover {
-  transform: scale(1.2) !important;
-  box-shadow: 0 0 12px rgba(0, 232, 255, 0.9) !important;
+  transform: scale(1.25) !important;
+  box-shadow: 0 0 16px rgba(0, 232, 255, 1), 0 0 20px rgba(217, 70, 239, 1) !important;
 }
 
 .ptx-dialog input[type="range"]::-moz-range-thumb,
 .ptx-readability-options-group input[type="range"]::-moz-range-thumb {
-  width: 18px !important;
-  height: 18px !important;
+  width: 20px !important;
+  height: 20px !important;
   border-radius: 50% !important;
-  background: linear-gradient(135deg, #00e8ff, #7952f5) !important;
+  background: linear-gradient(135deg, #00e8ff 0%, #a855f7 50%, #ec4899 100%) !important;
   border: 2px solid #ffffff !important;
-  box-shadow: 0 0 8px rgba(0, 232, 255, 0.6) !important;
+  box-shadow: 0 0 12px rgba(0, 232, 255, 0.8), 0 0 14px rgba(168, 85, 247, 0.8) !important;
   cursor: pointer !important;
 }
 
@@ -484,10 +783,10 @@ dialog.ptx-dialog::backdrop,
 #ptx-read-aloud-voice,
 #ptx-read-aloud-asides {
   width: 100% !important;
-  background: rgba(20, 25, 35, 0.95) !important;
-  border: 1px solid rgba(20, 181, 255, 0.35) !important;
+  background: rgba(14, 18, 30, 0.95) !important;
+  border: 1px solid rgba(56, 189, 248, 0.4) !important;
   border-radius: 8px !important;
-  color: #e0e0e0 !important;
+  color: #e0f2fe !important;
   padding: 8px 12px !important;
   font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
   font-size: 13px !important;
@@ -502,7 +801,7 @@ dialog.ptx-dialog::backdrop,
 #ptx-read-aloud-voice:focus,
 #ptx-read-aloud-asides:focus {
   border-color: #00e8ff !important;
-  box-shadow: 0 0 10px rgba(0, 232, 255, 0.35) !important;
+  box-shadow: 0 0 14px rgba(0, 232, 255, 0.45), 0 0 14px rgba(168, 85, 247, 0.45) !important;
 }
 
 .ptx-dialog select option {
@@ -513,13 +812,15 @@ dialog.ptx-dialog::backdrop,
 /* Fieldsets */
 .ptx-dialog fieldset.ptx-readability-options-group,
 .ptx-readability-options-group:is(fieldset) {
-  border: 1px solid rgba(20, 181, 255, 0.25) !important;
-  border-radius: 10px !important;
-  padding: 0.75rem 1rem 1rem !important;
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+  border: 1px solid rgba(139, 92, 246, 0.35) !important;
+  background: rgba(255, 255, 255, 0.03) !important;
+  border-radius: 12px !important;
+  padding: 0.85rem 1rem 1rem !important;
+  margin-top: 1.1rem !important;
+  margin-bottom: 1.1rem !important;
   width: 100% !important;
   box-sizing: border-box !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 4px 12px rgba(0, 0, 0, 0.25) !important;
 }
 
 .ptx-dialog fieldset legend,
@@ -527,23 +828,77 @@ dialog.ptx-dialog::backdrop,
   font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
   color: #00e8ff !important;
   font-size: 12px !important;
-  padding: 0 6px !important;
-  letter-spacing: 0.5px !important;
+  padding: 2px 8px !important;
+  letter-spacing: 0.8px !important;
+  text-transform: uppercase !important;
+  background: rgba(10, 16, 28, 0.9) !important;
+  border: 1px solid rgba(139, 92, 246, 0.4) !important;
+  border-radius: 6px !important;
+  text-shadow: 0 0 8px rgba(0, 232, 255, 0.6);
+}
+
+.ptx-readability-options-group-theme {
+  display: flex !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
 }
 
 .ptx-readability-options-group-theme label {
   display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
   width: auto !important;
-  margin-right: 1rem !important;
+  margin: 0 !important;
+  padding: 6px 14px !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 8px !important;
+  color: #cbd5e1 !important;
+  font-size: 12px !important;
+  transition: all 0.2s ease !important;
+  cursor: pointer !important;
+}
+
+.ptx-readability-options-group-theme label:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(56, 189, 248, 0.6) !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 10px rgba(0, 232, 255, 0.3) !important;
+}
+
+.ptx-readability-options-group-theme label:has(input:checked),
+.ptx-readability-options-group-theme label:has(input[checked]) {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.3) 0%, rgba(139, 92, 246, 0.4) 50%, rgba(217, 70, 239, 0.35) 100%) !important;
+  border-color: #00e8ff !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 14px rgba(0, 232, 255, 0.45), 0 0 18px rgba(168, 85, 247, 0.5), inset 0 0 8px rgba(217, 70, 239, 0.3) !important;
+}
+
+.ptx-readability-options-group-theme label:has(input:checked) .icon {
+  color: #00e8ff !important;
+  filter: drop-shadow(0 0 6px rgba(0, 232, 255, 0.9)) drop-shadow(0 0 10px rgba(217, 70, 239, 0.8)) !important;
 }
 
 /* Checkboxes and Radios */
 .ptx-dialog input[type="checkbox"],
 .ptx-dialog input[type="radio"] {
-  accent-color: #00e8ff !important;
+  accent-color: #a855f7 !important;
   cursor: pointer !important;
   width: 16px !important;
   height: 16px !important;
+}
+
+.ptx-readability-options-group label:has(input[type="checkbox"]) {
+  padding: 6px 10px !important;
+  border-radius: 8px !important;
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  transition: all 0.2s ease !important;
+}
+
+.ptx-readability-options-group label:has(input[type="checkbox"]):hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(139, 92, 246, 0.45) !important;
 }
 
 /* Reset button in Readability options */
@@ -554,35 +909,38 @@ dialog.ptx-dialog::backdrop,
   align-items: center !important;
   justify-content: center !important;
   gap: 8px !important;
-  margin-top: 0.5rem !important;
-  padding: 10px 16px !important;
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), 61.8%, rgba(121, 82, 245, 0.22)) !important;
-  border: 1px solid rgba(20, 181, 255, 0.45) !important;
-  border-radius: 8px !important;
-  color: var(--color-text, #C5F8FF) !important;
+  margin-top: 0.75rem !important;
+  padding: 11px 18px !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.22) 0%, rgba(20, 181, 255, 0.22) 25%, rgba(139, 92, 246, 0.32) 65%, rgba(217, 70, 239, 0.28) 100%) !important;
+  border: 1px solid rgba(0, 232, 255, 0.5) !important;
+  border-radius: 10px !important;
+  color: #ffffff !important;
   font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
   font-size: 13px !important;
+  letter-spacing: 0.5px !important;
   cursor: pointer !important;
-  transition: all 0.2s ease !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  transition: all 0.25s ease !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4), 0 0 10px rgba(139, 92, 246, 0.25) !important;
 }
 
 .ptx-readability-reset-button:hover,
 #ptx-readability-reset-button:hover {
-  background: linear-gradient(135deg, rgba(0, 232, 255, 0.4), 61.8%, rgba(121, 82, 245, 0.4)) !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.4) 0%, rgba(56, 189, 248, 0.38) 25%, rgba(168, 85, 247, 0.5) 65%, rgba(217, 70, 239, 0.48) 100%) !important;
   border-color: #00e8ff !important;
   color: #ffffff !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 4px 16px rgba(0, 232, 255, 0.35) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(0, 232, 255, 0.4), 0 6px 20px rgba(168, 85, 247, 0.5) !important;
 }
 
 .ptx-readability-reset-button .icon {
-  color: #00e8ff !important;
+  color: #38bdf8 !important;
   font-size: 18px !important;
+  filter: drop-shadow(0 0 4px rgba(168, 85, 247, 0.6));
 }
 
 .ptx-readability-reset-button:hover .icon {
   color: #ffffff !important;
+  filter: drop-shadow(0 0 6px #00e8ff) drop-shadow(0 0 8px rgba(192, 132, 252, 0.9));
 }
 
 /* Content buttons */
@@ -590,9 +948,9 @@ dialog.ptx-dialog::backdrop,
 .ptx-content button,
 .ptx-content input[type="button"],
 .ptx-content input[type="submit"] {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.15), 61.8%, rgba(121, 82, 245, 0.1)) !important;
-  border: 1px solid rgba(20, 181, 255, 0.3) !important;
-  color: var(--color-text) !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.14) 0%, rgba(139, 92, 246, 0.2) 50%, rgba(217, 70, 239, 0.16) 100%) !important;
+  border: 1px solid rgba(56, 189, 248, 0.35) !important;
+  color: #e0f2fe !important;
   padding: var(--space-sm) var(--space-lg) !important;
   border-radius: 8px !important;
   font-family: 'Aclonica', sans-serif;
@@ -605,10 +963,10 @@ dialog.ptx-dialog::backdrop,
 .ptx-content button:hover,
 .ptx-content input[type="button"]:hover,
 .ptx-content input[type="submit"]:hover {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.25), 61.8%, rgba(121, 82, 245, 0.15)) !important;
-  border-color: rgba(20, 181, 255, 0.5) !important;
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.25) 0%, rgba(139, 92, 246, 0.35) 50%, rgba(217, 70, 239, 0.28) 100%) !important;
+  border-color: rgba(56, 189, 248, 0.65) !important;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(20, 181, 255, 0.2);
+  box-shadow: 0 4px 14px rgba(0, 232, 255, 0.2), 0 4px 14px rgba(168, 85, 247, 0.25);
 }
 
 /* Hide footer navigation buttons container entirely */
