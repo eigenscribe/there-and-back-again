@@ -7,8 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined navbar styling with enhanced hover and active states, improved text contrast, added subtle glowing effects, and updated IntelliJ workspace configuration.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined navbar styling with adjusted gradients, improved hover and active states, enhanced text contrast, updated glowing effects, and revised IntelliJ workspace configuration.">
       <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00176" summary="updated @conceptual-pipeline.ptx and added boltzmann distribution to @boltzmann-ludwidg.ptx">
-      <option name="closed" value="true" />
-      <created>1785656768050</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1785656768050</updated>
     </task>
     <task id="LOCAL-00177" summary="updated @conceptual-pipeline.ptx and added boltzmann distribution to @boltzmann-ludwidg.ptx">
       <option name="closed" value="true" />
@@ -581,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787992688456</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="Refined navbar styling with adjusted gradients, improved hover and active states, enhanced text contrast, updated glowing effects, and revised IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787993886485</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1787993886485</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Euler's formula section, updated notes graph with new entries, simplified Zettel Tree title, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Simplified notes graph by removing redundant subsections, refined Euler’s formula content, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Refactored Euler's formula content: simplified structure, updated notes graph, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Removed &quot;Physics-Informed Machine Learning&quot; section and related content, updated notes graph, and adjusted IntelliJ workspace configuration." />
@@ -624,6 +622,7 @@
     <MESSAGE value="Refined masthead styling with improved responsiveness, adjusted title and subtitle scaling, removed redundant colon after titles, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar styling with enhanced hover/active states, updated text contrast and glowing highlights, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar styling with enhanced hover and active states, improved text contrast, added subtle glowing effects, and updated IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined navbar styling with enhanced hover and active states, improved text contrast, added subtle glowing effects, and updated IntelliJ workspace configuration." />
+    <MESSAGE value="Refined navbar styling with adjusted gradients, improved hover and active states, enhanced text contrast, updated glowing effects, and revised IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined navbar styling with adjusted gradients, improved hover and active states, enhanced text contrast, updated glowing effects, and revised IntelliJ workspace configuration." />
   </component>
 </project>
