@@ -33,15 +33,7 @@
 /* Base styling for all navbar buttons */
 .ptx-navbar .button,
 .ptx-navbar button,
-.ptx-navbar a.button,
-.ptx-navbar .toc-toggle,
-.ptx-navbar .index-button,
-.ptx-navbar .ptx-search-button,
-.ptx-navbar .ptx-read-aloud-button,
-.ptx-navbar .ptx-readability-options-button,
-.ptx-navbar .previous-button,
-.ptx-navbar .up-button,
-.ptx-navbar .next-button {
+.ptx-navbar a.button {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -69,6 +61,8 @@
 }
 
 /* Left-to-right color flow progression for individual buttons */
+.ptx-navbar button.toc-toggle,
+.ptx-navbar a.toc-toggle,
 .ptx-navbar .toc-toggle,
 .ptx-navbar #ptx-toc-toggle {
   background: linear-gradient(135deg, rgba(4, 28, 48, 0.8) 0%, rgba(6, 38, 65, 0.75) 100%) padding-box,
@@ -90,6 +84,8 @@
   filter: drop-shadow(0 0 3px rgba(0, 232, 255, 0.5)) !important;
 }
 
+.ptx-navbar a.index-button,
+.ptx-navbar button.index-button,
 .ptx-navbar .index-button {
   background: linear-gradient(135deg, rgba(6, 32, 58, 0.8) 0%, rgba(10, 36, 70, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(20, 181, 255, 0.5) 0%, rgba(56, 189, 248, 0.38) 100%) border-box !important;
@@ -108,7 +104,11 @@
   filter: drop-shadow(0 0 3px rgba(56, 189, 248, 0.5)) !important;
 }
 
-.ptx-navbar .ptx-search-button {
+.ptx-navbar button.ptx-search-button,
+.ptx-navbar a.ptx-search-button,
+.ptx-navbar .ptx-search-button,
+.ptx-navbar button.searchbutton,
+.ptx-navbar #searchbutton {
   background: linear-gradient(135deg, rgba(8, 28, 65, 0.8) 0%, rgba(18, 26, 75, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(56, 189, 248, 0.5) 0%, rgba(99, 102, 241, 0.42) 100%) border-box !important;
   border: 1px solid transparent !important;
@@ -116,16 +116,20 @@
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(129, 140, 248, 0.35) !important;
 }
 
-.ptx-navbar .ptx-search-button .name {
+.ptx-navbar .ptx-search-button .name,
+.ptx-navbar #searchbutton .name {
   color: #9da8ff !important;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(129, 140, 248, 0.35) !important;
 }
 
-.ptx-navbar .ptx-search-button .icon {
+.ptx-navbar .ptx-search-button .icon,
+.ptx-navbar #searchbutton .icon {
   color: #9da8ff !important;
   filter: drop-shadow(0 0 3px rgba(129, 140, 248, 0.5)) !important;
 }
 
+.ptx-navbar button.ptx-read-aloud-button,
+.ptx-navbar a.ptx-read-aloud-button,
 .ptx-navbar .ptx-read-aloud-button {
   background: linear-gradient(135deg, rgba(16, 24, 72, 0.8) 0%, rgba(28, 22, 78, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(99, 102, 241, 0.5) 0%, rgba(139, 92, 246, 0.45) 100%) border-box !important;
@@ -144,6 +148,8 @@
   filter: drop-shadow(0 0 3px rgba(167, 139, 250, 0.5)) !important;
 }
 
+.ptx-navbar button.ptx-readability-options-button,
+.ptx-navbar a.ptx-readability-options-button,
 .ptx-navbar .ptx-readability-options-button {
   background: linear-gradient(135deg, rgba(28, 20, 75, 0.8) 0%, rgba(42, 18, 75, 0.75) 100%) padding-box,
               linear-gradient(135deg, rgba(139, 92, 246, 0.5) 0%, rgba(192, 38, 211, 0.45) 100%) border-box !important;
@@ -162,61 +168,94 @@
   filter: drop-shadow(0 0 3px rgba(192, 132, 252, 0.5)) !important;
 }
 
-.ptx-navbar .previous-button {
-  background: linear-gradient(135deg, rgba(147, 51, 234, 0.28) 0%, rgba(192, 132, 252, 0.22) 50%, rgba(88, 28, 135, 0.35) 100%) padding-box,
-              linear-gradient(135deg, rgba(216, 180, 254, 0.7) 0%, rgba(192, 132, 252, 0.5) 50%, rgba(147, 51, 234, 0.4) 100%) border-box !important;
+.ptx-navbar a.previous-button,
+.ptx-navbar button.previous-button,
+.ptx-navbar .treebuttons a.previous-button,
+.ptx-navbar .treebuttons button.previous-button,
+.ptx-navbar .treebuttons .previous-button,
+.ptx-navbar .previous-button,
+.treebuttons a.previous-button,
+.treebuttons .previous-button {
+  background: linear-gradient(135deg, rgba(32, 16, 60, 0.82) 0%, rgba(48, 18, 75, 0.78) 100%) padding-box,
+              linear-gradient(135deg, rgba(216, 180, 254, 0.55) 0%, rgba(192, 132, 252, 0.4) 50%, rgba(147, 51, 234, 0.35) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #d8b4fe !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(192, 132, 252, 0.35) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), 0 0 12px rgba(192, 132, 252, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 0 10px rgba(192, 132, 252, 0.2) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 8px rgba(192, 132, 252, 0.5) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(192, 132, 252, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 0 8px rgba(192, 132, 252, 0.15) !important;
 }
 
-.ptx-navbar .previous-button .name {
+.ptx-navbar a.previous-button .name,
+.ptx-navbar .previous-button .name,
+.treebuttons .previous-button .name {
   color: #d8b4fe !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(192, 132, 252, 0.35) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 8px rgba(192, 132, 252, 0.5) !important;
 }
 
-.ptx-navbar .previous-button .icon {
+.ptx-navbar a.previous-button .icon,
+.ptx-navbar .previous-button .icon,
+.treebuttons .previous-button .icon {
   color: #d8b4fe !important;
-  filter: drop-shadow(0 0 3px rgba(192, 132, 252, 0.5)) !important;
+  filter: drop-shadow(0 0 4px rgba(192, 132, 252, 0.6)) !important;
 }
 
-.ptx-navbar .up-button {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.28) 0%, rgba(165, 180, 252, 0.22) 50%, rgba(49, 46, 129, 0.35) 100%) padding-box,
-              linear-gradient(135deg, rgba(165, 180, 252, 0.7) 0%, rgba(129, 140, 248, 0.5) 50%, rgba(99, 102, 241, 0.4) 100%) border-box !important;
+.ptx-navbar a.up-button,
+.ptx-navbar button.up-button,
+.ptx-navbar .treebuttons a.up-button,
+.ptx-navbar .treebuttons button.up-button,
+.ptx-navbar .treebuttons .up-button,
+.ptx-navbar .up-button,
+.treebuttons a.up-button,
+.treebuttons .up-button {
+  background: linear-gradient(135deg, rgba(16, 20, 62, 0.82) 0%, rgba(24, 22, 75, 0.78) 100%) padding-box,
+              linear-gradient(135deg, rgba(165, 180, 252, 0.55) 0%, rgba(129, 140, 248, 0.4) 50%, rgba(99, 102, 241, 0.35) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #a5b4fc !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(129, 140, 248, 0.35) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), 0 0 12px rgba(129, 140, 248, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 0 10px rgba(129, 140, 248, 0.2) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 8px rgba(129, 140, 248, 0.5) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(129, 140, 248, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 0 8px rgba(129, 140, 248, 0.15) !important;
 }
 
-.ptx-navbar .up-button .name {
+.ptx-navbar a.up-button .name,
+.ptx-navbar .up-button .name,
+.treebuttons .up-button .name {
   color: #a5b4fc !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(129, 140, 248, 0.35) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 8px rgba(129, 140, 248, 0.5) !important;
 }
 
-.ptx-navbar .up-button .icon {
+.ptx-navbar a.up-button .icon,
+.ptx-navbar .up-button .icon,
+.treebuttons .up-button .icon {
   color: #a5b4fc !important;
-  filter: drop-shadow(0 0 3px rgba(129, 140, 248, 0.5)) !important;
+  filter: drop-shadow(0 0 4px rgba(129, 140, 248, 0.6)) !important;
 }
 
-.ptx-navbar .next-button {
-  background: linear-gradient(135deg, rgba(6, 182, 212, 0.28) 0%, rgba(56, 225, 255, 0.22) 50%, rgba(8, 51, 68, 0.35) 100%) padding-box,
-              linear-gradient(135deg, rgba(56, 225, 255, 0.7) 0%, rgba(0, 232, 255, 0.5) 50%, rgba(14, 165, 233, 0.4) 100%) border-box !important;
+.ptx-navbar a.next-button,
+.ptx-navbar button.next-button,
+.ptx-navbar .treebuttons a.next-button,
+.ptx-navbar .treebuttons button.next-button,
+.ptx-navbar .treebuttons .next-button,
+.ptx-navbar .next-button,
+.treebuttons a.next-button,
+.treebuttons .next-button {
+  background: linear-gradient(135deg, rgba(4, 28, 52, 0.82) 0%, rgba(8, 38, 68, 0.78) 100%) padding-box,
+              linear-gradient(135deg, rgba(56, 225, 255, 0.55) 0%, rgba(0, 232, 255, 0.4) 50%, rgba(14, 165, 233, 0.35) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #38e1ff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(0, 232, 255, 0.35) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), 0 0 12px rgba(0, 232, 255, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 0 10px rgba(0, 232, 255, 0.2) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 8px rgba(0, 232, 255, 0.5) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(0, 232, 255, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 0 8px rgba(0, 232, 255, 0.15) !important;
 }
 
-.ptx-navbar .next-button .name {
+.ptx-navbar a.next-button .name,
+.ptx-navbar .next-button .name,
+.treebuttons .next-button .name {
   color: #38e1ff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 6px rgba(0, 232, 255, 0.35) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 8px rgba(0, 232, 255, 0.5) !important;
 }
 
-.ptx-navbar .next-button .icon {
+.ptx-navbar a.next-button .icon,
+.ptx-navbar .next-button .icon,
+.treebuttons .next-button .icon {
   color: #38e1ff !important;
-  filter: drop-shadow(0 0 3px rgba(0, 232, 255, 0.5)) !important;
+  filter: drop-shadow(0 0 4px rgba(0, 232, 255, 0.6)) !important;
 }
 
 .ptx-navbar .button .icon,
@@ -314,46 +353,73 @@
   text-shadow: 0 0 8px rgba(192, 132, 252, 0.7) !important;
 }
 
-.ptx-navbar .previous-button:hover {
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.45) 0%, rgba(216, 180, 254, 0.35) 50%, rgba(126, 34, 206, 0.5) 100%) padding-box,
+.ptx-navbar a.previous-button:hover,
+.ptx-navbar button.previous-button:hover,
+.ptx-navbar .treebuttons a.previous-button:hover,
+.ptx-navbar .treebuttons button.previous-button:hover,
+.ptx-navbar .treebuttons .previous-button:hover,
+.ptx-navbar .previous-button:hover,
+.treebuttons a.previous-button:hover,
+.treebuttons .previous-button:hover {
+  background: linear-gradient(135deg, rgba(48, 22, 85, 0.88) 0%, rgba(68, 26, 105, 0.85) 100%) padding-box,
               linear-gradient(135deg, #f3e8ff 0%, #d8b4fe 50%, #c084fc 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #e9d5ff !important;
-  text-shadow: 0 0 8px rgba(192, 132, 252, 0.7) !important;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), 0 0 18px rgba(192, 132, 252, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 0 12px rgba(216, 180, 254, 0.35) !important;
+  color: #f3e8ff !important;
+  text-shadow: 0 0 10px rgba(192, 132, 252, 0.85) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45), 0 0 14px rgba(192, 132, 252, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.35), inset 0 0 10px rgba(216, 180, 254, 0.25) !important;
 }
 
-.ptx-navbar .previous-button:hover .name {
-  color: #e9d5ff !important;
-  text-shadow: 0 0 8px rgba(192, 132, 252, 0.7) !important;
+.ptx-navbar a.previous-button:hover .name,
+.ptx-navbar .previous-button:hover .name,
+.treebuttons .previous-button:hover .name {
+  color: #f3e8ff !important;
+  text-shadow: 0 0 10px rgba(192, 132, 252, 0.85) !important;
 }
 
-.ptx-navbar .up-button:hover {
-  background: linear-gradient(135deg, rgba(129, 140, 248, 0.45) 0%, rgba(199, 210, 254, 0.35) 50%, rgba(67, 56, 202, 0.5) 100%) padding-box,
+.ptx-navbar a.up-button:hover,
+.ptx-navbar button.up-button:hover,
+.ptx-navbar .treebuttons a.up-button:hover,
+.ptx-navbar .treebuttons button.up-button:hover,
+.ptx-navbar .treebuttons .up-button:hover,
+.ptx-navbar .up-button:hover,
+.treebuttons a.up-button:hover,
+.treebuttons .up-button:hover {
+  background: linear-gradient(135deg, rgba(26, 30, 88, 0.88) 0%, rgba(42, 32, 102, 0.85) 100%) padding-box,
               linear-gradient(135deg, #e0e7ff 0%, #a5b4fc 50%, #818cf8 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #c7d2fe !important;
-  text-shadow: 0 0 8px rgba(129, 140, 248, 0.7) !important;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), 0 0 18px rgba(129, 140, 248, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 0 12px rgba(165, 180, 252, 0.35) !important;
+  color: #e0e7ff !important;
+  text-shadow: 0 0 10px rgba(129, 140, 248, 0.85) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45), 0 0 14px rgba(129, 140, 248, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.35), inset 0 0 10px rgba(165, 180, 252, 0.25) !important;
 }
 
-.ptx-navbar .up-button:hover .name {
-  color: #c7d2fe !important;
-  text-shadow: 0 0 8px rgba(129, 140, 248, 0.7) !important;
+.ptx-navbar a.up-button:hover .name,
+.ptx-navbar .up-button:hover .name,
+.treebuttons .up-button:hover .name {
+  color: #e0e7ff !important;
+  text-shadow: 0 0 10px rgba(129, 140, 248, 0.85) !important;
 }
 
-.ptx-navbar .next-button:hover {
-  background: linear-gradient(135deg, rgba(14, 165, 233, 0.45) 0%, rgba(186, 230, 253, 0.35) 50%, rgba(14, 116, 144, 0.5) 100%) padding-box,
+.ptx-navbar a.next-button:hover,
+.ptx-navbar button.next-button:hover,
+.ptx-navbar .treebuttons a.next-button:hover,
+.ptx-navbar .treebuttons button.next-button:hover,
+.ptx-navbar .treebuttons .next-button:hover,
+.ptx-navbar .next-button:hover,
+.treebuttons a.next-button:hover,
+.treebuttons .next-button:hover {
+  background: linear-gradient(135deg, rgba(8, 38, 72, 0.88) 0%, rgba(14, 52, 92, 0.85) 100%) padding-box,
               linear-gradient(135deg, #e0f2fe 0%, #38e1ff 50%, #00e8ff 100%) border-box !important;
   border: 1px solid transparent !important;
-  color: #70e8ff !important;
-  text-shadow: 0 0 8px rgba(0, 232, 255, 0.7) !important;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), 0 0 18px rgba(0, 232, 255, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 0 12px rgba(56, 225, 255, 0.35) !important;
+  color: #e0f2fe !important;
+  text-shadow: 0 0 10px rgba(0, 232, 255, 0.85) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45), 0 0 14px rgba(0, 232, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.35), inset 0 0 10px rgba(56, 225, 255, 0.25) !important;
 }
 
-.ptx-navbar .next-button:hover .name {
-  color: #70e8ff !important;
-  text-shadow: 0 0 8px rgba(0, 232, 255, 0.7) !important;
+.ptx-navbar a.next-button:hover .name,
+.ptx-navbar .next-button:hover .name,
+.treebuttons .next-button:hover .name {
+  color: #e0f2fe !important;
+  text-shadow: 0 0 10px rgba(0, 232, 255, 0.85) !important;
 }
 
 .ptx-navbar .button:hover .icon,
@@ -496,52 +562,106 @@
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(192, 132, 252, 0.5) !important;
 }
 
+.ptx-navbar a.previous-button.active,
+.ptx-navbar a.previous-button:active,
+.ptx-navbar button.previous-button.active,
+.ptx-navbar button.previous-button:active,
+.ptx-navbar .treebuttons a.previous-button.active,
+.ptx-navbar .treebuttons a.previous-button:active,
+.ptx-navbar .treebuttons button.previous-button.active,
+.ptx-navbar .treebuttons button.previous-button:active,
+.ptx-navbar .treebuttons .previous-button.active,
+.ptx-navbar .treebuttons .previous-button:active,
 .ptx-navbar .previous-button.active,
-.ptx-navbar .previous-button:active {
-  background: linear-gradient(135deg, rgba(147, 51, 234, 0.45) 0%, rgba(192, 132, 252, 0.35) 50%, rgba(88, 28, 135, 0.5) 100%) padding-box,
+.ptx-navbar .previous-button:active,
+.treebuttons a.previous-button.active,
+.treebuttons a.previous-button:active,
+.treebuttons .previous-button.active,
+.treebuttons .previous-button:active {
+  background: linear-gradient(135deg, rgba(42, 18, 78, 0.85) 0%, rgba(58, 22, 92, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(216, 180, 254, 0.85) 0%, rgba(192, 132, 252, 0.75) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #d8b4fe !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(192, 132, 252, 0.5) !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 12px rgba(192, 132, 252, 0.45), inset 0 0 8px rgba(192, 132, 252, 0.3) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 8px rgba(192, 132, 252, 0.6) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45), 0 0 10px rgba(192, 132, 252, 0.4), inset 0 0 8px rgba(192, 132, 252, 0.25) !important;
 }
 
+.ptx-navbar a.previous-button.active .name,
+.ptx-navbar a.previous-button:active .name,
 .ptx-navbar .previous-button.active .name,
-.ptx-navbar .previous-button:active .name {
+.ptx-navbar .previous-button:active .name,
+.treebuttons .previous-button.active .name,
+.treebuttons .previous-button:active .name {
   color: #d8b4fe !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(192, 132, 252, 0.5) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 8px rgba(192, 132, 252, 0.6) !important;
 }
 
+.ptx-navbar a.up-button.active,
+.ptx-navbar a.up-button:active,
+.ptx-navbar button.up-button.active,
+.ptx-navbar button.up-button:active,
+.ptx-navbar .treebuttons a.up-button.active,
+.ptx-navbar .treebuttons a.up-button:active,
+.ptx-navbar .treebuttons button.up-button.active,
+.ptx-navbar .treebuttons button.up-button:active,
+.ptx-navbar .treebuttons .up-button.active,
+.ptx-navbar .treebuttons .up-button:active,
 .ptx-navbar .up-button.active,
-.ptx-navbar .up-button:active {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.45) 0%, rgba(165, 180, 252, 0.35) 50%, rgba(49, 46, 129, 0.5) 100%) padding-box,
+.ptx-navbar .up-button:active,
+.treebuttons a.up-button.active,
+.treebuttons a.up-button:active,
+.treebuttons .up-button.active,
+.treebuttons .up-button:active {
+  background: linear-gradient(135deg, rgba(22, 26, 82, 0.85) 0%, rgba(36, 28, 92, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(165, 180, 252, 0.85) 0%, rgba(129, 140, 248, 0.75) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #a5b4fc !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(129, 140, 248, 0.5) !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 12px rgba(129, 140, 248, 0.45), inset 0 0 8px rgba(129, 140, 248, 0.3) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 8px rgba(129, 140, 248, 0.6) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45), 0 0 10px rgba(129, 140, 248, 0.4), inset 0 0 8px rgba(129, 140, 248, 0.25) !important;
 }
 
+.ptx-navbar a.up-button.active .name,
+.ptx-navbar a.up-button:active .name,
 .ptx-navbar .up-button.active .name,
-.ptx-navbar .up-button:active .name {
+.ptx-navbar .up-button:active .name,
+.treebuttons .up-button.active .name,
+.treebuttons .up-button:active .name {
   color: #a5b4fc !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(129, 140, 248, 0.5) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 8px rgba(129, 140, 248, 0.6) !important;
 }
 
+.ptx-navbar a.next-button.active,
+.ptx-navbar a.next-button:active,
+.ptx-navbar button.next-button.active,
+.ptx-navbar button.next-button:active,
+.ptx-navbar .treebuttons a.next-button.active,
+.ptx-navbar .treebuttons a.next-button:active,
+.ptx-navbar .treebuttons button.next-button.active,
+.ptx-navbar .treebuttons button.next-button:active,
+.ptx-navbar .treebuttons .next-button.active,
+.ptx-navbar .treebuttons .next-button:active,
 .ptx-navbar .next-button.active,
-.ptx-navbar .next-button:active {
-  background: linear-gradient(135deg, rgba(6, 182, 212, 0.45) 0%, rgba(56, 225, 255, 0.35) 50%, rgba(8, 51, 68, 0.5) 100%) padding-box,
+.ptx-navbar .next-button:active,
+.treebuttons a.next-button.active,
+.treebuttons a.next-button:active,
+.treebuttons .next-button.active,
+.treebuttons .next-button:active {
+  background: linear-gradient(135deg, rgba(6, 34, 65, 0.85) 0%, rgba(12, 45, 82, 0.85) 100%) padding-box,
               linear-gradient(135deg, rgba(56, 225, 255, 0.85) 0%, rgba(0, 232, 255, 0.75) 100%) border-box !important;
   border: 1px solid transparent !important;
   color: #38e1ff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(0, 232, 255, 0.5) !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 12px rgba(0, 232, 255, 0.45), inset 0 0 8px rgba(0, 232, 255, 0.3) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 8px rgba(0, 232, 255, 0.6) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45), 0 0 10px rgba(0, 232, 255, 0.4), inset 0 0 8px rgba(0, 232, 255, 0.25) !important;
 }
 
+.ptx-navbar a.next-button.active .name,
+.ptx-navbar a.next-button:active .name,
 .ptx-navbar .next-button.active .name,
-.ptx-navbar .next-button:active .name {
+.ptx-navbar .next-button:active .name,
+.treebuttons .next-button.active .name,
+.treebuttons .next-button:active .name {
   color: #38e1ff !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 6px rgba(0, 232, 255, 0.5) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 8px rgba(0, 232, 255, 0.6) !important;
 }
 
 .ptx-navbar .button:active:hover,
