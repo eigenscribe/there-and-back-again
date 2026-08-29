@@ -7,12 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added algebra and precalculus section with foundational definitions, means, and identities; updated notes graph with new references; revised IntelliJ workspace configuration.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/def-arithmetic-mean.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/def-arithmetic-mean.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/def-geometric-mean.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/def-geometric-mean.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/subsec-means.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRA_AND_PRECALCULUS/MEANS/subsec-means.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/DATA_ANALYSIS_AND_GEOMETRY/clr-compositional-data.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/DATA_ANALYSIS_AND_GEOMETRY/clr-compositional-data.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,61 +43,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000073491495" />
-      <entry key="MS500" value="1.0277758248524214" />
-      <entry key="S2" value="1.7972268367483137" />
-      <entry key="S5" value="3.185700902297667" />
-      <entry key="S10" value="4.699058790941425" />
-      <entry key="S30" value="8.219164723576885" />
-      <entry key="S60" value="12.944520311827619" />
-      <entry key="M2" value="24.455035673752516" />
-      <entry key="M5" value="51.28846527106784" />
-      <entry key="M10" value="87.0249034800253" />
-      <entry key="M15" value="124.4952741646069" />
-      <entry key="M30" value="226.3560949939864" />
-      <entry key="H1" value="368.1086748609421" />
-      <entry key="H2" value="536.1478422862054" />
-      <entry key="H4" value="738.1814647440791" />
-      <entry key="D1" value="4445.732250865094" />
-      <entry key="W1" value="23784.56656579497" />
+      <entry key="MS100" value="1.0000011987813706" />
+      <entry key="MS500" value="1.065839396465926" />
+      <entry key="S2" value="1.7894641584477726" />
+      <entry key="S5" value="3.565735510797009" />
+      <entry key="S10" value="6.647458680612339" />
+      <entry key="S30" value="17.152441877889014" />
+      <entry key="S60" value="29.579971611381218" />
+      <entry key="M2" value="48.03775494536947" />
+      <entry key="M5" value="86.1758160204408" />
+      <entry key="M10" value="132.22450063336873" />
+      <entry key="M15" value="173.07941843706337" />
+      <entry key="M30" value="282.2279098584659" />
+      <entry key="H1" value="440.3152023246382" />
+      <entry key="H2" value="629.511180043925" />
+      <entry key="H4" value="849.9755341077274" />
+      <entry key="D1" value="4558.503604625585" />
+      <entry key="W1" value="23906.955084886533" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="4.652874625261388E-193" />
-      <entry key="S10" value="6.821198300343805E-97" />
-      <entry key="S30" value="8.802787641441955E-33" />
-      <entry key="S60" value="9.382317219877948E-17" />
-      <entry key="M2" value="9.686236224601346E-9" />
-      <entry key="M5" value="6.229626691967818E-4" />
-      <entry key="M10" value="0.024959220123969852" />
-      <entry key="M15" value="0.08540579522878095" />
-      <entry key="M30" value="0.29224269918817075" />
-      <entry key="H1" value="0.5405949030344408" />
-      <entry key="H2" value="0.7358350872631274" />
-      <entry key="H4" value="0.9067944080478878" />
-      <entry key="D1" value="5.459209281266058" />
-      <entry key="W1" value="50.719640842070845" />
+      <entry key="S5" value="1.3865548330728416E-260" />
+      <entry key="S10" value="1.1775206295741951E-130" />
+      <entry key="S30" value="4.901430416173371E-44" />
+      <entry key="S60" value="2.2139174366207256E-22" />
+      <entry key="M2" value="1.4879238678846162E-11" />
+      <entry key="M5" value="4.66694071662889E-5" />
+      <entry key="M10" value="0.006831501091728568" />
+      <entry key="M15" value="0.036003448014984174" />
+      <entry key="M30" value="0.18974574570984953" />
+      <entry key="H1" value="0.43559825883507874" />
+      <entry key="H2" value="0.6605224558361824" />
+      <entry key="H4" value="0.8591369157980717" />
+      <entry key="D1" value="5.410308147849181" />
+      <entry key="W1" value="50.654486911203946" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9862327115921621" />
-      <entry key="MS500" value="1.0248095614209727" />
-      <entry key="S2" value="1.7949521923765712" />
-      <entry key="S5" value="3.183469995871991" />
-      <entry key="S10" value="4.697232598714234" />
-      <entry key="S30" value="8.218084004670619" />
-      <entry key="S60" value="12.943722822881384" />
-      <entry key="M2" value="24.45434976991357" />
-      <entry key="M5" value="51.288504835157475" />
-      <entry key="M10" value="87.0484128907627" />
-      <entry key="M15" value="124.57797157863921" />
-      <entry key="M30" value="226.6440231076644" />
-      <entry key="H1" value="368.64518629420667" />
-      <entry key="H2" value="536.8807351052317" />
-      <entry key="H4" value="739.0863680133817" />
-      <entry key="D1" value="4451.190059528413" />
-      <entry key="W1" value="23835.28524379493" />
+      <entry key="MS100" value="0.9794214716977336" />
+      <entry key="MS500" value="1.0614124054067555" />
+      <entry key="S2" value="1.7866782672399426" />
+      <entry key="S5" value="3.5626216878515473" />
+      <entry key="S10" value="6.644605025829776" />
+      <entry key="S30" value="17.150346679443018" />
+      <entry key="S60" value="29.57831125306028" />
+      <entry key="M2" value="48.03647533971518" />
+      <entry key="M5" value="86.1749735231683" />
+      <entry key="M10" value="132.23038514669196" />
+      <entry key="M15" value="173.1138735087737" />
+      <entry key="M30" value="282.41462691469576" />
+      <entry key="H1" value="440.7473896275452" />
+      <entry key="H2" value="630.1689992125171" />
+      <entry key="H4" value="850.832847712544" />
+      <entry key="D1" value="4563.912519372471" />
+      <entry key="W1" value="23957.608609429466" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -191,14 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00170" summary="polished conceptual-pipeline.ptx">
-      <option name="closed" value="true" />
-      <created>1785647493703</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1785647493703</updated>
     </task>
     <task id="LOCAL-00171" summary="rearranged some sections and subsections in the bridges chapter">
       <option name="closed" value="true" />
@@ -584,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787988933866</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1787989671027</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1787989671028</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated IntelliJ workspace configuration and refined content in geometric algebra appendix." />
     <MESSAGE value="Updated IntelliJ workspace configuration and refined reasoning taxonomy content." />
     <MESSAGE value="Refined reasoning taxonomy examples for clarity and precision." />
     <MESSAGE value="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration." />
@@ -627,6 +625,7 @@
     <MESSAGE value="Refined &quot;Compositional Data&quot; subsection with centered log-ratio (CLR) transform details, improved formatting, updated glossary and notes graph with new tags, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Refined &quot;Compositional Data&quot; subsection with enhanced CLR transform details, adjusted glossary, updated notes graph with new references, and revised IntelliJ workspace configuration." />
     <MESSAGE value="Added algebra and precalculus section with foundational definitions, means, and identities; updated notes graph with new references; revised IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added algebra and precalculus section with foundational definitions, means, and identities; updated notes graph with new references; revised IntelliJ workspace configuration." />
+    <MESSAGE value="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration." />
   </component>
 </project>

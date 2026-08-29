@@ -10,7 +10,7 @@
       <term>arithmetic mean</term> <m>\bar{x}</m> is defined as:
     </p>
     <md>
-      \bar{x} = \frac{1}{n}\sum_{i=1}^n x_i
+      \bar{x} = \frac{1}{n}\sum_{i=1}^n x_i \, .
     </md>
   </statement>
 
