@@ -110,6 +110,11 @@ pre[class*="language-"].line-numbers { border-right: none !important; }
   border: none;
 }
 
+.ptx-content pre.code-display {
+  color: #19f9d8 !important;
+  background: #1a1d24 !important;
+}
+
 .ptx-content pre {
   padding: 1.25rem 1.5rem;
   margin: 1.25rem 0;

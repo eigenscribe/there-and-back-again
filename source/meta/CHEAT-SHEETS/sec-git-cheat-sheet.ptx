@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-git" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Git Cheat Sheet</title>
+  <introduction>
+      <p>
+        <tag>202604120002</tag> |<tag>git</tag> <tag>bash</tag> <tag>terminal</tag>
+      </p>
+  </introduction>
+
+    <paragraphs xml:id="para-git-local-reset">
+        <title>Local Git Reset (Bash)</title>
+            <p>Multiline version (safer, less likely to accidentally erase local changes):</p>
+            <program language="bash" line-numbers="no">
+                <code>
+                    <![CDATA[
+                    git fetch origin
+                    git checkout main        # or whatever branch you're using
+                    git reset --hard origin/main
+                    git clean -fd            # removes untracked files & folders
+                    ]]>
+                </code>
+            </program>
+
+            <p>One-liner (⚠️ use with caution!):</p>
+            <program language="bash">
+                 <code>
+                    <![CDATA[
+                    git fetch origin && git reset --hard origin/main && git clean -fd
+                    ]]>
+                 </code>
+            </program>
+
+    </paragraphs>
+
+</section>

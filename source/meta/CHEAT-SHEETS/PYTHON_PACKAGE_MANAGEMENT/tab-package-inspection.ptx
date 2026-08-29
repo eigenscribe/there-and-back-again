@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="tab-package-inspection" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Inspecting Packages</title>
+
+  <tabular bottom="minor" top="minor" left="major" right="major">
+
+    <row header="yes">
+      <cell>Task</cell>
+      <cell>pip</cell>
+      <cell>uv</cell>
+    </row>
+
+    <row>
+      <cell><em>List packages</em></cell>
+      <cell>
+        <cd>
+          <cline>pip list</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv pip list</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Show package info</em></cell>
+      <cell>
+        <cd>
+          <cline>pip show requests</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv pip show requests</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Check for conflicts</em></cell>
+      <cell>
+        <cd>
+          <cline>pip check</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv pip check</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Freeze to file</em></cell>
+      <cell>
+        <cd>
+          <cline>pip freeze ></cline>
+          <cline>requirements.txt</cline>
+        </cd>
+      </cell>
+      <cell>
+        <p><cd><cline>uv pip freeze</cline></cd></p>
+        <p>or</p>
+        <p><cd><cline>uv export</cline></cd></p>
+      </cell>
+    </row>
+
+  </tabular>
+
+</table>

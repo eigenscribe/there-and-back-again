@@ -129,7 +129,7 @@
 .ptx-page:not(.graph-hidden) .ptx-main .tabular-box {
   transform: scale(0.98);
   transform-origin: top left;
-  width: 102%; /* Compensate for scale */
+  max-width: 100%;
 }
 
 .ptx-page:not(.graph-hidden) .ptx-main table.tabular td,

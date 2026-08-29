@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="tab-package-installation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Package Installation</title>
+
+  <tabular bottom="minor" top="minor" left="major" right="major">
+
+    <row header="yes">
+      <cell>Task</cell>
+      <cell>pip</cell>
+      <cell>uv (project)</cell>
+      <cell>uv (pip-compatible)</cell>
+    </row>
+
+    <row>
+      <cell><em>Install a package</em></cell>
+      <cell>
+        <cd>
+          <cline>pip install requests</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv add requests</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv pip install</cline>
+          <cline>requests</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Install from requirements</em></cell>
+      <cell>
+        <cd>
+          <cline>pip install -r</cline>
+          <cline>requirements.txt</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv add -r</cline>
+          <cline>requirements.txt</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv pip install -r</cline>
+          <cline>requirements.txt</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Install editable</em></cell>
+      <cell>
+        <cd>
+          <cline>pip install -e .</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv sync</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv pip install -e</cline>
+          <cline>.</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Upgrade a package</em></cell>
+      <cell>
+        <cd>
+          <cline>pip install --</cline>
+          <cline>upgrade requests</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv lock --upgrade-</cline>
+          <cline>package requests &amp;&amp;</cline>
+          <cline>uv sync</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv pip install --</cline>
+          <cline>upgrade requests</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Uninstall</em></cell>
+      <cell>
+        <cd>
+          <cline>pip uninstall</cline>
+          <cline>requests</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv remove</cline>
+          <cline>requests</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv pip install uninstall</cline>
+          <cline>requests</cline>
+        </cd>
+      </cell>
+    </row>
+
+  </tabular>
+
+</table>

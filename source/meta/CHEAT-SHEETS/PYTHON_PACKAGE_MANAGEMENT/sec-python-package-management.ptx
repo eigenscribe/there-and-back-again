@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-python-package-management" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Python Package Management</title>
+  <subsection xml:id="sub-pip-update-requirements">
+        <title>Update pip requirements.txt</title>
+        <program language="bash" line-numbers="no">
+            <code>
+                <![CDATA[
+                pip install -r requirements.txt --upgrade
+                pip freeze > requirements.txt
+                ]]>
+            </code>
+        </program>
+  </subsection>
+
+  <subsection xml:id="sub-pip-vs-uv-comparison">
+    <title>Pip vs uvicorn</title>
+
+    <xi:include href="tab-package-installation.ptx" />
+    <xi:include href="tab-package-inspection.ptx" />
+
+  </subsection>
+
+</section>

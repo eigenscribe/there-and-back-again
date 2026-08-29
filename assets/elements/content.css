@@ -363,6 +363,7 @@
 /* Emphasized text - Light Pink */
 .ptx-content :is(em, .emphasis) {
   color: #F48FB1 !important; /* Light Pink */
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
   font-style: italic;
 }
 

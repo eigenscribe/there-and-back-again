@@ -4,7 +4,7 @@
   <title>🔱 Meta</title>
 
   <xi:include href="./PRETEXT/ch-pretext.ptx" />
-  <xi:include href="./cheat-sheets/ch-cheat-sheets.ptx" />
+  <xi:include href="./CHEAT-SHEETS/ch-cheat-sheets.ptx" />
   <xi:include href="./gold-standards/ch-gold-standards.ptx" />
   <xi:include href="./KNOWLEDGE_STRUCTURES/ch-knowledge-structures.ptx"/>
 

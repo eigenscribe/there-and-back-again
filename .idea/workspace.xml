@@ -7,9 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated README with detailed project documentation: added overview, tech stack, installation instructions, build process, scripts, and project structure. Refined notes graph titles and relationships; updated IntelliJ workspace configuration.">
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/tab-package-inspection.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/tab-package-installation.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/sec-git-cheat-sheet.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/code-blocks.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/code-blocks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/tables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/toc.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/toc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/cheat-sheets/ch-cheat-sheets.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/ch-cheat-sheets.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/cheat-sheets/sec-terminal-cheat-sheet.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/sec-terminal-cheat-sheet.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/pt-meta.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/pt-meta.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +53,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000157023845517" />
-      <entry key="S5" value="1.0178680814778807" />
-      <entry key="S10" value="1.188525267521495" />
-      <entry key="S30" value="2.0241535003884" />
-      <entry key="S60" value="4.6072086960128695" />
-      <entry key="M2" value="14.327272589287922" />
-      <entry key="M5" value="42.59928920765363" />
-      <entry key="M10" value="73.14580860662726" />
-      <entry key="M15" value="95.82785399757103" />
-      <entry key="M30" value="161.2474839270938" />
-      <entry key="H1" value="309.39451265109085" />
-      <entry key="H2" value="559.8907549163346" />
-      <entry key="H4" value="874.8501251003638" />
-      <entry key="D1" value="4607.354571996681" />
-      <entry key="W1" value="24018.817030608967" />
+      <entry key="MS100" value="1.000020989103736" />
+      <entry key="MS500" value="1.1208343159852279" />
+      <entry key="S2" value="2.0846261657018674" />
+      <entry key="S5" value="3.389562098753438" />
+      <entry key="S10" value="4.506282603992105" />
+      <entry key="S30" value="5.905012977678511" />
+      <entry key="S60" value="6.703985298118747" />
+      <entry key="M2" value="10.427046482397113" />
+      <entry key="M5" value="26.568457513327914" />
+      <entry key="M10" value="48.726804131742504" />
+      <entry key="M15" value="70.20375136169316" />
+      <entry key="M30" value="139.49028081101196" />
+      <entry key="H1" value="284.6443265812983" />
+      <entry key="H2" value="556.0086718609655" />
+      <entry key="H4" value="943.0768771126207" />
+      <entry key="D1" value="4721.75647837293" />
+      <entry key="W1" value="24206.09530783825" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -65,37 +77,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="1.3460587591757039E-113" />
-      <entry key="S60" value="3.6688673445297505E-57" />
-      <entry key="M2" value="6.057117585559733E-29" />
-      <entry key="M5" value="5.163050843881795E-12" />
-      <entry key="M10" value="2.272234768654364E-6" />
-      <entry key="M15" value="1.728365016594446E-4" />
-      <entry key="M30" value="0.013146729694469911" />
-      <entry key="H1" value="0.11465921874083032" />
-      <entry key="H2" value="0.338882395599776" />
-      <entry key="H4" value="0.6153795943607329" />
-      <entry key="D1" value="5.117628855740592" />
-      <entry key="W1" value="50.25363272179533" />
+      <entry key="S30" value="1.1047208310631556E-188" />
+      <entry key="S60" value="1.0510570065715372E-94" />
+      <entry key="M2" value="1.0252107132543604E-47" />
+      <entry key="M5" value="1.600756427552253E-19" />
+      <entry key="M10" value="4.0009454227122695E-10" />
+      <entry key="M15" value="5.429690623517939E-7" />
+      <entry key="M30" value="7.368643446061335E-4" />
+      <entry key="H1" value="0.02714525230707155" />
+      <entry key="H2" value="0.16488891516233303" />
+      <entry key="H4" value="0.42925396685203854" />
+      <entry key="D1" value="4.819448281936145" />
+      <entry key="W1" value="49.824502022278345" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7474246243174691" />
-      <entry key="MS500" value="0.94343825089536" />
-      <entry key="S2" value="0.9855650067056575" />
-      <entry key="S5" value="1.0120477066207967" />
-      <entry key="S10" value="1.1855398938240451" />
-      <entry key="S30" value="2.0230453911023307" />
-      <entry key="S60" value="4.606509280685791" />
-      <entry key="M2" value="14.326644008320587" />
-      <entry key="M5" value="42.5986933112955" />
-      <entry key="M10" value="73.14532512779668" />
-      <entry key="M15" value="95.82760799855573" />
-      <entry key="M30" value="161.2601225101577" />
-      <entry key="H1" value="309.5080728041097" />
-      <entry key="H2" value="560.2281275411191" />
-      <entry key="H4" value="875.4641297363739" />
-      <entry key="D1" value="4612.470870055371" />
-      <entry key="W1" value="24069.069706718376" />
+      <entry key="MS100" value="0.9592845344808548" />
+      <entry key="MS500" value="1.111883768713984" />
+      <entry key="S2" value="2.08112885266832" />
+      <entry key="S5" value="3.387502491256303" />
+      <entry key="S10" value="4.504947187760327" />
+      <entry key="S30" value="5.904431201382224" />
+      <entry key="S60" value="6.703653282761481" />
+      <entry key="M2" value="10.426780848804816" />
+      <entry key="M5" value="26.568176499027743" />
+      <entry key="M10" value="48.726530854360476" />
+      <entry key="M15" value="70.20340709271338" />
+      <entry key="M30" value="139.49022708453012" />
+      <entry key="H1" value="284.6701340269716" />
+      <entry key="H2" value="556.1718850687541" />
+      <entry key="H4" value="943.5045463913217" />
+      <entry key="D1" value="4726.574540894954" />
+      <entry key="W1" value="24255.918841690484" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -146,11 +158,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON-PACKAGES" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges/DATA_GEOMETRY_MAP" />
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/DIRAC_DELTA" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges" />
       <recent name="$PROJECT_DIR$/source/scribing/eigenotes" />
-      <recent name="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION" />
     </key>
   </component>
   <component name="RunManager" selected="PowerShell.build.ps1">
@@ -188,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00185" summary="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting">
-      <option name="closed" value="true" />
-      <created>1786747445820</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1786747445820</updated>
     </task>
     <task id="LOCAL-00186" summary="added preview sections, tabular data, and linked notes to `sec-pretext-demo.ptx` and `sec-pretext-cheat-sheet.ptx`">
       <option name="closed" value="true" />
@@ -581,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788025935725</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="Updated README with detailed project documentation: added overview, tech stack, installation instructions, build process, scripts, and project structure. Refined notes graph titles and relationships; updated IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1788026836590</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1788026836590</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;Spurious Correlations&quot; entry to the glossary, updated related references under &quot;Compositional Data,&quot; and enhanced notes graph integration." />
     <MESSAGE value="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment." />
     <MESSAGE value="Refined navbar styling in CSS for enhanced readability, responsiveness, and visual consistency; updated IntelliJ workspace configuration with adjusted tasks, completion values, and improved notes graph alignment." />
     <MESSAGE value="Refined navbar styling with new gradient backgrounds, enhanced contrast, and updated hover/active states; adjusted IntelliJ workspace configuration to align with recent changes." />
@@ -624,6 +635,7 @@
     <MESSAGE value="Refined &quot;tabs.js&quot; logic for preview and source tab handling: improved auto-detection, added support for preview-first cases, streamlined tab and panel order management; updated IntelliJ workspace and PreTeXt examples." />
     <MESSAGE value="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks." />
     <MESSAGE value="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace." />
-    <option name="LAST_COMMIT_MESSAGE" value="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace." />
+    <MESSAGE value="Updated README with detailed project documentation: added overview, tech stack, installation instructions, build process, scripts, and project structure. Refined notes graph titles and relationships; updated IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README with detailed project documentation: added overview, tech stack, installation instructions, build process, scripts, and project structure. Refined notes graph titles and relationships; updated IntelliJ workspace configuration." />
   </component>
 </project>

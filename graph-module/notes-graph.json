@@ -1047,14 +1047,14 @@
     },
     {
       "id": "sec-git",
-      "title": "Terminal Cheat Sheet",
+      "title": "Git Cheat Sheet",
       "url": "sec-git.html",
       "tags": [
         "bash",
         "git",
         "terminal"
       ],
-      "description": "Multiline version (safter, less likely to accidentally earase local changes):",
+      "description": "202604120002 |git bash terminal",
       "group": "meta",
       "color": "#f5a623"
     },
@@ -1070,7 +1070,7 @@
     {
       "id": "sub-pip-update-requirements",
       "title": "Update pip requirements.txt",
-      "url": "sec-git.html#sub-pip-update-requirements",
+      "url": "sec-python-package-management.html#sub-pip-update-requirements",
       "tags": [],
       "description": "",
       "group": "meta",
@@ -1080,6 +1080,24 @@
       "id": "ch-cheat-sheets",
       "title": "My Cheat Sheets",
       "url": "ch-cheat-sheets.html",
+      "tags": [],
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sec-python-package-management",
+      "title": "Python Package Management",
+      "url": "sec-python-package-management.html",
+      "tags": [],
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sub-pip-vs-uv-comparison",
+      "title": "Pip vs uvicorn",
+      "url": "sec-python-package-management.html#sub-pip-vs-uv-comparison",
       "tags": [],
       "description": "",
       "group": "meta",

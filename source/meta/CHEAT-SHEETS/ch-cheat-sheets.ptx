@@ -6,6 +6,7 @@
     <!-- introductory text here -->
   </introduction>
 
-  <xi:include href="sec-terminal-cheat-sheet.ptx" />
+  <xi:include href="sec-git-cheat-sheet.ptx" />
+  <xi:include href="PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" />
 
 </chapter>
