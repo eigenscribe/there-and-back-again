@@ -378,7 +378,7 @@
     },
     {
       "id": "def-path",
-      "title": "def-path",
+      "title": "Path",
       "url": "para-path.html#def-path",
       "tags": [
         "path"
@@ -389,7 +389,7 @@
     },
     {
       "id": "def-admissible-path",
-      "title": "def-admissible-path",
+      "title": "Admissible Path",
       "url": "para-path.html#def-admissible-path",
       "tags": [
         "admissible path"
@@ -400,7 +400,7 @@
     },
     {
       "id": "def-stationary",
-      "title": "def-stationary",
+      "title": "Stationary Point",
       "url": "para-path.html#def-stationary",
       "tags": [
         "stationary"
@@ -1559,6 +1559,12 @@
     {
       "source": "def-admissible-path",
       "target": "def-path",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-stationary",
+      "target": "def-functional",
       "type": "reference",
       "weight": 2
     },

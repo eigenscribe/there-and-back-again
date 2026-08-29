@@ -20,7 +20,7 @@
       <p>
         The <xref ref="def-euler-lagrange" text="custom">Euler-Lagrange equation</xref> in <alert>physics</alert> is
         the necessary condition satisfied by a function that makes a
-        <xref ref="def-functional" text="custom">functional</xref>, stationary under admissible <em>variations</em>.
+        <xref ref="def-functional" text="custom">functional</xref>, stationary under <em>admissible variations</em>.
         It is written as
 
           <md>

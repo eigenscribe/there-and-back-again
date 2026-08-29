@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks.">
-      <change beforePath="$PROJECT_DIR$/.idea/there-and-back-again.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/there-and-back-again.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace.">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-variation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-variation.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/subsec-calculus-of-variations-primer.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +41,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0369077642750422" />
-      <entry key="MS500" value="1.603337456280089" />
-      <entry key="S2" value="3.4520510880656694" />
-      <entry key="S5" value="7.131536972209302" />
-      <entry key="S10" value="11.440216430213235" />
-      <entry key="S30" value="22.324692769584207" />
-      <entry key="S60" value="31.536362074469384" />
-      <entry key="M2" value="43.66385036394625" />
-      <entry key="M5" value="67.35115830409241" />
-      <entry key="M10" value="91.40694519099179" />
-      <entry key="M15" value="110.72704377011057" />
-      <entry key="M30" value="172.81238246534647" />
-      <entry key="H1" value="320.17155986352157" />
-      <entry key="H2" value="569.2679417725101" />
-      <entry key="H4" value="881.4836706861776" />
-      <entry key="D1" value="4612.792785517882" />
-      <entry key="W1" value="24022.099312705635" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000157023845517" />
+      <entry key="S5" value="1.0178680814778807" />
+      <entry key="S10" value="1.188525267521495" />
+      <entry key="S30" value="2.0241535003884" />
+      <entry key="S60" value="4.6072086960128695" />
+      <entry key="M2" value="14.327272589287922" />
+      <entry key="M5" value="42.59928920765363" />
+      <entry key="M10" value="73.14580860662726" />
+      <entry key="M15" value="95.82785399757103" />
+      <entry key="M30" value="161.2474839270938" />
+      <entry key="H1" value="309.39451265109085" />
+      <entry key="H2" value="559.8907549163346" />
+      <entry key="H4" value="874.8501251003638" />
+      <entry key="D1" value="4607.354571996681" />
+      <entry key="W1" value="24018.817030608967" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -69,37 +65,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="2.6245168605861296E-111" />
-      <entry key="S60" value="5.123003865493445E-56" />
-      <entry key="M2" value="2.263405369237551E-28" />
-      <entry key="M5" value="8.747922698460166E-12" />
-      <entry key="M10" value="2.9576887426604054E-6" />
-      <entry key="M15" value="2.0604795674304487E-4" />
-      <entry key="M30" value="0.014354370649494167" />
-      <entry key="H1" value="0.11980975760398042" />
-      <entry key="H2" value="0.3464101544251971" />
-      <entry key="H4" value="0.622176916168074" />
-      <entry key="D1" value="5.127007116818171" />
-      <entry key="W1" value="50.26677837353462" />
+      <entry key="S30" value="1.3460587591757039E-113" />
+      <entry key="S60" value="3.6688673445297505E-57" />
+      <entry key="M2" value="6.057117585559733E-29" />
+      <entry key="M5" value="5.163050843881795E-12" />
+      <entry key="M10" value="2.272234768654364E-6" />
+      <entry key="M15" value="1.728365016594446E-4" />
+      <entry key="M30" value="0.013146729694469911" />
+      <entry key="H1" value="0.11465921874083032" />
+      <entry key="H2" value="0.338882395599776" />
+      <entry key="H4" value="0.6153795943607329" />
+      <entry key="D1" value="5.117628855740592" />
+      <entry key="W1" value="50.25363272179533" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9951626388094165" />
-      <entry key="MS500" value="1.5915376624043427" />
-      <entry key="S2" value="3.445453933889238" />
-      <entry key="S5" value="7.126493970923034" />
-      <entry key="S10" value="11.436403965055002" />
-      <entry key="S30" value="22.322337881640212" />
-      <entry key="S60" value="31.534674627437845" />
-      <entry key="M2" value="43.66262062958841" />
-      <entry key="M5" value="67.35035648519542" />
-      <entry key="M10" value="91.40639636670889" />
-      <entry key="M15" value="110.72679979508905" />
-      <entry key="M30" value="172.82620465026957" />
-      <entry key="H1" value="320.29023203333753" />
-      <entry key="H2" value="569.6128139290521" />
-      <entry key="H4" value="882.104460083618" />
-      <entry key="D1" value="4617.918459832897" />
-      <entry key="W1" value="24072.365134278447" />
+      <entry key="MS100" value="0.7474246243174691" />
+      <entry key="MS500" value="0.94343825089536" />
+      <entry key="S2" value="0.9855650067056575" />
+      <entry key="S5" value="1.0120477066207967" />
+      <entry key="S10" value="1.1855398938240451" />
+      <entry key="S30" value="2.0230453911023307" />
+      <entry key="S60" value="4.606509280685791" />
+      <entry key="M2" value="14.326644008320587" />
+      <entry key="M5" value="42.5986933112955" />
+      <entry key="M10" value="73.14532512779668" />
+      <entry key="M15" value="95.82760799855573" />
+      <entry key="M30" value="161.2601225101577" />
+      <entry key="H1" value="309.5080728041097" />
+      <entry key="H2" value="560.2281275411191" />
+      <entry key="H4" value="875.4641297363739" />
+      <entry key="D1" value="4612.470870055371" />
+      <entry key="W1" value="24069.069706718376" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -192,14 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00184" summary="added `pyproject.toml`, dependency lock file, and IntelliJ module files">
-      <option name="closed" value="true" />
-      <created>1786743744892</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1786743744893</updated>
     </task>
     <task id="LOCAL-00185" summary="added &quot;distribution&quot; definition to glossary and adjusted IntelliJ configuration formatting">
       <option name="closed" value="true" />
@@ -585,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787998466964</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace.">
+      <option name="closed" value="true" />
+      <created>1788025935725</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1788025935725</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Integrated &quot;tse-landing-page&quot; as a new IntelliJ module, updated workspace configuration, refined CSS for improved heading styles, and adjusted notes graph for enhanced alignment." />
     <MESSAGE value="Added &quot;Spurious Correlations&quot; entry to the glossary, updated related references under &quot;Compositional Data,&quot; and enhanced notes graph integration." />
     <MESSAGE value="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment." />
     <MESSAGE value="Refined navbar styling in CSS for enhanced readability, responsiveness, and visual consistency; updated IntelliJ workspace configuration with adjusted tasks, completion values, and improved notes graph alignment." />
@@ -628,6 +623,7 @@
     <MESSAGE value="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness." />
     <MESSAGE value="Refined &quot;tabs.js&quot; logic for preview and source tab handling: improved auto-detection, added support for preview-first cases, streamlined tab and panel order management; updated IntelliJ workspace and PreTeXt examples." />
     <MESSAGE value="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks." />
+    <MESSAGE value="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace." />
+    <option name="LAST_COMMIT_MESSAGE" value="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace." />
   </component>
 </project>
