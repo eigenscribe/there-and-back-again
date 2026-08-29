@@ -5,7 +5,14 @@
   <idx>geometric mean</idx>
 
   <statement>
-
+    <p>
+      For a collection of non-negative real values,
+      <m>\mathbf{x}=(x_1, x_2, \dots, x_n) : x_i\in\mathbb{R} \forall i\in \{1,\dots,n\}</m>,
+      the <term>geometric mean</term> <m>g(\mathbf{x})</m> is defined as:
+    </p>
+    <md>
+      g(\mathbf{x}) = \left(\prod_{i=1}^n x_i\right)^{1/n} = \exp\left( \frac{1}{n} \sum_{i=1}^n \ln(x_i) \right)
+    </md>
   </statement>
 
 </definition>

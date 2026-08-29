@@ -312,7 +312,7 @@
       "tags": [
         "geometric mean"
       ],
-      "description": "",
+      "description": "For a collection of non-negative real values, \\mathbf{x}=(x_1, x_2, \\dots, x_n) : x_i\\in\\mathbb{R} \\forall i\\in \\{1,\\...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -1660,6 +1660,12 @@
       "target": "def-clr-transform",
       "type": "reference",
       "weight": 2
+    },
+    {
+      "source": "def-geometric-mean",
+      "target": "def-clr-transform",
+      "type": "prerequisite",
+      "weight": 3
     },
     {
       "source": "def-ga-uniform-b-field-vector-potential",

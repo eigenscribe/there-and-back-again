@@ -4,5 +4,6 @@
   <title>Means and Averages</title>
 
   <xi:include href="def-arithmetic-mean.ptx"/>
+  <xi:include href="def-geometric-mean.ptx"/>
 
 </subsection>
