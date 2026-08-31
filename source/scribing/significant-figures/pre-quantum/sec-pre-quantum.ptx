@@ -4,6 +4,7 @@
   <title>Pre-Quantum</title>
 
   <xi:include href="lagrange-joseph-louis.ptx"/>
+  <xi:include href="legendre-adrien-marie.ptx"/>
   <xi:include href="boltzmann-ludwig.ptx"/>
 
 

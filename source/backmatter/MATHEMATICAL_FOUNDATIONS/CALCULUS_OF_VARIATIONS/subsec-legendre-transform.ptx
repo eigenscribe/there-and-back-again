@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-legendre-transform" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Legendre Transform and Dual Coordinates</title>
+
+  <p>
+    Consider a <em>strictly convex</em>, <em>differentiable function</em> function
+    <m>f: U \subseteq \mathbb{R}^n \mathbb{R}</m>  .
+  </p>
+
+
+  <definition xml:id="def-conjugate-variable">
+    <title>Conjugate Variable</title>
+    <idx>Conjugate Variable</idx>
+    <idx><sortkey>variable</sortkey>Conjugate variable</idx>
+
+    <statement>
+     <p>
+       The <term>conjugate variable</term> of <m>f(\mathbf{x})</m> is the defined as
+     </p>
+     <md>
+       <mrow>
+         \mathbf{p} \amp \triangleq \nabla f(\mathbf{x})
+       </mrow>
+     </md>
+    </statement>
+
+
+  </definition>
+
+  <definition xml:id="def-legendre-transform">
+    <title>Legendre Transform</title>
+    <idx>Legendre Transform</idx>
+    <idx><sortkey>transform</sortkey>Legendre transform</idx>
+
+
+    <statement>
+      <p>
+      The <term>Legendre transform</term> of <m>f</m> is the function
+      </p>
+      <md>
+        <mrow>
+          f^*(\mathbf{p})
+        </mrow>
+      </md>
+      <p>
+        where the <term>conjugate variable</term>
+      </p>
+    </statement>
+
+
+  </definition>
+
+
+ </subsection>

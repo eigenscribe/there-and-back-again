@@ -9,5 +9,7 @@
 
   <xi:include href="PRIMER/subsec-calculus-of-variations-primer.ptx"/>
   <xi:include href="subsec-euler-lagrange.ptx"/>
+  <xi:include href="subsec-legendre-transform.ptx"/>
+
 
  </section>

@@ -452,6 +452,44 @@
       "color": "#9013fe"
     },
     {
+      "id": "subsec-legendre-transform",
+      "title": "The Legendre Transform and Dual Coordinates",
+      "url": "subsec-legendre-transform.html",
+      "tags": [
+        "conjugate variable",
+        "legendre transform",
+        "transformlegendre transform",
+        "variableconjugate variable"
+      ],
+      "description": "Consider a strictly convex, differentiable function function f: U \\subseteq \\mathbb{R}^n \\mathbb{R} .",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-conjugate-variable",
+      "title": "Conjugate Variable",
+      "url": "subsec-legendre-transform.html#def-conjugate-variable",
+      "tags": [
+        "conjugate variable",
+        "variableconjugate variable"
+      ],
+      "description": "The conjugate variable of f(\\mathbf{x}) is the defined as",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-legendre-transform",
+      "title": "Legendre Transform",
+      "url": "subsec-legendre-transform.html#def-legendre-transform",
+      "tags": [
+        "legendre transform",
+        "transformlegendre transform"
+      ],
+      "description": "The Legendre transform of f is the function",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "def-functional",
       "title": "Standard Form of a Functional",
       "url": "para-functional.html#def-functional",
@@ -1534,6 +1572,17 @@
       "color": "#a0a0a0"
     },
     {
+      "id": "sub-legendre-adrien-marie",
+      "title": "Adrien-Marie Legendre",
+      "url": "sub-legendre-adrien-marie.html",
+      "tags": [
+        "adrien-marie legendree"
+      ],
+      "description": "Years: 1752-1833",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
       "id": "sec-pre-quantum",
       "title": "Pre-Quantum",
       "url": "sec-pre-quantum.html",
@@ -1795,6 +1844,12 @@
       "target": "def-action-classical-mechanics",
       "type": "reference",
       "weight": 2
+    },
+    {
+      "source": "def-legendre-transform",
+      "target": "sub-legendre-adrien-marie",
+      "type": "prerequisite",
+      "weight": 3
     }
   ]
 }
