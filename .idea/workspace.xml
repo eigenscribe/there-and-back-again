@@ -8,20 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated README with detailed project documentation: added overview, tech stack, installation instructions, build process, scripts, and project structure. Refined notes graph titles and relationships; updated IntelliJ workspace configuration.">
-      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/tab-package-inspection.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/tab-package-installation.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/sec-git-cheat-sheet.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/code-blocks.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/code-blocks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/tables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/toc.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/toc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/meta/cheat-sheets/ch-cheat-sheets.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/ch-cheat-sheets.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/meta/cheat-sheets/sec-terminal-cheat-sheet.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/sec-terminal-cheat-sheet.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/meta/pt-meta.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/pt-meta.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/tab-package-inspection.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/tab-package-inspection.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

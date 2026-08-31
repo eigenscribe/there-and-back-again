@@ -62,9 +62,13 @@
         </cd>
       </cell>
       <cell>
-        <p><cd><cline>uv pip freeze</cline></cd></p>
-        <p>or</p>
-        <p><cd><cline>uv export</cline></cd></p>
+        <cd>
+          <cline>uv pip freeze</cline>
+        </cd>
+        or
+        <cd>
+          <cline>uv export</cline>
+        </cd>
       </cell>
     </row>
 
