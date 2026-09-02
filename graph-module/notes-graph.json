@@ -461,7 +461,7 @@
         "transformlegendre transform",
         "variableconjugate variable"
       ],
-      "description": "Consider a strictly convex, differentiable function function f: U \\subseteq \\mathbb{R}^n \\mathbb{R} .",
+      "description": "Consider a strictly convex, differentiable function function f: U \\subseteq \\mathbb{R}^n \\to \\mathbb{R} .",
       "group": "backmatter",
       "color": "#9013fe"
     },

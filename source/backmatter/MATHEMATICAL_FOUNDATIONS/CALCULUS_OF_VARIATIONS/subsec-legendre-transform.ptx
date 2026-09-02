@@ -5,7 +5,7 @@
 
   <p>
     Consider a <em>strictly convex</em>, <em>differentiable function</em> function
-    <m>f: U \subseteq \mathbb{R}^n \mathbb{R}</m>  .
+    <m>f: U \subseteq \mathbb{R}^n \to \mathbb{R}</m>  .
   </p>
 
 
@@ -20,7 +20,7 @@
      </p>
      <md>
        <mrow>
-         \mathbf{p} \amp \triangleq \nabla f(\mathbf{x})
+         \mathbf{p} \amp \triangleq \nabla f(\mathbf{x}) \, .
        </mrow>
      </md>
     </statement>
@@ -40,14 +40,32 @@
       </p>
       <md>
         <mrow>
-          f^*(\mathbf{p})
+          f^*: U^* \to \mathbb{R}
         </mrow>
       </md>
       <p>
-        where the <term>conjugate variable</term>
+        defined by:
       </p>
+      <md>
+        <mrow>
+          f^*(\mathbf{p}) \triangleq \sup_{\mathbf{x} \in U} \left\{ \langle \mathbf{p}, \mathbf{x} \rangle - f(\mathbf{x}) \right\} \, .
+        </mrow>
+      </md>
     </statement>
 
+    <remark>
+      <statement>
+        <p>
+          For an invertible mapping <m>\mathbf{x} \mapsto \mathbf{p}(\mathbf{x})</m>, the transformed function may be
+          written as:
+        </p>
+        <md>
+          <mrow>
+            f^*(\mathbf{p}) = \langle \mathbf{p}, \mathbf{x}(\mathbf{p}) \rangle - f\big(\mathbf{x}(\mathbf{p})\big) \, .
+          </mrow>
+        </md>
+      </statement>
+    </remark>
 
   </definition>
 
