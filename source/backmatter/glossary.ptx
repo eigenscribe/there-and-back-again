@@ -135,6 +135,29 @@
     </statement>
   </gi>
 
+  <gi xml:id="gls-spherical-harmonics">
+    <title>Spherical Harmonics</title>
+    <idx>spherical harmonics</idx>
+
+    <statement>
+      <p>
+        A set of orthogonal functions defined on the surface of a sphere that form a complete basis for representing
+        angular dependence.
+      </p>
+      <p>
+        Widely used in physics to represent angular
+        structure in <xref ref="def-physical-system" text="custom">physical systems</xref> with spherical or
+        approximately spherical symmetry, including gravitational and electromagnetic fields, atomic orbitals, and
+        quantum-mechanical wavefunctions.
+      </p>
+      <p>
+        In quantum mechanics, spherical harmonics are indexed using two quantum numbers, commonly
+        denoted <m>\ell</m> and <m>m</m>, and arise as the angular solutions of the Laplace equation and other
+        related differential equations in spherical coordinates.
+      </p>
+    </statement>
+  </gi>
+
   <gi xml:id="gls-spurious-correlations">
     <title>Spurious Correlations</title>
     <idx>spurious correlations</idx>

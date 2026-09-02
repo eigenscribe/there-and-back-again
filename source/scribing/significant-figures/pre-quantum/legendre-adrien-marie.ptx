@@ -15,8 +15,38 @@
         <alert>Core Contributions:</alert>
         <ul>
           <li>
-            Formulated the <xref ref="def-legendre-transform" text="custom">Legendre transform</xref> which converts
-            convex functions into functions of their derivative variable.
+            <p>
+              Developed the <xref ref="def-legendre-transform" text="custom">Legendre transform</xref> which converts
+              convex functions into functions of their derivative variable.
+            </p>
+            <p>
+              The <xref ref="def-legendre-transform" text="custom">Legendre transform</xref> was later shown that it
+              could be used as a computational tool to convert a system of <m>n</m>
+              <xref ref="def-euler-lagrange" text="custom">Euler-Lagrange Equations</xref> into a system of <m>2n</m>
+              Hamiltonian equations.
+            </p>
+          </li>
+          <li>
+            <p>
+              Formulated Legendre's differential equation.
+            </p>
+            <p>
+              Shows up in expansions for:
+              <ul>
+                <li>
+                  Gravitational waves.
+                </li>
+                <li>
+                  <p>
+                    Electric potentials when there is spherical symmetry.
+                  </p>
+                  <p>
+                    This bridges <xref ref="gls-spherical-harmonics" text="custom">spherical harmonics</xref> and the
+                    wavefunction for the Hydrogen atom.
+                  </p>
+                </li>
+              </ul>
+            </p>
           </li>
         </ul>
       </p>
