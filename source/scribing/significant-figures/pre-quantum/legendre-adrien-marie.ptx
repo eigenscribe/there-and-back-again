@@ -48,8 +48,53 @@
               </ul>
             </p>
           </li>
+          <li>
+            <p>
+              Derived the Legendre polynomials <m>P_n</m> as solutions to the Legendre equation.
+            </p>
+          </li>
         </ul>
       </p>
     </introduction>
+
+    <definition>
+      <title>Legendre's Differential Equation</title>
+      <idx>Legendre's differential equation</idx>
+
+      <statement>
+        <md>(1-x^2)P_n''- xP_n' + n^2P_n</md>
+      </statement>
+
+    </definition>
+
+    <definition>
+      <title>Legendre Polynomials</title>
+      <idx>Legendre polynomials</idx>
+
+      <statement>
+        <p>Used to solve the Legendre's differential equation.</p>
+        <md>
+          P_n(x) = \frac{1}{2^n n!} \frac{d^n}{dx^n} \big(x^2 - 1\big)^n
+        </md>
+        <p>
+          Singular points at <m>x = \pm 1</m>.
+        </p>
+      </statement>
+      <assemblage>
+        <title>Recurrence Relation</title>
+        <p>
+          The Legendre polynomials are defined by the recurrence relation:
+          <md>
+            <mrow>(n+1)P_{n+1} = (2n+1)xP_n - nP_{n-1}</mrow>
+          </md>
+          where <m>P_0 = 1</m> and <m>P_1 = x</m>.
+        </p>
+      </assemblage>
+      <remark>
+        <p>
+           Also called <em>Rodrigues' formula</em>.
+        </p>
+      </remark>
+    </definition>
 
 </subsection>

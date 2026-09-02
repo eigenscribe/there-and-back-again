@@ -521,7 +521,7 @@
         "legendre transform",
         "transformlegendre transform"
       ],
-      "description": "The Legendre transform of f is the function",
+      "description": "The Legendre transform of f is the function f^*: U^* \\to \\mathbb{R} defined by:",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -1612,7 +1612,9 @@
       "title": "Adrien-Marie Legendre",
       "url": "sub-legendre-adrien-marie.html",
       "tags": [
-        "adrien-marie legendre"
+        "adrien-marie legendre",
+        "legendre polynomials",
+        "legendre's differential equation"
       ],
       "description": "Years: 1752-1833",
       "group": "significant-figures",

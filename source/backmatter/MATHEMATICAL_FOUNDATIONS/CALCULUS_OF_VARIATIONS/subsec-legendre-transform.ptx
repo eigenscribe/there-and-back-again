@@ -33,15 +33,7 @@
 
     <statement>
       <p>
-      The <term>Legendre transform</term> of <m>f</m> is the function
-      </p>
-      <md>
-        <mrow>
-          f^*: U^* \to \mathbb{R}
-        </mrow>
-      </md>
-      <p>
-        defined by:
+      The <term>Legendre transform</term> of <m>f</m> is the function <m>f^*: U^* \to \mathbb{R}</m> defined by:
       </p>
       <md>
         <mrow>

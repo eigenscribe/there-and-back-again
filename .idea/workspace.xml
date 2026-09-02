@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Expanded Legendre Transform and Euler-Lagrange subsections: added variational mechanics context, clarified definitions, and updated notes graph with new references.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/glossary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/glossary.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +46,20 @@
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000004160268" />
-      <entry key="S10" value="1.0000326545152975" />
-      <entry key="S30" value="1.087788612377773" />
-      <entry key="S60" value="2.273858582240729" />
-      <entry key="M2" value="9.482262955406359" />
-      <entry key="M5" value="43.108882311547575" />
-      <entry key="M10" value="101.49597229679135" />
-      <entry key="M15" value="154.73196442841018" />
-      <entry key="M30" value="291.5404313221423" />
-      <entry key="H1" value="484.79411872840063" />
-      <entry key="H2" value="689.6289526987324" />
-      <entry key="H4" value="853.9598470242976" />
-      <entry key="D1" value="2247.0171910471827" />
-      <entry key="W1" value="21057.95798990388" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000114620777" />
+      <entry key="S30" value="1.0035665293475793" />
+      <entry key="S60" value="1.1016655960751542" />
+      <entry key="M2" value="1.9631455552060086" />
+      <entry key="M5" value="15.670146273879054" />
+      <entry key="M10" value="59.150935723187466" />
+      <entry key="M15" value="108.01530790053077" />
+      <entry key="M30" value="250.55348592860727" />
+      <entry key="H1" value="474.2244476906719" />
+      <entry key="H2" value="730.5952668599833" />
+      <entry key="H4" value="947.0133616708913" />
+      <entry key="D1" value="2391.2675489220833" />
+      <entry key="W1" value="21191.12194072878" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,34 +70,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="5.578843655254053E-198" />
-      <entry key="M10" value="2.361957589639157E-99" />
-      <entry key="M15" value="1.773568895299944E-66" />
-      <entry key="M30" value="1.3317540671235254E-33" />
-      <entry key="H1" value="3.6493215131986817E-17" />
-      <entry key="H2" value="6.045755547557424E-9" />
-      <entry key="H4" value="8.219471207030115E-5" />
-      <entry key="D1" value="1.1570503313081673" />
-      <entry key="W1" value="40.63705643151723" />
+      <entry key="M5" value="5.295373004496763E-200" />
+      <entry key="M10" value="2.3011677480133255E-100" />
+      <entry key="M15" value="3.755192334251222E-67" />
+      <entry key="M30" value="6.127962413601645E-34" />
+      <entry key="H1" value="2.4754727950201767E-17" />
+      <entry key="H2" value="4.979360826561925E-9" />
+      <entry key="H4" value="7.459425589993476E-5" />
+      <entry key="D1" value="1.1384898653981883" />
+      <entry key="W1" value="40.54328596395021" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9592641193252643" />
-      <entry key="MS500" value="0.9917167307382933" />
-      <entry key="S2" value="0.9979227189990506" />
-      <entry key="S5" value="0.9991685696291364" />
-      <entry key="S10" value="0.9996168339351856" />
-      <entry key="S30" value="1.0876340974835865" />
-      <entry key="S60" value="2.2736625293865957" />
-      <entry key="M2" value="9.481774898056655" />
-      <entry key="M5" value="43.1079635778334" />
-      <entry key="M10" value="101.49491425585441" />
-      <entry key="M15" value="154.73090273507415" />
-      <entry key="M30" value="291.53944035984847" />
-      <entry key="H1" value="484.7932925224691" />
-      <entry key="H2" value="689.628362071614" />
-      <entry key="H4" value="853.9595619944922" />
-      <entry key="D1" value="2248.1738295880987" />
-      <entry key="W1" value="21098.59424362739" />
+      <entry key="MS100" value="0.7737824967711949" />
+      <entry key="MS500" value="0.950000382874886" />
+      <entry key="S2" value="0.9872586443741826" />
+      <entry key="S5" value="0.9948838432045924" />
+      <entry key="S10" value="0.9974386527807003" />
+      <entry key="S30" value="1.0027115458823486" />
+      <entry key="S60" value="1.1012308145567147" />
+      <entry key="M2" value="1.9628920278252553" />
+      <entry key="M5" value="15.669809226407343" />
+      <entry key="M10" value="59.150374234302994" />
+      <entry key="M15" value="108.01462630034297" />
+      <entry key="M30" value="250.55268124491073" />
+      <entry key="H1" value="474.2236703998828" />
+      <entry key="H2" value="730.5946593230444" />
+      <entry key="H4" value="947.013038992411" />
+      <entry key="D1" value="2392.40562242759" />
+      <entry key="W1" value="21231.66442422771" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -190,14 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00192" summary="Updated IntelliJ workspace configuration and fixed references in geometric algebra appendix and notes graph.">
-      <option name="closed" value="true" />
-      <created>1787398444192</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1787398444192</updated>
     </task>
     <task id="LOCAL-00193" summary="Updated IntelliJ workspace configuration and refined content in geometric algebra appendix.">
       <option name="closed" value="true" />
@@ -583,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788321294410</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts.">
+      <option name="closed" value="true" />
+      <created>1788323894102</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1788323894103</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added algebra and precalculus section with foundational definitions, means, and identities; updated notes graph with new references; revised IntelliJ workspace configuration." />
     <MESSAGE value="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration." />
     <MESSAGE value="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Lightened definition node coloring in CSS for improved readability, updated notes graph links and task details, and adjusted IntelliJ workspace configuration." />
@@ -626,6 +625,7 @@
     <MESSAGE value="Added glossary entries for &quot;Mechanics&quot; and &quot;Variational Mechanics&quot; with descriptions, tags, and references; updated notes graph with new nodes and links." />
     <MESSAGE value="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries." />
     <MESSAGE value="Expanded Legendre Transform and Euler-Lagrange subsections: added variational mechanics context, clarified definitions, and updated notes graph with new references." />
-    <option name="LAST_COMMIT_MESSAGE" value="Expanded Legendre Transform and Euler-Lagrange subsections: added variational mechanics context, clarified definitions, and updated notes graph with new references." />
+    <MESSAGE value="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts." />
   </component>
 </project>
