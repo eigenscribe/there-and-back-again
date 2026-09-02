@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="subsec-euler-lagrange" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Calculus of Variations Formulation of the Euler-Lagrange Equation</title>
+  <title>Calculus of Variations Formulation of the Euler-Lagrange Equation</title>
 
-    <definition xml:id="def-euler-lagrange">
-        <title>The Euler-Lagrange Equation</title>
+  <definition xml:id="def-euler-lagrange">
+    <title>The Euler-Lagrange Equation</title>
+    <idx>euler-lagrange equation</idx>
 
-        <idx>euler-lagrange equation</idx>
-
-        <statement>
-            <p>
-              For a functional <m>J[y] := \int_{x_1}^{x_2}{F\big(x,y(x),y_x(x)\big) \, dx}</m>, the <term>Euler-Lagrange Equation</term> is
-            </p>
-            <md>
-              \frac{\partial F}{\partial x} - \frac{d}{dx} \big( \frac{\partial F}{\partial y_x} \big) = 0
-            </md>
-        </statement>
-
-    </definition>
+    <statement>
+      <p>
+        For a functional <m>J[y] := \int_{x_1}^{x_2}{F\big(x,y(x),y_x(x)\big) \, dx}</m>, the <term>Euler-Lagrange Equation</term> is
+      </p>
+      <md>
+        \frac{\partial F}{\partial x} - \frac{d}{dx} \big( \frac{\partial F}{\partial y_x} \big) = 0 \, .
+      </md>
+    </statement>
 
     <remark>
       <statement>
         <p>
-          The Euler-Lagrange equation provides the necessary conditions for extremizing a path. However, it does not
+          The Euler-Lagrange equation provides the necessary conditions for extremizing a
+          <xref ref="def-path" text="custom">path</xref>. However, it does not
           provide details on the nature of the extremum (e.g., if it is a minimum, maximum, or saddle point).
         </p>
       </statement>
     </remark>
+  </definition>
+
+  <remark>
+    <statement>
+      <p>
+        The <xref ref="def-stationary" text="custom">stationary</xref> action
+        <xref ref="def-path" text="custom">paths</xref> derived from the Euler-Lagrange equation can alternatively
+        be expressed in Hamiltonian phase space via
+        <xref ref="def-legendre-transform" text="custom">Legendre transforms</xref>.
+      </p>
+    </statement>
+  </remark>
 
 </subsection>

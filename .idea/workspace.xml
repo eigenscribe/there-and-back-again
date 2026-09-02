@@ -7,11 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added glossary entries for &quot;Mechanics&quot; and &quot;Variational Mechanics&quot; with descriptions, tags, and references; updated notes graph with new nodes and links.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-functional.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-functional.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-euler-lagrange.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/glossary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/glossary.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1781028092056207" />
-      <entry key="MS500" value="1.9756448402430105" />
-      <entry key="S2" value="3.923770098194192" />
-      <entry key="S5" value="6.660113921749611" />
-      <entry key="S10" value="10.040109055768216" />
-      <entry key="S30" value="16.34939278830017" />
-      <entry key="S60" value="20.909910772580893" />
-      <entry key="M2" value="28.590539864489468" />
-      <entry key="M5" value="46.00756714603238" />
-      <entry key="M10" value="69.88375911578211" />
-      <entry key="M15" value="98.02643096829644" />
-      <entry key="M30" value="176.45086322686532" />
-      <entry key="H1" value="275.67431780776815" />
-      <entry key="H2" value="368.67567202477403" />
-      <entry key="H4" value="437.3924483661251" />
-      <entry key="D1" value="1758.9138387207586" />
-      <entry key="W1" value="20605.328319955875" />
+      <entry key="MS100" value="1.0000756657531702" />
+      <entry key="MS500" value="1.149892489223889" />
+      <entry key="S2" value="1.6222214348016388" />
+      <entry key="S5" value="1.827138026173814" />
+      <entry key="S10" value="1.9094715889186236" />
+      <entry key="S30" value="1.9795115063660986" />
+      <entry key="S60" value="2.163000475533739" />
+      <entry key="M2" value="3.9357859684896668" />
+      <entry key="M5" value="22.494686248654137" />
+      <entry key="M10" value="69.56967770295886" />
+      <entry key="M15" value="116.27235687569738" />
+      <entry key="M30" value="232.17855595504233" />
+      <entry key="H1" value="380.3826211237055" />
+      <entry key="H2" value="524.3844324090204" />
+      <entry key="H4" value="633.7014538557703" />
+      <entry key="D1" value="1981.2479902031996" />
+      <entry key="W1" value="20809.463674283114" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,34 +71,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="2.1963210841043604E-193" />
-      <entry key="M10" value="4.686492381413152E-97" />
-      <entry key="M15" value="6.033443871646654E-65" />
-      <entry key="M30" value="7.767524619624368E-33" />
-      <entry key="H1" value="8.813358387380776E-17" />
-      <entry key="H2" value="9.395399139526724E-9" />
-      <entry key="H4" value="1.0246515569359464E-4" />
-      <entry key="D1" value="1.2003492865417296" />
-      <entry key="W1" value="40.8508956800898" />
+      <entry key="M5" value="1.5646737110460742E-195" />
+      <entry key="M10" value="3.955595670750571E-98" />
+      <entry key="M15" value="1.1609350642854342E-65" />
+      <entry key="M30" value="3.407249718299947E-33" />
+      <entry key="H1" value="5.837166664684283E-17" />
+      <entry key="H2" value="7.646198461299809E-9" />
+      <entry key="H4" value="9.24360481266036E-5" />
+      <entry key="D1" value="1.179918017620646" />
+      <entry key="W1" value="40.75083087230709" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.024659398210362" />
-      <entry key="MS500" value="1.9312428394462984" />
-      <entry key="S2" value="3.90269810364332" />
-      <entry key="S5" value="6.647462058325215" />
-      <entry key="S10" value="10.03147492583997" />
-      <entry key="S30" value="16.345194386831544" />
-      <entry key="S60" value="20.90736910926794" />
-      <entry key="M2" value="28.588878073368925" />
-      <entry key="M5" value="46.00650268619731" />
-      <entry key="M10" value="69.88295422928813" />
-      <entry key="M15" value="98.02569001176225" />
-      <entry key="M30" value="176.4502128886522" />
-      <entry key="H1" value="275.67381616137544" />
-      <entry key="H2" value="368.67533846857543" />
-      <entry key="H4" value="437.3923532003277" />
-      <entry key="D1" value="1760.1138003099982" />
-      <entry key="W1" value="20646.17841425969" />
+      <entry key="MS100" value="0.9660094172246881" />
+      <entry key="MS500" value="1.141949601607657" />
+      <entry key="S2" value="1.6194127734896122" />
+      <entry key="S5" value="1.8258719894280673" />
+      <entry key="S10" value="1.9088099311586468" />
+      <entry key="S30" value="1.979282835659116" />
+      <entry key="S60" value="2.16287332617814" />
+      <entry key="M2" value="3.935634648688408" />
+      <entry key="M5" value="22.494252448052713" />
+      <entry key="M10" value="69.56898822529156" />
+      <entry key="M15" value="116.27157929167959" />
+      <entry key="M30" value="232.1777655003184" />
+      <entry key="H1" value="380.381965827326" />
+      <entry key="H2" value="524.3839776694577" />
+      <entry key="H4" value="633.7012703055689" />
+      <entry key="D1" value="1982.427509940235" />
+      <entry key="W1" value="20850.213703264686" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -190,14 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00190" summary="Updated Python and dependency configuration: reduced dependencies in `pyproject.toml`, updated `requires-python` to `&gt;=3.11`, and minimized `requirements.txt`.">
-      <option name="closed" value="true" />
-      <created>1786781063592</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1786781063592</updated>
     </task>
     <task id="LOCAL-00191" summary="Corrected Frobenius norm formula in taxonomy table and updated IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -583,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788317009862</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries.">
+      <option name="closed" value="true" />
+      <created>1788318915385</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1788318915385</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined &quot;Compositional Data&quot; subsection with centered log-ratio (CLR) transform details, improved formatting, updated glossary and notes graph with new tags, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Refined &quot;Compositional Data&quot; subsection with enhanced CLR transform details, adjusted glossary, updated notes graph with new references, and revised IntelliJ workspace configuration." />
     <MESSAGE value="Added algebra and precalculus section with foundational definitions, means, and identities; updated notes graph with new references; revised IntelliJ workspace configuration." />
     <MESSAGE value="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration." />
@@ -626,6 +626,7 @@
     <MESSAGE value="Refined Legendre Transform subsection: corrected domain/codomain notation, added conjugate variable, definition, and key remark. Updated notes graph description and adjusted IntelliJ workspace." />
     <MESSAGE value="Corrected mathematical notation in the Legendre Transform subsection and refined definitions for clarity in the Calculus of Variations section; updated related notes graph descriptions." />
     <MESSAGE value="Added glossary entries for &quot;Mechanics&quot; and &quot;Variational Mechanics&quot; with descriptions, tags, and references; updated notes graph with new nodes and links." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added glossary entries for &quot;Mechanics&quot; and &quot;Variational Mechanics&quot; with descriptions, tags, and references; updated notes graph with new nodes and links." />
+    <MESSAGE value="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries." />
   </component>
 </project>

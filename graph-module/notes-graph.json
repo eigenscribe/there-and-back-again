@@ -1600,7 +1600,7 @@
       "title": "Adrien-Marie Legendre",
       "url": "sub-legendre-adrien-marie.html",
       "tags": [
-        "adrien-marie legendree"
+        "adrien-marie legendre"
       ],
       "description": "Years: 1752-1833",
       "group": "significant-figures",
@@ -1662,6 +1662,36 @@
     {
       "source": "gls-variational-mechanics",
       "target": "def-stationary",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-euler-lagrange",
+      "target": "def-path",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-euler-lagrange",
+      "target": "def-stationary",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-euler-lagrange",
+      "target": "def-legendre-transform",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-legendre-transform",
+      "target": "gls-variational-mechanics",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-legendre-transform",
+      "target": "def-euler-lagrange",
       "type": "reference",
       "weight": 2
     },

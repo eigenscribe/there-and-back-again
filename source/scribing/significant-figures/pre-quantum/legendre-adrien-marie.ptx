@@ -2,7 +2,7 @@
 
 <subsection xml:id="sub-legendre-adrien-marie" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Adrien-Marie Legendre</title>
-  <idx>Adrien-Marie Legendree</idx>
+  <idx>Adrien-Marie Legendre</idx>
 
     <introduction>
       <p>
@@ -15,7 +15,8 @@
         <alert>Core Contributions:</alert>
         <ul>
           <li>
-            Formulated the <xref ref="def-legendre-transform" text="custom">Legendre transform</xref>.
+            Formulated the <xref ref="def-legendre-transform" text="custom">Legendre transform</xref> which converts
+            convex functions into functions of their derivative variable.
           </li>
         </ul>
       </p>
