@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added Legendre Transform subsection to the Calculus of Variations section and included Adrien-Marie Legendre biography and references in notes graph">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Corrected mathematical notation in the Legendre Transform subsection and refined definitions for clarity in the Calculus of Variations section; updated related notes graph descriptions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/glossary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/glossary.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +42,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000096957524" />
-      <entry key="MS500" value="1.0256517293639318" />
-      <entry key="S2" value="1.6759884330351695" />
-      <entry key="S5" value="3.3171863290268977" />
-      <entry key="S10" value="6.030620027778065" />
-      <entry key="S30" value="13.847736535770629" />
-      <entry key="S60" value="19.10592296202066" />
-      <entry key="M2" value="23.41216080452179" />
-      <entry key="M5" value="35.392998635296365" />
-      <entry key="M10" value="56.39184686730763" />
-      <entry key="M15" value="70.63423374057923" />
-      <entry key="M30" value="91.69099092989433" />
-      <entry key="H1" value="105.78887795798097" />
-      <entry key="H2" value="113.96444225277013" />
-      <entry key="H4" value="118.8220770509508" />
-      <entry key="D1" value="1460.2095414179641" />
-      <entry key="W1" value="20404.164546806533" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.00000000000154" />
+      <entry key="S2" value="1.0013242236742852" />
+      <entry key="S5" value="1.1039953797003919" />
+      <entry key="S10" value="1.5065055179146558" />
+      <entry key="S30" value="2.8595860297062248" />
+      <entry key="S60" value="6.7204155342111065" />
+      <entry key="M2" value="20.48941349951059" />
+      <entry key="M5" value="67.00316123160752" />
+      <entry key="M10" value="127.3139005612234" />
+      <entry key="M15" value="167.19593842072965" />
+      <entry key="M30" value="234.0886958853547" />
+      <entry key="H1" value="299.16832589241307" />
+      <entry key="H2" value="356.12442801013026" />
+      <entry key="H4" value="397.11042072233255" />
+      <entry key="D1" value="1708.2043964486027" />
+      <entry key="W1" value="20575.06284407013" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -69,34 +69,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="1.3294806620210586E-184" />
-      <entry key="M10" value="1.1530310759129772E-92" />
-      <entry key="M15" value="5.103804238394914E-62" />
-      <entry key="M30" value="2.259160073654644E-31" />
-      <entry key="H1" value="4.753063468130692E-16" />
-      <entry key="H2" value="2.1818823348684205E-8" />
-      <entry key="H4" value="1.5614721763359616E-4" />
-      <entry key="D1" value="1.2876583436339775" />
-      <entry key="W1" value="41.26270804898637" />
+      <entry key="M5" value="2.6112781203603935E-191" />
+      <entry key="M10" value="5.110066653538265E-96" />
+      <entry key="M15" value="2.9667734008891195E-64" />
+      <entry key="M30" value="1.7224324082208048E-32" />
+      <entry key="H1" value="1.3124150609807884E-16" />
+      <entry key="H2" value="1.1465160062211988E-8" />
+      <entry key="H4" value="1.1319015327730718E-4" />
+      <entry key="D1" value="1.2204304812256654" />
+      <entry key="W1" value="40.94783334186807" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9265880709368279" />
-      <entry key="MS500" value="1.0101453482637486" />
-      <entry key="S2" value="1.668456267997611" />
-      <entry key="S5" value="3.3102843390152272" />
-      <entry key="S10" value="6.024460611617666" />
-      <entry key="S30" value="13.843735982122087" />
-      <entry key="S60" value="19.103363949941244" />
-      <entry key="M2" value="23.41066220258497" />
-      <entry key="M5" value="35.392151828529514" />
-      <entry key="M10" value="56.391204846969465" />
-      <entry key="M15" value="70.63370667615834" />
-      <entry key="M30" value="91.69065410039362" />
-      <entry key="H1" value="105.78868498822125" />
-      <entry key="H2" value="113.9643386670151" />
-      <entry key="H4" value="118.82217886043367" />
-      <entry key="D1" value="1461.496815824656" />
-      <entry key="W1" value="20445.426449774317" />
+      <entry key="MS100" value="0.9592641193252643" />
+      <entry key="MS500" value="0.9917167307398078" />
+      <entry key="S2" value="0.9992418083503632" />
+      <entry key="S5" value="1.1030144565439488" />
+      <entry key="S10" value="1.5057322313820205" />
+      <entry key="S30" value="2.8590123731675448" />
+      <entry key="S60" value="6.7196753588913785" />
+      <entry key="M2" value="20.488248475311146" />
+      <entry key="M5" value="67.00170967779388" />
+      <entry key="M10" value="127.31255519322966" />
+      <entry key="M15" value="167.19476529624345" />
+      <entry key="M30" value="234.08787416105906" />
+      <entry key="H1" value="299.1677993111816" />
+      <entry key="H2" value="356.1241139447753" />
+      <entry key="H4" value="397.1103582974155" />
+      <entry key="D1" value="1709.4244393779366" />
+      <entry key="W1" value="20616.009875070045" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -189,14 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00188" summary="updated IntelliJ workspace configuration to reflect recent task changes">
-      <option name="closed" value="true" />
-      <created>1786777162918</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1786777162918</updated>
     </task>
     <task id="LOCAL-00189" summary="removed unused environment variable from GitHub Actions workflow and updated IntelliJ workspace configuration">
       <option name="closed" value="true" />
@@ -582,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788154033538</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <task id="LOCAL-00237" summary="Corrected mathematical notation in the Legendre Transform subsection and refined definitions for clarity in the Calculus of Variations section; updated related notes graph descriptions.">
+      <option name="closed" value="true" />
+      <created>1788310310943</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1788310310944</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,8 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined navbar styling with new gradient backgrounds, enhanced contrast, and updated hover/active states; adjusted IntelliJ workspace configuration to align with recent changes." />
-    <MESSAGE value="Refined navbar styling with subtle glowing highlights, enhanced hover/active states, and updated text contrast; adjusted IntelliJ workspace configuration and task details to align with recent changes." />
     <MESSAGE value="Refined &quot;Compositional Data&quot; subsection with improved formatting and added introductory details, updated glossary entry on &quot;Spurious Correlations,&quot; enhanced notes graph with new tags, and adjusted IntelliJ workspace configuration to align with recent changes." />
     <MESSAGE value="Refined &quot;Compositional Data&quot; subsection with centered log-ratio (CLR) transform details, improved formatting, updated glossary and notes graph with new tags, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Refined &quot;Compositional Data&quot; subsection with enhanced CLR transform details, adjusted glossary, updated notes graph with new references, and revised IntelliJ workspace configuration." />
@@ -625,6 +623,8 @@
     <MESSAGE value="Updated README with detailed project documentation: added overview, tech stack, installation instructions, build process, scripts, and project structure. Refined notes graph titles and relationships; updated IntelliJ workspace configuration." />
     <MESSAGE value="reorganized and expanded notes graph to better organize and include missing links, definitions, and sections" />
     <MESSAGE value="added Legendre Transform subsection to the Calculus of Variations section and included Adrien-Marie Legendre biography and references in notes graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Legendre Transform subsection to the Calculus of Variations section and included Adrien-Marie Legendre biography and references in notes graph" />
+    <MESSAGE value="Refined Legendre Transform subsection: corrected domain/codomain notation, added conjugate variable, definition, and key remark. Updated notes graph description and adjusted IntelliJ workspace." />
+    <MESSAGE value="Corrected mathematical notation in the Legendre Transform subsection and refined definitions for clarity in the Calculus of Variations section; updated related notes graph descriptions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected mathematical notation in the Legendre Transform subsection and refined definitions for clarity in the Calculus of Variations section; updated related notes graph descriptions." />
   </component>
 </project>

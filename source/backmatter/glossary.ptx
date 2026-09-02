@@ -51,6 +51,23 @@
     </statement>
   </gi>
 
+  <gi xml:id="gls-mechanics">
+    <title>Mechanics</title>
+    <idx>mechanics</idx>
+
+    <statement>
+      <p>
+        The branch of physics concerned with describing the states, evolution, and interactions of
+        <xref ref="def-physical-system" text="custom">physical systems</xref>.
+      </p>
+      <p>
+        Classical and quantum mechanics are two major subfields of mechanics that provide distinct mathematical
+        frameworks for describing the behavior of physical systems. They share fundamental concepts such as states,
+        dynamics, observables, and conservation laws.
+      </p>
+    </statement>
+  </gi>
+
   <gi xml:id="gls-numerical-integration">
     <title>Numerical Integration</title>
     <idx>numerical integration</idx>
@@ -141,6 +158,27 @@
         =
         \{x \in X : f(x)\neq 0\}.
     </md>
+  </gi>
+
+  <gi xml:id="gls-variational-mechanics">
+    <title>Variational Mechanics</title>
+    <idx>variational mechanics</idx>
+
+    <statement>
+      <p>
+        A formulation of <xref ref="gls-mechanics" text="custom">mechanics</xref> in which the behavior of a
+        <xref ref="def-physical-system" text="custom">physical system</xref> is characterized through the
+        <xref ref="def-variation" text="custom">variation</xref> of a
+        <xref ref="def-functional" text="custom">functional</xref> over possible states, trajectories, or histories.
+      </p>
+      <p>
+        Variational mechanics provides a common mathematical framework between classical mechanics and quantum mechanics.
+        Typically, this is expressed as a variational problem in which the
+        <xref ref="def-functional" text="custom">functional</xref> is attributed to a physical quantity called the
+        action and is minimized and then used to derive systems of equations that describe the behavior of the physical
+        system.
+      </p>
+    </statement>
   </gi>
 
 </glossary>
