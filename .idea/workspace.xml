@@ -7,11 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/eigenotes/sec-euler-lagrange-physics.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/eigenotes/sec-euler-lagrange-physics.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +44,21 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000114620777" />
-      <entry key="S30" value="1.0035665293475793" />
-      <entry key="S60" value="1.1016655960751542" />
-      <entry key="M2" value="1.9631455552060086" />
-      <entry key="M5" value="15.670146273879054" />
-      <entry key="M10" value="59.150935723187466" />
-      <entry key="M15" value="108.01530790053077" />
-      <entry key="M30" value="250.55348592860727" />
-      <entry key="H1" value="474.2244476906719" />
-      <entry key="H2" value="730.5952668599833" />
-      <entry key="H4" value="947.0133616708913" />
-      <entry key="D1" value="2391.2675489220833" />
-      <entry key="W1" value="21191.12194072878" />
+      <entry key="S2" value="1.0000000001892426" />
+      <entry key="S5" value="1.0003158458305517" />
+      <entry key="S10" value="1.0549123537044742" />
+      <entry key="S30" value="3.6807305458073416" />
+      <entry key="S60" value="10.36329829134426" />
+      <entry key="M2" value="23.77503313771171" />
+      <entry key="M5" value="50.92875423473104" />
+      <entry key="M10" value="80.76132818669566" />
+      <entry key="M15" value="114.14957579415511" />
+      <entry key="M30" value="233.38311656986275" />
+      <entry key="H1" value="454.91943816588827" />
+      <entry key="H2" value="734.0090374333282" />
+      <entry key="H4" value="982.1484295103631" />
+      <entry key="D1" value="2462.464415958735" />
+      <entry key="W1" value="21255.311741984602" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,34 +69,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="5.295373004496763E-200" />
-      <entry key="M10" value="2.3011677480133255E-100" />
-      <entry key="M15" value="3.755192334251222E-67" />
-      <entry key="M30" value="6.127962413601645E-34" />
-      <entry key="H1" value="2.4754727950201767E-17" />
-      <entry key="H2" value="4.979360826561925E-9" />
-      <entry key="H4" value="7.459425589993476E-5" />
-      <entry key="D1" value="1.1384898653981883" />
-      <entry key="W1" value="40.54328596395021" />
+      <entry key="M5" value="2.1250209616418722E-201" />
+      <entry key="M10" value="4.609794964683202E-101" />
+      <entry key="M15" value="1.2856450226316918E-67" />
+      <entry key="M30" value="3.5855892439482968E-34" />
+      <entry key="H1" value="1.8935657063631004E-17" />
+      <entry key="H2" value="4.354965402993184E-9" />
+      <entry key="H4" value="6.976071794982865E-5" />
+      <entry key="D1" value="1.1258488664084345" />
+      <entry key="W1" value="40.47866862084785" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7737824967711949" />
-      <entry key="MS500" value="0.950000382874886" />
-      <entry key="S2" value="0.9872586443741826" />
-      <entry key="S5" value="0.9948838432045924" />
-      <entry key="S10" value="0.9974386527807003" />
-      <entry key="S30" value="1.0027115458823486" />
-      <entry key="S60" value="1.1012308145567147" />
-      <entry key="M2" value="1.9628920278252553" />
-      <entry key="M5" value="15.669809226407343" />
-      <entry key="M10" value="59.150374234302994" />
-      <entry key="M15" value="108.01462630034297" />
-      <entry key="M30" value="250.55268124491073" />
-      <entry key="H1" value="474.2236703998828" />
-      <entry key="H2" value="730.5946593230444" />
-      <entry key="H4" value="947.013038992411" />
-      <entry key="D1" value="2392.40562242759" />
-      <entry key="W1" value="21231.66442422771" />
+      <entry key="MS100" value="0.9075191553171609" />
+      <entry key="MS500" value="0.9807790039885513" />
+      <entry key="S2" value="0.9951597220088375" />
+      <entry key="S5" value="0.998376474816286" />
+      <entry key="S10" value="1.0539035288814051" />
+      <entry key="S30" value="3.679843298311487" />
+      <entry key="S60" value="10.362224474958163" />
+      <entry key="M2" value="23.773900743234133" />
+      <entry key="M5" value="50.927829577431204" />
+      <entry key="M10" value="80.76060138300457" />
+      <entry key="M15" value="114.14888614892634" />
+      <entry key="M30" value="233.38239045359074" />
+      <entry key="H1" value="454.91870835457996" />
+      <entry key="H2" value="734.0084364490599" />
+      <entry key="H4" value="982.148092407797" />
+      <entry key="D1" value="2463.5898471262144" />
+      <entry key="W1" value="21295.789608565865" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -190,14 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00193" summary="Updated IntelliJ workspace configuration and refined content in geometric algebra appendix.">
-      <option name="closed" value="true" />
-      <created>1787399170924</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1787399170924</updated>
     </task>
     <task id="LOCAL-00194" summary="Updated IntelliJ workspace configuration and refined reasoning taxonomy content.">
       <option name="closed" value="true" />
@@ -583,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788323894103</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions.">
+      <option name="closed" value="true" />
+      <created>1788325540111</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1788325540111</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration." />
     <MESSAGE value="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Lightened definition node coloring in CSS for improved readability, updated notes graph links and task details, and adjusted IntelliJ workspace configuration." />
     <MESSAGE value="Enhanced masthead responsiveness and styling with updated scaling for titles and subtitles, added logo styling, and refined CSS structure; adjusted IntelliJ workspace configuration and updated task details." />
@@ -626,6 +624,7 @@
     <MESSAGE value="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries." />
     <MESSAGE value="Expanded Legendre Transform and Euler-Lagrange subsections: added variational mechanics context, clarified definitions, and updated notes graph with new references." />
     <MESSAGE value="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts." />
+    <MESSAGE value="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions." />
   </component>
 </project>

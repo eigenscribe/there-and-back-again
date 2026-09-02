@@ -1452,12 +1452,13 @@
       "title": "Euler-Lagrange Equations in Physics",
       "url": "sec-euler-lagrange-physics.html",
       "tags": [
+        "action (classical mechanics)",
         "euler-lagrange",
         "euler-lagrange-equation",
         "lagrangian mechanics",
-        "variational principles"
+        "variational mechanics"
       ],
-      "description": "202607290001 | Lagrangian mechanics, Euler-Lagrange, variational principles",
+      "description": "202607290001 | Lagrangian mechanics, Euler-Lagrange, variational mechanics",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1474,8 +1475,10 @@
       "id": "def-action-classical-mechanics",
       "title": "Action (Classical Mechanics)",
       "url": "sec-euler-lagrange-physics.html#def-action-classical-mechanics",
-      "tags": [],
-      "description": "In classical mechanics, the functional for the Euler-Lagrange equation is called the action. S[q] = \\int_{t_0}^{t_1}{...",
+      "tags": [
+        "action (classical mechanics)"
+      ],
+      "description": "In classical mechanics, the functional for the Euler-Lagrange equation in canonical coordinates is called the action:...",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1902,7 +1905,19 @@
       "weight": 3
     },
     {
+      "source": "gls-function",
+      "target": "def-euler-lagrange-physics",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
       "source": "def-functional",
+      "target": "def-euler-lagrange-physics",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "def-stationary",
       "target": "def-euler-lagrange-physics",
       "type": "prerequisite",
       "weight": 3
@@ -1912,6 +1927,18 @@
       "target": "def-euler-lagrange-physics",
       "type": "prerequisite",
       "weight": 3
+    },
+    {
+      "source": "def-physical-system",
+      "target": "def-euler-lagrange-physics",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "def-euler-lagrange-physics",
+      "target": "def-action-classical-mechanics",
+      "type": "reference",
+      "weight": 2
     },
     {
       "source": "def-functional",
@@ -1924,6 +1951,12 @@
       "target": "def-euler-lagrange-physics",
       "type": "reference",
       "weight": 2
+    },
+    {
+      "source": "def-stationary",
+      "target": "def-action-classical-mechanics",
+      "type": "prerequisite",
+      "weight": 3
     },
     {
       "source": "sec-calculus-of-variations",

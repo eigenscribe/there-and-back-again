@@ -8,7 +8,7 @@
   <introduction>
       <p>
         <tag>202607290001</tag> |
-        <tag>Lagrangian mechanics</tag>, <tag>Euler-Lagrange</tag>, <tag>variational principles</tag>
+        <tag>Lagrangian mechanics</tag>, <tag>Euler-Lagrange</tag>, <tag>variational mechanics</tag>
       </p>
   </introduction>
 
@@ -19,8 +19,9 @@
 
       <p>
         The <xref ref="def-euler-lagrange" text="custom">Euler-Lagrange equation</xref> in <alert>physics</alert> is
-        the necessary condition satisfied by a function that makes a
-        <xref ref="def-functional" text="custom">functional</xref>, stationary under <em>admissible variations</em>.
+        the necessary condition satisfied by a <xref ref="gls-function" text="custom">function</xref> that makes a
+        <xref ref="def-functional" text="custom">functional</xref>,
+        <xref ref="def-stationary" text="stationary">stationary</xref> under <em>admissible variations</em>.
         It is written as
 
           <md>
@@ -38,19 +39,23 @@
     <remark>
       <statement>
         <p>
-          The <xref ref="def-path" text="custom">path</xref> of a classical system is typically attributed to the
-          trajectory <m>q(t)</m>.
+          The <xref ref="def-path" text="custom">path</xref> of a
+          <xref ref="def-physical-system" text="custom">physical system</xref> in classical mechanics
+          is typically attributed to the trajectory <m>q(t)</m> that minimizes the
+          <xref ref="def-action-classical-mechanics" text="custom">action</xref>.
         </p>
       </statement>
     </remark>
 
     <definition xml:id="def-action-classical-mechanics">
       <title>Action (Classical Mechanics)</title>
+      <idx>action (classical mechanics)</idx>
 
       <statement>
         <p>
           In classical mechanics, the <xref ref="def-functional" text="custom">functional</xref> for the
-          <em>Euler-Lagrange equation</em> is called the <term>action</term>. 
+          <xref ref="def-euler-lagrange-physics" text="custom">Euler-Lagrange equation in canonical coordinates</xref>
+          is called the <term>action</term>:
 
           <md>
             S[q] = \int_{t_0}^{t_1}{L\big(t, q(t), \dot{q}(t) \big) \, dt}
@@ -60,20 +65,19 @@
           of the system and <m>V</m> is the potential energy.
         </p>
       </statement>
-
     </definition>
 
     <remark>
       <statement>
         <p>
-          The requirement that the action be stationary gives the
-          <xref ref="def-euler-lagrange-physics" text="custom">physics formulation of the Euler-Lagrange equation</xref>
-          and determines the equations of motion for a classical system.
+          The requirement that the action be <xref ref="def-stationary" text="custom">stationary</xref> gives the
+          <xref ref="def-euler-lagrange-physics" text="custom">physics formulation of the
+          Euler-Lagrange equation</xref> and determines the equations of motion for a classical system.
         </p>
       </statement>
     </remark>
 
-    <context>
+    <context xml:id="context-euler-lagrange-lagrangian-mechanics">
       <title>Lagrangian Mechanics</title>
       <p>
         Rather than beginning with the forces acting on the system (as in Newtonian mechanics),
@@ -86,8 +90,7 @@
     <title>Connections</title>
       <ul>
         <li>
-          Built upon <xref ref="sec-calculus-of-variations" text="custom">calculus of variations</xref> and the concept of a
-          <xref ref="def-functional" text="custom">functional</xref>.
+          Built upon <xref ref="sec-calculus-of-variations" text="custom">calculus of variations</xref>.
         </li>
 
         <li>
