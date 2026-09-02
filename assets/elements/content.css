@@ -58,6 +58,8 @@
 .ptx-content section.solutions > :is(h1, h2, h3).heading,
 .ptx-content .exercisegroup > h4.heading {
   background: linear-gradient(130deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
+  background-size: 200% auto !important;
+  animation: gradient-shift 8s ease infinite !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -154,6 +156,8 @@
 .ptx-content h1.heading {
   font-size: 2.5rem !important;
   background: linear-gradient(130deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
+  background-size: 200% auto !important;
+  animation: gradient-shift 8s ease infinite !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -163,6 +167,8 @@
 .ptx-content h2.heading {
   font-size: 1.65rem !important;
   background: linear-gradient(130deg, #00e8ff 0%, #14b5ff 38.2%, #3a98ff 61.8%, #0070eb 100%) !important;
+  background-size: 200% auto !important;
+  animation: gradient-shift 8s ease infinite !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -223,6 +229,8 @@
   font-family: var(--font-aclonica) !important;
   font-size: 2.5rem !important;
   background: var(--gradient-cyan-to-blue);
+  background-size: 200% auto !important;
+  animation: gradient-shift 6s ease infinite !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -234,6 +242,8 @@
   font-family: var(--font-aclonica) !important;
   font-size: 1.75rem !important;
   background: var(--gradient-cyan-to-blue);
+  background-size: 200% auto !important;
+  animation: gradient-shift 6s ease infinite !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;

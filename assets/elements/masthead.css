@@ -67,6 +67,8 @@
   justify-content: center !important;
   font-family: var(--font-aclonica) !important;
   background: var(--gradient-cyan-to-blue);
+  background-size: 200% auto !important;
+  animation: gradient-shift 6s ease infinite !important;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -90,6 +92,8 @@
   font-size: 2.2rem !important;
   line-height: 1.2 !important;
   background: var(--gradient-cyan-to-blue);
+  background-size: 200% auto !important;
+  animation: gradient-shift 6s ease infinite !important;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -119,6 +123,8 @@
   margin-left: 0 !important;
   margin-top: 0.2rem !important;
   background: var(--gradient-cyan-to-blue);
+  background-size: 200% auto !important;
+  animation: gradient-shift 6s ease infinite !important;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -571,6 +571,8 @@
 /* 🟣 Purple Gradient: Assemblage */
 .ptx-content .assemblage-like .heading {
   background-image: linear-gradient(130deg, #14B5FF 0%, #8564f6 61.8%, #7952f5 100%) !important;
+  background-size: 200% auto !important;
+  animation: gradient-shift 5s ease infinite !important;
   font-size: var(--font-size-md) !important;
   margin-bottom: var(--space-md) !important;
   font-family: var(--font-aclonica), sans-serif !important;
@@ -586,6 +588,8 @@
 .ptx-content .note .heading,
 .ptx-content .aside .heading {
   background-image: linear-gradient(130deg, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
+  background-size: 200% auto !important;
+  animation: gradient-shift 5s ease infinite !important;
 }
 .ptx-content .assemblage-like::before {
   content: "" !important;
