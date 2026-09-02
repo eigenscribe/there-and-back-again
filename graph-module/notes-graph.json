@@ -1660,6 +1660,12 @@
       "weight": 2
     },
     {
+      "source": "gls-variational-mechanics",
+      "target": "def-stationary",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "def-functional",
       "target": "def-admissible-path",
       "type": "reference",

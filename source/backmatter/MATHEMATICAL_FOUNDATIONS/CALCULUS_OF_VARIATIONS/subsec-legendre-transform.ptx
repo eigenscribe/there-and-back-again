@@ -24,15 +24,12 @@
        </mrow>
      </md>
     </statement>
-
-
   </definition>
 
   <definition xml:id="def-legendre-transform">
     <title>Legendre Transform</title>
     <idx>Legendre Transform</idx>
     <idx><sortkey>transform</sortkey>Legendre transform</idx>
-
 
     <statement>
       <p>

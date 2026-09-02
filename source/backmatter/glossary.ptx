@@ -172,11 +172,13 @@
         <xref ref="def-functional" text="custom">functional</xref> over possible states, trajectories, or histories.
       </p>
       <p>
-        Variational mechanics provides a common mathematical framework between classical mechanics and quantum mechanics.
-        Typically, this is expressed as a variational problem in which the
-        <xref ref="def-functional" text="custom">functional</xref> is attributed to a physical quantity called the
-        action and is minimized and then used to derive systems of equations that describe the behavior of the physical
-        system.
+        Variational mechanics provides a provides a variational framework applicable to both classical mechanics and
+        quantum mechanics. In classical mechanics, this is commonly expressed through the principle of stationary
+        action, in which the <xref ref="def-functional" text="custom">functional</xref> is the action and is required to
+        be <xref ref="def-stationary" text="custom">stationary</xref> under admissible
+        <xref ref="def-variation" text="custom">variations</xref>. The resulting variational conditions are then used
+        to derive systems of equations that describe the behavior of the
+        <xref ref="def-physical-system" text="custom">physical system</xref>.
       </p>
     </statement>
   </gi>
