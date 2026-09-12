@@ -12,10 +12,10 @@
 <publication>
   <common>
     <!-- Level at which are html files generated (chapter/section/etc): -->
-      <!--<chunking level="1" />-->
+    <chunking level="5" />
 
-    <!-- Depth for table of contents.  0 means no TOC -->
-      <!--<tableofcontents level="1" />-->
+    <!-- Depth for table of contents. 0 means no TOC -->
+    <tableofcontents level="5" />
 
     <!-- Visibility of exercise components where they first appear.          -->
     <!-- There are four components (statement/hint/answer/solution) for each -->
@@ -59,7 +59,7 @@
     <!-- numbering should appear.                                     -->
     <!-- For use with a book organized by part, you can set the -->
     <!--  @part-structure to "decorative" or "structural" -->
-      <!--<divisions part-structure="decorative" chapter-start="0" level="2"/>-->
+    <divisions part-structure="decorative" chapter-start="0" level="4"/>
 
     <!-- The next elements say how the levels deep to break up the    -->
     <!-- numbering of the respective elements. Can't be more than the -->
@@ -144,7 +144,7 @@
 
     <!-- Table of Contents: focused="yes" enables expand/collapse functionality. -->
     <!-- @preexpanded-levels controls how deep to expend toc initially.          -->
-      <!--<toc focused="yes" preexpanded-levels="1" />-->
+    <tableofcontents focused="yes" preexpanded-levels="1" />
 
     <!-- Navigation options: linear or tree, and whether there is an "up" button -->
       <!--<navigation logic="tree" upbutton="no" />-->
