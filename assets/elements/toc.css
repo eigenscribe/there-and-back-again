@@ -440,6 +440,98 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   -webkit-text-fill-color: transparent !important;
 }
 
+/* ============================================================ */
+/*  Subsubfolder & Deep Nested TOC Items (Compact & Smaller Text) */
+/* ============================================================ */
+
+/* Subsubfolder titles (Subsections - Level 3) */
+body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-subsection,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsection,
+body.pretext .ptx-toc li.toc-subsection,
+.ptx-sidebar .ptx-toc li.toc-subsection,
+.ptx-sidebar .ptx-toc .toc-item.toc-subsection,
+.ptx-toc .toc-section ul.structural > li.toc-item,
+.ptx-toc ul.structural ul.structural ul.structural > li.toc-item {
+  font-size: 0.84rem !important;
+  line-height: 1.25 !important;
+  padding: 0.3rem 0.55rem !important;
+  margin-bottom: 3.5px !important;
+  border-radius: 8px !important;
+}
+
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box a,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box .title,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box .codenumber,
+.ptx-sidebar .ptx-toc li.toc-subsection .toc-title-box,
+.ptx-sidebar .ptx-toc li.toc-subsection .toc-title-box a,
+.ptx-sidebar .ptx-toc li.toc-subsection .toc-title-box .title,
+.ptx-sidebar .ptx-toc li.toc-subsection .toc-title-box .codenumber,
+.ptx-toc .toc-subsection .title,
+.ptx-toc .toc-subsection .codenumber,
+.ptx-toc .toc-subsection a {
+  font-size: 0.84rem !important;
+  line-height: 1.25 !important;
+}
+
+/* Adjust chevron / expand icon size for subsubfolders */
+.ptx-toc .toc-subsection > .toc-title-box .toc-chevron,
+.ptx-toc .toc-subsection > .toc-title-box .expand-collapse,
+.ptx-toc .toc-subsection > .toc-title-box button,
+.ptx-toc .toc-subsection > .toc-title-box .material-symbols-outlined {
+  font-size: 0.95rem !important;
+}
+
+/* Sub-subsubfolder / leaf items (Subsubsections & deeper - Level 4+) */
+body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-subsubsection,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection,
+body.pretext nav#ptx-toc.ptx-toc li.toc-paragraphs,
+body.pretext nav#ptx-toc.ptx-toc li.toc-exercises,
+body.pretext nav#ptx-toc.ptx-toc li.toc-reading-questions,
+body.pretext nav#ptx-toc.ptx-toc li.toc-worksheet,
+body.pretext nav#ptx-toc.ptx-toc li.toc-references,
+body.pretext .ptx-toc li.toc-subsubsection,
+body.pretext .ptx-toc li.toc-paragraphs,
+body.pretext .ptx-toc li.toc-exercises,
+.ptx-sidebar .ptx-toc li.toc-subsubsection,
+.ptx-sidebar .ptx-toc li.toc-paragraphs,
+.ptx-sidebar .ptx-toc li.toc-exercises,
+.ptx-sidebar .ptx-toc .toc-item.toc-subsubsection,
+.ptx-toc .toc-subsection ul.structural > li.toc-item,
+.ptx-toc ul.structural ul.structural ul.structural ul.structural > li.toc-item {
+  font-size: 0.78rem !important;
+  line-height: 1.2 !important;
+  padding: 0.22rem 0.45rem !important;
+  margin-bottom: 2.5px !important;
+  border-radius: 6px !important;
+}
+
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box a,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box .title,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box .codenumber,
+.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box,
+.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box a,
+.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box .title,
+.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box .codenumber,
+.ptx-toc .toc-subsubsection .title,
+.ptx-toc .toc-subsubsection .codenumber,
+.ptx-toc .toc-subsubsection a,
+.ptx-toc .toc-paragraphs .title,
+.ptx-toc .toc-paragraphs a {
+  font-size: 0.78rem !important;
+  line-height: 1.2 !important;
+}
+
+/* Compact nested list container padding */
+.ptx-toc .toc-subsection > ul.structural,
+.ptx-toc .toc-subsubsection > ul.structural,
+.ptx-toc .toc-subsection .toc-item-list,
+.ptx-toc .toc-subsubsection .toc-item-list {
+  padding-left: 0.65rem !important;
+  margin-top: 2px !important;
+}
+
 
 /* =========================================================
    RESPONSIVE TOC RULES
