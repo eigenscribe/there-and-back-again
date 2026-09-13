@@ -1,57 +1,541 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <paragraphs xml:id="sub-math-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Mathematical Notation</title>
-    
+  <title>Mathematical Notation &amp; Conventions</title>
+
+  <p>
+    Mathematical symbols and notation across <em>There and Back Again</em>.
+  </p>
+
+  <assemblage xml:id="conventions-original-cartesian">
+    <title>Original Cartesian Mechanics</title>
+    <p>
+      <dl>
+        <li>
+          <title><m>x</m></title>
+          <p>scalar</p>
+        </li>
+        <li>
+          <title><m>\mathbf{x}</m></title>
+          <p>An <m>n</m>-dimensional vector with scalar elements.</p>
+          <p>For <m>n=1</m>, <m>\mathbf{x}\cong x</m>.</p>
+        </li>
+      </dl>
+    </p>
+
+    <p>
+    <context xml:id="conventions-phase-space">
+      <title>Phase space</title>
         <p>
-            A reference for mathematical notation used throughout the notes.
+          <dl>
+            <li>
+              <title><m>\mathcal{P}</m></title>
+              <p>Phase space</p>
+            </li>
+            <li>
+              <title><m>\mathbf{q}, \mathbf{p}</m></title>
+              <p>Generalized <m>n</m>-dimensional coordinates and conjugate momenta.</p>
+            </li>
+         </dl>
         </p>
+    </context>
+    </p>
+  </assemblage>
 
+  <assemblage xml:id="notation-discrete-math">
+    <title>Discrete Mathematics &amp; Set Theory</title>
     <dl>
-        <li>
-            <title><m>\vec{u},\vec{v}</m></title>
-            <idx>vector space</idx>
-            <idx>vector</idx>
-            <p> 
-                Vectors in the <strong>vector space</strong> <m>\mathcal{V}_n\in\mathbb{R}^n</m>. These are grade-1 objects in Clifford algebra.
-            </p>
-        </li>
+      <li>
+        <title><m>\Z</m></title>
+        <idx>integers</idx>
+        <p>
+          <em>Integers</em>: <m>\Z \triangleq \{ 0, \pm 1, \pm 2, \dots \}</m>.
+        </p>
+      </li>
 
-        <li>
-            <title><m>C(A)</m></title>
-            <idx>column space</idx>
-            <p>
-              The <term>column space</term> of a matrix <m>A</m>.
-            </p>
-        </li>
-
-        <li>
-            <title><m>(\vec{q},\vec{p})</m></title>
-            <idx>phase space</idx>
-            <idx>generalized coordinates</idx>
-            <idx>conjugate momenta</idx>
-            <p>
-                A point in <em>phase space</em> where <m>\vec{q}</m> represents the <em>generalized coordinates</em> and <m>\vec{p}</m> represents the <em>conjugate momenta</em>.
-            </p>
-            <p> 
-                For this work, we will assume <m>q=\|\vec{q}\|</m> denotes the magnitude of the coordinate vector and <m>p=\|\vec{p}\|</m> denotes the magnitude of the momentum vector, respectively.
-            </p>
-        </li>
-        <li>
-            <title><m>\{A, B\}</m></title>
-            <idx>Poisson bracket</idx>
-            <p>
-                The <em>Poisson bracket</em> between two scalar functions <m>A(\vec{q},\vec{p})</m> and <m>B(\vec{q},\vec{p})</m>.
-            </p>
-        </li>
-        <li>
-            <title><m>\bivec{B}</m></title>
-            <idx>bivector</idx>
-            <p>
-                A <em>bivector</em> (grade-2) quantity.
-            </p>
-        </li>
+      <li>
+        <title><m>\N</m></title>
+        <idx>natural numbers</idx>
+        <p>
+          <em>Natural numbers</em>: <m>\N \triangleq \{1, 2, 3, \dots \}</m>.
+        </p>
+      </li>
     </dl>
+  </assemblage>
 
-    
+  <assemblage xml:id="notation-foundations">
+    <title>General Mathematics, Sets &amp; Constants</title>
+    <dl>
+      <li>
+        <title><m>\N, \Z, \Q, \R, \C</m></title>
+        <idx>number systems</idx>
+        <idx>sets</idx>
+        <p>
+          Standard number sets: natural numbers <m>\N</m>, integers <m>\Z</m>, rational numbers <m>\Q</m>, real numbers <m>\R</m>, and complex numbers <m>\C</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>i</m></title>
+        <idx>imaginary unit</idx>
+        <p>
+          The imaginary unit satisfying <m>i^2 = -1</m>. In electrical engineering contexts, <m>j</m> is occasionally noted as an equivalent.
+        </p>
+      </li>
+
+      <li>
+        <title><m>e, \pi</m></title>
+        <idx>Euler's number</idx>
+        <idx>pi</idx>
+        <p>
+          Fundamental mathematical constants: Euler's number <m>e \approx 2.71828</m> (base of the natural logarithm) and Archimedes' constant <m>\pi \approx 3.14159</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>f: X \to Y</m></title>
+        <idx>function mapping</idx>
+        <p>
+          A mapping or function <m>f</m> from domain <m>X</m> to codomain <m>Y</m>.
+        </p>
+      </li>
+    </dl>
+  </assemblage>
+
+  <assemblage xml:id="notation-linear-algebra">
+    <title>Linear Algebra &amp; Vector Spaces</title>
+    <dl>
+      <li>
+        <title><m>\vec{u}, \vec{v}, \mathbf{x}</m></title>
+        <idx>vector</idx>
+        <idx>vector space</idx>
+        <p>
+          Vectors in a real vector space <m>\mathcal{V}_n \subseteq \R^n</m>. In Geometric Algebra contexts, these correspond to grade-1 multivectors.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\|\vec{v}\|, \|\vec{v}\|_2</m></title>
+        <idx>norm</idx>
+        <idx>Euclidean norm</idx>
+        <p>
+          The Euclidean (<m>L_2</m>) norm / magnitude of vector <m>\vec{v}</m>, where <m>\|\vec{v}\| = \sqrt{\vec{v} \cdot \vec{v}}</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\langle \vec{u}, \vec{v} \rangle, \vec{u} \cdot \vec{v}</m></title>
+        <idx>inner product</idx>
+        <idx>dot product</idx>
+        <p>
+          Standard Euclidean inner product (dot product) between vectors <m>\vec{u}</m> and <m>\vec{v}</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>A, B, M</m></title>
+        <idx>matrix</idx>
+        <idx>linear operator</idx>
+        <p>
+          Matrices and linear transformations. Capital Latin letters designate matrices unless specified otherwise.
+        </p>
+      </li>
+
+      <li>
+        <title><m>A^T, A^\dagger</m></title>
+        <idx>transpose</idx>
+        <idx>conjugate transpose</idx>
+        <p>
+          Matrix transpose <m>A^T</m> and conjugate transpose (Hermitian adjoint) <m>A^\dagger = (A^*)^T</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>C(A), N(A), R(A)</m></title>
+        <idx>column space</idx>
+        <idx>nullspace</idx>
+        <idx>row space</idx>
+        <p>
+          Fundamental matrix subspaces: the <term>column space</term> (range) <m>C(A)</m>, <term>nullspace</term> (kernel) <m>N(A)</m>, and <term>row space</term> <m>R(A) = C(A^T)</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\lambda, \vec{v}</m></title>
+        <idx>eigenvalue</idx>
+        <idx>eigenvector</idx>
+        <p>
+          Eigenvalue <m>\lambda</m> and associated eigenvector <m>\vec{v}</m> satisfying the characteristic equation <m>A\vec{v} = \lambda \vec{v}</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\det(A), \operatorname{tr}(A)</m></title>
+        <idx>determinant</idx>
+        <idx>trace</idx>
+        <p>
+          The determinant and trace (sum of diagonal entries / eigenvalues) of a square matrix <m>A</m>.
+        </p>
+      </li>
+    </dl>
+  </assemblage>
+
+  <assemblage xml:id="notation-geometric-algebra">
+    <title>Geometric Algebra &amp; Multivector Systems</title>
+    <dl>
+      <li>
+        <title><m>\mathcal{G}(\R^n), \mathcal{Cl}_{p,q}</m></title>
+        <idx>geometric algebra</idx>
+        <idx>Clifford algebra</idx>
+        <p>
+          The Geometric Algebra (Clifford Algebra) over <m>\R^n</m> or with signature <m>(p, q)</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\bivec{B}</m></title>
+        <idx>bivector</idx>
+        <p>
+          A <term>bivector</term> (grade-2 element) representing an oriented planar area and direction of circulation.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\mathbf{u} \wedge \mathbf{v}</m></title>
+        <idx>outer product</idx>
+        <idx>wedge product</idx>
+        <p>
+          The exterior (wedge / outer) product representing the oriented subspace spanned by vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\mathbf{u}\mathbf{v} = \mathbf{u}\cdot\mathbf{v} + \mathbf{u}\wedge\mathbf{v}</m></title>
+        <idx>geometric product</idx>
+        <p>
+          The fundamental <term>geometric product</term> of vectors, decomposing into symmetric inner (grade-0 scalar) and antisymmetric outer (grade-2 bivector) parts.
+        </p>
+      </li>
+
+      <li>
+        <title><m>I</m></title>
+        <idx>pseudoscalar</idx>
+        <p>
+          The unit <term>pseudoscalar</term> (highest-grade element) of the geometric algebra, representing the oriented volume element.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\star A, \widetilde{A}</m></title>
+        <idx>Hodge star</idx>
+        <idx>reversion</idx>
+        <p>
+          The Hodge star dual <m>\star A</m> (duality mapping between grade <m>k</m> and <m>n-k</m>) and multivector reversion <m>\widetilde{A}</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\langle M \rangle_k</m></title>
+        <idx>grade projection</idx>
+        <p>
+          The grade-<m>k</m> projection operator selecting the <m>k</m>-vector component of a general multivector <m>M</m>.
+        </p>
+      </li>
+    </dl>
+  </assemblage>
+
+  <assemblage xml:id="notation-classical-mechanics">
+    <title>Analytical &amp; Classical Mechanics</title>
+    <dl>
+      <li>
+        <title><m>\mathcal{P}</m></title>
+        <idx>phase space</idx>
+        <p>
+          The <term>phase space</term> manifold parameterized by generalized coordinates and conjugate momenta.
+        </p>
+      </li>
+
+      <li>
+        <title><m>(\vec{q}, \vec{p})</m></title>
+        <idx>phase space</idx>
+        <idx>generalized coordinates</idx>
+        <idx>conjugate momenta</idx>
+        <p>
+          A point in phase space where <m>\vec{q} = (q_1, \dots, q_n)</m> represents <term>generalized coordinates</term> and <m>\vec{p} = (p_1, \dots, p_n)</m> represents <term>conjugate momenta</term>.
+        </p>
+        <p>
+          Scalar coordinate and momentum magnitudes are denoted by <m>q = \|\vec{q}\|</m> and <m>p = \|\vec{p}\|</m>, respectively.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\dot{\vec{q}} = \frac{d\vec{q}}{dt}</m></title>
+        <idx>generalized velocity</idx>
+        <p>
+          Generalized velocities expressed via Newton's dot notation for time derivatives.
+        </p>
+      </li>
+
+      <li>
+        <title><m>L(\vec{q}, \dot{\vec{q}}, t)</m></title>
+        <idx>Lagrangian</idx>
+        <p>
+          The <term>Lagrangian</term> function, defined in classical conservative systems as kinetic energy minus potential energy, <m>L = T - V</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>H(\vec{q}, \vec{p}, t)</m></title>
+        <idx>Hamiltonian</idx>
+        <p>
+          The <term>Hamiltonian</term> function obtained via Legendre transform <m>H = \sum_i p_i \dot{q}_i - L</m>, representing total energy in autonomous systems.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\{A, B\}</m></title>
+        <idx>Poisson bracket</idx>
+        <p>
+          The <term>Poisson bracket</term> between phase space observables <m>A(\vec{q}, \vec{p})</m> and <m>B(\vec{q}, \vec{p})</m>:
+          <me>\{A, B\} = \sum_{i=1}^n \left( \frac{\partial A}{\partial q_i}\frac{\partial B}{\partial p_i} - \frac{\partial A}{\partial p_i}\frac{\partial B}{\partial q_i} \right)</me>
+        </p>
+      </li>
+
+      <li>
+        <title><m>S[\vec{q}(t)]</m></title>
+        <idx>action</idx>
+        <p>
+          The classical <term>action</term> functional defined by the time integral of the Lagrangian: <m>S = \int_{t_1}^{t_2} L(\vec{q}, \dot{\vec{q}}, t)\,dt</m>.
+        </p>
+      </li>
+    </dl>
+  </assemblage>
+
+  <assemblage xml:id="notation-calculus-variations">
+    <title>Calculus of Variations &amp; Field Theory</title>
+    <dl>
+      <li>
+        <title><m>J[y]</m></title>
+        <idx>functional</idx>
+        <p>
+          A <term>functional</term> mapping an admissible path or field configuration <m>y(x)</m> in function space to a scalar value.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\delta J, \frac{\delta S}{\delta q_i}</m></title>
+        <idx>functional derivative</idx>
+        <idx>variation</idx>
+        <p>
+          First variation <m>\delta J</m> and the <term>functional (variational) derivative</term> of an action or functional.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_i}\right) - \frac{\partial L}{\partial q_i} = 0</m></title>
+        <idx>Euler-Lagrange equations</idx>
+        <p>
+          The stationary action Euler-Lagrange equations of motion governing paths of stationary action.
+        </p>
+      </li>
+
+      <li>
+        <title><m>Q</m></title>
+        <idx>Noether charge</idx>
+        <idx>conserved quantity</idx>
+        <p>
+          The conserved <term>Noether charge</term> (constant of motion) generated by a continuous symmetry of the action.
+        </p>
+      </li>
+    </dl>
+  </assemblage>
+
+  <assemblage xml:id="notation-quantum">
+    <title>Quantum Mechanics &amp; Quantum Information</title>
+    <dl>
+      <li>
+        <title><m>|\psi\rangle, |\phi\rangle</m></title>
+        <idx>Dirac notation</idx>
+        <idx>ket</idx>
+        <p>
+          <term>Ket vectors</term> representing pure quantum states residing in a complex Hilbert space <m>\mathcal{H}</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\langle\psi|</m></title>
+        <idx>bra</idx>
+        <p>
+          <term>Bra vectors</term> representing continuous linear functionals in the dual space <m>\mathcal{H}^*</m>, where <m>\langle\psi| = (|\psi\rangle)^\dagger</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\langle\phi | \psi\rangle</m></title>
+        <idx>inner product</idx>
+        <idx>probability amplitude</idx>
+        <p>
+          The quantum inner product and probability amplitude whose squared modulus <m>|\langle\phi|\psi\rangle|^2</m> yields measurement transition probability.
+        </p>
+      </li>
+
+      <li>
+        <title><m>|\psi\rangle\langle\phi|</m></title>
+        <idx>outer product</idx>
+        <idx>projection operator</idx>
+        <p>
+          Outer product forming projection and density operators on state vectors.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\rho</m></title>
+        <idx>density matrix</idx>
+        <p>
+          The <term>density operator</term> (density matrix) characterizing statistical ensembles of pure or mixed quantum states, satisfying <m>\operatorname{tr}(\rho)=1</m> and <m>\rho \ge 0</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\sigma_x, \sigma_y, \sigma_z \text{ (or } X, Y, Z\text{)}</m></title>
+        <idx>Pauli matrices</idx>
+        <p>
+          The Pauli spin matrices / single-qubit quantum gates generating <m>\mathrm{SU}(2)</m> rotations on the Bloch sphere.
+        </p>
+      </li>
+
+      <li>
+        <title><m>H</m></title>
+        <idx>Hadamard gate</idx>
+        <p>
+          The single-qubit <term>Hadamard gate</term> mapping basis states <m>|0\rangle, |1\rangle</m> into equal superposition states <m>|+\rangle, |-\rangle</m>. (Context distinguishes this from the Hamiltonian energy operator <m>\hat{H}</m>).
+        </p>
+      </li>
+
+      <li>
+        <title><m>\otimes</m></title>
+        <idx>tensor product</idx>
+        <idx>Kronecker product</idx>
+        <p>
+          Tensor product combining composite quantum state spaces <m>\mathcal{H}_A \otimes \mathcal{H}_B</m> and multi-qubit operators.
+        </p>
+      </li>
+    </dl>
+  </assemblage>
+
+  <assemblage xml:id="notation-computational-ml">
+    <title>Computational Methods, Signal Processing &amp; Machine Learning</title>
+    <dl>
+      <li>
+        <title><m>\Delta t, \Delta x</m></title>
+        <idx>finite difference</idx>
+        <idx>mesh spacing</idx>
+        <p>
+          Discrete step sizes and grid mesh resolutions in numerical integration and finite difference schemes.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\mathcal{O}(h^p)</m></title>
+        <idx>Big-O notation</idx>
+        <idx>truncation error</idx>
+        <p>
+          Asymptotic truncation error order <m>p</m> as discretization step <m>h \to 0</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>S_{xx}(f), \mathrm{PSD}</m></title>
+        <idx>power spectral density</idx>
+        <p>
+          <term>Power Spectral Density</term> quantifying signal power distribution across temporal frequencies <m>f</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\mathcal{L}(\theta)</m></title>
+        <idx>loss function</idx>
+        <idx>objective function</idx>
+        <p>
+          Optimization objective or loss function evaluated over model parameters <m>\theta</m> (e.g., in Physics-Informed Neural Networks).
+        </p>
+      </li>
+
+      <li>
+        <title><m>\nabla_\theta \mathcal{L}</m></title>
+        <idx>gradient</idx>
+        <p>
+          Gradient vector of loss <m>\mathcal{L}</m> with respect to trainable network parameters <m>\theta</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\hat{y}</m></title>
+        <idx>estimator</idx>
+        <idx>predicted value</idx>
+        <p>
+          Model predicted output or numerical approximation, contrasted with true ground truth <m>y</m>.
+        </p>
+      </li>
+    </dl>
+  </assemblage>
+
+  <assemblage xml:id="notation-empirical-stats">
+    <title>Probability, Statistics &amp; Empirical Methods</title>
+    <dl>
+      <li>
+        <title><m>P(E)</m></title>
+        <idx>probability</idx>
+        <p>
+          The probability of an empirical event or outcome <m>E \subseteq \Omega</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\mathbb{E}[X], \langle X \rangle</m></title>
+        <idx>expected value</idx>
+        <p>
+          The statistical expected value (mean) of random variable <m>X</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\mathrm{Var}(X), \sigma</m></title>
+        <idx>variance</idx>
+        <idx>standard deviation</idx>
+        <p>
+          Variance <m>\mathrm{Var}(X) = \mathbb{E}[(X - \mathbb{E}[X])^2]</m> and standard deviation <m>\sigma = \sqrt{\mathrm{Var}(X)}</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>H_0, H_a</m></title>
+        <idx>null hypothesis</idx>
+        <idx>alternative hypothesis</idx>
+        <p>
+          The null hypothesis <m>H_0</m> and alternative (research) hypothesis <m>H_a</m> (or <m>H_1</m>) in statistical hypothesis testing.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\alpha, \beta</m></title>
+        <idx>Type I error</idx>
+        <idx>Type II error</idx>
+        <idx>significance level</idx>
+        <p>
+          Significance level <m>\alpha = P(\text{reject } H_0 \mid H_0 \text{ true})</m> (Type I error rate) and Type II error rate <m>\beta = P(\text{fail to reject } H_0 \mid H_a \text{ true})</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\bar{x}, \mu</m></title>
+        <idx>sample mean</idx>
+        <idx>population mean</idx>
+        <p>
+          Sample statistic mean <m>\bar{x}</m> versus population parameter true mean <m>\mu</m>.
+        </p>
+      </li>
+    </dl>
+  </assemblage>
+
 </paragraphs>

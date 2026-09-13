@@ -420,24 +420,39 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   font-weight: bold !important;
 }
 
-/* Folder expand/collapse arrow when expanded - matchi  ng gradient */
-.ptx-toc .toc-item.contains-active > .toc-title-box .toc-chevron,
-.ptx-toc .toc-item.contains-active > .toc-title-box .expand-collapse,
-.ptx-toc .toc-item.contains-active > .toc-title-box button,
-.ptx-toc .toc-chapter.contains-active > .toc-title-box .toc-chevron,
-.ptx-toc .toc-frontmatter.contains-active > .toc-title-box .toc-chevron,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box .toc-chevron {
-  color: #a78bfa !important;
+/* Hide / remove vertical CHEVRON_LEFT text and TOC expander chevrons on all folder items */
+.ptx-toc .toc-expander,
+.ptx-toc .toc-chevron,
+.ptx-toc .toc-chevron-surround,
+.ptx-toc .expand-collapse,
+.ptx-toc .toc-item > .toc-title-box > .toc-expander,
+.ptx-toc .toc-title-box button,
+.ptx-toc .toc-title-box .material-symbols-outlined,
+.ptx-sidebar .ptx-toc .toc-expander,
+.ptx-sidebar .ptx-toc .toc-chevron,
+.ptx-sidebar .ptx-toc .toc-chevron-surround,
+body.pretext .ptx-toc .toc-expander,
+body.pretext .ptx-toc .toc-chevron,
+body.pretext .ptx-toc .toc-chevron-surround {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
-.ptx-toc .toc-item.contains-active > .toc-title-box .material-symbols-outlined,
-.ptx-toc .toc-chapter.contains-active > .toc-title-box .material-symbols-outlined,
-.ptx-toc .toc-frontmatter.contains-active > .toc-title-box .material-symbols-outlined,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box .material-symbols-outlined {
-  background: linear-gradient(130deg, #60a5fa 0%, #a78bfa 61.8%, #c084fc 100%) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+.ptx-toc .toc-expander .icon:before,
+.ptx-toc .toc-item > .toc-title-box > .toc-expander > .icon:before,
+.ptx-toc .toc-item.expanded > .toc-title-box > .toc-expander > .icon:before,
+.ptx-toc .toc-title-box .material-symbols-outlined:before {
+  content: none !important;
+  display: none !important;
 }
 
 /* ============================================================ */
@@ -474,13 +489,6 @@ body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box .codenumber,
   line-height: 1.25 !important;
 }
 
-/* Adjust chevron / expand icon size for subsubfolders */
-.ptx-toc .toc-subsection > .toc-title-box .toc-chevron,
-.ptx-toc .toc-subsection > .toc-title-box .expand-collapse,
-.ptx-toc .toc-subsection > .toc-title-box button,
-.ptx-toc .toc-subsection > .toc-title-box .material-symbols-outlined {
-  font-size: 0.95rem !important;
-}
 
 /* Sub-subsubfolder / leaf items (Subsubsections & deeper - Level 4+) */
 body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-subsubsection,
