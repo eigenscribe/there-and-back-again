@@ -75,6 +75,10 @@
     font-size: 1.15rem !important;
   }
 
+  .ptx-content h4.heading {
+    font-size: 1.05rem !important;
+  }
+
   .ptx-content p {
     font-size: 1rem !important;
   }

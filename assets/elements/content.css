@@ -177,14 +177,20 @@
   letter-spacing: 0.5px;
 }
 
+.ptx-content h3.heading {
+  font-size: 1.35rem !important;
+  margin-top: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
 .ptx-content h4.heading {
-  font-size: 1.25rem !important;
+  font-size: 1.15rem !important;
   margin-top: 1.2rem;
   margin-bottom: 0.8rem;
 }
 
 .ptx-content h5.heading {
-  font-size: 1.1rem !important;
+  font-size: 1.05rem !important;
   margin-top: 1rem;
   margin-bottom: 0.6rem;
 }
