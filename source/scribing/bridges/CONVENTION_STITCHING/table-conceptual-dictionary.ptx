@@ -12,7 +12,7 @@
     <row header="yes">
       <cell>Concept</cell>
       <cell>Mathematical expression</cell>
-      <cell>Intuition</cell>
+      <cell>Meaning</cell>
     </row>
 
    <row>
@@ -24,6 +24,18 @@
      </cell>
      <cell>
        <p>A direction can be decomposed into <m>q</m> and <m>p</m> coordinates.</p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <p>A 1-form measures a vector</p>
+     </cell>
+     <cell>
+       <m>dq(\mathbf{v})=v_q</m>
+     </cell>
+     <cell>
+       <p><m>dq</m> extracts the <m>q</m> component.</p>
      </cell>
    </row>
 
