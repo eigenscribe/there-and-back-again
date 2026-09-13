@@ -7,10 +7,50 @@
 
     <col width = "10%"/>
     <col width = "20%"/>
-    <col width = "50%"/>
-    <col width = "20%"/>
+    <col width = "40%"/>
+    <col width = "30%"/>
 
+    <row header="yes">
+      <cell>Object</cell>
+      <cell>What it means</cell>
+      <cell>Intuition</cell>
+      <cell>Example</cell>
+    </row>
 
+   <row>
+     <cell>
+       <m>q, p</m>
+     </cell>
+     <cell>
+       <p>scalars/ coordinates</p>
+     </cell>
+     <cell>
+       <p>Where is the system?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>q=2, \, p=3</m>
+       </p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <m>\mathbf{v}</m>
+     </cell>
+     <cell>
+       <p>vector</p>
+     </cell>
+     <cell>
+       <p>Which direction does the system move?</p>
+       <p>How fast does the system move?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>\mathbf{v}=2\mathbf{e}_q+3\mathbf{e}_p</m>
+       </p>
+     </cell>
+   </row>
 
   </tabular>
 

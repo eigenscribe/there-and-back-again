@@ -181,7 +181,7 @@ if __name__ == "__main__":
       </p>
       <table>
         <title>Sample Data</title>
-        <tabular bottom="minor" top="minor" right="minor">
+        <tabular bottom="minor" top="minor" left="minor" right="minor">
 
           <col width = "75%"/>
           <col width = "25%"/>
@@ -207,7 +207,7 @@ if __name__ == "__main__":
           <![CDATA[
 <table>
   <title>Sample Data</title>
-  <tabular bottom="minor" top="minor" right="minor">
+  <tabular bottom="minor" top="minor" left="minor" right="minor">
 
     <col width = "75%"/>
     <col width = "25%"/>

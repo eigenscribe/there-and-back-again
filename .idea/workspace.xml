@@ -7,13 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments.">
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/geometric-dictionary.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/sec-convention-stitching.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated the demo table in pretext meta section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/geometric-dictionary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/geometric-dictionary.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +42,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000337174788" />
-      <entry key="MS500" value="1.0507657747722647" />
-      <entry key="S2" value="1.4746710604752595" />
-      <entry key="S5" value="1.7422617853152476" />
-      <entry key="S10" value="1.8615482595127415" />
-      <entry key="S30" value="2.0268278892373526" />
-      <entry key="S60" value="3.212599163570364" />
-      <entry key="M2" value="7.642426734027892" />
-      <entry key="M5" value="25.88021013411511" />
-      <entry key="M10" value="71.81022728980773" />
-      <entry key="M15" value="131.80116661013147" />
-      <entry key="M30" value="349.2490852580218" />
-      <entry key="H1" value="754.0036350218545" />
-      <entry key="H2" value="1305.1814492846836" />
-      <entry key="H4" value="1944.1749786089208" />
-      <entry key="D1" value="4121.018661258472" />
-      <entry key="W1" value="22874.294741152607" />
+      <entry key="MS100" value="1.0016544479784018" />
+      <entry key="MS500" value="1.5934083875705307" />
+      <entry key="S2" value="5.5308805701610675" />
+      <entry key="S5" value="10.68216150467424" />
+      <entry key="S10" value="15.878723125930504" />
+      <entry key="S30" value="27.338069133041568" />
+      <entry key="S60" value="37.371992403377895" />
+      <entry key="M2" value="50.40155172144938" />
+      <entry key="M5" value="81.6375405808033" />
+      <entry key="M10" value="127.71943791455548" />
+      <entry key="M15" value="179.25786676410706" />
+      <entry key="M30" value="372.3493555749886" />
+      <entry key="H1" value="766.4813690049087" />
+      <entry key="H2" value="1335.3443070679182" />
+      <entry key="H4" value="2005.6570564347505" />
+      <entry key="D1" value="4243.5111500710045" />
+      <entry key="W1" value="23003.954468915417" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -72,34 +69,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="9.272895659011708E-224" />
-      <entry key="M10" value="3.0451429619988416E-112" />
-      <entry key="M15" value="4.526249164646577E-75" />
-      <entry key="M30" value="6.727740456235439E-38" />
-      <entry key="H1" value="2.593789488251764E-19" />
-      <entry key="H2" value="5.096967710408282E-10" />
-      <entry key="H4" value="2.3865719288328734E-5" />
-      <entry key="D1" value="0.9415441571058946" />
-      <entry key="W1" value="39.45798256363838" />
+      <entry key="M5" value="9.143932051849883E-225" />
+      <entry key="M10" value="9.562390941521498E-113" />
+      <entry key="M15" value="2.0911137773506608E-75" />
+      <entry key="M30" value="4.572869752519431E-38" />
+      <entry key="H1" value="2.138427482900557E-19" />
+      <entry key="H2" value="4.627983298859124E-10" />
+      <entry key="H4" value="2.2741257641137345E-5" />
+      <entry key="D1" value="0.9340010211074512" />
+      <entry key="W1" value="39.41266734484" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794206232763037" />
-      <entry key="MS500" value="1.046264863045841" />
-      <entry key="S2" value="1.4728100500257146" />
-      <entry key="S5" value="1.7413316650825024" />
-      <entry key="S10" value="1.8610417988203447" />
-      <entry key="S30" value="2.026640436306746" />
-      <entry key="S60" value="3.212440860296808" />
-      <entry key="M2" value="7.642222227038529" />
-      <entry key="M5" value="25.879915641616517" />
-      <entry key="M10" value="71.80979901244147" />
-      <entry key="M15" value="131.80059534555647" />
-      <entry key="M30" value="349.2482606257483" />
-      <entry key="H1" value="754.0027711637143" />
-      <entry key="H2" value="1305.1807183683873" />
-      <entry key="H4" value="1944.174442612039" />
-      <entry key="D1" value="4121.959769101135" />
-      <entry key="W1" value="22913.751928986178" />
+      <entry key="MS100" value="0.9810519673343175" />
+      <entry key="MS500" value="1.5875064987943195" />
+      <entry key="S2" value="5.5260637045517225" />
+      <entry key="S5" value="10.673335676217652" />
+      <entry key="S10" value="15.865449466650364" />
+      <entry key="S30" value="27.327518568171556" />
+      <entry key="S60" value="37.36519483620912" />
+      <entry key="M2" value="50.39751547626431" />
+      <entry key="M5" value="81.6354300501926" />
+      <entry key="M10" value="127.71804837230674" />
+      <entry key="M15" value="179.25669314799745" />
+      <entry key="M30" value="372.3482941321453" />
+      <entry key="H1" value="766.480392577486" />
+      <entry key="H2" value="1335.3435075263737" />
+      <entry key="H4" value="2005.656476767426" />
+      <entry key="D1" value="4244.444706645015" />
+      <entry key="W1" value="23043.366340778277" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -193,14 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00205" summary="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; relocated content, updated notes graph, and adjusted IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787972052557</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1787972052558</updated>
     </task>
     <task id="LOCAL-00206" summary="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -586,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789335560517</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="updated the demo table in pretext meta section">
+      <option name="closed" value="true" />
+      <created>1789339471042</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1789339471042</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration." />
     <MESSAGE value="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration." />
     <MESSAGE value="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness." />
     <MESSAGE value="Refined &quot;tabs.js&quot; logic for preview and source tab handling: improved auto-detection, added support for preview-first cases, streamlined tab and panel order management; updated IntelliJ workspace and PreTeXt examples." />
@@ -629,6 +625,7 @@
     <MESSAGE value="udated math notation conventions (reorganized and added a few items)" />
     <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
     <MESSAGE value="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments." />
-    <option name="LAST_COMMIT_MESSAGE" value="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments." />
+    <MESSAGE value="updated the demo table in pretext meta section" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the demo table in pretext meta section" />
   </component>
 </project>
