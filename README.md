@@ -13,23 +13,25 @@ Key capabilities include:
 - **Interactive Graph Visualization**: D3.js force-directed graph connecting notes, definitions, theorems, and topics with dynamic filtering and navigation.
 - **Obsidian Integration**: Automated pipeline to convert Obsidian Markdown notes (wikilinks, tags, math blocks) into structured PreTeXt XML.
 - **Custom Theming**: Dark/light glassmorphic UI with responsive typography, custom emoji support, Prism syntax highlighting, and interactive widgets.
+- **Automated CI/CD**: Dual platform build scripts (Bash/PowerShell) and GitHub Actions workflows for continuous compilation and deployment to GitHub Pages and Cloudflare Pages.
 
 ---
 
 ## Tech Stack
 
 - **Core Framework**: [PreTeXt CLI](https://pretextbook.org) (`>=2.50.0`)
-- **Languages**: 
-  - **Python** (`>=3.11`) for build orchestration, graph generation, and conversion pipelines
-  - **XML / PreTeXt / XSLT / LaTeX** for structured document authoring and PDF typesetting
-  - **JavaScript (ES Modules) & CSS3** for UI widgets, theming, and D3.js visualization
-  - **Bash / PowerShell / Perl** for cross-platform build automation and HTML post-processing
+- **Languages**:
+  - **Python** (`>=3.11`): Build orchestration, graph generation, reference conversion, and Obsidian translation pipelines
+  - **XML / PreTeXt / XSLT / LaTeX**: Structured document authoring, publisher settings, and PDF typesetting
+  - **JavaScript (ES Modules) & CSS3**: UI widgets, custom glassmorphic styling, and interactive D3.js network visualization
+  - **Bash / PowerShell / Perl**: Cross-platform build automation and HTML post-processing
 - **Libraries & Tools**:
-  - [D3.js v7](https://d3js.org/) for graph network rendering
-  - [MathJax](https://www.mathjax.org/) for web mathematics rendering
-  - [Lunr.js](https://lunrjs.com/) for client-side search
-  - [PyYAML](https://pyyaml.org/) for frontmatter parsing in the Obsidian converter
-  - [Pillow](https://python-pillow.org/) / [pdfcropmargins](https://github.com/bpvest/pdfCropMargins) / [Playwright](https://playwright.dev/) for asset extraction and management
+  - [D3.js v7](https://d3js.org/): Interactive note graph network rendering
+  - [MathJax](https://www.mathjax.org/): Web mathematical notation rendering
+  - [Lunr.js](https://lunrjs.com/): Client-side offline search indexing
+  - [PyYAML](https://pyyaml.org/): Frontmatter parsing in the Obsidian converter
+  - [bibtexparser](https://bibtexparser.readthedocs.io/): BibTeX-to-PreTeXt reference parsing
+  - [Pillow](https://python-pillow.org/) / [pdfcropmargins](https://github.com/bpvest/pdfCropMargins) / [Playwright](https://playwright.dev/): Asset extraction and management
 - **Package Management**:
   - `uv` (`pyproject.toml`, `uv.lock`)
   - `pip` (`requirements.txt`)
@@ -45,7 +47,7 @@ Key capabilities include:
   - **Windows**: PowerShell 5.1+ or PowerShell 7+
 - **Optional Tools**:
   - **TeX Live / LaTeX**: Required only for compiling PDF print output (`pretext build print`) or rendering standalone TikZ/PGF diagrams
-  - **Node.js**: (Optional) For advanced web asset development or Playwright browser automation
+  - **Node.js**: (Version 22+) For advanced web asset development or Playwright browser automation
 
 ---
 
@@ -79,7 +81,7 @@ pip install -r requirements.txt
 
 ### Full Automated Build (Recommended)
 
-This project provides dual build scripts that run PreTeXt compilation, update the graph index, copy assets and widgets, and apply post-processing injections (custom glassmorphic theme, search enhancements, fonts, and metadata):
+This project provides synchronized dual build scripts that execute PreTeXt compilation, update the graph index, copy assets and widgets, and apply post-processing injections (custom glassmorphic theme, search enhancements, fonts, and metadata):
 
 - **macOS / Linux**:
   ```bash
@@ -104,10 +106,16 @@ pretext build web
 # Build print output (PDF via LaTeX)
 pretext build print
 
+# Build all deploy targets
+pretext build --deploys
+
+# Stage deployment without publishing
+pretext deploy --stage-only
+
 # Preview local web server (serves output/web)
 pretext view web
 
-# Deploy output to GitHub Pages
+# Deploy output to configured hosting
 pretext deploy
 ```
 
@@ -126,13 +134,14 @@ python3 -m http.server 5000
 
 | Script / Entry Point | Description |
 |----------------------|-------------|
-| `source/main.ptx` | Main PreTeXt document root incorporating frontmatter, parts, and backmatter |
-| `build.sh` / `build.ps1` | Primary build scripts for web generation, asset sync, graph update, and HTML post-processing |
+| `source/main.ptx` | Main PreTeXt document root incorporating `docinfo.ptx`, `frontmatter/`, parts, and `backmatter/` |
+| `project.ptx` | PreTeXt project manifest defining build targets (`web`, `print`) and output paths |
+| `publication/publication.ptx` | Publication configuration controlling chunking, numbering, and HTML/LaTeX styling |
+| `build.sh` / `build.ps1` | Primary build scripts for web generation, asset synchronization, graph update, and HTML post-processing |
 | `graph-module/update_graph.py` | Scans `.ptx` files in `source/` to regenerate `graph-module/notes-graph.json` |
 | `graph-module/graph.html` | Standalone interactive note connection visualizer |
-| `obsidian-to-pretext/convert.py` | CLI tool converting Obsidian markdown vaults to PreTeXt `.ptx` XML files |
-| `project.ptx` | PreTeXt project manifest defining build targets (`web`, `print`) |
-| `publication/publication.ptx` | PreTeXt publication configuration controlling chunking, numbering, and HTML/LaTeX styling |
+| `obsidian-to-pretext/convert.py` | CLI tool converting Obsidian markdown vaults to PreTeXt `.ptx` XML sections |
+| `SOFIAS-FOLDER/references/build_references.py` | Helper script converting `references.bib` BibTeX entries into PreTeXt `<references>` XML |
 
 ### Using the Obsidian Converter
 
@@ -142,12 +151,26 @@ python obsidian-to-pretext/convert.py /path/to/obsidian/vault ./output --generat
 ```
 Refer to `obsidian-to-pretext/README.md` and `obsidian-to-pretext/MAPPING.md` for syntax mapping details.
 
+### Updating Note Graph Data
+
+To manually regenerate note graph data independently of the full build:
+```bash
+python graph-module/update_graph.py
+```
+
 ---
 
 ## Environment Variables & Configuration
 
-- **`PATH`**: The build scripts automatically prepend `./.bin` to `$PATH` if present for local validator binaries.
-- **`TODO`**: Document any custom continuous integration (CI) tokens, remote asset storage URLs, or automated deployment environment variables as they are introduced.
+- **Local Path**:
+  - `PATH`: The build scripts automatically prepend `./.bin` to `$PATH` if present for local validator binaries.
+- **Continuous Integration (CI/CD)**:
+  - `PTX_ENABLE_DEPLOY_GHPAGES`: Set to `'yes'` in repository variables to enable automated deployment to GitHub Pages via GitHub Actions.
+  - `GITHUB_TOKEN`: Standard GitHub Actions secret used for authenticating deployments and workflow triggers.
+  - `CLOUDFLARE_PROJECT_NAME`: Repository variable specifying the target Cloudflare Pages project name.
+  - `CLOUDFLARE_API_TOKEN`: Repository secret token for deploying build artifacts to Cloudflare Pages.
+  - `CLOUDFLARE_ACCOUNT_ID`: Repository secret identifier for the target Cloudflare account.
+- **`TODO`**: Document any custom remote asset storage URLs, private package registry credentials, or additional production deployment environment variables as they are introduced.
 
 ---
 
@@ -155,8 +178,11 @@ Refer to `obsidian-to-pretext/README.md` and `obsidian-to-pretext/MAPPING.md` fo
 
 - **PreTeXt Build Validation**: Run `./build.sh` (or `pretext build web`) to validate XML structure, internal cross-references, and schema compliance.
 - **Graph Schema Validation**: Ensure `graph-module/notes-graph.json` complies with `graph-module/notes-graph-schema.json`.
-- **Conversion Verification**: Review sample conversion output in `obsidian-to-pretext/test-output/`.
-- **`TODO`**: Add automated continuous integration (CI) workflows (e.g. GitHub Actions) with unit tests (`pytest`), XML linter validation, and end-to-end browser tests via Playwright.
+- **Conversion Verification**: Review sample conversion input and output in `obsidian-to-pretext/example-notes/` and `obsidian-to-pretext/test-output/`.
+- **Continuous Integration**:
+  - `.github/workflows/pretext-cli.yml`: Pull request and manual workflow for building in `oscarlevin/pretext-full` container and staging deployment.
+  - `.github/workflows/pretext-deploy.yml`: Workflow for building and pushing deploy artifacts to the `gh-pages` branch.
+- **`TODO`**: Add automated test suite (e.g. `pytest` unit tests for `update_graph.py` and `convert.py`, XML linter validation, and end-to-end browser tests via Playwright).
 
 ---
 
@@ -164,6 +190,10 @@ Refer to `obsidian-to-pretext/README.md` and `obsidian-to-pretext/MAPPING.md` fo
 
 ```
 there-and-back-again/
+├── .github/
+│   └── workflows/              # GitHub Actions CI/CD workflows
+│       ├── pretext-cli.yml     # Pull request validation and Cloudflare/Pages staging
+│       └── pretext-deploy.yml  # Manual build and deploy to gh-pages branch
 ├── source/                      # PreTeXt XML source files
 │   ├── main.ptx                # Document root & structure
 │   ├── docinfo.ptx             # Metadata, macros, TikZ/LaTeX preambles
@@ -188,7 +218,11 @@ there-and-back-again/
 ├── obsidian-to-pretext/        # Obsidian-to-PreTeXt translation pipeline
 │   ├── convert.py              # Markdown-to-PTX converter script
 │   ├── MAPPING.md              # Markdown-to-PreTeXt syntax reference
-│   └── example-notes/          # Sample Obsidian notes
+│   ├── example-notes/          # Sample Obsidian notes
+│   └── test-output/            # Sample conversion outputs
+├── SOFIAS-FOLDER/              # Reference tools and usage guides
+│   ├── references/             # BibTeX reference files & build_references.py
+│   └── USAGE-GUIDES/           # Reference authoring guides
 ├── publication/                # PreTeXt publication configuration
 │   └── publication.ptx         # Chunking, numbering, and publisher settings
 ├── generated-assets/           # PreTeXt-generated diagrams & figures
@@ -200,12 +234,14 @@ there-and-back-again/
 │   └── USAGE_GUIDE.md          # Comprehensive workflow and authoring guide
 ├── output/                     # Generated build output (gitignored)
 │   ├── web/                    # Compiled HTML site
-│   └── print/                  # Compiled PDF document
+│   ├── print/                  # Compiled PDF document
+│   └── stage/                  # Staged deployment artifacts
 ├── build.sh                    # Unix build & post-processing script
 ├── build.ps1                   # Windows PowerShell build script
 ├── project.ptx                 # PreTeXt project manifest
 ├── pyproject.toml              # Project configuration and dependencies (uv)
 ├── requirements.txt            # Locked pip dependencies
+├── uv.lock                     # Locked dependency tree for uv
 └── LICENSE                     # MIT License
 ```
 

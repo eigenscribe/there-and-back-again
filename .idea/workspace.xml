@@ -7,14 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated `publication.ptx` chunking and table of contents levels for finer granularity; refined IntelliJ workspace configurations and synchronized notes graph entries." />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publication/publication.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/publication/publication.ptx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2370" />
+    <option name="cachedIndexableFilesCount" value="3411" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -38,23 +42,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0277640487399484" />
-      <entry key="MS500" value="2.198019564549395" />
-      <entry key="S2" value="7.001346033936422" />
-      <entry key="S5" value="18.22268848902903" />
-      <entry key="S10" value="36.20275884973189" />
-      <entry key="S30" value="69.21403362234776" />
-      <entry key="S60" value="84.3006091005562" />
-      <entry key="M2" value="96.16901109497887" />
-      <entry key="M5" value="114.2067378175357" />
-      <entry key="M10" value="166.71543540272003" />
-      <entry key="M15" value="239.46543462569903" />
-      <entry key="M30" value="445.54265168912514" />
-      <entry key="H1" value="714.7150000510128" />
-      <entry key="H2" value="1057.0180951959426" />
-      <entry key="H4" value="1493.4390552383024" />
-      <entry key="D1" value="3355.1086197207633" />
-      <entry key="W1" value="22080.722676472942" />
+      <entry key="MS100" value="2.2985781303868897" />
+      <entry key="MS500" value="5.728786517448781" />
+      <entry key="S2" value="10.447900402019624" />
+      <entry key="S5" value="12.376803026480664" />
+      <entry key="S10" value="13.149798240021795" />
+      <entry key="S30" value="13.965958463711193" />
+      <entry key="S60" value="21.868487095737517" />
+      <entry key="M2" value="63.77229760881817" />
+      <entry key="M5" value="181.78775165670447" />
+      <entry key="M10" value="299.11506063074273" />
+      <entry key="M15" value="391.4327337815548" />
+      <entry key="M30" value="622.8062636149002" />
+      <entry key="H1" value="928.4080003256375" />
+      <entry key="H2" value="1306.7747115721008" />
+      <entry key="H4" value="1772.6066198498236" />
+      <entry key="D1" value="3677.409603939685" />
+      <entry key="W1" value="22405.156481746282" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -65,34 +69,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="2.552559667765156E-218" />
-      <entry key="M10" value="1.597673204308394E-109" />
-      <entry key="M15" value="2.94436717638106E-73" />
-      <entry key="M30" value="5.426202333475218E-37" />
-      <entry key="H1" value="7.366277973690664E-19" />
-      <entry key="H2" value="8.589513588225905E-10" />
-      <entry key="H4" value="3.0981530798647596E-5" />
-      <entry key="D1" value="0.9833967077946495" />
-      <entry key="W1" value="39.703900193508865" />
+      <entry key="M5" value="3.287633427754243E-219" />
+      <entry key="M10" value="5.733788823940131E-110" />
+      <entry key="M15" value="1.4869434854756882E-73" />
+      <entry key="M30" value="3.856090618068703E-37" />
+      <entry key="H1" value="6.209744436991203E-19" />
+      <entry key="H2" value="7.88644688899703E-10" />
+      <entry key="H4" value="2.968651917637126E-5" />
+      <entry key="D1" value="0.9764233376678148" />
+      <entry key="W1" value="39.66355677066941" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0136143179124548" />
-      <entry key="MS500" value="2.1916775234285715" />
-      <entry key="S2" value="6.994900687332807" />
-      <entry key="S5" value="18.214913199668626" />
-      <entry key="S10" value="36.194203642851846" />
-      <entry key="S30" value="69.20785374263853" />
-      <entry key="S60" value="84.29667453347218" />
-      <entry key="M2" value="96.1666808520856" />
-      <entry key="M5" value="114.20559802912473" />
-      <entry key="M10" value="166.7146477878856" />
-      <entry key="M15" value="239.46472147852936" />
-      <entry key="M30" value="445.54202864499" />
-      <entry key="H1" value="714.7144956289187" />
-      <entry key="H2" value="1057.0176670663182" />
-      <entry key="H4" value="1493.4387263607625" />
-      <entry key="D1" value="3356.0916175662455" />
-      <entry key="W1" value="22120.425785005023" />
+      <entry key="MS100" value="2.260119723093239" />
+      <entry key="MS500" value="5.71082367628816" />
+      <entry key="S2" value="10.43933761745453" />
+      <entry key="S5" value="12.372682452965488" />
+      <entry key="S10" value="13.147597172366712" />
+      <entry key="S30" value="13.965174031289125" />
+      <entry key="S60" value="21.867834331020436" />
+      <entry key="M2" value="63.77126328034738" />
+      <entry key="M5" value="181.78648943879273" />
+      <entry key="M10" value="299.11397272459243" />
+      <entry key="M15" value="391.4317652734336" />
+      <entry key="M30" value="622.8054757317997" />
+      <entry key="H1" value="928.4073912143623" />
+      <entry key="H2" value="1306.774223564182" />
+      <entry key="H4" value="1772.6062564945576" />
+      <entry key="D1" value="3678.385623098207" />
+      <entry key="W1" value="22444.819246493676" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -185,14 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00197" summary="Relocated and restructured &quot;Setting the Stage&quot; content under &quot;Significant Figures,&quot; updated references, and adjusted IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787637018838</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1787637018838</updated>
     </task>
     <task id="LOCAL-00198" summary="Added &quot;Accuracy vs. Precision&quot; subsection, updated glossary with related terms, revised notes graph, and restructured appendix content with refined references.">
       <option name="closed" value="true" />
@@ -578,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789248695799</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1789249298850</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1789249298850</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,8 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined navbar styling with enhanced hover/active states, updated text contrast and glowing highlights, and adjusted IntelliJ workspace configuration." />
-    <MESSAGE value="Refined navbar styling with enhanced hover and active states, improved text contrast, added subtle glowing effects, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar styling with adjusted gradients, improved hover and active states, enhanced text contrast, updated glowing effects, and revised IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar styling with updated gradients, improved hover/active states, enhanced text contrast, adjusted glowing effects, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar styling with updated hover/active states, enhanced gradients, improved glowing effects, adjusted text contrast, and updated IntelliJ workspace configuration." />
@@ -621,6 +623,8 @@
     <MESSAGE value="Updated IntelliJ workspace configuration: adjusted indexing values, refined methodology description, and synchronized tasks with recent project updates." />
     <MESSAGE value="Refined Eigenscribe methodology description: emphasized parsimony over responsible reasoning, streamlined phrasing for improved clarity and conciseness." />
     <MESSAGE value="Updated `publication.ptx` chunking and table of contents levels for finer granularity; refined IntelliJ workspace configurations and synchronized notes graph entries." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated `publication.ptx` chunking and table of contents levels for finer granularity; refined IntelliJ workspace configurations and synchronized notes graph entries." />
+    <MESSAGE value="Added `.output.json` for managing granular content references across multiple sections, enabling improved tracking and synchronization of source files." />
+    <MESSAGE value="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration." />
   </component>
 </project>
