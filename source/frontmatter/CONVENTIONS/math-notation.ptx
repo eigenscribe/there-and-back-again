@@ -13,21 +13,24 @@
       <li>
         <title><m>\Z</m></title>
         <idx>integers</idx>
+        <p><term>Integers</term></p>
         <p>
-          <em>Integers</em>, <m>\{ 0, \pm 1, \pm 2, \dots \}</m>.
+          <m>\{ 0, \pm 1, \pm 2, \dots \}</m>
         </p>
       </li>
 
       <li>
-        <title><m>\N</m></title>
+        <title><m>\N</m> (or <m>\mathbb{Z}^+</m>)</title>
         <idx>natural numbers</idx>
+        <p><term>Natural numbers</term></p>
         <p>
-          <em>Natural numbers</em>, <m>\{1, 2, 3, \dots \}</m>.
+          <m>\{1, 2, 3, \dots \}</m>
         </p>
       </li>
 
       <li>
-        <title><m>\N^0</m></title>
+        <title><m>\N_0</m></title>
+        <p>Natural numbers and zero</p>
         <p>
           <m>\mathbf{N} \cap \{0\}</m>
         </p>
