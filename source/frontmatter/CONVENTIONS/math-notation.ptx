@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <paragraphs xml:id="sub-math-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Mathematical Notation &amp; Conventions</title>
+  <title>Mathematical Notation</title>
 
   <p>
     Mathematical symbols and notation across <em>There and Back Again</em>.
   </p>
 
-  <assemblage xml:id="conventions-original-cartesian">
+    <context xml:id="notation-discrete-math">
+    <title>Discrete Mathematics &amp; Set Theory</title>
+    <dl>
+      <li>
+        <title><m>\Z</m></title>
+        <idx>integers</idx>
+        <p>
+          <em>Integers</em>, <m>\{ 0, \pm 1, \pm 2, \dots \}</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\N</m></title>
+        <idx>natural numbers</idx>
+        <p>
+          <em>Natural numbers</em>, <m>\{1, 2, 3, \dots \}</m>.
+        </p>
+      </li>
+
+      <li>
+        <title><m>\N^0</m></title>
+        <p>
+          <m>\mathbf{N} \cap \{0\}</m>
+        </p>
+      </li>
+    </dl>
+  </context>
+
+  <context xml:id="conventions-original-cartesian">
     <title>Original Cartesian Mechanics</title>
     <p>
       <dl>
@@ -23,7 +51,6 @@
       </dl>
     </p>
 
-    <p>
     <context xml:id="conventions-phase-space">
       <title>Phase space</title>
         <p>
@@ -39,29 +66,9 @@
          </dl>
         </p>
     </context>
-    </p>
-  </assemblage>
+  </context>
 
-  <assemblage xml:id="notation-discrete-math">
-    <title>Discrete Mathematics &amp; Set Theory</title>
-    <dl>
-      <li>
-        <title><m>\Z</m></title>
-        <idx>integers</idx>
-        <p>
-          <em>Integers</em>: <m>\Z \triangleq \{ 0, \pm 1, \pm 2, \dots \}</m>.
-        </p>
-      </li>
 
-      <li>
-        <title><m>\N</m></title>
-        <idx>natural numbers</idx>
-        <p>
-          <em>Natural numbers</em>: <m>\N \triangleq \{1, 2, 3, \dots \}</m>.
-        </p>
-      </li>
-    </dl>
-  </assemblage>
 
   <assemblage xml:id="notation-foundations">
     <title>General Mathematics, Sets &amp; Constants</title>
@@ -76,10 +83,10 @@
       </li>
 
       <li>
-        <title><m>i</m></title>
+        <title><m>\mathcal{i}</m></title>
         <idx>imaginary unit</idx>
         <p>
-          The imaginary unit satisfying <m>i^2 = -1</m>. In electrical engineering contexts, <m>j</m> is occasionally noted as an equivalent.
+          The imaginary unit satisfying <m>\mathcal{i}^2 = -1</m>. In electrical engineering contexts, <m>j</m> is occasionally noted as an equivalent.
         </p>
       </li>
 
