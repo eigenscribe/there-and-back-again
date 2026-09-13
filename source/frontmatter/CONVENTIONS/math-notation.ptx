@@ -30,7 +30,7 @@
 
       <li>
         <title><m>\N_0</m></title>
-        <p>Natural numbers and zero</p>
+        <p>The set containing the natural numbers and zero</p>
         <p>
           <m>\mathbf{N} \cap \{0\}</m>
         </p>
