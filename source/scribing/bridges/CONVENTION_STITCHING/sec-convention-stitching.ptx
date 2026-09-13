@@ -24,6 +24,12 @@
     </statement>
   </note>
 
-  <xi:include href="geometric-dictionary.ptx"/>
+  <context>
+    <title>Symplectic algebra and calculus of variations</title>
+
+    <xi:include href="table-geometric-dictionary.ptx"/>
+    <xi:include href="table-conceptual-dictionary.ptx"/>
+
+  </context>
 
  </section>

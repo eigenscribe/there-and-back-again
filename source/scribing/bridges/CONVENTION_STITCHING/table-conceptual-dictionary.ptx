@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="table-concept-dictionary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Concept Dictionary</title>
+
+  <tabular>
+
+    <col width = "20%"/>
+    <col width = "40%"/>
+    <col width = "40%"/>
+
+    <row header="yes">
+      <cell>Concept</cell>
+      <cell>Mathematical expression</cell>
+      <cell>Intuition</cell>
+    </row>
+
+   <row>
+     <cell>
+       <p>A vector has coordinate components</p>
+     </cell>
+     <cell>
+       <m>\mathbf{v}=v_q\mathbf{e}_q+v_p\mathbf{e}_p</m>
+     </cell>
+     <cell>
+       <p>A direction can be decomposed into <m>q</m> and <m>p</m> coordinates.</p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <p>Finish creating this table using the attached image in the CONVENTION_STITCHING folder</p>
+     </cell>
+     <cell>
+       <m></m>
+     </cell>
+     <cell>
+       <p></p>
+     </cell>
+   </row>
+
+
+  </tabular>
+
+</table>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="table-geometric-dictionary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometric Dictionary</title>
+
+  <tabular>
+
+    <col width = "10%"/>
+    <col width = "20%"/>
+    <col width = "40%"/>
+    <col width = "30%"/>
+
+    <row header="yes">
+      <cell>Object</cell>
+      <cell>What it means</cell>
+      <cell>Intuition</cell>
+      <cell>Example</cell>
+    </row>
+
+   <row>
+     <cell>
+       <m>q, p</m>
+     </cell>
+     <cell>
+       <p>scalars/ coordinates</p>
+     </cell>
+     <cell>
+       <p>Where is the system?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>q=2, \, p=3</m>
+       </p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <m>\mathbf{v}</m>
+     </cell>
+     <cell>
+       <p>displacement vector</p>
+     </cell>
+     <cell>
+       <p>Which direction does the system move?</p>
+       <p>How far did the system move?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>\mathbf{v}=2\mathbf{e}_q+3\mathbf{e}_p</m>
+       </p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <m>dq, dp</m>
+     </cell>
+     <cell>
+       <p>1-forms</p>
+     </cell>
+     <cell>
+       <p>How do I measure coordinate change when the system moves?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>dq(\mathbf{v})=2</m>
+       </p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <m>d\mathbf{z}</m>
+     </cell>
+     <cell>
+       <p>tangent/ displacement vector</p>
+     </cell>
+     <cell>
+       <p>What is the infinitesimal direction and magnitude in which the system moves?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>d\mathbf{z}=dq\mathbf{e}_q + dp\mathbf{e}_p</m>
+       </p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <m>dq\wedge dp</m>
+     </cell>
+     <cell>
+       <p>2-form</p>
+     </cell>
+     <cell>
+       <p>How do I measure a rotating system's 'orientation'?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>(dq\wedge dp)(\mathbf{v_1}, \mathbf{v_2})</m>
+       </p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <m>X_H</m>
+     </cell>
+     <cell>
+       <p>vector field</p>
+     </cell>
+     <cell>
+       <p>Which direction does the system move at each point?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>X_H=\dot{q}\mathbf{e}_q+\dot{p}\mathbf{e}_p</m>
+       </p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <m>d\mathcal{J}</m>
+     </cell>
+     <cell>
+       <p>differential of a <xref ref="def-functional" text="custom">functional</xref></p>
+     </cell>
+     <cell>
+       <p>How does the functional respond to the direction in which the system changes?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>d\mathcal{J}=\delta\mathcal{J}</m>
+       </p>
+     </cell>
+   </row>
+
+   <row>
+     <cell>
+       <m>\eta(x)</m>
+     </cell>
+     <cell>
+       <p><xref ref="def-variation" text="custom">variation</xref></p>
+     </cell>
+     <cell>
+       <p>Which way does the system move through function space?</p>
+     </cell>
+     <cell>
+       <p>
+         <m>y\rightarrow y+\epsilon\eta</m>
+       </p>
+     </cell>
+   </row>
+
+  </tabular>
+
+</table>

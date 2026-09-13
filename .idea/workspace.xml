@@ -7,10 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated the demo table in pretext meta section">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing">
+      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/Screenshot 2026-02-02 at 6.17.00 AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-conceptual-dictionary.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-geometric-dictionary.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/geometric-dictionary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/geometric-dictionary.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/geometric-dictionary.ptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/sec-convention-stitching.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/sec-convention-stitching.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0016544479784018" />
-      <entry key="MS500" value="1.5934083875705307" />
-      <entry key="S2" value="5.5308805701610675" />
-      <entry key="S5" value="10.68216150467424" />
-      <entry key="S10" value="15.878723125930504" />
-      <entry key="S30" value="27.338069133041568" />
-      <entry key="S60" value="37.371992403377895" />
-      <entry key="M2" value="50.40155172144938" />
-      <entry key="M5" value="81.6375405808033" />
-      <entry key="M10" value="127.71943791455548" />
-      <entry key="M15" value="179.25786676410706" />
-      <entry key="M30" value="372.3493555749886" />
-      <entry key="H1" value="766.4813690049087" />
-      <entry key="H2" value="1335.3443070679182" />
-      <entry key="H4" value="2005.6570564347505" />
-      <entry key="D1" value="4243.5111500710045" />
-      <entry key="W1" value="23003.954468915417" />
+      <entry key="MS100" value="1.0003111720281541" />
+      <entry key="MS500" value="1.1988841209540635" />
+      <entry key="S2" value="1.6731237863702033" />
+      <entry key="S5" value="2.3561648191061444" />
+      <entry key="S10" value="4.80559992123518" />
+      <entry key="S30" value="12.743631492586584" />
+      <entry key="S60" value="21.356814432456616" />
+      <entry key="M2" value="37.16347360504071" />
+      <entry key="M5" value="79.75359118434457" />
+      <entry key="M10" value="150.2014867421038" />
+      <entry key="M15" value="217.0229317393086" />
+      <entry key="M30" value="415.6517010053371" />
+      <entry key="H1" value="810.8532803522918" />
+      <entry key="H2" value="1418.819505523513" />
+      <entry key="H4" value="2154.672354658697" />
+      <entry key="D1" value="4523.603550161195" />
+      <entry key="W1" value="23301.456567032754" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="9.143932051849883E-225" />
-      <entry key="M10" value="9.562390941521498E-113" />
-      <entry key="M15" value="2.0911137773506608E-75" />
-      <entry key="M30" value="4.572869752519431E-38" />
-      <entry key="H1" value="2.138427482900557E-19" />
-      <entry key="H2" value="4.627983298859124E-10" />
-      <entry key="H4" value="2.2741257641137345E-5" />
-      <entry key="D1" value="0.9340010211074512" />
-      <entry key="W1" value="39.41266734484" />
+      <entry key="MS500" value="2.22E-321" />
+      <entry key="S2" value="6.8622214603465E-81" />
+      <entry key="S5" value="8.601731693844731E-33" />
+      <entry key="S10" value="9.274552115247778E-17" />
+      <entry key="S30" value="4.526518662889029E-6" />
+      <entry key="S60" value="0.0021275616707604533" />
+      <entry key="M2" value="0.046125499138334046" />
+      <entry key="M5" value="0.2921301835184253" />
+      <entry key="M10" value="0.540490687725908" />
+      <entry key="M15" value="0.663527322061259" />
+      <entry key="M30" value="0.8145718642705857" />
+      <entry key="H1" value="0.9025363506643853" />
+      <entry key="H2" value="0.9500191321171314" />
+      <entry key="H4" value="0.9747098867918156" />
+      <entry key="D1" value="1.914751831802964" />
+      <entry key="W1" value="40.321093303286425" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9810519673343175" />
-      <entry key="MS500" value="1.5875064987943195" />
-      <entry key="S2" value="5.5260637045517225" />
-      <entry key="S5" value="10.673335676217652" />
-      <entry key="S10" value="15.865449466650364" />
-      <entry key="S30" value="27.327518568171556" />
-      <entry key="S60" value="37.36519483620912" />
-      <entry key="M2" value="50.39751547626431" />
-      <entry key="M5" value="81.6354300501926" />
-      <entry key="M10" value="127.71804837230674" />
-      <entry key="M15" value="179.25669314799745" />
-      <entry key="M30" value="372.3482941321453" />
-      <entry key="H1" value="766.480392577486" />
-      <entry key="H2" value="1335.3435075263737" />
-      <entry key="H4" value="2005.656476767426" />
-      <entry key="D1" value="4244.444706645015" />
-      <entry key="W1" value="23043.366340778277" />
+      <entry key="MS100" value="0.9662369012913847" />
+      <entry key="MS500" value="1.1906028234181463" />
+      <entry key="S2" value="1.670229537324568" />
+      <entry key="S5" value="2.354618675253771" />
+      <entry key="S10" value="4.804175166266514" />
+      <entry key="S30" value="12.742468656117868" />
+      <entry key="S60" value="21.35793055392678" />
+      <entry key="M2" value="37.208083982447825" />
+      <entry key="M5" value="80.04325026149299" />
+      <entry key="M10" value="150.73961316959054" />
+      <entry key="M15" value="217.6843567280827" />
+      <entry key="M30" value="416.4646097633293" />
+      <entry key="H1" value="811.7544883538756" />
+      <entry key="H2" value="1419.76851079868" />
+      <entry key="H4" value="2155.646334199802" />
+      <entry key="D1" value="4525.517833204561" />
+      <entry key="W1" value="23341.77686217236" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -127,7 +130,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "junie.plugin.stays.banner.dismissed": "true",
-    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA",
+    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/scribing/bridges/CONVENTION_STITCHING",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
@@ -143,6 +146,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING" />
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA" />
       <recent name="$PROJECT_DIR$/my_folder/USAGE-GUIDES" />
       <recent name="$PROJECT_DIR$/assets/elements" />
@@ -190,14 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00206" summary="Moved &quot;Data Geometry Map&quot; section under &quot;Data Analysis and Geometry,&quot; renamed it to &quot;Choosing the Right Representation,&quot; updated notes graph, and adjusted IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787972513479</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1787972513479</updated>
     </task>
     <task id="LOCAL-00207" summary="Added &quot;Compositional Data&quot; subsection with centered log-ratio transform details, updated glossary and notes graph with &quot;Composition&quot; entry, and adjusted IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -583,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789339471042</updated>
     </task>
-    <option name="localTasksCounter" value="255" />
+    <task id="LOCAL-00255" summary="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing">
+      <option name="closed" value="true" />
+      <created>1789340300891</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1789340300891</updated>
+    </task>
+    <option name="localTasksCounter" value="256" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration." />
     <MESSAGE value="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness." />
     <MESSAGE value="Refined &quot;tabs.js&quot; logic for preview and source tab handling: improved auto-detection, added support for preview-first cases, streamlined tab and panel order management; updated IntelliJ workspace and PreTeXt examples." />
     <MESSAGE value="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks." />
@@ -626,6 +629,7 @@
     <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
     <MESSAGE value="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments." />
     <MESSAGE value="updated the demo table in pretext meta section" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the demo table in pretext meta section" />
+    <MESSAGE value="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing" />
+    <option name="LAST_COMMIT_MESSAGE" value="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing" />
   </component>
 </project>
