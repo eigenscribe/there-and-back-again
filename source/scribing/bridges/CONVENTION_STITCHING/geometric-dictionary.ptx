@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="table-geometric-dictionary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometric Dictionary</title>
+
+  <tabular>
+
+    <col width = "10%"/>
+    <col width = "20%"/>
+    <col width = "50%"/>
+    <col width = "20%"/>
+
+
+
+  </tabular>
+
+</table>

@@ -181,31 +181,42 @@ if __name__ == "__main__":
       </p>
       <table>
         <title>Sample Data</title>
-        <tabular>
-          <row bottom="minor">
+        <tabular bottom="minor" top="minor" right="minor">
+
+          <col width = "75%"/>
+          <col width = "25%"/>
+
+          <row header="yes">
             <cell>Category</cell>
             <cell>Value</cell>
           </row>
+
           <row>
             <cell>Alpha</cell>
             <cell>100</cell>
           </row>
+
           <row>
-            <cell>Beta</cell>
-            <cell>200</cell>
-          </row>
-        </tabular>
+             <cell>Beta</cell>
+             <cell>200</cell>
+           </row>
+         </tabular>
       </table>
       <program language="xml">
         <code>
           <![CDATA[
 <table>
   <title>Sample Data</title>
-  <tabular>
-    <row bottom="minor">
+  <tabular bottom="minor" top="minor" right="minor">
+
+    <col width = "75%"/>
+    <col width = "25%"/>
+
+    <row header="yes">
       <cell>Category</cell>
       <cell>Value</cell>
     </row>
+
     <row>
       <cell>Alpha</cell>
       <cell>100</cell>

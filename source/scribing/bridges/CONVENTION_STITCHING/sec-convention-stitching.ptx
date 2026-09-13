@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-convention-stitching" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Convention Stitching</title>
+  <introduction>
+    <p>
+      There currently is a bit of a epistemic crisis regarding redundant and/or inconsistent mathematical notation. This
+      section doesn't aim to derive a universal mathematical language, but rather aims to repair cognitive confusion
+      the author has personally experienced during her years studying mathematics across various scientific disciplines.
+    </p>
+    <p>
+      The purpose of this subsection is to create a consistent reference list of conventions for writing various
+      mathematical expressions that have inconsistent conventional representations in various contexts.
+    </p>
+  </introduction>
+
+  <note>
+    <statement>
+      <p>
+        :ember: The conventions established in this subsection are based on standard conventions.
+        However, they are not exhaustive and are not necessarily consistent with popular conventions
+        used outside the scope of <em>There and Back Again</em>.
+      </p>
+    </statement>
+  </note>
+
+  <xi:include href="geometric-dictionary.ptx"/>
+
+ </section>
