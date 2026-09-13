@@ -7,11 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
-      <change beforePath="$PROJECT_DIR$/assets/elements/toc.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/toc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions">
+      <change afterPath="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS/list-of-acknowledgments.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/ACKNOWLEDGEMENTS/dad.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/dedication.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="3411" />
+    <option name="cachedIndexableFilesCount" value="3498" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -43,23 +43,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.2985781303868897" />
-      <entry key="MS500" value="5.728786517448781" />
-      <entry key="S2" value="10.447900402019624" />
-      <entry key="S5" value="12.376803026480664" />
-      <entry key="S10" value="13.149798240021795" />
-      <entry key="S30" value="13.965958463711193" />
-      <entry key="S60" value="21.868487095737517" />
-      <entry key="M2" value="63.77229760881817" />
-      <entry key="M5" value="181.78775165670447" />
-      <entry key="M10" value="299.11506063074273" />
-      <entry key="M15" value="391.4327337815548" />
-      <entry key="M30" value="622.8062636149002" />
-      <entry key="H1" value="928.4080003256375" />
-      <entry key="H2" value="1306.7747115721008" />
-      <entry key="H4" value="1772.6066198498236" />
-      <entry key="D1" value="3677.409603939685" />
-      <entry key="W1" value="22405.156481746282" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.000000001922339" />
+      <entry key="S10" value="1.0000577463045546" />
+      <entry key="S30" value="1.0708349697044368" />
+      <entry key="S60" value="1.8453999566751573" />
+      <entry key="M2" value="8.208955435275731" />
+      <entry key="M5" value="64.28876282124021" />
+      <entry key="M10" value="183.7972693992667" />
+      <entry key="M15" value="291.3898848259942" />
+      <entry key="M30" value="556.1283920749848" />
+      <entry key="H1" value="904.8254430396842" />
+      <entry key="H2" value="1324.2552806516287" />
+      <entry key="H4" value="1822.5977831501743" />
+      <entry key="D1" value="3772.749388217771" />
+      <entry key="W1" value="22503.897314799393" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -70,34 +70,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="3.287633427754243E-219" />
-      <entry key="M10" value="5.733788823940131E-110" />
-      <entry key="M15" value="1.4869434854756882E-73" />
-      <entry key="M30" value="3.856090618068703E-37" />
-      <entry key="H1" value="6.209744436991203E-19" />
-      <entry key="H2" value="7.88644688899703E-10" />
-      <entry key="H4" value="2.968651917637126E-5" />
-      <entry key="D1" value="0.9764233376678148" />
-      <entry key="W1" value="39.66355677066941" />
+      <entry key="M5" value="5.343669847164149E-220" />
+      <entry key="M10" value="2.3116379143723772E-110" />
+      <entry key="M15" value="8.114838343555522E-74" />
+      <entry key="M30" value="2.848655532625144E-37" />
+      <entry key="H1" value="5.337281138133136E-19" />
+      <entry key="H2" value="7.311467589580617E-10" />
+      <entry key="H4" value="2.858385937097717E-5" />
+      <entry key="D1" value="0.9702829852246181" />
+      <entry key="W1" value="39.62782765792585" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.260119723093239" />
-      <entry key="MS500" value="5.71082367628816" />
-      <entry key="S2" value="10.43933761745453" />
-      <entry key="S5" value="12.372682452965488" />
-      <entry key="S10" value="13.147597172366712" />
-      <entry key="S30" value="13.965174031289125" />
-      <entry key="S60" value="21.867834331020436" />
-      <entry key="M2" value="63.77126328034738" />
-      <entry key="M5" value="181.78648943879273" />
-      <entry key="M10" value="299.11397272459243" />
-      <entry key="M15" value="391.4317652734336" />
-      <entry key="M30" value="622.8054757317997" />
-      <entry key="H1" value="928.4073912143623" />
-      <entry key="H2" value="1306.774223564182" />
-      <entry key="H4" value="1772.6062564945576" />
-      <entry key="D1" value="3678.385623098207" />
-      <entry key="W1" value="22444.819246493676" />
+      <entry key="MS100" value="0.9330329915368074" />
+      <entry key="MS500" value="0.9862327044933592" />
+      <entry key="S2" value="0.9965402628278678" />
+      <entry key="S5" value="0.9986146680212473" />
+      <entry key="S10" value="0.9993648039929565" />
+      <entry key="S30" value="1.0705882064211376" />
+      <entry key="S60" value="1.8450789993263799" />
+      <entry key="M2" value="8.20764825308459" />
+      <entry key="M5" value="64.28602357351534" />
+      <entry key="M10" value="183.7946258700209" />
+      <entry key="M15" value="291.38758380202097" />
+      <entry key="M30" value="556.1267400565634" />
+      <entry key="H1" value="904.824331386602" />
+      <entry key="H2" value="1324.2545198673774" />
+      <entry key="H4" value="1822.5972754054344" />
+      <entry key="D1" value="3773.7192427245345" />
+      <entry key="W1" value="22543.524347300016" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -108,39 +108,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;PowerShell.build.ps1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;PowerShell.build.ps1 (2).executor&quot;: &quot;Run&quot;,
-    &quot;PowerShell.build.ps1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;junie.plugin.stays.banner.dismissed&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.tbe.client.settings.TbeApplicationConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "PowerShell.build.ps1 (1).executor": "Run",
+    "PowerShell.build.ps1 (2).executor": "Run",
+    "PowerShell.build.ps1.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "junie.plugin.stays.banner.dismissed": "true",
+    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.tbe.client.settings.TbeApplicationConfigurable",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA" />
@@ -148,11 +149,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/frontmatter" />
       <recent name="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON-PACKAGES" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges/DATA_GEOMETRY_MAP" />
       <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/DIRAC_DELTA" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges" />
-      <recent name="$PROJECT_DIR$/source/scribing/eigenotes" />
     </key>
   </component>
   <component name="RunManager" selected="PowerShell.build.ps1">
@@ -179,7 +180,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+        <option value="bundled-python-sdk-eff1e8def5f5-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10315.174" />
       </set>
     </attachedChunks>
   </component>
@@ -190,46 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00199" summary="Updated IntelliJ workspace configuration, revised notes graph descriptions, added &quot;Accuracy vs. Precision&quot; subsection, and refined appendix content.">
-      <option name="closed" value="true" />
-      <created>1787642182077</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1787642182077</updated>
-    </task>
-    <task id="LOCAL-00200" summary="Enhanced glossary integration in notes graph: added &quot;Glossary&quot; group supports, color coding, and updated IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787643761963</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1787643761963</updated>
-    </task>
-    <task id="LOCAL-00201" summary="Added Euler's formula section, updated notes graph with new entries, simplified Zettel Tree title, and adjusted IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787651978459</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1787651978459</updated>
-    </task>
-    <task id="LOCAL-00202" summary="Refactored Euler's formula content: simplified structure, updated notes graph, and adjusted IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787652792331</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1787652792331</updated>
-    </task>
-    <task id="LOCAL-00203" summary="Refactored Euler's formula content: simplified structure, updated notes graph, and adjusted IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787709132666</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1787709132666</updated>
     </task>
     <task id="LOCAL-00204" summary="Removed &quot;Physics-Informed Machine Learning&quot; section and related content, updated notes graph, and adjusted IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -583,7 +544,47 @@
       <option name="project" value="LOCAL" />
       <updated>1789262766135</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1789324663885</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1789324663886</updated>
+    </task>
+    <task id="LOCAL-00249" summary="udated math notation conventions (reorganized and added a few items)">
+      <option name="closed" value="true" />
+      <created>1789325437552</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1789325437553</updated>
+    </task>
+    <task id="LOCAL-00250" summary="udated math notation conventions (reorganized and added a few items)">
+      <option name="closed" value="true" />
+      <created>1789329445680</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1789329445680</updated>
+    </task>
+    <task id="LOCAL-00251" summary="udated math notation conventions (reorganized and added a few items)">
+      <option name="closed" value="true" />
+      <created>1789334103267</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1789334103267</updated>
+    </task>
+    <task id="LOCAL-00252" summary="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions">
+      <option name="closed" value="true" />
+      <created>1789334330424</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1789334330424</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,8 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined navbar styling with adjusted gradients, improved hover and active states, enhanced text contrast, updated glowing effects, and revised IntelliJ workspace configuration." />
-    <MESSAGE value="Refined navbar styling with updated gradients, improved hover/active states, enhanced text contrast, adjusted glowing effects, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar styling with updated hover/active states, enhanced gradients, improved glowing effects, adjusted text contrast, and updated IntelliJ workspace configuration." />
     <MESSAGE value="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration." />
     <MESSAGE value="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration." />
@@ -626,6 +625,8 @@
     <MESSAGE value="Updated `publication.ptx` chunking and table of contents levels for finer granularity; refined IntelliJ workspace configurations and synchronized notes graph entries." />
     <MESSAGE value="Added `.output.json` for managing granular content references across multiple sections, enabling improved tracking and synchronization of source files." />
     <MESSAGE value="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration." />
+    <MESSAGE value="udated math notation conventions (reorganized and added a few items)" />
+    <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
+    <option name="LAST_COMMIT_MESSAGE" value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
   </component>
 </project>

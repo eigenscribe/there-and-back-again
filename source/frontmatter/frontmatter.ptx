@@ -43,8 +43,13 @@
 
   </abstract>
 
-  <preface xml:id="preface">
+  <preface xml:id="dedication">
+    <title>Dedication</title>
 
+    <xi:include href="./dedication.ptx"/>
+  </preface>
+
+  <preface xml:id="preface">
     <title>Preface</title>
 
     <p>
@@ -79,7 +84,11 @@
   <preface xml:id="acknowledgements">
     <title>Acknowledgements</title>
 
-    <xi:include href="./ACKNOWLEDGEMENTS/dad.ptx"/>
+    <ol>
+      <li>J. R. R. Tolkien</li>
+      <li>Steve Brunton</li>
+      <li>PreTeXt</li>
+    </ol>
 
   </preface>
   
