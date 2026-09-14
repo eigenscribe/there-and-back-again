@@ -93,6 +93,7 @@
   display: block !important;
   border-bottom: none !important;
   border-top: none !important;
+  font-style: normal !important;
 }
 
 .ptx-content section:is(.subsection, .subsubsection) > :is(h2, h3, h4, h5).heading::after,
@@ -311,12 +312,143 @@
 }
 
 /* Summary links on index pages (chapter/part/frontmatter) */
+/* ============================================================ */
+/* Summary links / TOC in main window (layer-dependent gradient)*/
+/* ============================================================ */
+
+/* Base summary-links styling */
+.ptx-content .summary-links a {
+  color: var(--toc-main-chapter-color, #14b5ff) !important;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.ptx-content .summary-links a:hover {
+  color: var(--toc-main-chapter-hover, #00e8ff) !important;
+}
+
 .ptx-content .summary-links a::after {
-  border-left-color: var(--primary-color-light) !important;
+  border-left-color: var(--toc-main-chapter-hover, #00e8ff) !important;
+  transition: border-left-color 0.2s ease;
 }
 
 .ptx-content .summary-links a:hover::after {
-  border-left-color: var(--color-link-hover) !important;
+  border-left-color: #00ffee !important;
+}
+
+/* Layer 1: Chapter-like 'layers' (Book, Part, Chapter, Appendix, Frontmatter, Backmatter) */
+.ptx-content section:is(.book, .part, .chapter, .appendix, .frontmatter, .backmatter, .preface, .dedication, .acknowledgements, .colophon, .glossary, .index, .references) .summary-links a,
+.ptx-content section:is(.book, .part, .chapter, .appendix, .frontmatter, .backmatter, .preface, .dedication, .acknowledgements, .colophon, .glossary, .index, .references) .summary-links a .title,
+.ptx-content section:is(.book, .part, .chapter, .appendix, .frontmatter, .backmatter, .preface, .dedication, .acknowledgements, .colophon, .glossary, .index, .references) .summary-links a .codenumber,
+.ptx-content .summary-links > ul > li > a,
+.ptx-content .summary-links > ul > li > a .title,
+.ptx-content .summary-links > ul > li > a .codenumber {
+  color: var(--toc-main-chapter-color, #14b5ff) !important;
+}
+
+.ptx-content section:is(.book, .part, .chapter, .appendix, .frontmatter, .backmatter, .preface, .dedication, .acknowledgements, .colophon, .glossary, .index, .references) .summary-links a:hover,
+.ptx-content section:is(.book, .part, .chapter, .appendix, .frontmatter, .backmatter, .preface, .dedication, .acknowledgements, .colophon, .glossary, .index, .references) .summary-links a:hover .title,
+.ptx-content section:is(.book, .part, .chapter, .appendix, .frontmatter, .backmatter, .preface, .dedication, .acknowledgements, .colophon, .glossary, .index, .references) .summary-links a:hover .codenumber,
+.ptx-content .summary-links > ul > li > a:hover,
+.ptx-content .summary-links > ul > li > a:hover .title,
+.ptx-content .summary-links > ul > li > a:hover .codenumber {
+  color: var(--toc-main-chapter-hover, #00e8ff) !important;
+}
+
+.ptx-content section:is(.book, .part, .chapter, .appendix, .frontmatter, .backmatter, .preface, .dedication, .acknowledgements, .colophon, .glossary, .index, .references) .summary-links a::after,
+.ptx-content .summary-links > ul > li > a::after {
+  border-left-color: var(--toc-main-chapter-hover, #00e8ff) !important;
+}
+
+.ptx-content section:is(.book, .part, .chapter, .appendix, .frontmatter, .backmatter, .preface, .dedication, .acknowledgements, .colophon, .glossary, .index, .references) .summary-links a:hover::after,
+.ptx-content .summary-links > ul > li > a:hover::after {
+  border-left-color: #00ffee !important;
+}
+
+/* Layer 2: Section-like 'layers' (Section, Exercises, etc. in chapters or appendices) */
+.ptx-content section:is(.section, .exercises, .worksheet, .reading-questions) .summary-links a,
+.ptx-content section:is(.section, .exercises, .worksheet, .reading-questions) .summary-links a .title,
+.ptx-content section:is(.section, .exercises, .worksheet, .reading-questions) .summary-links a .codenumber,
+.ptx-content .summary-links > ul > li > ul > li > a,
+.ptx-content .summary-links > ul > li > ul > li > a .title,
+.ptx-content .summary-links > ul > li > ul > li > a .codenumber {
+  color: var(--toc-main-section-color, #7066ff) !important;
+}
+
+.ptx-content section:is(.section, .exercises, .worksheet, .reading-questions) .summary-links a:hover,
+.ptx-content section:is(.section, .exercises, .worksheet, .reading-questions) .summary-links a:hover .title,
+.ptx-content section:is(.section, .exercises, .worksheet, .reading-questions) .summary-links a:hover .codenumber,
+.ptx-content .summary-links > ul > li > ul > li > a:hover,
+.ptx-content .summary-links > ul > li > ul > li > a:hover .title,
+.ptx-content .summary-links > ul > li > ul > li > a:hover .codenumber {
+  color: var(--toc-main-section-hover, #9990ff) !important;
+}
+
+.ptx-content section:is(.section, .exercises, .worksheet, .reading-questions) .summary-links a::after,
+.ptx-content .summary-links > ul > li > ul > li > a::after {
+  border-left-color: var(--toc-main-section-color, #7066ff) !important;
+}
+
+.ptx-content section:is(.section, .exercises, .worksheet, .reading-questions) .summary-links a:hover::after,
+.ptx-content .summary-links > ul > li > ul > li > a:hover::after {
+  border-left-color: var(--toc-main-section-hover, #9990ff) !important;
+}
+
+/* Layer 3: Subsection-like 'layers' (Subsection in chapters or appendices) */
+.ptx-content section:is(.subsection) .summary-links a,
+.ptx-content section:is(.subsection) .summary-links a .title,
+.ptx-content section:is(.subsection) .summary-links a .codenumber,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > a,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > a .title,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > a .codenumber {
+  color: var(--toc-main-subsection-color, #9b7dff) !important;
+}
+
+.ptx-content section:is(.subsection) .summary-links a:hover,
+.ptx-content section:is(.subsection) .summary-links a:hover .title,
+.ptx-content section:is(.subsection) .summary-links a:hover .codenumber,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > a:hover,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > a:hover .title,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > a:hover .codenumber {
+  color: var(--toc-main-subsection-hover, #c4b5fd) !important;
+}
+
+.ptx-content section:is(.subsection) .summary-links a::after,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > a::after {
+  border-left-color: var(--toc-main-subsection-color, #9b7dff) !important;
+}
+
+.ptx-content section:is(.subsection) .summary-links a:hover::after,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > a:hover::after {
+  border-left-color: var(--toc-main-subsection-hover, #c4b5fd) !important;
+}
+
+/* Layer 4: Subsubsection-like 'layers' (Subsubsection, paragraphs) */
+.ptx-content section:is(.subsubsection, .paragraphs, .subparagraphs) .summary-links a,
+.ptx-content section:is(.subsubsection, .paragraphs, .subparagraphs) .summary-links a .title,
+.ptx-content section:is(.subsubsection, .paragraphs, .subparagraphs) .summary-links a .codenumber,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > ul > li > a,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > ul > li > a .title,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > ul > li > a .codenumber {
+  color: var(--toc-main-subsubsection-color, #c084fc) !important;
+}
+
+.ptx-content section:is(.subsubsection, .paragraphs, .subparagraphs) .summary-links a:hover,
+.ptx-content section:is(.subsubsection, .paragraphs, .subparagraphs) .summary-links a:hover .title,
+.ptx-content section:is(.subsubsection, .paragraphs, .subparagraphs) .summary-links a:hover .codenumber,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > ul > li > a:hover,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > ul > li > a:hover .title,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > ul > li > a:hover .codenumber {
+  color: var(--toc-main-subsubsection-hover, #e9d5ff) !important;
+}
+
+.ptx-content section:is(.subsubsection, .paragraphs, .subparagraphs) .summary-links a::after,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > ul > li > a::after {
+  border-left-color: var(--toc-main-subsubsection-color, #c084fc) !important;
+}
+
+.ptx-content section:is(.subsubsection, .paragraphs, .subparagraphs) .summary-links a:hover::after,
+.ptx-content .summary-links > ul > li > ul > li > ul > li > ul > li > a:hover::after {
+  border-left-color: var(--toc-main-subsubsection-hover, #e9d5ff) !important;
 }
 
 /* Links */

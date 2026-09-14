@@ -93,6 +93,16 @@ html.dark-mode {
   --toc-active-background: linear-gradient(135deg, rgba(20, 181, 255, 0.2), 61.8%, rgba(121, 82, 245, 0.15)) !important;
   --toc-active-border-color: rgba(20, 181, 255, 0.4) !important;
 
+  /* Main window TOC (summary-links) layer-dependent colors: blue-to-purple gradient */
+  --toc-main-chapter-color: #14b5ff !important;
+  --toc-main-chapter-hover: #00e8ff !important;
+  --toc-main-section-color: #7066ff !important;
+  --toc-main-section-hover: #9990ff !important;
+  --toc-main-subsection-color: #9b7dff !important;
+  --toc-main-subsection-hover: #c4b5fd !important;
+  --toc-main-subsubsection-color: #c084fc !important;
+  --toc-main-subsubsection-hover: #e9d5ff !important;
+
   /* Colors - Matching original design */
   --color-bg: #0d1117 !important;
   --color-surface: #161b22 !important;
