@@ -7,15 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="toc text color changed to a blue-to-purple gradient depending on 'level' of toc">
-      <change afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/gibbs-josiah.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/liouville-joseph.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/boltzmann-ludwig.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/boltzmann-ludwig.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/lagrange-joseph-louis.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/lagrange-joseph-louis.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/sec-pre-quantum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/sec-pre-quantum.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added significant figure sections for joseph liouville and josiah gibbs">
+      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/gibbs-josiah.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/gibbs-josiah.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/liouville-joseph.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/liouville-joseph.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,14 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00210" summary="Added &quot;Spurious Correlations&quot; entry to the glossary, updated related references under &quot;Compositional Data,&quot; and enhanced notes graph integration.">
-      <option name="closed" value="true" />
-      <created>1787978564051</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1787978564051</updated>
     </task>
     <task id="LOCAL-00211" summary="Updated IntelliJ workspace configuration with adjusted completion feature values, refined &quot;Spurious Correlations&quot; glossary entry, and enhanced notes graph integration for improved alignment.">
       <option name="closed" value="true" />
@@ -589,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789359520030</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="added significant figure sections for joseph liouville and josiah gibbs">
+      <option name="closed" value="true" />
+      <created>1789374155214</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1789374155214</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace." />
     <MESSAGE value="Updated README with detailed project documentation: added overview, tech stack, installation instructions, build process, scripts, and project structure. Refined notes graph titles and relationships; updated IntelliJ workspace configuration." />
     <MESSAGE value="reorganized and expanded notes graph to better organize and include missing links, definitions, and sections" />
     <MESSAGE value="added Legendre Transform subsection to the Calculus of Variations section and included Adrien-Marie Legendre biography and references in notes graph" />
@@ -632,6 +625,7 @@
     <MESSAGE value="added a geometric dictionary table to the convention stitching section for symplectic and calculus of variations section" />
     <MESSAGE value="started writing the second table in the symplectic geometry and calculus of variation convention stitching section" />
     <MESSAGE value="toc text color changed to a blue-to-purple gradient depending on 'level' of toc" />
-    <option name="LAST_COMMIT_MESSAGE" value="toc text color changed to a blue-to-purple gradient depending on 'level' of toc" />
+    <MESSAGE value="added significant figure sections for joseph liouville and josiah gibbs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added significant figure sections for joseph liouville and josiah gibbs" />
   </component>
 </project>

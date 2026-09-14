@@ -63,7 +63,7 @@
               <li>
                <p>
                  <m>T_2(n)=\sum_{j=1}^{n-1}F(2,j,2j)</m> (with <m>j</m> is <em>even</em>,
-               <p>
+               </p>
               </li>
             </ul>
         </p>
