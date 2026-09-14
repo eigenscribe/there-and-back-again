@@ -47,32 +47,27 @@
             <md>
               \sum_{a^2+bc=n}{\big[ 2F(c^2a,a+b,2a+2bc) \big]} = F(b + c, a, b-c) + 2T_1(n) + 2T_2(n)
             </md>
-          where:
-            <ul>
-              <li>
-                <p>
-                  The summation is over all ordered triples <m>(a,b,c)</m> of integers satisfying <m>a^2+bc=n</m>,
-                </p>
-              </li>
-              <li>
-               <p>
-                 <m>T_1(n)=\sum_{j=1}^{n-1}F(j,j,-j)</m> (with <m>j</m> is <em>odd</em>,
-               </p>
-              </li>
-              <li>
-               <p>
-                 <m>T_2(n)=\sum_{j=1}^{n-1}F(2,j,2j)</m> (with <m>j</m> is <em>even</em>,
-               </p>
-              </li>
-            </ul>
+          where the summation is over all ordered triples <m>(a,b,c)</m> of integers satisfying <m>a^2+bc=n</m> and
+            <md>
+             <mrow>
+               T_1(n)=\sum_{j=1}^{n-1}F(j,j,-j) \quad \text{(with } j \text{ is odd)} \, ,
+             </mrow>
+             <mrow>
+               T_2(n)=\sum_{j=1}^{n-1}F(2,j,2j) \quad \text{(with } j \text{ is even)} \, .
+             </mrow>
+           </md>
         </p>
       </statement>
       <remark>
-        This identity leverages the parity properties of <m>F</m> to related sums over all possible solutions to sums
-        over a subset of possible solutions.
+        <p>
+          This identity leverages the parity properties of <m>F</m> to related sums over all possible solutions to sums
+          over a subset of possible solutions.
+        </p>
       </remark>
       <remark>
-        Used by <xref ref="sub-gibbs-josiah" text="custom">Josiah Gibbs</xref> in his derivation of Lioville's theorem.
+        <p>
+          Used by <xref ref="sub-gibbs-josiah" text="custom">Josiah Gibbs</xref> in his derivation of Lioville's theorem.
+        </p>
       </remark>
     </theorem>
 

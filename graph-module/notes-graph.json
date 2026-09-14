@@ -1987,12 +1987,6 @@
       "weight": 2
     },
     {
-      "source": "sub-liouville-joseph",
-      "target": "def-action-classical-mechanics",
-      "type": "reference",
-      "weight": 2
-    },
-    {
       "source": "thm-liouville-identity",
       "target": "sub-gibbs-josiah",
       "type": "reference",
