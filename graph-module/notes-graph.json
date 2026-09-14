@@ -1363,12 +1363,12 @@
     },
     {
       "id": "sub-lagrange-joseph-louis",
-      "title": "Joseph-Louis Lagrange (1736-1813)",
+      "title": "Joseph-Louis Lagrange",
       "url": "sub-lagrange-joseph-louis.html",
       "tags": [
         "joseph-louis lagrange"
       ],
-      "description": "Citizenship: \ud83c\uddee\ud83c\uddf9\ud83c\uddeb\ud83c\uddf7 Italian-French",
+      "description": "Years: 1736-1813",
       "group": "significant-figures",
       "color": "#a0a0a0"
     },
@@ -1379,7 +1379,7 @@
       "tags": [
         "ludwig boltzmann"
       ],
-      "description": "Citizenship: \ud83c\udde6\ud83c\uddf9 Austrian",
+      "description": "Years: 1844-1906",
       "group": "significant-figures",
       "color": "#a0a0a0"
     },
@@ -1394,12 +1394,12 @@
     },
     {
       "id": "sub-liouville-joseph",
-      "title": "Joseph Liouville (1809-1882)",
+      "title": "Joseph Liouville",
       "url": "sub-liouville-joseph.html",
       "tags": [
         "joseph liouville"
       ],
-      "description": "Citizenship: \ud83c\uddeb\ud83c\uddf7 French",
+      "description": "Years: 1809-1882",
       "group": "significant-figures",
       "color": "#a0a0a0"
     },
@@ -1414,14 +1414,14 @@
     },
     {
       "id": "sub-legendre-adrien-marie",
-      "title": "Adrien-Marie Legendre (1752-1833)",
+      "title": "Adrien-Marie Legendre",
       "url": "sub-legendre-adrien-marie.html",
       "tags": [
         "adrien-marie legendre",
         "legendre polynomials",
         "legendre's differential equation"
       ],
-      "description": "Citizenship: \ud83c\uddee\ud83c\uddf9\ud83c\uddeb\ud83c\uddf7 Italian-French",
+      "description": "Years: 1752-1833",
       "group": "significant-figures",
       "color": "#a0a0a0"
     },
@@ -1438,12 +1438,12 @@
     },
     {
       "id": "sub-gibbs-josiah",
-      "title": "Josiah Willard Gibbs (1839-1903)",
+      "title": "Josiah Willard Gibbs",
       "url": "sub-gibbs-josiah.html",
       "tags": [
         "joseph-louis lagrange"
       ],
-      "description": "Citizenship: \ud83c\uddfa\ud83c\uddf8 American",
+      "description": "Years: 1839-1903",
       "group": "significant-figures",
       "color": "#a0a0a0"
     },
