@@ -53,7 +53,7 @@
                T_1(n)=\sum_{j=1}^{n-1}F(j,j,-j) \quad \text{(with } j \text{ is odd)} \, ,
              </mrow>
              <mrow>
-               T_2(n)=\sum_{j=1}^{n-1}F(2,j,2j) \quad \text{(with } j \text{ is even)} \, .
+               T_2(n)=\sum_{j=1}^{n-1}F(2,j,2j) \quad \text{(with } j \text{ is odd)} \, .
              </mrow>
            </md>
         </p>
