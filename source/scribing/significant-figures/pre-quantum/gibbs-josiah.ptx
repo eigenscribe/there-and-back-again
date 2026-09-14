@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sub-lagrange-joseph-louis" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Joseph-Louis Lagrange (1736-1813)</title>
+<subsection xml:id="sub-gibbs-josiah" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Josiah Willard Gibbs (1839-1903)</title>
   <idx>Joseph-Louis Lagrange</idx>
 
     <introduction>
       <p>
-        <alert>Citizenship:</alert> Italian-French
+        <alert>Citizenship:</alert> 🇺🇸 American
       </p>
       <p>
         <alert>Core Contributions:</alert>
@@ -18,5 +18,6 @@
         </ul>
       </p>
     </introduction>
-    
+
 </subsection>
+

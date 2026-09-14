@@ -1363,23 +1363,23 @@
     },
     {
       "id": "sub-lagrange-joseph-louis",
-      "title": "Joseph-Louis Lagrange",
+      "title": "Joseph-Louis Lagrange (1736-1813)",
       "url": "sub-lagrange-joseph-louis.html",
       "tags": [
         "joseph-louis lagrange"
       ],
-      "description": "Years: 1736-1813",
+      "description": "Citizenship: Italian-French",
       "group": "significant-figures",
       "color": "#a0a0a0"
     },
     {
-      "id": "subsec-boltzmann-ludwig",
-      "title": "Ludwig Boltzmann",
-      "url": "subsec-boltzmann-ludwig.html",
+      "id": "sub-boltzmann-ludwig",
+      "title": "Ludwig Boltzmann (1844-1906)",
+      "url": "sub-boltzmann-ludwig.html",
       "tags": [
         "ludwig boltzmann"
       ],
-      "description": "Years: 1844-1906",
+      "description": "Citizenship: \ud83c\udde6\ud83c\uddf9 Austrian",
       "group": "significant-figures",
       "color": "#a0a0a0"
     },
@@ -1394,14 +1394,25 @@
     },
     {
       "id": "sub-legendre-adrien-marie",
-      "title": "Adrien-Marie Legendre",
+      "title": "Adrien-Marie Legendre (1752-1833)",
       "url": "sub-legendre-adrien-marie.html",
       "tags": [
         "adrien-marie legendre",
         "legendre polynomials",
         "legendre's differential equation"
       ],
-      "description": "Years: 1752-1833",
+      "description": "Citizenship: \ud83c\uddee\ud83c\uddf9\ud83c\uddeb\ud83c\uddf7 Italian-French",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "sub-gibbs-josiah",
+      "title": "Josiah Willard Gibbs (1839-1903)",
+      "url": "sub-gibbs-josiah.html",
+      "tags": [
+        "joseph-louis lagrange"
+      ],
+      "description": "Citizenship: \ud83c\uddfa\ud83c\uddf8 American",
       "group": "significant-figures",
       "color": "#a0a0a0"
     },
@@ -1944,13 +1955,13 @@
       "weight": 2
     },
     {
-      "source": "subsec-boltzmann-ludwig",
+      "source": "sub-boltzmann-ludwig",
       "target": "def-boltzmann-entropy",
       "type": "reference",
       "weight": 2
     },
     {
-      "source": "subsec-boltzmann-ludwig",
+      "source": "sub-boltzmann-ludwig",
       "target": "sec-entropy-taximony",
       "type": "reference",
       "weight": 2
@@ -1972,6 +1983,12 @@
       "target": "sub-legendre-adrien-marie",
       "type": "prerequisite",
       "weight": 3
+    },
+    {
+      "source": "sub-gibbs-josiah",
+      "target": "def-action-classical-mechanics",
+      "type": "reference",
+      "weight": 2
     },
     {
       "source": "def-euler-lagrange",

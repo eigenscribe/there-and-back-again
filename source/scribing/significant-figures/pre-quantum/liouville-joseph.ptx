@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sub-liouville-joseph" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Joseph Liouville (1809-1882)</title>
+  <idx>Joseph Liouville</idx>
+
+    <introduction>
+      <p>
+        <alert>Citizenship:</alert> 🇫🇷 French
+      </p>
+      <p>
+        <alert>Core Contributions:</alert>
+        <ul>
+          <li>
+            <xref ref="def-action-classical-mechanics" text="custom">Classical mechanics definition for
+            the action</xref>.
+          </li>
+        </ul>
+      </p>
+    </introduction>
+
+    <theorem xml:id="thm-liouville-identity">
+      <title>Liouville's Identity</title>
+      <statement>
+        <p>
+          Let <m>F(x,y,z)</m> defined on integer triples <m>(x,y,z)\in\Z</m> such that:
+          <ul>
+            <li>
+              <p>
+                <m>F</m> is <em>odd</em> in the variable <m>x</m>:
+                <md>
+                  F(-x,y,z)=-F(x,y,z) \, .
+                </md>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>F</m> is <em>even</em> in the pair <m>(y,z)</m>:
+                <md>
+                  F(x,-y,-z)=F(x,y,z) \, .
+                </md>
+              </p>
+            </li>
+          </ul>
+        </p>
+        <p>
+          For every <m>n\in\N</m>, <term>Liouville's identity</term> states:
+            <md>
+              \sum_{a^2+bc=n}{\big[ 2F(c^2a,a+b,2a+2bc) \big]} = F(b + c, a, b-c) + 2T_1(n) + 2T_2(n)
+            </md>
+          where:
+            <ul>
+              <li>
+                <p>
+                  The summation is over all ordered triples <m>(a,b,c)</m> of integers satisfying <m>a^2+bc=n</m>,
+                </p>
+              </li>
+              <li>
+               <p>
+                 <m>T_1(n)=\sum_{j=1}^{n-1}F(j,j,-j)</m> (with <m>j</m> is <em>odd</em>,
+               <p>
+              </li>
+              <li>
+               <p>
+                 <m>T_2(n)=\sum_{j=1}^{n-1}F(2,j,2j)</m> (with <m>j</m> is <em>even</em>,
+               <p>
+              </li>
+            </ul>
+        </p>
+      </statement>
+      <remark>
+        This identity leverages the parity properties of <m>F</m> to related sums over all possible solutions to sums
+        over a subset of possible solutions.
+      </remark>
+      <remark>
+        Used by <xref ref="sub-gibbs-josiah" text="custom">Josiah Gibbs</xref> in his derivation of Lioville's theorem.
+      </remark>
+    </theorem>
+
+</subsection>
+
