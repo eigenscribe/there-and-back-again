@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="rearranged content on legendre significant figure subsection" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="took years alive out of subsection titles for significant figures subsections">
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/liouville-joseph.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/liouville-joseph.ptx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,22 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00220" summary="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787990744997</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1787990744997</updated>
-    </task>
-    <task id="LOCAL-00221" summary="Lightened definition node coloring in CSS for improved readability, updated notes graph links and task details, and adjusted IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787991065705</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1787991065705</updated>
     </task>
     <task id="LOCAL-00222" summary="Enhanced masthead responsiveness and styling with updated scaling for titles and subtitles, added logo styling, and refined CSS structure; adjusted IntelliJ workspace configuration and updated task details.">
       <option name="closed" value="true" />
@@ -580,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789376201349</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <task id="LOCAL-00269" summary="took years alive out of subsection titles for significant figures subsections">
+      <option name="closed" value="true" />
+      <created>1789376407336</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1789376407337</updated>
+    </task>
+    <task id="LOCAL-00270" summary="took years alive out of subsection titles for significant figures subsections">
+      <option name="closed" value="true" />
+      <created>1789376449594</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1789376449594</updated>
+    </task>
+    <option name="localTasksCounter" value="271" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Expanded Legendre Transform and Euler-Lagrange subsections: added variational mechanics context, clarified definitions, and updated notes graph with new references." />
     <MESSAGE value="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts." />
     <MESSAGE value="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions." />
     <MESSAGE value="Expanded Euler-Lagrange and Action content: refined descriptions, added tags, new prerequisite and reference connections in notes graph; updated variational mechanics context." />
@@ -623,6 +625,7 @@
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity" />
     <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
     <MESSAGE value="rearranged content on legendre significant figure subsection" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearranged content on legendre significant figure subsection" />
+    <MESSAGE value="took years alive out of subsection titles for significant figures subsections" />
+    <option name="LAST_COMMIT_MESSAGE" value="took years alive out of subsection titles for significant figures subsections" />
   </component>
 </project>

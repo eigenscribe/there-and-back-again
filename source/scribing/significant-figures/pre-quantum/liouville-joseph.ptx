@@ -62,15 +62,32 @@
         </p>
       </statement>
       <remark>
-        <p>
-          This identity leverages the parity properties of <m>F</m> to related sums over all possible solutions to sums
-          over a subset of possible solutions.
-        </p>
-      </remark>
-      <remark>
-        <p>
-          Used by <xref ref="sub-gibbs-josiah" text="custom">Josiah Gibbs</xref> in his derivation of Lioville's theorem.
-        </p>
+        <ul>
+          <li>
+            <p>
+              Discrete symmetry-based transformation formula.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Leverages the parity properties of <m>F</m> to simplify sums over all possible solutions to sums
+              over a subset of possible solutions of the quadratic Diophantine equations.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Used by <xref ref="sub-gibbs-josiah" text="custom">Josiah Gibbs</xref> in his derivation of Lioville's
+              theorem.
+            </p>
+            <warning>
+              <p>
+                Make sure to fact-check this statement.
+              </p>
+            </warning>
+          </li>
+        </ul>
       </remark>
     </theorem>
 
