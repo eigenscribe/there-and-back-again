@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="included nation flag emojis for lagrange significant figures citizenship listing">
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/pre-quantum/legendre-adrien-marie.ptx" afterDir="false" />
-    </list>
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="rearranged content on legendre significant figure subsection" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00219" summary="Updated geometric mean definition with detailed mathematical formulation, linked it in the means subsection, added prerequisite connection in notes graph, and refined IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787989671027</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1787989671028</updated>
     </task>
     <task id="LOCAL-00220" summary="Updated geometric mean definition with improved formatting, added logarithmic form as a remark, refined arithmetic mean notation, updated notes graph links, and adjusted IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -583,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789375358325</updated>
     </task>
-    <option name="localTasksCounter" value="268" />
+    <task id="LOCAL-00268" summary="rearranged content on legendre significant figure subsection">
+      <option name="closed" value="true" />
+      <created>1789376201349</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1789376201349</updated>
+    </task>
+    <option name="localTasksCounter" value="269" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries." />
     <MESSAGE value="Expanded Legendre Transform and Euler-Lagrange subsections: added variational mechanics context, clarified definitions, and updated notes graph with new references." />
     <MESSAGE value="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts." />
     <MESSAGE value="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions." />
@@ -626,6 +622,7 @@
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem" />
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity" />
     <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
-    <option name="LAST_COMMIT_MESSAGE" value="included nation flag emojis for lagrange significant figures citizenship listing" />
+    <MESSAGE value="rearranged content on legendre significant figure subsection" />
+    <option name="LAST_COMMIT_MESSAGE" value="rearranged content on legendre significant figure subsection" />
   </component>
 </project>
