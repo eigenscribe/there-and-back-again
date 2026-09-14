@@ -12,6 +12,7 @@
         <alert>Core Contributions:</alert>
         <ul>
           <li>
+            Used <xref ref="thm-liouville-identity" text="custom">Liouvill's identity</xref> to derive
             Liouville's Theorem.
           </li>
         </ul>

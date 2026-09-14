@@ -2011,6 +2011,12 @@
       "weight": 3
     },
     {
+      "source": "sub-gibbs-josiah",
+      "target": "thm-liouville-identity",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "def-euler-lagrange",
       "target": "def-euler-lagrange-physics",
       "type": "prerequisite",
