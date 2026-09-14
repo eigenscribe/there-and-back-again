@@ -58,7 +58,7 @@
               <li>
                <p>
                  <m>T_1(n)=\sum_{j=1}^{n-1}F(j,j,-j)</m> (with <m>j</m> is <em>odd</em>,
-               <p>
+               </p>
               </li>
               <li>
                <p>
