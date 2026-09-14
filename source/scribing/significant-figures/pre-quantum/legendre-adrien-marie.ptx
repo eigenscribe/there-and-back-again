@@ -54,7 +54,7 @@
       </p>
     </introduction>
 
-    <definition>
+    <definition xml:id="def-legendre-differential-equation">
       <title>Legendre's Differential Equation</title>
       <idx>Legendre's differential equation</idx>
 
@@ -69,29 +69,44 @@
       <idx>Legendre polynomials</idx>
 
       <statement>
-        <p>Used to solve the Legendre's differential equation.</p>
         <md>
           P_n(x) = \frac{1}{2^n n!} \frac{d^n}{dx^n} \big(x^2 - 1\big)^n
         </md>
         <p>
-          Singular points at <m>x = \pm 1</m>.
+          <dl>
+            <li>
+              <title>Singular points</title>
+              <p>
+                <m>x = \pm 1</m>
+              </p>
+            </li>
+            <li>
+              <title>Recurrence relation</title>
+              <p>
+                <md>(n+1)P_{n+1} = (2n+1)xP_n - nP_{n-1}</md>
+                where <m>P_0 = 1</m> and <m>P_1 = x</m>.
+              </p>
+            </li>
+          </dl>
         </p>
       </statement>
-      <assemblage>
-        <title>Recurrence Relation</title>
-        <p>
-          The Legendre polynomials are defined by the recurrence relation:
-          <md>
-            <mrow>(n+1)P_{n+1} = (2n+1)xP_n - nP_{n-1}</mrow>
-          </md>
-          where <m>P_0 = 1</m> and <m>P_1 = x</m>.
-        </p>
-      </assemblage>
+
       <remark>
-        <p>
-           Also called <em>Rodrigues' formula</em>.
-        </p>
+        <ul>
+          <li>
+            <p>
+              Used to solve
+              <xref ref="def-legendre-differential-equation" text="custom">Legendre’s differential equation</xref>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Also known as <term>Rodrigues' formula</term>.
+            </p>
+          </li>
+        </ul>
       </remark>
+
     </definition>
 
 </subsection>

@@ -1426,6 +1426,17 @@
       "color": "#a0a0a0"
     },
     {
+      "id": "def-legendre-differential-equation",
+      "title": "Legendre's Differential Equation",
+      "url": "sub-legendre-adrien-marie.html#def-legendre-differential-equation",
+      "tags": [
+        "legendre's differential equation"
+      ],
+      "description": "(1-x^2)P_n''- xP_n' + n^2P_n",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
       "id": "sub-gibbs-josiah",
       "title": "Josiah Willard Gibbs (1839-1903)",
       "url": "sub-gibbs-josiah.html",
