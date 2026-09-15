@@ -7,19 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="took years alive out of subsection titles for significant figures subsections">
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/subsec-clifford-crossings.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/there-and-back-again.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/there-and-back-again.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publication/publication.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/publication/publication.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/sec-ga-hodge-dual.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/sec-ga-hodge-dual.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/sec-physics-and-geometric-algebra.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/sec-physics-and-geometric-algebra.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/field-notes/sec-feynmann-lectures.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/field-notes/sec-feynmann-lectures.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies.">
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/subsec-clifford-crossings.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/subsec-clifford-crossings.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,61 +40,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0471849468777825" />
-      <entry key="MS500" value="1.8637387781784756" />
-      <entry key="S2" value="4.00266767409226" />
-      <entry key="S5" value="5.466019765777965" />
-      <entry key="S10" value="6.209647205372988" />
-      <entry key="S30" value="10.3578787300974" />
-      <entry key="S60" value="18.217266890988828" />
-      <entry key="M2" value="28.975485325266117" />
-      <entry key="M5" value="55.742822357177594" />
-      <entry key="M10" value="102.40343728948908" />
-      <entry key="M15" value="151.74442300671603" />
-      <entry key="M30" value="317.38757978969204" />
-      <entry key="H1" value="685.5170709594689" />
-      <entry key="H2" value="1328.5723107064211" />
-      <entry key="H4" value="2163.006948894281" />
-      <entry key="D1" value="4768.113258903594" />
-      <entry key="W1" value="23582.84535285475" />
+      <entry key="MS100" value="1.000006828510799" />
+      <entry key="MS500" value="1.100021447751732" />
+      <entry key="S2" value="2.156256455031597" />
+      <entry key="S5" value="3.863203645793235" />
+      <entry key="S10" value="5.89267678385389" />
+      <entry key="S30" value="13.964148416157292" />
+      <entry key="S60" value="25.740922391468267" />
+      <entry key="M2" value="43.9981300911368" />
+      <entry key="M5" value="81.21105763699931" />
+      <entry key="M10" value="132.05135521218648" />
+      <entry key="M15" value="182.1234865729084" />
+      <entry key="M30" value="345.485212823035" />
+      <entry key="H1" value="709.0119513395109" />
+      <entry key="H2" value="1353.7713117170379" />
+      <entry key="H4" value="2199.330812431958" />
+      <entry key="D1" value="4835.8103531138295" />
+      <entry key="W1" value="23655.94907312268" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="4.0869920504013217E-247" />
-      <entry key="S10" value="6.3929586659083395E-124" />
-      <entry key="S30" value="8.614577164032558E-42" />
-      <entry key="S60" value="2.9350599932595E-21" />
-      <entry key="M2" value="5.4176193971702055E-11" />
-      <entry key="M5" value="7.825703629889055E-5" />
-      <entry key="M10" value="0.008846300712664613" />
-      <entry key="M15" value="0.04277346819447415" />
-      <entry key="M30" value="0.2068174755538655" />
-      <entry key="H1" value="0.45477189397968154" />
-      <entry key="H2" value="0.6743677738034272" />
-      <entry key="H4" value="0.8212163733428705" />
-      <entry key="D1" value="1.860842137293241" />
-      <entry key="W1" value="40.15692483958351" />
+      <entry key="S5" value="8.100181242970842E-276" />
+      <entry key="S10" value="2.846081735117713E-138" />
+      <entry key="S30" value="1.4171498964997358E-46" />
+      <entry key="S60" value="1.190441051249374E-23" />
+      <entry key="M2" value="3.450276874758557E-12" />
+      <entry key="M5" value="2.6010073470104214E-5" />
+      <entry key="M10" value="0.005100007202946294" />
+      <entry key="M15" value="0.029628786166423043" />
+      <entry key="M30" value="0.17213014310812258" />
+      <entry key="H1" value="0.41488569884743354" />
+      <entry key="H2" value="0.6441162155856168" />
+      <entry key="H4" value="0.8025855048151356" />
+      <entry key="D1" value="1.8537385595476317" />
+      <entry key="W1" value="40.13498963787518" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0152674863661326" />
-      <entry key="MS500" value="1.8452307268048624" />
-      <entry key="S2" value="3.9913152596285384" />
-      <entry key="S5" value="5.459527257613242" />
-      <entry key="S10" value="6.205908985052007" />
-      <entry key="S30" value="10.356047559950431" />
-      <entry key="S60" value="18.215838380100394" />
-      <entry key="M2" value="28.974421580970375" />
-      <entry key="M5" value="55.74211903780051" />
-      <entry key="M10" value="102.41155098308866" />
-      <entry key="M15" value="151.78642516968893" />
-      <entry key="M30" value="317.5934895423618" />
-      <entry key="H1" value="685.9708583373642" />
-      <entry key="H2" value="1329.2457766996736" />
-      <entry key="H4" value="2163.8274517058853" />
-      <entry key="D1" value="4769.973627978163" />
-      <entry key="W1" value="23623.001480255793" />
+      <entry key="MS100" value="0.9794269393718161" />
+      <entry key="MS500" value="1.0953271951926908" />
+      <entry key="S2" value="2.1536586920852803" />
+      <entry key="S5" value="3.86103171200599" />
+      <entry key="S10" value="5.890835651224467" />
+      <entry key="S30" value="13.962464740572736" />
+      <entry key="S60" value="25.739285932659634" />
+      <entry key="M2" value="43.99669201936534" />
+      <entry key="M5" value="81.21000179835025" />
+      <entry key="M10" value="132.05555344329161" />
+      <entry key="M15" value="182.15224389161713" />
+      <entry key="M30" value="345.65640941227775" />
+      <entry key="H1" value="709.4258473246781" />
+      <entry key="H2" value="1354.414520186963" />
+      <entry key="H4" value="2200.132677190732" />
+      <entry key="D1" value="4837.663616498117" />
+      <entry key="W1" value="23696.083265197263" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -200,14 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00222" summary="Enhanced masthead responsiveness and styling with updated scaling for titles and subtitles, added logo styling, and refined CSS structure; adjusted IntelliJ workspace configuration and updated task details.">
-      <option name="closed" value="true" />
-      <created>1787991546909</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1787991546909</updated>
     </task>
     <task id="LOCAL-00223" summary="Refined masthead styling with improved responsiveness, adjusted title and subtitle scaling, removed redundant colon after titles, and updated IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -593,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789376449594</updated>
     </task>
-    <option name="localTasksCounter" value="271" />
+    <task id="LOCAL-00271" summary="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies.">
+      <option name="closed" value="true" />
+      <created>1789500021656</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1789500021657</updated>
+    </task>
+    <option name="localTasksCounter" value="272" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,8 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts." />
-    <MESSAGE value="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions." />
     <MESSAGE value="Expanded Euler-Lagrange and Action content: refined descriptions, added tags, new prerequisite and reference connections in notes graph; updated variational mechanics context." />
     <MESSAGE value="Updated IntelliJ workspace configuration: adjusted indexing values, refined methodology description, and synchronized tasks with recent project updates." />
     <MESSAGE value="Refined Eigenscribe methodology description: emphasized parsimony over responsible reasoning, streamlined phrasing for improved clarity and conciseness." />
@@ -636,6 +623,8 @@
     <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
     <MESSAGE value="rearranged content on legendre significant figure subsection" />
     <MESSAGE value="took years alive out of subsection titles for significant figures subsections" />
-    <option name="LAST_COMMIT_MESSAGE" value="took years alive out of subsection titles for significant figures subsections" />
+    <MESSAGE value="code block copy icon changed" />
+    <MESSAGE value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
   </component>
 </project>

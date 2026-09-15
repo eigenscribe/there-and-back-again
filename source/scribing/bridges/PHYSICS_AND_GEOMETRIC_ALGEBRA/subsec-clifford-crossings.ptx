@@ -9,18 +9,40 @@
     <dl>
       <li>
         <title><m>\mathrm{Cl}(n)</m></title>
-
         <p>
           Shorthand for <m>\mathrm{Cl}(n,0)</m> (i.e., <term>Euclidean <m>n</m>-space</term>
         </p>
       </li>
       <li>
+        <title><m>\mathrm{Cl}(2)</m></title>
+        <p>
+          Euclidean 2D
+        </p>
+      </li>
+      <li>
         <title><m>\mathrm{Cl}(p,q)</m></title>
-
         <p>
           Clifford algebra over <m>\R^{p+q}</m> with signature <m>(\underbrace{+,\dots,+}{p}, \underbrace{-, \dots, -}(q)</m>
         </p>
       </li>
+      <li>
+        <title><m>\mathrm{Cl}(1,3)</m></title>
+        <p>
+          Spacetime Algebra
+        </p>
+        <p>
+          Used in relativistic physics
+        </p>
+      </li>
+      <li>
+        <title><m>\mathrm{Cl}(3)</m></title>
+        <p>
+          Pauli Algebra.
+        </p>
+        <p>
+          Quantum mechanics (non-relativistic)
+        </p>
+       </li>
     </dl>
 
   </paragraphs>
