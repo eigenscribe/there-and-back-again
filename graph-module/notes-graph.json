@@ -414,6 +414,17 @@
       "color": "#9013fe"
     },
     {
+      "id": "sec-clifford-algebras",
+      "title": "Clifford Algebras",
+      "url": "sec-clifford-algebras.html",
+      "tags": [
+        "clifford algebras"
+      ],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-algebra-and-precalculus",
       "title": "Algebra and Precalculus",
       "url": "sec-algebra-and-precalculus.html",

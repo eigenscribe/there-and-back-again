@@ -7,17 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph.">
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/KURAMOTO_GEOMETRIC_ALGEBRA_REPRESENTATION/subsec-kuramoto-geometric-algebra-representation.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/sec-clifford-crossings.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links.">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsec-clifford-algebras.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsubsec-cl2.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/ga-uniform-b-field.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES/para-ga-uniform-b-field.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/sec-physics-and-geometric-algebra.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES/subsec-physics-geometric-algebra-bridges.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/subsec-clifford-crossings.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES/para-clifford-physics-concept-map.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/wedge-product-and-angular-momentum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES/para-wedge-product-and-angular-momentum.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/sec-ga-hodge-dual.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/subsec-ga-hodge-dual.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-geometric-algebra.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-geometric-algebra.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2574" />
+    <option name="cachedIndexableFilesCount" value="2603" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -156,11 +152,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\GEOMETRIC_ALGEBRA\CLIFFORD_ALGEBRAS" />
       <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES" />
       <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\GA_PHYSICS_CROSSINGS" />
       <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING" />
-      <recent name="$PROJECT_DIR$/source/frontmatter" />
     </key>
   </component>
   <component name="RunManager" selected="PowerShell.build.ps1">
@@ -183,6 +179,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PowerShell.build.ps1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -198,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00224" summary="Refined navbar styling with enhanced hover and active states, improved text contrast, added subtle glowing effects, and updated IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787992688456</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1787992688456</updated>
     </task>
     <task id="LOCAL-00225" summary="Refined navbar styling with adjusted gradients, improved hover and active states, enhanced text contrast, updated glowing effects, and revised IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -591,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789500622744</updated>
     </task>
-    <option name="localTasksCounter" value="273" />
+    <task id="LOCAL-00273" summary="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links.">
+      <option name="closed" value="true" />
+      <created>1789502583907</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1789502583907</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated IntelliJ workspace configuration: adjusted indexing values, refined methodology description, and synchronized tasks with recent project updates." />
     <MESSAGE value="Refined Eigenscribe methodology description: emphasized parsimony over responsible reasoning, streamlined phrasing for improved clarity and conciseness." />
     <MESSAGE value="Updated `publication.ptx` chunking and table of contents levels for finer granularity; refined IntelliJ workspace configurations and synchronized notes graph entries." />
     <MESSAGE value="Added `.output.json` for managing granular content references across multiple sections, enabling improved tracking and synchronization of source files." />
@@ -634,6 +634,7 @@
     <MESSAGE value="code block copy icon changed" />
     <MESSAGE value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
     <MESSAGE value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
+    <MESSAGE value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
   </component>
 </project>
