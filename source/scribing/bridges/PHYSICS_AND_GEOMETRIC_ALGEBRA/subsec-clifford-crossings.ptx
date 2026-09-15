@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-clifford-crossings" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Clifford Crossings</title>
+
+  <paragraphs xml:id="para-clifford-concept-maps">
+    <title>Clifford Concept Maps</title>
+
+    <dl>
+      <li>
+        <title><m>\mathrm{Cl}(n)</m></title>
+
+        <p>
+          Shorthand for <m>\mathrm{Cl}(n,0)</m> (i.e., <term>Euclidean <m>n</m>-space</term>
+        </p>
+      </li>
+      <li>
+        <title><m>\mathrm{Cl}(p,q)</m></title>
+
+        <p>
+          Clifford algebra over <m>\R^{p+q}</m> with signature <m>(\underbrace{+,\dots,+}{p}, \underbrace{-, \dots, -}(q)</m>
+        </p>
+      </li>
+    </dl>
+
+  </paragraphs>
+
+  <paragraphs xml:id="kuramoto-ga-bridge">
+    <title>Kuramoto-GA Bridge</title>
+
+     <introduction>
+       <p>
+         Construction notes for crossings within the even subalgebra of <m>\mathrm{Cl}(2)</m>. Here, we aim to
+         demonstrate how l
+       </p>
+     </introduction>
+  </paragraphs>
+</subsection>

@@ -307,7 +307,7 @@
         <idx>Poisson bracket</idx>
         <p>
           The <term>Poisson bracket</term> between phase space observables <m>A(\vec{q}, \vec{p})</m> and <m>B(\vec{q}, \vec{p})</m>:
-          <me>\{A, B\} = \sum_{i=1}^n \left( \frac{\partial A}{\partial q_i}\frac{\partial B}{\partial p_i} - \frac{\partial A}{\partial p_i}\frac{\partial B}{\partial q_i} \right)</me>
+          <md>\{A, B\} = \sum_{i=1}^n \left( \frac{\partial A}{\partial q_i}\frac{\partial B}{\partial p_i} - \frac{\partial A}{\partial p_i}\frac{\partial B}{\partial q_i} \right)</md>
         </p>
       </li>
 

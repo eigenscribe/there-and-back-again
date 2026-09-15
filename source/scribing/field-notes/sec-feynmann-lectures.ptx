@@ -15,9 +15,7 @@
         </p>
     </claim>
 
-    <sbsgroup>
-
-        <sidebyside widths="48% 48%">
+    <sidebyside widths="48% 48%">
 
             <table xml:id="table-static-electromagnetic-variables">
                 <title>
@@ -92,10 +90,6 @@
             </table>
 
         </sidebyside>
-
-        
-
-    </sbsgroup>
 
     <p>
         Adapted from Table 15-1 in

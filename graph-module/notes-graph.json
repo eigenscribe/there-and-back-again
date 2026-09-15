@@ -1338,6 +1338,15 @@
       "color": "#50e3c2"
     },
     {
+      "id": "subsec-clifford-crossings",
+      "title": "Clifford Crossings",
+      "url": "subsec-clifford-crossings.html",
+      "tags": [],
+      "description": "Shorthand for \\mathrm{Cl}(n,0) (i.e., Euclidean n-space",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
       "id": "subsec-wedge-product-and-angular-momentum",
       "title": "Physical Interpretations of the Wedge Product",
       "url": "subsec-wedge-product-and-angular-momentum.html",
