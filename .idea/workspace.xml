@@ -7,8 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies.">
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/subsec-clifford-crossings.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/subsec-clifford-crossings.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph.">
+      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/KURAMOTO_GEOMETRIC_ALGEBRA_REPRESENTATION/subsec-kuramoto-geometric-algebra-representation.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/sec-clifford-crossings.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/ga-uniform-b-field.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES/para-ga-uniform-b-field.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/sec-physics-and-geometric-algebra.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES/subsec-physics-geometric-algebra-bridges.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/subsec-clifford-crossings.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES/para-clifford-physics-concept-map.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/PHYSICS_AND_GEOMETRIC_ALGEBRA/wedge-product-and-angular-momentum.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES/para-wedge-product-and-angular-momentum.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +49,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000006828510799" />
-      <entry key="MS500" value="1.100021447751732" />
-      <entry key="S2" value="2.156256455031597" />
-      <entry key="S5" value="3.863203645793235" />
-      <entry key="S10" value="5.89267678385389" />
-      <entry key="S30" value="13.964148416157292" />
-      <entry key="S60" value="25.740922391468267" />
-      <entry key="M2" value="43.9981300911368" />
-      <entry key="M5" value="81.21105763699931" />
-      <entry key="M10" value="132.05135521218648" />
-      <entry key="M15" value="182.1234865729084" />
-      <entry key="M30" value="345.485212823035" />
-      <entry key="H1" value="709.0119513395109" />
-      <entry key="H2" value="1353.7713117170379" />
-      <entry key="H4" value="2199.330812431958" />
-      <entry key="D1" value="4835.8103531138295" />
-      <entry key="W1" value="23655.94907312268" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000742288" />
+      <entry key="S5" value="1.0008733728276746" />
+      <entry key="S10" value="1.2747945114185228" />
+      <entry key="S30" value="17.895384079147302" />
+      <entry key="S60" value="52.19205426941997" />
+      <entry key="M2" value="94.91287212723829" />
+      <entry key="M5" value="151.81354965099766" />
+      <entry key="M10" value="206.89516646923465" />
+      <entry key="M15" value="256.02804205240864" />
+      <entry key="M30" value="409.03838849074265" />
+      <entry key="H1" value="753.0185712201779" />
+      <entry key="H2" value="1399.0196808556457" />
+      <entry key="H4" value="2283.713064086771" />
+      <entry key="D1" value="5042.56862510092" />
+      <entry key="W1" value="23884.96227726175" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="8.100181242970842E-276" />
-      <entry key="S10" value="2.846081735117713E-138" />
-      <entry key="S30" value="1.4171498964997358E-46" />
-      <entry key="S60" value="1.190441051249374E-23" />
-      <entry key="M2" value="3.450276874758557E-12" />
-      <entry key="M5" value="2.6010073470104214E-5" />
-      <entry key="M10" value="0.005100007202946294" />
-      <entry key="M15" value="0.029628786166423043" />
-      <entry key="M30" value="0.17213014310812258" />
-      <entry key="H1" value="0.41488569884743354" />
-      <entry key="H2" value="0.6441162155856168" />
-      <entry key="H4" value="0.8025855048151356" />
-      <entry key="D1" value="1.8537385595476317" />
-      <entry key="W1" value="40.13498963787518" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="8.527237878387488E-195" />
+      <entry key="S30" value="2.0430051408365025E-65" />
+      <entry key="S60" value="4.519961438813894E-33" />
+      <entry key="M2" value="6.723065847374886E-17" />
+      <entry key="M5" value="3.396463454069854E-7" />
+      <entry key="M10" value="5.827918542730174E-4" />
+      <entry key="M15" value="0.00697711126270812" />
+      <entry key="M30" value="0.08352910428532069" />
+      <entry key="H1" value="0.28901402091476686" />
+      <entry key="H2" value="0.5376002428818916" />
+      <entry key="H4" value="0.733227801648587" />
+      <entry key="D1" value="1.8260237383531999" />
+      <entry key="W1" value="40.04871394970101" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794269393718161" />
-      <entry key="MS500" value="1.0953271951926908" />
-      <entry key="S2" value="2.1536586920852803" />
-      <entry key="S5" value="3.86103171200599" />
-      <entry key="S10" value="5.890835651224467" />
-      <entry key="S30" value="13.962464740572736" />
-      <entry key="S60" value="25.739285932659634" />
-      <entry key="M2" value="43.99669201936534" />
-      <entry key="M5" value="81.21000179835025" />
-      <entry key="M10" value="132.05555344329161" />
-      <entry key="M15" value="182.15224389161713" />
-      <entry key="M30" value="345.65640941227775" />
-      <entry key="H1" value="709.4258473246781" />
-      <entry key="H2" value="1354.414520186963" />
-      <entry key="H4" value="2200.132677190732" />
-      <entry key="D1" value="4837.663616498117" />
-      <entry key="W1" value="23696.083265197263" />
+      <entry key="MS100" value="0.8066417592221263" />
+      <entry key="MS500" value="0.9579352182226964" />
+      <entry key="S2" value="0.9893137270573353" />
+      <entry key="S5" value="0.9965845169464442" />
+      <entry key="S10" value="1.2725581374131647" />
+      <entry key="S30" value="17.892804963202575" />
+      <entry key="S60" value="52.18887099769841" />
+      <entry key="M2" value="94.91010325292959" />
+      <entry key="M5" value="151.8118145246651" />
+      <entry key="M10" value="206.89455899227235" />
+      <entry key="M15" value="256.0340101243226" />
+      <entry key="M30" value="409.1210100903208" />
+      <entry key="H1" value="753.3066519854149" />
+      <entry key="H2" value="1399.5563968725758" />
+      <entry key="H4" value="2284.445568882817" />
+      <entry key="D1" value="5044.394169830314" />
+      <entry key="W1" value="23925.010193795555" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -147,11 +156,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\GA_PHYSICS_CROSSINGS" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS" />
       <recent name="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING" />
       <recent name="$PROJECT_DIR$/source/frontmatter" />
-      <recent name="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON-PACKAGES" />
-      <recent name="$PROJECT_DIR$/source/scribing/bridges/DATA_GEOMETRY_MAP" />
-      <recent name="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/DIRAC_DELTA" />
     </key>
   </component>
   <component name="RunManager" selected="PowerShell.build.ps1">
@@ -189,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00223" summary="Refined masthead styling with improved responsiveness, adjusted title and subtitle scaling, removed redundant colon after titles, and updated IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787991913711</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1787991913711</updated>
     </task>
     <task id="LOCAL-00224" summary="Refined navbar styling with enhanced hover and active states, improved text contrast, added subtle glowing effects, and updated IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -582,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789500021657</updated>
     </task>
-    <option name="localTasksCounter" value="272" />
+    <task id="LOCAL-00272" summary="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph.">
+      <option name="closed" value="true" />
+      <created>1789500622744</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1789500622744</updated>
+    </task>
+    <option name="localTasksCounter" value="273" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Expanded Euler-Lagrange and Action content: refined descriptions, added tags, new prerequisite and reference connections in notes graph; updated variational mechanics context." />
     <MESSAGE value="Updated IntelliJ workspace configuration: adjusted indexing values, refined methodology description, and synchronized tasks with recent project updates." />
     <MESSAGE value="Refined Eigenscribe methodology description: emphasized parsimony over responsible reasoning, streamlined phrasing for improved clarity and conciseness." />
     <MESSAGE value="Updated `publication.ptx` chunking and table of contents levels for finer granularity; refined IntelliJ workspace configurations and synchronized notes graph entries." />
@@ -625,6 +633,7 @@
     <MESSAGE value="took years alive out of subsection titles for significant figures subsections" />
     <MESSAGE value="code block copy icon changed" />
     <MESSAGE value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
+    <MESSAGE value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
   </component>
 </project>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="subsec-ga-uniform-b-field" xmlns:xi="http://www.w3.org/2001/XInclude">
+<paragraphs xml:id="para-ga-uniform-b-field" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Vector Potential for a Uniform Magnetic Field</title>
 
     <introduction>
@@ -75,4 +75,4 @@
         </p>
     </conclusion>
 
-</subsection>
+</paragraphs>

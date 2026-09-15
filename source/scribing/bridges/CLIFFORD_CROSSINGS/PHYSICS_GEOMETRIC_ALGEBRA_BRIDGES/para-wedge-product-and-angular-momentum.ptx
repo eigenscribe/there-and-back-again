@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="subsec-wedge-product-and-angular-momentum" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Physical Interpretations of the Wedge Product</title>
+<paragraphs xml:id="para-wedge-product-and-angular-momentum" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Physical Interpretations of the Wedge Product</title>
   <introduction>
     <p>
       <tag>202604110004</tag> | <tag>geometric algebra</tag> <tag>classical mechanics</tag> <tag>vector calculus</tag> |
@@ -9,9 +9,8 @@
     </p>
   </introduction>
 
-  <subsubsection xml:id="subsubsec-wedge-product-angular-momentum">
+  <claim xml:id="claim-wedge-product-angular-momentum">
     <title>Wedge Product and Angular Momentum</title>
-    <claim>
       <p>
         The <term>wedge product</term> captures oriented area and is analogous to angular momentum or flux in physical systems.
       </p>
@@ -71,7 +70,6 @@
         </p>
       </warning>
     </claim>
-  </subsubsection>
 
   <conclusion>
     <p>
@@ -82,4 +80,4 @@
     </p>
   </conclusion>
 
-</subsection>
+</paragraphs>

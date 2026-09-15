@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-clifford-crossings" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Clifford Crossings</title>
+
+  <xi:include href="KURAMOTO_GEOMETRIC_ALGEBRA_REPRESENTATION/subsec-kuramoto-geometric-algebra-representation.ptx" />
+  <xi:include href="PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES/subsec-physics-geometric-algebra-bridges.ptx" />
+</section>

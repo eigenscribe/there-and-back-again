@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="subsec-clifford-crossings" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Clifford Crossings</title>
-
-  <paragraphs xml:id="para-clifford-concept-maps">
-    <title>Clifford Concept Maps</title>
+<paragraphs xml:id="para-clifford-concept-maps" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Concept Map: Physics and Clifford Algebras</title>
 
     <dl>
       <li>
@@ -45,16 +42,4 @@
        </li>
     </dl>
 
-  </paragraphs>
-
-  <paragraphs xml:id="kuramoto-ga-bridge">
-    <title>Kuramoto-GA Bridge</title>
-
-     <introduction>
-       <p>
-         Construction notes for crossings within the even subalgebra of <m>\mathrm{Cl}(2)</m>. Here, we aim to
-         demonstrate how l
-       </p>
-     </introduction>
-  </paragraphs>
-</subsection>
+ </paragraphs>

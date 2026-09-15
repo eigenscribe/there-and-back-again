@@ -43,6 +43,7 @@ Copy-Item "assets/cover.png" "output/web/external/"
 Copy-Item "assets/favicon.png" "output/web/external/"
 Copy-Item "assets/ember.png" "output/web/external/"
 Copy-Item "assets/orb.png" "output/web/external/"
+Copy-Item "assets/proofmark.png" "output/web/external/"
 Copy-Item "assets/space-bg.png" "output/web/external/"
 Copy-Item "assets/favicon.png" "output/web/"
 New-Item -ItemType Directory -Path "output/web/external/widgets/periodic-table" -Force | Out-Null

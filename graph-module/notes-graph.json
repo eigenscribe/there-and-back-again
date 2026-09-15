@@ -1222,6 +1222,53 @@
       "color": "#50e3c2"
     },
     {
+      "id": "sec-clifford-crossings",
+      "title": "Clifford Crossings",
+      "url": "sec-clifford-crossings.html",
+      "tags": [],
+      "description": "",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
+      "id": "subsec-kuramoto-geometric-algebra-representation",
+      "title": "Geometric Algebra Formalization of the Kuramoto Model",
+      "url": "subsec-kuramoto-geometric-algebra-representation.html",
+      "tags": [],
+      "description": "Construction notes for crossings within the even subalgebra of \\mathrm{Cl}(2). Here, we aim to demonstrate how l",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
+      "id": "def-ga-uniform-b-field-vector-potential",
+      "title": "Vector Potential",
+      "url": "para-ga-uniform-b-field.html#def-ga-uniform-b-field-vector-potential",
+      "tags": [
+        "vector potential"
+      ],
+      "description": "For a uniform magnetic field \\vec{B}=B_0\\mathbf{e}_z, represented as a bivector \\bivec{B}=B_0(\\mathbf{e}_x\\wedge\\math...",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
+      "id": "claim-wedge-product-angular-momentum",
+      "title": "Wedge Product and Angular Momentum",
+      "url": "para-wedge-product-and-angular-momentum.html#claim-wedge-product-angular-momentum",
+      "tags": [],
+      "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems.",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
+      "id": "subsec-physics-and-geometric-algebra",
+      "title": "Physics and Geometric Algebra Bridges",
+      "url": "subsec-physics-and-geometric-algebra.html",
+      "tags": [],
+      "description": "The :logo: Eigenscribe \u00a9 methodology system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to r...",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
       "id": "sec-convention-stitching",
       "title": "Convention Stitching",
       "url": "sec-convention-stitching.html",
@@ -1299,64 +1346,6 @@
       "url": "sec-hidden-order-representation.html",
       "tags": [],
       "description": "Many of the most profound ideas in science are rooted in taking on new perspectives to think about physical systems t...",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "subsec-ga-uniform-b-field",
-      "title": "Vector Potential for a Uniform Magnetic Field",
-      "url": "subsec-ga-uniform-b-field.html",
-      "tags": [
-        "electromagnetism",
-        "geometric algebra",
-        "landau gauge",
-        "symmetry gauge",
-        "vector potential"
-      ],
-      "description": "For a uniform magnetic field \\vec{B}=B_0\\mathbf{e}_z, represented as a bivector \\bivec{B}=B_0(\\mathbf{e}_x\\wedge\\math...",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "def-ga-uniform-b-field-vector-potential",
-      "title": "Vector Potential",
-      "url": "subsec-ga-uniform-b-field.html#def-ga-uniform-b-field-vector-potential",
-      "tags": [
-        "vector potential"
-      ],
-      "description": "For a uniform magnetic field \\vec{B}=B_0\\mathbf{e}_z, represented as a bivector \\bivec{B}=B_0(\\mathbf{e}_x\\wedge\\math...",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "sec-physics-and-geometric-algebra",
-      "title": "Physics and Geometric Algebra",
-      "url": "sec-physics-and-geometric-algebra.html",
-      "tags": [],
-      "description": "The :logo: Eigenscribe \u00a9 methodology system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to r...",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "subsec-clifford-crossings",
-      "title": "Clifford Crossings",
-      "url": "subsec-clifford-crossings.html",
-      "tags": [],
-      "description": "Shorthand for \\mathrm{Cl}(n,0) (i.e., Euclidean n-space",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "subsec-wedge-product-and-angular-momentum",
-      "title": "Physical Interpretations of the Wedge Product",
-      "url": "subsec-wedge-product-and-angular-momentum.html",
-      "tags": [
-        "classical mechanics",
-        "geometric algebra",
-        "vector calculus",
-        "\ud83d\udd17 interactive"
-      ],
-      "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems.",
       "group": "bridges",
       "color": "#50e3c2"
     },
@@ -1911,6 +1900,12 @@
       "weight": 2
     },
     {
+      "source": "def-ga-uniform-b-field-vector-potential",
+      "target": "claim-vector-potential-generalization",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "gls-composition",
       "target": "para-clr-compositional-data",
       "type": "prerequisite",
@@ -1945,12 +1940,6 @@
       "target": "conceptual-pipeline",
       "type": "prerequisite",
       "weight": 3
-    },
-    {
-      "source": "def-ga-uniform-b-field-vector-potential",
-      "target": "claim-vector-potential-generalization",
-      "type": "reference",
-      "weight": 2
     },
     {
       "source": "def-physical-system",
