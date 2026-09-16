@@ -128,32 +128,34 @@ nav.ptx-toc .toc-backmatter.contains-active .toc-title-box a.internal,
   background-color: transparent !important;
   background-image: none !important;
 }
+/* EMOJI ISOLATION */
+.ptx-toc .toc-emoji,
+.ptx-toc .emoji,
+.toc-emoji,
+.emoji {
+  display: inline-block !important;
+  background: none !important;
+  background-image: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: initial !important;
+  color: initial !important;
+  text-shadow: none !important;
+  filter: none !important;
+  vertical-align: -0.08em !important;
+}
 "@
 Add-Content -Path "output/web/_static/pretext/css/theme.css" -Value $cssOverride
 
 # Inject CSS link and favicon into all HTML files
 Write-Host "Injecting custom CSS, emojis and favicon into HTML files..."
 
-# 1. Process ALL HTML files (including knowls) for emojis and tag brackets
+# 1. Process ALL HTML files (including knowls) for emojis and tag brackets via postprocess_html.py
 Write-Host "Post-processing all HTML files (recursive)..."
-$allHtmlFiles = Get-ChildItem -Path "output/web" -Filter "*.html" -Recurse
-foreach ($file in $allHtmlFiles) {
-    $content = Get-Content -Path $file.FullName -Raw
-    
-    # Inject custom emoji spans
-    $content = $content -replace ':favicon:', '<span class="twemoji" title=":favicon:"></span>'
-    $content = $content -replace ':proofmark:', '<span class="twemoji" title=":proofmark:"></span>'
-    $content = $content -replace ':eigenote:', '<span class="twemoji" title=":eigenote:"></span>'
-    $content = $content -replace ':ember:', '<span class="twemoji" title=":ember:"></span>'
-    $content = $content -replace ':logo:', '<span class="twemoji" title=":logo:"></span>'
-    
-    # Remove brackets from <tag> elements
-    $content = [regex]::Replace($content, '(<code class="code-inline tex2jax_ignore">)&lt;(.*?)&gt;(<\/code>)', '$1$2$3')
-    
-    # Convert language-none in program blocks to language-bash for Prism syntax highlighting
-    $content = [regex]::Replace($content, '(<pre class="program[^"]*"><code class=")language-none(")', '$1language-bash$2')
-    
-    Set-Content -Path $file.FullName -Value $content
+if (Get-Command python -ErrorAction SilentlyContinue) {
+    python scripts/postprocess_html.py
+} elseif (Get-Command python3 -ErrorAction SilentlyContinue) {
+    python3 scripts/postprocess_html.py
 }
 
 # 2. Process only top-level HTML files for path-sensitive injections
@@ -216,6 +218,18 @@ foreach ($file in $topLevelHtmlFiles) {
   background-color: transparent !important;
   background-image: none !important;
 }
+.ptx-toc .toc-emoji, .ptx-toc .emoji, .toc-emoji, .emoji {
+  display: inline-block !important;
+  background: none !important;
+  background-image: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: initial !important;
+  color: initial !important;
+  text-shadow: none !important;
+  filter: none !important;
+  vertical-align: -0.08em !important;
+}
 </style>
 <script>
 (function() {
@@ -252,7 +266,7 @@ foreach ($file in $topLevelHtmlFiles) {
     # Glassmorphic TOC styling
     if ($content -notmatch "glassmorphic-toc") {
         $glassmorphicStyle = @"
-<style id="glassmorphic-toc">:root{--toclevel1-background:transparent!important;--toclevel2-background:transparent!important;--toclevel3-background:transparent!important}nav#ptx-toc.ptx-toc,nav#ptx-toc.ptx-toc ul.structural,nav#ptx-toc.ptx-toc .toc-item-list{background:transparent!important}nav#ptx-toc.ptx-toc .toc-title-box{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item,nav#ptx-toc.ptx-toc li.toc-frontmatter,nav#ptx-toc.ptx-toc li.toc-backmatter,nav#ptx-toc.ptx-toc li.toc-chapter{background:linear-gradient(135deg,rgba(20,181,255,0.18),rgba(59,130,246,0.22))!important;backdrop-filter:blur(16px)!important;-webkit-backdrop-filter:blur(16px)!important;border:1px solid rgba(59,130,246,0.35)!important;border-radius:14px!important;box-shadow:0 4px 20px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.08)!important}nav#ptx-toc.ptx-toc li.toc-item.contains-active,nav#ptx-toc.ptx-toc li.toc-item.active,nav#ptx-toc.ptx-toc li.toc-frontmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-backmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-chapter.contains-active{background:linear-gradient(135deg,rgba(20,30,60,0.9),rgba(40,50,100,0.85))!important;border:1px solid rgba(100,120,200,0.5)!important;box-shadow:0 6px 24px rgba(0,0,0,0.5),inset 0 1px 0 rgba(255,255,255,0.1)!important}nav#ptx-toc.ptx-toc .toc-title-box>.internal{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item ul.structural{background:transparent!important;padding-left:0.75rem!important}.ptx-toc .toc-expander,.ptx-toc .toc-chevron,.ptx-toc .toc-chevron-surround,.ptx-toc .material-symbols-outlined{display:none!important}</style>
+<style id="glassmorphic-toc">:root{--toclevel1-background:transparent!important;--toclevel2-background:transparent!important;--toclevel3-background:transparent!important}nav#ptx-toc.ptx-toc,nav#ptx-toc.ptx-toc ul.structural,nav#ptx-toc.ptx-toc .toc-item-list{background:transparent!important}nav#ptx-toc.ptx-toc .toc-title-box{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item,nav#ptx-toc.ptx-toc li.toc-frontmatter,nav#ptx-toc.ptx-toc li.toc-backmatter,nav#ptx-toc.ptx-toc li.toc-chapter{background:linear-gradient(135deg,rgba(20,181,255,0.18),rgba(59,130,246,0.22))!important;backdrop-filter:blur(16px)!important;-webkit-backdrop-filter:blur(16px)!important;border:1px solid rgba(59,130,246,0.35)!important;border-radius:14px!important;box-shadow:0 4px 20px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.08)!important}nav#ptx-toc.ptx-toc li.toc-item.contains-active,nav#ptx-toc.ptx-toc li.toc-item.active,nav#ptx-toc.ptx-toc li.toc-frontmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-backmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-chapter.contains-active{background:linear-gradient(135deg,rgba(20,30,60,0.9),rgba(40,50,100,0.85))!important;border:1px solid rgba(100,120,200,0.5)!important;box-shadow:0 6px 24px rgba(0,0,0,0.5),inset 0 1px 0 rgba(255,255,255,0.1)!important}nav#ptx-toc.ptx-toc .toc-title-box>.internal{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item ul.structural{background:transparent!important;padding-left:0.75rem!important}.ptx-toc .toc-expander,.ptx-toc .toc-chevron,.ptx-toc .toc-chevron-surround,.ptx-toc .material-symbols-outlined{display:none!important}.ptx-toc .toc-emoji,.ptx-toc .emoji,.toc-emoji,.emoji{display:inline-block!important;background:none!important;background-image:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;-webkit-text-fill-color:initial!important;color:initial!important;text-shadow:none!important;filter:none!important;vertical-align:-0.08em!important}</style>
 "@
         $content = $content -replace '(</head>)', "$glassmorphicStyle`n`$1"
     }

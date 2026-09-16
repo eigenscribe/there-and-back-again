@@ -388,9 +388,17 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 
 .ptx-toc ul.structural li.active a,
 .ptx-toc li.active a,
+.ptx-toc .toc-item.active a {
+  background: transparent !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  text-decoration: none !important;
+}
+
+.ptx-toc ul.structural li.active .codenumber,
+.ptx-toc ul.structural li.active .title,
 .ptx-toc li.active .codenumber,
 .ptx-toc li.active .title,
-.ptx-toc .toc-item.active a,
 .ptx-toc .toc-item.active .codenumber,
 .ptx-toc .toc-item.active .title {
   background: var(--gradient-cyan-to-blue);
@@ -402,15 +410,20 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 
 /* Folder titles when expanded - blue to purple gradient for contrast against blue background */
 .ptx-toc .toc-item.contains-active > .toc-title-box a,
+.ptx-toc .toc-chapter.contains-active > .toc-title-box a,
+.ptx-toc .toc-frontmatter.contains-active > .toc-title-box a,
+.ptx-toc .toc-backmatter.contains-active > .toc-title-box a {
+  background: transparent !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+}
+
 .ptx-toc .toc-item.contains-active > .toc-title-box .title,
 .ptx-toc .toc-item.contains-active > .toc-title-box .codenumber,
-.ptx-toc .toc-chapter.contains-active > .toc-title-box a,
 .ptx-toc .toc-chapter.contains-active > .toc-title-box .title,
 .ptx-toc .toc-chapter.contains-active > .toc-title-box .codenumber,
-.ptx-toc .toc-frontmatter.contains-active > .toc-title-box a,
 .ptx-toc .toc-frontmatter.contains-active > .toc-title-box .title,
 .ptx-toc .toc-frontmatter.contains-active > .toc-title-box .codenumber,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box a,
 .ptx-toc .toc-backmatter.contains-active > .toc-title-box .title,
 .ptx-toc .toc-backmatter.contains-active > .toc-title-box .codenumber {
   background: linear-gradient(130deg, #60a5fa 0%, #a78bfa 61.8%, #c084fc 100%) !important;
@@ -418,6 +431,76 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   font-weight: bold !important;
+}
+
+/* Emoji Preservation in TOC — Prevents text gradient wash out in all states */
+.ptx-toc .toc-emoji,
+.ptx-toc .emoji,
+.toc-emoji,
+.emoji {
+  display: inline-block !important;
+  background: none !important;
+  background-image: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: initial !important;
+  color: initial !important;
+  text-shadow: none !important;
+  filter: none !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  line-height: 1 !important;
+  vertical-align: -0.08em !important;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Android Emoji", "Segoe UI Symbol", sans-serif !important;
+}
+
+.ptx-toc .twemoji,
+.twemoji {
+  display: inline-block !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: initial !important;
+  color: transparent !important;
+  text-shadow: none !important;
+  vertical-align: middle !important;
+}
+
+.ptx-toc .twemoji[title=":eigenote:"],
+.twemoji[title=":eigenote:"] {
+  background-image: url('../orb.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.ptx-toc .twemoji[title=":proofmark:"],
+.twemoji[title=":proofmark:"] {
+  background-image: url('../proofmark.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.ptx-toc .twemoji[title=":logo:"],
+.twemoji[title=":logo:"] {
+  background-image: url('../logo.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.ptx-toc .twemoji[title=":favicon:"],
+.twemoji[title=":favicon:"] {
+  background-image: url('../favicon.png') !important;
+  background-size: 80% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.ptx-toc .twemoji[title=":ember:"],
+.twemoji[title=":ember:"] {
+  background-image: url('../ember.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
 
 /* Hide / remove vertical CHEVRON_LEFT text and TOC expander chevrons on all folder items */
