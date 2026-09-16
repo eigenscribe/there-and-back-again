@@ -1590,7 +1590,7 @@
     },
     {
       "id": "ch-significant-figures",
-      "title": "\ud83c\udfad Significant Figures",
+      "title": "\ud83c\udfdb\ufe0f Significant Figures",
       "url": "ch-significant-figures.html",
       "tags": [],
       "description": "The title of this chapter was inspired by Ian Stewart's Significant Figures: The Lives and Work of Great Mathematicia...",
@@ -2021,12 +2021,6 @@
     {
       "source": "sec-calculus-of-variations",
       "target": "def-action-classical-mechanics",
-      "type": "prerequisite",
-      "weight": 3
-    },
-    {
-      "source": "gls-significant-figure",
-      "target": "ch-significant-figures",
       "type": "prerequisite",
       "weight": 3
     },
