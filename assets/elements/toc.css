@@ -178,40 +178,77 @@
   letter-spacing: normal !important;
 }
 
-/* TOC Chapter headers (Prototypes, Tutorials, etc.) */
+/* TOC Chapter / Top-Level headers (Prototypes, Tutorials, Parts, etc.) */
 .ptx-toc ul.structural > li > .codenumber,
-.ptx-toc ul.structural > li > .title {
-  background: var(--gradient-cyan-to-blue);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
+.ptx-toc ul.structural > li > .title,
+.ptx-toc ul.structural > li > .toc-title-box .codenumber,
+.ptx-toc ul.structural > li > .toc-title-box .title,
+.ptx-toc .toc-part > .toc-title-box .codenumber,
+.ptx-toc .toc-part > .toc-title-box .title,
+.ptx-toc .toc-chapter > .toc-title-box .codenumber,
+.ptx-toc .toc-chapter > .toc-title-box .title {
+  background: var(--gradient-cyan-to-blue) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-weight: bold !important;
 }
 
-/* TOC links and items */
+/* TOC item list resets */
+.ptx-toc ul.structural,
+.ptx-toc .toc-item-list {
+  list-style: none !important;
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+/* TOC links and items base */
 .ptx-toc a {
   color: var(--color-text) !important;
   transition: all 0.2s ease;
   text-decoration: none !important;
 }
 
+/* Base cute glassmorphic card styling for all TOC items */
 .ptx-toc ul.structural li,
-.ptx-toc .toc-item {
-  background: rgba(30, 35, 45, 0.9) !important;
-  border: 1px solid rgba(60, 65, 75, 0.6) !important;
-  border-radius: 12px !important;
+.ptx-toc .toc-item,
+nav#ptx-toc.ptx-toc li.toc-item,
+nav#ptx-toc.ptx-toc li.toc-frontmatter,
+nav#ptx-toc.ptx-toc li.toc-backmatter,
+nav#ptx-toc.ptx-toc li.toc-chapter,
+nav#ptx-toc.ptx-toc li.toc-part {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.18), rgba(59, 130, 246, 0.22)) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(59, 130, 246, 0.35) !important;
+  border-radius: 14px !important;
   margin-bottom: 6px !important;
   padding: 0.5rem 0.75rem !important;
-  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
 .ptx-toc ul.structural li:hover,
-.ptx-toc .toc-item:hover {
-  background: rgba(40, 50, 60, 0.95) !important;
-  border-color: rgba(20, 181, 255, 0.4) !important;
+.ptx-toc .toc-item:hover,
+nav#ptx-toc.ptx-toc li.toc-item:hover,
+nav#ptx-toc.ptx-toc li.toc-frontmatter:hover,
+nav#ptx-toc.ptx-toc li.toc-backmatter:hover,
+nav#ptx-toc.ptx-toc li.toc-chapter:hover,
+nav#ptx-toc.ptx-toc li.toc-part:hover {
+  background: linear-gradient(135deg, rgba(20, 181, 255, 0.28), rgba(139, 92, 246, 0.26)) !important;
+  border-color: rgba(0, 232, 255, 0.6) !important;
+  box-shadow: 0 4px 16px rgba(0, 232, 255, 0.25), 0 0 12px rgba(139, 92, 246, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+  transform: translateY(-1px) !important;
 }
 
-/* FORCE override PreTeXt's toc-title-box backgrounds - ultra high specificity */
+.ptx-toc .toc-item:hover > .toc-title-box .title,
+.ptx-toc .toc-item:hover > .toc-title-box a {
+  color: #38bdf8 !important;
+}
+
+/* FORCE override PreTeXt's toc-title-box backgrounds - transparent containers */
 .ptx-sidebar .ptx-toc .toc-item .toc-title-box,
 .ptx-sidebar .ptx-toc .toc-item.active .toc-title-box,
 .ptx-sidebar .ptx-toc .toc-item.contains-active .toc-title-box,
@@ -228,164 +265,30 @@ nav.ptx-toc .toc-item.contains-active .toc-title-box,
   border-radius: inherit !important;
 }
 
-/* SPECIAL: Override for toc-frontmatter which uses different color palette */
-/* ALL folder styling - consistent very dark background (frontmatter, chapters, backmatter) */
-/* ULTRA HIGH SPECIFICITY to override PreTeXt defaults */
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-frontmatter,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-frontmatter.contains-active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-frontmatter.active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-backmatter,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-backmatter.contains-active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-backmatter.active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-chapter,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-chapter.contains-active,
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-chapter.active,
-body.pretext .ptx-toc li.toc-frontmatter,
-body.pretext .ptx-toc li.toc-frontmatter.contains-active,
-body.pretext .ptx-toc li.toc-backmatter,
-body.pretext .ptx-toc li.toc-backmatter.contains-active,
-body.pretext .ptx-toc li.toc-chapter,
-body.pretext .ptx-toc li.toc-chapter.contains-active,
-li.toc-item.toc-frontmatter,
-li.toc-item.toc-frontmatter.contains-active,
-li.toc-item.toc-frontmatter.active,
-.ptx-toc li.toc-frontmatter,
-.ptx-toc li.toc-frontmatter.contains-active,
-.ptx-toc li.toc-frontmatter.active,
-nav.ptx-toc li.toc-frontmatter.contains-active,
-#ptx-sidebar .ptx-toc li.toc-frontmatter.contains-active,
-li.toc-item.toc-backmatter,
-li.toc-item.toc-backmatter.contains-active,
-li.toc-item.toc-backmatter.active,
-.ptx-toc li.toc-backmatter,
-.ptx-toc li.toc-backmatter.contains-active,
-.ptx-toc li.toc-backmatter.active,
-nav.ptx-toc li.toc-backmatter.contains-active,
-#ptx-sidebar .ptx-toc li.toc-backmatter.contains-active,
-li.toc-item.toc-chapter,
-li.toc-item.toc-chapter.contains-active,
-li.toc-item.toc-chapter.active,
-.ptx-toc li.toc-chapter,
-.ptx-toc li.toc-chapter.contains-active,
-.ptx-toc li.toc-chapter.active,
-nav.ptx-toc li.toc-chapter.contains-active,
-#ptx-sidebar .ptx-toc li.toc-chapter.contains-active,
-nav#ptx-toc .toc-chapter,
-nav#ptx-toc .toc-chapter.contains-active,
-nav#ptx-toc .toc-chapter.active {
-  background: rgba(10, 8, 20, 0.98) !important;
-  background-color: rgba(10, 8, 20, 0.98) !important;
-  border: none !important;
-  border-radius: 12px !important;
-}
-
-
-/* Force the title-box to be transparent */
-.ptx-toc li.toc-frontmatter.contains-active > .toc-title-box,
-.ptx-toc li.toc-frontmatter.active > .toc-title-box,
-.ptx-toc li.toc-backmatter.contains-active > .toc-title-box,
-.ptx-toc li.toc-backmatter.active > .toc-title-box,
-li.toc-frontmatter.contains-active > .toc-title-box,
-li.toc-backmatter.contains-active > .toc-title-box {
-  background: transparent !important;
-  border-radius: 12px !important;
-}
-
-/* Note: .contains-active parent items (Front Matter, chapter headings) have
-   PreTeXt-default red styling that's extremely resistant to CSS overrides.
-   The active leaf items (actual notes/sections) correctly show cyan gradient. */
-
-/* Active/selected folder (contains-active) - very dark background for contrast with purple-blue text */
-body.pretext .ptx-toc ul.structural li.contains-active,
-body.pretext .ptx-toc li.contains-active,
-body.pretext .ptx-toc .toc-item.contains-active,
+/* Active / Expanded Folder State (contains-active) and Active Leaf Item */
+nav#ptx-toc.ptx-toc li.toc-item.contains-active,
+nav#ptx-toc.ptx-toc li.toc-item.active,
+nav#ptx-toc.ptx-toc li.toc-frontmatter.contains-active,
+nav#ptx-toc.ptx-toc li.toc-frontmatter.active,
+nav#ptx-toc.ptx-toc li.toc-backmatter.contains-active,
+nav#ptx-toc.ptx-toc li.toc-backmatter.active,
+nav#ptx-toc.ptx-toc li.toc-chapter.contains-active,
+nav#ptx-toc.ptx-toc li.toc-chapter.active,
+nav#ptx-toc.ptx-toc li.toc-part.contains-active,
+nav#ptx-toc.ptx-toc li.toc-part.active,
 .ptx-toc ul.structural li.contains-active,
-.ptx-toc li.contains-active,
-.ptx-toc .toc-item.contains-active,
-.ptx-sidebar .ptx-toc .toc-item.contains-active,
-nav.ptx-toc .toc-item.contains-active,
-.ptx-toc .toc-frontmatter.contains-active,
-.ptx-toc .toc-chapter.contains-active,
-.ptx-toc .toc-backmatter.contains-active,
-.ptx-toc li.toc-frontmatter.contains-active,
-.ptx-toc li.toc-chapter.contains-active,
-.ptx-toc li.toc-backmatter.contains-active,
-nav#ptx-toc.ptx-toc .toc-item.toc-frontmatter.contains-active,
-nav#ptx-toc.ptx-toc.depth2 ul.structural .toc-item.contains-active,
-nav#ptx-toc.ptx-toc.depth2 ul.structural ul.structural .toc-item.contains-active,
-#ptx-sidebar .ptx-toc .toc-item.contains-active {
-  background: rgba(10, 8, 20, 0.98) !important;
-  background-color: rgba(10, 8, 20, 0.98) !important;
-  border: none !important;
-  border-radius: 12px !important;
-}
-
-/* Active leaf item (article/note selection) - same very dark styling */
-body.pretext .ptx-toc ul.structural li.active,
-body.pretext .ptx-toc li.active,
-body.pretext .ptx-toc .toc-item.active,
 .ptx-toc ul.structural li.active,
+.ptx-toc li.contains-active,
 .ptx-toc li.active,
-.ptx-toc .toc-item.active,
-.ptx-sidebar .ptx-toc .toc-item.active,
-nav.ptx-toc .toc-item.active,
-.ptx-toc .toc-frontmatter.active,
-.ptx-toc .toc-chapter.active,
-.ptx-toc .toc-backmatter.active,
-nav#ptx-toc.ptx-toc .toc-item.active:not(:has(.toc-item.active)),
-#ptx-sidebar .ptx-toc .toc-item.active {
-  background: rgba(10, 8, 20, 0.98) !important;
-  background-color: rgba(10, 8, 20, 0.98) !important;
-  border: none !important;
-  border-radius: 12px !important;
+.ptx-toc .toc-item.contains-active,
+.ptx-toc .toc-item.active {
+  background: linear-gradient(135deg, rgba(20, 30, 60, 0.9), rgba(40, 50, 100, 0.85)) !important;
+  border: 1px solid rgba(100, 120, 200, 0.5) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Root-level active sections - same very dark styling */
-.ptx-toc ul.structural > li.active,
-.ptx-toc ul.structural > li.contains-active,
-.ptx-toc > ul > li.active,
-.ptx-toc > ul > li.contains-active {
-  background: rgba(10, 8, 20, 0.98) !important;
-  background-color: rgba(10, 8, 20, 0.98) !important;
-  border: none !important;
-  border-radius: 12px !important;
-}
-
-/* Nested items inside expanded folders - slightly lighter dark */
-body.pretext .ptx-toc .toc-item.active .toc-item,
-body.pretext .ptx-toc .toc-item.contains-active .toc-item,
-.ptx-toc .toc-item.active .toc-item,
-.ptx-toc .toc-item.contains-active .toc-item {
-  background: rgba(15, 12, 28, 0.96) !important;
-  background-color: rgba(15, 12, 28, 0.96) !important;
-  border-radius: 12px !important;
-}
-
-/* The actual selected article/leaf item - distinct subtle purple highlight */
-body.pretext .ptx-toc .toc-item.active .toc-item.active,
-body.pretext .ptx-toc .toc-item.contains-active .toc-item.active,
-.ptx-toc .toc-item.active .toc-item.active,
-.ptx-toc .toc-item.contains-active .toc-item.active,
-.ptx-toc .toc-item.active:not(:has(.toc-item)),
-nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
-  background: rgba(40, 30, 70, 0.6) !important;
-  background-color: rgba(40, 30, 70, 0.6) !important;
-  border: none !important;
-  border-radius: 12px !important;
-}
-
-/* Remove square containers from nested active lists */
-.ptx-toc .toc-item.active > ul,
-.ptx-toc .toc-item.contains-active > ul,
-.ptx-toc .toc-item ul.active,
-.ptx-toc ul.structural.active {
-  background: transparent !important;
-  background-color: transparent !important;
-  border-radius: inherit !important;
-  border: none !important;
-  padding-left: 1rem !important;
-}
-
+/* Active item link transparent resets */
 .ptx-toc ul.structural li.active a,
 .ptx-toc li.active a,
 .ptx-toc .toc-item.active a {
@@ -395,24 +298,28 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
   text-decoration: none !important;
 }
 
+/* Active item gradient text — cyan to blue */
 .ptx-toc ul.structural li.active .codenumber,
 .ptx-toc ul.structural li.active .title,
 .ptx-toc li.active .codenumber,
 .ptx-toc li.active .title,
 .ptx-toc .toc-item.active .codenumber,
-.ptx-toc .toc-item.active .title {
-  background: var(--gradient-cyan-to-blue);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
+.ptx-toc .toc-item.active .title,
+.ptx-toc .toc-item.active > .toc-title-box .codenumber,
+.ptx-toc .toc-item.active > .toc-title-box .title {
+  background: var(--gradient-cyan-to-blue) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-weight: bold !important;
 }
 
-/* Folder titles when expanded - blue to purple gradient for contrast against blue background */
+/* Folder titles when expanded (contains-active) — blue to purple gradient */
 .ptx-toc .toc-item.contains-active > .toc-title-box a,
 .ptx-toc .toc-chapter.contains-active > .toc-title-box a,
 .ptx-toc .toc-frontmatter.contains-active > .toc-title-box a,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box a {
+.ptx-toc .toc-backmatter.contains-active > .toc-title-box a,
+.ptx-toc .toc-part.contains-active > .toc-title-box a {
   background: transparent !important;
   -webkit-background-clip: border-box !important;
   background-clip: border-box !important;
@@ -425,12 +332,33 @@ nav.ptx-toc .toc-item.active:not(:has(.toc-item)) {
 .ptx-toc .toc-frontmatter.contains-active > .toc-title-box .title,
 .ptx-toc .toc-frontmatter.contains-active > .toc-title-box .codenumber,
 .ptx-toc .toc-backmatter.contains-active > .toc-title-box .title,
-.ptx-toc .toc-backmatter.contains-active > .toc-title-box .codenumber {
+.ptx-toc .toc-backmatter.contains-active > .toc-title-box .codenumber,
+.ptx-toc .toc-part.contains-active > .toc-title-box .title,
+.ptx-toc .toc-part.contains-active > .toc-title-box .codenumber {
   background: linear-gradient(130deg, #60a5fa 0%, #a78bfa 61.8%, #c084fc 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   font-weight: bold !important;
+}
+
+/* Remove square containers from nested active lists */
+.ptx-toc .toc-item.active > ul,
+.ptx-toc .toc-item.contains-active > ul,
+.ptx-toc .toc-item ul.active,
+.ptx-toc ul.structural.active {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-radius: inherit !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding-left: 0.75rem !important;
+}
+
+/* Hide subsection indices in left TOC for visual scannability */
+.ptx-toc .toc-subsection > .toc-title-box .codenumber,
+.ptx-toc li.toc-subsection > .toc-title-box .codenumber {
+  display: none !important;
 }
 
 /* Emoji Preservation in TOC — Prevents text gradient wash out in all states */

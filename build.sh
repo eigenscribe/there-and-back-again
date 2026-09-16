@@ -86,84 +86,6 @@ cp graph-module/notes-graph.json output/web/graph/
 cp assets/graph-toggle.js output/web/graph/
 cp assets/d3.min.js output/web/graph/
 
-# Also add override to ALL CSS files including runestone
-for rcss in output/web/_static/prefix-*.css output/web/_static/pretext/css/*.css; do
-  if [ -f "$rcss" ]; then
-    cat >> "$rcss" << 'RUNESTONEFIX'
-/* FIX: Override frontmatter/backmatter TOC colors */
-.toc-frontmatter.contains-active,
-.toc-backmatter.contains-active,
-.toc-frontmatter.contains-active .toc-title-box,
-.toc-backmatter.contains-active .toc-title-box,
-.toc-frontmatter.contains-active .toc-title-box a,
-.toc-backmatter.contains-active .toc-title-box a,
-.toc-frontmatter.contains-active a.internal,
-.toc-backmatter.contains-active a.internal {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
-  background-color: rgba(20, 181, 255, 0.25) !important;
-  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
-}
-RUNESTONEFIX
-  fi
-done
-
-# Add override to theme.css directly
-echo "Injecting overrides into theme.css..."
-cat >> output/web/_static/pretext/css/theme.css << 'CSSOVERRIDE'
-
-/* FINAL OVERRIDE - added by build.sh */
-.ptx-toc li.toc-frontmatter.contains-active,
-.ptx-toc li.toc-frontmatter.active,
-.ptx-toc li.toc-backmatter.contains-active,
-.ptx-toc li.toc-backmatter.active,
-.ptx-toc li.toc-chapter.contains-active,
-.ptx-toc li.toc-item.contains-active,
-.ptx-toc li.toc-item.active {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important;
-  background-color: rgba(20, 181, 255, 0.2) !important;
-  border-color: rgba(20, 181, 255, 0.4) !important;
-  border-radius: 16px !important;
-}
-.ptx-toc li.toc-item.contains-active > .toc-title-box,
-.ptx-toc li.toc-item.active > .toc-title-box,
-.ptx-toc .toc-title-box {
-  background: transparent !important;
-  background-color: transparent !important;
-}
-/* CRITICAL: Override anchor element background in frontmatter/backmatter */
-.ptx-toc .toc-frontmatter.contains-active .toc-title-box a,
-.ptx-toc .toc-frontmatter.contains-active .toc-title-box .internal,
-.ptx-toc .toc-frontmatter.active .toc-title-box a,
-.ptx-toc .toc-backmatter.contains-active .toc-title-box a,
-.ptx-toc .toc-backmatter.contains-active .toc-title-box .internal,
-nav.ptx-toc .toc-frontmatter.contains-active .toc-title-box a.internal,
-nav.ptx-toc .toc-backmatter.contains-active .toc-title-box a.internal,
-.toc-frontmatter.contains-active a.internal,
-.toc-backmatter.contains-active a.internal,
-.toc-frontmatter.contains-active a,
-.toc-backmatter.contains-active a {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-}
-/* EMOJI ISOLATION */
-.ptx-toc .toc-emoji,
-.ptx-toc .emoji,
-.toc-emoji,
-.emoji {
-  display: inline-block !important;
-  background: none !important;
-  background-image: none !important;
-  -webkit-background-clip: border-box !important;
-  background-clip: border-box !important;
-  -webkit-text-fill-color: initial !important;
-  color: initial !important;
-  text-shadow: none !important;
-  filter: none !important;
-  vertical-align: -0.08em !important;
-}
-CSSOVERRIDE
-
 # Inject CSS link and favicon into all HTML files
 echo "Injecting custom CSS, emojis and favicon into HTML files..."
 
@@ -204,76 +126,10 @@ find output/web -maxdepth 1 -name "*.html" -print0 | while IFS= read -r -d '' fi
     perl -0777 -i -pe 's|(</body>)|<script>(function(){var sp=document.getElementById("searchresultsplaceholder");var sb=document.getElementById("searchbutton");var cb=document.getElementById("closesearchresults");if(sp)sp.style.display="none";if(sb)sb.addEventListener("click",function(){if(sp){sp.classList.add("search-active");sp.style.display="flex";}});if(cb)cb.addEventListener("click",function(){if(sp){sp.classList.remove("search-active");sp.style.display="none";}});})();</script>\n\1|' "$file"
   fi
   
-  # Direct inline style injection for toc-frontmatter.contains-active
-  perl -0777 -i -pe 's|<li class="toc-item toc-frontmatter contains-active">|<li class="toc-item toc-frontmatter contains-active" style="background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important; border-radius: 16px !important;">|g' "$file"
-  perl -0777 -i -pe 's|<li class="toc-item toc-backmatter contains-active">|<li class="toc-item toc-backmatter contains-active" style="background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important; border-radius: 16px !important;">|g' "$file"
-  
-  # Inject JavaScript override by using perl for complex substitution
-  if ! grep -q "toc-color-override" "$file"; then
-    perl -i -0pe 's|</body>|<style id="toc-color-override">
-.ptx-toc li.toc-frontmatter.contains-active,
-.ptx-toc li.toc-backmatter.contains-active {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important;
-  background-color: rgba(20, 181, 255, 0.2) !important;
-  border-color: rgba(20, 181, 255, 0.4) !important;
-  border-radius: 16px !important;
-}
-.toc-frontmatter.contains-active .toc-title-box a,
-.toc-backmatter.contains-active .toc-title-box a,
-.toc-frontmatter.contains-active a.internal,
-.toc-backmatter.contains-active a.internal {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-}
-.ptx-toc .toc-emoji, .ptx-toc .emoji, .toc-emoji, .emoji {
-  display: inline-block !important;
-  background: none !important;
-  background-image: none !important;
-  -webkit-background-clip: border-box !important;
-  background-clip: border-box !important;
-  -webkit-text-fill-color: initial !important;
-  color: initial !important;
-  text-shadow: none !important;
-  filter: none !important;
-  vertical-align: -0.08em !important;
-}
-</style>
-<script>
-(function() {
-  function overrideTocColors() {
-    document.querySelectorAll(".toc-frontmatter, .toc-backmatter").forEach(function(el) {
-      if (el.classList.contains("contains-active") \|\| el.classList.contains("active")) {
-        el.style.setProperty("background", "linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16))", "important");
-        el.style.setProperty("background-color", "rgba(20, 181, 255, 0.2)", "important");
-        el.style.setProperty("border-radius", "16px", "important");
-        // Override anchors inside
-        el.querySelectorAll("a, .internal").forEach(function(a) {
-          a.style.setProperty("background", "transparent", "important");
-          a.style.setProperty("background-color", "transparent", "important");
-          a.style.setProperty("background-image", "none", "important");
-        });
-      }
-    });
-  }
-  overrideTocColors();
-  document.addEventListener("DOMContentLoaded", overrideTocColors);
-  window.addEventListener("load", overrideTocColors);
-  setInterval(overrideTocColors, 100);
-})();
-</script>
-</body>|gs' "$file"
-  fi
-  
   # Check if the file already has the favicon
   if ! grep -q "favicon.png" "$file"; then
     # Insert the favicon link in the <head> (portable perl in-place)
     perl -0777 -i -pe 's|(</head>)|<link rel="icon" type="image/png" href="favicon.png">\n\1|' "$file"
-  fi
-  
-  # Inject glassmorphic TOC styling - targets the actual visible card elements
-  if ! grep -q "glassmorphic-toc" "$file"; then
-    perl -0777 -i -pe 's|(</head>)|<style id="glassmorphic-toc">:root{--toclevel1-background:transparent!important;--toclevel2-background:transparent!important;--toclevel3-background:transparent!important}nav#ptx-toc.ptx-toc,nav#ptx-toc.ptx-toc ul.structural,nav#ptx-toc.ptx-toc .toc-item-list{background:transparent!important}nav#ptx-toc.ptx-toc .toc-title-box{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item,nav#ptx-toc.ptx-toc li.toc-frontmatter,nav#ptx-toc.ptx-toc li.toc-backmatter,nav#ptx-toc.ptx-toc li.toc-chapter{background:linear-gradient(135deg,rgba(20,181,255,0.18),rgba(59,130,246,0.22))!important;backdrop-filter:blur(16px)!important;-webkit-backdrop-filter:blur(16px)!important;border:1px solid rgba(59,130,246,0.35)!important;border-radius:14px!important;box-shadow:0 4px 20px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.08)!important}nav#ptx-toc.ptx-toc li.toc-item.contains-active,nav#ptx-toc.ptx-toc li.toc-item.active,nav#ptx-toc.ptx-toc li.toc-frontmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-backmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-chapter.contains-active{background:linear-gradient(135deg,rgba(20,30,60,0.9),rgba(40,50,100,0.85))!important;border:1px solid rgba(100,120,200,0.5)!important;box-shadow:0 6px 24px rgba(0,0,0,0.5),inset 0 1px 0 rgba(255,255,255,0.1)!important}nav#ptx-toc.ptx-toc .toc-title-box>.internal{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item ul.structural{background:transparent!important;padding-left:0.75rem!important}.ptx-toc .toc-expander,.ptx-toc .toc-chevron,.ptx-toc .toc-chevron-surround,.ptx-toc .material-symbols-outlined{display:none!important}.ptx-toc .toc-emoji,.ptx-toc .emoji,.toc-emoji,.emoji{display:inline-block!important;background:none!important;background-image:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;-webkit-text-fill-color:initial!important;color:initial!important;text-shadow:none!important;filter:none!important;vertical-align:-0.08em!important}</style>\n\1|' "$file"
   fi
   
   # Update footer with custom branding

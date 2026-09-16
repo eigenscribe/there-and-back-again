@@ -66,87 +66,6 @@ Copy-Item "graph-module/notes-graph.json" "output/web/graph/"
 Copy-Item "assets/graph-toggle.js" "output/web/graph/"
 Copy-Item "assets/d3.min.js" "output/web/graph/"
 
-# Also add override to ALL CSS files including runestone
-$runestoneFix = @"
-
-/* FIX: Override frontmatter/backmatter TOC colors */
-.toc-frontmatter.contains-active,
-.toc-backmatter.contains-active,
-.toc-frontmatter.contains-active .toc-title-box,
-.toc-backmatter.contains-active .toc-title-box,
-.toc-frontmatter.contains-active .toc-title-box a,
-.toc-backmatter.contains-active .toc-title-box a,
-.toc-frontmatter.contains-active a.internal,
-.toc-backmatter.contains-active a.internal {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
-  background-color: rgba(20, 181, 255, 0.25) !important;
-  background-image: linear-gradient(135deg, rgba(20, 181, 255, 0.3), rgba(121, 82, 245, 0.2)) !important;
-}
-"@
-
-$cssFiles = Get-ChildItem -Path "output/web/_static/prefix-*.css", "output/web/_static/pretext/css/*.css" -ErrorAction SilentlyContinue
-foreach ($file in $cssFiles) {
-    Add-Content -Path $file.FullName -Value $runestoneFix
-}
-
-# Add override to theme.css directly
-Write-Host "Injecting overrides into theme.css..."
-$cssOverride = @"
-
-/* FINAL OVERRIDE - added by build.ps1 */
-.ptx-toc li.toc-frontmatter.contains-active,
-.ptx-toc li.toc-frontmatter.active,
-.ptx-toc li.toc-backmatter.contains-active,
-.ptx-toc li.toc-backmatter.active,
-.ptx-toc li.toc-chapter.contains-active,
-.ptx-toc li.toc-item.contains-active,
-.ptx-toc li.toc-item.active {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important;
-  background-color: rgba(20, 181, 255, 0.2) !important;
-  border-color: rgba(20, 181, 255, 0.4) !important;
-  border-radius: 16px !important;
-}
-.ptx-toc li.toc-item.contains-active > .toc-title-box,
-.ptx-toc li.toc-item.active > .toc-title-box,
-.ptx-toc .toc-title-box {
-  background: transparent !important;
-  background-color: transparent !important;
-}
-/* CRITICAL: Override anchor element background in frontmatter/backmatter */
-.ptx-toc .toc-frontmatter.contains-active .toc-title-box a,
-.ptx-toc .toc-frontmatter.contains-active .toc-title-box .internal,
-.ptx-toc .toc-frontmatter.active .toc-title-box a,
-.ptx-toc .toc-backmatter.contains-active .toc-title-box a,
-.ptx-toc .toc-backmatter.contains-active .toc-title-box .internal,
-nav.ptx-toc .toc-frontmatter.contains-active .toc-title-box a.internal,
-nav.ptx-toc .toc-backmatter.contains-active .toc-title-box a.internal,
-.toc-frontmatter.contains-active a.internal,
-.toc-backmatter.contains-active a.internal,
-.toc-frontmatter.contains-active a,
-.toc-backmatter.contains-active a {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-}
-/* EMOJI ISOLATION */
-.ptx-toc .toc-emoji,
-.ptx-toc .emoji,
-.toc-emoji,
-.emoji {
-  display: inline-block !important;
-  background: none !important;
-  background-image: none !important;
-  -webkit-background-clip: border-box !important;
-  background-clip: border-box !important;
-  -webkit-text-fill-color: initial !important;
-  color: initial !important;
-  text-shadow: none !important;
-  filter: none !important;
-  vertical-align: -0.08em !important;
-}
-"@
-Add-Content -Path "output/web/_static/pretext/css/theme.css" -Value $cssOverride
-
 # Inject CSS link and favicon into all HTML files
 Write-Host "Injecting custom CSS, emojis and favicon into HTML files..."
 
@@ -195,80 +114,9 @@ foreach ($file in $topLevelHtmlFiles) {
         $content = $content -replace '(</body>)', "$searchFixScript`n`$1"
     }
     
-    # Direct inline style injection
-    $content = $content -replace '<li class="toc-item toc-frontmatter contains-active">', '<li class="toc-item toc-frontmatter contains-active" style="background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important; border-radius: 16px !important;">'
-    $content = $content -replace '<li class="toc-item toc-backmatter contains-active">', '<li class="toc-item toc-backmatter contains-active" style="background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important; border-radius: 16px !important;">'
-    
-    # Inject JavaScript override
-    if ($content -notmatch "toc-color-override") {
-        $tocOverride = @"
-<style id="toc-color-override">
-.ptx-toc li.toc-frontmatter.contains-active,
-.ptx-toc li.toc-backmatter.contains-active {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16)) !important;
-  background-color: rgba(20, 181, 255, 0.2) !important;
-  border-color: rgba(20, 181, 255, 0.4) !important;
-  border-radius: 16px !important;
-}
-.toc-frontmatter.contains-active .toc-title-box a,
-.toc-backmatter.contains-active .toc-title-box a,
-.toc-frontmatter.contains-active a.internal,
-.toc-backmatter.contains-active a.internal {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-}
-.ptx-toc .toc-emoji, .ptx-toc .emoji, .toc-emoji, .emoji {
-  display: inline-block !important;
-  background: none !important;
-  background-image: none !important;
-  -webkit-background-clip: border-box !important;
-  background-clip: border-box !important;
-  -webkit-text-fill-color: initial !important;
-  color: initial !important;
-  text-shadow: none !important;
-  filter: none !important;
-  vertical-align: -0.08em !important;
-}
-</style>
-<script>
-(function() {
-  function overrideTocColors() {
-    document.querySelectorAll(".toc-frontmatter, .toc-backmatter").forEach(function(el) {
-      if (el.classList.contains("contains-active") || el.classList.contains("active")) {
-        el.style.setProperty("background", "linear-gradient(135deg, rgba(20, 181, 255, 0.22), rgba(121, 82, 245, 0.16))", "important");
-        el.style.setProperty("background-color", "rgba(20, 181, 255, 0.2)", "important");
-        el.style.setProperty("border-radius", "16px", "important");
-        // Override anchors inside
-        el.querySelectorAll("a, .internal").forEach(function(a) {
-          a.style.setProperty("background", "transparent", "important");
-          a.style.setProperty("background-color", "transparent", "important");
-          a.style.setProperty("background-image", "none", "important");
-        });
-      }
-    });
-  }
-  overrideTocColors();
-  document.addEventListener("DOMContentLoaded", overrideTocColors);
-  window.addEventListener("load", overrideTocColors);
-  setInterval(overrideTocColors, 100);
-})();
-</script>
-"@
-        $content = $content -replace '(</body>)', "$tocOverride`n`$1"
-    }
-    
     # Favicon check
     if ($content -notmatch "favicon.png") {
         $content = $content -replace '(</head>)', "<link rel=`"icon`" type=`"image/png`" href=`"favicon.png`">`n`$1"
-    }
-    
-    # Glassmorphic TOC styling
-    if ($content -notmatch "glassmorphic-toc") {
-        $glassmorphicStyle = @"
-<style id="glassmorphic-toc">:root{--toclevel1-background:transparent!important;--toclevel2-background:transparent!important;--toclevel3-background:transparent!important}nav#ptx-toc.ptx-toc,nav#ptx-toc.ptx-toc ul.structural,nav#ptx-toc.ptx-toc .toc-item-list{background:transparent!important}nav#ptx-toc.ptx-toc .toc-title-box{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item,nav#ptx-toc.ptx-toc li.toc-frontmatter,nav#ptx-toc.ptx-toc li.toc-backmatter,nav#ptx-toc.ptx-toc li.toc-chapter{background:linear-gradient(135deg,rgba(20,181,255,0.18),rgba(59,130,246,0.22))!important;backdrop-filter:blur(16px)!important;-webkit-backdrop-filter:blur(16px)!important;border:1px solid rgba(59,130,246,0.35)!important;border-radius:14px!important;box-shadow:0 4px 20px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.08)!important}nav#ptx-toc.ptx-toc li.toc-item.contains-active,nav#ptx-toc.ptx-toc li.toc-item.active,nav#ptx-toc.ptx-toc li.toc-frontmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-backmatter.contains-active,nav#ptx-toc.ptx-toc li.toc-chapter.contains-active{background:linear-gradient(135deg,rgba(20,30,60,0.9),rgba(40,50,100,0.85))!important;border:1px solid rgba(100,120,200,0.5)!important;box-shadow:0 6px 24px rgba(0,0,0,0.5),inset 0 1px 0 rgba(255,255,255,0.1)!important}nav#ptx-toc.ptx-toc .toc-title-box>.internal{background:transparent!important}nav#ptx-toc.ptx-toc li.toc-item ul.structural{background:transparent!important;padding-left:0.75rem!important}.ptx-toc .toc-expander,.ptx-toc .toc-chevron,.ptx-toc .toc-chevron-surround,.ptx-toc .material-symbols-outlined{display:none!important}.ptx-toc .toc-emoji,.ptx-toc .emoji,.toc-emoji,.emoji{display:inline-block!important;background:none!important;background-image:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;-webkit-text-fill-color:initial!important;color:initial!important;text-shadow:none!important;filter:none!important;vertical-align:-0.08em!important}</style>
-"@
-        $content = $content -replace '(</head>)', "$glassmorphicStyle`n`$1"
     }
     
     # Update footer

@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated &quot;Significant Figures&quot; chapter: changed icon in the title, adjusted JSON structure, and refined notes graph by removing redundant prerequisite links.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added emoji isolation and TOC protection: ensured consistent display of emojis across TOC items and improved styling for readability; replaced HTML processing scripts with `postprocess_html.py`.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/tabs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/elements/toc.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/toc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
@@ -201,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00227" summary="Refined navbar styling with updated hover/active states, enhanced gradients, improved glowing effects, adjusted text contrast, and updated IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787994656456</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1787994656457</updated>
     </task>
     <task id="LOCAL-00228" summary="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -594,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789522300474</updated>
     </task>
-    <option name="localTasksCounter" value="276" />
+    <task id="LOCAL-00276" summary="Added emoji isolation and TOC protection: ensured consistent display of emojis across TOC items and improved styling for readability; replaced HTML processing scripts with `postprocess_html.py`.">
+      <option name="closed" value="true" />
+      <created>1789524310911</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1789524310912</updated>
+    </task>
+    <option name="localTasksCounter" value="277" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added `.output.json` for managing granular content references across multiple sections, enabling improved tracking and synchronization of source files." />
     <MESSAGE value="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration." />
     <MESSAGE value="udated math notation conventions (reorganized and added a few items)" />
     <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
@@ -637,6 +634,7 @@
     <MESSAGE value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
     <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
     <MESSAGE value="Updated &quot;Significant Figures&quot; chapter: changed icon in the title, adjusted JSON structure, and refined notes graph by removing redundant prerequisite links." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated &quot;Significant Figures&quot; chapter: changed icon in the title, adjusted JSON structure, and refined notes graph by removing redundant prerequisite links." />
+    <MESSAGE value="Added emoji isolation and TOC protection: ensured consistent display of emojis across TOC items and improved styling for readability; replaced HTML processing scripts with `postprocess_html.py`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added emoji isolation and TOC protection: ensured consistent display of emojis across TOC items and improved styling for readability; replaced HTML processing scripts with `postprocess_html.py`." />
   </component>
 </project>
