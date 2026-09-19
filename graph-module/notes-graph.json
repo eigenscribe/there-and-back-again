@@ -441,6 +441,15 @@
       "color": "#9013fe"
     },
     {
+      "id": "def-u1-matrix-group",
+      "title": "U(1) defined using matrices.",
+      "url": "para-u1-matrix-group.html#def-u1-matrix-group",
+      "tags": [],
+      "description": "\\operatorname{U}(1) = \\{ M \\in M_1(\\C ) : MM^\\dagger = I \\}",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-algebra-and-precalculus",
       "title": "Algebra and Precalculus",
       "url": "sec-algebra-and-precalculus.html",

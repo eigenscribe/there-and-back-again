@@ -12,5 +12,6 @@
   </introduction>
 
   <xi:include href="para-u1-complex-numbers.ptx"/>
+  <xi:include href="para-u1-matrix-group.ptx"/>
 
 </subsubsection>
