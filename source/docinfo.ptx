@@ -6,9 +6,9 @@
     A Zettelkasten-based journal for self-study and networked mathematical thinking.
   </blurb>
 
+
   <!-- Math macros for convenience -->
   <macros>
-    \addtolength{\jot}{0.5ex}
     \newcommand{\N}{\mathbb{N}}
     \newcommand{\Z}{\mathbb{Z}}
     \newcommand{\Q}{\mathbb{Q}}
@@ -54,7 +54,6 @@
       \renewcommand{\resizebox}[3]{\OriginalResizebox{1.0\textwidth}{!}{#3}}
   </latex-image-preamble>
 
-  <directories external="../assets" />
 
   <!-- Cross-reference format -->
   <defaults>

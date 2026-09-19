@@ -135,11 +135,15 @@
     padding: 1rem !important;
   }
 
-  .ptx-content .displaymath,
-  .ptx-content mjx-container {
+  .ptx-content .displaymath {
     padding: 1rem !important;
     overflow-x: auto !important;
-    overflow-y: hidden !important;
+    overflow-y: visible !important;
+    max-width: 100% !important;
+  }
+
+  .ptx-content mjx-container {
+    overflow: visible !important;
     max-width: 100% !important;
   }
 
@@ -154,8 +158,18 @@
 
   .ptx-navbar .nav-other-controls,
   .nav-other-controls {
+    display: inline-flex !important;
     flex-wrap: wrap !important;
     gap: 4px !important;
+  }
+
+  #ptx-read-aloud-button:not([hidden]),
+  .ptx-navbar #ptx-read-aloud-button:not([hidden]),
+  .ptx-navbar .ptx-read-aloud-button:not([hidden]),
+  #ptx-readability-options-button,
+  .ptx-navbar #ptx-readability-options-button,
+  .ptx-navbar .ptx-readability-options-button {
+    display: inline-flex !important;
   }
 
   #ptx-read-aloud-player {

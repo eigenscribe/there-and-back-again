@@ -320,6 +320,54 @@
   function initAll() {
     initSourcePreviewTabs();
     highlightTableCodeBlocks();
+    protectTocEmojis();
+  }
+
+  function protectTocEmojis() {
+    var toc = document.getElementById('ptx-toc');
+    if (!toc) return;
+
+    var emojiRegex = /([\uD800-\uDBFF][\uDC00-\uDFFF]|[\u2600-\u27BF\u2300-\u23FF\u2B50\u2B55\u3030\u303D\u3297\u3299][\uFE0E\uFE0F]?)/g;
+
+    function walk(node) {
+      if (node.nodeType === 3) {
+        var text = node.nodeValue;
+        if (text && emojiRegex.test(text)) {
+          emojiRegex.lastIndex = 0;
+          var frag = document.createDocumentFragment();
+          var lastIndex = 0;
+          var match;
+          while ((match = emojiRegex.exec(text)) !== null) {
+            if (match.index > lastIndex) {
+              frag.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
+            }
+            var span = document.createElement('span');
+            span.className = 'toc-emoji';
+            span.textContent = match[0];
+            frag.appendChild(span);
+            lastIndex = emojiRegex.lastIndex;
+          }
+          if (lastIndex < text.length) {
+            frag.appendChild(document.createTextNode(text.substring(lastIndex)));
+          }
+          if (node.parentNode) {
+            node.parentNode.replaceChild(frag, node);
+          }
+        }
+      } else if (node.nodeType === 1) {
+        if (!node.classList.contains('toc-emoji') && !node.classList.contains('twemoji') && !node.classList.contains('material-symbols-outlined') && !node.classList.contains('icon')) {
+          var children = Array.from(node.childNodes);
+          for (var i = 0; i < children.length; i++) {
+            walk(children[i]);
+          }
+        }
+      }
+    }
+
+    var titleBoxes = toc.querySelectorAll('.toc-title-box, .title, .codenumber');
+    titleBoxes.forEach(function (box) {
+      walk(box);
+    });
   }
 
   function highlightTableCodeBlocks() {

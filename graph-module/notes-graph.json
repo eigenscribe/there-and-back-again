@@ -394,33 +394,58 @@
       "color": "#9013fe"
     },
     {
-      "id": "sec-ga-hodge-dual",
-      "title": "Hodge Dual",
-      "url": "sec-ga-hodge-dual.html",
-      "tags": [
-        "hodge dual"
-      ],
-      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
+      "id": "sec-algebraic-structures",
+      "title": "Algebraic Structures",
+      "url": "sec-algebraic-structures.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-geometric-algebra",
+      "title": "Geometric Algebra",
+      "url": "subsec-geometric-algebra.html",
+      "tags": [],
+      "description": "Geometric algebra provides simple formulations and unique insight for many different physical processes.",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
       "id": "ga-hodge-dual-3D",
       "title": "The Cross Product as a Dual Wedge Product",
-      "url": "sec-ga-hodge-dual.html#ga-hodge-dual-3D",
+      "url": "para-ga-hodge-dual.html#ga-hodge-dual-3D",
       "tags": [],
-      "description": "In Clifford algebra \\mathcal{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product $\\vec{a}\\times\\vec{b}$...",
+      "description": "In Clifford algebra \\operatorname{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product \\vec{a}\\times\\vec...",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "sec-clifford-algebras",
-      "title": "Clifford Algebras",
-      "url": "sec-clifford-algebras.html",
+      "id": "subsec-unitary-groups",
+      "title": "Unitary Groups",
+      "url": "subsec-unitary-groups.html",
       "tags": [
-        "clifford algebras"
+        "unitary group"
       ],
       "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-u1-complex-numbers",
+      "title": "\\operatorname{U}(1) defined using complex numbers",
+      "url": "para-u1-complex-numbers.html#def-u1-complex-numbers",
+      "tags": [],
+      "description": "\\operatorname{U}(1) = \\{ z \\in \\C : |z| = 1 \\} = \\{ e^{\\mathcal{i}\\theta} : \\theta \\in \\R \\}",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-u1-matrix-group",
+      "title": "\\operatorname{U}(1) defined using matrices",
+      "url": "para-u1-matrix-group.html#def-u1-matrix-group",
+      "tags": [],
+      "description": "\\operatorname{U}(1) = \\{ M \\in M_1(\\C ) : MM^\\dagger = I \\}",
       "group": "backmatter",
       "color": "#9013fe"
     },

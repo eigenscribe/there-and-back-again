@@ -19,7 +19,6 @@
   margin: var(--space-xl) 0;
   position: relative !important;
   transition: all 0.3s ease;
-  overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 20px rgba(121, 82, 245, 0.1) !important;
 }
 
@@ -43,8 +42,6 @@
   margin: var(--space-xl) 0;
   position: relative !important;
   transition: all 0.3s ease;
-  /* Ensure children don't burst out */
-  overflow: hidden;
 }
 
 /* Ensure display math blocks stay within bounds of callouts */
@@ -61,23 +58,10 @@
 .ptx-content .exercise-like .displaymath,
 .ptx-content .answer .displaymath,
 .ptx-content .abstract .displaymath,
-.ptx-content .definition-like mjx-container,
-.ptx-content .theorem-like mjx-container,
-.ptx-content .solution mjx-container,
-.ptx-content .proof mjx-container,
-.ptx-content .example-like mjx-container,
-.ptx-content .hint mjx-container,
-.ptx-content .remark-like mjx-container,
-.ptx-content .assemblage-like mjx-container,
-.ptx-content .insight mjx-container,
-.ptx-content .warning mjx-container,
-.ptx-content .exercise-like mjx-container,
-.ptx-content .answer mjx-container,
-.ptx-content .abstract mjx-container,
-.ptx-content .note mjx-container,
-.ptx-content .aside mjx-container {
+.ptx-content .note .displaymath,
+.ptx-content .aside .displaymath {
     overflow-x: auto !important;
-    overflow-y: hidden !important;
+    overflow-y: visible !important;
     max-width: 100% !important;
     padding-bottom: 0.5rem !important; /* Space for potential scrollbar */
 }
@@ -86,6 +70,7 @@
 .ptx-content .definition-like mjx-container,
 .ptx-content .hint mjx-container {
   color: #9b7dff !important; /* Node Color: Definition (Purple) - lightened for readability */
+  -webkit-text-fill-color: #9b7dff !important;
   text-shadow: 
     0 0 2px rgba(155, 125, 255, 0.7), 
     0 0 8px rgba(155, 125, 255, 0.4);
@@ -93,6 +78,7 @@
 
 .ptx-content .assemblage-like mjx-container {
   color: #14B5FF !important; /* Signature Blue for Assemblage Math */
+  -webkit-text-fill-color: #14B5FF !important;
   text-shadow: 
     0 0 2px rgba(20, 181, 255, 0.7), 
     0 0 8px rgba(20, 181, 255, 0.4);
@@ -100,14 +86,16 @@
 
 .ptx-content .theorem-like mjx-container,
 .ptx-content .proof mjx-container {
-  color: #038B00 !important; /* Node Color: Theorem (Green) */
+  color: #00E676 !important; /* Node Color: Theorem (Vibrant Green for dark theme) */
+  -webkit-text-fill-color: #00E676 !important;
   text-shadow: 
-    0 0 2px rgba(3, 139, 0, 0.7), 
-    0 0 8px rgba(3, 139, 0, 0.4);
+    0 0 2px rgba(0, 230, 118, 0.7), 
+    0 0 8px rgba(0, 230, 118, 0.4);
 }
 
 .ptx-content .solution mjx-container {
   color: #FF66B3 !important; /* Node Color: Claim/Solution (Pink) */
+  -webkit-text-fill-color: #FF66B3 !important;
   text-shadow: 
     0 0 2px rgba(255, 102, 179, 0.7), 
     0 0 8px rgba(255, 102, 179, 0.4);
@@ -115,6 +103,7 @@
 
 .ptx-content .answer mjx-container {
   color: #14B5FF !important; /* Node Color: Example/Answer (Sky Blue) */
+  -webkit-text-fill-color: #14B5FF !important;
   text-shadow: 
     0 0 2px rgba(20, 181, 255, 0.7), 
     0 0 8px rgba(20, 181, 255, 0.4);
@@ -125,6 +114,7 @@
 .ptx-content .abstract mjx-container,
 .ptx-content section.introduction mjx-container {
   color: #14B5FF !important; /* Node Color: Example (Sky Blue) */
+  -webkit-text-fill-color: #14B5FF !important;
   text-shadow: 
     0 0 2px rgba(20, 181, 255, 0.7), 
     0 0 8px rgba(20, 181, 255, 0.4);
@@ -134,6 +124,7 @@
 .ptx-content .insight mjx-container,
 .ptx-content .warning mjx-container {
   color: #FF8800 !important; /* Global Warning/Admonition (Orange) */
+  -webkit-text-fill-color: #FF8800 !important;
   text-shadow: 
     0 0 2px rgba(255, 136, 0, 0.7), 
     0 0 8px rgba(255, 136, 0, 0.4);
@@ -142,6 +133,7 @@
 .ptx-content .note mjx-container,
 .ptx-content .aside mjx-container {
   color: #a855f7 !important; /* Node Color: GA/Note (Light Purple) */
+  -webkit-text-fill-color: #a855f7 !important;
   text-shadow: 
     0 0 2px rgba(168, 85, 247, 0.7), 
     0 0 8px rgba(168, 85, 247, 0.4);

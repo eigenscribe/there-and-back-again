@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-u1-complex-numbers" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title><m>\operatorname{U}(1)</m> as complex numbers</title>
+
+  <introduction>
+    <p>
+      <term>Unitary group of degree <m>1</m></term> is the set of complex numbers with magnitude <m>1</m>.
+    </p>
+  </introduction>
+
+  <definition xml:id="def-u1-complex-numbers">
+    <title><m>\operatorname{U}(1)</m> defined using complex numbers</title>
+     <statement>
+       <md>
+         \operatorname{U}(1) = \{ z \in \C : |z| = 1 \} = \{ e^{\mathcal{i}\theta} : \theta \in \R \}
+       </md>
+     </statement>
+  </definition>
+  <remark>
+    <p>
+      Geometrically, <m>\operatorname{U}(1)</m> represents the unit circle on the complex plane.
+      Therefore,
+    </p>
+    <md>
+      \operatorname{U}(1) \cong \mathbb{S}^1 \, .
+    </md>
+  </remark>
+</paragraphs>

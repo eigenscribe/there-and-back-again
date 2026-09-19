@@ -528,12 +528,16 @@
 
 /* Math Content */
 .ptx-content .displaymath {
+  color: var(--color-math) !important;
+  -webkit-text-fill-color: currentColor !important;
   background: rgba(0, 0, 0, 0.2) !important; /* Darker background for contrast */
   border: 1px solid rgba(0, 176, 245, 0.25); /* Subtle border */
   border-radius: var(--radius-md);
   padding: var(--space-xl) !important;
   margin: var(--space-xl) 0 !important;
-  overflow-x: auto;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  max-width: 100% !important;
   transition: all 0.3s ease;
   backdrop-filter: blur(2px); /* Subtle glass effect */
 }
@@ -544,8 +548,11 @@
   box-shadow: 0 0 15px rgba(20, 181, 255, 0.1);
 }
 
-.ptx-content mjx-container {
+.ptx-content mjx-container,
+mjx-container {
+  overflow: visible !important;
   color: var(--color-math) !important;
+  -webkit-text-fill-color: currentColor !important;
   font-size: 1.05em; /* Subtle boost for readability */
   text-shadow: 
     0 0 2px rgba(0, 232, 255, 0.7), 
@@ -553,6 +560,20 @@
   letter-spacing: 0.015em; /* Slightly increased for clarity */
   transition: color 0.3s ease, text-shadow 0.3s ease;
   -webkit-font-smoothing: antialiased;
+}
+
+.ptx-content mjx-container *,
+mjx-container * {
+  -webkit-text-fill-color: currentColor !important;
+}
+
+.ptx-content .heading mjx-container,
+.ptx-content .heading .process-math,
+.ptx-content :is(h1, h2, h3, h4, h5, h6).heading mjx-container,
+.ptx-toc mjx-container {
+  -webkit-text-fill-color: currentColor !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
 }
 
 /* Golden Ratio Spacing for Math */

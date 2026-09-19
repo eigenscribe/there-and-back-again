@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-geometric-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometric Algebra</title>
+  <introduction>
+    <p>Geometric algebra provides simple formulations and unique insight for many different physical processes.</p>
+  </introduction>
+
+  <xi:include href="CLIFFORD_ALGEBRAS/subsec-clifford-algebras.ptx" />
+
+</subsection>

@@ -64,6 +64,44 @@
   box-sizing: border-box !important;
 }
 
+/* Ensure button labels and icons are always visible and properly styled */
+.ptx-navbar .button .name,
+.ptx-navbar button .name,
+.ptx-navbar a.button .name,
+.treebuttons .button .name,
+.ptx-content-footer .button .name,
+.ptx-navbar .ptx-read-aloud-button .name,
+.ptx-navbar .ptx-readability-options-button .name {
+  display: inline-block !important;
+  position: static !important;
+  clip: auto !important;
+  clip-path: none !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  white-space: nowrap !important;
+  font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
+}
+
+.ptx-navbar .button .icon,
+.ptx-navbar button .icon,
+.ptx-navbar a.button .icon,
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined' !important;
+  display: inline-block !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: 1 !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  white-space: nowrap !important;
+  word-wrap: normal !important;
+  direction: ltr !important;
+  -webkit-font-feature-settings: 'liga' !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
 /* Left-to-right color flow progression for individual buttons */
 .ptx-navbar button.toc-toggle,
 .ptx-navbar a.toc-toggle,
@@ -804,6 +842,17 @@ a.top-button.active,
   align-items: center !important;
   gap: 6px !important;
   position: relative !important;
+}
+
+#ptx-read-aloud-button:not([hidden]),
+.ptx-navbar #ptx-read-aloud-button:not([hidden]),
+.ptx-navbar .ptx-read-aloud-button:not([hidden]),
+#ptx-readability-options-button,
+.ptx-navbar #ptx-readability-options-button,
+.ptx-navbar .ptx-readability-options-button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 /* Prevent PreTeXt from adding awkward bottom padding to body */

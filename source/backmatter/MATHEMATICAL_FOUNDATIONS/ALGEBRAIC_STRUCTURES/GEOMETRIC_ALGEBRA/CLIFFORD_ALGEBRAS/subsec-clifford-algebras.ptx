@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsubsection xml:id="subsubsec-clifford-algebras" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Clifford Algebras</title>
+  <idx>Clifford Algebras</idx>
+
+  <xi:include href="CL2/subsubsec-cl2.ptx" />
+  <xi:include href="CL03/subsubsec-cl03.ptx" />
+
+</subsubsection>

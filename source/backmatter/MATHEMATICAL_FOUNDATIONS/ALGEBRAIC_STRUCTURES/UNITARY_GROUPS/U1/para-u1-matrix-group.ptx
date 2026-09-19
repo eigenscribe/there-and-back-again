@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-u1-matrix-group" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title><m>\operatorname{U}(1)</m> as as a matrix group</title>
+
+  <introduction>
+    <p>
+
+    </p>
+  </introduction>
+
+  <definition xml:id="def-u1-matrix-group">
+    <title><m>\operatorname{U}(1)</m> defined using matrices</title>
+     <statement>
+       <md>
+         \operatorname{U}(1) = \{ M \in M_1(\C ) :  MM^\dagger = I \}
+       </md>
+     </statement>
+  </definition>
+</paragraphs>

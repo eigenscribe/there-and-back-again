@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-algebraic-structures" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebraic Structures</title>
+
+  <introduction>
+    <!-- insert intro here -->
+  </introduction>
+
+  <xi:include href="UNITARY_GROUPS/subsec-unitary-group.ptx"/>
+  <xi:include href="GEOMETRIC_ALGEBRA/subsec-geometric-algebra.ptx"/>
+
+</section>

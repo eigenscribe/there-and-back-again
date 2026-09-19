@@ -1,5 +1,6 @@
 /* Import Custom Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Merriweather:wght@300;400;700&family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
 
 /* Modular Element Styles */
 @import "elements/mermaid.css";
