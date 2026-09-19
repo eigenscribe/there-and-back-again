@@ -7,7 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Removed redundant `overflow: hidden` property from asides styling to improve layout consistency." />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated theorem styling for improved dark theme compatibility and optimized emoji processing logic.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/postprocess_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/postprocess_html.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00240" summary="Expanded Legendre Transform and Euler-Lagrange subsections: added variational mechanics context, clarified definitions, and updated notes graph with new references.">
-      <option name="closed" value="true" />
-      <created>1788321294410</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
-      <option name="project" value="LOCAL" />
-      <updated>1788321294410</updated>
     </task>
     <task id="LOCAL-00241" summary="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts.">
       <option name="closed" value="true" />
@@ -587,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789790248678</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <task id="LOCAL-00289" summary="Updated theorem styling for improved dark theme compatibility and optimized emoji processing logic.">
+      <option name="closed" value="true" />
+      <created>1789791034904</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1789791034904</updated>
+    </task>
+    <option name="localTasksCounter" value="290" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,8 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rearranged content on legendre significant figure subsection" />
-    <MESSAGE value="took years alive out of subsection titles for significant figures subsections" />
     <MESSAGE value="code block copy icon changed" />
     <MESSAGE value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
     <MESSAGE value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
@@ -630,6 +633,8 @@
     <MESSAGE value="Standardized mathematical notation and refined descriptions in Legendre Transform and related sections." />
     <MESSAGE value="Refined overflow behavior and styling in MathJax containers and display math elements for better responsiveness and consistency across layouts." />
     <MESSAGE value="Removed redundant `overflow: hidden` property from asides styling to improve layout consistency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant `overflow: hidden` property from asides styling to improve layout consistency." />
+    <MESSAGE value="Updated theorem styling for improved dark theme compatibility and optimized emoji processing logic." />
+    <MESSAGE value="Updated workspace metadata to reflect recent changes in theorem styling and emoji processing logic." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated workspace metadata to reflect recent changes in theorem styling and emoji processing logic." />
   </component>
 </project>
