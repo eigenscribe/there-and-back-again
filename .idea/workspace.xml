@@ -8,9 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/significant-figures/ch-significant-figures.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/significant-figures/ch-significant-figures.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000742288" />
-      <entry key="S5" value="1.0008733728276746" />
-      <entry key="S10" value="1.2747945114185228" />
-      <entry key="S30" value="17.895384079147302" />
-      <entry key="S60" value="52.19205426941997" />
-      <entry key="M2" value="94.91287212723829" />
-      <entry key="M5" value="151.81354965099766" />
-      <entry key="M10" value="206.89516646923465" />
-      <entry key="M15" value="256.02804205240864" />
-      <entry key="M30" value="409.03838849074265" />
-      <entry key="H1" value="753.0185712201779" />
-      <entry key="H2" value="1399.0196808556457" />
-      <entry key="H4" value="2283.713064086771" />
-      <entry key="D1" value="5042.56862510092" />
-      <entry key="W1" value="23884.96227726175" />
+      <entry key="MS100" value="1.058595243306621" />
+      <entry key="MS500" value="3.3777675587571587" />
+      <entry key="S2" value="8.212043945973114" />
+      <entry key="S5" value="11.454489097210265" />
+      <entry key="S10" value="14.014630186226071" />
+      <entry key="S30" value="16.968652479499422" />
+      <entry key="S60" value="19.265873180699156" />
+      <entry key="M2" value="29.694791117952672" />
+      <entry key="M5" value="82.58648084331371" />
+      <entry key="M10" value="167.99239491330061" />
+      <entry key="M15" value="238.26693938417736" />
+      <entry key="M30" value="418.48895367216596" />
+      <entry key="H1" value="773.4186831872004" />
+      <entry key="H2" value="1429.172011213566" />
+      <entry key="H4" value="2336.967584843759" />
+      <entry key="D1" value="5161.343939250416" />
+      <entry key="W1" value="24016.308349783892" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="8.527237878387488E-195" />
-      <entry key="S30" value="2.0430051408365025E-65" />
-      <entry key="S60" value="4.519961438813894E-33" />
-      <entry key="M2" value="6.723065847374886E-17" />
-      <entry key="M5" value="3.396463454069854E-7" />
-      <entry key="M10" value="5.827918542730174E-4" />
-      <entry key="M15" value="0.00697711126270812" />
-      <entry key="M30" value="0.08352910428532069" />
-      <entry key="H1" value="0.28901402091476686" />
-      <entry key="H2" value="0.5376002428818916" />
-      <entry key="H4" value="0.733227801648587" />
-      <entry key="D1" value="1.8260237383531999" />
-      <entry key="W1" value="40.04871394970101" />
+      <entry key="MS500" value="6.259281392231918E-306" />
+      <entry key="S2" value="5.001855245610046E-77" />
+      <entry key="S5" value="3.017535913602602E-31" />
+      <entry key="S10" value="5.493210275970339E-16" />
+      <entry key="S30" value="8.189839823556922E-6" />
+      <entry key="S60" value="0.00286178961902459" />
+      <entry key="M2" value="0.05349569720103285" />
+      <entry key="M5" value="0.309975661647746" />
+      <entry key="M10" value="0.5569524753857314" />
+      <entry key="M15" value="0.6801685315222191" />
+      <entry key="M30" value="0.8809396738208498" />
+      <entry key="H1" value="1.1484153775534478" />
+      <entry key="H2" value="1.4437024273018877" />
+      <entry key="H4" value="1.6768605638182468" />
+      <entry key="D1" value="2.808322292200781" />
+      <entry key="W1" value="41.0052503262053" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8066417592221263" />
-      <entry key="MS500" value="0.9579352182226964" />
-      <entry key="S2" value="0.9893137270573353" />
-      <entry key="S5" value="0.9965845169464442" />
-      <entry key="S10" value="1.2725581374131647" />
-      <entry key="S30" value="17.892804963202575" />
-      <entry key="S60" value="52.18887099769841" />
-      <entry key="M2" value="94.91010325292959" />
-      <entry key="M5" value="151.8118145246651" />
-      <entry key="M10" value="206.89455899227235" />
-      <entry key="M15" value="256.0340101243226" />
-      <entry key="M30" value="409.1210100903208" />
-      <entry key="H1" value="753.3066519854149" />
-      <entry key="H2" value="1399.5563968725758" />
-      <entry key="H4" value="2284.445568882817" />
-      <entry key="D1" value="5044.394169830314" />
-      <entry key="W1" value="23925.010193795555" />
+      <entry key="MS100" value="1.016155200670004" />
+      <entry key="MS500" value="3.336613299512611" />
+      <entry key="S2" value="8.178638498593882" />
+      <entry key="S5" value="11.43619461816279" />
+      <entry key="S10" value="14.004174854230413" />
+      <entry key="S30" value="16.96368770896647" />
+      <entry key="S60" value="19.248058458144303" />
+      <entry key="M2" value="29.673056401443816" />
+      <entry key="M5" value="82.77016756907861" />
+      <entry key="M10" value="168.44243230045674" />
+      <entry key="M15" value="238.86156069411004" />
+      <entry key="M30" value="419.31816631301666" />
+      <entry key="H1" value="774.5382854374814" />
+      <entry key="H2" value="1430.600218155267" />
+      <entry key="H4" value="2338.636236382778" />
+      <entry key="D1" value="5164.150508380623" />
+      <entry key="W1" value="24057.31262040097" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -107,40 +106,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;PowerShell.build.ps1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;PowerShell.build.ps1 (2).executor&quot;: &quot;Run&quot;,
-    &quot;PowerShell.build.ps1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;junie.plugin.stays.banner.dismissed&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lshriver/PycharmProjects/there-and-back-again/source/scribing/bridges/CONVENTION_STITCHING&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.tbe.client.settings.TbeApplicationConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "PowerShell.build.ps1 (1).executor": "Run",
+    "PowerShell.build.ps1 (2).executor": "Run",
+    "PowerShell.build.ps1.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "junie.plugin.stays.banner.dismissed": "true",
+    "last_opened_file_path": "/Users/lshriver/PycharmProjects/there-and-back-again/source/scribing/bridges/CONVENTION_STITCHING",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.tbe.client.settings.TbeApplicationConfigurable",
+    "to.speed.mode.migration.done": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING" />

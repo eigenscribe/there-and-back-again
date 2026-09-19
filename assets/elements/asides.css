@@ -19,6 +19,7 @@
   margin: var(--space-xl) 0;
   position: relative !important;
   transition: all 0.3s ease;
+  overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 20px rgba(121, 82, 245, 0.1) !important;
 }
 
@@ -42,6 +43,8 @@
   margin: var(--space-xl) 0;
   position: relative !important;
   transition: all 0.3s ease;
+  /* Ensure children don't burst out */
+  overflow: hidden;
 }
 
 /* Ensure display math blocks stay within bounds of callouts */
@@ -59,7 +62,22 @@
 .ptx-content .answer .displaymath,
 .ptx-content .abstract .displaymath,
 .ptx-content .note .displaymath,
-.ptx-content .aside .displaymath {
+.ptx-content .aside .displaymath,
+.ptx-content .definition-like mjx-container,
+.ptx-content .theorem-like mjx-container,
+.ptx-content .solution mjx-container,
+.ptx-content .proof mjx-container,
+.ptx-content .example-like mjx-container,
+.ptx-content .hint mjx-container,
+.ptx-content .remark-like mjx-container,
+.ptx-content .assemblage-lik mjx-container,
+.ptx-content .insight mjx-container,
+.ptx-content .warning mjx-container,
+.ptx-content .exercise-like mjx-container,
+.ptx-content .answer mjx-container,
+.ptx-content .abstract mjx-container,
+.ptx-content .note mjx-container,
+.ptx-content .aside mjx-container{
     overflow-x: auto !important;
     overflow-y: visible !important;
     max-width: 100% !important;
