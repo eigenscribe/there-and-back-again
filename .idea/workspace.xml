@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined CSS styling for mathematical elements by consolidating selectors, enhancing readability, and adding drop-shadow effects. Updated deployment workflow to include Python setup and dependency installation.">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added `prefig` as a dependency and updated IntelliJ workspace configuration files.">
+      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-geometric-algebra.ptx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00228" summary="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787995280022</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1787995280022</updated>
     </task>
     <task id="LOCAL-00229" summary="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -594,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789805085232</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="Added `prefig` as a dependency and updated IntelliJ workspace configuration files.">
+      <option name="closed" value="true" />
+      <created>1789805411955</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1789805411955</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="udated math notation conventions (reorganized and added a few items)" />
     <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
     <MESSAGE value="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments." />
     <MESSAGE value="updated the demo table in pretext meta section" />
@@ -637,6 +636,7 @@
     <MESSAGE value="edited remark in lioville's identity theorem" />
     <MESSAGE value="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions" />
     <MESSAGE value="Refined CSS styling for mathematical elements by consolidating selectors, enhancing readability, and adding drop-shadow effects. Updated deployment workflow to include Python setup and dependency installation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined CSS styling for mathematical elements by consolidating selectors, enhancing readability, and adding drop-shadow effects. Updated deployment workflow to include Python setup and dependency installation." />
+    <MESSAGE value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
   </component>
 </project>
