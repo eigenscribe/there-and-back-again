@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Fixed file reference case sensitivity in Clifford Algebras subsection: changed `Cl03` to `CL03`.">
-      <change beforePath="$PROJECT_DIR$/publication/publication.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/publication/publication.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated build workflow and graph data: improved GitHub Pages deployment, adjusted file copy logic in build script, and corrected U(1) notation in `notes-graph.json`.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +196,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
+    </task>
+    <task id="LOCAL-00232" summary="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks.">
+      <option name="closed" value="true" />
+      <created>1787998466964</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1787998466964</updated>
     </task>
     <task id="LOCAL-00233" summary="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace.">
       <option name="closed" value="true" />
@@ -581,15 +589,7 @@
       <option name="project" value="LOCAL" />
       <updated>1789783357806</updated>
     </task>
-    <task id="LOCAL-00281" summary="Fixed file reference case sensitivity in Clifford Algebras subsection: changed `Cl03` to `CL03`.">
-      <option name="closed" value="true" />
-      <created>1789784464738</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
-      <option name="project" value="LOCAL" />
-      <updated>1789784464738</updated>
-    </task>
-    <option name="localTasksCounter" value="282" />
+    <option name="localTasksCounter" value="281" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,6 +607,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing" />
     <MESSAGE value="added a geometric dictionary table to the convention stitching section for symplectic and calculus of variations section" />
     <MESSAGE value="started writing the second table in the symplectic geometry and calculus of variation convention stitching section" />
     <MESSAGE value="toc text color changed to a blue-to-purple gradient depending on 'level' of toc" />
@@ -631,7 +632,6 @@
     <MESSAGE value="Added and reorganized &quot;Algebraic Structures&quot; content: introduced subsections for Clifford algebras, geometric algebra, and unitary groups; included new definitions, descriptions, and file references; updated notes graph and appendix structure." />
     <MESSAGE value="Standardized notation: replaced \( \S^1 \) with \( \mathbb{S}^1 \) in U(1) definition." />
     <MESSAGE value="Updated build workflow and graph data: improved GitHub Pages deployment, adjusted file copy logic in build script, and corrected U(1) notation in `notes-graph.json`." />
-    <MESSAGE value="Fixed file reference case sensitivity in Clifford Algebras subsection: changed `Cl03` to `CL03`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed file reference case sensitivity in Clifford Algebras subsection: changed `Cl03` to `CL03`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated build workflow and graph data: improved GitHub Pages deployment, adjusted file copy logic in build script, and corrected U(1) notation in `notes-graph.json`." />
   </component>
 </project>
