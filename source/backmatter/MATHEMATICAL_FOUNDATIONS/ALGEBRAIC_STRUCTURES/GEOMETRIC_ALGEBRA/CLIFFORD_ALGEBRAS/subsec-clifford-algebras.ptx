@@ -5,6 +5,6 @@
   <idx>Clifford Algebras</idx>
 
   <xi:include href="CL2/subsubsec-cl2.ptx" />
-  <xi:include href="Cl03/subsubsec-cl03.ptx" />
+  <xi:include href="CL03/subsubsec-cl03.ptx" />
 
 </subsubsection>
