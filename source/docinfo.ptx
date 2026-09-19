@@ -6,7 +6,6 @@
     A Zettelkasten-based journal for self-study and networked mathematical thinking.
   </blurb>
 
-  <directories external="../assets" />
 
   <!-- Math macros for convenience -->
   <macros>
