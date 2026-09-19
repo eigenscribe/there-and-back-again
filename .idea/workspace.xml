@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Standardized mathematical notation and refined descriptions in Legendre Transform and related sections.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined overflow behavior and styling in MathJax containers and display math elements for better responsiveness and consistency across layouts.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,14 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00238" summary="Added glossary entries for &quot;Mechanics&quot; and &quot;Variational Mechanics&quot; with descriptions, tags, and references; updated notes graph with new nodes and links.">
-      <option name="closed" value="true" />
-      <created>1788317009861</created>
-      <option name="number" value="00238" />
-      <option name="presentableId" value="LOCAL-00238" />
-      <option name="project" value="LOCAL" />
-      <updated>1788317009862</updated>
     </task>
     <task id="LOCAL-00239" summary="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries.">
       <option name="closed" value="true" />
@@ -592,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789788059851</updated>
     </task>
-    <option name="localTasksCounter" value="287" />
+    <task id="LOCAL-00287" summary="Refined overflow behavior and styling in MathJax containers and display math elements for better responsiveness and consistency across layouts.">
+      <option name="closed" value="true" />
+      <created>1789789339805</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1789789339805</updated>
+    </task>
+    <option name="localTasksCounter" value="288" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity" />
     <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
     <MESSAGE value="rearranged content on legendre significant figure subsection" />
     <MESSAGE value="took years alive out of subsection titles for significant figures subsections" />
@@ -635,6 +632,7 @@
     <MESSAGE value="Standardized U(1) notation in definitions and notes graph: replaced `U(1)` with `\operatorname{U}(1)` for consistency." />
     <MESSAGE value="Standardized `\operatorname{U}(1)` notation across definitions and notes graph." />
     <MESSAGE value="Standardized mathematical notation and refined descriptions in Legendre Transform and related sections." />
-    <option name="LAST_COMMIT_MESSAGE" value="Standardized mathematical notation and refined descriptions in Legendre Transform and related sections." />
+    <MESSAGE value="Refined overflow behavior and styling in MathJax containers and display math elements for better responsiveness and consistency across layouts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined overflow behavior and styling in MathJax containers and display math elements for better responsiveness and consistency across layouts." />
   </component>
 </project>
