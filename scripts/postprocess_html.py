@@ -2,25 +2,47 @@ import os
 import re
 import sys
 
-# Unicode Emoji regex pattern matching single and composite emojis
+# Unicode Emoji regex pattern matching standard emoji ranges
 EMOJI_PATTERN = re.compile(
-    r"([\U00010000-\U0010ffff\u2600-\u27bf\u2300-\u23ff\u2b50\u2b55\u3030\u303d\u3297\u3299]+(?:[\ufe0e\ufe0f]|\ud83c[\udffb-\udfff])?(?:\u200d[\U00010000-\U0010ffff\u2600-\u27bf\u2300-\u23ff\u2b50\u2b55\u3030\u303d\u3297\u3299]+(?:[\ufe0e\ufe0f]|\ud83c[\udffb-\udfff])?)*)"
+    r"([\U0001F300-\U0001FAFF\u2600-\u27BF\u2B50\u2B55\u3030\u303D\u3297\u3299]+(?:[\ufe0e\ufe0f]|\ud83c[\udffb-\udfff])?(?:\u200d[\U0001F300-\U0001FAFF\u2600-\u27BF\u2B50\u2B55\u3030\u303D\u3297\u3299]+(?:[\ufe0e\ufe0f]|\ud83c[\udffb-\udfff])?)*)"
 )
 
 def wrap_emoji_in_html(html_str):
-    # Process text chunks outside tags to avoid modifying HTML attributes/tags
+    # Process text chunks outside tags to avoid modifying HTML attributes/tags,
+    # and strictly skip script, style, code, pre, and math blocks (displaymath/process-math/latex-macros).
     tokens = re.split(r'(<[^>]+>)', html_str)
     result = []
     in_emoji_span = False
+    skip_stack = []
+
     for token in tokens:
         if token.startswith('<'):
-            if re.match(r'<span[^>]*class="[^"]*(?:toc-emoji|twemoji|emoji)[^"]*"', token):
-                in_emoji_span = True
-            elif in_emoji_span and token.startswith('</span'):
-                in_emoji_span = False
+            tag_match = re.match(r'<(/?)(\w+)([^>]*)>', token, re.IGNORECASE)
+            if tag_match:
+                is_close, tag_name, attrs = tag_match.groups()
+                tag_name = tag_name.lower()
+
+                # Check for tags/elements to skip
+                is_skip_tag = tag_name in ['script', 'style', 'code', 'pre', 'math', 'svg']
+                has_skip_class = bool(re.search(r'class="[^"]*(?:process-math|displaymath|tex2jax_ignore|MathJax|mjx-)[^"]*"', attrs, re.IGNORECASE))
+                has_skip_id = bool(re.search(r'id="[^"]*(?:latex-macros)[^"]*"', attrs, re.IGNORECASE))
+
+                if not is_close:
+                    if re.match(r'<span[^>]*class="[^"]*(?:toc-emoji|twemoji|emoji)[^"]*"', token):
+                        in_emoji_span = True
+                    if is_skip_tag or has_skip_class or has_skip_id:
+                        skip_stack.append(tag_name)
+                else:
+                    if in_emoji_span and tag_name == 'span':
+                        in_emoji_span = False
+                    if skip_stack and tag_name in skip_stack:
+                        # Pop matching tag from stack
+                        idx = len(skip_stack) - 1 - skip_stack[::-1].index(tag_name)
+                        skip_stack.pop(idx)
+
             result.append(token)
         else:
-            if not in_emoji_span and token:
+            if not in_emoji_span and not skip_stack and token:
                 token = EMOJI_PATTERN.sub(r'<span class="toc-emoji">\1</span>', token)
             result.append(token)
     return ''.join(result)

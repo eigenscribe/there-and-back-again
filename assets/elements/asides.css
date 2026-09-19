@@ -84,10 +84,10 @@
 
 .ptx-content .theorem-like mjx-container,
 .ptx-content .proof mjx-container {
-  color: #038B00 !important; /* Node Color: Theorem (Green) */
+  color: #00E676 !important; /* Node Color: Theorem (Vibrant Green for dark theme) */
   text-shadow: 
-    0 0 2px rgba(3, 139, 0, 0.7), 
-    0 0 8px rgba(3, 139, 0, 0.4);
+    0 0 2px rgba(0, 230, 118, 0.7), 
+    0 0 8px rgba(0, 230, 118, 0.4);
 }
 
 .ptx-content .solution mjx-container {

@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined overflow behavior and styling in MathJax containers and display math elements for better responsiveness and consistency across layouts.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
-    </list>
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Removed redundant `overflow: hidden` property from asides styling to improve layout consistency." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,14 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00239" summary="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries.">
-      <option name="closed" value="true" />
-      <created>1788318915385</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
-      <option name="project" value="LOCAL" />
-      <updated>1788318915385</updated>
     </task>
     <task id="LOCAL-00240" summary="Expanded Legendre Transform and Euler-Lagrange subsections: added variational mechanics context, clarified definitions, and updated notes graph with new references.">
       <option name="closed" value="true" />
@@ -590,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789789339805</updated>
     </task>
-    <option name="localTasksCounter" value="288" />
+    <task id="LOCAL-00288" summary="Removed redundant `overflow: hidden` property from asides styling to improve layout consistency.">
+      <option name="closed" value="true" />
+      <created>1789790248678</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1789790248678</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
     <MESSAGE value="rearranged content on legendre significant figure subsection" />
     <MESSAGE value="took years alive out of subsection titles for significant figures subsections" />
     <MESSAGE value="code block copy icon changed" />
@@ -633,6 +629,7 @@
     <MESSAGE value="Standardized `\operatorname{U}(1)` notation across definitions and notes graph." />
     <MESSAGE value="Standardized mathematical notation and refined descriptions in Legendre Transform and related sections." />
     <MESSAGE value="Refined overflow behavior and styling in MathJax containers and display math elements for better responsiveness and consistency across layouts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined overflow behavior and styling in MathJax containers and display math elements for better responsiveness and consistency across layouts." />
+    <MESSAGE value="Removed redundant `overflow: hidden` property from asides styling to improve layout consistency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant `overflow: hidden` property from asides styling to improve layout consistency." />
   </component>
 </project>
