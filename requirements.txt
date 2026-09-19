@@ -18,6 +18,7 @@ packaging==26.3
 pdfCropMargins==1.0.9
 pillow==12.3.0
 playwright==1.63.0
+prefig>=0.7.0
 pretext==2.53.0
 psutil==7.2.2
 pydantic==2.13.5
