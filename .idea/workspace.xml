@@ -7,12 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated theorem styling for improved dark theme compatibility and optimized emoji processing logic.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/postprocess_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/postprocess_html.py" afterDir="false" />
-    </list>
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refactored build scripts to centralize HTML postprocessing logic, including styling injections and search index fixes, for improved maintainability." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,14 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00241" summary="Added &quot;Spherical Harmonics&quot; glossary entry with definitions, tags, and references; expanded notes graph with new nodes and links to related concepts.">
-      <option name="closed" value="true" />
-      <created>1788323894102</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1788323894103</updated>
     </task>
     <task id="LOCAL-00242" summary="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions.">
       <option name="closed" value="true" />
@@ -592,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789791034904</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="Refactored build scripts to centralize HTML postprocessing logic, including styling injections and search index fixes, for improved maintainability.">
+      <option name="closed" value="true" />
+      <created>1789792384062</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1789792384062</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,8 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code block copy icon changed" />
-    <MESSAGE value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
     <MESSAGE value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
     <MESSAGE value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
     <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
@@ -635,6 +628,8 @@
     <MESSAGE value="Removed redundant `overflow: hidden` property from asides styling to improve layout consistency." />
     <MESSAGE value="Updated theorem styling for improved dark theme compatibility and optimized emoji processing logic." />
     <MESSAGE value="Updated workspace metadata to reflect recent changes in theorem styling and emoji processing logic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated workspace metadata to reflect recent changes in theorem styling and emoji processing logic." />
+    <MESSAGE value="Streamlined HTML postprocessing by consolidating injections and content updates, improved search index cleanup, and enhanced build scripts for maintainability." />
+    <MESSAGE value="Refactored build scripts to centralize HTML postprocessing logic, including styling injections and search index fixes, for improved maintainability." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored build scripts to centralize HTML postprocessing logic, including styling injections and search index fixes, for improved maintainability." />
   </component>
 </project>
