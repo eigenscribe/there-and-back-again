@@ -529,7 +529,7 @@
 /* Math Content */
 .ptx-content .displaymath {
   color: var(--color-math) !important;
-  -webkit-text-fill-color: initial !important;
+  -webkit-text-fill-color: currentColor !important;
   background: rgba(0, 0, 0, 0.2) !important; /* Darker background for contrast */
   border: 1px solid rgba(0, 176, 245, 0.25); /* Subtle border */
   border-radius: var(--radius-md);
