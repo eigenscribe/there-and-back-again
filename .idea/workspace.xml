@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions">
       <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.058595243306621" />
-      <entry key="MS500" value="3.3777675587571587" />
-      <entry key="S2" value="8.212043945973114" />
-      <entry key="S5" value="11.454489097210265" />
-      <entry key="S10" value="14.014630186226071" />
-      <entry key="S30" value="16.968652479499422" />
-      <entry key="S60" value="19.265873180699156" />
-      <entry key="M2" value="29.694791117952672" />
-      <entry key="M5" value="82.58648084331371" />
-      <entry key="M10" value="167.99239491330061" />
-      <entry key="M15" value="238.26693938417736" />
-      <entry key="M30" value="418.48895367216596" />
-      <entry key="H1" value="773.4186831872004" />
-      <entry key="H2" value="1429.172011213566" />
-      <entry key="H4" value="2336.967584843759" />
-      <entry key="D1" value="5161.343939250416" />
-      <entry key="W1" value="24016.308349783892" />
+      <entry key="MS100" value="1.736740002682955" />
+      <entry key="MS500" value="5.110571438673475" />
+      <entry key="S2" value="10.458957354471456" />
+      <entry key="S5" value="12.871851673813435" />
+      <entry key="S10" value="13.888395505254683" />
+      <entry key="S30" value="19.82500420316172" />
+      <entry key="S60" value="38.67574541119174" />
+      <entry key="M2" value="67.00535210500591" />
+      <entry key="M5" value="115.98474453286671" />
+      <entry key="M10" value="191.849244937909" />
+      <entry key="M15" value="265.2975111780088" />
+      <entry key="M30" value="461.26467278012507" />
+      <entry key="H1" value="827.8817969338058" />
+      <entry key="H2" value="1495.9724126463602" />
+      <entry key="H4" value="2431.635502941207" />
+      <entry key="D1" value="5336.364423457221" />
+      <entry key="W1" value="24207.36580025141" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="6.259281392231918E-306" />
-      <entry key="S2" value="5.001855245610046E-77" />
-      <entry key="S5" value="3.017535913602602E-31" />
-      <entry key="S10" value="5.493210275970339E-16" />
-      <entry key="S30" value="8.189839823556922E-6" />
-      <entry key="S60" value="0.00286178961902459" />
-      <entry key="M2" value="0.05349569720103285" />
-      <entry key="M5" value="0.309975661647746" />
-      <entry key="M10" value="0.5569524753857314" />
-      <entry key="M15" value="0.6801685315222191" />
-      <entry key="M30" value="0.8809396738208498" />
-      <entry key="H1" value="1.1484153775534478" />
-      <entry key="H2" value="1.4437024273018877" />
-      <entry key="H4" value="1.6768605638182468" />
-      <entry key="D1" value="2.808322292200781" />
-      <entry key="W1" value="41.0052503262053" />
+      <entry key="MS500" value="2.972638966050018E-87" />
+      <entry key="S2" value="2.3349927776017337E-22" />
+      <entry key="S5" value="2.2249190608346386E-9" />
+      <entry key="S10" value="4.7169047699043454E-5" />
+      <entry key="S30" value="0.036131475963485225" />
+      <entry key="S60" value="0.19008282024428347" />
+      <entry key="M2" value="0.43606739400259936" />
+      <entry key="M5" value="0.7407052827514364" />
+      <entry key="M10" value="0.9995888739119908" />
+      <entry key="M15" value="1.1821077381421872" />
+      <entry key="M30" value="1.5182898189362348" />
+      <entry key="H1" value="1.8982005919879132" />
+      <entry key="H2" value="2.282288471056383" />
+      <entry key="H4" value="2.581892202332766" />
+      <entry key="D1" value="3.7820302767071996" />
+      <entry key="W1" value="41.95244430888484" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.016155200670004" />
-      <entry key="MS500" value="3.336613299512611" />
-      <entry key="S2" value="8.178638498593882" />
-      <entry key="S5" value="11.43619461816279" />
-      <entry key="S10" value="14.004174854230413" />
-      <entry key="S30" value="16.96368770896647" />
-      <entry key="S60" value="19.248058458144303" />
-      <entry key="M2" value="29.673056401443816" />
-      <entry key="M5" value="82.77016756907861" />
-      <entry key="M10" value="168.44243230045674" />
-      <entry key="M15" value="238.86156069411004" />
-      <entry key="M30" value="419.31816631301666" />
-      <entry key="H1" value="774.5382854374814" />
-      <entry key="H2" value="1430.600218155267" />
-      <entry key="H4" value="2338.636236382778" />
-      <entry key="D1" value="5164.150508380623" />
-      <entry key="W1" value="24057.31262040097" />
+      <entry key="MS100" value="1.6980004626902876" />
+      <entry key="MS500" value="5.087338389995265" />
+      <entry key="S2" value="10.446315021974536" />
+      <entry key="S5" value="12.865451239867506" />
+      <entry key="S10" value="13.884945827347504" />
+      <entry key="S30" value="19.85752979792366" />
+      <entry key="S60" value="38.859003734435404" />
+      <entry key="M2" value="67.433880755137" />
+      <entry key="M5" value="116.71109342560092" />
+      <entry key="M10" value="192.8166137157781" />
+      <entry key="M15" value="266.44144690000087" />
+      <entry key="M30" value="462.7482479977986" />
+      <entry key="H1" value="829.7561963142476" />
+      <entry key="H2" value="1498.2404945624794" />
+      <entry key="H4" value="2434.209467827975" />
+      <entry key="D1" value="5340.14469115587" />
+      <entry key="W1" value="24249.31726251676" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -202,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00226" summary="Refined navbar styling with updated gradients, improved hover/active states, enhanced text contrast, adjusted glowing effects, and updated IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787994250842</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1787994250842</updated>
     </task>
     <task id="LOCAL-00227" summary="Refined navbar styling with updated hover/active states, enhanced gradients, improved glowing effects, adjusted text contrast, and updated IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -595,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789507718735</updated>
     </task>
-    <option name="localTasksCounter" value="275" />
+    <task id="LOCAL-00275" summary="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions">
+      <option name="closed" value="true" />
+      <created>1789803960840</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1789803960840</updated>
+    </task>
+    <option name="localTasksCounter" value="276" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,8 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated `publication.ptx` chunking and table of contents levels for finer granularity; refined IntelliJ workspace configurations and synchronized notes graph entries." />
-    <MESSAGE value="Added `.output.json` for managing granular content references across multiple sections, enabling improved tracking and synchronization of source files." />
     <MESSAGE value="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration." />
     <MESSAGE value="udated math notation conventions (reorganized and added a few items)" />
     <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
@@ -638,6 +636,8 @@
     <MESSAGE value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
     <MESSAGE value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
     <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
+    <MESSAGE value="edited remark in lioville's identity theorem" />
+    <MESSAGE value="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions" />
   </component>
 </project>

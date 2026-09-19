@@ -18,20 +18,26 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: oscarlevin/pretext-full
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
-      - name: Setup git config
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
         run: |
-          git config --global --add safe.directory $(pwd)
-      
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Build with custom styling
         run: |
           chmod +x build.sh
           ./build.sh
-      
+
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:

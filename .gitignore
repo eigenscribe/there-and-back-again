@@ -99,6 +99,3 @@ venv/
 .dropbox.attr
 .dropbox.cache
 
-# Don't track deprecated workflows
-.github/workflows/deploy.yml
-.github/workflows/test-build.yml

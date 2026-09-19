@@ -557,14 +557,17 @@ mjx-container {
   text-shadow: 
     0 0 2px rgba(0, 232, 255, 0.7), 
     0 0 8px rgba(0, 232, 255, 0.4); /* Aligned vibrant glow */
+  filter: drop-shadow(0 0 2px rgba(0, 232, 255, 0.7)) drop-shadow(0 0 8px rgba(0, 232, 255, 0.4));
   letter-spacing: 0.015em; /* Slightly increased for clarity */
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+  transition: color 0.3s ease, text-shadow 0.3s ease, filter 0.3s ease;
   -webkit-font-smoothing: antialiased;
 }
 
 .ptx-content mjx-container *,
 mjx-container * {
   -webkit-text-fill-color: currentColor !important;
+  fill: currentColor !important;
+  text-shadow: inherit;
 }
 
 .ptx-content .heading mjx-container,
