@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-cl03-basis-elements" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Basis Elements</title>
+
+  <dl>
+    <li>
+      <title><m>\{ 1 \}</m></title>
+      <p>
+        grade-0 object
+      </p>
+      <p>
+        Corresponds with a scalar magnitudes.
+      </p>
+    </li>
+    <li>
+      <title><m>\{ \mathbf{e}_1, \mathbf{e}_2 , \mathbf{e}_3\}</m></title>
+      <p>
+        grade-1 object
+      </p>
+      <p>
+        Corresponds with a vector (i.e., directional information).
+      </p>
+    </li>
+    <li>
+      <title><m>\{ \mathbf{e}_{12}, \mathbf{e}_{23}, \mathbf{e}_{31} \}</m></title>
+      <p>
+        grade-2 objects
+      </p>
+      <p>
+        Usually called <term>bivectors</term> or <term>wedge products</term>.
+      </p>
+    </li>
+    <li>
+      <title><m>\{ \mathbf{e}_{123} \}</m></title>
+      <p>
+        Usually called <term>trivectors</term>.
+      </p>
+      <p>
+        The unit trivector is the pseudoscalar element in <m>\operatorname{Cl}(0,3)</m>.
+      </p>
+    </li>
+  </dl>
+</paragraphs>

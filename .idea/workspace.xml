@@ -7,11 +7,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added emoji isolation and TOC protection: ensured consistent display of emojis across TOC items and improved styling for readability; replaced HTML processing scripts with `postprocess_html.py`.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined TOC design and styling: implemented glassmorphic cards for items, adjusted gradient effects, and optimized CSS for active/expanded states; removed legacy overrides and redundant inline styles in build scripts.">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-cl03-basis-elements.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/subsubsec-cl03.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL2/para-cl2-basis-elements.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/subsec-geometric-algebra.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-complex-numbers.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/subsubsec-u1.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/subsec-unitary-group.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/sec-algebraic-structures.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/toc.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/toc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/build.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsec-clifford-algebras.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsec-clifford-algebras.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsubsec-cl2.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL2/subsubsec-cl2.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/subsec-ga-hodge-dual.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-ga-hodge-dual.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2619" />
+    <option name="cachedIndexableFilesCount" value="2644" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -150,11 +161,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\GEOMETRIC_ALGEBRA\CLIFFORD_ALGEBRAS" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\GA_PHYSICS_CROSSINGS" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS" />
-      <recent name="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\MATHEMATICAL_FOUNDATIONS\ALGEBRAIC_STRUCTURES\UNITARY_GROUPS" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\MATHEMATICAL_FOUNDATIONS\ALGEBRAIC_STRUCTURES\GEOMETRIC_ALGEBRA" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\MATHEMATICAL_FOUNDATIONS\ALGEBRAIC_STRUCTURES" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\MATHEMATICAL_FOUNDATIONS\ALGEBRAIC_STRUCTURES\GEOMETRIC_ALGEBRA\CLIFFORD_ALGEBRAS\CL03" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\MATHEMATICAL_FOUNDATIONS\ALGEBRAIC_STRUCTURES\GEOMETRIC_ALGEBRA\CLIFFORD_ALGEBRAS\CL2" />
     </key>
   </component>
   <component name="RunManager" selected="PowerShell.build.ps1 (1)">
@@ -188,7 +199,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-eff1e8def5f5-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10315.174" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
       </set>
     </attachedChunks>
   </component>
@@ -199,14 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00228" summary="Refined navbar CSS: enhanced button hover/active states, gradients, glowing effects, and text contrast; optimized IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787995280022</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1787995280022</updated>
     </task>
     <task id="LOCAL-00229" summary="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -592,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789524310912</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="Refined TOC design and styling: implemented glassmorphic cards for items, adjusted gradient effects, and optimized CSS for active/expanded states; removed legacy overrides and redundant inline styles in build scripts.">
+      <option name="closed" value="true" />
+      <created>1789529341119</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1789529341119</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,8 +621,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration." />
-    <MESSAGE value="udated math notation conventions (reorganized and added a few items)" />
     <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
     <MESSAGE value="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments." />
     <MESSAGE value="updated the demo table in pretext meta section" />
@@ -635,6 +644,8 @@
     <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
     <MESSAGE value="Updated &quot;Significant Figures&quot; chapter: changed icon in the title, adjusted JSON structure, and refined notes graph by removing redundant prerequisite links." />
     <MESSAGE value="Added emoji isolation and TOC protection: ensured consistent display of emojis across TOC items and improved styling for readability; replaced HTML processing scripts with `postprocess_html.py`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added emoji isolation and TOC protection: ensured consistent display of emojis across TOC items and improved styling for readability; replaced HTML processing scripts with `postprocess_html.py`." />
+    <MESSAGE value="Refined TOC styling for improved readability and consistent hierarchy: updated CSS rules, removed redundant overrides from `build.ps1`, and adjusted theme variables for active item colors." />
+    <MESSAGE value="Refined TOC design and styling: implemented glassmorphic cards for items, adjusted gradient effects, and optimized CSS for active/expanded states; removed legacy overrides and redundant inline styles in build scripts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined TOC design and styling: implemented glassmorphic cards for items, adjusted gradient effects, and optimized CSS for active/expanded states; removed legacy overrides and redundant inline styles in build scripts." />
   </component>
 </project>

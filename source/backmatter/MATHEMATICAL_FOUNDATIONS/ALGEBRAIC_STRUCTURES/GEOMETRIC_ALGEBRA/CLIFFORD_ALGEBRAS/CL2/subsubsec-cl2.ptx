@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsubsection xml:id="subsubsec-cl2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title><m>\operatorname{Cl}(2)</m></title>
+  <idx><m>\operatorname{Cl}(2)</m></idx>
+
+  <introduction>
+    <p>
+      Clifford algebra of 2D Euclidean space.
+    </p>
+  </introduction>
+
+  <xi:include href="para-cl2-basis-elements.ptx" />
+
+</subsubsection>
