@@ -7,22 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined TOC design and styling: implemented glassmorphic cards for items, adjusted gradient effects, and optimized CSS for active/expanded states; removed legacy overrides and redundant inline styles in build scripts.">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-cl03-basis-elements.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/subsubsec-cl03.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL2/para-cl2-basis-elements.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/subsec-geometric-algebra.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-complex-numbers.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/subsubsec-u1.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/subsec-unitary-group.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/sec-algebraic-structures.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Standardized notation: replaced \( \S^1 \) with \( \mathbb{S}^1 \) in U(1) definition.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsec-clifford-algebras.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsec-clifford-algebras.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsubsec-cl2.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL2/subsubsec-cl2.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/GEOMETRIC_ALGEBRA/subsec-ga-hodge-dual.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-ga-hodge-dual.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,22 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00229" summary="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787995851340</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1787995851340</updated>
-    </task>
-    <task id="LOCAL-00230" summary="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness.">
-      <option name="closed" value="true" />
-      <created>1787996205680</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1787996205680</updated>
     </task>
     <task id="LOCAL-00231" summary="Refined &quot;tabs.js&quot; logic for preview and source tab handling: improved auto-detection, added support for preview-first cases, streamlined tab and panel order management; updated IntelliJ workspace and PreTeXt examples.">
       <option name="closed" value="true" />
@@ -603,7 +575,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789529341119</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="Added and reorganized &quot;Algebraic Structures&quot; content: introduced subsections for Clifford algebras, geometric algebra, and unitary groups; included new definitions, descriptions, and file references; updated notes graph and appendix structure.">
+      <option name="closed" value="true" />
+      <created>1789782774921</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1789782774922</updated>
+    </task>
+    <task id="LOCAL-00279" summary="Standardized notation: replaced \( \S^1 \) with \( \mathbb{S}^1 \) in U(1) definition.">
+      <option name="closed" value="true" />
+      <created>1789782803590</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1789782803590</updated>
+    </task>
+    <option name="localTasksCounter" value="280" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,8 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
-    <MESSAGE value="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments." />
     <MESSAGE value="updated the demo table in pretext meta section" />
     <MESSAGE value="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing" />
     <MESSAGE value="added a geometric dictionary table to the convention stitching section for symplectic and calculus of variations section" />
@@ -646,6 +632,8 @@
     <MESSAGE value="Added emoji isolation and TOC protection: ensured consistent display of emojis across TOC items and improved styling for readability; replaced HTML processing scripts with `postprocess_html.py`." />
     <MESSAGE value="Refined TOC styling for improved readability and consistent hierarchy: updated CSS rules, removed redundant overrides from `build.ps1`, and adjusted theme variables for active item colors." />
     <MESSAGE value="Refined TOC design and styling: implemented glassmorphic cards for items, adjusted gradient effects, and optimized CSS for active/expanded states; removed legacy overrides and redundant inline styles in build scripts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined TOC design and styling: implemented glassmorphic cards for items, adjusted gradient effects, and optimized CSS for active/expanded states; removed legacy overrides and redundant inline styles in build scripts." />
+    <MESSAGE value="Added and reorganized &quot;Algebraic Structures&quot; content: introduced subsections for Clifford algebras, geometric algebra, and unitary groups; included new definitions, descriptions, and file references; updated notes graph and appendix structure." />
+    <MESSAGE value="Standardized notation: replaced \( \S^1 \) with \( \mathbb{S}^1 \) in U(1) definition." />
+    <option name="LAST_COMMIT_MESSAGE" value="Standardized notation: replaced \( \S^1 \) with \( \mathbb{S}^1 \) in U(1) definition." />
   </component>
 </project>

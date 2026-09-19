@@ -436,7 +436,7 @@
       "title": "U(1) defined in terms of complex numbers",
       "url": "para-u1-complex-numbers.html#def-u1-complex-numbers",
       "tags": [],
-      "description": "\\operatorname{U}(1) = \\{ z \\in \\C : \\|z \\| = 1 \\} = \\{ e^{\\mathcal{i}\\theta} : \\theta \\in \\R \\}",
+      "description": "\\operatorname{U}(1) = \\{ z \\in \\C : |z| = 1 \\} = \\{ e^{\\mathcal{i}\\theta} : \\theta \\in \\R \\}",
       "group": "backmatter",
       "color": "#9013fe"
     },

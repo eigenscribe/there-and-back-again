@@ -56,7 +56,7 @@ echo "Copying custom CSS and assets..."
 touch output/web/.nojekyll
 mkdir -p output/web/external/elements
 cp assets/custom-theme.css output/web/external/
-cp -r assets/elements/ output/web/external/elements/
+cp -r assets/elements/* output/web/external/elements/
 cp assets/wisp.jpg output/web/external/
 cp assets/logo.png output/web/external/
 cp assets/cover.png output/web/external/
@@ -67,7 +67,7 @@ cp assets/proofmark.png output/web/external/
 cp assets/space-bg.png output/web/external/
 cp assets/favicon.png output/web/
 mkdir -p output/web/external/widgets/periodic-table
-cp -r assets/widgets/periodic-table/ output/web/external/widgets/
+cp -r assets/widgets/periodic-table/* output/web/external/widgets/periodic-table/
 
 # Update the graph data from source
 echo "Updating graph data..."
