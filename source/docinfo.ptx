@@ -8,7 +8,6 @@
 
   <!-- Math macros for convenience -->
   <macros>
-    \addtolength{\jot}{0.5ex}
     \newcommand{\N}{\mathbb{N}}
     \newcommand{\Z}{\mathbb{Z}}
     \newcommand{\Q}{\mathbb{Q}}

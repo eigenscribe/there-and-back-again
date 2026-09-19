@@ -8,7 +8,7 @@
     <title>The Cross Product as a Dual Wedge Product</title>
       <p>
         In Clifford algebra <m>\operatorname{Cl}(0,3)</m> (Euclidean 3-D space), the standard vector cross product
-        $\vec{a}\times\vec{b}$ is equivalent to the dual of the geometric wedge product $\vec{a}\wedge\vec{b}$:
+        <m>\vec{a}\times\vec{b}</m> is equivalent to the dual of the geometric wedge product <m>\vec{a}\wedge\vec{b}</m>:
 
           <md>
             \vec{a}\times\vec{b} = (\vec{a}\wedge\vec{b})\mathcal{I}^{-1}

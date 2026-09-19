@@ -7,10 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Fixed typo in U(1) matrix group definition: corrected `\operatornam` to `\operatorname`.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Standardized `\operatorname{U}(1)` notation across definitions and notes graph.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-complex-numbers.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-complex-numbers.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-matrix-group.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-matrix-group.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-ga-hodge-dual.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-ga-hodge-dual.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/docinfo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/docinfo.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00236" summary="added Legendre Transform subsection to the Calculus of Variations section and included Adrien-Marie Legendre biography and references in notes graph">
-      <option name="closed" value="true" />
-      <created>1788154033538</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1788154033538</updated>
     </task>
     <task id="LOCAL-00237" summary="Corrected mathematical notation in the Legendre Transform subsection and refined definitions for clarity in the Calculus of Variations section; updated related notes graph descriptions.">
       <option name="closed" value="true" />
@@ -591,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789786305598</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="Standardized `\operatorname{U}(1)` notation across definitions and notes graph.">
+      <option name="closed" value="true" />
+      <created>1789786548159</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1789786548159</updated>
+    </task>
+    <option name="localTasksCounter" value="286" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,8 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed copy/paste text that wasn't edited for Joseph Liouville significant figure subsection" />
-    <MESSAGE value="changed liouville-joseph.ptx structure" />
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem" />
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity" />
     <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
@@ -634,6 +634,8 @@
     <MESSAGE value="Standardized notation in U(1) matrix group definition: replaced `&lt;m&gt;U(1)&lt;/m&gt;` with `&lt;m&gt;\operatorname{U}(1)&lt;/m&gt;`." />
     <MESSAGE value="Fixed typo in U(1) matrix group definition: corrected `\operatornam` to `\operatorname`." />
     <MESSAGE value="Standardized notation in U(1) definition: updated `&lt;m&gt;U(1)&lt;/m&gt;` to `&lt;m&gt;\operatorname{U}(1)&lt;/m&gt;`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Standardized notation in U(1) definition: updated `&lt;m&gt;U(1)&lt;/m&gt;` to `&lt;m&gt;\operatorname{U}(1)&lt;/m&gt;`." />
+    <MESSAGE value="Standardized U(1) notation in definitions and notes graph: replaced `U(1)` with `\operatorname{U}(1)` for consistency." />
+    <MESSAGE value="Standardized `\operatorname{U}(1)` notation across definitions and notes graph." />
+    <option name="LAST_COMMIT_MESSAGE" value="Standardized `\operatorname{U}(1)` notation across definitions and notes graph." />
   </component>
 </project>

@@ -69,7 +69,7 @@
       </p>
       <md>
         <mrow>p_i \triangleq \frac{\partial L}{\partial \dot{q}_i}</mrow>
-        <mrow>H(q, p, t) \triangleq \sum_i{p_i \dot{q}_i} - L(q, \dot{q}, t)</mrow> \, .
+        <mrow>H(q, p, t) \triangleq \sum_i{p_i \dot{q}_i} - L(q, \dot{q}, t) \, .</mrow>
       </md>
     </statement>
     <remark>
