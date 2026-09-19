@@ -10,7 +10,7 @@
   </introduction>
 
   <definition xml:id="def-u1-matrix-group">
-    <title><m>\operatornam{U}(1)</m> defined using matrices.</title>
+    <title><m>\operatorname{U}(1)</m> defined using matrices.</title>
      <statement>
        <md>
          \operatorname{U}(1) = \{ M \in M_1(\C ) :  MM^\dagger = I \}
