@@ -433,7 +433,7 @@
     },
     {
       "id": "def-u1-complex-numbers",
-      "title": "U(1) defined in terms of complex numbers",
+      "title": "\\operatorname{U}(1) defined in terms of complex numbers",
       "url": "para-u1-complex-numbers.html#def-u1-complex-numbers",
       "tags": [],
       "description": "\\operatorname{U}(1) = \\{ z \\in \\C : |z| = 1 \\} = \\{ e^{\\mathcal{i}\\theta} : \\theta \\in \\R \\}",
@@ -442,7 +442,7 @@
     },
     {
       "id": "def-u1-matrix-group",
-      "title": "U(1) defined using matrices.",
+      "title": "\\operatorname{U}(1) defined using matrices.",
       "url": "para-u1-matrix-group.html#def-u1-matrix-group",
       "tags": [],
       "description": "\\operatorname{U}(1) = \\{ M \\in M_1(\\C ) : MM^\\dagger = I \\}",

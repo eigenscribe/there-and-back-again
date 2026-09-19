@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Corrected file reference case sensitivity in Clifford Algebras subsection: updated `Cl03` to `CL03`.">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-matrix-group.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Fixed typo in U(1) matrix group definition: corrected `\operatornam` to `\operatorname`.">
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/subsubsec-u1.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/subsubsec-u1.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-complex-numbers.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-complex-numbers.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-matrix-group.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-matrix-group.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,38 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00232" summary="Refined Prism syntax highlighting with updated CSS for better language support, enhanced color theming, and improved accessibility; updated build scripts to handle &quot;language-none&quot; to &quot;language-bash&quot; conversion in program blocks.">
-      <option name="closed" value="true" />
-      <created>1787998466964</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1787998466964</updated>
-    </task>
-    <task id="LOCAL-00233" summary="Expanded &quot;Calculus of Variations&quot; primer: added definitions for perturbation, variation, and first variation; clarified stationary point and Euler-Lagrange equation details; updated notes graph for new terms and improved relationships; refined IntelliJ workspace.">
-      <option name="closed" value="true" />
-      <created>1788025935725</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1788025935725</updated>
-    </task>
-    <task id="LOCAL-00234" summary="Updated README with detailed project documentation: added overview, tech stack, installation instructions, build process, scripts, and project structure. Refined notes graph titles and relationships; updated IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1788026836590</created>
-      <option name="number" value="00234" />
-      <option name="presentableId" value="LOCAL-00234" />
-      <option name="project" value="LOCAL" />
-      <updated>1788026836590</updated>
-    </task>
-    <task id="LOCAL-00235" summary="reorganized and expanded notes graph to better organize and include missing links, definitions, and sections">
-      <option name="closed" value="true" />
-      <created>1788139500004</created>
-      <option name="number" value="00235" />
-      <option name="presentableId" value="LOCAL-00235" />
-      <option name="project" value="LOCAL" />
-      <updated>1788139500004</updated>
     </task>
     <task id="LOCAL-00236" summary="added Legendre Transform subsection to the Calculus of Variations section and included Adrien-Marie Legendre biography and references in notes graph">
       <option name="closed" value="true" />
@@ -591,7 +559,39 @@
       <option name="project" value="LOCAL" />
       <updated>1789783357806</updated>
     </task>
-    <option name="localTasksCounter" value="281" />
+    <task id="LOCAL-00281" summary="Added &quot;U(1) as a matrix group&quot; content: included new definition, file reference, and updated notes graph with corresponding node and link.">
+      <option name="closed" value="true" />
+      <created>1789786197536</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1789786197536</updated>
+    </task>
+    <task id="LOCAL-00282" summary="Added &quot;U(1) as a matrix group&quot; content: included new definition, file reference, and updated notes graph with corresponding node and link.">
+      <option name="closed" value="true" />
+      <created>1789786203311</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1789786203312</updated>
+    </task>
+    <task id="LOCAL-00283" summary="Standardized notation in U(1) matrix group definition: replaced `&lt;m&gt;U(1)&lt;/m&gt;` with `&lt;m&gt;\operatorname{U}(1)&lt;/m&gt;`.">
+      <option name="closed" value="true" />
+      <created>1789786282356</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1789786282356</updated>
+    </task>
+    <task id="LOCAL-00284" summary="Fixed typo in U(1) matrix group definition: corrected `\operatornam` to `\operatorname`.">
+      <option name="closed" value="true" />
+      <created>1789786305598</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1789786305598</updated>
+    </task>
+    <option name="localTasksCounter" value="285" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,10 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="started writing the second table in the symplectic geometry and calculus of variation convention stitching section" />
-    <MESSAGE value="toc text color changed to a blue-to-purple gradient depending on 'level' of toc" />
-    <MESSAGE value="added significant figure sections for joseph liouville and josiah gibbs" />
-    <MESSAGE value="typo that created a build error" />
     <MESSAGE value="fixed copy/paste text that wasn't edited for Joseph Liouville significant figure subsection" />
     <MESSAGE value="changed liouville-joseph.ptx structure" />
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem" />
@@ -634,6 +630,10 @@
     <MESSAGE value="Updated build workflow and graph data: improved GitHub Pages deployment, adjusted file copy logic in build script, and corrected U(1) notation in `notes-graph.json`." />
     <MESSAGE value="Fixed file reference case sensitivity in Clifford Algebras subsection: changed `Cl03` to `CL03`." />
     <MESSAGE value="Corrected file reference case sensitivity in Clifford Algebras subsection: updated `Cl03` to `CL03`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected file reference case sensitivity in Clifford Algebras subsection: updated `Cl03` to `CL03`." />
+    <MESSAGE value="Added &quot;U(1) as a matrix group&quot; content: included new definition, file reference, and updated notes graph with corresponding node and link." />
+    <MESSAGE value="Standardized notation in U(1) matrix group definition: replaced `&lt;m&gt;U(1)&lt;/m&gt;` with `&lt;m&gt;\operatorname{U}(1)&lt;/m&gt;`." />
+    <MESSAGE value="Fixed typo in U(1) matrix group definition: corrected `\operatornam` to `\operatorname`." />
+    <MESSAGE value="Standardized notation in U(1) definition: updated `&lt;m&gt;U(1)&lt;/m&gt;` to `&lt;m&gt;\operatorname{U}(1)&lt;/m&gt;`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Standardized notation in U(1) definition: updated `&lt;m&gt;U(1)&lt;/m&gt;` to `&lt;m&gt;\operatorname{U}(1)&lt;/m&gt;`." />
   </component>
 </project>

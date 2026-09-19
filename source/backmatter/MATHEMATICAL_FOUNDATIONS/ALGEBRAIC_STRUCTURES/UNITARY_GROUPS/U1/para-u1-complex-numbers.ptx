@@ -10,7 +10,7 @@
   </introduction>
 
   <definition xml:id="def-u1-complex-numbers">
-    <title><m>U(1)</m> defined in terms of complex numbers</title>
+    <title><m>\operatorname{U}(1)</m> defined using complex numbers</title>
      <statement>
        <md>
          \operatorname{U}(1) = \{ z \in \C : |z| = 1 \} = \{ e^{\mathcal{i}\theta} : \theta \in \R \}
@@ -22,8 +22,8 @@
       Geometrically, <m>\operatorname{U}(1)</m> represents the unit circle on the complex plane.
       Therefore,
     </p>
-      <md>
-        \operatorname{U}(1) = \mathbb{S}^1 \, .
-      </md>
+    <md>
+      \operatorname{U}(1) \cong \mathbb{S}^1 \, .
+    </md>
   </remark>
 </paragraphs>
