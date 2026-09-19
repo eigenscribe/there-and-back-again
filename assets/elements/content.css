@@ -533,7 +533,9 @@
   border-radius: var(--radius-md);
   padding: var(--space-xl) !important;
   margin: var(--space-xl) 0 !important;
-  overflow-x: auto;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  max-width: 100% !important;
   transition: all 0.3s ease;
   backdrop-filter: blur(2px); /* Subtle glass effect */
 }
@@ -545,6 +547,7 @@
 }
 
 .ptx-content mjx-container {
+  overflow: visible !important;
   color: var(--color-math) !important;
   font-size: 1.05em; /* Subtle boost for readability */
   text-shadow: 

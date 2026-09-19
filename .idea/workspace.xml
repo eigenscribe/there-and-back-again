@@ -7,12 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Standardized `\operatorname{U}(1)` notation across definitions and notes graph.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Standardized mathematical notation and refined descriptions in Legendre Transform and related sections.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-ga-hodge-dual.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-ga-hodge-dual.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/docinfo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/docinfo.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00237" summary="Corrected mathematical notation in the Legendre Transform subsection and refined definitions for clarity in the Calculus of Variations section; updated related notes graph descriptions.">
-      <option name="closed" value="true" />
-      <created>1788310310943</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1788310310944</updated>
     </task>
     <task id="LOCAL-00238" summary="Added glossary entries for &quot;Mechanics&quot; and &quot;Variational Mechanics&quot; with descriptions, tags, and references; updated notes graph with new nodes and links.">
       <option name="closed" value="true" />
@@ -593,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789786548159</updated>
     </task>
-    <option name="localTasksCounter" value="286" />
+    <task id="LOCAL-00286" summary="Standardized mathematical notation and refined descriptions in Legendre Transform and related sections.">
+      <option name="closed" value="true" />
+      <created>1789788059851</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1789788059851</updated>
+    </task>
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem" />
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity" />
     <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
     <MESSAGE value="rearranged content on legendre significant figure subsection" />
@@ -636,6 +634,7 @@
     <MESSAGE value="Standardized notation in U(1) definition: updated `&lt;m&gt;U(1)&lt;/m&gt;` to `&lt;m&gt;\operatorname{U}(1)&lt;/m&gt;`." />
     <MESSAGE value="Standardized U(1) notation in definitions and notes graph: replaced `U(1)` with `\operatorname{U}(1)` for consistency." />
     <MESSAGE value="Standardized `\operatorname{U}(1)` notation across definitions and notes graph." />
-    <option name="LAST_COMMIT_MESSAGE" value="Standardized `\operatorname{U}(1)` notation across definitions and notes graph." />
+    <MESSAGE value="Standardized mathematical notation and refined descriptions in Legendre Transform and related sections." />
+    <option name="LAST_COMMIT_MESSAGE" value="Standardized mathematical notation and refined descriptions in Legendre Transform and related sections." />
   </component>
 </project>
