@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refactored build scripts to centralize HTML postprocessing logic, including styling injections and search index fixes, for improved maintainability." />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated dependency versions in `requirements.txt` and `uv.lock` to their latest releases for improved compatibility and performance.">
+      <change beforePath="$PROJECT_DIR$/publication/publication.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/publication/publication.ptx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,14 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00242" summary="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions.">
-      <option name="closed" value="true" />
-      <created>1788325540111</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
-      <option name="project" value="LOCAL" />
-      <updated>1788325540111</updated>
     </task>
     <task id="LOCAL-00243" summary="Expanded Euler-Lagrange and Action content: refined descriptions, added tags, new prerequisite and reference connections in notes graph; updated variational mechanics context.">
       <option name="closed" value="true" />
@@ -587,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789792384062</updated>
     </task>
-    <option name="localTasksCounter" value="291" />
+    <task id="LOCAL-00291" summary="Updated dependency versions in `requirements.txt` and `uv.lock` to their latest releases for improved compatibility and performance.">
+      <option name="closed" value="true" />
+      <created>1789793105814</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1789793105814</updated>
+    </task>
+    <option name="localTasksCounter" value="292" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
     <MESSAGE value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
     <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
     <MESSAGE value="Updated &quot;Significant Figures&quot; chapter: changed icon in the title, adjusted JSON structure, and refined notes graph by removing redundant prerequisite links." />
@@ -630,6 +631,7 @@
     <MESSAGE value="Updated workspace metadata to reflect recent changes in theorem styling and emoji processing logic." />
     <MESSAGE value="Streamlined HTML postprocessing by consolidating injections and content updates, improved search index cleanup, and enhanced build scripts for maintainability." />
     <MESSAGE value="Refactored build scripts to centralize HTML postprocessing logic, including styling injections and search index fixes, for improved maintainability." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored build scripts to centralize HTML postprocessing logic, including styling injections and search index fixes, for improved maintainability." />
+    <MESSAGE value="Updated dependency versions in `requirements.txt` and `uv.lock` to their latest releases for improved compatibility and performance." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated dependency versions in `requirements.txt` and `uv.lock` to their latest releases for improved compatibility and performance." />
   </component>
 </project>
