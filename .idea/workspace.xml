@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated build workflow and graph data: improved GitHub Pages deployment, adjusted file copy logic in build script, and corrected U(1) notation in `notes-graph.json`.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Corrected file reference case sensitivity in Clifford Algebras subsection: updated `Cl03` to `CL03`.">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/para-u1-matrix-group.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/subsubsec-u1.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/UNITARY_GROUPS/U1/subsubsec-u1.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -607,8 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing" />
-    <MESSAGE value="added a geometric dictionary table to the convention stitching section for symplectic and calculus of variations section" />
     <MESSAGE value="started writing the second table in the symplectic geometry and calculus of variation convention stitching section" />
     <MESSAGE value="toc text color changed to a blue-to-purple gradient depending on 'level' of toc" />
     <MESSAGE value="added significant figure sections for joseph liouville and josiah gibbs" />
@@ -632,6 +632,8 @@
     <MESSAGE value="Added and reorganized &quot;Algebraic Structures&quot; content: introduced subsections for Clifford algebras, geometric algebra, and unitary groups; included new definitions, descriptions, and file references; updated notes graph and appendix structure." />
     <MESSAGE value="Standardized notation: replaced \( \S^1 \) with \( \mathbb{S}^1 \) in U(1) definition." />
     <MESSAGE value="Updated build workflow and graph data: improved GitHub Pages deployment, adjusted file copy logic in build script, and corrected U(1) notation in `notes-graph.json`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated build workflow and graph data: improved GitHub Pages deployment, adjusted file copy logic in build script, and corrected U(1) notation in `notes-graph.json`." />
+    <MESSAGE value="Fixed file reference case sensitivity in Clifford Algebras subsection: changed `Cl03` to `CL03`." />
+    <MESSAGE value="Corrected file reference case sensitivity in Clifford Algebras subsection: updated `Cl03` to `CL03`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected file reference case sensitivity in Clifford Algebras subsection: updated `Cl03` to `CL03`." />
   </component>
 </project>
