@@ -70,6 +70,7 @@
 .ptx-content .definition-like mjx-container,
 .ptx-content .hint mjx-container {
   color: #9b7dff !important; /* Node Color: Definition (Purple) - lightened for readability */
+  -webkit-text-fill-color: #9b7dff !important;
   text-shadow: 
     0 0 2px rgba(155, 125, 255, 0.7), 
     0 0 8px rgba(155, 125, 255, 0.4);
@@ -77,6 +78,7 @@
 
 .ptx-content .assemblage-like mjx-container {
   color: #14B5FF !important; /* Signature Blue for Assemblage Math */
+  -webkit-text-fill-color: #14B5FF !important;
   text-shadow: 
     0 0 2px rgba(20, 181, 255, 0.7), 
     0 0 8px rgba(20, 181, 255, 0.4);
@@ -85,6 +87,7 @@
 .ptx-content .theorem-like mjx-container,
 .ptx-content .proof mjx-container {
   color: #00E676 !important; /* Node Color: Theorem (Vibrant Green for dark theme) */
+  -webkit-text-fill-color: #00E676 !important;
   text-shadow: 
     0 0 2px rgba(0, 230, 118, 0.7), 
     0 0 8px rgba(0, 230, 118, 0.4);
@@ -92,6 +95,7 @@
 
 .ptx-content .solution mjx-container {
   color: #FF66B3 !important; /* Node Color: Claim/Solution (Pink) */
+  -webkit-text-fill-color: #FF66B3 !important;
   text-shadow: 
     0 0 2px rgba(255, 102, 179, 0.7), 
     0 0 8px rgba(255, 102, 179, 0.4);
@@ -99,6 +103,7 @@
 
 .ptx-content .answer mjx-container {
   color: #14B5FF !important; /* Node Color: Example/Answer (Sky Blue) */
+  -webkit-text-fill-color: #14B5FF !important;
   text-shadow: 
     0 0 2px rgba(20, 181, 255, 0.7), 
     0 0 8px rgba(20, 181, 255, 0.4);
@@ -109,6 +114,7 @@
 .ptx-content .abstract mjx-container,
 .ptx-content section.introduction mjx-container {
   color: #14B5FF !important; /* Node Color: Example (Sky Blue) */
+  -webkit-text-fill-color: #14B5FF !important;
   text-shadow: 
     0 0 2px rgba(20, 181, 255, 0.7), 
     0 0 8px rgba(20, 181, 255, 0.4);
@@ -118,6 +124,7 @@
 .ptx-content .insight mjx-container,
 .ptx-content .warning mjx-container {
   color: #FF8800 !important; /* Global Warning/Admonition (Orange) */
+  -webkit-text-fill-color: #FF8800 !important;
   text-shadow: 
     0 0 2px rgba(255, 136, 0, 0.7), 
     0 0 8px rgba(255, 136, 0, 0.4);
@@ -126,6 +133,7 @@
 .ptx-content .note mjx-container,
 .ptx-content .aside mjx-container {
   color: #a855f7 !important; /* Node Color: GA/Note (Light Purple) */
+  -webkit-text-fill-color: #a855f7 !important;
   text-shadow: 
     0 0 2px rgba(168, 85, 247, 0.7), 
     0 0 8px rgba(168, 85, 247, 0.4);
