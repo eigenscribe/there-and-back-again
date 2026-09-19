@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined MathJax container styling and added `-webkit-text-fill-color` for improved consistency across elements in dark and light themes. Updated `publication.ptx` and `docinfo.ptx` to adjust directory references." />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Updated `publication.ptx` to include `external` directory reference and removed redundant entry from `docinfo.ptx`." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,14 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00246" summary="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1789249298850</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1789249298850</updated>
     </task>
     <task id="LOCAL-00247" summary="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -587,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789794493658</updated>
     </task>
-    <option name="localTasksCounter" value="295" />
+    <task id="LOCAL-00295" summary="Updated `publication.ptx` to include `external` directory reference and removed redundant entry from `docinfo.ptx`.">
+      <option name="closed" value="true" />
+      <created>1789794747373</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1789794747374</updated>
+    </task>
+    <option name="localTasksCounter" value="296" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added emoji isolation and TOC protection: ensured consistent display of emojis across TOC items and improved styling for readability; replaced HTML processing scripts with `postprocess_html.py`." />
     <MESSAGE value="Refined TOC styling for improved readability and consistent hierarchy: updated CSS rules, removed redundant overrides from `build.ps1`, and adjusted theme variables for active item colors." />
     <MESSAGE value="Refined TOC design and styling: implemented glassmorphic cards for items, adjusted gradient effects, and optimized CSS for active/expanded states; removed legacy overrides and redundant inline styles in build scripts." />
     <MESSAGE value="Added and reorganized &quot;Algebraic Structures&quot; content: introduced subsections for Clifford algebras, geometric algebra, and unitary groups; included new definitions, descriptions, and file references; updated notes graph and appendix structure." />
@@ -630,6 +629,7 @@
     <MESSAGE value="Removed unused `external` directory reference in publication XML and updated workspace metadata for consistency." />
     <MESSAGE value="Updated `publication.ptx` to include `external` directory reference and removed redundant reference in `docinfo.ptx`." />
     <MESSAGE value="Refined MathJax container styling and added `-webkit-text-fill-color` for improved consistency across elements in dark and light themes. Updated `publication.ptx` and `docinfo.ptx` to adjust directory references." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined MathJax container styling and added `-webkit-text-fill-color` for improved consistency across elements in dark and light themes. Updated `publication.ptx` and `docinfo.ptx` to adjust directory references." />
+    <MESSAGE value="Updated `publication.ptx` to include `external` directory reference and removed redundant entry from `docinfo.ptx`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated `publication.ptx` to include `external` directory reference and removed redundant entry from `docinfo.ptx`." />
   </component>
 </project>
