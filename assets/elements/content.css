@@ -235,14 +235,31 @@
 .ptx-content section.frontmatter > :is(h1, h2).heading .title {
   font-family: var(--font-aclonica) !important;
   font-size: 2.5rem !important;
-  background: var(--gradient-cyan-to-blue);
+
+  /* Blue → deep blue → blue-purple → purple → pink */
+  background: linear-gradient(
+    110deg,
+    #14B5FF 0%,
+    #1478D4 28%,
+    #4A5DCC 52%,
+    #7952F5 76%,
+    #FF66B3 100%
+  );
+
   background-size: 200% auto !important;
   animation: gradient-shift 6s ease infinite !important;
+
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
+
   display: inline-block;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 3px rgba(20, 181, 255, 0.3)) drop-shadow(0 0 6px rgba(121, 82, 245, 0.18)) brightness(1.05);
+
+  filter:
+    drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6))
+    drop-shadow(0 0 3px rgba(20, 181, 255, 0.3))
+    drop-shadow(0 0 6px rgba(121, 82, 245, 0.18))
+    brightness(1.05);
 }
 
 .ptx-content section.frontmatter > :is(h1, h2).heading .subtitle {
@@ -480,7 +497,7 @@
 }
 
 /* Term highlighting */
-.ptx-content .terminology, 
+.ptx-content .terminology,
 .ptx-content dfn.terminology {
   color: #FFA726 !important; /* Fallback color */
   background: var(--gradient-orange) !important;
@@ -554,8 +571,8 @@ mjx-container {
   color: var(--color-math) !important;
   -webkit-text-fill-color: currentColor !important;
   font-size: 1.05em; /* Subtle boost for readability */
-  text-shadow: 
-    0 0 2px rgba(0, 232, 255, 0.7), 
+  text-shadow:
+    0 0 2px rgba(0, 232, 255, 0.7),
     0 0 8px rgba(0, 232, 255, 0.4); /* Aligned vibrant glow */
   filter: drop-shadow(0 0 2px rgba(0, 232, 255, 0.7)) drop-shadow(0 0 8px rgba(0, 232, 255, 0.4));
   letter-spacing: 0.015em; /* Slightly increased for clarity */
