@@ -255,15 +255,6 @@
       "color": "#f59e0b"
     },
     {
-      "id": "app-geometric-algebra",
-      "title": "Geometric Algebra",
-      "url": "app-geometric-algebra.html",
-      "tags": [],
-      "description": "Geometric algebra provides simple formulations and unique insight for many different physical processes.",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
       "id": "finite-difference-comparison",
       "title": "Comparison of Finite Difference Scheme Properties",
       "url": "finite-difference-comparison.html",
