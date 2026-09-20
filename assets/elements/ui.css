@@ -54,8 +54,6 @@
   font-size: 13px !important;
   font-weight: normal !important;
   cursor: pointer !important;
-  -webkit-backdrop-filter: blur(8px) !important;
-  backdrop-filter: blur(8px) !important;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
   text-transform: none !important;
   text-decoration: none !important;
@@ -1513,7 +1511,7 @@ dialog.ptx-dialog::backdrop,
   flex-wrap: wrap !important;
   gap: 16px !important;
   width: 100% !important;
-  max-width: 900px !important;
+  max-width: 1400px !important;
   margin: 3.5rem auto 2rem auto !important;
   padding: 1.25rem 1.5rem !important;
   background: linear-gradient(135deg, rgba(8, 14, 28, 0.75) 0%, rgba(12, 18, 38, 0.7) 100%) padding-box,

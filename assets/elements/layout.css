@@ -16,6 +16,31 @@ body.pretext {
   flex-direction: column;
 }
 
+/* Normalize live-site scale so rem/em units match the preview view */
+html,
+body.pretext {
+  font-size: 16px !important;
+}
+
+body.pretext,
+body.pretext .ptx-page,
+body.pretext .ptx-main,
+body.pretext .ptx-content {
+  text-size-adjust: 100% !important;
+  -webkit-text-size-adjust: 100% !important;
+}
+
+body.pretext .ptx-content {
+  font-size: 1rem !important;
+}
+
+body.pretext button,
+body.pretext input,
+body.pretext select,
+body.pretext textarea {
+  font-size: 1rem;
+}
+
 /* Add Cover Image */
 #cover-image {
   text-align: center;
@@ -80,12 +105,12 @@ body.pretext {
 /* Ensure page wrapper takes full height */
 .ptx-page {
   flex: 1;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
-  max-width: 1600px;
+  max-width: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
 }
 
 .ptx-page .ptx-main {

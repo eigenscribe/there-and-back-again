@@ -239,161 +239,7 @@
 
 
 /* ============================================================ */
-/*  8.5 — Math Glow / Decorative Effects                       */
-/*                                                              */
-/*  PRESERVED FROM ORIGINAL                                    */
-/*                                                              */
-/*  These declarations are intentionally kept available.        */
-/*  The final crisp-rendering rule below overrides them for      */
-/*  actual MathJax rendering.                                   */
-/* ============================================================ */
-
-/* 🟣 Definitions / Hints */
-.ptx-content :is(
-  .definition-like,
-  .definition,
-  .hint,
-  .hint-like
-) mjx-container {
-  text-shadow:
-    0 0 2px rgba(155, 125, 255, 0.7),
-    0 0 8px rgba(155, 125, 255, 0.4) !important;
-
-  filter:
-    drop-shadow(0 0 2px rgba(155, 125, 255, 0.7))
-    drop-shadow(0 0 8px rgba(155, 125, 255, 0.4)) !important;
-}
-
-
-/* 🔵 Assemblages */
-.ptx-content :is(
-  .assemblage-like,
-  .assemblage
-) mjx-container {
-  text-shadow:
-    0 0 2px rgba(20, 181, 255, 0.7),
-    0 0 8px rgba(20, 181, 255, 0.4) !important;
-
-  filter:
-    drop-shadow(0 0 2px rgba(20, 181, 255, 0.7))
-    drop-shadow(0 0 8px rgba(20, 181, 255, 0.4)) !important;
-}
-
-
-/* 🟢 Theorems / Proofs */
-.ptx-content :is(
-  .theorem-like,
-  .theorem,
-  .lemma,
-  .corollary,
-  .proposition,
-  .claim,
-  .fact,
-  .identity,
-  .proof
-) mjx-container {
-  text-shadow:
-    0 0 2px rgba(0, 230, 118, 0.7),
-    0 0 8px rgba(0, 230, 118, 0.4) !important;
-
-  filter:
-    drop-shadow(0 0 2px rgba(0, 230, 118, 0.7))
-    drop-shadow(0 0 8px rgba(0, 230, 118, 0.4)) !important;
-}
-
-
-/* 🩷 Solutions */
-.ptx-content :is(
-  .solution,
-  .solution-like
-) mjx-container {
-  text-shadow:
-    0 0 2px rgba(255, 102, 179, 0.7),
-    0 0 8px rgba(255, 102, 179, 0.4) !important;
-
-  filter:
-    drop-shadow(0 0 2px rgba(255, 102, 179, 0.7))
-    drop-shadow(0 0 8px rgba(255, 102, 179, 0.4)) !important;
-}
-
-
-/* 🔵 Answers */
-.ptx-content :is(
-  .answer,
-  .answer-like
-) mjx-container {
-  text-shadow:
-    0 0 2px rgba(20, 181, 255, 0.7),
-    0 0 8px rgba(20, 181, 255, 0.4) !important;
-
-  filter:
-    drop-shadow(0 0 2px rgba(20, 181, 255, 0.7))
-    drop-shadow(0 0 8px rgba(20, 181, 255, 0.4)) !important;
-}
-
-
-/* 🔵 Examples / Exercises / Introduction */
-.ptx-content :is(
-  .example-like,
-  .example,
-  .exercise-like,
-  .exercise,
-  .abstract,
-  section.introduction
-) mjx-container {
-  text-shadow:
-    0 0 2px rgba(20, 181, 255, 0.7),
-    0 0 8px rgba(20, 181, 255, 0.4) !important;
-
-  filter:
-    drop-shadow(0 0 2px rgba(20, 181, 255, 0.7))
-    drop-shadow(0 0 8px rgba(20, 181, 255, 0.4)) !important;
-}
-
-
-/* 🟠 Remarks / Insights / Warnings */
-.ptx-content :is(
-  .remark-like,
-  .remark,
-  .insight,
-  .insight-like,
-  .warning,
-  .warning-like
-) mjx-container {
-  text-shadow:
-    0 0 2px rgba(255, 136, 0, 0.7),
-    0 0 8px rgba(255, 136, 0, 0.4) !important;
-
-  filter:
-    drop-shadow(0 0 2px rgba(255, 136, 0, 0.7))
-    drop-shadow(0 0 8px rgba(255, 136, 0, 0.4)) !important;
-}
-
-
-/* 🟣 Notes / Asides */
-.ptx-content :is(
-  .note,
-  .note-like,
-  .aside,
-  .aside-like
-) mjx-container {
-  text-shadow:
-    0 0 2px rgba(168, 85, 247, 0.7),
-    0 0 8px rgba(168, 85, 247, 0.4) !important;
-
-  filter:
-    drop-shadow(0 0 2px rgba(168, 85, 247, 0.7))
-    drop-shadow(0 0 8px rgba(168, 85, 168, 0.4)) !important;
-}
-
-
-/* ============================================================ */
 /*  8.6 — FINAL MATHJAX CRISP RENDERING OVERRIDE               */
-/*                                                              */
-/*  This MUST come AFTER every decorative mjx-container rule.   */
-/*                                                              */
-/*  It preserves block-specific math colors while removing      */
-/*  blur/glow from the actual mathematical glyphs.              */
 /* ============================================================ */
 
 .ptx-content mjx-container,
@@ -445,8 +291,6 @@
 /* ============================================================ */
 
 .ptx-content .assemblage-like:hover {
-  transform: translateY(-5px);
-
   background: linear-gradient(
     135deg,
     rgba(20, 232, 255, 0.12),
@@ -472,8 +316,6 @@
 .ptx-content .warning:hover,
 .ptx-content .exercise-like:hover,
 .ptx-content .answer:hover {
-  transform: translateY(-5px);
-
   box-shadow:
     0 0 20px rgba(20, 181, 255, 0.2),
     0 8px 32px 0 rgba(0, 0, 0, 0.5) !important;
@@ -1105,8 +947,6 @@
 }
 
 .ptx-content .note:hover {
-  transform: translateY(-5px);
-
   box-shadow:
     0 0 20px rgba(20, 181, 255, 0.2),
     0 12px 40px 0 rgba(0, 0, 0, 0.5) !important;
@@ -1190,43 +1030,6 @@
   line-height: var(--phi);
 }
 
-
-/* ============================================================ */
-/*  8.25 — Global Scrollbar                                     */
-/* ============================================================ */
-
-::-webkit-scrollbar {
-  width: 10px;
-  background: transparent;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(
-    to bottom,
-    #14b5ff,
-    61.8%,
-    #7952f5
-  );
-  border-radius: 999px;
-  border: 2px solid transparent;
-  background-clip: padding-box;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(
-    to bottom,
-    #00ffee,
-    61.8%,
-    #14b5ff
-  );
-  border-radius: 999px;
-  border: 2px solid transparent;
-  background-clip: padding-box;
-}
 
 /* ============================================================ */
 /*  8.26 — Emoji Reset                                         */

@@ -2,7 +2,18 @@
 /*  Section 10: Responsive Rules                                */
 /* ============================================================ */
 
-/* ---- Tablets & Small Desktops ---- */
+/* ---- Reduced Motion Accessibility & Performance ---- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---- Tablets & Small Desktops (<= 900px) ---- */
 @media (max-width: 900px) {
 
   /* ---- Global sanity ---- */
@@ -13,6 +24,17 @@
 
   body.pretext {
     background-attachment: scroll !important;
+  }
+
+  /* ---- Performance mode for mobile/tablet ---- */
+  .ptx-page > .ptx-main,
+  .ptx-navbar,
+  .ptx-masthead,
+  .ptx-page-footer,
+  .ptx-content .note,
+  .ptx-content .assemblage-like {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
   }
 
   /* ---- Kill the two-column grid ---- */
@@ -35,10 +57,6 @@
     box-sizing: border-box !important;
 
     z-index: 1000 !important;
-  }
-
-  /* Ensure buttons never clip right edge */
-  .ptx-navbar {
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: center !important;
@@ -51,7 +69,7 @@
   }
 
   .ptx-page > .ptx-main {
-    padding: 1rem !important;
+    padding: var(--space-lg) var(--space-xl) !important;
     margin: 0 !important;
     min-height: 0 !important;
   }
@@ -59,12 +77,12 @@
   /* Add breathing room below navbar */
   .ptx-content {
     max-width: 100% !important;
-    padding: 0.75rem !important;
+    padding: 0 var(--space-md) !important;
   }
 
   /* ---- Typography scaling ---- */
   .ptx-content h1.heading {
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
   }
 
   .ptx-content h2.heading {
@@ -92,15 +110,6 @@
 
   .ptx-content .tabular-box {
     border-radius: 8px !important;
-  }
-
-  /* ---- Reduce heavy visual effects ---- */
-  .ptx-page > .ptx-main,
-  .ptx-navbar,
-  .ptx-masthead,
-  .ptx-page-footer {
-    -webkit-backdrop-filter: blur(6px) !important;
-    backdrop-filter: blur(6px) !important;
   }
 
   /* ---- Masthead scaling ---- */
@@ -218,7 +227,11 @@
     z-index: 900 !important;
   }
 
-  .ptx-page.graph-hidden .ptx-sidebar-right {
+  .ptx-page.graph-hidden .ptx-sidebar-right,
+  .graph-hidden .ptx-sidebar-right,
+  .ptx-sidebar-right.graph-hidden,
+  .ptx-sidebar-right.hidden,
+  .ptx-sidebar-right[style*="display: none"] {
     display: none !important;
   }
 
@@ -228,7 +241,7 @@
   }
 }
 
-/* ---- Mobile Phones ---- */
+/* ---- Mobile Phones (<= 500px) ---- */
 @media (max-width: 500px) {
 
   /* ---- Masthead scaling ---- */
@@ -259,7 +272,7 @@
   }
 
   .ptx-content h1.heading {
-    font-size: 1.6rem !important;
+    font-size: 1.5rem !important;
   }
 
   .ptx-content h2.heading {
@@ -267,7 +280,65 @@
   }
 
   .ptx-content {
-    padding: 0.5rem !important;
+    padding: 0 var(--space-sm) !important;
   }
 
+}
+
+/* ---- Desktop Recovery / Live Site Guard (>= 901px) ---- */
+@media (min-width: 901px) {
+  html,
+  body.pretext {
+    font-size: 16px !important;
+  }
+
+  .ptx-page {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .ptx-page > .ptx-main,
+  body.pretext .ptx-page > .ptx-main,
+  body.pretext .ptx-main {
+    width: auto !important;
+    max-width: 100% !important;
+    padding: 1.25rem 1.75rem !important;
+    min-height: 100vh !important;
+  }
+
+  .ptx-content {
+    max-width: 1400px !important;
+    padding: 0 1.5rem !important;
+  }
+
+  .ptx-content h1.heading {
+    font-size: 2.2rem !important;
+  }
+
+  .ptx-content h2.heading {
+    font-size: 1.6rem !important;
+  }
+
+  .ptx-content h3.heading {
+    font-size: 1.3rem !important;
+  }
+
+  .ptx-content h4.heading {
+    font-size: 1.15rem !important;
+  }
+
+  .ptx-content p {
+    font-size: 1.05rem !important;
+    line-height: 1.8 !important;
+  }
+
+  .ptx-navbar .button,
+  .ptx-navbar button,
+  .ptx-navbar a.button {
+    font-size: 13px !important;
+    padding: 7px 13px !important;
+    min-height: 36px !important;
+  }
 }

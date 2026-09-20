@@ -22,12 +22,10 @@
     border-radius: var(--radius-sm);
     color: #86efac !important;
     transition: all 0.3s ease;
-    box-shadow:var(--shadow-tag);
+    box-shadow: var(--shadow-tag);
     font-weight: 500;
     margin-right: 0.5rem;
     margin-bottom: 0.25rem;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
 }
 
 .ptx-content .idx:hover,
@@ -81,11 +79,14 @@
     letter-spacing: 1px;
     box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
     transition: all 0.3s ease;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
 }
 
-/* ... existing code ... */
+/* Ensure tags inside headings do not inherit heading font sizes */
+.ptx-content :is(h1, h2, h3, h4, h5, h6, .heading) :is(.idx, .ptx-tag-pill, .ptx-tag, .badge, .id-badge, code.code-inline) {
+    font-size: 0.65rem !important;
+    line-height: normal !important;
+    vertical-align: middle;
+}
 
 /* ============================================
    Conclusion Metadata Styling (Blue Glassmorphic)
