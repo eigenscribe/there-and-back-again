@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="reduced glow on math equations">
-      <change beforePath="$PROJECT_DIR$/.idea/there-and-back-again.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/there-and-back-again.iml" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed the glow issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,23 +41,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.077116378265877" />
-      <entry key="MS500" value="3.815158846403107" />
-      <entry key="S2" value="9.375759371551798" />
-      <entry key="S5" value="11.848061036749563" />
-      <entry key="S10" value="12.865120873021084" />
-      <entry key="S30" value="13.607698699255678" />
-      <entry key="S60" value="13.803437207668116" />
-      <entry key="M2" value="14.213892405531945" />
-      <entry key="M5" value="23.514554568371338" />
-      <entry key="M10" value="46.04606979654526" />
-      <entry key="M15" value="63.98745237865969" />
-      <entry key="M30" value="96.57514591820488" />
-      <entry key="H1" value="134.959278205065" />
-      <entry key="H2" value="317.93284043099" />
-      <entry key="H4" value="996.7475064048754" />
-      <entry key="D1" value="4720.79128866282" />
-      <entry key="W1" value="23888.400487661605" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000099698276816" />
+      <entry key="S2" value="1.0561916665865299" />
+      <entry key="S5" value="1.3161322229728118" />
+      <entry key="S10" value="1.5622563676587502" />
+      <entry key="S30" value="1.8253626163070065" />
+      <entry key="S60" value="1.9084946980070971" />
+      <entry key="M2" value="1.953149882236313" />
+      <entry key="M5" value="1.9809898103830157" />
+      <entry key="M10" value="1.9917878908022664" />
+      <entry key="M15" value="2.0509581864025876" />
+      <entry key="M30" value="4.866573098899119" />
+      <entry key="H1" value="25.457558971377015" />
+      <entry key="H2" value="133.77241804962867" />
+      <entry key="H4" value="641.1130450539794" />
+      <entry key="D1" value="4386.761219460693" />
+      <entry key="W1" value="23641.349627258674" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -67,37 +65,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="3.262467945070996E-236" />
-      <entry key="S60" value="1.806230378108254E-118" />
-      <entry key="M2" value="1.3442150455800324E-59" />
-      <entry key="M5" value="2.918848118154953E-24" />
-      <entry key="M10" value="1.9842867893534092E-12" />
-      <entry key="M15" value="1.8671494394923577E-8" />
-      <entry key="M30" value="1.908163960208338E-4" />
-      <entry key="H1" value="0.02128004828700702" />
-      <entry key="H2" value="0.2416494375998876" />
-      <entry key="H4" value="0.8401285277558216" />
-      <entry key="D1" value="3.1366033761730105" />
-      <entry key="W1" value="40.84584898233368" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="1.8898464777349165E-165" />
+      <entry key="M2" value="4.348059152670898E-83" />
+      <entry key="M5" value="1.1725791667619329E-33" />
+      <entry key="M10" value="3.9771299304397205E-17" />
+      <entry key="M15" value="1.3777041633759056E-11" />
+      <entry key="M30" value="5.183273616234792E-6" />
+      <entry key="H1" value="0.003507250874221664" />
+      <entry key="H2" value="0.0981031382225106" />
+      <entry key="H4" value="0.5352963570478607" />
+      <entry key="D1" value="2.9096072143675062" />
+      <entry key="W1" value="40.40984444353298" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0203378543713495" />
-      <entry key="MS500" value="3.7784969009904796" />
-      <entry key="S2" value="9.35316024640024" />
-      <entry key="S5" value="11.836658837394083" />
-      <entry key="S10" value="12.858935948479015" />
-      <entry key="S30" value="13.605519536470252" />
-      <entry key="S60" value="13.802332105830448" />
-      <entry key="M2" value="14.213293009075377" />
-      <entry key="M5" value="23.513134389153713" />
-      <entry key="M10" value="46.04220889189809" />
-      <entry key="M15" value="63.98152935935236" />
-      <entry key="M30" value="96.56726060362749" />
-      <entry key="H1" value="134.97325860607097" />
-      <entry key="H2" value="318.1682863778995" />
-      <entry key="H4" value="997.5823262084477" />
-      <entry key="D1" value="4723.925912389603" />
-      <entry key="W1" value="23929.245304805594" />
+      <entry key="MS100" value="1.1896955167110326E-25" />
+      <entry key="MS500" value="1.5764859346404552E-5" />
+      <entry key="S2" value="0.10503061962356215" />
+      <entry key="S5" value="0.6149332397175062" />
+      <entry key="S10" value="1.108858629872604" />
+      <entry key="S30" value="1.642985211522316" />
+      <entry key="S60" value="1.8127184618856211" />
+      <entry key="M2" value="1.9040564067510457" />
+      <entry key="M5" value="1.9610553058120435" />
+      <entry key="M10" value="1.9817703718403343" />
+      <entry key="M15" value="2.0442642730407665" />
+      <entry key="M30" value="4.863007958342734" />
+      <entry key="H1" value="25.458185107599636" />
+      <entry key="H2" value="133.8671624898228" />
+      <entry key="H4" value="641.6445382984849" />
+      <entry key="D1" value="4389.6689201013105" />
+      <entry key="W1" value="23681.75844084809" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -204,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00234" summary="Updated README with detailed project documentation: added overview, tech stack, installation instructions, build process, scripts, and project structure. Refined notes graph titles and relationships; updated IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1788026836590</created>
-      <option name="number" value="00234" />
-      <option name="presentableId" value="LOCAL-00234" />
-      <option name="project" value="LOCAL" />
-      <updated>1788026836590</updated>
     </task>
     <task id="LOCAL-00235" summary="reorganized and expanded notes graph to better organize and include missing links, definitions, and sections">
       <option name="closed" value="true" />
@@ -597,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789892301298</updated>
     </task>
-    <option name="localTasksCounter" value="283" />
+    <task id="LOCAL-00283" summary="fixed the glow issue">
+      <option name="closed" value="true" />
+      <created>1789895226513</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1789895226513</updated>
+    </task>
+    <option name="localTasksCounter" value="284" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing" />
     <MESSAGE value="added a geometric dictionary table to the convention stitching section for symplectic and calculus of variations section" />
     <MESSAGE value="started writing the second table in the symplectic geometry and calculus of variation convention stitching section" />
     <MESSAGE value="toc text color changed to a blue-to-purple gradient depending on 'level' of toc" />
@@ -640,6 +637,7 @@
     <MESSAGE value="corrected eta(x) entry in geometric dictionary" />
     <MESSAGE value="reduyced glow on math equations" />
     <MESSAGE value="reduced glow on math equations" />
-    <option name="LAST_COMMIT_MESSAGE" value="reduced glow on math equations" />
+    <MESSAGE value="fixed the glow issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the glow issue" />
   </component>
 </project>
