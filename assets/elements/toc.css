@@ -1,5 +1,10 @@
-/* ============================================================ */
+ /* ============================================================ */
 /*  Section 5: Sidebar & Table-of-Contents (TOC)                */
+/* ============================================================ */
+
+
+/* ============================================================ */
+/*  Page Grid                                                    */
 /* ============================================================ */
 
 .ptx-page {
@@ -10,73 +15,38 @@
   transition: grid-template-columns 0.3s ease;
 }
 
-/* 3-column layout only when right sidebar is actively present and not hidden */
-.ptx-page:not(.graph-hidden):has(.ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)) {
+
+/* 3-column layout when right sidebar is actively present */
+
+.ptx-page:not(.graph-hidden):has(
+  .ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)
+) {
   grid-template-columns: 260px minmax(0, 1fr) 280px !important;
   grid-template-areas: "sidebar main right-sidebar" !important;
 }
 
-/* Handle hidden left sidebar expansion */
+
+/* Hidden left sidebar */
+
 .ptx-page:has(#ptx-sidebar.hidden),
 .ptx-page:has(.ptx-sidebar.hidden) {
   grid-template-columns: minmax(0, 1fr) !important;
   grid-template-areas: "main" !important;
 }
 
-.ptx-page:has(#ptx-sidebar.hidden):not(.graph-hidden):has(.ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)),
-.ptx-page:has(.ptx-sidebar.hidden):not(.graph-hidden):has(.ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)) {
+
+/* Hidden left sidebar + active right sidebar */
+
+.ptx-page:has(#ptx-sidebar.hidden):not(.graph-hidden):has(
+  .ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)
+),
+.ptx-page:has(.ptx-sidebar.hidden):not(.graph-hidden):has(
+  .ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)
+) {
   grid-template-columns: minmax(0, 1fr) 280px !important;
   grid-template-areas: "main right-sidebar" !important;
 }
 
-.ptx-page:has(#ptx-sidebar.hidden) .ptx-main,
-.ptx-page:has(.ptx-sidebar.hidden) .ptx-main {
-  max-width: 100% !important;
-}
-
-/* ============================================================ */
-/*  Wide Screen Layout                                          */
-/* ============================================================ */
-
-@media (min-width: 1900px) {
-  .ptx-page {
-    grid-template-columns: 280px minmax(0, 1fr) !important;
-  }
-
-  .ptx-page:has(#ptx-sidebar.hidden),
-  .ptx-page:has(.ptx-sidebar.hidden) {
-    grid-template-columns: minmax(0, 1fr) !important;
-  }
-
-  .ptx-page:not(.graph-hidden):has(.ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)) {
-    grid-template-columns: 280px minmax(0, 1fr) 280px !important;
-  }
-
-  .ptx-page:has(#ptx-sidebar.hidden):not(.graph-hidden):has(.ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)),
-  .ptx-page:has(.ptx-sidebar.hidden):not(.graph-hidden):has(.ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)) {
-    grid-template-columns: minmax(0, 1fr) 280px !important;
-  }
-
-  .ptx-main {
-    max-width: 100% !important;
-  }
-
-  .ptx-page:has(#ptx-sidebar.hidden) .ptx-main,
-  .ptx-page:has(.ptx-sidebar.hidden) .ptx-main {
-    max-width: 100% !important;
-  }
-}
-
-@media (min-width: 2400px) {
-  .ptx-main {
-    max-width: 100% !important;
-  }
-
-  .ptx-page:has(#ptx-sidebar.hidden) .ptx-main,
-  .ptx-page:has(.ptx-sidebar.hidden) .ptx-main {
-    max-width: 100% !important;
-  }
-}
 
 /* ============================================================ */
 /*  Right Sidebar / Graph                                       */
@@ -84,23 +54,38 @@
 
 .ptx-sidebar-right {
   grid-area: right-sidebar !important;
+
   position: sticky !important;
   top: 56px !important;
+
   width: 280px !important;
   height: calc(100vh - 56px) !important;
+
   z-index: 500 !important;
+
   background: rgba(13, 17, 23, 0.4) !important;
+
   border-left: 1px solid rgba(20, 181, 255, 0.2);
+
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   backdrop-filter: blur(20px) saturate(180%);
+
   box-shadow:
     -4px 0 24px rgba(0, 0, 0, 0.3),
     inset 1px 0 0 rgba(255, 255, 255, 0.1);
+
   overflow-y: auto !important;
+
   transform: translateX(0);
-  transition: transform 0.4s ease, opacity 0.4s ease;
+  transition:
+    transform 0.4s ease,
+    opacity 0.4s ease;
+
   pointer-events: auto;
 }
+
+
+/* Hidden graph */
 
 .ptx-page.graph-hidden .ptx-sidebar-right,
 .graph-hidden .ptx-sidebar-right,
@@ -109,11 +94,15 @@
 .ptx-sidebar-right[style*="display: none"] {
   position: fixed !important;
   right: 0 !important;
+
   transform: translateX(100%);
   opacity: 0;
+
   pointer-events: none;
+
   display: none !important;
 }
+
 
 /* ============================================================ */
 /*  Left Sidebar                                                */
@@ -121,93 +110,56 @@
 
 .ptx-sidebar {
   grid-area: sidebar !important;
+
   width: 260px !important;
   min-width: 260px !important;
   max-width: 260px !important;
+
   background: rgba(13, 17, 23, 0.4) !important;
+
   border-right: 1px solid rgba(20, 181, 255, 0.2);
+
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   backdrop-filter: blur(20px) saturate(180%);
+
   box-shadow:
     4px 0 24px rgba(0, 0, 0, 0.3),
     inset -1px 0 0 rgba(255, 255, 255, 0.1);
+
   overflow-y: auto !important;
+
   height: 100vh !important;
+
   position: sticky !important;
   top: 0 !important;
+
   transition:
     transform 0.4s ease,
     width 0.4s ease,
     opacity 0.4s ease;
 }
 
+
 #ptx-sidebar.hidden,
 .ptx-sidebar.hidden {
   display: none !important;
 }
 
+
 /* ============================================================ */
 /*  Main Content Grid Item                                      */
 /* ============================================================ */
 
-/*
- * min-width: 0 is important for CSS Grid.
- * It prevents the main grid item from allowing long content
- * to distort the available column width.
- */
 .ptx-main {
   grid-area: main !important;
+
   width: 100% !important;
   min-width: 0 !important;
   max-width: 100% !important;
+
   margin: 0 auto !important;
-  transition:
-    max-width 0.4s ease,
-    font-size 0.4s ease;
 }
 
-/* ============================================================ */
-/*  Graph-Active Main Content Scaling                           */
-/* ============================================================ */
-
-/* Scale font and tables when graph is active (space is constrained) */
-.ptx-page:not(.graph-hidden) .ptx-main {
-  font-size: 0.95rem;
-}
-
-.ptx-page:not(.graph-hidden) .ptx-main h1.heading {
-  font-size: 2.2rem !important;
-}
-
-.ptx-page:not(.graph-hidden) .ptx-main h2.heading {
-  font-size: 1.8rem !important;
-}
-
-.ptx-page:not(.graph-hidden) .ptx-main .tabular-box {
-  transform: scale(0.98);
-  transform-origin: top left;
-  max-width: 100%;
-}
-
-.ptx-page:not(.graph-hidden) .ptx-main table.tabular td,
-.ptx-page:not(.graph-hidden) .ptx-main table.tabular th {
-  padding: 0.65rem 0.6rem !important;
-  font-size: 0.82rem !important;
-}
-
-.ptx-page:not(.graph-hidden) .ptx-main pre {
-  font-size: 0.88rem !important;
-  padding: 1rem !important;
-}
-
-.ptx-page:not(.graph-hidden) .ptx-main .displaymath {
-  font-size: 0.9em !important;
-}
-
-.ptx-page:not(.graph-hidden) .ptx-main img {
-  max-width: 100% !important;
-  height: auto !important;
-}
 
 /* ============================================================ */
 /*  TOC Base Styling                                            */
@@ -218,7 +170,9 @@
   padding: 1rem !important;
 }
 
-/* Remove all default TOC list styling */
+
+/* Remove default TOC list styling */
+
 .ptx-toc ul,
 .ptx-toc ul.structural,
 .ptx-toc ul li {
@@ -228,7 +182,9 @@
   padding: 0 !important;
 }
 
+
 /* Reset text transforms from PreTeXt defaults */
+
 .ptx-toc,
 .ptx-toc *,
 .ptx-toc .toc-title-box,
@@ -238,6 +194,7 @@
   font-variant: normal !important;
   letter-spacing: normal !important;
 }
+
 
 /* ============================================================ */
 /*  TOC Top-Level Headers                                       */
@@ -258,7 +215,9 @@
   font-weight: bold !important;
 }
 
+
 /* TOC item list resets */
+
 .ptx-toc ul.structural,
 .ptx-toc .toc-item-list {
   list-style: none !important;
@@ -267,6 +226,7 @@
   padding: 0 !important;
   background: transparent !important;
 }
+
 
 /* ============================================================ */
 /*  TOC Items                                                   */
@@ -278,7 +238,9 @@
   text-decoration: none !important;
 }
 
-/* Base cute glassmorphic card styling for all TOC items */
+
+/* Glassmorphic TOC cards */
+
 .ptx-toc ul.structural li,
 .ptx-toc .toc-item,
 nav#ptx-toc.ptx-toc li.toc-item,
@@ -291,16 +253,21 @@ nav#ptx-toc.ptx-toc li.toc-part {
     rgba(20, 181, 255, 0.18),
     rgba(59, 130, 246, 0.22)
   ) !important;
+
   border: 1px solid rgba(59, 130, 246, 0.35) !important;
   border-radius: 14px !important;
+
   margin-bottom: 6px !important;
   padding: 0.5rem 0.75rem !important;
+
   box-shadow:
     0 4px 20px rgba(0, 0, 0, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+
   transition:
     all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
+
 
 .ptx-toc ul.structural li:hover,
 .ptx-toc .toc-item:hover,
@@ -314,18 +281,23 @@ nav#ptx-toc.ptx-toc li.toc-part:hover {
     rgba(20, 181, 255, 0.28),
     rgba(139, 92, 246, 0.26)
   ) !important;
+
   border-color: rgba(0, 232, 255, 0.6) !important;
+
   box-shadow:
     0 4px 16px rgba(0, 232, 255, 0.25),
     0 0 12px rgba(139, 92, 246, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+
   transform: translateY(-1px) !important;
 }
+
 
 .ptx-toc .toc-item:hover > .toc-title-box .title,
 .ptx-toc .toc-item:hover > .toc-title-box a {
   color: #38bdf8 !important;
 }
+
 
 /* ============================================================ */
 /*  TOC Title-Box Resets                                        */
@@ -346,6 +318,7 @@ nav.ptx-toc .toc-item.contains-active .toc-title-box,
   border-color: transparent !important;
   border-radius: inherit !important;
 }
+
 
 /* ============================================================ */
 /*  Active / Expanded TOC State                                 */
@@ -372,14 +345,18 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
     rgba(20, 30, 60, 0.9),
     rgba(40, 50, 100, 0.85)
   ) !important;
+
   border: 1px solid rgba(100, 120, 200, 0.5) !important;
   border-radius: 14px !important;
+
   box-shadow:
     0 6px 24px rgba(0, 0, 0, 0.5),
     inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
 }
 
+
 /* Active item link transparent resets */
+
 .ptx-toc ul.structural li.active a,
 .ptx-toc li.active a,
 .ptx-toc .toc-item.active a {
@@ -389,7 +366,9 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   text-decoration: none !important;
 }
 
-/* Active item gradient text — cyan to blue */
+
+/* Active item gradient text */
+
 .ptx-toc ul.structural li.active .codenumber,
 .ptx-toc ul.structural li.active .title,
 .ptx-toc li.active .codenumber,
@@ -405,7 +384,9 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   font-weight: bold !important;
 }
 
-/* Folder titles when expanded (contains-active) — blue to purple gradient */
+
+/* Folder titles when expanded */
+
 .ptx-toc .toc-item.contains-active > .toc-title-box a,
 .ptx-toc .toc-chapter.contains-active > .toc-title-box a,
 .ptx-toc .toc-frontmatter.contains-active > .toc-title-box a,
@@ -415,6 +396,7 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   -webkit-background-clip: border-box !important;
   background-clip: border-box !important;
 }
+
 
 .ptx-toc .toc-item.contains-active > .toc-title-box .title,
 .ptx-toc .toc-item.contains-active > .toc-title-box .codenumber,
@@ -432,13 +414,17 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
     #a78bfa 61.8%,
     #c084fc 100%
   ) !important;
+
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
+
   font-weight: bold !important;
 }
 
+
 /* Remove square containers from nested active lists */
+
 .ptx-toc .toc-item.active > ul,
 .ptx-toc .toc-item.contains-active > ul,
 .ptx-toc .toc-item ul.active,
@@ -451,11 +437,14 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   padding-left: 0.75rem !important;
 }
 
-/* Hide subsection indices in left TOC for visual scannability */
+
+/* Hide subsection indices in left TOC */
+
 .ptx-toc .toc-subsection > .toc-title-box .codenumber,
 .ptx-toc li.toc-subsection > .toc-title-box .codenumber {
   display: none !important;
 }
+
 
 /* ============================================================ */
 /*  Emoji Preservation in TOC                                   */
@@ -466,20 +455,28 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
 .toc-emoji,
 .emoji {
   display: inline-block !important;
+
   background: none !important;
   background-image: none !important;
+
   -webkit-background-clip: border-box !important;
   background-clip: border-box !important;
+
   -webkit-text-fill-color: initial !important;
   color: initial !important;
+
   text-shadow: none !important;
   filter: none !important;
+
   font-style: normal !important;
   font-weight: normal !important;
+
   text-transform: none !important;
   letter-spacing: normal !important;
+
   line-height: 1 !important;
   vertical-align: -0.08em !important;
+
   font-family:
     "Apple Color Emoji",
     "Segoe UI Emoji",
@@ -489,16 +486,22 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
     sans-serif !important;
 }
 
+
 .ptx-toc .twemoji,
 .twemoji {
   display: inline-block !important;
+
   -webkit-background-clip: border-box !important;
   background-clip: border-box !important;
+
   -webkit-text-fill-color: initial !important;
+
   color: transparent !important;
   text-shadow: none !important;
+
   vertical-align: middle !important;
 }
+
 
 .ptx-toc .twemoji[title=":eigenote:"],
 .twemoji[title=":eigenote:"] {
@@ -508,6 +511,7 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   background-position: center !important;
 }
 
+
 .ptx-toc .twemoji[title=":proofmark:"],
 .twemoji[title=":proofmark:"] {
   background-image: url('../proofmark.png') !important;
@@ -515,6 +519,7 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
+
 
 .ptx-toc .twemoji[title=":logo:"],
 .twemoji[title=":logo:"] {
@@ -524,6 +529,7 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   background-position: center !important;
 }
 
+
 .ptx-toc .twemoji[title=":favicon:"],
 .twemoji[title=":favicon:"] {
   background-image: url('../favicon.png') !important;
@@ -531,6 +537,7 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
+
 
 .ptx-toc .twemoji[title=":ember:"],
 .twemoji[title=":ember:"] {
@@ -540,11 +547,13 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   background-position: center !important;
 }
 
+
 /* ============================================================ */
 /*  TOC Expanders / Chevrons                                    */
 /* ============================================================ */
 
-/* Hide / remove vertical CHEVRON_LEFT text and TOC expander chevrons */
+/* Hide default PreTeXt TOC expanders / chevrons */
+
 .ptx-toc .toc-expander,
 .ptx-toc .toc-chevron,
 .ptx-toc .toc-chevron-surround,
@@ -560,16 +569,22 @@ body.pretext .ptx-toc .toc-chevron,
 body.pretext .ptx-toc .toc-chevron-surround {
   display: none !important;
   visibility: hidden !important;
+
   width: 0 !important;
   height: 0 !important;
+
   padding: 0 !important;
   margin: 0 !important;
+
   border: none !important;
+
   font-size: 0 !important;
   line-height: 0 !important;
+
   opacity: 0 !important;
   pointer-events: none !important;
 }
+
 
 .ptx-toc .toc-expander .icon:before,
 .ptx-toc .toc-item > .toc-title-box > .toc-expander > .icon:before,
@@ -579,11 +594,13 @@ body.pretext .ptx-toc .toc-chevron-surround {
   display: none !important;
 }
 
+
 /* ============================================================ */
 /*  Subsubfolder & Deep Nested TOC Items                        */
 /* ============================================================ */
 
-/* Subsubfolder titles (Subsections - Level 3) */
+/* Level 3: subsections */
+
 body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-subsection,
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsection,
 body.pretext .ptx-toc li.toc-subsection,
@@ -597,6 +614,7 @@ body.pretext .ptx-toc li.toc-subsection,
   margin-bottom: 3.5px !important;
   border-radius: 8px !important;
 }
+
 
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box,
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box a,
@@ -613,7 +631,9 @@ body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box .codenumber,
   line-height: 1.25 !important;
 }
 
-/* Sub-subsubfolder / leaf items (Subsubsections & deeper - Level 4+) */
+
+/* Level 4+: subsubsections and leaf items */
+
 body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-subsubsection,
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection,
 body.pretext nav#ptx-toc.ptx-toc li.toc-paragraphs,
@@ -640,6 +660,7 @@ body.pretext .ptx-toc li.toc-exercises,
   border-radius: 6px !important;
   font-style: normal !important;
 }
+
 
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box,
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box a,
@@ -676,7 +697,9 @@ body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box *,
   font-style: normal !important;
 }
 
+
 /* Compact nested list container padding */
+
 .ptx-toc .toc-subsection > ul.structural,
 .ptx-toc .toc-subsubsection > ul.structural,
 .ptx-toc .toc-subsection .toc-item-list,
@@ -686,15 +709,13 @@ body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box *,
 }
 
 
-/* ========================================================= */
-/*  RESPONSIVE TOC RULES                                     */
-/* ========================================================= */
+/* ============================================================ */
+/*  Responsive TOC Rules                                        */
+/* ============================================================ */
 
 @media (max-width: 900px) {
 
-  /* -------------------------------------------------------- */
-  /*  CRITICAL: Collapse the page grid to one column          */
-  /* -------------------------------------------------------- */
+  /* Collapse page grid to one column */
 
   .ptx-page {
     grid-template-columns: minmax(0, 1fr) !important;
@@ -703,66 +724,69 @@ body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box *,
       "main" !important;
   }
 
-  /*
-   * If the graph/right sidebar is present, do not allow it to
-   * create a hidden 280px desktop column on narrow screens.
-   */
-  .ptx-page:not(.graph-hidden):has(.ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)) {
+
+  /* If graph is present, keep it from creating a desktop column */
+
+  .ptx-page:not(.graph-hidden):has(
+    .ptx-sidebar-right:not([style*="display: none"]):not(.hidden):not(.graph-hidden)
+  ) {
     grid-template-columns: minmax(0, 1fr) !important;
     grid-template-areas:
       "sidebar"
       "main" !important;
   }
 
-  /* -------------------------------------------------------- */
-  /*  Sidebar becomes normal-flow content                     */
-  /* -------------------------------------------------------- */
+
+  /* Sidebar becomes normal-flow content */
 
   .ptx-sidebar {
     position: relative !important;
     top: auto !important;
+
     height: auto !important;
+
     width: 100% !important;
     min-width: 0 !important;
     max-width: none !important;
 
     border-right: none !important;
-    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 
     box-shadow: none !important;
+
     -webkit-backdrop-filter: blur(12px) !important;
     backdrop-filter: blur(12px) !important;
   }
 
-  /* -------------------------------------------------------- */
-  /*  Main content gets the entire remaining width            */
-  /* -------------------------------------------------------- */
+
+  /* Main content gets the full available width */
 
   .ptx-main {
     grid-column: 1 !important;
+
     width: 100% !important;
     min-width: 0 !important;
     max-width: 100% !important;
   }
 
-  /* -------------------------------------------------------- */
-  /*  Hide right sidebar / graph on narrow screens             */
-  /* -------------------------------------------------------- */
+
+  /* Hide right sidebar / graph on narrow screens */
 
   .ptx-sidebar-right {
     display: none !important;
   }
 
-  /* Make TOC scroll-safe */
+
+  /* Keep TOC itself scroll-safe */
+
   .ptx-sidebar .ptx-toc {
     max-height: 60vh !important;
     overflow-y: auto !important;
     padding: 0.75rem !important;
   }
 
-  /* -------------------------------------------------------- */
-  /*  TOC items: tighter spacing                              */
-  /* -------------------------------------------------------- */
+
+  /* Tighter TOC cards */
 
   .ptx-toc ul.structural li,
   .ptx-toc .toc-item {
@@ -772,9 +796,9 @@ body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box *,
 }
 
 
-/* ========================================================= */
-/*  Ultra-small phones                                       */
-/* ========================================================= */
+/* ============================================================ */
+/*  Ultra-small Phones                                          */
+/* ============================================================ */
 
 @media (max-width: 500px) {
 

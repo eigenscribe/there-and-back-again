@@ -2,7 +2,9 @@
 /*  Section 10: Responsive Rules                                */
 /* ============================================================ */
 
+
 /* ---- Reduced Motion Accessibility & Performance ---- */
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -13,11 +15,17 @@
   }
 }
 
-/* ---- Tablets & Small Desktops (<= 900px) ---- */
+
+/* ============================================================ */
+/*  Tablets & Small Desktops (<= 900px)                         */
+/* ============================================================ */
+
 @media (max-width: 900px) {
 
   /* ---- Global sanity ---- */
-  html, body {
+
+  html,
+  body {
     overflow-x: hidden !important;
     position: relative;
   }
@@ -26,7 +34,9 @@
     background-attachment: scroll !important;
   }
 
+
   /* ---- Performance mode for mobile/tablet ---- */
+
   .ptx-page > .ptx-main,
   .ptx-navbar,
   .ptx-masthead,
@@ -37,14 +47,18 @@
     backdrop-filter: none !important;
   }
 
-  /* ---- Kill the two-column grid ---- */
+
+  /* ---- Single-column page layout ---- */
+
   .ptx-page {
     display: block !important;
     grid-template-columns: none !important;
     grid-template-areas: none !important;
   }
 
-  /* ---- Navbar / toolbar: FIX TO TOP + GIVE IT ROOM ---- */
+
+  /* ---- Navbar / toolbar ---- */
+
   .ptx-navbar {
     position: sticky !important;
     top: 0 !important;
@@ -57,13 +71,16 @@
     box-sizing: border-box !important;
 
     z-index: 1000 !important;
+
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: center !important;
     gap: 0.5rem !important;
   }
 
+
   /* ---- Main content ---- */
+
   .ptx-main {
     width: 100% !important;
   }
@@ -74,13 +91,14 @@
     min-height: 0 !important;
   }
 
-  /* Add breathing room below navbar */
   .ptx-content {
     max-width: 100% !important;
     padding: 0 var(--space-md) !important;
   }
 
+
   /* ---- Typography scaling ---- */
+
   .ptx-content h1.heading {
     font-size: 1.6rem !important;
   }
@@ -101,7 +119,9 @@
     font-size: 1rem !important;
   }
 
+
   /* ---- Table adjustments ---- */
+
   .ptx-content table.tabular td,
   .ptx-content table.tabular th {
     padding: 0.5rem 0.45rem !important;
@@ -112,7 +132,9 @@
     border-radius: 8px !important;
   }
 
+
   /* ---- Masthead scaling ---- */
+
   .ptx-masthead .ptx-banner {
     justify-content: flex-start !important;
     padding: 0.5rem 0.75rem !important;
@@ -138,7 +160,9 @@
     font-size: 1rem !important;
   }
 
-  /* ---- Code blocks: prevent sideways hell ---- */
+
+  /* ---- Code blocks ---- */
+
   .ptx-content pre {
     font-size: 0.85rem !important;
     padding: 1rem !important;
@@ -156,7 +180,9 @@
     max-width: 100% !important;
   }
 
+
   /* ---- Navbar buttons & controls ---- */
+
   .ptx-navbar .button,
   .ptx-navbar button,
   .ptx-navbar a.button {
@@ -206,7 +232,9 @@
     padding: 1.1rem !important;
   }
 
+
   /* ---- Graph overlay safety ---- */
+
   #graph-toggle-btn {
     font-size: 12px !important;
     padding: 6px 10px !important;
@@ -241,10 +269,15 @@
   }
 }
 
-/* ---- Mobile Phones (<= 500px) ---- */
+
+/* ============================================================ */
+/*  Mobile Phones (<= 500px)                                    */
+/* ============================================================ */
+
 @media (max-width: 500px) {
 
   /* ---- Masthead scaling ---- */
+
   .ptx-masthead .ptx-banner {
     justify-content: flex-start !important;
     padding: 0.4rem 0.5rem !important;
@@ -271,6 +304,9 @@
     font-size: 0.82rem !important;
   }
 
+
+  /* ---- Content typography ---- */
+
   .ptx-content h1.heading {
     font-size: 1.5rem !important;
   }
@@ -281,64 +317,5 @@
 
   .ptx-content {
     padding: 0 var(--space-sm) !important;
-  }
-
-}
-
-/* ---- Desktop Recovery / Live Site Guard (>= 901px) ---- */
-@media (min-width: 901px) {
-  html,
-  body.pretext {
-    font-size: 16px !important;
-  }
-
-  .ptx-page {
-    max-width: 100% !important;
-    width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  .ptx-page > .ptx-main,
-  body.pretext .ptx-page > .ptx-main,
-  body.pretext .ptx-main {
-    width: auto !important;
-    max-width: 100% !important;
-    padding: 1.25rem 1.75rem !important;
-    min-height: 100vh !important;
-  }
-
-  .ptx-content {
-    max-width: 1400px !important;
-    padding: 0 1.5rem !important;
-  }
-
-  .ptx-content h1.heading {
-    font-size: 2.2rem !important;
-  }
-
-  .ptx-content h2.heading {
-    font-size: 1.6rem !important;
-  }
-
-  .ptx-content h3.heading {
-    font-size: 1.3rem !important;
-  }
-
-  .ptx-content h4.heading {
-    font-size: 1.15rem !important;
-  }
-
-  .ptx-content p {
-    font-size: 1.05rem !important;
-    line-height: 1.8 !important;
-  }
-
-  .ptx-navbar .button,
-  .ptx-navbar button,
-  .ptx-navbar a.button {
-    font-size: 13px !important;
-    padding: 7px 13px !important;
-    min-height: 36px !important;
   }
 }

@@ -9,14 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed huge ui i think">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/metadata.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/metadata.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/elements/toc.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/toc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00238" summary="Added glossary entries for &quot;Mechanics&quot; and &quot;Variational Mechanics&quot; with descriptions, tags, and references; updated notes graph with new nodes and links.">
-      <option name="closed" value="true" />
-      <created>1788317009861</created>
-      <option name="number" value="00238" />
-      <option name="presentableId" value="LOCAL-00238" />
-      <option name="project" value="LOCAL" />
-      <updated>1788317009862</updated>
     </task>
     <task id="LOCAL-00239" summary="Refined Legendre Transform and Variational Mechanics subsections: improved clarity, updated definitions, and enhanced related glossary entries.">
       <option name="closed" value="true" />
@@ -602,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789905792776</updated>
     </task>
-    <option name="localTasksCounter" value="287" />
+    <task id="LOCAL-00287" summary="fixed huge ui i think">
+      <option name="closed" value="true" />
+      <created>1789913212063</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1789913212063</updated>
+    </task>
+    <option name="localTasksCounter" value="288" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
