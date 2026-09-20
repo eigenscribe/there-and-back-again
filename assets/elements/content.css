@@ -349,6 +349,7 @@ body.pretext textarea {
   color: var(--color-text);
   margin-bottom: 1.35rem;
   letter-spacing: 0.15px;
+  text-wrap: pretty;
 }
 
 /* Paragraphs title on a separate line */

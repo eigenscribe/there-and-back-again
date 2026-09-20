@@ -60,6 +60,7 @@
   white-space: nowrap !important;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
   box-sizing: border-box !important;
+  touch-action: manipulation;
 }
 
 /* Ensure button labels and icons are always visible and properly styled */
