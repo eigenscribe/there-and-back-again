@@ -1,11 +1,67 @@
-/* Main Content Area */
-.ptx-page > .ptx-main {
-  background: rgba(0, 0, 0, 0.6);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  padding: var(--space-xl) var(--space-xxl);
+/* Global Background & Body Styling */
+body.pretext {
+  /* ============================================================ */
+  /*  Section 3: Global Layout & Body Styling                     */
+  /* ============================================================ */
+  background-image: url('../wisp.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: var(--font-aclonica) !important;
+  color: var(--color-text) !important;
+  line-height: 1.7;
   min-height: 100vh;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Normalize live-site scale so rem/em units match the preview view */
+html,
+body.pretext {
+  font-size: 16px !important;
+}
+
+body.pretext,
+body.pretext .ptx-page,
+body.pretext .ptx-main,
+body.pretext .ptx-content {
+  text-size-adjust: 100% !important;
+  -webkit-text-size-adjust: 100% !important;
+}
+
+body.pretext .ptx-content {
+  font-size: 1rem !important;
+}
+
+body.pretext button,
+body.pretext input,
+body.pretext select,
+body.pretext textarea {
+  font-size: 1rem;
+}
+
+/* Add Cover Image */
+#cover-image {
+  text-align: center;
+}
+
+/* Content buttons */
+.ptx-content .button,
+.ptx-content button,
+.ptx-content input[type="button"],
+.ptx-content input[type="submit"] {
+  background: linear-gradient(135deg, rgba(0, 232, 255, 0.14) 0%, rgba(139, 92, 246, 0.2) 50%, rgba(217, 70, 239, 0.16) 100%) !important;
+  border: 1px solid rgba(56, 189, 248, 0.35) !important;
+  color: #e0f2fe !important;
+  padding: 0.35rem 0.9rem !important;
+  border-radius: 8px !important;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 0.85rem !important;
+  transition: all 0.3s ease !important;
+  cursor: pointer;
+}
+
 }
 
 .ptx-content {
@@ -290,11 +346,11 @@
 
 /* Paragraphs */
 .ptx-content p {
-  font-size: 1.05rem !important;
-  line-height: 1.8;
+  font-size: 1rem !important;
+  line-height: 1.7;
   color: var(--color-text);
-  margin-bottom: 1.5rem;
-  letter-spacing: 0.2px;
+  margin-bottom: 1.35rem;
+  letter-spacing: 0.15px;
 }
 
 /* Paragraphs title on a separate line */
@@ -604,4 +660,9 @@ mjx-container * {
 .ptx-content m mjx-container,
 .ptx-content .mjx-chtml.m mjx-container {
   padding: 0 0.1em;
+}
+
+.ptx-page > .ptx-main {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
 }
