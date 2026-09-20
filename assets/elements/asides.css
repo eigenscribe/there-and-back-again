@@ -62,7 +62,7 @@
   -webkit-text-fill-color: #9b7dff !important;
   fill: #9b7dff !important;
   text-shadow: 
-    0 0 2px rgba(155, 125, 255, 0.7), 
+    0 0 2px rgba(155, 125, 255, 0.7),
     0 0 8px rgba(155, 125, 255, 0.4) !important;
   filter: drop-shadow(0 0 2px rgba(155, 125, 255, 0.7)) drop-shadow(0 0 8px rgba(155, 125, 255, 0.4)) !important;
 }
@@ -72,7 +72,7 @@
   -webkit-text-fill-color: #14B5FF !important;
   fill: #14B5FF !important;
   text-shadow: 
-    0 0 2px rgba(20, 181, 255, 0.7), 
+    0 0 2px rgba(20, 181, 255, 0.7),
     0 0 8px rgba(20, 181, 255, 0.4) !important;
   filter: drop-shadow(0 0 2px rgba(20, 181, 255, 0.7)) drop-shadow(0 0 8px rgba(20, 181, 255, 0.4)) !important;
 }
@@ -82,7 +82,7 @@
   -webkit-text-fill-color: #00E676 !important;
   fill: #00E676 !important;
   text-shadow: 
-    0 0 2px rgba(0, 230, 118, 0.7), 
+    0 0 2px rgba(0, 230, 118, 0.7),
     0 0 8px rgba(0, 230, 118, 0.4) !important;
   filter: drop-shadow(0 0 2px rgba(0, 230, 118, 0.7)) drop-shadow(0 0 8px rgba(0, 230, 118, 0.4)) !important;
 }
@@ -92,7 +92,7 @@
   -webkit-text-fill-color: #FF66B3 !important;
   fill: #FF66B3 !important;
   text-shadow: 
-    0 0 2px rgba(255, 102, 179, 0.7), 
+    0 0 2px rgba(255, 102, 179, 0.7),
     0 0 8px rgba(255, 102, 179, 0.4) !important;
   filter: drop-shadow(0 0 2px rgba(255, 102, 179, 0.7)) drop-shadow(0 0 8px rgba(255, 102, 179, 0.4)) !important;
 }
@@ -102,7 +102,7 @@
   -webkit-text-fill-color: #14B5FF !important;
   fill: #14B5FF !important;
   text-shadow: 
-    0 0 2px rgba(20, 181, 255, 0.7), 
+    0 0 2px rgba(20, 181, 255, 0.7),
     0 0 8px rgba(20, 181, 255, 0.4) !important;
   filter: drop-shadow(0 0 2px rgba(20, 181, 255, 0.7)) drop-shadow(0 0 8px rgba(20, 181, 255, 0.4)) !important;
 }
@@ -112,7 +112,7 @@
   -webkit-text-fill-color: #14B5FF !important;
   fill: #14B5FF !important;
   text-shadow: 
-    0 0 2px rgba(20, 181, 255, 0.7), 
+    0 0 2px rgba(20, 181, 255, 0.7),
     0 0 8px rgba(20, 181, 255, 0.4) !important;
   filter: drop-shadow(0 0 2px rgba(20, 181, 255, 0.7)) drop-shadow(0 0 8px rgba(20, 181, 255, 0.4)) !important;
 }
@@ -122,7 +122,7 @@
   -webkit-text-fill-color: #FF8800 !important;
   fill: #FF8800 !important;
   text-shadow: 
-    0 0 2px rgba(255, 136, 0, 0.7), 
+    0 0 2px rgba(255, 136, 0, 0.7),
     0 0 8px rgba(255, 136, 0, 0.4) !important;
   filter: drop-shadow(0 0 2px rgba(255, 136, 0, 0.7)) drop-shadow(0 0 8px rgba(255, 136, 0, 0.4)) !important;
 }
@@ -132,7 +132,7 @@
   -webkit-text-fill-color: #a855f7 !important;
   fill: #a855f7 !important;
   text-shadow: 
-    0 0 2px rgba(168, 85, 247, 0.7), 
+    0 0 2px rgba(168, 85, 247, 0.7),
     0 0 8px rgba(168, 85, 247, 0.4) !important;
   filter: drop-shadow(0 0 2px rgba(168, 85, 247, 0.7)) drop-shadow(0 0 8px rgba(168, 85, 247, 0.4)) !important;
 }
@@ -644,7 +644,6 @@
   padding-right: var(--space-xl) !important;
 }
 
-
 /* 4. Ensure the text inside flows naturally */
 .ptx-content .aside p,
 .aside p {
@@ -728,6 +727,22 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(to bottom, #00ffee, 61.8%, #14b5ff);
+}
+
+/* ============================================================
+   MathJax CRISP RENDERING OVERRIDE
+   ------------------------------------------------------------
+   Math notation should remain sharp even inside glassy
+   callouts. Decorative effects remain available elsewhere.
+   ============================================================ */
+
+.ptx-content mjx-container,
+.ptx-content mjx-container *,
+.ptx-content mjx-container svg,
+.ptx-content mjx-container svg * {
+  text-shadow: none !important;
+  filter: none !important;
+  -webkit-filter: none !important;
 }
 
 .emoji {
