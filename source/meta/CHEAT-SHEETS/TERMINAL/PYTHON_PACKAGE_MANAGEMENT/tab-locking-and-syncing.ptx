@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="tab-locking-and-syncing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Package Installation</title>
+
+  <tabular bottom="minor" top="minor" left="major" right="major">
+
+    <row header="yes">
+      <cell>Task</cell>
+      <cell>pip/pip-tools</cell>
+      <cell>uv</cell>
+    </row>
+
+    <row>
+      <cell><em>Compile a lockfile</em></cell>
+      <cell>
+        <cd>
+          <cline>pip-compile</cline>
+          <cline>requirements.in</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv lock</cline>
+        </cd>
+         or
+         <cd>
+           <cline>uv pip compile</cline>
+           <cline>requirements.in</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Install from a lockfile</em></cell>
+      <cell>
+        <cd>
+          <cline>pip-sync requirements.txt</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv sync</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>CI (fail if stale)</em></cell>
+      <cell>
+        <p>N/A</p>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv sync --frozen</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Upgrade all deps</em></cell>
+      <cell>
+        <cd>
+          <cline>pip-compile --upgrade</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv lock --upgrade &amp;&amp; uv</cline>
+          <cline>sync</cline>
+        </cd>
+      </cell>
+    </row>
+
+  </tabular>
+
+</table>
