@@ -114,3 +114,8 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #00ffff, 61.8%, #00e8ff);
 }
+
+/* Ensure TOC itself takes full height */
+.ptx-sidebar .ptx-toc {
+  flex: 1;
+}

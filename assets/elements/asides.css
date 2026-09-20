@@ -1,27 +1,51 @@
 /* ============================================================ */
 /*  Section 8: Asides, Notes, Blocks (theorem, example, etc.)   */
 /* ============================================================ */
-/* Animated gradient for headers */
+
+
+/* ============================================================ */
+/*  8.1 — Shared Animations                                     */
+/* ============================================================ */
+
 @keyframes gradient-shift {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
+
+/* ============================================================ */
+/*  8.2 — Base Callout / Assemblage Containers                  */
+/* ============================================================ */
+
 .ptx-content .assemblage-like {
-  background: linear-gradient(135deg, rgba(20, 181, 255, 0.1), rgba(121, 82, 245, 0.1)) !important;
+  background: linear-gradient(
+    135deg,
+    rgba(20, 181, 255, 0.1),
+    rgba(121, 82, 245, 0.1)
+  ) !important;
+
   backdrop-filter: blur(12px) saturate(160%);
   -webkit-backdrop-filter: blur(12px) saturate(160%);
+
   border: 1px solid rgba(20, 181, 255, 0.3) !important;
   border-radius: var(--radius-md);
+
   padding: var(--space-xl);
-  padding-left: calc(var(--space-xl) + 5px * var(--phi) * var(--phi)) !important;
+  padding-left: calc(
+    var(--space-xl) + 5px * var(--phi) * var(--phi)
+  ) !important;
+
   margin: var(--space-xl) 0;
   position: relative !important;
   transition: all 0.3s ease;
   overflow: hidden;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 20px rgba(121, 82, 245, 0.1) !important;
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.2),
+    0 0 20px rgba(121, 82, 245, 0.1) !important;
 }
+
 
 .ptx-content .definition-like,
 .ptx-content .theorem-like,
@@ -38,114 +62,208 @@
 .ptx-content .abstract {
   background: rgba(255, 255, 255, 0.05) !important;
   border-radius: var(--radius-md);
+
   padding: var(--space-xl);
-  padding-left: calc(var(--space-xl) + 5px * var(--phi) * var(--phi)) !important;
+  padding-left: calc(
+    var(--space-xl) + 5px * var(--phi) * var(--phi)
+  ) !important;
+
   margin: var(--space-xl) 0;
   position: relative !important;
   transition: all 0.3s ease;
+
   /* Ensure children don't burst out */
   overflow: hidden;
 }
 
-/* Ensure display math blocks stay within bounds of callouts */
-.ptx-content :is(.definition-like, .definition, .theorem-like, .theorem, .lemma, .corollary, .proposition, .claim, .fact, .identity, .solution, .proof, .example-like, .example, .hint, .remark-like, .remark, .assemblage-like, .assemblage, .insight, .warning, .exercise-like, .exercise, .answer, .abstract, .note, .aside) .displaymath,
-.ptx-content :is(.definition-like, .definition, .theorem-like, .theorem, .lemma, .corollary, .proposition, .claim, .fact, .identity, .solution, .proof, .example-like, .example, .hint, .remark-like, .remark, .assemblage-like, .assemblage, .insight, .warning, .exercise-like, .exercise, .answer, .abstract, .note, .aside) mjx-container {
-    overflow-x: auto !important;
-    overflow-y: visible !important;
-    max-width: 100% !important;
-    padding-bottom: 0.5rem !important; /* Space for potential scrollbar */
+
+/* ============================================================ */
+/*  8.3 — Math Layout / Overflow                               */
+/*                                                              */
+/*  These rules control where math is allowed to extend.        */
+/*  They do NOT control math appearance.                        */
+/* ============================================================ */
+
+.ptx-content :is(
+  .definition-like, .definition,
+  .theorem-like, .theorem, .lemma, .corollary,
+  .proposition, .claim, .fact, .identity,
+  .solution, .proof,
+  .example-like, .example,
+  .hint,
+  .remark-like, .remark,
+  .assemblage-like, .assemblage,
+  .insight,
+  .warning,
+  .exercise-like, .exercise,
+  .answer,
+  .abstract,
+  .note, .aside
+) .displaymath,
+
+.ptx-content :is(
+  .definition-like, .definition,
+  .theorem-like, .theorem, .lemma, .corollary,
+  .proposition, .claim, .fact, .identity,
+  .solution, .proof,
+  .example-like, .example,
+  .hint,
+  .remark-like, .remark,
+  .assemblage-like, .assemblage,
+  .insight,
+  .warning,
+  .exercise-like, .exercise,
+  .answer,
+  .abstract,
+  .note, .aside
+) mjx-container {
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  max-width: 100% !important;
+  padding-bottom: 0.5rem !important;
 }
 
-/* Match math color to block colors */
-.ptx-content :is(.definition-like, .definition, .hint, .hint-like) mjx-container {
-  color: #9b7dff !important; /* Node Color: Definition (Purple) - lightened for readability */
+
+/* ============================================================ */
+/*  8.4 — Math Color by Block Type                              */
+/*                                                              */
+/*  IMPORTANT: These rules intentionally preserve your         */
+/*  existing color system. Decorative glow is handled later.    */
+/* ============================================================ */
+
+/* 🟣 Definitions / Hints */
+.ptx-content :is(
+  .definition-like,
+  .definition,
+  .hint,
+  .hint-like
+) mjx-container {
+  color: #9b7dff !important;
   -webkit-text-fill-color: #9b7dff !important;
   fill: #9b7dff !important;
-  text-shadow: 
-    0 0 2px rgba(155, 125, 255, 0.7), 
-    0 0 8px rgba(155, 125, 255, 0.4) !important;
-  filter: drop-shadow(0 0 2px rgba(155, 125, 255, 0.7)) drop-shadow(0 0 8px rgba(155, 125, 255, 0.4)) !important;
 }
 
-.ptx-content :is(.assemblage-like, .assemblage) mjx-container {
-  color: #14B5FF !important; /* Signature Blue for Assemblage Math */
+
+/* 🔵 Assemblages */
+.ptx-content :is(
+  .assemblage-like,
+  .assemblage
+) mjx-container {
+  color: #14B5FF !important;
   -webkit-text-fill-color: #14B5FF !important;
   fill: #14B5FF !important;
-  text-shadow: 
-    0 0 2px rgba(20, 181, 255, 0.7), 
-    0 0 8px rgba(20, 181, 255, 0.4) !important;
-  filter: drop-shadow(0 0 2px rgba(20, 181, 255, 0.7)) drop-shadow(0 0 8px rgba(20, 181, 255, 0.4)) !important;
 }
 
-.ptx-content :is(.theorem-like, .theorem, .lemma, .corollary, .proposition, .claim, .fact, .identity, .proof) mjx-container {
-  color: #00E676 !important; /* Node Color: Theorem (Vibrant Green for dark theme) */
+
+/* 🟢 Theorems / Proofs */
+.ptx-content :is(
+  .theorem-like,
+  .theorem,
+  .lemma,
+  .corollary,
+  .proposition,
+  .claim,
+  .fact,
+  .identity,
+  .proof
+) mjx-container {
+  color: #00E676 !important;
   -webkit-text-fill-color: #00E676 !important;
   fill: #00E676 !important;
-  text-shadow: 
-    0 0 2px rgba(0, 230, 118, 0.7), 
-    0 0 8px rgba(0, 230, 118, 0.4) !important;
-  filter: drop-shadow(0 0 2px rgba(0, 230, 118, 0.7)) drop-shadow(0 0 8px rgba(0, 230, 118, 0.4)) !important;
 }
 
-.ptx-content :is(.solution, .solution-like) mjx-container {
-  color: #FF66B3 !important; /* Node Color: Claim/Solution (Pink) */
+
+/* 🩷 Solutions */
+.ptx-content :is(
+  .solution,
+  .solution-like
+) mjx-container {
+  color: #FF66B3 !important;
   -webkit-text-fill-color: #FF66B3 !important;
   fill: #FF66B3 !important;
-  text-shadow: 
-    0 0 2px rgba(255, 102, 179, 0.7), 
-    0 0 8px rgba(255, 102, 179, 0.4) !important;
-  filter: drop-shadow(0 0 2px rgba(255, 102, 179, 0.7)) drop-shadow(0 0 8px rgba(255, 102, 179, 0.4)) !important;
 }
 
-.ptx-content :is(.answer, .answer-like) mjx-container {
-  color: #14B5FF !important; /* Node Color: Example/Answer (Sky Blue) */
+
+/* 🔵 Answers */
+.ptx-content :is(
+  .answer,
+  .answer-like
+) mjx-container {
+  color: #14B5FF !important;
   -webkit-text-fill-color: #14B5FF !important;
   fill: #14B5FF !important;
-  text-shadow: 
-    0 0 2px rgba(20, 181, 255, 0.7), 
-    0 0 8px rgba(20, 181, 255, 0.4) !important;
-  filter: drop-shadow(0 0 2px rgba(20, 181, 255, 0.7)) drop-shadow(0 0 8px rgba(20, 181, 255, 0.4)) !important;
 }
 
-.ptx-content :is(.example-like, .example, .exercise-like, .exercise, .abstract, section.introduction) mjx-container {
-  color: #14B5FF !important; /* Node Color: Example (Sky Blue) */
+
+/* 🔵 Examples / Exercises / Introduction */
+.ptx-content :is(
+  .example-like,
+  .example,
+  .exercise-like,
+  .exercise,
+  .abstract,
+  section.introduction
+) mjx-container {
+  color: #14B5FF !important;
   -webkit-text-fill-color: #14B5FF !important;
   fill: #14B5FF !important;
-  text-shadow: 
-    0 0 2px rgba(20, 181, 255, 0.7), 
-    0 0 8px rgba(20, 181, 255, 0.4) !important;
-  filter: drop-shadow(0 0 2px rgba(20, 181, 255, 0.7)) drop-shadow(0 0 8px rgba(20, 181, 255, 0.4)) !important;
 }
 
-.ptx-content :is(.remark-like, .remark, .insight, .insight-like, .warning, .warning-like) mjx-container {
-  color: #FF8800 !important; /* Global Warning/Admonition (Orange) */
+
+/* 🟠 Remarks / Insights / Warnings */
+.ptx-content :is(
+  .remark-like,
+  .remark,
+  .insight,
+  .insight-like,
+  .warning,
+  .warning-like
+) mjx-container {
+  color: #FF8800 !important;
   -webkit-text-fill-color: #FF8800 !important;
   fill: #FF8800 !important;
-  text-shadow: 
-    0 0 2px rgba(255, 136, 0, 0.7), 
-    0 0 8px rgba(255, 136, 0, 0.4) !important;
-  filter: drop-shadow(0 0 2px rgba(255, 136, 0, 0.7)) drop-shadow(0 0 8px rgba(255, 136, 0, 0.4)) !important;
 }
 
-.ptx-content :is(.note, .note-like, .aside, .aside-like) mjx-container {
-  color: #a855f7 !important; /* Node Color: GA/Note (Light Purple) */
+
+/* 🟣 Notes / Asides */
+.ptx-content :is(
+  .note,
+  .note-like,
+  .aside,
+  .aside-like
+) mjx-container {
+  color: #a855f7 !important;
   -webkit-text-fill-color: #a855f7 !important;
   fill: #a855f7 !important;
-  text-shadow: 
-    0 0 2px rgba(168, 85, 247, 0.7), 
-    0 0 8px rgba(168, 85, 247, 0.4) !important;
-  filter: drop-shadow(0 0 2px rgba(168, 85, 247, 0.7)) drop-shadow(0 0 8px rgba(168, 85, 247, 0.4)) !important;
 }
 
-/* Specific displaymath backgrounds within blocks to match theme */
+
+/* ============================================================ */
+/*  8.6 — FINAL MATHJAX CRISP RENDERING OVERRIDE               */
+/* ============================================================ */
+
+.ptx-content mjx-container,
+.ptx-content mjx-container *,
+.ptx-content mjx-container svg,
+.ptx-content mjx-container svg * {
+  text-shadow: none !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+
+/* ============================================================ */
+/*  8.7 — Display-Math Backgrounds                              */
+/* ============================================================ */
+
 .ptx-content .definition-like .displaymath,
 .ptx-content .hint .displaymath {
-  background: rgba(0, 0, 0, 0.25) !important; /* Slightly darker for better contrast */
+  background: rgba(0, 0, 0, 0.25) !important;
   border-color: rgba(121, 82, 245, 0.3);
 }
 
 .ptx-content .assemblage-like .displaymath {
-  background: rgba(0, 0, 0, 0.45) !important; /* Extremely dark backdrop for assemblage contrast */
+  background: rgba(0, 0, 0, 0.45) !important;
   border-color: rgba(20, 181, 255, 0.3);
 }
 
@@ -167,12 +285,25 @@
   border-color: rgba(255, 136, 0, 0.3);
 }
 
+
+/* ============================================================ */
+/*  8.8 — Block Hover Effects                                  */
+/* ============================================================ */
+
 .ptx-content .assemblage-like:hover {
-  transform: translateY(-5px);
-  background: linear-gradient(135deg, rgba(20, 232, 255, 0.12), rgba(121, 82, 245, 0.12)) !important;
-  box-shadow: 0 0 30px rgba(20, 181, 255, 0.35), 0 12px 40px 0 rgba(0, 0, 0, 0.35) !important;
+  background: linear-gradient(
+    135deg,
+    rgba(20, 232, 255, 0.12),
+    rgba(121, 82, 245, 0.12)
+  ) !important;
+
+  box-shadow:
+    0 0 30px rgba(20, 181, 255, 0.35),
+    0 12px 40px 0 rgba(0, 0, 0, 0.35) !important;
+
   border-color: rgba(20, 181, 255, 0.4) !important;
 }
+
 
 .ptx-content .definition-like:hover,
 .ptx-content .theorem-like:hover,
@@ -185,11 +316,16 @@
 .ptx-content .warning:hover,
 .ptx-content .exercise-like:hover,
 .ptx-content .answer:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(20, 181, 255, 0.2), 0 8px 32px 0 rgba(0, 0, 0, 0.5) !important;
+  box-shadow:
+    0 0 20px rgba(20, 181, 255, 0.2),
+    0 8px 32px 0 rgba(0, 0, 0, 0.5) !important;
 }
 
-/* 🧊 Knowl Content Reset: Prevent nested callout styles in collapsable blocks */
+
+/* ============================================================ */
+/*  8.9 — Knowl / Collapsible Content Reset                    */
+/* ============================================================ */
+
 .ptx-content .knowl__content {
   background: transparent !important;
   padding: 0 !important;
@@ -198,12 +334,17 @@
   border: none !important;
   box-shadow: none !important;
 }
+
 .ptx-content .knowl__content::before,
 .ptx-content .knowl__content::after {
   display: none !important;
 }
 
-/* Base style for vertical bars */
+
+/* ============================================================ */
+/*  8.10 — Vertical Accent Bars                                */
+/* ============================================================ */
+
 .ptx-content .definition-like::before,
 .ptx-content .theorem-like::before,
 .ptx-content .solution::before,
@@ -229,7 +370,11 @@
   border-radius: var(--radius-md) 0 0 var(--radius-md) !important;
 }
 
-/* Base style for headings */
+
+/* ============================================================ */
+/*  8.11 — Base Heading Styles                                 */
+/* ============================================================ */
+
 .ptx-content .definition-like .heading,
 .ptx-content .theorem-like .heading,
 .ptx-content .solution .heading,
@@ -249,22 +394,37 @@
   font-family: var(--font-heading) !important;
   font-weight: bold !important;
   font-size: var(--font-size-md) !important;
+
   -webkit-background-clip: text !important;
   background-clip: text !important;
+
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;
+
   margin-top: 0 !important;
   margin-bottom: var(--space-md) !important;
+
   display: block !important;
+
   border: none !important;
   border-bottom: none !important;
   border-top: none !important;
+
   text-align: left !important;
   text-decoration: none !important;
+
   background-size: 200% auto !important;
   animation: gradient-shift 5s ease infinite !important;
-  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.4)) brightness(1.15);
+
+  filter:
+    drop-shadow(0 0 2px rgba(0, 0, 0, 0.4))
+    brightness(1.15);
 }
+
+
+/* ============================================================ */
+/*  8.12 — Heading Underlines / Pseudo-elements                 */
+/* ============================================================ */
 
 .ptx-content .hint .heading::after,
 .ptx-content .hint summary.knowl__link::after {
@@ -273,8 +433,14 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
+  background: linear-gradient(
+    130deg,
+    #5280ff 0%,
+    #8564f6 61.8%,
+    #905df5 100%
+  ) !important;
 }
+
 
 .ptx-content .theorem-like .heading::after,
 .ptx-content .proof .heading::after,
@@ -305,19 +471,27 @@
   display: none !important;
 }
 
-/* Base style for headings underline - REMOVED */
 
-/* 🧱 Collapsable Heading Fix: Ensure headings in summaries sit next to the arrow */
+/* ============================================================ */
+/*  8.13 — Collapsible Heading Fixes                            */
+/* ============================================================ */
+
 .ptx-content summary.knowl__link {
   cursor: pointer;
   outline: none !important;
   margin-bottom: var(--space-md) !important;
 }
+
 .ptx-content summary.knowl__link .heading {
   display: inline !important;
   margin: 0 !important;
   vertical-align: middle !important;
 }
+
+
+/* ============================================================ */
+/*  8.14 — Purple Definitions / Hints                           */
+/* ============================================================ */
 
 .ptx-content .hint .heading,
 .ptx-content .hint summary.knowl__link,
@@ -329,26 +503,33 @@
     #7952f5 61.8%,
     #5E17EB 100%
   ) !important;
+
   font-family: 'Aclonica', sans-serif !important;
   letter-spacing: 0.02em;
+
   -webkit-background-clip: text !important;
   background-clip: text !important;
+
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;
+
   background-size: 200% auto !important;
   animation: gradient-shift 5s ease infinite !important;
 }
 
-/* 🟣 Purple Gradient: Definitions */
+
+/* Definitions */
 .ptx-content .definition-like .heading {
   font-size: 1.15rem !important;
 }
+
 .ptx-content .definition-like .heading::after {
   content: "" !important;
   display: block !important;
   width: 100%;
   height: 2px;
   margin-top: 2px;
+
   background: linear-gradient(
     130deg,
     #a855f7 0%,
@@ -357,12 +538,14 @@
     #5E17EB 100%
   ) !important;
 }
+
 .ptx-content .definition-like::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
+
   background: linear-gradient(
     to bottom,
     #a855f7 0%,
@@ -372,32 +555,39 @@
   ) !important;
 }
 
-/* 🟣 Purple Gradient: Hints */
+
+/* Hints */
 .ptx-content .hint .heading,
 .ptx-content .hint summary.knowl__link {
   font-size: 1rem !important;
 }
+
 .ptx-content .hint summary.knowl__link {
-  display: list-item !important; /* Use list-item to keep the marker */
-  list-style: disclosure-closed !important; /* Ensure arrow is visible */
+  display: list-item !important;
+  list-style: disclosure-closed !important;
   width: fit-content !important;
 }
+
 .ptx-content .hint summary.knowl__link[open] {
   list-style: disclosure-open !important;
 }
+
 .ptx-content .hint summary.knowl__link * {
   -webkit-text-fill-color: inherit !important;
   color: inherit !important;
 }
+
 .ptx-content .hint summary.knowl__link::marker {
   color: #8b5cf6 !important;
 }
+
 .ptx-content .hint::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
+
   background: linear-gradient(
     to bottom,
     #a855f7 0%,
@@ -407,11 +597,21 @@
   ) !important;
 }
 
-/* 📗 Green Gradient: Theorems, Proofs */
+
+/* ============================================================ */
+/*  8.15 — Green Theorems / Proofs                              */
+/* ============================================================ */
+
 .ptx-content .theorem-like .heading,
 .ptx-content .proof .heading {
-  background-image: linear-gradient(130deg, #039600, 61.8%, #209d20) !important;
+  background-image: linear-gradient(
+    130deg,
+    #039600,
+    61.8%,
+    #209d20
+  ) !important;
 }
+
 .ptx-content .theorem-like::before,
 .ptx-content .proof::before {
   content: "";
@@ -419,10 +619,20 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, #039600, 61.8%, #209d20) !important;
+
+  background: linear-gradient(
+    to bottom,
+    #039600,
+    61.8%,
+    #209d20
+  ) !important;
 }
 
-/* 🟦 Pink Gradient: Solutions */
+
+/* ============================================================ */
+/*  8.16 — Pink Solutions                                      */
+/* ============================================================ */
+
 .ptx-content .solution .heading,
 .ptx-content .solution summary.knowl__link {
   background-image: var(--gradient-pink) !important;
@@ -431,6 +641,7 @@
   letter-spacing: 0.02em;
   text-decoration: none !important;
 }
+
 .ptx-content .solution .heading::after,
 .ptx-content .solution summary.knowl__link::after {
   content: "" !important;
@@ -440,43 +651,67 @@
   margin-top: 2px;
   background: var(--gradient-pink) !important;
 }
+
 .ptx-content .solution summary.knowl__link {
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;
+
   display: list-item !important;
   list-style: disclosure-closed !important;
   width: fit-content !important;
 }
+
 .ptx-content .solution summary.knowl__link[open] {
   list-style: disclosure-open !important;
 }
+
 .ptx-content .solution summary.knowl__link * {
   -webkit-text-fill-color: inherit !important;
   color: inherit !important;
 }
+
 .ptx-content .solution summary.knowl__link::marker {
   color: #ff40a1 !important;
 }
+
 .ptx-content .solution::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, #ff40a1, 61.8%, #ff76a1) !important;
+
+  background: linear-gradient(
+    to bottom,
+    #ff40a1,
+    61.8%,
+    #ff76a1
+  ) !important;
 }
 
-/* 🟦 Sky Blue Gradient: Answers */
+
+/* ============================================================ */
+/*  8.17 — Sky Blue Answers                                    */
+/* ============================================================ */
+
 .ptx-content .answer .heading,
 .ptx-content .answer summary.knowl__link {
-  background-image: linear-gradient(130deg, #14b5ff 0%, #3a98ff 38.2%, #3a98ff 61.8%, #14b5ff 100%) !important;
+  background-image: linear-gradient(
+    130deg,
+    #14b5ff 0%,
+    #3a98ff 38.2%,
+    #3a98ff 61.8%,
+    #14b5ff 100%
+  ) !important;
+
   font-family: 'Aclonica', sans-serif !important;
   font-size: 1rem !important;
   letter-spacing: 0.02em;
   text-decoration: none !important;
 }
+
 .ptx-content .answer .heading::after,
 .ptx-content .answer summary.knowl__link::after {
   content: "" !important;
@@ -484,44 +719,73 @@
   width: 100%;
   height: 2px;
   margin-top: 2px;
-  background: linear-gradient(130deg, #14b5ff 0%, #3a98ff 38.2%, #3a98ff 61.8%, #14b5ff 100%) !important;
+
+  background: linear-gradient(
+    130deg,
+    #14b5ff 0%,
+    #3a98ff 38.2%,
+    #3a98ff 61.8%,
+    #14b5ff 100%
+  ) !important;
 }
+
 .ptx-content .answer summary.knowl__link {
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;
+
   display: list-item !important;
   list-style: disclosure-closed !important;
   width: fit-content !important;
 }
+
 .ptx-content .answer summary.knowl__link[open] {
   list-style: disclosure-open !important;
 }
+
 .ptx-content .answer summary.knowl__link * {
   -webkit-text-fill-color: inherit !important;
   color: inherit !important;
 }
+
 .ptx-content .answer summary.knowl__link::marker {
   color: #14b5ff !important;
 }
+
 .ptx-content .answer::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, #14b5ff, 61.8%, #3a98ff) !important;
+
+  background: linear-gradient(
+    to bottom,
+    #14b5ff,
+    61.8%,
+    #3a98ff
+  ) !important;
 }
 
-/* 🔵 Blue Gradient: Examples, Exercises, Introductions, Biblio */
+
+/* ============================================================ */
+/*  8.18 — Blue Examples / Exercises / Introduction / Biblio    */
+/* ============================================================ */
+
 .ptx-content .example-like .heading,
 .ptx-content .exercise-like .heading,
 .ptx-content section.introduction .heading,
 .ptx-content .biblio .heading,
 .ptx-content .abstract .heading {
-  background-image: linear-gradient(130deg, #14B5FF, 61.8%, #4a7dd0) !important;
+  background-image: linear-gradient(
+    130deg,
+    #14B5FF,
+    61.8%,
+    #4a7dd0
+  ) !important;
 }
+
 .ptx-content .example-like::before,
 .ptx-content .exercise-like::before,
 .ptx-content section.introduction::before,
@@ -532,15 +796,26 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, #14B5FF, 61.8%, #4a7dd0) !important;
+
+  background: linear-gradient(
+    to bottom,
+    #14B5FF,
+    61.8%,
+    #4a7dd0
+  ) !important;
 }
 
-/* 🔵 Blue-Purple Gradient: Remarks, Insights, Warnings (Admonitions) -> Now ORANGE */
+
+/* ============================================================ */
+/*  8.19 — Orange Remarks / Insights / Warnings                 */
+/* ============================================================ */
+
 .ptx-content .remark-like .heading,
 .ptx-content .insight .heading,
 .ptx-content .warning .heading {
   background-image: var(--gradient-orange) !important;
 }
+
 .ptx-content .remark-like::before,
 .ptx-content .insight::before,
 .ptx-content .warning::before {
@@ -549,8 +824,14 @@
   top: 0;
   left: 0;
   bottom: 0;
+
   background: var(--gradient-orange) !important;
 }
+
+
+/* ============================================================ */
+/*  8.20 — Assemblage Headings / Accent                         */
+/* ============================================================ */
 
 .ptx-content .assemblage-like .heading::after,
 .ptx-content .assemblage-like .heading::before {
@@ -558,36 +839,63 @@
   display: none !important;
 }
 
-/* 🟣 Purple Gradient: Assemblage */
 .ptx-content .assemblage-like .heading {
-  background-image: linear-gradient(130deg, #14B5FF 0%, #8564f6 61.8%, #7952f5 100%) !important;
+  background-image: linear-gradient(
+    130deg,
+    #14B5FF 0%,
+    #8564f6 61.8%,
+    #7952f5 100%
+  ) !important;
+
   background-size: 200% auto !important;
   animation: gradient-shift 5s ease infinite !important;
+
   font-size: var(--font-size-md) !important;
   margin-bottom: var(--space-md) !important;
+
   font-family: var(--font-aclonica), sans-serif !important;
+
   -webkit-background-clip: text !important;
   background-clip: text !important;
+
   -webkit-text-fill-color: transparent !important;
   color: transparent !important;
+
   font-weight: 600 !important;
   letter-spacing: 0.5px !important;
 }
 
-/* 🔵 Blue-Purple Gradient: Note & Aside */
-.ptx-content .note .heading,
-.ptx-content .aside .heading {
-  background-image: linear-gradient(130deg, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
-  background-size: 200% auto !important;
-  animation: gradient-shift 5s ease infinite !important;
-}
 .ptx-content .assemblage-like::before {
   content: "" !important;
   position: absolute !important;
   top: 0 !important;
   left: 0 !important;
   bottom: 0 !important;
-  background: linear-gradient(130deg, #14B5FF 0%, #8564f6 61.8%, #7952f5 100%) !important;
+
+  background: linear-gradient(
+    130deg,
+    #14B5FF 0%,
+    #8564f6 61.8%,
+    #7952f5 100%
+  ) !important;
+}
+
+
+/* ============================================================ */
+/*  8.21 — Note / Aside Headings and Containers                 */
+/* ============================================================ */
+
+.ptx-content .note .heading,
+.ptx-content .aside .heading {
+  background-image: linear-gradient(
+    130deg,
+    #5280ff 0%,
+    #8564f6 61.8%,
+    #905df5 100%
+  ) !important;
+
+  background-size: 200% auto !important;
+  animation: gradient-shift 5s ease infinite !important;
 }
 
 .ptx-content .note::before,
@@ -597,65 +905,104 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, #5280ff 0%, #8564f6 61.8%, #905df5 100%) !important;
+
+  background: linear-gradient(
+    to bottom,
+    #5280ff 0%,
+    #8564f6 61.8%,
+    #905df5 100%
+  ) !important;
 }
 
-/* ============================================
-   ASIDE ELEMENT FIXES
-   ============================================ */
 
-/* 1. Reset the Aside Container to be full-width and centered with vertical bar */
+/* ============================================================ */
+/*  8.22 — Note Container                                      */
+/* ============================================================ */
+
+.ptx-content .note {
+  background: linear-gradient(
+    135deg,
+    rgba(20, 232, 255, 0.08) 0%,
+    rgba(121, 82, 245, 0.12) 61.8%,
+    rgba(51, 34, 136, 0.1) 100%
+  ) !important;
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: var(--radius-md) !important;
+
+  padding: var(--space-xl) !important;
+  padding-left: calc(
+    var(--space-xl) + 5px * var(--phi) * var(--phi)
+  ) !important;
+
+  margin-bottom: var(--space-xl);
+  color: var(--color-text) !important;
+  position: relative !important;
+
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: all 0.3s ease;
+}
+
+.ptx-content .note:hover {
+  box-shadow:
+    0 0 20px rgba(20, 181, 255, 0.2),
+    0 12px 40px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+
+/* ============================================================ */
+/*  8.23 — Aside Element Fixes                                 */
+/* ============================================================ */
+
 .ptx-content .aside,
 .aside {
-  /* Reset all positioning */
   position: relative !important;
   float: none !important;
   clear: both !important;
-  
-  /* Force full width of the CONTENT COLUMN (not necessarily viewport) */
+
   width: 100% !important;
   max-width: 100% !important;
-  
-  /* CRITICAL: Remove any left/right margins that push it right */
+
   margin-left: 0 !important;
   margin-right: 0 !important;
   margin-top: var(--space-xl) !important;
   margin-bottom: var(--space-xl) !important;
-  
-  /* Reset padding to ensure it touches the edges of the text column */
+
   padding-left: var(--space-xl) !important;
   padding-right: var(--space-md) !important;
   padding-top: var(--space-md) !important;
   padding-bottom: var(--space-md) !important;
 
-  /* Text alignment inside box */
   text-align: left !important;
 
-  /* Optional: Make it look like a distinct "callout" box */
   background: rgba(255, 64, 161, 0.05) !important;
-  border-radius: var(--radius-md) !important; 
+  border-radius: var(--radius-md) !important;
 }
 
-/* 2. If the aside is inside a wrapper that has padding, we need to negate it */
-/* This targets the specific PreTeXt structure often used for asides */
+
 .ptx-content .aside > .content,
 .aside > .content {
-  padding-left: var(--space-xl) !important; /* Add padding back ONLY to the text, not the box */
+  padding-left: var(--space-xl) !important;
   padding-right: var(--space-xl) !important;
 }
 
 
-/* 4. Ensure the text inside flows naturally */
 .ptx-content .aside p,
 .aside p {
   font-size: var(--font-size-sm) !important;
   line-height: var(--phi) !important;
   color: var(--color-text) !important;
+
   padding-left: var(--space-xl) !important;
   padding-right: var(--space-xl) !important;
+
   margin: var(--space-sm) 0 !important;
   margin-bottom: var(--space-sm) !important;
 }
+
 
 .ptx-content .aside *,
 .aside * {
@@ -663,40 +1010,12 @@
 }
 
 
-/*=================
-  Note and Assemblage styles swapped
-  ===================*/
-.ptx-content .note {
-  background: linear-gradient(135deg, 
-    rgba(20, 232, 255, 0.08) 0%, 
-    rgba(121, 82, 245, 0.12) 61.8%,
-    rgba(51, 34, 136, 0.1) 100%
-  ) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.12) !important;
-  border-radius: var(--radius-md) !important; 
-  padding: var(--space-xl) !important;
-  padding-left: calc(var(--space-xl) + 5px * var(--phi) * var(--phi)) !important;
-  margin-bottom: var(--space-xl);
-  color: var(--color-text) !important;
-  position: relative !important;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  transition: all 0.3s ease;
-}
+/* ============================================================ */
+/*  8.24 — Lists                                                */
+/* ============================================================ */
 
-.ptx-content .note:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(20, 181, 255, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.5) !important;
-}
-
-.ptx-content .assemblage-like {
-  /* Inherits standard block style from lines 11-24 */
-}
-
-
-/* Lists */
-.ptx-content ol, .ptx-content ul {
+.ptx-content ol,
+.ptx-content ul {
   margin-left: var(--space-xl);
   margin-bottom: var(--space-xl);
 }
@@ -711,35 +1030,30 @@
   line-height: var(--phi);
 }
 
-/* Global Styles from User Snippet */
-::-webkit-scrollbar {
-    width: 8px;
-}
 
-::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #14b5ff, 61.8%, #7952f5);
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #00ffee, 61.8%, #14b5ff);
-}
+/* ============================================================ */
+/*  8.26 — Emoji Reset                                         */
+/* ============================================================ */
 
 .emoji {
-    background: transparent !important;
-    -webkit-background-clip: border-box !important;
-    background-clip: border-box !important;
-    -webkit-text-fill-color: initial !important;
-    color: initial !important;
-    text-shadow: none !important;
-    display: inline-block;
-    vertical-align: middle;
+  background: transparent !important;
+
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+
+  -webkit-text-fill-color: initial !important;
+  color: initial !important;
+
+  text-shadow: none !important;
+
+  display: inline-block;
+  vertical-align: middle;
 }
+
+
+/* ============================================================ */
+/*  8.27 — Bibliography                                        */
+/* ============================================================ */
 
 .ptx-content .biblio .bibitem {
   color: var(--color-text);

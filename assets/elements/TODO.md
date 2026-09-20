@@ -1,6 +1,6 @@
 # Stylesheet Changes
 
-- [ ] green tags $\rightarrow$ font too large
+- [x] green tags $\rightarrow$ font too large (normalized font size, padding, and prevented heading inheritance)
 - [ ] Blue Gradients 💙🩵
   - [ ] In the `source` directory, replace all `var(--gradient-lite-to-dark-blue)` with `var(--gradient-blue)`
   - [ ] Remove all `var(--gradient-lite-to-dark-blue)` from the `assets/elements/..` directory.

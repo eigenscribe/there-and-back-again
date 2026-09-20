@@ -2,11 +2,30 @@
 /*  Section 10: Responsive Rules                                */
 /* ============================================================ */
 
-/* ---- Tablets & Small Desktops ---- */
+
+/* ---- Reduced Motion Accessibility & Performance ---- */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* ============================================================ */
+/*  Tablets & Small Desktops (<= 900px)                         */
+/* ============================================================ */
+
 @media (max-width: 900px) {
 
   /* ---- Global sanity ---- */
-  html, body {
+
+  html,
+  body {
     overflow-x: hidden !important;
     position: relative;
   }
@@ -15,14 +34,31 @@
     background-attachment: scroll !important;
   }
 
-  /* ---- Kill the two-column grid ---- */
+
+  /* ---- Performance mode for mobile/tablet ---- */
+
+  .ptx-page > .ptx-main,
+  .ptx-navbar,
+  .ptx-masthead,
+  .ptx-page-footer,
+  .ptx-content .note,
+  .ptx-content .assemblage-like {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+
+  /* ---- Single-column page layout ---- */
+
   .ptx-page {
     display: block !important;
     grid-template-columns: none !important;
     grid-template-areas: none !important;
   }
 
-  /* ---- Navbar / toolbar: FIX TO TOP + GIVE IT ROOM ---- */
+
+  /* ---- Navbar / toolbar ---- */
+
   .ptx-navbar {
     position: sticky !important;
     top: 0 !important;
@@ -35,36 +71,36 @@
     box-sizing: border-box !important;
 
     z-index: 1000 !important;
-  }
 
-  /* Ensure buttons never clip right edge */
-  .ptx-navbar {
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: center !important;
     gap: 0.5rem !important;
   }
 
+
   /* ---- Main content ---- */
+
   .ptx-main {
     width: 100% !important;
   }
 
   .ptx-page > .ptx-main {
-    padding: 1rem !important;
+    padding: var(--space-lg) var(--space-xl) !important;
     margin: 0 !important;
     min-height: 0 !important;
   }
 
-  /* Add breathing room below navbar */
   .ptx-content {
     max-width: 100% !important;
-    padding: 0.75rem !important;
+    padding: 0 var(--space-md) !important;
   }
 
+
   /* ---- Typography scaling ---- */
+
   .ptx-content h1.heading {
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
   }
 
   .ptx-content h2.heading {
@@ -83,7 +119,9 @@
     font-size: 1rem !important;
   }
 
+
   /* ---- Table adjustments ---- */
+
   .ptx-content table.tabular td,
   .ptx-content table.tabular th {
     padding: 0.5rem 0.45rem !important;
@@ -94,16 +132,9 @@
     border-radius: 8px !important;
   }
 
-  /* ---- Reduce heavy visual effects ---- */
-  .ptx-page > .ptx-main,
-  .ptx-navbar,
-  .ptx-masthead,
-  .ptx-page-footer {
-    -webkit-backdrop-filter: blur(6px) !important;
-    backdrop-filter: blur(6px) !important;
-  }
 
   /* ---- Masthead scaling ---- */
+
   .ptx-masthead .ptx-banner {
     justify-content: flex-start !important;
     padding: 0.5rem 0.75rem !important;
@@ -129,7 +160,9 @@
     font-size: 1rem !important;
   }
 
-  /* ---- Code blocks: prevent sideways hell ---- */
+
+  /* ---- Code blocks ---- */
+
   .ptx-content pre {
     font-size: 0.85rem !important;
     padding: 1rem !important;
@@ -147,7 +180,9 @@
     max-width: 100% !important;
   }
 
+
   /* ---- Navbar buttons & controls ---- */
+
   .ptx-navbar .button,
   .ptx-navbar button,
   .ptx-navbar a.button {
@@ -197,7 +232,9 @@
     padding: 1.1rem !important;
   }
 
+
   /* ---- Graph overlay safety ---- */
+
   #graph-toggle-btn {
     font-size: 12px !important;
     padding: 6px 10px !important;
@@ -218,7 +255,11 @@
     z-index: 900 !important;
   }
 
-  .ptx-page.graph-hidden .ptx-sidebar-right {
+  .ptx-page.graph-hidden .ptx-sidebar-right,
+  .graph-hidden .ptx-sidebar-right,
+  .ptx-sidebar-right.graph-hidden,
+  .ptx-sidebar-right.hidden,
+  .ptx-sidebar-right[style*="display: none"] {
     display: none !important;
   }
 
@@ -228,10 +269,15 @@
   }
 }
 
-/* ---- Mobile Phones ---- */
+
+/* ============================================================ */
+/*  Mobile Phones (<= 500px)                                    */
+/* ============================================================ */
+
 @media (max-width: 500px) {
 
   /* ---- Masthead scaling ---- */
+
   .ptx-masthead .ptx-banner {
     justify-content: flex-start !important;
     padding: 0.4rem 0.5rem !important;
@@ -258,8 +304,11 @@
     font-size: 0.82rem !important;
   }
 
+
+  /* ---- Content typography ---- */
+
   .ptx-content h1.heading {
-    font-size: 1.6rem !important;
+    font-size: 1.5rem !important;
   }
 
   .ptx-content h2.heading {
@@ -267,7 +316,6 @@
   }
 
   .ptx-content {
-    padding: 0.5rem !important;
+    padding: 0 var(--space-sm) !important;
   }
-
 }
