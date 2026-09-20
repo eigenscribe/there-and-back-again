@@ -137,7 +137,8 @@
       </cell>
       <cell>
         <p>
-         An arbitrary function that has at least one derivative and vanishes at the endpoints <m>x_1</m> and <m>x_2</m>.
+         An arbitrary function that has at least one derivative and vanishes at the endpoints of a
+         <xref ref="def-perturbation" text="custom">perturbation</xref>.
         </p>
       </cell>
       <cell>

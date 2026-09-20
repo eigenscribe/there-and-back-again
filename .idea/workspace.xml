@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added `prefig` as a dependency and updated IntelliJ workspace configuration files.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="corrected eta(x) entry in geometric dictionary">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-geometric-dictionary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-geometric-dictionary.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4293756412422178" />
-      <entry key="MS500" value="4.672052146825386" />
-      <entry key="S2" value="12.286221169955073" />
-      <entry key="S5" value="21.61490478930367" />
-      <entry key="S10" value="34.48273087782658" />
-      <entry key="S30" value="60.29874748098583" />
-      <entry key="S60" value="73.75932632046462" />
-      <entry key="M2" value="92.13716842972265" />
-      <entry key="M5" value="143.58653667958205" />
-      <entry key="M10" value="223.12859333341265" />
-      <entry key="M15" value="298.6706988450162" />
-      <entry key="M30" value="499.6625215950661" />
-      <entry key="H1" value="870.4373220674277" />
-      <entry key="H2" value="1542.540874610352" />
-      <entry key="H4" value="2485.9537385188046" />
-      <entry key="D1" value="5412.619376018714" />
-      <entry key="W1" value="24288.10471444792" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000217862771077" />
+      <entry key="S2" value="1.119342429009817" />
+      <entry key="S5" value="1.9057435974175712" />
+      <entry key="S10" value="2.8762626666747426" />
+      <entry key="S30" value="4.2404891495714025" />
+      <entry key="S60" value="8.281271011372624" />
+      <entry key="M2" value="28.95278188487498" />
+      <entry key="M5" value="100.48381748022288" />
+      <entry key="M10" value="197.62607055156462" />
+      <entry key="M15" value="281.8140630873338" />
+      <entry key="M30" value="495.8804391542629" />
+      <entry key="H1" value="875.8646799625732" />
+      <entry key="H2" value="1555.0519263435147" />
+      <entry key="H4" value="2508.6259721587176" />
+      <entry key="D1" value="5461.681553917199" />
+      <entry key="W1" value="24342.586206707292" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.6232365327540182E-266" />
-      <entry key="S2" value="3.569401913315249E-67" />
-      <entry key="S5" value="2.6365631681312587E-27" />
-      <entry key="S10" value="5.1347474798000014E-14" />
-      <entry key="S30" value="3.716832843998862E-5" />
-      <entry key="S60" value="0.006096583559896978" />
-      <entry key="M2" value="0.07809539867261171" />
-      <entry key="M5" value="0.3722838313646" />
-      <entry key="M10" value="0.7086565080150516" />
-      <entry key="M15" value="0.9398675121047111" />
-      <entry key="M30" value="1.3538154580303257" />
-      <entry key="H1" value="1.7924394711160154" />
-      <entry key="H2" value="2.2177967035988067" />
-      <entry key="H4" value="2.545151885025429" />
-      <entry key="D1" value="3.7730069135911677" />
-      <entry key="W1" value="41.938130765399606" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.5146822707831916E-118" />
+      <entry key="S5" value="7.449525598272726E-48" />
+      <entry key="S10" value="2.7293819077352806E-24" />
+      <entry key="S30" value="1.3975095020999518E-8" />
+      <entry key="S60" value="1.1821631030532476E-4" />
+      <entry key="M2" value="0.010874790049102885" />
+      <entry key="M5" value="0.1691968793700001" />
+      <entry key="M10" value="0.47774358790666593" />
+      <entry key="M15" value="0.7226134305657425" />
+      <entry key="M30" value="1.1870777483932535" />
+      <entry key="H1" value="1.6784343025847919" />
+      <entry key="H2" value="2.1461084154764296" />
+      <entry key="H4" value="2.5036791142379955" />
+      <entry key="D1" value="3.7626899028774132" />
+      <entry key="W1" value="41.92172914249304" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.409430031491267" />
-      <entry key="MS500" value="4.655878758137107" />
-      <entry key="S2" value="12.274817294968624" />
-      <entry key="S5" value="21.60642118388242" />
-      <entry key="S10" value="34.47572881405754" />
-      <entry key="S30" value="60.29463366353851" />
-      <entry key="S60" value="73.76270375658783" />
-      <entry key="M2" value="92.2125311228087" />
-      <entry key="M5" value="143.95101603986967" />
-      <entry key="M10" value="223.81410670840623" />
-      <entry key="M15" value="299.58001469322517" />
-      <entry key="M30" value="500.9852813410714" />
-      <entry key="H1" value="872.2072354154855" />
-      <entry key="H2" value="1544.7448406388214" />
-      <entry key="H4" value="2488.491063101479" />
-      <entry key="D1" value="5416.390622425822" />
-      <entry key="W1" value="24330.041863200007" />
+      <entry key="MS100" value="0.9460576467255959" />
+      <entry key="MS500" value="0.9889925221851361" />
+      <entry key="S2" value="1.1163200533919917" />
+      <entry key="S5" value="1.9038413535348773" />
+      <entry key="S10" value="2.874874982059558" />
+      <entry key="S30" value="4.2398218861804535" />
+      <entry key="S60" value="8.280768668637881" />
+      <entry key="M2" value="28.96251768386794" />
+      <entry key="M5" value="100.64874446702673" />
+      <entry key="M10" value="198.0877149132656" />
+      <entry key="M15" value="282.5128174917221" />
+      <entry key="M30" value="497.0400798892941" />
+      <entry key="H1" value="877.5219119475128" />
+      <entry key="H2" value="1557.1845951533162" />
+      <entry key="H4" value="2511.1219231268415" />
+      <entry key="D1" value="5465.442483341186" />
+      <entry key="W1" value="24384.50695353536" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -203,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00229" summary="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787995851340</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1787995851340</updated>
     </task>
     <task id="LOCAL-00230" summary="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness.">
       <option name="closed" value="true" />
@@ -596,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789805411955</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="corrected eta(x) entry in geometric dictionary">
+      <option name="closed" value="true" />
+      <created>1789871254941</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1789871254942</updated>
+    </task>
+    <option name="localTasksCounter" value="279" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
     <MESSAGE value="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments." />
     <MESSAGE value="updated the demo table in pretext meta section" />
     <MESSAGE value="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing" />
@@ -639,6 +637,7 @@
     <MESSAGE value="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions" />
     <MESSAGE value="Refined CSS styling for mathematical elements by consolidating selectors, enhancing readability, and adding drop-shadow effects. Updated deployment workflow to include Python setup and dependency installation." />
     <MESSAGE value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
+    <MESSAGE value="corrected eta(x) entry in geometric dictionary" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected eta(x) entry in geometric dictionary" />
   </component>
 </project>
