@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-project-conventions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Project Conventions</title>
+        <p>
+            Custom styles and standards used in this Zettelkasten.
+        </p>
+        <ul>
+            <li>
+                <p>
+                    <alert>Note Metadata:</alert> Every note should include a metadata block (Note ID, Tags, etc.). This block can be placed in <c><![CDATA[<introduction>]]></c>, <c><![CDATA[<blockquote>]]></c>, <c><![CDATA[<aside>]]></c>, or <c><![CDATA[<paragraphs>]]></c>.
+                </p>
+                <p>
+                    <alert>Preview:</alert>
+                </p>
+                <blockquote>
+                    <p>
+                        <tag>202606012315</tag> | <tag>topic1</tag>, <tag>topic2</tag> | <alert>PreFigure Demo:</alert><tag>🔗 Interactive</tag>
+                    </p>
+                </blockquote>
+                <program language="xml">
+                    <code>
+                        <![CDATA[
+<!-- Traditional Introduction -->
+<introduction>
+  <p>
+    <tag>202606012315</tag> |
+    <tag>topic1</tag> <tag>topic2</tag>
+  </p>
+</introduction>
+
+<!-- Alternative using Blockquote (Always visible, no title) -->
+<blockquote>
+  <p>
+    <tag>202606012315</tag> |
+    <tag>topic1</tag>
+  </p>
+</blockquote>
+                        ]]>
+                    </code>
+                </program>
+            </li>
+            <li>
+                <p>
+                    <alert>Note IDs:</alert> Use <c>YYYYMMDDNNNN</c> or <c>HHMM</c> format.
+                    The first <c><![CDATA[<tag>]]></c> in a supported metadata block (Introduction, Blockquote, etc.) is automatically styled as a purple glassmorphic Note ID.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <alert>Conclusion Metadata:</alert> Conclusions use <c><![CDATA[<alert>]]></c> tags for metadata labels (e.g., Linked Notes, References), which are automatically styled as blue glassmorphic pills.
+                </p>
+                <p>
+                    <alert>Preview:</alert>
+                </p>
+                <blockquote>
+                    <p>
+                        🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext" />
+                    </p>
+                    <p>
+                        🔖 <alert>References:</alert> <xref ref="ch-cheat-sheets" />
+                    </p>
+                </blockquote>
+                <program language="xml">
+                    <code>
+                        <![CDATA[
+<conclusion>
+  <p>
+    🖇️ <alert>Linked Notes:</alert> <xref ref="sec-topic" />
+  </p>
+  <p>
+    🔖 <alert>References:</alert> <xref ref="biblio-item" />
+  </p>
+</conclusion>
+                        ]]>
+                    </code>
+                </program>
+            </li>
+            <li>
+                <p>
+                    <alert>List Titles:</alert> Headings inside list items (e.g. <c><![CDATA[<li><title>...</title></li>]]></c> or <c><![CDATA[<li class="li"><title>...</title></li>]]></c>) are styled in prominent cyan with the heading font.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <alert>Assemblages:</alert> Use for primary takeaways or "atomic" notes within a section.
+                </p>
+            </li>
+        </ul>
+</paragraphs>

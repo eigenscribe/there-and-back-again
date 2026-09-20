@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-textual-elements" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Textual Elements</title>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. :eigenote: Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.
+    </p>
+
+    <p>
+      Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia ac. :favicon: Curabitur wisi vitae nisl auctor interdum.
+    </p>
+</paragraphs>

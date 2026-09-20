@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-admonitions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Admonitions and Blocks</title>
+  <p>
+    Admonitions are used to highlight important information.
+  </p>
+
+    <note>
+      <title>Note with Icon</title>
+      <p>
+        :eigenote: This is a note that uses the Eigenote icon. It captures core insights that are fundamental to understanding the topic.
+      </p>
+    </note>
+
+    <warning>
+      <title>Heuristic Warning</title>
+      <p>
+        :ember: Be careful when applying these rules of thumb. Context matters, and pitfalls may emerge in complex environments.
+      </p>
+    </warning>
+
+    <insight>
+      <title>Deep Insight</title>
+      <p>
+        The pattern observed here is recursive. Understanding the base case is essential for grasping the entire structure.
+      </p>
+    </insight>
+
+    <example xml:id="ex-lorem">
+      <title>A Simple Example</title>
+      <statement>
+        <p>
+          Consider the function <m>f(x) = x^2</m>. What is its derivative?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The derivative is <m>f'(x) = 2x</m>.
+        </p>
+      </solution>
+    </example>
+
+    <assemblage>
+      <title>Summary Checklist</title>
+      <ul>
+        <li><p>Verify all icons are rendered.</p></li>
+        <li><p>Check responsive layout.</p></li>
+        <li><p>Ensure color contrast is sufficient.</p></li>
+      </ul>
+    </assemblage>
+</paragraphs>

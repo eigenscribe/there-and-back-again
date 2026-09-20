@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-pretext-math" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Mathematics</title>
+  <p>
+    PreTeXt supports various math environments using standard LaTeX notation.
+  </p>
+  <ul>
+    <li>
+      <title>Inline Math</title>
+      <p>Use <c><![CDATA[<m>...</m>]]></c> for inline expressions.</p>
+    </li>
+    <li>
+      <title>Single Line Equations</title>
+      <p>Use <c><![CDATA[<md>]]></c> for equations. Single-line equations no longer use <c><![CDATA[<me>]]></c> or <c><![CDATA[<men>]]></c> (deprecated). Use <c>@number="yes"</c> on <c><![CDATA[<md>]]></c> for numbering.</p>
+      <p>
+        <alert>Preview:</alert>
+        <md number="yes">
+          <mrow xml:id="eq-schrodinger-example">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</mrow>
+        </md>
+      </p>
+      <program language="xml">
+        <code>
+          <![CDATA[<md number="yes">
+            <mrow xml:id="eq-schrodinger">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</mrow>
+          </md>]]>
+        </code>
+      </program>
+    </li>
+    <li>
+      <title>Aligned Equations</title>
+      <p>Use <c><![CDATA[<md>]]></c> with <c><![CDATA[<mrow>]]></c> for multiple lines. Use <c><![CDATA[\amp]]></c> for alignment.</p>
+      <p>
+        <alert>Preview:</alert>
+        <md>
+          <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
+          <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
+        </md>
+      </p>
+      <program language="xml">
+        <code>
+          <![CDATA[
+            <md>
+              <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
+              <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
+            </md>
+          ]]>
+        </code>
+      </program>
+    </li>
+  </ul>
+</paragraphs>

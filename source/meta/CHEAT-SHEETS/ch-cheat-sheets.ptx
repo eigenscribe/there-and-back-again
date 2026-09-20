@@ -7,6 +7,7 @@
   </introduction>
 
   <xi:include href="sec-git-cheat-sheet.ptx" />
-  <xi:include href="PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" />
+  <xi:include href="TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" />
+  <xi:include href="PRETEXT/sec-pretext.ptx" />
 
 </chapter>

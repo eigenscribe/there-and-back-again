@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-technical-elements" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Technical Elements</title>
+    <p>
+      Technical documentation often requires code snippets and mathematical formulas.
+    </p>
+
+    <p xml:id="p-code">
+      <title>Code Blocks</title>
+      <p>
+        Here is a sample Python script:
+      </p>
+      <p>
+        <alert>Preview (Console Output):</alert>
+      </p>
+      <pre>Hello, PreTeXt!</pre>
+      <program language="python">
+        <code>
+def hello_world():
+    print("Hello, PreTeXt!")
+
+if __name__ == "__main__":
+    hello_world()
+        </code>
+      </program>
+      <p>
+        :favicon: Note the glassmorphic styling applied to the code block.
+      </p>
+    </p>
+
+    <p xml:id="p-math">
+      <title>Mathematics</title>
+      <p>
+        Inline math like <m>E = mc^2</m> and display math:
+      </p>
+      <p>
+        <alert>Preview:</alert>
+      </p>
+      <p>
+        <md>
+          \int_a^b f(x) \, dx = F(b) - F(a)
+        </md>
+      </p>
+      <program language="xml">
+        <code>
+          <![CDATA[
+<md>
+  \int_a^b f(x) \, dx = F(b) - F(a)
+</md>
+          ]]>
+        </code>
+      </program>
+    </p>
+
+    <p xml:id="p-tables">
+      <title>Tables</title>
+      <p>
+        Structured tabular data definition:
+      </p>
+      <p>
+        <alert>Preview:</alert>
+      </p>
+      <table>
+        <title>Sample Data</title>
+        <tabular bottom="minor" top="minor" left="minor" right="minor">
+
+          <col width = "75%"/>
+          <col width = "25%"/>
+
+          <row header="yes">
+            <cell>Category</cell>
+            <cell>Value</cell>
+          </row>
+
+          <row>
+            <cell>Alpha</cell>
+            <cell>100</cell>
+          </row>
+
+          <row>
+             <cell>Beta</cell>
+             <cell>200</cell>
+           </row>
+         </tabular>
+      </table>
+      <program language="xml">
+        <code>
+          <![CDATA[
+<table>
+  <title>Sample Data</title>
+  <tabular bottom="minor" top="minor" left="minor" right="minor">
+
+    <col width = "75%"/>
+    <col width = "25%"/>
+
+    <row header="yes">
+      <cell>Category</cell>
+      <cell>Value</cell>
+    </row>
+
+    <row>
+      <cell>Alpha</cell>
+      <cell>100</cell>
+    </row>
+    <row>
+      <cell>Beta</cell>
+      <cell>200</cell>
+    </row>
+  </tabular>
+</table>
+          ]]>
+        </code>
+      </program>
+    </p>
+
+    <p xml:id="p-prefigure-demo">
+      <title>PreFigure Demo</title>
+      <introduction>
+        <p>
+          <term>Note ID:</term> <tag>202606020002</tag> |
+          <term>Tags:</term> <tag>prefigure</tag>, <tag>interactive</tag>, <tag>diagrams</tag>
+        </p>
+      </introduction>
+      <p>
+        PreFigure allows for the creation of interactive, accessible, and beautiful mathematical diagrams directly within PreTeXt.
+      </p>
+      <p>
+        Below is a placeholder for an interactive diagram. In a live environment, this would render a dynamic SVG.
+      </p>
+      <figure xml:id="fig-prefigure-demo-placeholder">
+        <caption>Interactive PreFigure Demonstration</caption>
+        <!-- In a real scenario, a <interactive platform="prefigure"> block would go here -->
+        <p>
+          [Interactive PreFigure Diagram Placeholder]
+        </p>
+      </figure>
+    </p>
+</paragraphs>

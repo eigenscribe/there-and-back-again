@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-pretext-elements-table" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Comprehensive Element Table</title>
+        <table>
+            <title>PreTeXt Element Categories</title>
+            <tabular bottom="minor" top="minor" left="minor" right="minor">
+                <row header="yes">
+                    <cell>Category</cell>
+                    <cell>Elements</cell>
+                    <cell>Description</cell>
+                </row>
+                <row>
+                    <cell>Structure</cell>
+                    <cell><c>book</c>, <c>part</c>, <c>chapter</c>, <c>section</c></cell>
+                    <cell>High-level document organization</cell>
+                </row>
+                <row>
+                    <cell>Blocks</cell>
+                    <cell><c>definition</c>, <c>theorem</c>, <c>example</c></cell>
+                    <cell>Semantic mathematical environments</cell>
+                </row>
+                <row>
+                    <cell>Admonitions</cell>
+                    <cell><c>note</c>, <c>warning</c>, <c>insight</c>, <c>remark</c></cell>
+                    <cell>Side-bars or callout boxes</cell>
+                </row>
+                <row>
+                    <cell>Technical</cell>
+                    <cell><c>program</c>, <c>image</c>, <c>table</c>, <c>figure</c></cell>
+                    <cell>Non-textual data, code, and graphics</cell>
+                </row>
+                <row>
+                    <cell>Lists</cell>
+                    <cell><c>ul</c>, <c>ol</c>, <c>dl</c></cell>
+                    <cell>Unordered, ordered, and description lists</cell>
+                </row>
+                <row>
+                    <cell>Backmatter</cell>
+                    <cell><c>idx</c>, <c>biblio</c>, <c>glossary</c>, <c>colophon</c></cell>
+                    <cell>Indices, references, and metadata</cell>
+                </row>
+            </tabular>
+        </table>
+</paragraphs>

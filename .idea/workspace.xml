@@ -7,8 +7,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added `prefig` as a dependency and updated IntelliJ workspace configuration files.">
-      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-geometric-algebra.ptx" beforeDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="small typo adjustment in ch-bridges.ptx">
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/ELEMENT_DEMO/para-admonitions.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/ELEMENT_DEMO/para-technical-elements.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/ELEMENT_DEMO/para-textual-elements.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/ELEMENT_DEMO/subsec-pretext-demo.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/para-pretext-blocks.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/para-pretext-elements-table.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/para-pretext-inline.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/para-pretext-math.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/para-pretext-structure.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/para-project-conventions.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/subsec-pretext-xml-elements.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/sec-pretext.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/tab-package-inspection.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-package-inspection.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PYTHON_PACKAGE_MANAGEMENT/tab-package-installation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-package-installation.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/ch-cheat-sheets.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/ch-cheat-sheets.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/sec-git-cheat-sheet.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/sec-git-cheat-sheet.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/sec-terminal-cheat-sheet.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/sec-terminal-cheat-sheet.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/ch-pretext.ptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-cheat-sheet.ptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/PRETEXT/sec-pretext-demo.ptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/pt-meta.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/pt-meta.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/ch-bridges.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2619" />
+    <option name="cachedIndexableFilesCount" value="3024" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -152,11 +176,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\meta\CHEAT-SHEETS\PRETEXT\ELEMENT_DEMO" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\meta\CHEAT-SHEETS\PRETEXT\CODE_BLOCKS_AND_OUTPUT" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\meta\CHEAT-SHEETS\TERMINAL" />
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\meta\CHEAT-SHEETS" />
       <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\GEOMETRIC_ALGEBRA\CLIFFORD_ALGEBRAS" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\GA_PHYSICS_CROSSINGS" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS" />
-      <recent name="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING" />
     </key>
   </component>
   <component name="RunManager" selected="PowerShell.build.ps1 (1)">
@@ -190,7 +214,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-eff1e8def5f5-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10315.174" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
       </set>
     </attachedChunks>
   </component>
@@ -201,14 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00229" summary="Refined footer navigation styling: added hover/active states, enhanced gradients, glowing effects, updated disabled state appearance, and re-enabled footer navigation; optimized IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1787995851340</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1787995851340</updated>
     </task>
     <task id="LOCAL-00230" summary="Refined footer CSS: adjusted gap, margins, and width for improved layout, added button min-width styling, and enhanced mobile responsiveness.">
       <option name="closed" value="true" />
@@ -594,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789805411955</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="small typo adjustment in ch-bridges.ptx">
+      <option name="closed" value="true" />
+      <created>1789807048286</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1789807048286</updated>
+    </task>
+    <option name="localTasksCounter" value="279" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions" />
     <MESSAGE value="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments." />
     <MESSAGE value="updated the demo table in pretext meta section" />
     <MESSAGE value="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing" />
@@ -632,11 +655,12 @@
     <MESSAGE value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
     <MESSAGE value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
     <MESSAGE value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
-    <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
     <MESSAGE value="edited remark in lioville's identity theorem" />
     <MESSAGE value="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions" />
     <MESSAGE value="Refined CSS styling for mathematical elements by consolidating selectors, enhancing readability, and adding drop-shadow effects. Updated deployment workflow to include Python setup and dependency installation." />
     <MESSAGE value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
+    <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
+    <MESSAGE value="small typo adjustment in ch-bridges.ptx" />
+    <option name="LAST_COMMIT_MESSAGE" value="small typo adjustment in ch-bridges.ptx" />
   </component>
 </project>

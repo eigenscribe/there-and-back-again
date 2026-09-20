@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-pretext-structure" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Document Structure</title>
+    <p>
+      PreTeXt documents follow a strict hierarchical organization.
+    </p>
+    <p>
+       <alert>Preview (Sample Rendered Subsection):</alert>
+    </p>
+    <assemblage>
+            <title>Subsection: sub-demo</title>
+            <p>Content with <m>E=mc^2</m> and <xref ref="ch-cheat-sheets"/>.</p>
+            <p>🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext"/></p>
+    </assemblage>
+    <program language="xml">
+      <code>
+        <![CDATA[
+          <pretext>
+            <docinfo> ... </docinfo>
+            <book xml:id="my-book">
+              <title>Book Title</title>
+              <chapter xml:id="ch-demo">
+                <title>Chapter</title>
+                <section xml:id="sec-demo">
+                  <title>Section Title</title>
+                  <introduction>
+                    <p>
+                      <tag>202606012315</tag> |
+                      <tag>topic</tag>
+                    </p>
+                  </introduction>
+                  <subsection xml:id="sub-demo">
+                     <title>Subsection</title>
+                     <p>Content with <m>E=mc^2</m> and <xref ref="ch-demo"/>.</p>
+                  </subsection>
+                  <conclusion>
+                    <p>🖇️ <alert>Linked Notes:</alert> <xref ref="other-note"/></p>
+                  </conclusion>
+                </section>
+              </chapter>
+            </book>
+          </pretext>
+        ]]>
+      </code>
+  </program>
+</paragraphs>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="sub-pretext-inline" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <title>Inline Elements and Tags</title>
+        <p>
+            Inline elements are used within paragraphs (<c><![CDATA[<p>]]></c>) to style text or add semantics.
+        </p>
+        <table>
+            <title>Common Inline Elements</title>
+            <tabular bottom="minor" top="minor" left="minor" right="minor">
+                <row header="yes">
+                    <cell>Element</cell>
+                    <cell>Usage</cell>
+                    <cell>Example</cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<m>]]></c></cell>
+                    <cell>Inline Math (LaTeX)</cell>
+                    <cell><m>E = mc^2</m></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<tag>]]></c></cell>
+                    <cell>Semantic Tags (Metadata)</cell>
+                    <cell><tag>quantum mechanics</tag></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<c>]]></c></cell>
+                    <cell>Inline Code/Verbatim</cell>
+                    <cell><c>git status</c></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<em>]]></c></cell>
+                    <cell>Emphasis (Cooler Blue/Italic)</cell>
+                    <cell><em>Nuance</em></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<term>]]></c></cell>
+                    <cell>Defining a term (Orange Gradient)</cell>
+                    <cell><term>Bivector</term></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<strong>]]></c></cell>
+                    <cell>Strong emphasis (Prominent Cyan)</cell>
+                    <cell><strong>Key Term</strong></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<alert>]]></c></cell>
+                    <cell>Metadata labels (Glassmorphic Pill)</cell>
+                    <cell><alert>Warning!</alert></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<em class="alert">]]></c></cell>
+                    <cell>Critical Emphasis (Blue Gradient)</cell>
+                    <cell><em class="alert">Important!</em></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<xref>]]></c></cell>
+                    <cell>Cross-reference</cell>
+                    <cell>See <xref ref="sec-pretext" /></cell>
+                </row>
+                <row>
+                    <cell><c><![CDATA[<url>]]></c></cell>
+                    <cell>Hyperlink</cell>
+                    <cell><url href="https://pretextbook.org">PreTeXt</url></cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            <alert>Note:</alert> In this project, <c><![CDATA[<tag>]]></c> elements are styled as glassmorphic pills.
+        </p>
+</paragraphs>

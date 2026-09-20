@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-terminal-cheat-sheet" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Terminal Cheat Sheet</title>
+    <introduction>
+        <p>
+            <term>Note ID:</term> <tag>202604120002</tag> |
+            <term>Tags:</term> <tag>git</tag> <tag>bash</tag> <tag>terminal</tag>
+        </p>
+    </introduction>
+
+    <subsection xml:id="sub-pip-update-requirements">
+        <title>Update pip requirements.txt</title>
+        <program language="bash" line-numbers="no">
+            <code>
+                <![CDATA[ 
+                pip install -r requirements.txt --upgrade
+                pip freeze > requirements.txt
+                ]]>
+            </code>
+        </program>
+    </subsection>
+</section>

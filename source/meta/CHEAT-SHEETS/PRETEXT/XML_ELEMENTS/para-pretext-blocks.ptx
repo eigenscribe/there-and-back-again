@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-pretext-blocks" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Common Blocks</title>
+        <p>
+            Structural blocks organize content into logical units with specific styling.
+        </p>
+        <p>
+            <alert>Preview:</alert>
+        </p>
+        <definition xml:id="def-unitary-example">
+            <title>Unitary Operator</title>
+            <statement>
+                <p>An operator <m>U</m> is unitary if <m>U^\dagger U = I</m>.</p>
+            </statement>
+        </definition>
+        <program language="xml">
+            <code>
+                <![CDATA[
+                <definition xml:id="def-unitary">
+                <title>Unitary Operator</title>
+                <statement>
+                    <p>An operator <m>U</m> is unitary if <m>U^\dagger U = I</m>.</p>
+                </statement>
+                </definition>
+                ]]>
+            </code>
+        </program>
+
+        <p>
+            <alert>Preview:</alert>
+        </p>
+        <theorem xml:id="thm-noether-example">
+            <title>Noether's Theorem</title>
+            <statement>
+                <p>Every differentiable symmetry ... has a corresponding conservation law.</p>
+            </statement>
+        </theorem>
+        <program language="xml">
+            <code>
+                <![CDATA[
+        <theorem xml:id="thm-noether">
+          <title>Noether's Theorem</title>
+          <statement>
+            <p>Every differentiable symmetry ... has a corresponding conservation law.</p>
+          </statement>
+        </theorem>
+                ]]>
+            </code>
+        </program>
+
+        <p>
+            <alert>Preview:</alert>
+        </p>
+        <assemblage>
+            <title>Key Concept</title>
+            <p>Assemblages are used for boxed summaries (Glassmorphic in this theme).</p>
+        </assemblage>
+        <program language="xml">
+            <code>
+                <![CDATA[
+        <assemblage>
+          <title>Key Concept</title>
+          <p>Assemblages are used for boxed summaries (Glassmorphic in this theme).</p>
+        </assemblage>
+                ]]>
+            </code>
+        </program>
+</paragraphs>

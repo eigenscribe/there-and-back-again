@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-git" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="subsec-git-cheat-sheet" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Git Cheat Sheet</title>
   <introduction>
       <p>
-        <tag>202604120002</tag> |<tag>git</tag> <tag>bash</tag> <tag>terminal</tag>
+        <tag>202604120002</tag> | <tag>git</tag> <tag>bash</tag> <tag>terminal</tag>
       </p>
   </introduction>
 
-    <paragraphs xml:id="para-git-local-reset">
+     <paragraphs xml:id="para-git-local-reset">
         <title>Local Git Reset (Bash)</title>
             <p>Multiline version (safer, less likely to accidentally erase local changes):</p>
             <program language="bash" line-numbers="no">
@@ -31,6 +31,6 @@
                  </code>
             </program>
 
-    </paragraphs>
+     </paragraphs>
 
 </section>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-pretext-demo" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>PreTeXt Element Demo</title>
+
+  <introduction>
+    <p>
+      This section serves as a demonstration of various PreTeXt elements styled with the current theme. It uses placeholder text to showcase the layout and formatting of common components.
+    </p>
+  </introduction>
+
+  <xi:include href="para-textual-elements.ptx" />
+  <xi:include href="para-admonitions.ptx" />
+  <xi:include href="para-technical-elements.ptx" />
+
+</subsection>
