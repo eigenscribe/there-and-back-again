@@ -23,6 +23,7 @@
     <xi:include href="tab-virtual-environments.ptx" />
     <xi:include href="tab-python-version-management.ptx" />
     <xi:include href="tab-cli-tools.ptx" />
+    <xi:include href="tab-project-scaffolding.ptx" />
 
   </paragraphs>
 

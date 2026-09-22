@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Python Version Management&quot; table to Python Package Management, updated references, and adjusted workspace configuration.">
-      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-cli-tools.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration.">
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-project-scaffolding.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.005378392262429" />
-      <entry key="MS500" value="1.4672823454050952" />
-      <entry key="S2" value="3.245996001297481" />
-      <entry key="S5" value="4.966163570672331" />
-      <entry key="S10" value="6.467081112884949" />
-      <entry key="S30" value="11.60298950667348" />
-      <entry key="S60" value="19.421805462765438" />
-      <entry key="M2" value="33.473766571543955" />
-      <entry key="M5" value="70.99836133329178" />
-      <entry key="M10" value="135.4298422963429" />
-      <entry key="M15" value="199.3085584408532" />
-      <entry key="M30" value="359.37314718631524" />
-      <entry key="H1" value="579.3253985252653" />
-      <entry key="H2" value="858.0157955720861" />
-      <entry key="H4" value="1374.5679199845672" />
-      <entry key="D1" value="5234.825766918516" />
-      <entry key="W1" value="24617.70330536749" />
+      <entry key="MS100" value="1.000000780035042" />
+      <entry key="MS500" value="1.0693937133710483" />
+      <entry key="S2" value="2.198843844568258" />
+      <entry key="S5" value="4.207983814532842" />
+      <entry key="S10" value="6.556398807969461" />
+      <entry key="S30" value="14.279995644949059" />
+      <entry key="S60" value="24.161506223099202" />
+      <entry key="M2" value="39.987147252302165" />
+      <entry key="M5" value="80.06633394379259" />
+      <entry key="M10" value="144.8585705158912" />
+      <entry key="M15" value="208.9445259308816" />
+      <entry key="M30" value="372.9238710439823" />
+      <entry key="H1" value="601.0819320600306" />
+      <entry key="H2" value="889.0301690863304" />
+      <entry key="H4" value="1410.9521625550624" />
+      <entry key="D1" value="5279.147209786028" />
+      <entry key="W1" value="24666.528221215467" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="4.258630246426049E-142" />
-      <entry key="S10" value="2.0636448934896738E-71" />
-      <entry key="S30" value="2.742913136485935E-24" />
-      <entry key="S60" value="1.657760379655589E-12" />
-      <entry key="M2" value="1.3267598650256316E-6" />
-      <entry key="M5" value="0.005500489632643866" />
-      <entry key="M10" value="0.09947793033507925" />
-      <entry key="M15" value="0.2670370018244487" />
-      <entry key="M30" value="0.7259917883411647" />
-      <entry key="H1" value="1.2033233463672515" />
-      <entry key="H2" value="1.5815511042416683" />
-      <entry key="H4" value="2.0621069245121655" />
-      <entry key="D1" value="4.601862477491343" />
-      <entry key="W1" value="41.85474550308913" />
+      <entry key="S5" value="1.150469930590778E-161" />
+      <entry key="S10" value="3.391857795649405E-81" />
+      <entry key="S30" value="1.5024946839514604E-27" />
+      <entry key="S60" value="3.87991490471941E-14" />
+      <entry key="M2" value="2.029749989772365E-7" />
+      <entry key="M5" value="0.0025957414932495566" />
+      <entry key="M10" value="0.06833713787868755" />
+      <entry key="M15" value="0.2079017474247809" />
+      <entry key="M30" value="0.640582480169581" />
+      <entry key="H1" value="1.1303267792659246" />
+      <entry key="H2" value="1.5328302650187824" />
+      <entry key="H4" value="2.0300961104458097" />
+      <entry key="D1" value="4.589878673603731" />
+      <entry key="W1" value="41.83915741219451" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9846147749747178" />
-      <entry key="MS500" value="1.457228383631947" />
-      <entry key="S2" value="3.2368770200564554" />
-      <entry key="S5" value="4.960669484831903" />
-      <entry key="S10" value="6.463664678654568" />
-      <entry key="S30" value="11.601152474158631" />
-      <entry key="S60" value="19.420362664927076" />
-      <entry key="M2" value="33.47256987608078" />
-      <entry key="M5" value="71.0028245925815" />
-      <entry key="M10" value="135.52802432131793" />
-      <entry key="M15" value="199.5739618176118" />
-      <entry key="M30" value="360.0969822016637" />
-      <entry key="H1" value="580.5263163089503" />
-      <entry key="H2" value="859.5946476095344" />
-      <entry key="H4" value="1376.6268411196309" />
-      <entry key="D1" value="5239.425679879252" />
-      <entry key="W1" value="24659.55700177505" />
+      <entry key="MS100" value="0.9726557113935272" />
+      <entry key="MS500" value="1.0635144710750697" />
+      <entry key="S2" value="2.1955729071275325" />
+      <entry key="S5" value="4.205390621974918" />
+      <entry key="S10" value="6.554277055709791" />
+      <entry key="S30" value="14.278308319247229" />
+      <entry key="S60" value="24.16000884239257" />
+      <entry key="M2" value="39.98586157307461" />
+      <entry key="M5" value="80.06784355578183" />
+      <entry key="M10" value="144.92568412360154" />
+      <entry key="M15" value="209.15092499175233" />
+      <entry key="M30" value="373.5624305203096" />
+      <entry key="H1" value="602.2099380374436" />
+      <entry key="H2" value="890.5603525458894" />
+      <entry key="H4" value="1412.9791068111992" />
+      <entry key="D1" value="5283.735141422489" />
+      <entry key="W1" value="24708.366329551558" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -202,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00250" summary="udated math notation conventions (reorganized and added a few items)">
-      <option name="closed" value="true" />
-      <created>1789329445680</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1789329445680</updated>
     </task>
     <task id="LOCAL-00251" summary="udated math notation conventions (reorganized and added a few items)">
       <option name="closed" value="true" />
@@ -595,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790115841529</updated>
     </task>
-    <option name="localTasksCounter" value="299" />
+    <task id="LOCAL-00299" summary="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1790116150824</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1790116150824</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rearranged content on legendre significant figure subsection" />
     <MESSAGE value="took years alive out of subsection titles for significant figures subsections" />
     <MESSAGE value="code block copy icon changed" />
     <MESSAGE value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
@@ -638,6 +637,7 @@
     <MESSAGE value="Added Agent Development Guide, updated graph-module references, and refined Python Package Management XML structure." />
     <MESSAGE value="Added &quot;Virtual Environments&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;Python Version Management&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Python Version Management&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
+    <MESSAGE value="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
   </component>
 </project>

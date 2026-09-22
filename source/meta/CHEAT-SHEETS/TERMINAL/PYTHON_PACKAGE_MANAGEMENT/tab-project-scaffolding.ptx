@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="tab-project-scaffolding" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Project Scaffolding</title>
+
+  <tabular bottom="minor" top="minor" left="major" right="major">
+
+    <row header="yes">
+      <cell>Task</cell>
+      <cell>pip / manual</cell>
+      <cell>uv</cell>
+    </row>
+
+    <row>
+      <cell><em>New project</em></cell>
+      <cell>
+        <cd>
+          <cline>python -m venv</cline>
+        </cd>
+        and manual
+        <cd>
+          <cline>pyproject.toml</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv init my-project</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Dev dependencies</em></cell>
+      <cell>
+        <cd>
+          <cline>pip install -r</cline>
+          <cline>requirements-dev.txt</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv add --dev pytest ruff</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Production install (skip dev)</em></cell>
+      <cell>
+          Manual
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv sync --no-dev</cline>
+        </cd>
+      </cell>
+    </row>
+
+  </tabular>
+
+</table>
