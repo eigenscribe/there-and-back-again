@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="tab-cli-tools" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>CLI Tools (one-off/isolated)</title>
+
+  <tabular bottom="minor" top="minor" left="major" right="major">
+
+    <row header="yes">
+      <cell>Task</cell>
+      <cell>pipx</cell>
+      <cell>uv</cell>
+    </row>
+
+    <row>
+      <cell><em>Install permanently</em></cell>
+      <cell>
+        <cd>
+          <cline>pipx install ruff</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv tool install ruff</cline>
+        </cd>
+      </cell>
+    </row>
+    
+    <row>
+      <cell><em>ONe-off run</em></cell>
+      <cell>
+        <cd>
+          <cline>pipx run ruff check .</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uvx ruff check .</cline>
+        </cd>
+      </cell>
+    </row>
+    
+    <row>
+      <cell><em>Upgrade</em></cell>
+      <cell>
+        <cd>
+          <cline>pipx upgrade ruff</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv tool upgrade ruff</cline>
+        </cd>
+      </cell>
+    </row>
+    
+    <row>
+      <cell><em>List installed</em></cell>
+      <cell>
+        <cd>
+          <cline>pipx list</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv tool list</cline>
+        </cd>
+      </cell>
+    </row>
+
+  </tabular>
+
+</table>
