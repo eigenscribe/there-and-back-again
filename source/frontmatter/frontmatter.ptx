@@ -31,8 +31,13 @@
     <titlepage-items />
   </titlepage>
 
-
   <abstract>
+
+    <figure xml:id="cover-image">
+      <image source="cover.png" width="60%">
+        <shortdescription>chat GPT's summary of my year in 2025.</shortdescription>
+      </image>
+    </figure>
 
     <p>
       :logo: <em>There and Back Again</em> is a <pretext />-powered personal knowledge management system that demonstrates
