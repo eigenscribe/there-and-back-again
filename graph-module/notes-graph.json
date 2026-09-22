@@ -973,7 +973,7 @@
     {
       "id": "sub-pip-update-requirements",
       "title": "Update pip requirements.txt",
-      "url": "sec-python-package-management.html#sub-pip-update-requirements",
+      "url": "sec-terminal-cheat-sheet.html#sub-pip-update-requirements",
       "tags": [],
       "description": "",
       "group": "meta",
@@ -983,15 +983,6 @@
       "id": "sec-python-package-management",
       "title": "Python Package Management",
       "url": "sec-python-package-management.html",
-      "tags": [],
-      "description": "",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "sub-pip-vs-uv-comparison",
-      "title": "Pip vs uvicorn",
-      "url": "sec-python-package-management.html#sub-pip-vs-uv-comparison",
       "tags": [],
       "description": "",
       "group": "meta",

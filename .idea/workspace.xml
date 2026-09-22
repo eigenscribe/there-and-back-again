@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined CSS button styles: improved visibility for some buttons, removed text for others, adjusted padding in main content, and updated workspace.xml tracking entries.">
-      <change beforePath="$PROJECT_DIR$/assets/elements/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added widget TODO items: resize maximized element block and maximized view option.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="277" />
+    <option name="cachedIndexableFilesCount" value="278" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -41,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000010104363966" />
-      <entry key="MS500" value="1.2983075202840484" />
-      <entry key="S2" value="7.3995514227067964" />
-      <entry key="S5" value="19.760709428450156" />
-      <entry key="S10" value="41.868009215882296" />
-      <entry key="S30" value="97.59654783332654" />
-      <entry key="S60" value="128.4667398829671" />
-      <entry key="M2" value="150.1510082325311" />
-      <entry key="M5" value="182.0400353868081" />
-      <entry key="M10" value="233.6490507422656" />
-      <entry key="M15" value="278.1863123413753" />
-      <entry key="M30" value="379.34860869677965" />
-      <entry key="H1" value="529.7570062089311" />
-      <entry key="H2" value="744.7676031781359" />
-      <entry key="H4" value="1230.2349701901528" />
-      <entry key="D1" value="5042.729255000587" />
-      <entry key="W1" value="24395.317020711314" />
+      <entry key="MS100" value="1.0003009083082939" />
+      <entry key="MS500" value="1.2861514189692458" />
+      <entry key="S2" value="3.0589703855061816" />
+      <entry key="S5" value="6.36727865538762" />
+      <entry key="S10" value="10.462496586180286" />
+      <entry key="S30" value="19.103054958098944" />
+      <entry key="S60" value="26.4874232198071" />
+      <entry key="M2" value="39.62684305210475" />
+      <entry key="M5" value="91.3010135281777" />
+      <entry key="M10" value="166.68465635577152" />
+      <entry key="M15" value="225.87210381758567" />
+      <entry key="M30" value="351.33527307959014" />
+      <entry key="H1" value="521.0817947467785" />
+      <entry key="H2" value="750.8829654368479" />
+      <entry key="H4" value="1242.6186060291277" />
+      <entry key="D1" value="5064.9577268855055" />
+      <entry key="W1" value="24424.253591254906" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="8.54994270210496E-29" />
-      <entry key="MS500" value="2.4344039322451637E-6" />
-      <entry key="S2" value="0.0395000968266502" />
-      <entry key="S5" value="0.2745612630816879" />
-      <entry key="S10" value="0.5239859378663588" />
-      <entry key="S30" value="0.8061953262037329" />
-      <entry key="S60" value="0.8987437156136467" />
-      <entry key="M2" value="0.976898360828542" />
-      <entry key="M5" value="1.2224304872708065" />
-      <entry key="M10" value="1.4829897597009618" />
-      <entry key="M15" value="1.6175053185200488" />
-      <entry key="M30" value="1.78677079587392" />
-      <entry key="H1" value="1.887777959749016" />
-      <entry key="H2" value="1.9809226326900855" />
-      <entry key="H4" value="2.3078273865017658" />
-      <entry key="D1" value="4.689022604751055" />
-      <entry key="W1" value="41.96708496743496" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.1167271804649808E-83" />
+      <entry key="S5" value="9.94213178185621E-34" />
+      <entry key="S10" value="3.153114616035419E-17" />
+      <entry key="S30" value="3.1592232577011202E-6" />
+      <entry key="S60" value="0.0017791226453338794" />
+      <entry key="M2" value="0.0434644703094621" />
+      <entry key="M5" value="0.351996363527472" />
+      <entry key="M10" value="0.7957839106969491" />
+      <entry key="M15" value="1.0681126339918263" />
+      <entry key="M30" value="1.4519595341881188" />
+      <entry key="H1" value="1.701742107132479" />
+      <entry key="H2" value="1.880784040140338" />
+      <entry key="H4" value="2.2487388922859215" />
+      <entry key="D1" value="4.668796497972168" />
+      <entry key="W1" value="41.94117630488987" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726559176963513" />
-      <entry key="MS500" value="1.2906372579130863" />
-      <entry key="S2" value="7.409964841544154" />
-      <entry key="S5" value="19.96676738041528" />
-      <entry key="S10" value="42.32148241862001" />
-      <entry key="S30" value="98.36107341561991" />
-      <entry key="S60" value="129.34078802636125" />
-      <entry key="M2" value="151.11361186443634" />
-      <entry key="M5" value="183.25380185261955" />
-      <entry key="M10" value="235.12558052872436" />
-      <entry key="M15" value="279.798416120204" />
-      <entry key="M30" value="381.13130353404927" />
-      <entry key="H1" value="531.6414748693388" />
-      <entry key="H2" value="746.7453478162531" />
-      <entry key="H4" value="1232.5393269129668" />
-      <entry key="D1" value="5047.416306105312" />
-      <entry key="W1" value="24437.283055881824" />
+      <entry key="MS100" value="0.959556799280042" />
+      <entry key="MS500" value="1.276266513241161" />
+      <entry key="S2" value="3.0532155689520226" />
+      <entry key="S5" value="6.362212845505164" />
+      <entry key="S10" value="10.458247549589538" />
+      <entry key="S30" value="19.100414278334547" />
+      <entry key="S60" value="26.487324904471187" />
+      <entry key="M2" value="39.668519565333185" />
+      <entry key="M5" value="91.64997042660785" />
+      <entry key="M10" value="167.4766843459462" />
+      <entry key="M15" value="226.93645252756238" />
+      <entry key="M30" value="352.78381979161185" />
+      <entry key="H1" value="522.7805028207817" />
+      <entry key="H2" value="752.7607065690191" />
+      <entry key="H4" value="1244.8639503015017" />
+      <entry key="D1" value="5069.624558246458" />
+      <entry key="W1" value="24466.193718105" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -202,30 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00244" summary="Refined Eigenscribe methodology description: emphasized parsimony over responsible reasoning, streamlined phrasing for improved clarity and conciseness.">
-      <option name="closed" value="true" />
-      <created>1789232227021</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1789232227021</updated>
-    </task>
-    <task id="LOCAL-00245" summary="Updated `publication.ptx` chunking and table of contents levels for finer granularity; refined IntelliJ workspace configurations and synchronized notes graph entries.">
-      <option name="closed" value="true" />
-      <created>1789248695799</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1789248695799</updated>
-    </task>
-    <task id="LOCAL-00246" summary="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1789249298850</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1789249298850</updated>
     </task>
     <task id="LOCAL-00247" summary="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -595,7 +572,31 @@
       <option name="project" value="LOCAL" />
       <updated>1790105353521</updated>
     </task>
-    <option name="localTasksCounter" value="293" />
+    <task id="LOCAL-00293" summary="Update workspace.xml tracking, refine CSS button styles, and adjust layout settings.">
+      <option name="closed" value="true" />
+      <created>1790105822982</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1790105822982</updated>
+    </task>
+    <task id="LOCAL-00294" summary="Updated TODO list: added tasks for node glow effect and maximized view option.">
+      <option name="closed" value="true" />
+      <created>1790105874984</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1790105874984</updated>
+    </task>
+    <task id="LOCAL-00295" summary="Added widget TODO items: resize maximized element block and maximized view option.">
+      <option name="closed" value="true" />
+      <created>1790105971744</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1790105971744</updated>
+    </task>
+    <option name="localTasksCounter" value="296" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,9 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="typo that created a build error" />
-    <MESSAGE value="fixed copy/paste text that wasn't edited for Joseph Liouville significant figure subsection" />
-    <MESSAGE value="changed liouville-joseph.ptx structure" />
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem" />
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity" />
     <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
@@ -638,6 +636,9 @@
     <MESSAGE value="got the front page image to render again, but it needs to be moved from the abstract block to above the abstract block" />
     <MESSAGE value="fixed the front cover image placement" />
     <MESSAGE value="Refined CSS button styles: improved visibility for some buttons, removed text for others, adjusted padding in main content, and updated workspace.xml tracking entries." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined CSS button styles: improved visibility for some buttons, removed text for others, adjusted padding in main content, and updated workspace.xml tracking entries." />
+    <MESSAGE value="Update workspace.xml tracking, refine CSS button styles, and adjust layout settings." />
+    <MESSAGE value="Updated TODO list: added tasks for node glow effect and maximized view option." />
+    <MESSAGE value="Added widget TODO items: resize maximized element block and maximized view option." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added widget TODO items: resize maximized element block and maximized view option." />
   </component>
 </project>
