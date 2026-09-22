@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added widget TODO items: resize maximized element block and maximized view option.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added Agent Development Guide, updated graph-module references, and refined Python Package Management XML structure.">
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-virtual-environments.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-locking-and-syncing.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-locking-and-syncing.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0003009083082939" />
-      <entry key="MS500" value="1.2861514189692458" />
-      <entry key="S2" value="3.0589703855061816" />
-      <entry key="S5" value="6.36727865538762" />
-      <entry key="S10" value="10.462496586180286" />
-      <entry key="S30" value="19.103054958098944" />
-      <entry key="S60" value="26.4874232198071" />
-      <entry key="M2" value="39.62684305210475" />
-      <entry key="M5" value="91.3010135281777" />
-      <entry key="M10" value="166.68465635577152" />
-      <entry key="M15" value="225.87210381758567" />
-      <entry key="M30" value="351.33527307959014" />
-      <entry key="H1" value="521.0817947467785" />
-      <entry key="H2" value="750.8829654368479" />
-      <entry key="H4" value="1242.6186060291277" />
-      <entry key="D1" value="5064.9577268855055" />
-      <entry key="W1" value="24424.253591254906" />
+      <entry key="MS100" value="1.0000000000007336" />
+      <entry key="MS500" value="1.0037419344461824" />
+      <entry key="S2" value="1.2473284317465405" />
+      <entry key="S5" value="1.5719232353877461" />
+      <entry key="S10" value="1.7718259922257888" />
+      <entry key="S30" value="2.843871470549537" />
+      <entry key="S60" value="5.713374760989169" />
+      <entry key="M2" value="16.99603485620637" />
+      <entry key="M5" value="60.100430956863605" />
+      <entry key="M10" value="130.43756039002832" />
+      <entry key="M15" value="195.39633264638474" />
+      <entry key="M30" value="347.8581544019156" />
+      <entry key="H1" value="551.9764696628789" />
+      <entry key="H2" value="813.5222022427436" />
+      <entry key="H4" value="1320.6530464777604" />
+      <entry key="D1" value="5166.7464904258295" />
+      <entry key="W1" value="24541.229900155337" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.1167271804649808E-83" />
-      <entry key="S5" value="9.94213178185621E-34" />
-      <entry key="S10" value="3.153114616035419E-17" />
-      <entry key="S30" value="3.1592232577011202E-6" />
-      <entry key="S60" value="0.0017791226453338794" />
-      <entry key="M2" value="0.0434644703094621" />
-      <entry key="M5" value="0.351996363527472" />
-      <entry key="M10" value="0.7957839106969491" />
-      <entry key="M15" value="1.0681126339918263" />
-      <entry key="M30" value="1.4519595341881188" />
-      <entry key="H1" value="1.701742107132479" />
-      <entry key="H2" value="1.880784040140338" />
-      <entry key="H4" value="2.2487388922859215" />
-      <entry key="D1" value="4.668796497972168" />
-      <entry key="W1" value="41.94117630488987" />
+      <entry key="S2" value="1.807260748391401E-260" />
+      <entry key="S5" value="1.2670925181502045E-104" />
+      <entry key="S10" value="1.1256520413299116E-52" />
+      <entry key="S30" value="4.828383826114386E-18" />
+      <entry key="S60" value="2.199462803963899E-9" />
+      <entry key="M2" value="4.832699134867309E-5" />
+      <entry key="M5" value="0.0231718294675365" />
+      <entry key="M10" value="0.20417672229231143" />
+      <entry key="M15" value="0.4312784596425966" />
+      <entry key="M30" value="0.9226242613574157" />
+      <entry key="H1" value="1.3565285042854465" />
+      <entry key="H2" value="1.6792158322233803" />
+      <entry key="H4" value="2.124823328635919" />
+      <entry key="D1" value="4.624898900478407" />
+      <entry key="W1" value="41.88461295881503" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.959556799280042" />
-      <entry key="MS500" value="1.276266513241161" />
-      <entry key="S2" value="3.0532155689520226" />
-      <entry key="S5" value="6.362212845505164" />
-      <entry key="S10" value="10.458247549589538" />
-      <entry key="S30" value="19.100414278334547" />
-      <entry key="S60" value="26.487324904471187" />
-      <entry key="M2" value="39.668519565333185" />
-      <entry key="M5" value="91.64997042660785" />
-      <entry key="M10" value="167.4766843459462" />
-      <entry key="M15" value="226.93645252756238" />
-      <entry key="M30" value="352.78381979161185" />
-      <entry key="H1" value="522.7805028207817" />
-      <entry key="H2" value="752.7607065690191" />
-      <entry key="H4" value="1244.8639503015017" />
-      <entry key="D1" value="5069.624558246458" />
-      <entry key="W1" value="24466.193718105" />
+      <entry key="MS100" value="0.9592641193259681" />
+      <entry key="MS500" value="0.9954276697338983" />
+      <entry key="S2" value="1.2447373800933295" />
+      <entry key="S5" value="1.5706162908316186" />
+      <entry key="S10" value="1.7710894998113789" />
+      <entry key="S30" value="2.8434823941002834" />
+      <entry key="S60" value="5.7129800491844" />
+      <entry key="M2" value="16.995475279400882" />
+      <entry key="M5" value="60.122607731432204" />
+      <entry key="M10" value="130.64011804348365" />
+      <entry key="M15" value="195.82556781270316" />
+      <entry key="M30" value="348.77829391981976" />
+      <entry key="H1" value="553.3304053598171" />
+      <entry key="H2" value="815.1986097241818" />
+      <entry key="H4" value="1322.7746153061148" />
+      <entry key="D1" value="5171.3694346772945" />
+      <entry key="W1" value="24583.113463929316" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -203,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00247" summary="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1789262766135</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1789262766135</updated>
     </task>
     <task id="LOCAL-00248" summary="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
       <option name="closed" value="true" />
@@ -596,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790105971744</updated>
     </task>
-    <option name="localTasksCounter" value="296" />
+    <task id="LOCAL-00296" summary="Added Agent Development Guide, updated graph-module references, and refined Python Package Management XML structure.">
+      <option name="closed" value="true" />
+      <created>1790114524056</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1790114524056</updated>
+    </task>
+    <option name="localTasksCounter" value="297" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem" />
     <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity" />
     <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
     <MESSAGE value="rearranged content on legendre significant figure subsection" />
@@ -639,6 +638,7 @@
     <MESSAGE value="Update workspace.xml tracking, refine CSS button styles, and adjust layout settings." />
     <MESSAGE value="Updated TODO list: added tasks for node glow effect and maximized view option." />
     <MESSAGE value="Added widget TODO items: resize maximized element block and maximized view option." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added widget TODO items: resize maximized element block and maximized view option." />
+    <MESSAGE value="Added Agent Development Guide, updated graph-module references, and refined Python Package Management XML structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Agent Development Guide, updated graph-module references, and refined Python Package Management XML structure." />
   </component>
 </project>

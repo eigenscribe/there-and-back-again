@@ -1,73 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<table xml:id="tab-locking-and-syncing" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Package Installation</title>
+<table xml:id="tab-virtual-environments" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Virtual Environments</title>
 
   <tabular bottom="minor" top="minor" left="major" right="major">
 
     <row header="yes">
       <cell>Task</cell>
-      <cell>pip/ pip-tools</cell>
+      <cell>pip/ venv</cell>
       <cell>uv</cell>
     </row>
 
     <row>
-      <cell><em>Compile a lockfile</em></cell>
+      <cell><em>Create <c>venv</c></em></cell>
       <cell>
         <cd>
-          <cline>pip-compile</cline>
-          <cline>requirements.in</cline>
+          <cline>python -m venv .venv</cline>
         </cd>
       </cell>
       <cell>
         <cd>
           <cline>uv lock</cline>
         </cd>
-        or
+        or automatic with
         <cd>
           <cline>uv pip compile</cline>
-          <cline>requirements.in</cline>
         </cd>
       </cell>
     </row>
 
     <row>
-      <cell><em>Install from a lockfile</em></cell>
+      <cell><em>Activate</em></cell>
       <cell>
         <cd>
-          <cline>pip-sync requirements.txt</cline>
+          <cline>source .venv/bin/activate</cline>
         </cd>
       </cell>
       <cell>
+        Not needed, can use
         <cd>
-          <cline>uv sync</cline>
-        </cd>
-      </cell>
-    </row>
-
-    <row>
-      <cell><em>CI (fail if stale)</em></cell>
-      <cell>
-        <p>N/A</p>
-      </cell>
-      <cell>
-        <cd>
-          <cline>uv sync --frozen</cline>
+          <cline>uv run</cline>
         </cd>
       </cell>
     </row>
 
     <row>
-      <cell><em>Upgrade all deps</em></cell>
+      <cell><em>Run a script</em></cell>
       <cell>
         <cd>
-          <cline>pip-compile --upgrade</cline>
+          <cline>python script.py</cline>
+        </cd>
+        (in <c>venv</c>)
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv run script.py</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Run a tool</em></cell>
+      <cell>
+        <cd>
+          <cline>python -m pytest</cline>
         </cd>
       </cell>
       <cell>
         <cd>
-          <cline>uv lock --upgrade &amp;&amp; uv</cline>
-          <cline>sync</cline>
+          <cline>uv run pytest</cline>
         </cd>
       </cell>
     </row>
