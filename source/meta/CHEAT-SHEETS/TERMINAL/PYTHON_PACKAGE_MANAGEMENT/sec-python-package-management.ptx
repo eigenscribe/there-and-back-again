@@ -21,6 +21,7 @@
     <xi:include href="tab-package-inspection.ptx" />
     <xi:include href="tab-locking-and-syncing.ptx" />
     <xi:include href="tab-virtual-environments.ptx" />
+    <xi:include href="tab-python-version-management.ptx" />
 
   </paragraphs>
 

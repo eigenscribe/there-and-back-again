@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added Agent Development Guide, updated graph-module references, and refined Python Package Management XML structure.">
-      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-virtual-environments.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Virtual Environments&quot; table to Python Package Management, updated references, and adjusted workspace configuration.">
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-python-version-management.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-locking-and-syncing.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-locking-and-syncing.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000007336" />
-      <entry key="MS500" value="1.0037419344461824" />
-      <entry key="S2" value="1.2473284317465405" />
-      <entry key="S5" value="1.5719232353877461" />
-      <entry key="S10" value="1.7718259922257888" />
-      <entry key="S30" value="2.843871470549537" />
-      <entry key="S60" value="5.713374760989169" />
-      <entry key="M2" value="16.99603485620637" />
-      <entry key="M5" value="60.100430956863605" />
-      <entry key="M10" value="130.43756039002832" />
-      <entry key="M15" value="195.39633264638474" />
-      <entry key="M30" value="347.8581544019156" />
-      <entry key="H1" value="551.9764696628789" />
-      <entry key="H2" value="813.5222022427436" />
-      <entry key="H4" value="1320.6530464777604" />
-      <entry key="D1" value="5166.7464904258295" />
-      <entry key="W1" value="24541.229900155337" />
+      <entry key="MS100" value="1.0000028119453763" />
+      <entry key="MS500" value="1.0784628465752149" />
+      <entry key="S2" value="1.811356455964391" />
+      <entry key="S5" value="3.386843442470084" />
+      <entry key="S10" value="5.940001483878714" />
+      <entry key="S30" value="13.996753722402639" />
+      <entry key="S60" value="22.454946334314165" />
+      <entry key="M2" value="33.78147354579174" />
+      <entry key="M5" value="68.47759754410939" />
+      <entry key="M10" value="133.7322968238873" />
+      <entry key="M15" value="197.70913902218481" />
+      <entry key="M30" value="353.88565478488397" />
+      <entry key="H1" value="565.9316092687942" />
+      <entry key="H2" value="835.9797234701871" />
+      <entry key="H4" value="1347.696257119548" />
+      <entry key="D1" value="5200.740450729868" />
+      <entry key="W1" value="24579.411387465512" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.807260748391401E-260" />
-      <entry key="S5" value="1.2670925181502045E-104" />
-      <entry key="S10" value="1.1256520413299116E-52" />
-      <entry key="S30" value="4.828383826114386E-18" />
-      <entry key="S60" value="2.199462803963899E-9" />
-      <entry key="M2" value="4.832699134867309E-5" />
-      <entry key="M5" value="0.0231718294675365" />
-      <entry key="M10" value="0.20417672229231143" />
-      <entry key="M15" value="0.4312784596425966" />
-      <entry key="M30" value="0.9226242613574157" />
-      <entry key="H1" value="1.3565285042854465" />
-      <entry key="H2" value="1.6792158322233803" />
-      <entry key="H4" value="2.124823328635919" />
-      <entry key="D1" value="4.624898900478407" />
-      <entry key="W1" value="41.88461295881503" />
+      <entry key="S2" value="1.2024068476083375E-307" />
+      <entry key="S5" value="1.7061632230211E-123" />
+      <entry key="S10" value="4.130572869495326E-62" />
+      <entry key="S30" value="3.4567700838529716E-21" />
+      <entry key="S60" value="5.885061097921018E-11" />
+      <entry key="M2" value="7.905092125904793E-6" />
+      <entry key="M5" value="0.01123174395518393" />
+      <entry key="M10" value="0.14215091617338907" />
+      <entry key="M15" value="0.33878178970886424" />
+      <entry key="M30" value="0.8177226281471431" />
+      <entry key="H1" value="1.2770840958480631" />
+      <entry key="H2" value="1.6293028101151688" />
+      <entry key="H4" value="2.0930059792203313" />
+      <entry key="D1" value="4.613283924693102" />
+      <entry key="W1" value="41.86956975134465" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9592641193259681" />
-      <entry key="MS500" value="0.9954276697338983" />
-      <entry key="S2" value="1.2447373800933295" />
-      <entry key="S5" value="1.5706162908316186" />
-      <entry key="S10" value="1.7710894998113789" />
-      <entry key="S30" value="2.8434823941002834" />
-      <entry key="S60" value="5.7129800491844" />
-      <entry key="M2" value="16.995475279400882" />
-      <entry key="M5" value="60.122607731432204" />
-      <entry key="M10" value="130.64011804348365" />
-      <entry key="M15" value="195.82556781270316" />
-      <entry key="M30" value="348.77829391981976" />
-      <entry key="H1" value="553.3304053598171" />
-      <entry key="H2" value="815.1986097241818" />
-      <entry key="H4" value="1322.7746153061148" />
-      <entry key="D1" value="5171.3694346772945" />
-      <entry key="W1" value="24583.113463929316" />
+      <entry key="MS100" value="0.9526406954422425" />
+      <entry key="MS500" value="1.0681571423904095" />
+      <entry key="S2" value="1.8074214031838802" />
+      <entry key="S5" value="3.3843502617934216" />
+      <entry key="S10" value="5.938004817282228" />
+      <entry key="S30" value="13.995105595505052" />
+      <entry key="S60" value="22.45351633742605" />
+      <entry key="M2" value="33.78034425269912" />
+      <entry key="M5" value="68.48780322027473" />
+      <entry key="M10" value="133.87302084417422" />
+      <entry key="M15" value="198.04610920047358" />
+      <entry key="M30" value="354.70106837102844" />
+      <entry key="H1" value="567.2061980818908" />
+      <entry key="H2" value="837.6062740110389" />
+      <entry key="H4" value="1349.7860435760367" />
+      <entry key="D1" value="5205.351782613638" />
+      <entry key="W1" value="24621.27990807991" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -203,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00248" summary="Refined TOC styling: adjusted font sizes, spacing, and padding for compact nested structure; improved subfolder and deeper-level TOC item appearance; optimized IntelliJ workspace configuration.">
-      <option name="closed" value="true" />
-      <created>1789324663885</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1789324663886</updated>
     </task>
     <task id="LOCAL-00249" summary="udated math notation conventions (reorganized and added a few items)">
       <option name="closed" value="true" />
@@ -596,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790114524056</updated>
     </task>
-    <option name="localTasksCounter" value="297" />
+    <task id="LOCAL-00297" summary="Added &quot;Virtual Environments&quot; table to Python Package Management, updated references, and adjusted workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1790115473279</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1790115473279</updated>
+    </task>
+    <option name="localTasksCounter" value="298" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity" />
     <MESSAGE value="included nation flag emojis for lagrange significant figures citizenship listing" />
     <MESSAGE value="rearranged content on legendre significant figure subsection" />
     <MESSAGE value="took years alive out of subsection titles for significant figures subsections" />
@@ -639,6 +637,7 @@
     <MESSAGE value="Updated TODO list: added tasks for node glow effect and maximized view option." />
     <MESSAGE value="Added widget TODO items: resize maximized element block and maximized view option." />
     <MESSAGE value="Added Agent Development Guide, updated graph-module references, and refined Python Package Management XML structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Agent Development Guide, updated graph-module references, and refined Python Package Management XML structure." />
+    <MESSAGE value="Added &quot;Virtual Environments&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Virtual Environments&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
   </component>
 </project>

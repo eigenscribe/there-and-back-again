@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="tab-python-version-management" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Python Version Management</title>
+
+  <tabular bottom="minor" top="minor" left="major" right="major">
+
+    <row header="yes">
+      <cell>Task</cell>
+      <cell>pyenv</cell>
+      <cell>uv</cell>
+    </row>
+
+    <row>
+      <cell><em>Install a version</em></cell>
+      <cell>
+        <cd>
+          <cline>pyenv install 3.12</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv python install 3.12</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>Pin to a version</em></cell>
+      <cell>
+        <cd>
+          <cline>pyenv local 3.12</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv python pin 3.12</cline>
+        </cd>
+      </cell>
+    </row>
+
+    <row>
+      <cell><em>List versions</em></cell>
+      <cell>
+        <cd>
+          <cline>pyenv versions</cline>
+        </cd>
+      </cell>
+      <cell>
+        <cd>
+          <cline>uv python list</cline>
+        </cd>
+      </cell>
+    </row>
+
+  </tabular>
+
+</table>
