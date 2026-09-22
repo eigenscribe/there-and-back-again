@@ -114,6 +114,13 @@ def postprocess_file(file_path, is_top_level=False):
         if 'favicon.png' not in content:
             content = content.replace('</head>', '<link rel="icon" type="image/png" href="favicon.png">\n</head>')
 
+        # Move #cover-image above .abstract if it is inside .abstract
+        cover_match = re.search(r'(<figure[^>]*id="cover-image"[^>]*>.*?</figure>)', content, flags=re.DOTALL)
+        if cover_match and '<div class="abstract"' in content:
+            cover_html = cover_match.group(1)
+            content = content.replace(cover_html, '')
+            content = re.sub(r'(<div class="abstract")', f'{cover_html}\n\\1', content, count=1)
+
         content = re.sub(
             r'<footer class="ptx-content-footer">.*?</footer>',
             '<footer class="ptx-content-footer"><span class="copyright">eigenscribe © 2025-2026</span></footer>',
