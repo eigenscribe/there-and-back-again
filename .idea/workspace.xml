@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="got the front page image to render again, but it needs to be moved from the abstract block to above the abstract block">
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="fixed the front cover image placement">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.9495611416627154" />
-      <entry key="MS500" value="5.496038672864888" />
-      <entry key="S2" value="14.629774947752505" />
-      <entry key="S5" value="30.902387141967818" />
-      <entry key="S10" value="47.66752552098546" />
-      <entry key="S30" value="76.74837044074766" />
-      <entry key="S60" value="91.72446498334786" />
-      <entry key="M2" value="105.53154058548706" />
-      <entry key="M5" value="136.7688528698222" />
-      <entry key="M10" value="175.64131968796906" />
-      <entry key="M15" value="203.9552431312364" />
-      <entry key="M30" value="275.05333726009474" />
-      <entry key="H1" value="401.6263706234206" />
-      <entry key="H2" value="596.3890699420007" />
-      <entry key="H4" value="1075.8147465918578" />
-      <entry key="D1" value="4873.675866503482" />
-      <entry key="W1" value="24212.919227803337" />
+      <entry key="MS100" value="9.168175082935194E-16" />
+      <entry key="MS500" value="0.002501953603116804" />
+      <entry key="S2" value="1.6873211773990069" />
+      <entry key="S5" value="8.604831013280378" />
+      <entry key="S10" value="16.48213382599194" />
+      <entry key="S30" value="28.711685968265254" />
+      <entry key="S60" value="34.15082679859107" />
+      <entry key="M2" value="41.330921183140646" />
+      <entry key="M5" value="76.64462268011421" />
+      <entry key="M10" value="131.81836749770014" />
+      <entry key="M15" value="172.62367914455865" />
+      <entry key="M30" value="262.14000486087104" />
+      <entry key="H1" value="401.2036506781833" />
+      <entry key="H2" value="605.8352253641008" />
+      <entry key="H4" value="1087.9968944182804" />
+      <entry key="D1" value="4892.690731750926" />
+      <entry key="W1" value="24238.288676361455" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="1.03883439999068E-207" />
-      <entry key="M2" value="3.223705366470937E-104" />
-      <entry key="M5" value="4.14158074798482E-42" />
-      <entry key="M10" value="2.363642329857298E-21" />
-      <entry key="M15" value="2.098121450900693E-14" />
-      <entry key="M30" value="2.022746515373292E-7" />
-      <entry key="H1" value="6.928440559671612E-4" />
-      <entry key="H2" value="0.043603086444757244" />
-      <entry key="H4" value="0.3568711609062237" />
-      <entry key="D1" value="2.719488495068668" />
-      <entry key="W1" value="40.02162609397955" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0000000000000135" />
+      <entry key="M30" value="1.0000001628230537" />
+      <entry key="H1" value="1.0006216167556496" />
+      <entry key="H2" value="1.0413010259824977" />
+      <entry key="H4" value="1.3473227714928986" />
+      <entry key="D1" value="3.7072240109190284" />
+      <entry key="W1" value="40.99579161613705" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.8941563621806186" />
-      <entry key="MS500" value="5.461030615580635" />
-      <entry key="S2" value="14.603720793933311" />
-      <entry key="S5" value="30.878684922789574" />
-      <entry key="S10" value="47.6487614317535" />
-      <entry key="S30" value="76.73781820705135" />
-      <entry key="S60" value="91.71790390435187" />
-      <entry key="M2" value="105.52697441667621" />
-      <entry key="M5" value="136.76501454604949" />
-      <entry key="M10" value="175.63819681267222" />
-      <entry key="M15" value="203.95245158842795" />
-      <entry key="M30" value="275.05078426318835" />
-      <entry key="H1" value="401.62456894474764" />
-      <entry key="H2" value="596.4298820571033" />
-      <entry key="H4" value="1076.1683149331275" />
-      <entry key="D1" value="4876.393424577757" />
-      <entry key="W1" value="24252.93981117606" />
+      <entry key="MS100" value="1.4045125753447339E-14" />
+      <entry key="MS500" value="0.004156323792529961" />
+      <entry key="S2" value="1.8863999751213085" />
+      <entry key="S5" value="9.126009923355207" />
+      <entry key="S10" value="17.20231994511726" />
+      <entry key="S30" value="29.607003552476797" />
+      <entry key="S60" value="35.096795844644674" />
+      <entry key="M2" value="42.303286599737895" />
+      <entry key="M5" value="77.63248354169113" />
+      <entry key="M10" value="132.8111722204496" />
+      <entry key="M15" value="173.61815512863265" />
+      <entry key="M30" value="263.1360900671258" />
+      <entry key="H1" value="402.2011038194004" />
+      <entry key="H2" value="606.873417436537" />
+      <entry key="H4" value="1089.3407700395246" />
+      <entry key="D1" value="4896.395995258927" />
+      <entry key="W1" value="24279.283420388172" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -201,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00242" summary="Expanded Legendre Transform and Adrien-Marie Legendre content: added polynomials, differential equation definitions, and recurrence relations; updated notes graph with tags and refined descriptions.">
-      <option name="closed" value="true" />
-      <created>1788325540111</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
-      <option name="project" value="LOCAL" />
-      <updated>1788325540111</updated>
     </task>
     <task id="LOCAL-00243" summary="Expanded Euler-Lagrange and Action content: refined descriptions, added tags, new prerequisite and reference connections in notes graph; updated variational mechanics context.">
       <option name="closed" value="true" />
@@ -594,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790104215432</updated>
     </task>
-    <option name="localTasksCounter" value="291" />
+    <task id="LOCAL-00291" summary="fixed the front cover image placement">
+      <option name="closed" value="true" />
+      <created>1790104769906</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1790104769906</updated>
+    </task>
+    <option name="localTasksCounter" value="292" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="toc text color changed to a blue-to-purple gradient depending on 'level' of toc" />
     <MESSAGE value="added significant figure sections for joseph liouville and josiah gibbs" />
     <MESSAGE value="typo that created a build error" />
     <MESSAGE value="fixed copy/paste text that wasn't edited for Joseph Liouville significant figure subsection" />
@@ -637,6 +638,7 @@
     <MESSAGE value="fixed the glow issue" />
     <MESSAGE value="fixed huge ui i think" />
     <MESSAGE value="got the front page image to render again, but it needs to be moved from the abstract block to above the abstract block" />
-    <option name="LAST_COMMIT_MESSAGE" value="got the front page image to render again, but it needs to be moved from the abstract block to above the abstract block" />
+    <MESSAGE value="fixed the front cover image placement" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the front cover image placement" />
   </component>
 </project>

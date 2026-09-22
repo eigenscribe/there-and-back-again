@@ -63,14 +63,11 @@
   touch-action: manipulation;
 }
 
-/* Ensure button labels and icons are always visible and properly styled */
-.ptx-navbar .button .name,
-.ptx-navbar button .name,
-.ptx-navbar a.button .name,
+/* Button labels for buttons that retain text (Contents, tree navigation, and footer) */
+.ptx-navbar .toc-toggle .name,
+.ptx-navbar #ptx-toc-toggle .name,
 .treebuttons .button .name,
-.ptx-content-footer .button .name,
-.ptx-navbar .ptx-read-aloud-button .name,
-.ptx-navbar .ptx-readability-options-button .name {
+.ptx-content-footer .button .name {
   display: inline-block !important;
   position: static !important;
   clip: auto !important;
@@ -81,6 +78,26 @@
   overflow: visible !important;
   white-space: nowrap !important;
   font-family: var(--font-aclonica, 'Aclonica', sans-serif) !important;
+}
+
+/* Remove text (keep symbols only) for Index, Search Book, Read aloud, and Readability settings */
+.ptx-navbar .index-button .name,
+.ptx-navbar .ptx-search-button .name,
+.ptx-navbar #searchbutton .name,
+.ptx-navbar #ptx-search-button .name,
+.ptx-navbar .ptx-read-aloud-button .name,
+.ptx-navbar #ptx-read-aloud-button .name,
+.ptx-navbar .ptx-readability-options-button .name,
+.ptx-navbar #ptx-readability-options-button .name,
+.index-button .name,
+.ptx-search-button .name,
+#searchbutton .name,
+#ptx-search-button .name,
+.ptx-read-aloud-button .name,
+#ptx-read-aloud-button .name,
+.ptx-readability-options-button .name,
+#ptx-readability-options-button .name {
+  display: none !important;
 }
 
 .ptx-navbar .button .icon,
