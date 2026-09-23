@@ -5,8 +5,8 @@
 
   <tabular>
 
-    <col width = "20%"/>
-    <col width = "40%"/>
+    <col width = "30%"/>
+    <col width = "30%"/>
     <col width = "40%"/>
 
     <row header="yes">
@@ -15,43 +15,218 @@
       <cell>Meaning</cell>
     </row>
 
-   <row>
-     <cell>
-       <p>A vector has coordinate components</p>
-     </cell>
-     <cell>
-       <m>\mathbf{v}=v_q\mathbf{e}_q+v_p\mathbf{e}_p</m>
-     </cell>
-     <cell>
-       <p>A direction can be decomposed into <m>q</m> and <m>p</m> coordinates.</p>
-     </cell>
-   </row>
+    <row>
+      <cell>
+        <p>A <term>vector</term> has coordinate components</p>
+      </cell>
+      <cell>
+        <m>\mathbf{v}=v_q\mathbf{e}_q+v_p\mathbf{e}_p</m>
+      </cell>
+      <cell>
+        <p>A direction can be decomposed into <m>q</m> and <m>p</m> coordinates</p>
+      </cell>
+    </row>
 
-   <row>
-     <cell>
-       <p>A 1-form measures a vector</p>
-     </cell>
-     <cell>
-       <m>dq(\mathbf{v})=v_q</m>
-     </cell>
-     <cell>
-       <p><m>dq</m> extracts the <m>q</m> component.</p>
-     </cell>
-   </row>
+    <row>
+      <cell>
+        <p>A <term>1-form</term> (or <term>covector</term>) measures a coordinate component of a a vector</p>
+      </cell>
+      <cell>
+        <m>dq(\mathbf{v})=v_q</m>
+      </cell>
+      <cell>
+        <p><m>dq</m> extracts the <m>q</m> component of <m>\mathbf{v}</m></p>
+      </cell>
+    </row>
 
-   <row>
-     <cell>
-       <p>Finish creating this table using the attached image in the CONVENTION_STITCHING folder</p>
-     </cell>
-     <cell>
-       <m></m>
-     </cell>
-     <cell>
-       <p></p>
-     </cell>
-   </row>
+    <row>
+      <cell>
+        <p>
+          <term>Coordinate basis duality</term>
+        </p>
+      </cell>
+      <cell>
+        <m>dq(\mathbf{e}_q)=1, \quad dq(\mathbf{e}_p)=0</m>
+      </cell>
+      <cell>
+        <p><m>dq</m> measures <m>q</m>-direction and ignores <m>p</m>-direction</p>
+      </cell>
+    </row>
 
+    <row>
+      <cell>
+        <p>
+          <term>Infinitesimal displacement vector</term>
+        </p>
+      </cell>
+      <cell>
+        <m>d\mathbf{z}=dq(\mathbf{z})\mathbf{e}_q + dp(\mathbf{z})\mathbf{e}_p</m>
+      </cell>
+      <cell>
+        <p>The coordinate changes combine into a displacement vector</p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>Two vectors form an area</p>
+      </cell>
+      <cell>
+        <m>\mathbf{v}\wedge\mathbf{w}</m>
+      </cell>
+      <cell>
+        <p>
+          The <term>wedge product</term> of two vectors forms an anti-commutative oriented area called a
+          <term>bivector</term>
+        </p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+          Two 1-forms form an area-measuring object
+        </p>
+      </cell>
+      <cell>
+        <m>dq\wedge dp</m>
+      </cell>
+      <cell>
+        <p>
+          A <xref ref="def-2-form" text="custom">2-form</xref> that measures oriented area in <m>\mathcal{P}</m>
+        </p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <m>  </m>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <m>  </m>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <m>  </m>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <m>  </m>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <m>  </m>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <m>  </m>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <m>  </m>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <m>  </m>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
 
   </tabular>
 
 </table>
+

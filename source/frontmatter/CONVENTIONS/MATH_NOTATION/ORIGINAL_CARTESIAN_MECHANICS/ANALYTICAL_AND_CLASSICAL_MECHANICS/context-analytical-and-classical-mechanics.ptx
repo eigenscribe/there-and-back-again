@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<context xml:id="context-analytical-and-classical-mechanics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Analytical &amp; Classical Mechanics</title>
+  <idx>analytical mechanics</idx>
+  <idx>classical mechanics</idx>
+
+  <xi:include href="assemblage-phase-space.ptx"/>
+
+</context>

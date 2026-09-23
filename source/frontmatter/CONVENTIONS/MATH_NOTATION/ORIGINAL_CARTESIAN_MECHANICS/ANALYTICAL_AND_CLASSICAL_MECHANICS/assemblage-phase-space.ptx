@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<assemblage xml:id="context-phase-space-conventions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Phase Space</title>
+  <p>
+    <dl>
+      <li>
+        <title><m>\mathcal{P}</m></title>
+        <idx>phase space</idx>
+        <p>
+          The <term>phase space</term> manifold parameterized by generalized coordinates and conjugate momenta.
+        </p>
+      </li>
+      <li>
+        <title><m>(\mathbf{q}, \mathbf{p})\in\mathcal{P}</m></title>
+        <idx>phase space</idx>
+        <idx>generalized coordinates</idx>
+        <idx>conjugate momenta</idx>
+        <p>
+            A point in phase space where
+            <ul>
+              <li>
+                <p><m>\mathbf{q} = (q_1, \dots, q_n)</m> represents <term>generalized coordinates</term>.</p>
+              </li>
+              <li>
+                <p><m>\mathbf{p} = (p_1, \dots, p_n)</m> represents <term>conjugate momenta</term>.</p>
+              </li>
+            </ul>
+        </p>
+        <p>
+          Scalar coordinate and momentum magnitudes are denoted by <m>q = \|\mathbf{q}\|</m> and
+          <m>p = \|\mathbf{p}\|</m>, respectively.
+        </p>
+      </li>
+      <li>
+        <title><m>\dot{\mathbf{q}} = \frac{d\mathbf{q}}{dt}</m></title>
+        <idx>generalized velocity</idx>
+        <p>
+          Generalized velocities expressed via Newton's dot notation for time derivatives.
+        </p>
+      </li>
+    </dl>
+  </p>
+</assemblage>

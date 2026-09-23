@@ -8,10 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries.">
-      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/epistemic-statement-types.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/HOW_TO_READ_THIS_BOOK/para-how-to-read-this-book.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ORIGINAL_CARTESIAN_MECHANICS/ANALYTICAL_AND_CLASSICAL_MECHANICS/assemblage-phase-space.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ORIGINAL_CARTESIAN_MECHANICS/ANALYTICAL_AND_CLASSICAL_MECHANICS/context-analytical-and-classical-mechanics.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ORIGINAL_CARTESIAN_MECHANICS/GENERAL_MATHEMATICS/context-general-mathematics.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/STANDARD_SETS_AND_CONSTANTS/assemblage-standard-number-sets.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/STANDARD_SETS_AND_CONSTANTS/context-standard-number-sets.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/abbreviations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/abbreviations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/abbreviations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/para-abbreviations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/epistemic-statement-types.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/HOW_TO_READ_THIS_BOOK/para-epistemic-statement-types.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/icons.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/para-icons.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/para-math-notation.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-conceptual-dictionary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-conceptual-dictionary.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="284" />
+    <option name="cachedIndexableFilesCount" value="277" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -43,61 +54,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.009823095754502" />
-      <entry key="MS500" value="1.4756099832326106" />
-      <entry key="S2" value="2.7435642834379217" />
-      <entry key="S5" value="4.688371669885089" />
-      <entry key="S10" value="6.610439536567874" />
-      <entry key="S30" value="12.759849078926507" />
-      <entry key="S60" value="22.66839048914124" />
-      <entry key="M2" value="47.164127446399895" />
-      <entry key="M5" value="126.73701243674395" />
-      <entry key="M10" value="222.5309579466846" />
-      <entry key="M15" value="284.20237091497506" />
-      <entry key="M30" value="404.0885901967857" />
-      <entry key="H1" value="608.906566978919" />
-      <entry key="H2" value="950.8163031960202" />
-      <entry key="H4" value="1528.5513048869204" />
-      <entry key="D1" value="5527.131959850231" />
-      <entry key="W1" value="25003.61914834404" />
+      <entry key="MS100" value="1.0000593675018994" />
+      <entry key="MS500" value="1.16441137604281" />
+      <entry key="S2" value="2.4117897504767085" />
+      <entry key="S5" value="4.155832301661171" />
+      <entry key="S10" value="6.684196830293794" />
+      <entry key="S30" value="15.299724994702267" />
+      <entry key="S60" value="23.632245461495813" />
+      <entry key="M2" value="37.100547373560225" />
+      <entry key="M5" value="80.6204058258399" />
+      <entry key="M10" value="148.36109225619515" />
+      <entry key="M15" value="208.9375822476989" />
+      <entry key="M30" value="364.58270378985867" />
+      <entry key="H1" value="637.5488290322627" />
+      <entry key="H2" value="1091.2401831870145" />
+      <entry key="H4" value="1793.804658708326" />
+      <entry key="D1" value="6050.587485121806" />
+      <entry key="W1" value="25668.57917969582" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="3.153623383175969E-278" />
-      <entry key="S30" value="3.1593931661607576E-93" />
-      <entry key="S60" value="5.626231084128118E-47" />
-      <entry key="M2" value="7.729301182240643E-24" />
-      <entry key="M5" value="7.023288562860952E-10" />
-      <entry key="M10" value="3.5546457165386434E-5" />
-      <entry key="M15" value="0.0013446765481576614" />
-      <entry key="M30" value="0.05151751451260903" />
-      <entry key="H1" value="0.3205486407245707" />
-      <entry key="H2" value="0.816279760035735" />
-      <entry key="H4" value="1.4814571003367403" />
-      <entry key="D1" value="4.355084834510902" />
-      <entry key="W1" value="41.52648115798434" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="4.183104733528121E-177" />
+      <entry key="S60" value="6.473886748051691E-89" />
+      <entry key="M2" value="8.291135188131409E-45" />
+      <entry key="M5" value="2.875610222662262E-18" />
+      <entry key="M10" value="2.274526888644917E-9" />
+      <entry key="M15" value="2.151201041213261E-6" />
+      <entry key="M30" value="0.0020605657957756453" />
+      <entry key="H1" value="0.06410763149057744" />
+      <entry key="H2" value="0.36504543702215253" />
+      <entry key="H4" value="0.9907019729059535" />
+      <entry key="D1" value="4.072604879233894" />
+      <entry key="W1" value="41.13054947754475" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9555460785270391" />
-      <entry key="MS500" value="1.460984523788776" />
-      <entry key="S2" value="2.7373336466850238" />
-      <entry key="S5" value="4.684480917717408" />
-      <entry key="S10" value="6.607825742438133" />
-      <entry key="S30" value="12.758081038881548" />
-      <entry key="S60" value="22.66643403396356" />
-      <entry key="M2" value="47.16126880647145" />
-      <entry key="M5" value="126.73359378267227" />
-      <entry key="M10" value="222.52817188744578" />
-      <entry key="M15" value="284.20140886869274" />
-      <entry key="M30" value="404.13850267117385" />
-      <entry key="H1" value="609.2256375683139" />
-      <entry key="H2" value="951.6307343369884" />
-      <entry key="H4" value="1530.0302344029894" />
-      <entry key="D1" value="5531.4851581549765" />
-      <entry key="W1" value="25045.14458265174" />
+      <entry key="MS100" value="0.9862892602405118" />
+      <entry key="MS500" value="1.1600937348256355" />
+      <entry key="S2" value="2.408005475829979" />
+      <entry key="S5" value="4.152804021582449" />
+      <entry key="S10" value="6.681603543217962" />
+      <entry key="S30" value="15.297692199943379" />
+      <entry key="S60" value="23.630675584580345" />
+      <entry key="M2" value="37.09931948991103" />
+      <entry key="M5" value="80.61933059453061" />
+      <entry key="M10" value="148.36006845002177" />
+      <entry key="M15" value="208.93656732077636" />
+      <entry key="M30" value="364.5836872467504" />
+      <entry key="H1" value="637.6117406218137" />
+      <entry key="H2" value="1091.6037508629124" />
+      <entry key="H4" value="1794.7932704169448" />
+      <entry key="D1" value="6054.658245825011" />
+      <entry key="W1" value="25709.70868049947" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -155,11 +166,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES\wedge-product-angular-momentum" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\GEOMETRIC_ALGEBRA\CLIFFORD_ALGEBRAS" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\GA_PHYSICS_CROSSINGS" />
-      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS" />
+      <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION" />
+      <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ORIGINAL_CARTESIAN_MECHANICS" />
+      <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ANALYTICAL_AND_CLASSICAL_MECHANICS" />
+      <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/NOTATION_FOUNDATIONS/DISCRETE_MATH_AND_SETS" />
+      <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/DISCRETE_MATHEMATICS_AND_SET_THEORY" />
     </key>
   </component>
   <component name="RunManager" selected="PowerShell.build.ps1 (1)">

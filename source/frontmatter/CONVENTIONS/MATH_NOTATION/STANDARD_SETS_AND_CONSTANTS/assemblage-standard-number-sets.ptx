@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<assemblage xml:id="assemblage-standard-number-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Standard Number Sets</title>
+  <p>
+    <dl>
+      <li>
+        <title><m>\Z</m></title>
+        <idx>integers</idx>
+        <p><term>Integers</term></p>
+        <p>
+          <m>\{ 0, \pm 1, \pm 2, \dots \}</m>
+        </p>
+      </li>
+
+      <li>
+        <title><m>\N</m> (or <m>\mathbb{Z}^+</m>)</title>
+        <idx>natural numbers</idx>
+        <p><term>Natural numbers</term></p>
+        <p>
+          <m>\{1, 2, 3, \dots \}</m>
+        </p>
+      </li>
+
+      <li>
+        <title><m>\N_0</m></title>
+        <p>
+          <m>\mathbf{N} \cap \{0\}</m>
+        </p>
+        <p>The set containing the natural numbers and zero</p>
+      </li>
+    </dl>
+  </p>
+</assemblage>

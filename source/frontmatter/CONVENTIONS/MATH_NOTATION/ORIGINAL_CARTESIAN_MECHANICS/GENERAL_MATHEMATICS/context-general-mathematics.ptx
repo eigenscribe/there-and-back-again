@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<context xml:id="context-general-mathematics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>General Mathematics</title>
+
+  <p>
+    <dl>
+      <li>
+        <title><m>x</m></title>
+        <p>scalar</p>
+      </li>
+      <li>
+        <title><m>\mathbf{x}</m></title>
+        <p>An <m>n</m>-dimensional vector with scalar elements.</p>
+        <p>For <m>n=1</m>, <m>\mathbf{x}\cong x</m>.</p>
+      </li>
+    </dl>
+  </p>
+
+</context>

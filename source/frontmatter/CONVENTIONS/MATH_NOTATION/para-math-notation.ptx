@@ -1,75 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<paragraphs xml:id="sub-math-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+<paragraphs xml:id="para-math-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Mathematical Notation</title>
 
-  <p>
-    Mathematical symbols and notation across <em>There and Back Again</em>.
-  </p>
+  <paragraphs xml:id="para-standard-sets-and-constants">
+    <title>Standard Sets &amp; Constants</title>
 
-    <context xml:id="notation-discrete-math">
-    <title>Discrete Mathematics &amp; Set Theory</title>
-    <dl>
-      <li>
-        <title><m>\Z</m></title>
-        <idx>integers</idx>
-        <p><term>Integers</term></p>
-        <p>
-          <m>\{ 0, \pm 1, \pm 2, \dots \}</m>
-        </p>
-      </li>
+    <xi:include href="./STANDARD_SETS_AND_CONSTANTS/context-standard-number-sets.ptx"/>
 
-      <li>
-        <title><m>\N</m> (or <m>\mathbb{Z}^+</m>)</title>
-        <idx>natural numbers</idx>
-        <p><term>Natural numbers</term></p>
-        <p>
-          <m>\{1, 2, 3, \dots \}</m>
-        </p>
-      </li>
+  </paragraphs>
 
-      <li>
-        <title><m>\N_0</m></title>
-        <p>The set containing the natural numbers and zero</p>
-        <p>
-          <m>\mathbf{N} \cap \{0\}</m>
-        </p>
-      </li>
-    </dl>
-  </context>
-
-  <context xml:id="conventions-original-cartesian">
+  <paragraphs xml:id="conventions-original-cartesian">
     <title>Original Cartesian Mechanics</title>
-    <p>
-      <dl>
-        <li>
-          <title><m>x</m></title>
-          <p>scalar</p>
-        </li>
-        <li>
-          <title><m>\mathbf{x}</m></title>
-          <p>An <m>n</m>-dimensional vector with scalar elements.</p>
-          <p>For <m>n=1</m>, <m>\mathbf{x}\cong x</m>.</p>
-        </li>
-      </dl>
-    </p>
 
-    <context xml:id="conventions-phase-space">
-      <title>Phase space</title>
-        <p>
-          <dl>
-            <li>
-              <title><m>\mathcal{P}</m></title>
-              <p>Phase space</p>
-            </li>
-            <li>
-              <title><m>\mathbf{q}, \mathbf{p}</m></title>
-              <p>Generalized <m>n</m>-dimensional coordinates and conjugate momenta.</p>
-            </li>
-         </dl>
-        </p>
-    </context>
-  </context>
+    <xi:include href="./ORIGINAL_CARTESIAN_MECHANICS/GENERAL_MATHEMATICS/context-general-mathematics.ptx"/>
+    <xi:include href="./ORIGINAL_CARTESIAN_MECHANICS/ANALYTICAL_AND_CLASSICAL_MECHANICS/context-analytical-and-classical-mechanics.ptx"/>
+
+  </paragraphs>
 
 
 
@@ -256,36 +203,8 @@
 
   <assemblage xml:id="notation-classical-mechanics">
     <title>Analytical &amp; Classical Mechanics</title>
+
     <dl>
-      <li>
-        <title><m>\mathcal{P}</m></title>
-        <idx>phase space</idx>
-        <p>
-          The <term>phase space</term> manifold parameterized by generalized coordinates and conjugate momenta.
-        </p>
-      </li>
-
-      <li>
-        <title><m>(\vec{q}, \vec{p})</m></title>
-        <idx>phase space</idx>
-        <idx>generalized coordinates</idx>
-        <idx>conjugate momenta</idx>
-        <p>
-          A point in phase space where <m>\vec{q} = (q_1, \dots, q_n)</m> represents <term>generalized coordinates</term> and <m>\vec{p} = (p_1, \dots, p_n)</m> represents <term>conjugate momenta</term>.
-        </p>
-        <p>
-          Scalar coordinate and momentum magnitudes are denoted by <m>q = \|\vec{q}\|</m> and <m>p = \|\vec{p}\|</m>, respectively.
-        </p>
-      </li>
-
-      <li>
-        <title><m>\dot{\vec{q}} = \frac{d\vec{q}}{dt}</m></title>
-        <idx>generalized velocity</idx>
-        <p>
-          Generalized velocities expressed via Newton's dot notation for time derivatives.
-        </p>
-      </li>
-
       <li>
         <title><m>L(\vec{q}, \dot{\vec{q}}, t)</m></title>
         <idx>Lagrangian</idx>

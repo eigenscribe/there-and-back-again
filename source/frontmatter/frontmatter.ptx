@@ -79,10 +79,10 @@
   <preface xml:id="conventions">
     <title>Conventions</title>
 
-    <xi:include href="./CONVENTIONS/epistemic-statement-types.ptx"/>
-    <xi:include href="./CONVENTIONS/math-notation.ptx"/>
-    <xi:include href="./CONVENTIONS/abbreviations.ptx"/>
-    <xi:include href="./CONVENTIONS/icons.ptx"/>
+    <xi:include href="./CONVENTIONS/HOW_TO_READ_THIS_BOOK/para-how-to-read-this-book.ptx"/>
+    <xi:include href="./CONVENTIONS/MATH_NOTATION/para-math-notation.ptx"/>
+    <xi:include href="./CONVENTIONS/para-abbreviations.ptx"/>
+    <xi:include href="./CONVENTIONS/para-icons.ptx"/>
 
   </preface>
 
