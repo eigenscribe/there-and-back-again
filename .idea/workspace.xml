@@ -7,11 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added content to @para epistemic statement types">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="adding cells to @table-conceptual-dictionary.ptx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-function-space.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/PRIMER/para-function-space.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-conceptual-dictionary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-conceptual-dictionary.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +40,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000026895683306" />
-      <entry key="MS500" value="1.1745702448123805" />
-      <entry key="S2" value="2.5349408600346797" />
-      <entry key="S5" value="3.6696918053945975" />
-      <entry key="S10" value="4.294526946363227" />
-      <entry key="S30" value="7.631731236266474" />
-      <entry key="S60" value="17.177186753446353" />
-      <entry key="M2" value="37.22033343710834" />
-      <entry key="M5" value="74.47040277616749" />
-      <entry key="M10" value="116.59352464195268" />
-      <entry key="M15" value="158.37056586714786" />
-      <entry key="M30" value="288.01447716442544" />
-      <entry key="H1" value="553.3925787579572" />
-      <entry key="H2" value="1043.6402625004735" />
-      <entry key="H4" value="1828.097990276897" />
-      <entry key="D1" value="6312.437249426696" />
-      <entry key="W1" value="26056.316089141175" />
+      <entry key="MS100" value="1.000017623042664" />
+      <entry key="MS500" value="1.1613932050528655" />
+      <entry key="S2" value="2.521469046945434" />
+      <entry key="S5" value="4.734955311238953" />
+      <entry key="S10" value="6.626301878702518" />
+      <entry key="S30" value="8.709676609659404" />
+      <entry key="S60" value="10.857056405811004" />
+      <entry key="M2" value="20.88121996856875" />
+      <entry key="M5" value="55.990787422290246" />
+      <entry key="M10" value="101.69878757230597" />
+      <entry key="M15" value="144.96117714953084" />
+      <entry key="M30" value="275.901499795828" />
+      <entry key="H1" value="541.736793741921" />
+      <entry key="H2" value="1033.0219606192406" />
+      <entry key="H4" value="1819.9522243503231" />
+      <entry key="D1" value="6311.952170466407" />
+      <entry key="W1" value="26060.129052902226" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -67,37 +64,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="1.171106428894132E-241" />
-      <entry key="S60" value="3.4254206469962373E-121" />
-      <entry key="M2" value="6.0309871500399054E-61" />
-      <entry key="M5" value="1.007951838914404E-24" />
-      <entry key="M10" value="1.3466227791359038E-12" />
-      <entry key="M15" value="1.5167625147592616E-8" />
-      <entry key="M30" value="1.7302337546223806E-4" />
-      <entry key="H1" value="0.01857671330639439" />
-      <entry key="H2" value="0.19650630870942823" />
-      <entry key="H4" value="0.7268717907154651" />
-      <entry key="D1" value="3.867747152150928" />
-      <entry key="W1" value="40.82841143235627" />
+      <entry key="S30" value="9.759382111272472E-244" />
+      <entry key="S60" value="3.126992861319457E-122" />
+      <entry key="M2" value="1.8221951755340738E-61" />
+      <entry key="M5" value="6.244855263929724E-25" />
+      <entry key="M10" value="1.0599545768718903E-12" />
+      <entry key="M15" value="1.2930394808526926E-8" />
+      <entry key="M30" value="1.597540509571835E-4" />
+      <entry key="H1" value="0.0178501729502404" />
+      <entry key="H2" value="0.19262527533703563" />
+      <entry key="H4" value="0.7196580736530285" />
+      <entry key="D1" value="3.8613230682720485" />
+      <entry key="W1" value="40.81871689870924" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9592899222869192" />
-      <entry key="MS500" value="1.1650316614042324" />
-      <entry key="S2" value="2.530316550313018" />
-      <entry key="S5" value="3.667100473589295" />
-      <entry key="S10" value="4.2930209472153" />
-      <entry key="S30" value="7.630755363036993" />
-      <entry key="S60" value="17.17602531672608" />
-      <entry key="M2" value="37.21905704686856" />
-      <entry key="M5" value="74.46876678116374" />
-      <entry key="M10" value="116.59067006338344" />
-      <entry key="M15" value="158.36723429936907" />
-      <entry key="M30" value="288.0114678946066" />
-      <entry key="H1" value="553.4086447265956" />
-      <entry key="H2" value="1043.834682880504" />
-      <entry key="H4" value="1828.8226222560238" />
-      <entry key="D1" value="6316.303118110292" />
-      <entry key="W1" value="26097.143441210213" />
+      <entry key="MS100" value="0.9726722063141566" />
+      <entry key="MS500" value="1.1551206955953173" />
+      <entry key="S2" value="2.5181966869235404" />
+      <entry key="S5" value="4.732635545917947" />
+      <entry key="S10" value="6.6247315230673856" />
+      <entry key="S30" value="8.709001464279737" />
+      <entry key="S60" value="10.856594182754012" />
+      <entry key="M2" value="20.880650118699325" />
+      <entry key="M5" value="55.98969862211553" />
+      <entry key="M10" value="101.69650281312228" />
+      <entry key="M15" value="144.95831169030112" />
+      <entry key="M30" value="275.89870863119137" />
+      <entry key="H1" value="541.7522250195645" />
+      <entry key="H2" value="1033.21253798825" />
+      <entry key="H4" value="1820.6696632530156" />
+      <entry key="D1" value="6315.81161792141" />
+      <entry key="W1" value="26100.946710651337" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -204,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00255" summary="started adding the geometric dictionary in the convention stitching section of the bridges chapter in scribing">
-      <option name="closed" value="true" />
-      <created>1789340300891</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1789340300891</updated>
     </task>
     <task id="LOCAL-00256" summary="added a geometric dictionary table to the convention stitching section for symplectic and calculus of variations section">
       <option name="closed" value="true" />
@@ -597,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790164320867</updated>
     </task>
-    <option name="localTasksCounter" value="304" />
+    <task id="LOCAL-00304" summary="adding cells to @table-conceptual-dictionary.ptx">
+      <option name="closed" value="true" />
+      <created>1790165808951</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1790165808951</updated>
+    </task>
+    <option name="localTasksCounter" value="305" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
     <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
     <MESSAGE value="edited remark in lioville's identity theorem" />
     <MESSAGE value="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions" />
@@ -640,6 +636,7 @@
     <MESSAGE value="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries." />
     <MESSAGE value="concept stitching and updated the conventions" />
     <MESSAGE value="added content to @para epistemic statement types" />
-    <option name="LAST_COMMIT_MESSAGE" value="added content to @para epistemic statement types" />
+    <MESSAGE value="adding cells to @table-conceptual-dictionary.ptx" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding cells to @table-conceptual-dictionary.ptx" />
   </component>
 </project>

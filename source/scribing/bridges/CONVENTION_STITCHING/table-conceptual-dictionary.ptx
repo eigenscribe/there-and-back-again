@@ -93,7 +93,7 @@
       </cell>
       <cell>
         <p>
-          A <xref ref="def-2-form" text="custom">2-form</xref> that measures oriented area in <m>\mathcal{P}</m>
+          The two 1-forms <m>dq</m> and <m>dp</m> give a <xref ref="def-2-form" text="custom">2-form</xref> that measures oriented area in <m>\mathcal{P}</m>
         </p>
       </cell>
     </row>
