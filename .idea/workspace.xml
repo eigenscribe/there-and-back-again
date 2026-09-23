@@ -7,22 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries.">
-      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/HOW_TO_READ_THIS_BOOK/para-how-to-read-this-book.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ORIGINAL_CARTESIAN_MECHANICS/ANALYTICAL_AND_CLASSICAL_MECHANICS/assemblage-phase-space.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ORIGINAL_CARTESIAN_MECHANICS/ANALYTICAL_AND_CLASSICAL_MECHANICS/context-analytical-and-classical-mechanics.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ORIGINAL_CARTESIAN_MECHANICS/GENERAL_MATHEMATICS/context-general-mathematics.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/STANDARD_SETS_AND_CONSTANTS/assemblage-standard-number-sets.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/STANDARD_SETS_AND_CONSTANTS/context-standard-number-sets.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/img.png" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="concept stitching and updated the conventions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/abbreviations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/para-abbreviations.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/epistemic-statement-types.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/HOW_TO_READ_THIS_BOOK/para-epistemic-statement-types.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/icons.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/para-icons.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/math-notation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/para-math-notation.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-conceptual-dictionary.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/table-conceptual-dictionary.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/HOW_TO_READ_THIS_BOOK/para-epistemic-statement-types.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/HOW_TO_READ_THIS_BOOK/para-epistemic-statement-types.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/sec-convention-stitching.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING/sec-convention-stitching.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +43,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000593675018994" />
-      <entry key="MS500" value="1.16441137604281" />
-      <entry key="S2" value="2.4117897504767085" />
-      <entry key="S5" value="4.155832301661171" />
-      <entry key="S10" value="6.684196830293794" />
-      <entry key="S30" value="15.299724994702267" />
-      <entry key="S60" value="23.632245461495813" />
-      <entry key="M2" value="37.100547373560225" />
-      <entry key="M5" value="80.6204058258399" />
-      <entry key="M10" value="148.36109225619515" />
-      <entry key="M15" value="208.9375822476989" />
-      <entry key="M30" value="364.58270378985867" />
-      <entry key="H1" value="637.5488290322627" />
-      <entry key="H2" value="1091.2401831870145" />
-      <entry key="H4" value="1793.804658708326" />
-      <entry key="D1" value="6050.587485121806" />
-      <entry key="W1" value="25668.57917969582" />
+      <entry key="MS100" value="1.0184325536189427" />
+      <entry key="MS500" value="1.6154696302999365" />
+      <entry key="S2" value="3.050285195448347" />
+      <entry key="S5" value="5.197364252695271" />
+      <entry key="S10" value="7.677424373386049" />
+      <entry key="S30" value="15.227950599335776" />
+      <entry key="S60" value="23.964170571611767" />
+      <entry key="M2" value="36.538617291197205" />
+      <entry key="M5" value="65.94769934664447" />
+      <entry key="M10" value="114.38444555692818" />
+      <entry key="M15" value="160.99989805800666" />
+      <entry key="M30" value="296.3688454179168" />
+      <entry key="H1" value="565.0568855781668" />
+      <entry key="H2" value="1050.3639057593525" />
+      <entry key="H4" value="1818.3412049460962" />
+      <entry key="D1" value="6250.348626856589" />
+      <entry key="W1" value="25964.628762968656" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -78,37 +67,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="4.183104733528121E-177" />
-      <entry key="S60" value="6.473886748051691E-89" />
-      <entry key="M2" value="8.291135188131409E-45" />
-      <entry key="M5" value="2.875610222662262E-18" />
-      <entry key="M10" value="2.274526888644917E-9" />
-      <entry key="M15" value="2.151201041213261E-6" />
-      <entry key="M30" value="0.0020605657957756453" />
-      <entry key="H1" value="0.06410763149057744" />
-      <entry key="H2" value="0.36504543702215253" />
-      <entry key="H4" value="0.9907019729059535" />
-      <entry key="D1" value="4.072604879233894" />
-      <entry key="W1" value="41.13054947754475" />
+      <entry key="S30" value="4.651014799821324E-227" />
+      <entry key="S60" value="6.826366311070489E-114" />
+      <entry key="M2" value="2.6923173023818486E-57" />
+      <entry key="M5" value="2.906263028634447E-23" />
+      <entry key="M10" value="7.230919462715057E-12" />
+      <entry key="M15" value="4.6510316927307245E-8" />
+      <entry key="M30" value="3.0298465674588804E-4" />
+      <entry key="H1" value="0.024582542952739584" />
+      <entry key="H2" value="0.22605049462931878" />
+      <entry key="H4" value="0.7796008367419958" />
+      <entry key="D1" value="3.913155943552592" />
+      <entry key="W1" value="40.89654661625992" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9862892602405118" />
-      <entry key="MS500" value="1.1600937348256355" />
-      <entry key="S2" value="2.408005475829979" />
-      <entry key="S5" value="4.152804021582449" />
-      <entry key="S10" value="6.681603543217962" />
-      <entry key="S30" value="15.297692199943379" />
-      <entry key="S60" value="23.630675584580345" />
-      <entry key="M2" value="37.09931948991103" />
-      <entry key="M5" value="80.61933059453061" />
-      <entry key="M10" value="148.36006845002177" />
-      <entry key="M15" value="208.93656732077636" />
-      <entry key="M30" value="364.5836872467504" />
-      <entry key="H1" value="637.6117406218137" />
-      <entry key="H2" value="1091.6037508629124" />
-      <entry key="H4" value="1794.7932704169448" />
-      <entry key="D1" value="6054.658245825011" />
-      <entry key="W1" value="25709.70868049947" />
+      <entry key="MS100" value="0.9771912008766367" />
+      <entry key="MS500" value="1.6033249404254835" />
+      <entry key="S2" value="3.0445836843604233" />
+      <entry key="S5" value="5.193316973681719" />
+      <entry key="S10" value="7.6726738448714125" />
+      <entry key="S30" value="15.216320981701173" />
+      <entry key="S60" value="23.942604962584877" />
+      <entry key="M2" value="36.5138965946106" />
+      <entry key="M5" value="65.93001405428835" />
+      <entry key="M10" value="114.37309679961542" />
+      <entry key="M15" value="160.99147309015058" />
+      <entry key="M30" value="296.36420065706443" />
+      <entry key="H1" value="565.0784104362614" />
+      <entry key="H2" value="1050.5876790752516" />
+      <entry key="H4" value="1819.1184623694635" />
+      <entry key="D1" value="6254.259891787267" />
+      <entry key="W1" value="26005.524249805014" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -215,14 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00253" summary="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments.">
-      <option name="closed" value="true" />
-      <created>1789335560516</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1789335560517</updated>
     </task>
     <task id="LOCAL-00254" summary="updated the demo table in pretext meta section">
       <option name="closed" value="true" />
@@ -608,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790122869586</updated>
     </task>
-    <option name="localTasksCounter" value="302" />
+    <task id="LOCAL-00302" summary="concept stitching and updated the conventions">
+      <option name="closed" value="true" />
+      <created>1790159213115</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1790159213116</updated>
+    </task>
+    <option name="localTasksCounter" value="303" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
     <MESSAGE value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
     <MESSAGE value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
     <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
@@ -651,6 +639,7 @@
     <MESSAGE value="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;Project Scaffolding&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries." />
+    <MESSAGE value="concept stitching and updated the conventions" />
+    <option name="LAST_COMMIT_MESSAGE" value="concept stitching and updated the conventions" />
   </component>
 </project>

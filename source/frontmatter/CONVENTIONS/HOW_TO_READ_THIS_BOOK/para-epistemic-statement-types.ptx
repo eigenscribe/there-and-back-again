@@ -1,7 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <paragraphs xml:id="para-epistemic-statement-types" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Epistemic Statement Types</title>
+  <title>Epistemic Statements</title>
+    <definition>
+      <statement>
+        <p>
+          <alert>Level:</alert> Definition/convention
+        </p>
+        <p>
+          <alert>PreTeXt-style label:</alert> <c>definition</c>
+        </p>
+        <p>
+          <alert>Interpretation</alert>
+          <p>
+            "For the purposes of :logo:<em>There and Back Again</em>, use this
+            term/notation as specified."
+          </p>
+        </p>
+      </statement>
+    </definition>
 
+    <remark>
+      <statement>
+        <sidebyside>
+          <p>
+            <p>
+              <alert>Level:</alert> :favicon: Observation
+            </p>
+            <p>
+              <alert>PreTeXt-style label:</alert> <c>remark</c>
+            </p>
+            <p>
+              <alert>Interpretation:</alert> "I notice this recurring pattern."
+            </p>
+          </p>
+          <p>
+            <p>
+              <alert>Level:</alert> Empirical Law
+            </p>
+            <p>
+              <alert>PreTeXt-style label:</alert> <c>remark/principle</c>
+            </p>
+            <p>
+              <alert>Interpretation:</alert> "Repeated observation supports this relation in a defined domain."
+            </p>
+          </p>
+        </sidebyside>
+      </statement>
+    </remark>
 
+    <note>
+      <statement>
+        <p>
+          <alert>Level:</alert> :ember: Heuristic
+        </p>
+        <p>
+          <alert>PreTeXt-style label:</alert> <c>note</c>
+        </p>
+        <p>
+          <alert>Interpretation</alert>
+          <p>"This seems useful for reasoning, but is not established."</p>
+        </p>
+      </statement>
+    </note>
+
+    <principle>
+      <statement>
+        <sidebyside>
+          <p>
+            <p>
+              <alert>Level:</alert> Working Principle
+            </p>
+            <p>
+              <alert>PreTeXt-style label:</alert> <c>principle</c>
+            </p>
+            <p>
+              <alert>Interpretation:</alert> "Treat this as a provisional organizing principle."
+            </p>
+          </p>
+          <p>
+            <p>
+              <alert>Level:</alert> Empirical law
+            </p>
+            <p>
+              <alert>PreTeXt-style label:</alert> <c>remark/principle</c>
+            </p>
+            <p>
+              <alert>Interpretation:</alert> "Repeated observation supports this relation in a defined domain."
+            </p>
+          </p>
+        </sidebyside>
+      </statement>
+    </principle>
+
+    <conjecture>
+      <statement>
+        <p>
+          <alert>Level:</alert> :ember: Conjecture
+        </p>
+        <p>
+          <alert>PreTeXt-style label:</alert> <c>conjecture</c>
+        </p>
+        <p>
+          <alert>Interpretation</alert>
+          <p>"I suspect this may hold generally."</p>
+        </p>
+      </statement>
+    </conjecture>
+
+    <proposition>
+      <statement>
+        <p>
+          <alert>Level:</alert> Proposition
+        </p>
+        <p>
+          <alert>PreTeXt-style label:</alert> <c>proposition</c>
+        </p>
+        <p>
+          <alert>Interpretation</alert>
+          <p>"Given stated assumptions, this follows mathematically."</p>
+        </p>
+      </statement>
+    </proposition>
+
+    <hypothesis>
+      <statement>
+        <p>
+          <alert>Level:</alert> Scientific Hypothesis
+        </p>
+        <p>
+          <alert>PreTeXt-style label:</alert> <c>hypothesis</c>
+        </p>
+        <p>
+          <alert>Interpretation</alert>
+          <p>"This is a claim about a natural system that could be tested."</p>
+        </p>
+      </statement>
+    </hypothesis>
+
+    <assumption>
+      <statement>
+        <p>
+          <alert>Level:</alert> Assumption/Postulate
+        </p>
+        <p>
+          <alert>PreTeXt-style label:</alert> <c>assumption/axiom</c>
+        </p>
+        <p>
+          <alert>Interpretation</alert>
+          <p>"This is stipulated as foundational within the framework."</p>
+        </p>
+      </statement>
+    </assumption>
+
+    <axiom>
+      <statement>
+        <p>
+          <alert>Level:</alert> Axiom/Postulate
+        </p>
+        <p>
+          <alert>PreTeXt-style label:</alert> <c>axiom</c>
+        </p>
+        <p>
+          <alert>Interpretation</alert>
+          <p>"This is conventionally stipulated as foundational within the framework."</p>
+        </p>
+      </statement>
+    </axiom>
 </paragraphs>
