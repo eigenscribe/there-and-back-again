@@ -2,15 +2,15 @@
 
 <paragraphs xml:id="para-function-space" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Function Space</title>
-  <idx>function space</idx>
 
-  <definition>
-      <statement>
-        <p>
-          A <term>function space</term> <m>\mathcal{F}</m> is a collection of functions <m>y\in\mathcal{F}</m> that share
-          the same domain and codomain, and specified mathematical properties.
-        </p>
-      </statement>
+  <definition xml:id="def-function-space">
+    <idx>function space</idx>
+    <statement>
+      <p>
+        A <term>function space</term> <m>\mathcal{F}</m> is a collection of functions <m>y\in\mathcal{F}</m> that share
+        the same domain and codomain, and specified mathematical properties.
+      </p>
+    </statement>
   </definition>
 
 </paragraphs>

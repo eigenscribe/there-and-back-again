@@ -181,31 +181,15 @@
     <row>
       <cell>
         <p>
-
+          <xref ref="def-variation" text="custom">Variation</xref>
         </p>
       </cell>
       <cell>
-        <m>  </m>
+        <m>y_\epsilon = y+\epsilon\eta</m>
       </cell>
       <cell>
         <p>
-
-        </p>
-      </cell>
-    </row>
-
-    <row>
-      <cell>
-        <p>
-
-        </p>
-      </cell>
-      <cell>
-        <m>  </m>
-      </cell>
-      <cell>
-        <p>
-
+          <m>\eta</m> is a direction in <xref ref="def-function-space" text="custom">function space</xref>
         </p>
       </cell>
     </row>
@@ -213,15 +197,31 @@
     <row>
       <cell>
         <p>
-
+          <xref ref="def-first-variation" text="custom">First variation</xref>
         </p>
       </cell>
       <cell>
-        <m>  </m>
+        <m>\delta\mathcal{J}=d\mathcal{J}[n]</m>
       </cell>
       <cell>
         <p>
+          Measures how the functional <m>\mathcal{J}</m> changes in the <m>\eta</m> direction
+        </p>
+      </cell>
+    </row>
 
+    <row>
+      <cell>
+        <p>
+          <term>Extremum</term>
+        </p>
+      </cell>
+      <cell>
+        <m>d\mathcal{J}[\eta]=0 \, \forall \, \eta</m>
+      </cell>
+      <cell>
+        <p>
+          No first-order change in any admissible direction
         </p>
       </cell>
     </row>

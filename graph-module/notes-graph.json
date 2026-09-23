@@ -573,6 +573,17 @@
       "color": "#9013fe"
     },
     {
+      "id": "def-function-space",
+      "title": "def-function-space",
+      "url": "para-function-space.html#def-function-space",
+      "tags": [
+        "function space"
+      ],
+      "description": "A function space \\mathcal{F} is a collection of functions y\\in\\mathcal{F} that share the same domain and codomain, an...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-differential-equations",
       "title": "Differential Equations",
       "url": "sec-differential-equations.html",
