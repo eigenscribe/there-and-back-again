@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-symplectic-geometry" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Symplectic Geometry</title>
+
+  <introduction>
+    :ember: This appendix will mainly serve as a 'mapping' from geometric algebra in a way that bests accommodates the author's
+    attempt to understand symplectic geometry as it relates to geometric algebra.
+  </introduction>
+
+  <xi:include href="subsec-2-forms.ptx"/>
+
+</section>

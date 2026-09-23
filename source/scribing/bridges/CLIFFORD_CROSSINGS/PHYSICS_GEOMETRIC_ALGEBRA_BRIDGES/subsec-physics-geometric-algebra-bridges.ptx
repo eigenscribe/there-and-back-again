@@ -10,7 +10,7 @@
   </introduction>
 
   <xi:include href="para-clifford-physics-concept-map.ptx" />
-  <xi:include href="para-wedge-product-and-angular-momentum.ptx" />
+  <xi:include href="WEDGE_PRODUCT_ANGULAR_MOMENTUM/para-wedge-product-and-angular-momentum.ptx" />
   <xi:include href="para-ga-uniform-b-field.ptx" />
 
 </subsection>

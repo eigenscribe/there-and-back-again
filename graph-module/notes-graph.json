@@ -730,6 +730,37 @@
       "color": "#9013fe"
     },
     {
+      "id": "sec-symplectic-geometry",
+      "title": "Symplectic Geometry",
+      "url": "sec-symplectic-geometry.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-2-forms",
+      "title": "2-Forms",
+      "url": "subsec-2-forms.html",
+      "tags": [
+        "2-form"
+      ],
+      "description": "For this definition, we assume \\mathbf{v}_1 and \\mathbf{v}_1 are both 2D vectors.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-2-form",
+      "title": "2-form",
+      "url": "subsec-2-forms.html#def-2-form",
+      "tags": [
+        "2-form"
+      ],
+      "description": "For this definition, we assume \\mathbf{v}_1 and \\mathbf{v}_1 are both 2D vectors.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-physical-properties",
       "title": "Physical Properties",
       "url": "sec-physical-properties.html",
@@ -1174,20 +1205,20 @@
       "color": "#50e3c2"
     },
     {
-      "id": "claim-wedge-product-angular-momentum",
-      "title": "Wedge Product and Angular Momentum",
-      "url": "para-wedge-product-and-angular-momentum.html#claim-wedge-product-angular-momentum",
-      "tags": [],
-      "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems.",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
       "id": "subsec-physics-and-geometric-algebra",
       "title": "Physics and Geometric Algebra Bridges",
       "url": "subsec-physics-and-geometric-algebra.html",
       "tags": [],
       "description": "The :logo: Eigenscribe \u00a9 methodology system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to r...",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
+      "id": "claim-wedge-product-angular-momentum",
+      "title": "Wedge Product and Angular Momentum",
+      "url": "para-wedge-product-and-angular-momentum.html#claim-wedge-product-angular-momentum",
+      "tags": [],
+      "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems.",
       "group": "bridges",
       "color": "#50e3c2"
     },

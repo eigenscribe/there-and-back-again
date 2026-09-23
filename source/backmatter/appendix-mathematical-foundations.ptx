@@ -11,5 +11,6 @@
     <xi:include href="MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/sec-differential-equations.ptx"/>
     <xi:include href="MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/sec-calculus-of-variations.ptx"/>
     <xi:include href="MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/sec-algebraic-structures.ptx"/>
+    <xi:include href="MATHEMATICAL_FOUNDATIONS/SYMPLECTIC_GEOMETRY/sec-symplectic-geometry.ptx"/>
 
 </appendix>
