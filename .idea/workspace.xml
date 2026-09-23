@@ -7,9 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration.">
-      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/tab-project-scaffolding.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/TERMINAL/PYTHON_PACKAGE_MANAGEMENT/sec-python-package-management.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries.">
+      <change afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/epistemic-statement-types.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/abbreviations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/abbreviations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="278" />
+    <option name="cachedIndexableFilesCount" value="284" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -41,61 +43,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000780035042" />
-      <entry key="MS500" value="1.0693937133710483" />
-      <entry key="S2" value="2.198843844568258" />
-      <entry key="S5" value="4.207983814532842" />
-      <entry key="S10" value="6.556398807969461" />
-      <entry key="S30" value="14.279995644949059" />
-      <entry key="S60" value="24.161506223099202" />
-      <entry key="M2" value="39.987147252302165" />
-      <entry key="M5" value="80.06633394379259" />
-      <entry key="M10" value="144.8585705158912" />
-      <entry key="M15" value="208.9445259308816" />
-      <entry key="M30" value="372.9238710439823" />
-      <entry key="H1" value="601.0819320600306" />
-      <entry key="H2" value="889.0301690863304" />
-      <entry key="H4" value="1410.9521625550624" />
-      <entry key="D1" value="5279.147209786028" />
-      <entry key="W1" value="24666.528221215467" />
+      <entry key="MS100" value="1.009823095754502" />
+      <entry key="MS500" value="1.4756099832326106" />
+      <entry key="S2" value="2.7435642834379217" />
+      <entry key="S5" value="4.688371669885089" />
+      <entry key="S10" value="6.610439536567874" />
+      <entry key="S30" value="12.759849078926507" />
+      <entry key="S60" value="22.66839048914124" />
+      <entry key="M2" value="47.164127446399895" />
+      <entry key="M5" value="126.73701243674395" />
+      <entry key="M10" value="222.5309579466846" />
+      <entry key="M15" value="284.20237091497506" />
+      <entry key="M30" value="404.0885901967857" />
+      <entry key="H1" value="608.906566978919" />
+      <entry key="H2" value="950.8163031960202" />
+      <entry key="H4" value="1528.5513048869204" />
+      <entry key="D1" value="5527.131959850231" />
+      <entry key="W1" value="25003.61914834404" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.150469930590778E-161" />
-      <entry key="S10" value="3.391857795649405E-81" />
-      <entry key="S30" value="1.5024946839514604E-27" />
-      <entry key="S60" value="3.87991490471941E-14" />
-      <entry key="M2" value="2.029749989772365E-7" />
-      <entry key="M5" value="0.0025957414932495566" />
-      <entry key="M10" value="0.06833713787868755" />
-      <entry key="M15" value="0.2079017474247809" />
-      <entry key="M30" value="0.640582480169581" />
-      <entry key="H1" value="1.1303267792659246" />
-      <entry key="H2" value="1.5328302650187824" />
-      <entry key="H4" value="2.0300961104458097" />
-      <entry key="D1" value="4.589878673603731" />
-      <entry key="W1" value="41.83915741219451" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="3.153623383175969E-278" />
+      <entry key="S30" value="3.1593931661607576E-93" />
+      <entry key="S60" value="5.626231084128118E-47" />
+      <entry key="M2" value="7.729301182240643E-24" />
+      <entry key="M5" value="7.023288562860952E-10" />
+      <entry key="M10" value="3.5546457165386434E-5" />
+      <entry key="M15" value="0.0013446765481576614" />
+      <entry key="M30" value="0.05151751451260903" />
+      <entry key="H1" value="0.3205486407245707" />
+      <entry key="H2" value="0.816279760035735" />
+      <entry key="H4" value="1.4814571003367403" />
+      <entry key="D1" value="4.355084834510902" />
+      <entry key="W1" value="41.52648115798434" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726557113935272" />
-      <entry key="MS500" value="1.0635144710750697" />
-      <entry key="S2" value="2.1955729071275325" />
-      <entry key="S5" value="4.205390621974918" />
-      <entry key="S10" value="6.554277055709791" />
-      <entry key="S30" value="14.278308319247229" />
-      <entry key="S60" value="24.16000884239257" />
-      <entry key="M2" value="39.98586157307461" />
-      <entry key="M5" value="80.06784355578183" />
-      <entry key="M10" value="144.92568412360154" />
-      <entry key="M15" value="209.15092499175233" />
-      <entry key="M30" value="373.5624305203096" />
-      <entry key="H1" value="602.2099380374436" />
-      <entry key="H2" value="890.5603525458894" />
-      <entry key="H4" value="1412.9791068111992" />
-      <entry key="D1" value="5283.735141422489" />
-      <entry key="W1" value="24708.366329551558" />
+      <entry key="MS100" value="0.9555460785270391" />
+      <entry key="MS500" value="1.460984523788776" />
+      <entry key="S2" value="2.7373336466850238" />
+      <entry key="S5" value="4.684480917717408" />
+      <entry key="S10" value="6.607825742438133" />
+      <entry key="S30" value="12.758081038881548" />
+      <entry key="S60" value="22.66643403396356" />
+      <entry key="M2" value="47.16126880647145" />
+      <entry key="M5" value="126.73359378267227" />
+      <entry key="M10" value="222.52817188744578" />
+      <entry key="M15" value="284.20140886869274" />
+      <entry key="M30" value="404.13850267117385" />
+      <entry key="H1" value="609.2256375683139" />
+      <entry key="H2" value="951.6307343369884" />
+      <entry key="H4" value="1530.0302344029894" />
+      <entry key="D1" value="5531.4851581549765" />
+      <entry key="W1" value="25045.14458265174" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -153,11 +155,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES\wedge-product-angular-momentum" />
       <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\GEOMETRIC_ALGEBRA\CLIFFORD_ALGEBRAS" />
       <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\PHYSICS_GEOMETRIC_ALGEBRA_BRIDGES" />
       <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS\GA_PHYSICS_CROSSINGS" />
       <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\scribing\bridges\CLIFFORD_CROSSINGS" />
-      <recent name="$PROJECT_DIR$/source/scribing/bridges/CONVENTION_STITCHING" />
     </key>
   </component>
   <component name="RunManager" selected="PowerShell.build.ps1 (1)">
@@ -202,22 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00251" summary="udated math notation conventions (reorganized and added a few items)">
-      <option name="closed" value="true" />
-      <created>1789334103267</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1789334103267</updated>
-    </task>
-    <task id="LOCAL-00252" summary="- context title font size adjustments &#10;- updated N_0 convention description in the mathematical notations conventions">
-      <option name="closed" value="true" />
-      <created>1789334330424</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
-      <option name="project" value="LOCAL" />
-      <updated>1789334330424</updated>
     </task>
     <task id="LOCAL-00253" summary="added a dedication section for Dad and listed Tolkien, Steve Brunton, and PreTeXt in an ordered list in the acknowledgments.">
       <option name="closed" value="true" />
@@ -595,7 +581,23 @@
       <option name="project" value="LOCAL" />
       <updated>1790116150824</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="Added &quot;Project Scaffolding&quot; table to Python Package Management, updated references, and adjusted workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1790116516272</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1790116516272</updated>
+    </task>
+    <task id="LOCAL-00301" summary="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries.">
+      <option name="closed" value="true" />
+      <created>1790122869586</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1790122869586</updated>
+    </task>
+    <option name="localTasksCounter" value="302" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,8 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="took years alive out of subsection titles for significant figures subsections" />
-    <MESSAGE value="code block copy icon changed" />
     <MESSAGE value="Added &quot;Clifford Crossings&quot; subsection with definitions and descriptions; updated notes graph with new node and prerequisites; upgraded PreTeXt dependencies." />
     <MESSAGE value="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph." />
     <MESSAGE value="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links." />
@@ -638,6 +638,8 @@
     <MESSAGE value="Added &quot;Virtual Environments&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;Python Version Management&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
+    <MESSAGE value="Added &quot;Project Scaffolding&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
+    <MESSAGE value="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries." />
   </component>
 </project>

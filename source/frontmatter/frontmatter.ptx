@@ -79,6 +79,7 @@
   <preface xml:id="conventions">
     <title>Conventions</title>
 
+    <xi:include href="./CONVENTIONS/epistemic-statement-types.ptx"/>
     <xi:include href="./CONVENTIONS/math-notation.ptx"/>
     <xi:include href="./CONVENTIONS/abbreviations.ptx"/>
     <xi:include href="./CONVENTIONS/icons.ptx"/>
