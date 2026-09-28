@@ -101,15 +101,15 @@
     <row>
       <cell>
         <p>
-
+          Hamiltonian generates motion
         </p>
       </cell>
       <cell>
-        <m>  </m>
+        <m> \dot{A} = \{A, H\} </m>
       </cell>
       <cell>
         <p>
-
+          <m>H</m> generates time evolution
         </p>
       </cell>
     </row>
@@ -117,15 +117,15 @@
     <row>
       <cell>
         <p>
-
+          Hamiltonian vector field
         </p>
       </cell>
       <cell>
-        <m>  </m>
+        <m> X_H = \dot{q}\mathbf{e}_q + \dot{p}\mathbf{e}_p </m>
       </cell>
       <cell>
         <p>
-
+          The direction of Hamiltonian motion
         </p>
       </cell>
     </row>
