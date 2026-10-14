@@ -9,6 +9,7 @@
     </p>
   </introduction>
 
-  <xi:include href="finite-difference.ptx"/>
+  <xi:include href="subsec-numerical-methods-nomenclature.ptx"/>
+  <xi:include href="subsec-finite-difference.ptx"/>
 
 </section>

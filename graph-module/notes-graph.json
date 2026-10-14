@@ -255,9 +255,20 @@
       "color": "#f59e0b"
     },
     {
-      "id": "finite-difference-comparison",
-      "title": "Comparison of Finite Difference Scheme Properties",
-      "url": "finite-difference-comparison.html",
+      "id": "subsec-numerical-methods",
+      "title": "Numerical Methods",
+      "url": "subsec-numerical-methods.html",
+      "tags": [
+        "numerical methods methods"
+      ],
+      "description": "Numerical methods hurt my head. \ud83e\udd2f",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "sub-finite-difference",
+      "title": "Finite Difference Schemes",
+      "url": "sub-finite-difference.html",
       "tags": [
         "backward difference",
         "central difference",
@@ -268,13 +279,55 @@
       "color": "#9013fe"
     },
     {
-      "id": "subsec-numerical-methods",
-      "title": "Numerical Methods",
-      "url": "subsec-numerical-methods.html",
+      "id": "subsec-numerical-methods-nomenclature",
+      "title": "Nomenclature",
+      "url": "subsec-numerical-methods-nomenclature.html",
       "tags": [
-        "numerical methods methods"
+        "consistency",
+        "convergence",
+        "differential equations",
+        "lax equivalence theorem",
+        "numerical analysis",
+        "numerical methods",
+        "stability"
       ],
-      "description": "Numerical methods hurt my head. \ud83e\udd2f",
+      "description": "2026101400 | numerical methods, differential equations, numerical analysis",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-numerical-consistency",
+      "title": "Consistency",
+      "url": "subsec-numerical-methods-nomenclature.html#def-numerical-consistency",
+      "tags": [],
+      "description": "A numerical scheme is said to be consistent with respect to a differential equation if the local truncation error \\ta...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-numerical-stability",
+      "title": "Stability",
+      "url": "subsec-numerical-methods-nomenclature.html#def-numerical-stability",
+      "tags": [],
+      "description": "A numerical scheme is said to be stable if small perturbations (e.g., round-off errors, small fluctuations in initial...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-numerical-convergence",
+      "title": "Convergence",
+      "url": "subsec-numerical-methods-nomenclature.html#def-numerical-convergence",
+      "tags": [],
+      "description": "A numerical method is said to be convergent if the global error between the ground truth analytical/continuous soluti...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "thm-lax-equivalence",
+      "title": "Lax Equivalence Theorem (Lax-Richtmyer)",
+      "url": "subsec-numerical-methods-nomenclature.html#thm-lax-equivalence",
+      "tags": [],
+      "description": "For a well-posed linear initial value problem, a continuous finite difference approximation is said to be convergent ...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -1699,6 +1752,18 @@
     {
       "source": "gls-variational-mechanics",
       "target": "def-stationary",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "subsec-numerical-methods-nomenclature",
+      "target": "sub-finite-difference",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-numerical-consistency",
+      "target": "def-accuracy",
       "type": "reference",
       "weight": 2
     },

@@ -7,12 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="adding cells to @table-conceptual-dictionary.ptx">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated intro section for kuramoto and geometric bridge subsection">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/subsec-numerical-methods-nomenclature.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.junie/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/.junie/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/KURAMOTO_GEOMETRIC_ALGEBRA_REPRESENTATION/subsec-kuramoto-geometric-algebra-representation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/CLIFFORD_CROSSINGS/KURAMOTO_GEOMETRIC_ALGEBRA_REPRESENTATION/subsec-kuramoto-geometric-algebra-representation.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tse-landing-page/assets/images/wisp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/finite-difference.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/subsec-finite-difference.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/sec-numerical-methods.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/sec-numerical-methods.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.045199547049203" />
-      <entry key="MS500" value="1.7452801110214775" />
-      <entry key="S2" value="2.5315818690750995" />
-      <entry key="S5" value="2.850693480611551" />
-      <entry key="S10" value="3.67646106758324" />
-      <entry key="S30" value="11.586721118194617" />
-      <entry key="S60" value="26.875547803946585" />
-      <entry key="M2" value="57.26513307247065" />
-      <entry key="M5" value="126.89354817292244" />
-      <entry key="M10" value="200.80110104697917" />
-      <entry key="M15" value="257.10740598883154" />
-      <entry key="M30" value="402.8770899242192" />
-      <entry key="H1" value="676.5967655291511" />
-      <entry key="H2" value="1173.9554967662082" />
-      <entry key="H4" value="1968.7101516990708" />
-      <entry key="D1" value="6481.014504038155" />
-      <entry key="W1" value="26239.996152648608" />
+      <entry key="MS100" value="1.000000000000352" />
+      <entry key="MS500" value="1.0032350652410074" />
+      <entry key="S2" value="1.3424367890356723" />
+      <entry key="S5" value="2.760437899153046" />
+      <entry key="S10" value="5.4915749758196535" />
+      <entry key="S30" value="15.456049778613242" />
+      <entry key="S60" value="23.485671590969993" />
+      <entry key="M2" value="30.897732476855413" />
+      <entry key="M5" value="61.15092420824555" />
+      <entry key="M10" value="138.4820441403669" />
+      <entry key="M15" value="216.49325062370477" />
+      <entry key="M30" value="425.45131273294186" />
+      <entry key="H1" value="779.4280584309881" />
+      <entry key="H2" value="1369.478312500321" />
+      <entry key="H4" value="2284.8027078506157" />
+      <entry key="D1" value="7107.73526712305" />
+      <entry key="W1" value="27026.906378602853" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -68,37 +68,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="8.402179563844074E-249" />
-      <entry key="S60" value="9.175119047105322E-125" />
-      <entry key="M2" value="9.87045792405519E-63" />
-      <entry key="M5" value="1.9454467182512164E-25" />
-      <entry key="M10" value="5.916103133293901E-13" />
-      <entry key="M15" value="8.765515057154433E-9" />
-      <entry key="M30" value="1.3153299432012622E-4" />
-      <entry key="H1" value="0.01619697239393565" />
-      <entry key="H2" value="0.18348855448195878" />
-      <entry key="H4" value="0.7023831030902636" />
-      <entry key="D1" value="3.8457181195851855" />
-      <entry key="W1" value="40.795109890649385" />
+      <entry key="S30" value="4.7664247E-317" />
+      <entry key="S60" value="6.910541535160544E-159" />
+      <entry key="M2" value="8.566185768211146E-80" />
+      <entry key="M5" value="2.9133953022985945E-32" />
+      <entry key="M10" value="2.2894215879695624E-16" />
+      <entry key="M15" value="4.6548332907804366E-11" />
+      <entry key="M30" value="9.585130997313446E-6" />
+      <entry key="H1" value="0.004372355996239626" />
+      <entry key="H2" value="0.09533443910626693" />
+      <entry key="H4" value="0.5062843158610029" />
+      <entry key="D1" value="3.6415045046992" />
+      <entry key="W1" value="40.478357265086395" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9670677430663993" />
-      <entry key="MS500" value="1.7166362845919245" />
-      <entry key="S2" value="2.521639303163357" />
-      <entry key="S5" value="2.8463331751075844" />
-      <entry key="S10" value="3.673914162437106" />
-      <entry key="S30" value="11.58466538494241" />
-      <entry key="S60" value="26.873248565131526" />
-      <entry key="M2" value="57.262665356821806" />
-      <entry key="M5" value="126.8912555987845" />
-      <entry key="M10" value="200.79852359143197" />
-      <entry key="M15" value="257.1045015577375" />
-      <entry key="M30" value="402.87425710201256" />
-      <entry key="H1" value="676.6104853689071" />
-      <entry key="H2" value="1174.1368894945613" />
-      <entry key="H4" value="1969.4102953649704" />
-      <entry key="D1" value="6484.858341726265" />
-      <entry key="W1" value="26280.790202227465" />
+      <entry key="MS100" value="0.9592641193256043" />
+      <entry key="MS500" value="0.994929441342168" />
+      <entry key="S2" value="1.3397434902755312" />
+      <entry key="S5" value="2.7581828916167543" />
+      <entry key="S10" value="5.489126549727776" />
+      <entry key="S30" value="15.453619317536184" />
+      <entry key="S60" value="23.483832013736674" />
+      <entry key="M2" value="30.896437767116275" />
+      <entry key="M5" value="61.146306797387474" />
+      <entry key="M10" value="138.472067335292" />
+      <entry key="M15" value="216.48200857811375" />
+      <entry key="M30" value="425.4414032288692" />
+      <entry key="H1" value="779.4252690360986" />
+      <entry key="H2" value="1369.5687707195475" />
+      <entry key="H4" value="2285.3053265646354" />
+      <entry key="D1" value="7111.374624896429" />
+      <entry key="W1" value="27067.383630853088" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -205,14 +205,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00256" summary="added a geometric dictionary table to the convention stitching section for symplectic and calculus of variations section">
-      <option name="closed" value="true" />
-      <created>1789342400253</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1789342400253</updated>
     </task>
     <task id="LOCAL-00257" summary="started writing the second table in the symplectic geometry and calculus of variation convention stitching section">
       <option name="closed" value="true" />
@@ -598,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790165808951</updated>
     </task>
-    <option name="localTasksCounter" value="305" />
+    <task id="LOCAL-00305" summary="updated intro section for kuramoto and geometric bridge subsection">
+      <option name="closed" value="true" />
+      <created>1791970799974</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1791970799975</updated>
+    </task>
+    <option name="localTasksCounter" value="306" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,7 +616,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references." />
     <MESSAGE value="edited remark in lioville's identity theorem" />
     <MESSAGE value="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions" />
     <MESSAGE value="Refined CSS styling for mathematical elements by consolidating selectors, enhancing readability, and adding drop-shadow effects. Updated deployment workflow to include Python setup and dependency installation." />
@@ -641,6 +640,7 @@
     <MESSAGE value="concept stitching and updated the conventions" />
     <MESSAGE value="added content to @para epistemic statement types" />
     <MESSAGE value="adding cells to @table-conceptual-dictionary.ptx" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding cells to @table-conceptual-dictionary.ptx" />
+    <MESSAGE value="updated intro section for kuramoto and geometric bridge subsection" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated intro section for kuramoto and geometric bridge subsection" />
   </component>
 </project>

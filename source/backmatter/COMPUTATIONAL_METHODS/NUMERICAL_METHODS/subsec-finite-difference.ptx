@@ -1,5 +1,7 @@
-<subsection xml:id="finite-difference-comparison">
-  <title>Comparison of Finite Difference Scheme Properties</title>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sub-finite-difference" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Finite Difference Schemes</title>
   <idx>forward difference</idx>
   <idx>backward difference</idx>
   <idx>central difference</idx>

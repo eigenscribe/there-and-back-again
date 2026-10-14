@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-numerical-methods-nomenclature" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Nomenclature</title>
+
+  <introduction>
+    <p>
+      <tag>2026101400</tag> | <tag>numerical methods</tag>, <tag>differential equations</tag>, <tag>numerical analysis</tag>
+    </p>
+  </introduction>
+
+
+
+  <paragraphs xml:id="para-numerical-consistency-stability-convergence">
+    <title>Consistency, Stability, and Convergence</title>
+
+    <idx><term>consistency</term></idx>
+    <idx><term>stability</term></idx>
+    <idx><term>convergence</term></idx>
+    <idx><term>Lax equivalence theorem</term></idx>
+
+    <p>
+      Whenever we approximate differential equations (ODEs and PDEs) via numerical discretization (e.g.,
+      <xref ref="sub-finite-difference" text="custom">finite differences</xref>), we can think about the accuracy of the
+      simulated solution with respect to the ground truth continuous solution using three fundamental concepts:
+    </p>
+
+    <definition xml:id="def-numerical-consistency">
+      <title>Consistency</title>
+      <statement>
+        <p>
+          A numerical scheme is said to be <term>consistent</term> with respect to a differential equation if the local
+          truncation error <m>\tau(\Delta t, \Delta x)</m> vanishes to zero as the discretization step sizes tend
+          towards zero:
+          <me>
+            \lim_{\Delta t, \Delta x \to 0} \tau(\Delta t, \Delta x) = 0
+          </me>
+        </p>
+      </statement>
+      <remark>
+        <p>
+          Consistency is a measure of how <xref ref="def-accuracy" text="custom">accurately</xref> a discretization
+          scheme approximates the exact, smooth analytical solution. Specifically, given
+          <me>\tau = \operatorname{O}(\Delta t^p) + \operatorname{O}(\Delta x^q)</me>, the scheme is then said to be
+          <em>consistent</em> with order <m>p</m> in <m>t</m> and order <m>n</m> in <m>x</m>.
+        </p>
+      </remark>
+    </definition>
+
+    <definition xml:id="def-numerical-stability">
+      <title>Stability</title>
+      <statement>
+        <p>
+          A numerical scheme is said to be <term>stable</term> if small perturbations (e.g., round-off errors, small
+          fluctuations in initial/boundary data) remain bounded and do not blow up towards infinity as the scheme
+          advances.
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="def-numerical-convergence">
+      <title>Convergence</title>
+      <statement>
+        A numerical method is said to be <term>convergent</term> if the <em>global error</em> between the ground truth
+        analytical/continuous solution <m>u(x,t)</m> and the numerical approximation <m>u_j^n</m> tends to zero at
+        any fixed point <m>(x,t)</m> as the grid spacings are decreased towards zero:
+        <me>
+          \lim_{\Delta t, \Delta x \to 0} \| u(\cdot, t_n) - u^n \| = 0
+        </me>
+      </statement>
+    </definition>
+
+    <theorem xml:id="thm-lax-equivalence">
+      <title>Lax Equivalence Theorem (Lax-Richtmyer)</title>
+      <statement>
+        <p>
+          For a <em>well-posed linear initial value problem</em>, a continuous finite difference approximation is said
+          to be convergent if and only if it is both consistent and stable.
+        </p>
+      </statement>
+    </theorem>
+
+    <table xml:id="tab-consistency-stability-convergence-comparison">
+      <title>Comparison of Numerical Scheme Foundations</title>
+      <tabular>
+        <row header="yes" bottom="medium">
+          <cell>Property</cell>
+          <cell>Question Answered</cell>
+          <cell>Evaluation Target</cell>
+          <cell>Common Diagnostic Tool</cell>
+        </row>
+        <row bottom="minor">
+          <cell><term>Consistency</term></cell>
+          <cell>Does the discrete formulation of the PDE match the analytical ground truth PDE in the limit?</cell>
+          <cell>Local Truncation Error (<m>\tau</m>) on exact solution</cell>
+          <cell>Taylor series expansion</cell>
+        </row>
+        <row bottom="minor">
+          <cell><term>Stability</term></cell>
+          <cell>Do numerical errors and perturbations remain bounded?</cell>
+          <cell>Growth factor of numerical modes / perturbation propagation</cell>
+          <cell>Von Neumann analysis, Matrix eigenvalues, CFL condition</cell>
+        </row>
+        <row>
+          <cell><term>Convergence</term></cell>
+          <cell>Does the computed simulation approach the ground truth analytical solution?</cell>
+          <cell>Global error (<m>\epsilon_j^n = u(x_j, t_n) - u_j^n</m>)</cell>
+          <cell>Lax Equivalence Theorem (well-posed linear systems only), grid refinement studies</cell>
+        </row>
+      </tabular>
+    </table>
+  </paragraphs>
+
+</subsection>
