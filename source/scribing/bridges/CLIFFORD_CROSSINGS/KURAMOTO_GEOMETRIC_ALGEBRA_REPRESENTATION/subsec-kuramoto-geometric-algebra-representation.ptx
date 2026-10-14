@@ -6,8 +6,15 @@
 
    <introduction>
      <p>
-       Construction notes for crossings within the even subalgebra of <m>\mathrm{Cl}(2)</m>. Here, we aim to
-       demonstrate how l
+       We can use geometric algebra to mathematically represent and simulate the Kuramoto model.
+       This turns out not to just be an exercise in flexing geometric algebra muscles, but it has potential applications
+       in developing integration schemes for the Kuramoto model that outperform the more common numerical integration
+       methods like rk45.
+     </p>
+     <p>
+       In the context of this corner of :logo: <em> There and Back Again </em>, my goal is to spend time formulating these connections in a way that is meant to get
+       gets my GA neurons dusted out and in shape. My hope is to find myself building a bridge in the quantum comptuing
+       direction through this process. 🔮
      </p>
    </introduction>
 

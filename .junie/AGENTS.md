@@ -27,7 +27,7 @@ The project is an interactive mathematical knowledge base and networked Zettelka
 - **Shell**: PowerShell (Windows) or Bash/Zsh (Linux/macOS)
 
 ### Environment Setup
-Activate the virtual environment:
+Activate or sync the virtual environment:
 ```powershell
 # Using uv (recommended)
 uv sync
