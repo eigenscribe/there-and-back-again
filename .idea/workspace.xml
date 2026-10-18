@@ -8,11 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated intro section for kuramoto and geometric bridge subsection">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/subsec-numerical-methods-nomenclature.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/finite-difference.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/subsec-finite-difference.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/sec-numerical-methods.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/sec-numerical-methods.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="277" />
+    <option name="cachedIndexableFilesCount" value="293" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
