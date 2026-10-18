@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="app-quantum-computing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quantum Computing</title>
+  <introduction>
+    This is meant to be a light glossary for introductory quantum computing. Hopefully, it will evolve into something a
+    bit more elegant.
+  </introduction>
+
+  <xi:include href="QUANTUM_COMPUTING/QUANTUM_GATES/sec-quantum-gates.ptx"/>
+
+</appendix>

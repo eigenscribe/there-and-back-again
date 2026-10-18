@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="tab-single-qubit-gates" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Single-Qubit Gates</title>
+
+  <tabular bottom="minor" top="minor" left="minor" right="minor">
+    <col width="40%"/>
+    <col width="30%"/>
+    <col width="30%"/>
+    <row header="yes">
+      <cell>Gate</cell>
+      <cell>Matrix Representation</cell>
+      <cell>Action on Computational Basis</cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+          <alert>Identity</alert>
+        </p>
+      </cell>
+      <cell>
+        <p>
+          <md>
+            I = \begin{pmatrix} 1 \amp 0 \\ 0 \amp 1 \end{pmatrix}
+          </md>
+        </p>
+      </cell>
+      <cell>
+        <p>
+          <md>
+            <mrow>I\ket{0} = \ket{0}</mrow>
+            <mrow>I\ket{1} = \ket{1}</mrow>
+          </md>
+        </p>
+      </cell>
+    </row>
+
+  </tabular>
+</table>

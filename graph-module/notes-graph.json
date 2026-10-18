@@ -65,6 +65,15 @@
       "color": "#9013fe"
     },
     {
+      "id": "app-quantum-computing",
+      "title": "Quantum Computing",
+      "url": "app-quantum-computing.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "gls-main",
       "title": "Glossary",
       "url": "gls-main.html",
@@ -969,6 +978,24 @@
         "microstate"
       ],
       "description": "A microstate is a complete microscopic description of a physical system that specifies the state of every constituent...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "sec-quantum-gates",
+      "title": "Quantum Gates",
+      "url": "sec-quantum-gates.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-single-qubit-gates",
+      "title": "Single Qubit Quantum Gates",
+      "url": "subsec-single-qubit-gates.html",
+      "tags": [],
+      "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },

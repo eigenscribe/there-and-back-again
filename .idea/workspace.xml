@@ -7,8 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="updated intro section for kuramoto and geometric bridge subsection">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined workspace configuration and updated cached indexable files count.">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/QUANTUM_COMPUTING/QUANTUM_GATES/SINGLE_QUBIT_GATES/single-qubit-gates.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/QUANTUM_COMPUTING/QUANTUM_GATES/SINGLE_QUBIT_GATES/table-single-qubit-gates.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/QUANTUM_COMPUTING/QUANTUM_GATES/sec-quantum-gates.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/appendix-quantum-computing.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +141,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.tbe.client.settings.TbeApplicationConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -152,11 +158,11 @@
       <recent name="$PROJECT_DIR$/assets/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sofia\PycharmProjects\there-and-back-again\source\backmatter\QUANTUM_COMPUTING\QUANTUM_GATES\ONE_QUBIT_GATES" />
       <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION" />
       <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ORIGINAL_CARTESIAN_MECHANICS" />
       <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ANALYTICAL_AND_CLASSICAL_MECHANICS" />
       <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/NOTATION_FOUNDATIONS/DISCRETE_MATH_AND_SETS" />
-      <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/DISCRETE_MATHEMATICS_AND_SET_THEORY" />
     </key>
   </component>
   <component name="RunManager" selected="PowerShell.build.ps1 (1)">
@@ -201,14 +207,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00257" summary="started writing the second table in the symplectic geometry and calculus of variation convention stitching section">
-      <option name="closed" value="true" />
-      <created>1789342546787</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1789342546787</updated>
     </task>
     <task id="LOCAL-00258" summary="toc text color changed to a blue-to-purple gradient depending on 'level' of toc">
       <option name="closed" value="true" />
@@ -594,7 +592,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791970799975</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="Refined workspace configuration and updated cached indexable files count.">
+      <option name="closed" value="true" />
+      <created>1792361370828</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1792361370828</updated>
+    </task>
+    <option name="localTasksCounter" value="307" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edited remark in lioville's identity theorem" />
     <MESSAGE value="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions" />
     <MESSAGE value="Refined CSS styling for mathematical elements by consolidating selectors, enhancing readability, and adding drop-shadow effects. Updated deployment workflow to include Python setup and dependency installation." />
     <MESSAGE value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
@@ -637,6 +642,7 @@
     <MESSAGE value="added content to @para epistemic statement types" />
     <MESSAGE value="adding cells to @table-conceptual-dictionary.ptx" />
     <MESSAGE value="updated intro section for kuramoto and geometric bridge subsection" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated intro section for kuramoto and geometric bridge subsection" />
+    <MESSAGE value="Refined workspace configuration and updated cached indexable files count." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined workspace configuration and updated cached indexable files count." />
   </component>
 </project>
