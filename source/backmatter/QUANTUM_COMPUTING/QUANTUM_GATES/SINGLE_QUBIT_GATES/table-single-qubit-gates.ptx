@@ -5,8 +5,8 @@
 
   <tabular bottom="minor" top="minor" left="minor" right="minor">
     <col width="40%"/>
-    <col width="30%"/>
-    <col width="30%"/>
+    <col width="30%" halign="center"/>
+    <col width="30%" halign="center"/>
     <row header="yes">
       <cell>Gate</cell>
       <cell>Matrix Representation</cell>
@@ -20,21 +20,96 @@
         </p>
       </cell>
       <cell>
-        <p>
-          <md>
-            I = \begin{pmatrix} 1 \amp 0 \\ 0 \amp 1 \end{pmatrix}
-          </md>
-        </p>
+        <md>
+          I = \begin{pmatrix} 1 \amp 0 \\ 0 \amp 1 \end{pmatrix}
+        </md>
       </cell>
       <cell>
-        <p>
-          <md>
-            <mrow>I\ket{0} = \ket{0}</mrow>
-            <mrow>I\ket{1} = \ket{1}</mrow>
-          </md>
-        </p>
+        <md>
+          <mrow>I\ket{0} = \ket{0}</mrow>
+          <mrow>I\ket{1} = \ket{1}</mrow>
+        </md>
       </cell>
     </row>
-
+    <row>
+      <cell>
+        <alert>Pauli <m>X</m> (NOT)</alert>
+      </cell>
+      <cell>
+        <md>
+            X = \begin{pmatrix} 0 \amp 1 \\ 1 \amp 0 \end{pmatrix}
+        </md>
+      </cell>
+      <cell>
+        <md>
+          <mrow>X\ket{0} = \ket{1}</mrow>
+          <mrow>X\ket{1} = \ket{0}</mrow>
+        </md>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <alert>Pauli <m>Y</m></alert>
+      </cell>
+      <cell>
+        <md>
+            X = \begin{pmatrix} 0 \amp i \\ -i \amp 0 \end{pmatrix}
+        </md>
+      </cell>
+      <cell>
+        <md>
+          <mrow>Y\ket{0} = i\ket{1}</mrow>
+          <mrow>Y\ket{1} = -i\ket{0}</mrow>
+        </md>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <alert>Pauli <m>Z</m></alert>
+      </cell>
+      <cell>
+        <md>
+            Z = \begin{pmatrix} 1 \amp 0 \\ 0 \amp -1 \end{pmatrix}
+        </md>
+      </cell>
+      <cell>
+        <md>
+          <mrow>Z\ket{0} = \ket{0}</mrow>
+          <mrow>Z\ket{1} = -\ket{1}</mrow>
+        </md>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <alert>Phase <m>S</m></alert>
+      </cell>
+      <cell>
+        <md>
+            S = \begin{pmatrix} 1 \amp 0 \\ 0 \amp i \end{pmatrix}
+        </md>
+      </cell>
+      <cell>
+        <md>
+          <mrow>S\ket{0} = \ket{0}</mrow>
+          <mrow>S\ket{1} = i\ket{1}</mrow>
+        </md>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>T</m>
+      </cell>
+      <cell>
+        <md>
+          T = \begin{pmatrix} 0 \amp 0 \\ 0 \amp e^{i\frac{\pi}{4}} \end{pmatrix}
+        </md>
+      </cell>
+      <cell>
+        <md>
+          <mrow>T\ket{0} = \ket{0}</mrow>
+          <mrow>T\ket{1} = e^{i\frac{\pi}{4}}\ket{1}</mrow>
+        </md>
+      </cell>
+    </row>
   </tabular>
 </table>

@@ -7,14 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Refined workspace configuration and updated cached indexable files count.">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/QUANTUM_COMPUTING/QUANTUM_GATES/SINGLE_QUBIT_GATES/single-qubit-gates.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/QUANTUM_COMPUTING/QUANTUM_GATES/SINGLE_QUBIT_GATES/table-single-qubit-gates.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/QUANTUM_COMPUTING/QUANTUM_GATES/sec-quantum-gates.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/appendix-quantum-computing.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Quantum Computing&quot; appendix with &quot;Quantum Gates&quot; section, including &quot;Single Qubit Gates&quot; table; updated workspace configuration and graph-module references.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/backmatter.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/QUANTUM_COMPUTING/QUANTUM_GATES/SINGLE_QUBIT_GATES/table-single-qubit-gates.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/QUANTUM_COMPUTING/QUANTUM_GATES/SINGLE_QUBIT_GATES/table-single-qubit-gates.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00258" summary="toc text color changed to a blue-to-purple gradient depending on 'level' of toc">
-      <option name="closed" value="true" />
-      <created>1789359520030</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1789359520030</updated>
     </task>
     <task id="LOCAL-00259" summary="added significant figure sections for joseph liouville and josiah gibbs">
       <option name="closed" value="true" />
@@ -600,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792361370828</updated>
     </task>
-    <option name="localTasksCounter" value="307" />
+    <task id="LOCAL-00307" summary="Added &quot;Quantum Computing&quot; appendix with &quot;Quantum Gates&quot; section, including &quot;Single Qubit Gates&quot; table; updated workspace configuration and graph-module references.">
+      <option name="closed" value="true" />
+      <created>1792366298802</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1792366298802</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reordered nodes in notes-graph for improved organization and corrected misplaced descriptions" />
     <MESSAGE value="Refined CSS styling for mathematical elements by consolidating selectors, enhancing readability, and adding drop-shadow effects. Updated deployment workflow to include Python setup and dependency installation." />
     <MESSAGE value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
     <MESSAGE value="corrected eta(x) entry in geometric dictionary" />
@@ -643,6 +637,7 @@
     <MESSAGE value="adding cells to @table-conceptual-dictionary.ptx" />
     <MESSAGE value="updated intro section for kuramoto and geometric bridge subsection" />
     <MESSAGE value="Refined workspace configuration and updated cached indexable files count." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined workspace configuration and updated cached indexable files count." />
+    <MESSAGE value="Added &quot;Quantum Computing&quot; appendix with &quot;Quantum Gates&quot; section, including &quot;Single Qubit Gates&quot; table; updated workspace configuration and graph-module references." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Quantum Computing&quot; appendix with &quot;Quantum Gates&quot; section, including &quot;Single Qubit Gates&quot; table; updated workspace configuration and graph-module references." />
   </component>
 </project>
