@@ -12,6 +12,11 @@
     <definition xml:id="def-dirac-delta-distribution">
       <title>Dirac delta distribution</title>
 
+      <notation>
+        <usage><m>\delta(t)</m></usage>
+        <description>The Dirac delta function</description>
+      </notation>
+
         <p>
           The <term>Dirac delta distribution</term> <m>\delta(x)</m>is a generalized distribution that equals zero everywhere
           except at the point <m>x=0</m> with a total area of one:

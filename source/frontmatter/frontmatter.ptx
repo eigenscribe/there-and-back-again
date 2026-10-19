@@ -86,6 +86,11 @@
 
   </preface>
 
+  <!-- 4. Notations -->
+  <preface xml:id="notations">
+    <notation-list />
+  </preface>
+
   <!-- 3. Acknowledgements -->
   <preface xml:id="acknowledgements">
     <title>Acknowledgements</title>

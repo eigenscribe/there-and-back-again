@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-structures" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Discrete Structures Notation</title>
+
+
+    <notation-list>
+      <notation>
+        <idx>sets</idx>
+        <usage>
+          <m>
+            X = \{x_1, x_2, \dots \}
+          </m>
+        </usage>
+        <description>
+          A <term>Set</term> is an <em>unordered</em> collection of <em>distinct elements</em>.
+        </description>
+      </notation>
+
+      <notation>
+        <idx>sequences</idx>
+        <usage>
+          <m>
+            (s_1, s_2, s_3, \dots )
+          </m>
+        </usage>
+        <description>
+          A <term>Sequence</term> is an <em>ordered mapping</em> from an index space to a state space,
+          allowing repeatable elements.
+        </description>
+      </notation>
+
+      <notation>
+        <idx>lists</idx>
+        <usage>
+          <m>
+            [x_1, x_2, x_3, \dots x_k]
+          </m>
+        </usage>
+        <description>
+          A <term>List</term> is an strictly <em>finite</em> sequence.
+        </description>
+      </notation>
+    </notation-list>
+ </subsection>

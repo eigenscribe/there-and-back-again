@@ -7,10 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Quantum Computing&quot; appendix with &quot;Quantum Gates&quot; section, including &quot;Single Qubit Gates&quot; table; updated workspace configuration and graph-module references.">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/sec-discrete-math.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added a discrete math section to the mathematical foundations appendix">
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/NOMENCLATURE/DISCRETE_STRUCTURES/para-discrete-structures.ptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/NOMENCLATURE/subsec-nomenclature.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/SIGNAL_ANALYSIS/LINEAR_TIME_INVARIANT_SYSTEMS/dirac-delta-lti-systems.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/SIGNAL_ANALYSIS/LINEAR_TIME_INVARIANT_SYSTEMS/dirac-delta-lti-systems.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/DIRAC_DELTA/dirac-delta-overview.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/DIRAC_DELTA/dirac-delta-overview.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/sec-discrete-math.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/sec-discrete-math.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,14 +208,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00259" summary="added significant figure sections for joseph liouville and josiah gibbs">
-      <option name="closed" value="true" />
-      <created>1789374155214</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1789374155214</updated>
     </task>
     <task id="LOCAL-00260" summary="typo that created a build error">
       <option name="closed" value="true" />
@@ -597,7 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792366298802</updated>
     </task>
-    <option name="localTasksCounter" value="308" />
+    <task id="LOCAL-00308" summary="added a discrete math section to the mathematical foundations appendix">
+      <option name="closed" value="true" />
+      <created>1792390387950</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1792390387951</updated>
+    </task>
+    <option name="localTasksCounter" value="309" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refined CSS styling for mathematical elements by consolidating selectors, enhancing readability, and adding drop-shadow effects. Updated deployment workflow to include Python setup and dependency installation." />
     <MESSAGE value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
     <MESSAGE value="corrected eta(x) entry in geometric dictionary" />
     <MESSAGE value="reduyced glow on math equations" />
@@ -640,6 +643,7 @@
     <MESSAGE value="updated intro section for kuramoto and geometric bridge subsection" />
     <MESSAGE value="Refined workspace configuration and updated cached indexable files count." />
     <MESSAGE value="Added &quot;Quantum Computing&quot; appendix with &quot;Quantum Gates&quot; section, including &quot;Single Qubit Gates&quot; table; updated workspace configuration and graph-module references." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Quantum Computing&quot; appendix with &quot;Quantum Gates&quot; section, including &quot;Single Qubit Gates&quot; table; updated workspace configuration and graph-module references." />
+    <MESSAGE value="added a discrete math section to the mathematical foundations appendix" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a discrete math section to the mathematical foundations appendix" />
   </component>
 </project>

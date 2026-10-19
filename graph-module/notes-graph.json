@@ -435,6 +435,28 @@
       "color": "#9013fe"
     },
     {
+      "id": "sec-discrete-structures-nomenclature",
+      "title": "Nomenclature",
+      "url": "sec-discrete-structures-nomenclature.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-structures",
+      "title": "Discrete Structures Notation",
+      "url": "subsec-structures.html",
+      "tags": [
+        "lists",
+        "sequences",
+        "sets"
+      ],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-algebraic-structures",
       "title": "Algebraic Structures",
       "url": "sec-algebraic-structures.html",

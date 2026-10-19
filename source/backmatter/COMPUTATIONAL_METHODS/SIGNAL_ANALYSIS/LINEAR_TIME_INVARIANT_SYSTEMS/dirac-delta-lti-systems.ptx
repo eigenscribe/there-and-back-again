@@ -9,10 +9,7 @@
       <title>Sifting Property of the Dirac Distribution</title>
       <idx>sifting property</idx>
 
-      <notation>
-        <usage><m>\delta(t)</m></usage>
-        <description>The Dirac delta function</description>
-      </notation>
+
 
       <statement>
         <p>
