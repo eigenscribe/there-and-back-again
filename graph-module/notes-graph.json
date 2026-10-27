@@ -583,8 +583,7 @@
       "tags": [
         "conjugate variable",
         "legendre transform",
-        "transformlegendre transform",
-        "variableconjugate variable"
+        "transformlegendre transform"
       ],
       "description": "Consider a strictly convex, differentiable function function f: U \\subseteq \\mathbb{R}^n \\to \\mathbb{R} .",
       "group": "backmatter",
@@ -595,8 +594,7 @@
       "title": "Conjugate Variable",
       "url": "subsec-legendre-transform.html#def-conjugate-variable",
       "tags": [
-        "conjugate variable",
-        "variableconjugate variable"
+        "conjugate variable"
       ],
       "description": "The conjugate variable of f(\\mathbf{x}) is the defined as",
       "group": "backmatter",

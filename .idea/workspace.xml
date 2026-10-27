@@ -7,18 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added a discrete math section to the mathematical foundations appendix">
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/SETS_AND_COMBINATORICS/para-terminology.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/SETS_AND_COMBINATORICS/subsec-sets-and-combinatorics.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sub-conceptual-pipeline.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sub-structural-foundations.ptx" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Removed &quot;Concept Pipeline&quot; and related components; added &quot;Sets and Combinatorics&quot; subsection and streamlined references in &quot;Discrete Math&quot; section. Updated graph-module metadata and workspace configuration.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/DIRAC_DELTA/dirac-delta-overview.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DIFFERENTIAL_EQUATIONS/DIRAC_DELTA/dirac-delta-overview.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/sec-discrete-math.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/sec-discrete-math.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/frontmatter/frontmatter.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/conceptual-pipeline.ptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/scribing/bridges/HIDDEN_ORDER_REPRESENTATION/sec-hidden-order-representation.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/CALCULUS_OF_VARIATIONS/subsec-legendre-transform.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="293" />
+    <option name="cachedIndexableFilesCount" value="303" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -212,14 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00260" summary="typo that created a build error">
-      <option name="closed" value="true" />
-      <created>1789374253220</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
-      <option name="project" value="LOCAL" />
-      <updated>1789374253220</updated>
     </task>
     <task id="LOCAL-00261" summary="typo that created a build error">
       <option name="closed" value="true" />
@@ -605,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792390387951</updated>
     </task>
-    <option name="localTasksCounter" value="309" />
+    <task id="LOCAL-00309" summary="Removed &quot;Concept Pipeline&quot; and related components; added &quot;Sets and Combinatorics&quot; subsection and streamlined references in &quot;Discrete Math&quot; section. Updated graph-module metadata and workspace configuration.">
+      <option name="closed" value="true" />
+      <created>1793092006300</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1793092006300</updated>
+    </task>
+    <option name="localTasksCounter" value="310" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added `prefig` as a dependency and updated IntelliJ workspace configuration files." />
     <MESSAGE value="corrected eta(x) entry in geometric dictionary" />
     <MESSAGE value="reduyced glow on math equations" />
     <MESSAGE value="reduced glow on math equations" />
@@ -648,6 +639,7 @@
     <MESSAGE value="Refined workspace configuration and updated cached indexable files count." />
     <MESSAGE value="Added &quot;Quantum Computing&quot; appendix with &quot;Quantum Gates&quot; section, including &quot;Single Qubit Gates&quot; table; updated workspace configuration and graph-module references." />
     <MESSAGE value="added a discrete math section to the mathematical foundations appendix" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a discrete math section to the mathematical foundations appendix" />
+    <MESSAGE value="Removed &quot;Concept Pipeline&quot; and related components; added &quot;Sets and Combinatorics&quot; subsection and streamlined references in &quot;Discrete Math&quot; section. Updated graph-module metadata and workspace configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed &quot;Concept Pipeline&quot; and related components; added &quot;Sets and Combinatorics&quot; subsection and streamlined references in &quot;Discrete Math&quot; section. Updated graph-module metadata and workspace configuration." />
   </component>
 </project>

@@ -12,7 +12,6 @@
   <definition xml:id="def-conjugate-variable">
     <title>Conjugate Variable</title>
     <idx>Conjugate Variable</idx>
-    <idx><sortkey>variable</sortkey>Conjugate variable</idx>
 
     <statement>
      <p>
@@ -62,16 +61,29 @@
     <title>Application to Variational Mechanics</title>
 
     <statement>
-      <p>
-        In <xref ref="gls-variational-mechanics" text="custom">variational mechanics</xref>, the Legendre transform
-        converts the <xref ref="def-euler-lagrange" text="custom">Lagrangian formulation</xref> with coordinates
-        <m>(q, \dot{q}, t)</m> into the Hamiltonian formulation with canonical phase-space coordinates <m>(q, p, t)</m>:
-      </p>
-      <md>
-        <mrow>p_i \triangleq \frac{\partial L}{\partial \dot{q}_i}</mrow>
-        <mrow>H(q, p, t) \triangleq \sum_i{p_i \dot{q}_i} - L(q, \dot{q}, t) \, .</mrow>
-      </md>
+      <assemblage>
+        <p>
+          In <xref ref="gls-variational-mechanics" text="custom">variational mechanics</xref>, the Legendre transform
+          converts the <xref ref="def-euler-lagrange" text="custom">Lagrangian formulation</xref> with coordinates
+          <m>(q, \dot{q}, t)</m> into the Hamiltonian formulation with canonical phase-space coordinates <m>(q, p, t)</m>:
+        </p>
+
+        <sidebyside widths="33% 61%" margins="auto">
+          <p>
+            <md>
+              p_i \triangleq \frac{\partial L}{\partial \dot{q}_i}
+            </md>
+          </p>
+
+          <p>
+            <md>
+              H(q,p,t) \triangleq \sum_{i}{p_i \dot{q}_i} - L(q,\dot{q}, t)
+            </md>
+          </p>
+        </sidebyside>
+      </assemblage>
     </statement>
+
     <remark>
       <statement>
         <p>
