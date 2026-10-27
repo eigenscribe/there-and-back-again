@@ -768,6 +768,32 @@
       "color": "#9013fe"
     },
     {
+      "id": "def-set",
+      "title": "Set",
+      "url": "para-sets-and-combinatorics-terminology.html#def-set",
+      "tags": [
+        "cardinality",
+        "element",
+        "set",
+        "size"
+      ],
+      "description": "An order-independent collection of distinct items called elements (or members).",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-list",
+      "title": "List",
+      "url": "para-sets-and-combinatorics-terminology.html#def-list",
+      "tags": [
+        "length",
+        "list"
+      ],
+      "description": "A collection of elements from a universal set $\\mathcal{U}$ defined by a function:",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "subsec-sets-and-combinatorics",
       "title": "Sets and Combinatorics",
       "url": "subsec-sets-and-combinatorics.html",

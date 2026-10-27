@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Streamlined &quot;Discrete Math&quot; section by adding &quot;Sets and Combinatorics&quot; subsection and removing &quot;Concept Pipeline&quot; components. Updated graph-module metadata, workspace configuration, and tags.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/SETS_AND_COMBINATORICS/para-terminology.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/DISCRETE_MATH/SETS_AND_COMBINATORICS/para-terminology.ptx" afterDir="false" />
     </list>
@@ -203,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00262" summary="fixed copy/paste text that wasn't edited for Joseph Liouville significant figure subsection">
-      <option name="closed" value="true" />
-      <created>1789374440105</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
-      <option name="project" value="LOCAL" />
-      <updated>1789374440105</updated>
     </task>
     <task id="LOCAL-00263" summary="changed liouville-joseph.ptx structure">
       <option name="closed" value="true" />
@@ -596,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793094245878</updated>
     </task>
-    <option name="localTasksCounter" value="311" />
+    <task id="LOCAL-00311" summary="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags.">
+      <option name="closed" value="true" />
+      <created>1793097713329</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1793097713329</updated>
+    </task>
+    <option name="localTasksCounter" value="312" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reduyced glow on math equations" />
     <MESSAGE value="reduced glow on math equations" />
     <MESSAGE value="fixed the glow issue" />
     <MESSAGE value="fixed huge ui i think" />
@@ -639,6 +638,7 @@
     <MESSAGE value="added a discrete math section to the mathematical foundations appendix" />
     <MESSAGE value="Removed &quot;Concept Pipeline&quot; and related components; added &quot;Sets and Combinatorics&quot; subsection and streamlined references in &quot;Discrete Math&quot; section. Updated graph-module metadata and workspace configuration." />
     <MESSAGE value="Streamlined &quot;Discrete Math&quot; section by adding &quot;Sets and Combinatorics&quot; subsection and removing &quot;Concept Pipeline&quot; components. Updated graph-module metadata, workspace configuration, and tags." />
-    <option name="LAST_COMMIT_MESSAGE" value="Streamlined &quot;Discrete Math&quot; section by adding &quot;Sets and Combinatorics&quot; subsection and removing &quot;Concept Pipeline&quot; components. Updated graph-module metadata, workspace configuration, and tags." />
+    <MESSAGE value="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags." />
+    <option name="LAST_COMMIT_MESSAGE" value="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags." />
   </component>
 </project>
