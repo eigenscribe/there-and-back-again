@@ -14,10 +14,35 @@
       </notation>
 
       <p>
-        <m>\mathcal{U}</m>
+        A context-specific domain (<m>\mathcal{U}</m>) containing all admissible elements that comprise a framework of
+        interest.
       </p>
+    </li>
+
+    <li xml:id="notation-index-set">
+      <title><term>Index Set</term></title>
+
+      <notation>
+        <usage><m>\mathcal{I}_n</m></usage>
+        <description>Index set of elements</description>
+      </notation>
+
       <p>
-        A context-specific domain containing all admissible elements that comprise the framework of interest.
+        A set <m>\mathcal{I}_n \cong \{1, 2, \dots, n\}, n\in\mathbb{Z}^+</m> that acts as a dedicated counting space used to label
+        and track elements of others sets.
+      </p>
+    </li>
+
+    <li xml:id="convention-sequence">
+      <title><term>Sequence Convention</term></title>
+
+      <notation>
+        <usage><m>(a_k)_{k \in \mathcal{I}_n}</m></usage>
+        <description>Sequence indexed by set <m>\mathcal{I}_n</m></description>
+      </notation>
+
+      <p>
+        An ordered, repeatable list of terms that are mapped directly from an index space.
       </p>
     </li>
   </dl>
