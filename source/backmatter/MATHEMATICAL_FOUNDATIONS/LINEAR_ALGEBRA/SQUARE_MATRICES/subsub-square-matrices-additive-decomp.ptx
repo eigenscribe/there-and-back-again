@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precept [
+    <!ENTITY date "2026-10-27">
+]>
+
+<subsubsection xml:id="subsubsec-square-matrices-additive-decomp" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Additive Decomposition</title>
+
+  <introduction>
+    <p>
+      Every square matrix can be uniquely decomposed into a unique sum of symmetric and antisymmetric parts.
+    </p>
+  </introduction>
+
+  <definition xml:id="def-toeplitz-decomposition-additive">
+    <title>Toleplitz Decomposition</title>
+    <idx>toleplitz decomposition</idx>
+
+    <statement>
+      <p>
+        Consider a square matrix <m>A \in \mathbb{C}^{n \times n}</m>.  The <term>Toeplitz decomposition</term> (or
+        <term>Cartesian decomposition</term>) of <m>A</m> is the unique partition
+        <md>A = H + K</md>
+        where <m>H</m> is a <em>Hermitian matrix</em> and <m>K</m> is a <em>skew-Hermitian</em> matrix.
+      </p>
+    </statement>
+  </definition>
+
+  <theorem xml:id="thm-toeplitz-decomposition-explicit">
+    <title>Explicit Construction and Uniqueness of the Toeplitz Decomposition</title>
+    <statement>
+      <p>
+        The constituent matrices <m>H</m> and <m>K</m> of the Toeplitz decomposition of <m>A</m> can directly computed
+        using <m>A</m> and its conjugate transpose <m>A^*</m>:
+        <md>
+          <mrow>H \amp = \frac{1}{2}(A + A^*)</mrow>
+          <mrow>K \amp = \frac{1}{2}(A - A^*)</mrow>
+        </md>
+      </p>
+    </statement>
+  </theorem>
+
+</subsubsection>

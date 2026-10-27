@@ -3,48 +3,112 @@
 <paragraphs xml:id="para-sets-and-combinatorics-terminology" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Terminology</title>
 
-  <!-- Clean, Unnumbered 'Local Glossary' for Minor Terms -->
-  <dl>
-    <li xml:id="notation-universal-set">
-      <title><term>Universal Set</term></title>
+  <definition xml:id="def-set">
+    <title><term>Set</term></title>
+    <idx><term>set</term></idx>
+    <idx><term>element</term></idx>
+    <idx><term>cardinality</term></idx>
+    <idx><term>size</term></idx>
 
-      <notation>
-        <usage><m>\mathcal{U}</m></usage>
-        <description>Universal set of all possible admissible states</description>
-      </notation>
+    <notation>
+      <usage><m>\{ \dots \}</m></usage>
+      <description>A set of elements</description>
+    </notation>
 
+    <statement>
       <p>
-        A context-specific domain (<m>\mathcal{U}</m>) containing all admissible elements that comprise a framework of
-        interest.
+        An order-independent collection of distinct items called <term>elements</term> (or <term>members</term>).
       </p>
-    </li>
-
-    <li xml:id="notation-index-set">
-      <title><term>Index Set</term></title>
-
-      <notation>
-        <usage><m>\mathcal{I}_n</m></usage>
-        <description>Index set of elements</description>
-      </notation>
-
       <p>
-        A set <m>\mathcal{I}_n \cong \{1, 2, \dots, n\}, n\in\mathbb{Z}^+</m> that acts as a dedicated counting space used to label
-        and track elements of others sets.
+        The number of objects contained in a given set is called its <term>cardinality</term> (or <term>size</term>).
       </p>
-    </li>
+    </statement>
+  </definition>
 
-    <li xml:id="convention-sequence">
-      <title><term>Sequence Convention</term></title>
+  <definition xml:id="def-list">
+    <title><term>List</term></title>
+    <idx><term>list</term></idx>
+    <idx><term>length</term></idx>
 
-      <notation>
-        <usage><m>(a_k)_{k \in \mathcal{I}_n}</m></usage>
-        <description>Sequence indexed by set <m>\mathcal{I}_n</m></description>
-      </notation>
+    <notation>
+      <usage><m>( \dots )</m></usage>
+      <description>A list <m>L: \mathcal{I}_n \to \mathcal{U}</m></description>
+    </notation>
 
+    <statement>
       <p>
-        An ordered, repeatable list of terms that are mapped directly from an index space.
+        A collection of elements from a universal set <m>\mathcal{U}</m> defined by a function:
       </p>
-    </li>
-  </dl>
+      <md>
+        L: \mathcal{I}_n \to \mathcal{U}
+      </md>
+      <p>
+        where <m>\mathcal{I}_n</m> is a finite index set.
+      </p>
+      <p>
+        The number of elements in a list is called its <term>length</term>.
+      </p>
+    </statement>
 
+    <note>
+      <statement>
+        Unlike sets, a list is order-dependent and may consist of repeated elements.
+      </statement>
+    </note>
+  </definition>
+
+  <assemblage>
+    <p>
+      <!-- Clean, Unnumbered 'Local Glossary' for Minor Terms -->
+      <dl>
+        <li xml:id="notation-universal-set">
+          <title><term>Universal Set</term></title>
+
+          <notation>
+            <usage><m>\mathcal{U}</m></usage>
+            <description>Universal set of all possible admissible states</description>
+          </notation>
+
+          <p>
+            A context-specific domain <m>\mathcal{U}</m> containing all admissible elements that comprise a framework of
+            interest.
+          </p>
+        </li>
+
+        <li xml:id="notation-index-set">
+          <title><term>Index Set</term></title>
+
+          <notation>
+            <usage><m>\mathcal{I}_n</m></usage>
+            <description>Index set of elements</description>
+          </notation>
+
+          <p>
+            A set <m>\mathcal{I}_n \cong \{1, 2, \dots, n\}, n\in\mathbb{Z}^+</m> that acts as a dedicated counting space used to label
+            and track elements of others sets.
+          </p>
+          <p>
+            In computer science convention, index sets are usually defined as <m>\mathcal{I}_n \cong \{0, 1, 2, \dots, n\}, n\in\mathbb{N}_0</m>.
+          </p>
+        </li>
+
+        <li xml:id="convention-sequence">
+          <title><term>Sequence</term></title>
+
+          <notation>
+            <usage><m>(a_k)_{k \in \mathcal{I}_n}</m></usage>
+            <description>Sequence indexed by set <m>\mathcal{I}_n</m></description>
+          </notation>
+
+          <p>
+          <m>(a_k)_{k \in \mathcal{I}_n}</m>
+          </p>
+
+          <p>
+            An ordered, repeatable list of terms that are mapped directly from an index space.
+          </p>
+        </li>
+      </dl>
+    </p>
+  </assemblage>
 </paragraphs>
