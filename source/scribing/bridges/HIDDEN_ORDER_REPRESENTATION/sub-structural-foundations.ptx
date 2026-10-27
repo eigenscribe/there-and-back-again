@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precept [
+    <!ENTITY date "2026-10-25">
+]>
+
+
+<subsection xml:id="sub-structural-foundations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Structural Foundations</title>
+
+  <sidebyside widths="47% 47%" margins="auto">
+    <p>
+      <definition xml:id="def-discrete-structure">
+        <title><term>Discrete Structure</term></title>
+        <statement>
+          <p>
+            A mathematical object consisting of a distinct, countable set of elements governed by a specific set of
+            operational constraints or relations.
+          </p>
+        </statement>
+      </definition>
+      </p>
+
+      <p>
+      <definition xml:id="def-physical-structure">
+        <title><term>Physical Structure</term></title>
+        <statement>
+          <p>
+            Any geometric constraint or mathematical object that restricts a dynamical system's admissible states or
+            trajectory evolutions.
+          </p>
+        </statement>
+      </definition>
+      </p>
+  </sidebyside>
+
+</subsection>

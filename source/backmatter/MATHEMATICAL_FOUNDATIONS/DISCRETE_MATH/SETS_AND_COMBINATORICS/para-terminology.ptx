@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-sets-and-combinatorics-terminology" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Terminology</title>
+
+  <!-- Clean, Unnumbered 'Local Glossary' for Minor Terms -->
+  <dl>
+    <li xml:id="notation-universal-set">
+      <title><term>Universal Set</term></title>
+
+      <notation>
+        <usage><m>\mathcal{U}</m></usage>
+        <description>Universal set of all possible admissible states</description>
+      </notation>
+
+      <p>
+        <m>\mathcal{U}</m>
+      </p>
+      <p>
+        A context-specific domain containing all admissible elements that comprise the framework of interest.
+      </p>
+    </li>
+  </dl>
+
+</paragraphs>

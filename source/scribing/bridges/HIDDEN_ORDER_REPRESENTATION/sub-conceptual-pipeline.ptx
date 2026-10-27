@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precept [
+    <!ENTITY date "2026-07-02">
+]>
+
+
+<subsection xml:id="conceptual-pipeline" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Concept Pipeline</title>
+
+  <introduction>
+    <p>
+      <alert>Note Id:</alert> <tag>2026070201</tag>
+    </p>
+  </introduction>
+
+  <figure xml:id="fig-concept-bridge">
+    <image xml:id="mermaid-concept-bridge">
+      <mermaid>
+        graph LR
+          S[structure] -- "Constraint 🔳" --> O[order]
+          O -- "Formalization 🧩" --> R[representation]
+          R -- "Inference 🧬" --> F[function]
+      </mermaid>
+    </image>
+    <caption>
+      <p>
+        A mermaid diagram of using models to map structures to functions.
+      </p>
+    </caption>
+  </figure>
+
+</subsection>

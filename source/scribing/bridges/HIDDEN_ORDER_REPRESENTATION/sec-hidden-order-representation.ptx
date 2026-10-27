@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-hidden-order-representation" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Hidden Order Representation</title>
+  <title>:ember: Hidden Order Representation</title>
   <introduction>
     <p>
       Many of the most profound ideas in science are rooted in taking on new perspectives to think about
@@ -9,8 +9,17 @@
       do not emerge from changes in the physical system themselves (nor the methods used to observe and measure them),
       but rather newfound understandings that reveal hidden structures in how nature functions.
     </p>
+    <p>
+      :ember: The terms, concepts, and frameworks discussed in this section are NOT conventional. Moreover, they are
+      subject to change as the author fine-tunes her personal heuristics/formulations/definitions/etc. so they are not
+      just self-consistent, but also consistent with respect to well-established conventions. Read section with caution.
+    </p>
+    <p>
+      Thank you for your patience!
+    </p>
   </introduction>
 
-  <xi:include href="conceptual-pipeline.ptx"/>
+  <xi:include href="sub-conceptual-pipeline.ptx"/>
+  <xi:include href="sub-structural-foundations.ptx"/>
 
 </section>

@@ -11,6 +11,15 @@
       "color": "#a0a0a0"
     },
     {
+      "id": "app-computational-methods",
+      "title": "Computational Methods",
+      "url": "app-computational-methods.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "app-reference",
       "title": "Empirical Foundations",
       "url": "app-reference.html",
@@ -38,6 +47,15 @@
       "color": "#9013fe"
     },
     {
+      "id": "app-mathematical-foundations",
+      "title": "Mathematical Foundations",
+      "url": "app-mathematical-foundations.html",
+      "tags": [],
+      "description": "Non-geometric algebra mathematics.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "app-physical-foundations",
       "title": "Physical Foundations",
       "url": "app-physical-foundations.html",
@@ -52,24 +70,6 @@
       "url": "app-quantum-computing.html",
       "tags": [],
       "description": "",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "app-computational-methods",
-      "title": "Computational Methods",
-      "url": "app-computational-methods.html",
-      "tags": [],
-      "description": "",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "app-mathematical-foundations",
-      "title": "Mathematical Foundations",
-      "url": "app-mathematical-foundations.html",
-      "tags": [],
-      "description": "Non-geometric algebra mathematics.",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -383,6 +383,126 @@
       "color": "#9013fe"
     },
     {
+      "id": "subsec-periodic-table",
+      "title": "Periodic Table of Elements",
+      "url": "subsec-periodic-table.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-hypotheses",
+      "title": "Hypotheses",
+      "url": "subsec-hypotheses.html",
+      "tags": [
+        "type i error",
+        "type ii error"
+      ],
+      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-hypothesis",
+      "title": "Hypothesis",
+      "url": "subsec-hypotheses.html#def-hypothesis",
+      "tags": [],
+      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-accuracy-vs-precision",
+      "title": "Accuracy vs. Precision",
+      "url": "subsec-accuracy-vs-precision.html",
+      "tags": [
+        "accuracy",
+        "precision"
+      ],
+      "description": "Accuracy and precision are closely related concepts that are often confused. This nuance is important to understand d...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-accuracy",
+      "title": "Accuracy",
+      "url": "subsec-accuracy-vs-precision.html#def-accuracy",
+      "tags": [
+        "accuracy"
+      ],
+      "description": "How closely a measurement is to the ground truth or reference value.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-precision",
+      "title": "Precision",
+      "url": "subsec-accuracy-vs-precision.html#def-precision",
+      "tags": [
+        "precision"
+      ],
+      "description": "Consistency with which reported measurements agree with each other.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "sec-algebraic-structures",
+      "title": "Algebraic Structures",
+      "url": "sec-algebraic-structures.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-geometric-algebra",
+      "title": "Geometric Algebra",
+      "url": "subsec-geometric-algebra.html",
+      "tags": [],
+      "description": "Geometric algebra provides simple formulations and unique insight for many different physical processes.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "ga-hodge-dual-3D",
+      "title": "The Cross Product as a Dual Wedge Product",
+      "url": "para-ga-hodge-dual.html#ga-hodge-dual-3D",
+      "tags": [],
+      "description": "In Clifford algebra \\operatorname{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product \\vec{a}\\times\\vec...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-unitary-groups",
+      "title": "Unitary Groups",
+      "url": "subsec-unitary-groups.html",
+      "tags": [
+        "unitary group"
+      ],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-u1-complex-numbers",
+      "title": "\\operatorname{U}(1) defined using complex numbers",
+      "url": "para-u1-complex-numbers.html#def-u1-complex-numbers",
+      "tags": [],
+      "description": "\\operatorname{U}(1) = \\{ z \\in \\C : |z| = 1 \\} = \\{ e^{\\mathcal{i}\\theta} : \\theta \\in \\R \\}",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-u1-matrix-group",
+      "title": "\\operatorname{U}(1) defined using matrices",
+      "url": "para-u1-matrix-group.html#def-u1-matrix-group",
+      "tags": [],
+      "description": "\\operatorname{U}(1) = \\{ M \\in M_1(\\C ) : MM^\\dagger = I \\}",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
       "id": "sec-algebra-and-precalculus",
       "title": "Algebra and Precalculus",
       "url": "sec-algebra-and-precalculus.html",
@@ -391,6 +511,17 @@
         "precalculus"
       ],
       "description": "Foundational definitions, sequences, means, and classical identities.",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-arithmetic-mean",
+      "title": "Arithmetic Mean",
+      "url": "def-arithmetic-mean.html",
+      "tags": [
+        "arithmetic mean"
+      ],
+      "description": "For a collection of real-valued numbers, x_1, x_2, \\dots, x_n \\in \\mathbb{R}, the arithmetic mean \\bar{x} is defined as:",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -415,100 +546,33 @@
       "color": "#9013fe"
     },
     {
-      "id": "def-arithmetic-mean",
-      "title": "Arithmetic Mean",
-      "url": "def-arithmetic-mean.html",
+      "id": "sec-calculus-of-variations",
+      "title": "Calculus of Variations",
+      "url": "sec-calculus-of-variations.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-euler-lagrange",
+      "title": "Calculus of Variations Formulation of the Euler-Lagrange Equation",
+      "url": "subsec-euler-lagrange.html",
       "tags": [
-        "arithmetic mean"
+        "euler-lagrange equation"
       ],
-      "description": "For a collection of real-valued numbers, x_1, x_2, \\dots, x_n \\in \\mathbb{R}, the arithmetic mean \\bar{x} is defined as:",
+      "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "sec-discrete-math",
-      "title": "Discrete Math",
-      "url": "sec-discrete-math.html",
-      "tags": [],
-      "description": "",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "sec-discrete-structures-nomenclature",
-      "title": "Nomenclature",
-      "url": "sec-discrete-structures-nomenclature.html",
-      "tags": [],
-      "description": "",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "subsec-structures",
-      "title": "Discrete Structures Notation",
-      "url": "subsec-structures.html",
+      "id": "def-euler-lagrange",
+      "title": "The Euler-Lagrange Equation",
+      "url": "subsec-euler-lagrange.html#def-euler-lagrange",
       "tags": [
-        "lists",
-        "sequences",
-        "sets"
+        "euler-lagrange equation"
       ],
-      "description": "",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "sec-algebraic-structures",
-      "title": "Algebraic Structures",
-      "url": "sec-algebraic-structures.html",
-      "tags": [],
-      "description": "",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "subsec-unitary-groups",
-      "title": "Unitary Groups",
-      "url": "subsec-unitary-groups.html",
-      "tags": [
-        "unitary group"
-      ],
-      "description": "",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "def-u1-matrix-group",
-      "title": "\\operatorname{U}(1) defined using matrices",
-      "url": "para-u1-matrix-group.html#def-u1-matrix-group",
-      "tags": [],
-      "description": "\\operatorname{U}(1) = \\{ M \\in M_1(\\C ) : MM^\\dagger = I \\}",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "def-u1-complex-numbers",
-      "title": "\\operatorname{U}(1) defined using complex numbers",
-      "url": "para-u1-complex-numbers.html#def-u1-complex-numbers",
-      "tags": [],
-      "description": "\\operatorname{U}(1) = \\{ z \\in \\C : |z| = 1 \\} = \\{ e^{\\mathcal{i}\\theta} : \\theta \\in \\R \\}",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "subsec-geometric-algebra",
-      "title": "Geometric Algebra",
-      "url": "subsec-geometric-algebra.html",
-      "tags": [],
-      "description": "Geometric algebra provides simple formulations and unique insight for many different physical processes.",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "ga-hodge-dual-3D",
-      "title": "The Cross Product as a Dual Wedge Product",
-      "url": "para-ga-hodge-dual.html#ga-hodge-dual-3D",
-      "tags": [],
-      "description": "In Clifford algebra \\operatorname{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product \\vec{a}\\times\\vec...",
+      "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -551,33 +615,13 @@
       "color": "#9013fe"
     },
     {
-      "id": "subsec-euler-lagrange",
-      "title": "Calculus of Variations Formulation of the Euler-Lagrange Equation",
-      "url": "subsec-euler-lagrange.html",
+      "id": "def-function-space",
+      "title": "def-function-space",
+      "url": "para-function-space.html#def-function-space",
       "tags": [
-        "euler-lagrange equation"
+        "function space"
       ],
-      "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "def-euler-lagrange",
-      "title": "The Euler-Lagrange Equation",
-      "url": "subsec-euler-lagrange.html#def-euler-lagrange",
-      "tags": [
-        "euler-lagrange equation"
-      ],
-      "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "sec-calculus-of-variations",
-      "title": "Calculus of Variations",
-      "url": "sec-calculus-of-variations.html",
-      "tags": [],
-      "description": "",
+      "description": "A function space \\mathcal{F} is a collection of functions y\\in\\mathcal{F} that share the same domain and codomain, an...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -666,17 +710,6 @@
       "color": "#9013fe"
     },
     {
-      "id": "def-function-space",
-      "title": "def-function-space",
-      "url": "para-function-space.html#def-function-space",
-      "tags": [
-        "function space"
-      ],
-      "description": "A function space \\mathcal{F} is a collection of functions y\\in\\mathcal{F} that share the same domain and codomain, an...",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
       "id": "sec-differential-equations",
       "title": "Differential Equations",
       "url": "sec-differential-equations.html",
@@ -706,63 +739,41 @@
       "color": "#9013fe"
     },
     {
-      "id": "subsec-2-forms",
-      "title": "2-Forms",
-      "url": "subsec-2-forms.html",
-      "tags": [
-        "2-form"
-      ],
-      "description": "For this definition, we assume \\mathbf{v}_1 and \\mathbf{v}_1 are both 2D vectors.",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "def-2-form",
-      "title": "2-form",
-      "url": "subsec-2-forms.html#def-2-form",
-      "tags": [
-        "2-form"
-      ],
-      "description": "For this definition, we assume \\mathbf{v}_1 and \\mathbf{v}_1 are both 2D vectors.",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "sec-symplectic-geometry",
-      "title": "Symplectic Geometry",
-      "url": "sec-symplectic-geometry.html",
+      "id": "sec-discrete-math",
+      "title": "Discrete Math",
+      "url": "sec-discrete-math.html",
       "tags": [],
       "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "subsec-normal-equation",
-      "title": "Normal Equation",
-      "url": "subsec-normal-equation.html",
-      "tags": [
-        "normal equation"
-      ],
-      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}. Then the normal equat...",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "def-normal-equation",
-      "title": "Normal Equation",
-      "url": "subsec-normal-equation.html#def-normal-equation",
+      "id": "sec-discrete-structures-nomenclature",
+      "title": "Nomenclature",
+      "url": "sec-discrete-structures-nomenclature.html",
       "tags": [],
-      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}. Then the normal equat...",
+      "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "sec-linear-algebra",
-      "title": "Linear Algebra",
-      "url": "sec-linear-algebra.html",
+      "id": "subsec-structures",
+      "title": "Discrete Structures Notation",
+      "url": "subsec-structures.html",
       "tags": [
-        "linear algebra"
+        "lists",
+        "sequences",
+        "sets"
       ],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-sets-and-combinatorics",
+      "title": "Sets and Combinatorics",
+      "url": "subsec-sets-and-combinatorics.html",
+      "tags": [],
       "description": "",
       "group": "backmatter",
       "color": "#9013fe"
@@ -801,82 +812,80 @@
       "color": "#9013fe"
     },
     {
-      "id": "subsec-hypotheses",
-      "title": "Hypotheses",
-      "url": "subsec-hypotheses.html",
+      "id": "subsec-normal-equation",
+      "title": "Normal Equation",
+      "url": "subsec-normal-equation.html",
       "tags": [
-        "type i error",
-        "type ii error"
+        "normal equation"
       ],
-      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
+      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}. Then the normal equat...",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "def-hypothesis",
-      "title": "Hypothesis",
-      "url": "subsec-hypotheses.html#def-hypothesis",
+      "id": "def-normal-equation",
+      "title": "Normal Equation",
+      "url": "subsec-normal-equation.html#def-normal-equation",
       "tags": [],
-      "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
+      "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}. Then the normal equat...",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "subsec-periodic-table",
-      "title": "Periodic Table of Elements",
-      "url": "subsec-periodic-table.html",
+      "id": "sec-linear-algebra",
+      "title": "Linear Algebra",
+      "url": "sec-linear-algebra.html",
+      "tags": [
+        "linear algebra"
+      ],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "sec-symplectic-geometry",
+      "title": "Symplectic Geometry",
+      "url": "sec-symplectic-geometry.html",
       "tags": [],
       "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "subsec-accuracy-vs-precision",
-      "title": "Accuracy vs. Precision",
-      "url": "subsec-accuracy-vs-precision.html",
+      "id": "subsec-2-forms",
+      "title": "2-Forms",
+      "url": "subsec-2-forms.html",
       "tags": [
-        "accuracy",
-        "precision"
+        "2-form"
       ],
-      "description": "Accuracy and precision are closely related concepts that are often confused. This nuance is important to understand d...",
+      "description": "For this definition, we assume \\mathbf{v}_1 and \\mathbf{v}_1 are both 2D vectors.",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "def-accuracy",
-      "title": "Accuracy",
-      "url": "subsec-accuracy-vs-precision.html#def-accuracy",
+      "id": "def-2-form",
+      "title": "2-form",
+      "url": "subsec-2-forms.html#def-2-form",
       "tags": [
-        "accuracy"
+        "2-form"
       ],
-      "description": "How closely a measurement is to the ground truth or reference value.",
+      "description": "For this definition, we assume \\mathbf{v}_1 and \\mathbf{v}_1 are both 2D vectors.",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "def-precision",
-      "title": "Precision",
-      "url": "subsec-accuracy-vs-precision.html#def-precision",
-      "tags": [
-        "precision"
-      ],
-      "description": "Consistency with which reported measurements agree with each other.",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "sec-quantum-gates",
-      "title": "Quantum Gates",
-      "url": "sec-quantum-gates.html",
+      "id": "sec-physical-properties",
+      "title": "Physical Properties",
+      "url": "sec-physical-properties.html",
       "tags": [],
       "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },
     {
-      "id": "subsec-single-qubit-gates",
-      "title": "Single Qubit Quantum Gates",
-      "url": "subsec-single-qubit-gates.html",
+      "id": "subsec-extensive-vs-intensive-properties",
+      "title": "Extensive vs. Intensive Properties",
+      "url": "subsec-extensive-vs-intensive-properties.html",
       "tags": [],
       "description": "",
       "group": "backmatter",
@@ -927,20 +936,13 @@
       "color": "#9013fe"
     },
     {
-      "id": "subsec-extensive-vs-intensive-properties",
-      "title": "Extensive vs. Intensive Properties",
-      "url": "subsec-extensive-vs-intensive-properties.html",
-      "tags": [],
-      "description": "",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "sec-physical-properties",
-      "title": "Physical Properties",
-      "url": "sec-physical-properties.html",
-      "tags": [],
-      "description": "",
+      "id": "def-extensive-property",
+      "title": "def-extensive-property",
+      "url": "para-extensive-properties.html#def-extensive-property",
+      "tags": [
+        "extensive property"
+      ],
+      "description": "An extensive property is a physical property whose value scales with the size or amount of material comprising the ph...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -952,17 +954,6 @@
         "intensive property"
       ],
       "description": "An intensive property is a property whose value does not scale with the size of the system.",
-      "group": "backmatter",
-      "color": "#9013fe"
-    },
-    {
-      "id": "def-extensive-property",
-      "title": "def-extensive-property",
-      "url": "para-extensive-properties.html#def-extensive-property",
-      "tags": [
-        "extensive property"
-      ],
-      "description": "An extensive property is a physical property whose value scales with the size or amount of material comprising the ph...",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -1031,6 +1022,144 @@
       "color": "#9013fe"
     },
     {
+      "id": "sec-quantum-gates",
+      "title": "Quantum Gates",
+      "url": "sec-quantum-gates.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-single-qubit-gates",
+      "title": "Single Qubit Quantum Gates",
+      "url": "subsec-single-qubit-gates.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "ch-cheat-sheets",
+      "title": "My Cheat Sheets",
+      "url": "ch-cheat-sheets.html",
+      "tags": [],
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "subsec-git-cheat-sheet",
+      "title": "Git Cheat Sheet",
+      "url": "subsec-git-cheat-sheet.html",
+      "tags": [
+        "bash",
+        "git",
+        "terminal"
+      ],
+      "description": "202604120002 | git bash terminal",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sec-pretext",
+      "title": "PreTeXt Authoring",
+      "url": "sec-pretext.html",
+      "tags": [],
+      "description": "Resources for authoring and managing content using the PreTeXt XML framework.",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "ex-lorem",
+      "title": "A Simple Example",
+      "url": "para-admonitions.html#ex-lorem",
+      "tags": [],
+      "description": "Consider the function f(x) = x^2. What is its derivative?",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "subsec-pretext-demo",
+      "title": "PreTeXt Element Demo",
+      "url": "subsec-pretext-demo.html",
+      "tags": [],
+      "description": "This section serves as a demonstration of various PreTeXt elements styled with the current theme. It uses placeholder...",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "def-unitary-example",
+      "title": "Unitary Operator",
+      "url": "para-pretext-blocks.html#def-unitary-example",
+      "tags": [],
+      "description": "An operator U is unitary if U^\\dagger U = I.",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "thm-noether-example",
+      "title": "Noether's Theorem",
+      "url": "para-pretext-blocks.html#thm-noether-example",
+      "tags": [],
+      "description": "Every differentiable symmetry ... has a corresponding conservation law.",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sec-pretext-xml-elements",
+      "title": "PreTeXt XML Elements",
+      "url": "sec-pretext-xml-elements.html",
+      "tags": [
+        "authoring",
+        "pretext",
+        "xml"
+      ],
+      "description": "202606012315 | pretext xml authoring",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sec-terminal-cheat-sheet",
+      "title": "Terminal Cheat Sheet",
+      "url": "sec-terminal-cheat-sheet.html",
+      "tags": [
+        "bash",
+        "git",
+        "terminal"
+      ],
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sub-pip-update-requirements",
+      "title": "Update pip requirements.txt",
+      "url": "sec-terminal-cheat-sheet.html#sub-pip-update-requirements",
+      "tags": [],
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "sec-python-package-management",
+      "title": "Python Package Management",
+      "url": "sec-python-package-management.html",
+      "tags": [],
+      "description": "",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
+      "id": "ch-gold-standards",
+      "title": "Gold Standards",
+      "url": "ch-gold-standards.html",
+      "tags": [],
+      "description": "Gold standard boilerplates and polishing guidelines. This is useful for both myself and giving to LLMs during develop...",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
       "id": "sec-python-gold-standards",
       "title": "Python Gold Standards",
       "url": "sec-python-gold-standards.html",
@@ -1065,36 +1194,6 @@
       "url": "sec-python-gold-standards.html#subsec-key-features",
       "tags": [],
       "description": "Helps to make long scripts scannable. Meant to be used as semantic anchor points, not decoration.",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "ch-gold-standards",
-      "title": "Gold Standards",
-      "url": "ch-gold-standards.html",
-      "tags": [],
-      "description": "Gold standard boilerplates and polishing guidelines. This is useful for both myself and giving to LLMs during develop...",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "sec-reasoning-taxonomy",
-      "title": "Reasoning Taxonomy",
-      "url": "sec-reasoning-taxonomy.html",
-      "tags": [
-        "abductive reasoning",
-        "abstract reasoning",
-        "causal reasoning",
-        "comparative analysis",
-        "deductive reasoning",
-        "hypothetical reasoning",
-        "inductive reasoning",
-        "pattern recognition",
-        "spatial reasoning",
-        "statistical reasoning",
-        "temporal reasoning"
-      ],
-      "description": "Understanding these reasoning patterns allows us to diagnose our own cognitive processes when building Eigenotes. We ...",
       "group": "meta",
       "color": "#f5a623"
     },
@@ -1134,6 +1233,27 @@
       "color": "#f5a623"
     },
     {
+      "id": "sec-reasoning-taxonomy",
+      "title": "Reasoning Taxonomy",
+      "url": "sec-reasoning-taxonomy.html",
+      "tags": [
+        "abductive reasoning",
+        "abstract reasoning",
+        "causal reasoning",
+        "comparative analysis",
+        "deductive reasoning",
+        "hypothetical reasoning",
+        "inductive reasoning",
+        "pattern recognition",
+        "spatial reasoning",
+        "statistical reasoning",
+        "temporal reasoning"
+      ],
+      "description": "Understanding these reasoning patterns allows us to diagnose our own cognitive processes when building Eigenotes. We ...",
+      "group": "meta",
+      "color": "#f5a623"
+    },
+    {
       "id": "sec-formal-statements",
       "title": "Formal Statements",
       "url": "sec-formal-statements.html",
@@ -1143,115 +1263,39 @@
       "color": "#f5a623"
     },
     {
-      "id": "ch-cheat-sheets",
-      "title": "My Cheat Sheets",
-      "url": "ch-cheat-sheets.html",
+      "id": "ch-sofias-practice-problems",
+      "title": "My Practice Problems",
+      "url": "ch-sofias-practice-problems.html",
       "tags": [],
       "description": "",
-      "group": "meta",
-      "color": "#f5a623"
+      "group": "practice-problems",
+      "color": "#ff6b6b"
     },
     {
-      "id": "subsec-git-cheat-sheet",
-      "title": "Git Cheat Sheet",
-      "url": "subsec-git-cheat-sheet.html",
+      "id": "ch-quantum-computing-practice-sets",
+      "title": "Quantum Computing Practice Problems",
+      "url": "ch-quantum-computing-practice-sets.html",
       "tags": [
-        "bash",
-        "git",
-        "terminal"
+        "qiskit",
+        "state vectors",
+        "tensor products"
       ],
-      "description": "202604120002 | git bash terminal",
-      "group": "meta",
-      "color": "#f5a623"
+      "description": "A collection of practice problems generated with the assistance of AI. These problems were designed to accompany IBM ...",
+      "group": "practice-problems",
+      "color": "#ff6b6b"
     },
     {
-      "id": "sec-terminal-cheat-sheet",
-      "title": "Terminal Cheat Sheet",
-      "url": "sec-terminal-cheat-sheet.html",
+      "id": "sec-qc-practice-set-1",
+      "title": "Introduction to Quantum Computing with Qiskit",
+      "url": "sec-qc-practice-set-1.html",
       "tags": [
-        "bash",
-        "git",
-        "terminal"
+        "qiskit",
+        "state vectors",
+        "tensor products"
       ],
-      "description": "",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "sub-pip-update-requirements",
-      "title": "Update pip requirements.txt",
-      "url": "sec-terminal-cheat-sheet.html#sub-pip-update-requirements",
-      "tags": [],
-      "description": "",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "sec-python-package-management",
-      "title": "Python Package Management",
-      "url": "sec-python-package-management.html",
-      "tags": [],
-      "description": "",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "sec-pretext",
-      "title": "PreTeXt Authoring",
-      "url": "sec-pretext.html",
-      "tags": [],
-      "description": "Resources for authoring and managing content using the PreTeXt XML framework.",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "subsec-pretext-demo",
-      "title": "PreTeXt Element Demo",
-      "url": "subsec-pretext-demo.html",
-      "tags": [],
-      "description": "This section serves as a demonstration of various PreTeXt elements styled with the current theme. It uses placeholder...",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "ex-lorem",
-      "title": "A Simple Example",
-      "url": "para-admonitions.html#ex-lorem",
-      "tags": [],
-      "description": "Consider the function f(x) = x^2. What is its derivative?",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "def-unitary-example",
-      "title": "Unitary Operator",
-      "url": "para-pretext-blocks.html#def-unitary-example",
-      "tags": [],
-      "description": "An operator U is unitary if U^\\dagger U = I.",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "thm-noether-example",
-      "title": "Noether's Theorem",
-      "url": "para-pretext-blocks.html#thm-noether-example",
-      "tags": [],
-      "description": "Every differentiable symmetry ... has a corresponding conservation law.",
-      "group": "meta",
-      "color": "#f5a623"
-    },
-    {
-      "id": "sec-pretext-xml-elements",
-      "title": "PreTeXt XML Elements",
-      "url": "sec-pretext-xml-elements.html",
-      "tags": [
-        "authoring",
-        "pretext",
-        "xml"
-      ],
-      "description": "202606012315 | pretext xml authoring",
-      "group": "meta",
-      "color": "#f5a623"
+      "description": "202604120001 | tensor products, Qiskit, state vectors",
+      "group": "practice-problems",
+      "color": "#ff6b6b"
     },
     {
       "id": "ch-bridges",
@@ -1259,15 +1303,6 @@
       "url": "ch-bridges.html",
       "tags": [],
       "description": "The purpose of this chapter is to investigate how scientific representations of physical systems reveal structural re...",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "sec-convention-stitching",
-      "title": "\ud83e\udea1 Convention Stitching",
-      "url": "sec-convention-stitching.html",
-      "tags": [],
-      "description": "There currently is a bit of a epistemic crisis regarding redundant and/or inconsistent mathematical notation. This se...",
       "group": "bridges",
       "color": "#50e3c2"
     },
@@ -1281,11 +1316,11 @@
       "color": "#50e3c2"
     },
     {
-      "id": "subsec-physics-and-geometric-algebra",
-      "title": "Physics and Geometric Algebra Bridges",
-      "url": "subsec-physics-and-geometric-algebra.html",
+      "id": "subsec-kuramoto-geometric-algebra-representation",
+      "title": "Geometric Algebra Formalization of the Kuramoto Model",
+      "url": "subsec-kuramoto-geometric-algebra-representation.html",
       "tags": [],
-      "description": "The :logo: Eigenscribe \u00a9 methodology system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to r...",
+      "description": "We can use geometric algebra to mathematically represent and simulate the Kuramoto model. This turns out not to just ...",
       "group": "bridges",
       "color": "#50e3c2"
     },
@@ -1301,6 +1336,15 @@
       "color": "#50e3c2"
     },
     {
+      "id": "subsec-physics-and-geometric-algebra",
+      "title": "Physics and Geometric Algebra Bridges",
+      "url": "subsec-physics-and-geometric-algebra.html",
+      "tags": [],
+      "description": "The :logo: Eigenscribe \u00a9 methodology system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to r...",
+      "group": "bridges",
+      "color": "#50e3c2"
+    },
+    {
       "id": "claim-wedge-product-angular-momentum",
       "title": "Wedge Product and Angular Momentum",
       "url": "para-wedge-product-and-angular-momentum.html#claim-wedge-product-angular-momentum",
@@ -1310,58 +1354,11 @@
       "color": "#50e3c2"
     },
     {
-      "id": "subsec-kuramoto-geometric-algebra-representation",
-      "title": "Geometric Algebra Formalization of the Kuramoto Model",
-      "url": "subsec-kuramoto-geometric-algebra-representation.html",
+      "id": "sec-convention-stitching",
+      "title": "\ud83e\udea1 Convention Stitching",
+      "url": "sec-convention-stitching.html",
       "tags": [],
-      "description": "We can use geometric algebra to mathematically represent and simulate the Kuramoto model. This turns out not to just ...",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "sec-hidden-order-representation",
-      "title": "Hidden Order Representation",
-      "url": "sec-hidden-order-representation.html",
-      "tags": [],
-      "description": "Many of the most profound ideas in science are rooted in taking on new perspectives to think about physical systems t...",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "conceptual-pipeline",
-      "title": ":ember: Concept Pipeline",
-      "url": "conceptual-pipeline.html",
-      "tags": [
-        "constraint (concept bridge)",
-        "formalization",
-        "function (concept bridge)",
-        "inference",
-        "order",
-        "representation",
-        "structure"
-      ],
-      "description": "Note Id: 2026070201",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "sec-future-crossings",
-      "title": "Future Crossings",
-      "url": "sec-future-crossings.html",
-      "tags": [],
-      "description": "",
-      "group": "bridges",
-      "color": "#50e3c2"
-    },
-    {
-      "id": "sec-data-geometry-map",
-      "title": "Choosing the Right Representation",
-      "url": "sec-data-geometry-map.html",
-      "tags": [
-        "data analysis",
-        "geometry"
-      ],
-      "description": "Big Idea: The computational methods and mathematical tools used to evaluate a dataset should be determined based on t...",
+      "description": "There currently is a bit of a epistemic crisis regarding redundant and/or inconsistent mathematical notation. This se...",
       "group": "bridges",
       "color": "#50e3c2"
     },
@@ -1391,170 +1388,70 @@
       "color": "#50e3c2"
     },
     {
-      "id": "ch-field-notes",
-      "title": "Field Notes",
-      "url": "ch-field-notes.html",
-      "tags": [],
-      "description": "Important artifacts, concpts, and insighs encountered in literature.",
-      "group": "field-notes",
-      "color": "#f8e71c"
+      "id": "sec-data-geometry-map",
+      "title": "Choosing the Right Representation",
+      "url": "sec-data-geometry-map.html",
+      "tags": [
+        "data analysis",
+        "geometry"
+      ],
+      "description": "Big Idea: The computational methods and mathematical tools used to evaluate a dataset should be determined based on t...",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
-      "id": "sec-feynmann-lectures",
-      "title": "Feynman Lectures",
-      "url": "sec-feynmann-lectures.html",
-      "tags": [],
-      "description": "The vector potential provides a mathematical framework for electromagnetism that can be generalized to hydrodynamics,...",
-      "group": "field-notes",
-      "color": "#f8e71c"
-    },
-    {
-      "id": "claim-vector-potential-generalization",
-      "title": "claim-vector-potential-generalization",
-      "url": "sec-feynmann-lectures.html#claim-vector-potential-generalization",
-      "tags": [],
-      "description": "The vector potential provides a mathematical framework for electromagnetism that can be generalized to hydrodynamics,...",
-      "group": "field-notes",
-      "color": "#f8e71c"
-    },
-    {
-      "id": "sec-post-quantum",
-      "title": "Post-Quantum",
-      "url": "sec-post-quantum.html",
+      "id": "sec-future-crossings",
+      "title": "Future Crossings",
+      "url": "sec-future-crossings.html",
       "tags": [],
       "description": "",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
-      "id": "ch-significant-figures",
-      "title": "\ud83c\udfdb\ufe0f Significant Figures",
-      "url": "ch-significant-figures.html",
+      "id": "sec-hidden-order-representation",
+      "title": ":ember: Hidden Order Representation",
+      "url": "sec-hidden-order-representation.html",
       "tags": [],
-      "description": "The title of this chapter was inspired by Ian Stewart's Significant Figures: The Lives and Work of Great Mathematicia...",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
+      "description": "Many of the most profound ideas in science are rooted in taking on new perspectives to think about physical systems t...",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
-      "id": "sub-lagrange-joseph-louis",
-      "title": "Joseph-Louis Lagrange",
-      "url": "sub-lagrange-joseph-louis.html",
-      "tags": [
-        "joseph-louis lagrange"
-      ],
-      "description": "Years: 1736-1813",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "sub-boltzmann-ludwig",
-      "title": "Ludwig Boltzmann",
-      "url": "sub-boltzmann-ludwig.html",
-      "tags": [
-        "ludwig boltzmann"
-      ],
-      "description": "Years: 1844-1906",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "sec-pre-quantum",
-      "title": "Pre-Quantum",
-      "url": "sec-pre-quantum.html",
+      "id": "conceptual-pipeline",
+      "title": "Concept Pipeline",
+      "url": "conceptual-pipeline.html",
       "tags": [],
-      "description": "",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
+      "description": "Note Id: 2026070201",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
-      "id": "sub-liouville-joseph",
-      "title": "Joseph Liouville",
-      "url": "sub-liouville-joseph.html",
-      "tags": [
-        "joseph liouville"
-      ],
-      "description": "Years: 1809-1882",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "thm-liouville-identity",
-      "title": "Liouville's Identity",
-      "url": "sub-liouville-joseph.html#thm-liouville-identity",
+      "id": "sub-structural-foundations",
+      "title": "Structural Foundations",
+      "url": "sub-structural-foundations.html",
       "tags": [],
-      "description": "Let F(x,y,z) defined on integer triples (x,y,z)\\in\\Z such that: F is odd in the variable x: F(-x,y,z)=-F(x,y,z) \\, . ...",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
+      "description": "Discrete Structure A mathematical object consisting of a distinct, countable set of elements governed by a specific s...",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
-      "id": "sub-legendre-adrien-marie",
-      "title": "Adrien-Marie Legendre",
-      "url": "sub-legendre-adrien-marie.html",
-      "tags": [
-        "adrien-marie legendre",
-        "legendre polynomials",
-        "legendre's differential equation"
-      ],
-      "description": "Years: 1752-1833",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "def-legendre-differential-equation",
-      "title": "Legendre's Differential Equation",
-      "url": "sub-legendre-adrien-marie.html#def-legendre-differential-equation",
-      "tags": [
-        "legendre's differential equation"
-      ],
-      "description": "(1-x^2)P_n''- xP_n' + n^2P_n",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "sub-gibbs-josiah",
-      "title": "Josiah Willard Gibbs",
-      "url": "sub-gibbs-josiah.html",
-      "tags": [
-        "joseph-louis lagrange"
-      ],
-      "description": "Years: 1839-1903",
-      "group": "significant-figures",
-      "color": "#a0a0a0"
-    },
-    {
-      "id": "sec-euler-lagrange-physics",
-      "title": "Euler-Lagrange Equations in Physics",
-      "url": "sec-euler-lagrange-physics.html",
-      "tags": [
-        "action (classical mechanics)",
-        "euler-lagrange",
-        "euler-lagrange-equation",
-        "lagrangian mechanics",
-        "variational mechanics"
-      ],
-      "description": "202607290001 | Lagrangian mechanics, Euler-Lagrange, variational mechanics",
-      "group": "eigenotes",
-      "color": "#d0021b"
-    },
-    {
-      "id": "def-euler-lagrange-physics",
-      "title": "Physics Formulation of the Euler-Lagrange Equation",
-      "url": "sec-euler-lagrange-physics.html#def-euler-lagrange-physics",
+      "id": "def-discrete-structure",
+      "title": "Discrete Structure",
+      "url": "sub-structural-foundations.html#def-discrete-structure",
       "tags": [],
-      "description": "The Euler-Lagrange equation in physics is the necessary condition satisfied by a function that makes a functional, st...",
-      "group": "eigenotes",
-      "color": "#d0021b"
+      "description": "A mathematical object consisting of a distinct, countable set of elements governed by a specific set of operational c...",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
-      "id": "def-action-classical-mechanics",
-      "title": "Action (Classical Mechanics)",
-      "url": "sec-euler-lagrange-physics.html#def-action-classical-mechanics",
-      "tags": [
-        "action (classical mechanics)"
-      ],
-      "description": "In classical mechanics, the functional for the Euler-Lagrange equation in canonical coordinates is called the action:...",
-      "group": "eigenotes",
-      "color": "#d0021b"
+      "id": "def-physical-structure",
+      "title": "Physical Structure",
+      "url": "sub-structural-foundations.html#def-physical-structure",
+      "tags": [],
+      "description": "Any geometric constraint or mathematical object that restricts a dynamical system's admissible states or trajectory e...",
+      "group": "bridges",
+      "color": "#50e3c2"
     },
     {
       "id": "ch-eigenotes",
@@ -1566,17 +1463,17 @@
       "color": "#d0021b"
     },
     {
-      "id": "sec-global-vs-local-symmetry",
-      "title": "Global vs. Local (Gauge) Symmetry",
-      "url": "sec-global-vs-local-symmetry.html",
+      "id": "sec-degrees-of-freedom",
+      "title": "Degrees of Freedom",
+      "url": "sec-degrees-of-freedom.html",
       "tags": [
-        "generators",
-        "global symmetry",
-        "local (gauge) symmetry",
-        "noether's theorem",
-        "variations"
+        "degrees of freedom",
+        "linear algebra",
+        "machine learning",
+        "physics",
+        "statistics"
       ],
-      "description": "202608010001 | global symmetry local (gauge) symmetry Noether's theorem variations generators",
+      "description": "Across mathematics, physics, statistics, and machine learning, the notion of degrees of freedom captures the same ide...",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1662,6 +1559,41 @@
       "color": "#d0021b"
     },
     {
+      "id": "sec-euler-lagrange-physics",
+      "title": "Euler-Lagrange Equations in Physics",
+      "url": "sec-euler-lagrange-physics.html",
+      "tags": [
+        "action (classical mechanics)",
+        "euler-lagrange",
+        "euler-lagrange-equation",
+        "lagrangian mechanics",
+        "variational mechanics"
+      ],
+      "description": "202607290001 | Lagrangian mechanics, Euler-Lagrange, variational mechanics",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
+      "id": "def-euler-lagrange-physics",
+      "title": "Physics Formulation of the Euler-Lagrange Equation",
+      "url": "sec-euler-lagrange-physics.html#def-euler-lagrange-physics",
+      "tags": [],
+      "description": "The Euler-Lagrange equation in physics is the necessary condition satisfied by a function that makes a functional, st...",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
+      "id": "def-action-classical-mechanics",
+      "title": "Action (Classical Mechanics)",
+      "url": "sec-euler-lagrange-physics.html#def-action-classical-mechanics",
+      "tags": [
+        "action (classical mechanics)"
+      ],
+      "description": "In classical mechanics, the functional for the Euler-Lagrange equation in canonical coordinates is called the action:...",
+      "group": "eigenotes",
+      "color": "#d0021b"
+    },
+    {
       "id": "sec-eulers-formula",
       "title": "One Formula to Rule Them All",
       "url": "sec-eulers-formula.html",
@@ -1673,17 +1605,17 @@
       "color": "#d0021b"
     },
     {
-      "id": "sec-degrees-of-freedom",
-      "title": "Degrees of Freedom",
-      "url": "sec-degrees-of-freedom.html",
+      "id": "sec-global-vs-local-symmetry",
+      "title": "Global vs. Local (Gauge) Symmetry",
+      "url": "sec-global-vs-local-symmetry.html",
       "tags": [
-        "degrees of freedom",
-        "linear algebra",
-        "machine learning",
-        "physics",
-        "statistics"
+        "generators",
+        "global symmetry",
+        "local (gauge) symmetry",
+        "noether's theorem",
+        "variations"
       ],
-      "description": "Across mathematics, physics, statistics, and machine learning, the notion of degrees of freedom captures the same ide...",
+      "description": "202608010001 | global symmetry local (gauge) symmetry Noether's theorem variations generators",
       "group": "eigenotes",
       "color": "#d0021b"
     },
@@ -1723,39 +1655,135 @@
       "color": "#d0021b"
     },
     {
-      "id": "ch-sofias-practice-problems",
-      "title": "My Practice Problems",
-      "url": "ch-sofias-practice-problems.html",
+      "id": "ch-field-notes",
+      "title": "Field Notes",
+      "url": "ch-field-notes.html",
+      "tags": [],
+      "description": "Important artifacts, concpts, and insighs encountered in literature.",
+      "group": "field-notes",
+      "color": "#f8e71c"
+    },
+    {
+      "id": "sec-feynmann-lectures",
+      "title": "Feynman Lectures",
+      "url": "sec-feynmann-lectures.html",
+      "tags": [],
+      "description": "The vector potential provides a mathematical framework for electromagnetism that can be generalized to hydrodynamics,...",
+      "group": "field-notes",
+      "color": "#f8e71c"
+    },
+    {
+      "id": "claim-vector-potential-generalization",
+      "title": "claim-vector-potential-generalization",
+      "url": "sec-feynmann-lectures.html#claim-vector-potential-generalization",
+      "tags": [],
+      "description": "The vector potential provides a mathematical framework for electromagnetism that can be generalized to hydrodynamics,...",
+      "group": "field-notes",
+      "color": "#f8e71c"
+    },
+    {
+      "id": "ch-significant-figures",
+      "title": "\ud83c\udfdb\ufe0f Significant Figures",
+      "url": "ch-significant-figures.html",
+      "tags": [],
+      "description": "The title of this chapter was inspired by Ian Stewart's Significant Figures: The Lives and Work of Great Mathematicia...",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "sec-post-quantum",
+      "title": "Post-Quantum",
+      "url": "sec-post-quantum.html",
       "tags": [],
       "description": "",
-      "group": "practice-problems",
-      "color": "#ff6b6b"
+      "group": "significant-figures",
+      "color": "#a0a0a0"
     },
     {
-      "id": "ch-quantum-computing-practice-sets",
-      "title": "Quantum Computing Practice Problems",
-      "url": "ch-quantum-computing-practice-sets.html",
+      "id": "sub-boltzmann-ludwig",
+      "title": "Ludwig Boltzmann",
+      "url": "sub-boltzmann-ludwig.html",
       "tags": [
-        "qiskit",
-        "state vectors",
-        "tensor products"
+        "ludwig boltzmann"
       ],
-      "description": "A collection of practice problems generated with the assistance of AI. These problems were designed to accompany IBM ...",
-      "group": "practice-problems",
-      "color": "#ff6b6b"
+      "description": "Years: 1844-1906",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
     },
     {
-      "id": "sec-qc-practice-set-1",
-      "title": "Introduction to Quantum Computing with Qiskit",
-      "url": "sec-qc-practice-set-1.html",
+      "id": "sub-gibbs-josiah",
+      "title": "Josiah Willard Gibbs",
+      "url": "sub-gibbs-josiah.html",
       "tags": [
-        "qiskit",
-        "state vectors",
-        "tensor products"
+        "joseph-louis lagrange"
       ],
-      "description": "202604120001 | tensor products, Qiskit, state vectors",
-      "group": "practice-problems",
-      "color": "#ff6b6b"
+      "description": "Years: 1839-1903",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "sub-lagrange-joseph-louis",
+      "title": "Joseph-Louis Lagrange",
+      "url": "sub-lagrange-joseph-louis.html",
+      "tags": [
+        "joseph-louis lagrange"
+      ],
+      "description": "Years: 1736-1813",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "sub-legendre-adrien-marie",
+      "title": "Adrien-Marie Legendre",
+      "url": "sub-legendre-adrien-marie.html",
+      "tags": [
+        "adrien-marie legendre",
+        "legendre polynomials",
+        "legendre's differential equation"
+      ],
+      "description": "Years: 1752-1833",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "def-legendre-differential-equation",
+      "title": "Legendre's Differential Equation",
+      "url": "sub-legendre-adrien-marie.html#def-legendre-differential-equation",
+      "tags": [
+        "legendre's differential equation"
+      ],
+      "description": "(1-x^2)P_n''- xP_n' + n^2P_n",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "sub-liouville-joseph",
+      "title": "Joseph Liouville",
+      "url": "sub-liouville-joseph.html",
+      "tags": [
+        "joseph liouville"
+      ],
+      "description": "Years: 1809-1882",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "thm-liouville-identity",
+      "title": "Liouville's Identity",
+      "url": "sub-liouville-joseph.html#thm-liouville-identity",
+      "tags": [],
+      "description": "Let F(x,y,z) defined on integer triples (x,y,z)\\in\\Z such that: F is odd in the variable x: F(-x,y,z)=-F(x,y,z) \\, . ...",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
+    },
+    {
+      "id": "sec-pre-quantum",
+      "title": "Pre-Quantum",
+      "url": "sec-pre-quantum.html",
+      "tags": [],
+      "description": "",
+      "group": "significant-figures",
+      "color": "#a0a0a0"
     }
   ],
   "links": [
@@ -1826,18 +1854,6 @@
       "weight": 2
     },
     {
-      "source": "def-legendre-transform",
-      "target": "gls-variational-mechanics",
-      "type": "reference",
-      "weight": 2
-    },
-    {
-      "source": "def-legendre-transform",
-      "target": "def-euler-lagrange",
-      "type": "reference",
-      "weight": 2
-    },
-    {
       "source": "def-euler-lagrange",
       "target": "def-path",
       "type": "reference",
@@ -1852,6 +1868,18 @@
     {
       "source": "def-euler-lagrange",
       "target": "def-legendre-transform",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-legendre-transform",
+      "target": "gls-variational-mechanics",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-legendre-transform",
+      "target": "def-euler-lagrange",
       "type": "reference",
       "weight": 2
     },
@@ -1994,18 +2022,6 @@
       "weight": 2
     },
     {
-      "source": "def-physical-system",
-      "target": "conceptual-pipeline",
-      "type": "prerequisite",
-      "weight": 3
-    },
-    {
-      "source": "sec-physical-properties",
-      "target": "conceptual-pipeline",
-      "type": "prerequisite",
-      "weight": 3
-    },
-    {
       "source": "gls-composition",
       "target": "para-clr-compositional-data",
       "type": "prerequisite",
@@ -2030,58 +2046,10 @@
       "weight": 3
     },
     {
-      "source": "gls-significant-figure",
-      "target": "ch-significant-figures",
+      "source": "def-physical-system",
+      "target": "sec-degrees-of-freedom",
       "type": "prerequisite",
       "weight": 3
-    },
-    {
-      "source": "sub-lagrange-joseph-louis",
-      "target": "def-action-classical-mechanics",
-      "type": "reference",
-      "weight": 2
-    },
-    {
-      "source": "sub-boltzmann-ludwig",
-      "target": "def-boltzmann-entropy",
-      "type": "reference",
-      "weight": 2
-    },
-    {
-      "source": "sub-boltzmann-ludwig",
-      "target": "sec-entropy-taximony",
-      "type": "reference",
-      "weight": 2
-    },
-    {
-      "source": "thm-liouville-identity",
-      "target": "sub-gibbs-josiah",
-      "type": "reference",
-      "weight": 2
-    },
-    {
-      "source": "def-legendre-transform",
-      "target": "sub-legendre-adrien-marie",
-      "type": "prerequisite",
-      "weight": 3
-    },
-    {
-      "source": "def-euler-lagrange",
-      "target": "sub-legendre-adrien-marie",
-      "type": "prerequisite",
-      "weight": 3
-    },
-    {
-      "source": "gls-spherical-harmonics",
-      "target": "sub-legendre-adrien-marie",
-      "type": "prerequisite",
-      "weight": 3
-    },
-    {
-      "source": "sub-gibbs-josiah",
-      "target": "thm-liouville-identity",
-      "type": "reference",
-      "weight": 2
     },
     {
       "source": "def-euler-lagrange",
@@ -2150,10 +2118,52 @@
       "weight": 3
     },
     {
-      "source": "def-physical-system",
-      "target": "sec-degrees-of-freedom",
+      "source": "sub-boltzmann-ludwig",
+      "target": "def-boltzmann-entropy",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "sub-boltzmann-ludwig",
+      "target": "sec-entropy-taximony",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "sub-gibbs-josiah",
+      "target": "thm-liouville-identity",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "sub-lagrange-joseph-louis",
+      "target": "def-action-classical-mechanics",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-legendre-transform",
+      "target": "sub-legendre-adrien-marie",
       "type": "prerequisite",
       "weight": 3
+    },
+    {
+      "source": "def-euler-lagrange",
+      "target": "sub-legendre-adrien-marie",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "gls-spherical-harmonics",
+      "target": "sub-legendre-adrien-marie",
+      "type": "prerequisite",
+      "weight": 3
+    },
+    {
+      "source": "thm-liouville-identity",
+      "target": "sub-gibbs-josiah",
+      "type": "reference",
+      "weight": 2
     }
   ]
 }

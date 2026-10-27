@@ -7,6 +7,6 @@
     <!-- insert intro here -->
   </introduction>
 
-  <xi:include href="NOMENCLATURE/subsec-nomenclature.ptx"/>
+  <xi:include href="SETS_AND_COMBINATORICS/subsec-sets-and-combinatorics.ptx"/>
 
  </section>

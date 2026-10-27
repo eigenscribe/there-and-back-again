@@ -14,7 +14,7 @@
 
       <notation>
         <usage><m>\delta(t)</m></usage>
-        <description>The Dirac delta function</description>
+        <description>The Dirac delta distribution</description>
       </notation>
 
         <p>
