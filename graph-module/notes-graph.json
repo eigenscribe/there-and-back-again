@@ -789,7 +789,7 @@
         "length",
         "list"
       ],
-      "description": "A collection of elements from a universal set $\\mathcal{U}$ defined by a function:",
+      "description": "A collection of elements from a universal set \\mathcal{U} defined by a function:",
       "group": "backmatter",
       "color": "#9013fe"
     },
@@ -863,6 +863,35 @@
         "linear algebra"
       ],
       "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-square-matrices",
+      "title": "Square Matrices",
+      "url": "subsec-square-matrices.html",
+      "tags": [],
+      "description": "",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-toeplitz-decomposition-additive",
+      "title": "Toleplitz Decomposition",
+      "url": "subsubsec-square-matrices-additive-decomp.html#def-toeplitz-decomposition-additive",
+      "tags": [
+        "toleplitz decomposition"
+      ],
+      "description": "Consider a square matrix A \\in \\mathbb{C}^{n \\times n}. The Toeplitz decomposition (or Cartesian decomposition) of A ...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "thm-toeplitz-decomposition-explicit",
+      "title": "Explicit Construction and Uniqueness of the Toeplitz Decomposition",
+      "url": "subsubsec-square-matrices-additive-decomp.html#thm-toeplitz-decomposition-explicit",
+      "tags": [],
+      "description": "The constituent matrices H and K of the Toeplitz decomposition of A can directly computed using A and its conjugate t...",
       "group": "backmatter",
       "color": "#9013fe"
     },
