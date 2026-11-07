@@ -15,11 +15,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added trig identities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/TRIGONOMETRY/sec-trigonometry.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/TRIGONOMETRY/sec-trigonometry.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publication/publication.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/publication/publication.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,14 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00264" summary="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem">
-      <option name="closed" value="true" />
-      <created>1789375129123</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1789375129123</updated>
     </task>
     <task id="LOCAL-00265" summary="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity">
       <option name="closed" value="true" />
@@ -606,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794015031120</updated>
     </task>
-    <option name="localTasksCounter" value="313" />
+    <task id="LOCAL-00313" summary="added trig identities">
+      <option name="closed" value="true" />
+      <created>1794016560913</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1794016560913</updated>
+    </task>
+    <option name="localTasksCounter" value="314" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reduced glow on math equations" />
     <MESSAGE value="fixed the glow issue" />
     <MESSAGE value="fixed huge ui i think" />
     <MESSAGE value="got the front page image to render again, but it needs to be moved from the abstract block to above the abstract block" />
@@ -649,6 +649,7 @@
     <MESSAGE value="Removed &quot;Concept Pipeline&quot; and related components; added &quot;Sets and Combinatorics&quot; subsection and streamlined references in &quot;Discrete Math&quot; section. Updated graph-module metadata and workspace configuration." />
     <MESSAGE value="Streamlined &quot;Discrete Math&quot; section by adding &quot;Sets and Combinatorics&quot; subsection and removing &quot;Concept Pipeline&quot; components. Updated graph-module metadata, workspace configuration, and tags." />
     <MESSAGE value="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags." />
-    <option name="LAST_COMMIT_MESSAGE" value="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags." />
+    <MESSAGE value="added trig identities" />
+    <option name="LAST_COMMIT_MESSAGE" value="added trig identities" />
   </component>
 </project>
