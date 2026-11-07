@@ -31,6 +31,38 @@
       </cell>
     </row>
 
+    <row>
+      <cell>
+        <p>Cosine</p>
+      </cell>
+      <cell>
+        <md>
+          \cos{(\alpha + \beta)} = \cos{\alpha}\cos{\beta} - \sin{\alpha}\sin{\beta}
+        </md>
+      </cell>
+      <cell>
+        <md>
+          \cos{(\alpha - \beta)} = \cos{\alpha}\cos{\beta} + \sin{\alpha}\sin{\beta}
+        </md>
+      </cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>Tangent</p>
+      </cell>
+      <cell>
+        <md>
+          \tan{(\alpha + \beta)} = \frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}
+        </md>
+      </cell>
+      <cell>
+        <md>
+          \tan{(\alpha - \beta)} = \frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}
+        </md>
+      </cell>
+    </row>
+
   </tabular>
 
 </table>

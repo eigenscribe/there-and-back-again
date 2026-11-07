@@ -15,12 +15,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="added trig identities">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="build error fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publication/publication.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/publication/publication.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/TRIGONOMETRY/TRIG_IDENTITIES/table-sum-and-difference-of-angles.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/TRIGONOMETRY/TRIG_IDENTITIES/table-sum-and-difference-of-angles.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,14 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00265" summary="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem and edited error in liouville's identity">
-      <option name="closed" value="true" />
-      <created>1789375229639</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1789375229639</updated>
     </task>
     <task id="LOCAL-00266" summary="included nation flag emojis for lagrange significant figures citizenship listing">
       <option name="closed" value="true" />
@@ -607,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794016560913</updated>
     </task>
-    <option name="localTasksCounter" value="314" />
+    <task id="LOCAL-00314" summary="build error fixes">
+      <option name="closed" value="true" />
+      <created>1794018167295</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1794018167295</updated>
+    </task>
+    <option name="localTasksCounter" value="315" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed the glow issue" />
     <MESSAGE value="fixed huge ui i think" />
     <MESSAGE value="got the front page image to render again, but it needs to be moved from the abstract block to above the abstract block" />
     <MESSAGE value="fixed the front cover image placement" />
@@ -650,6 +646,7 @@
     <MESSAGE value="Streamlined &quot;Discrete Math&quot; section by adding &quot;Sets and Combinatorics&quot; subsection and removing &quot;Concept Pipeline&quot; components. Updated graph-module metadata, workspace configuration, and tags." />
     <MESSAGE value="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags." />
     <MESSAGE value="added trig identities" />
-    <option name="LAST_COMMIT_MESSAGE" value="added trig identities" />
+    <MESSAGE value="build error fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="build error fixes" />
   </component>
 </project>
