@@ -99,7 +99,15 @@
   .answer,
   .abstract,
   .note, .aside
-) .displaymath,
+) .displaymath {
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  width: fit-content !important;
+  max-width: min(100%, 580px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-bottom: 0.15rem !important;
+}
 
 .ptx-content :is(
   .definition-like, .definition,
@@ -120,7 +128,7 @@
   overflow-x: auto !important;
   overflow-y: visible !important;
   max-width: 100% !important;
-  padding-bottom: 0.5rem !important;
+  padding-bottom: 0.15rem !important;
 }
 
 
@@ -258,31 +266,66 @@
 
 .ptx-content .definition-like .displaymath,
 .ptx-content .hint .displaymath {
-  background: rgba(0, 0, 0, 0.25) !important;
-  border-color: rgba(121, 82, 245, 0.3);
+  background: linear-gradient(
+    135deg,
+    rgba(155, 125, 255, 0.08) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  ) !important;
+  border-color: rgba(155, 125, 255, 0.35) !important;
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
 }
 
 .ptx-content .assemblage-like .displaymath {
-  background: rgba(0, 0, 0, 0.45) !important;
-  border-color: rgba(20, 181, 255, 0.3);
+  background: linear-gradient(
+    135deg,
+    rgba(20, 181, 255, 0.08) 0%,
+    rgba(0, 0, 0, 0.35) 100%
+  ) !important;
+  border-color: rgba(20, 181, 255, 0.35) !important;
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
 }
 
 .ptx-content .theorem-like .displaymath,
 .ptx-content .proof .displaymath {
-  background: rgba(0, 0, 0, 0.25) !important;
-  border-color: rgba(3, 139, 0, 0.25);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 230, 118, 0.06) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  ) !important;
+  border-color: rgba(0, 230, 118, 0.3) !important;
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
 }
 
 .ptx-content .solution .displaymath {
-  background: rgba(0, 0, 0, 0.25) !important;
-  border-color: rgba(255, 102, 179, 0.3);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 102, 179, 0.08) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  ) !important;
+  border-color: rgba(255, 102, 179, 0.35) !important;
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
 }
 
 .ptx-content .remark-like .displaymath,
 .ptx-content .insight .displaymath,
 .ptx-content .warning .displaymath {
-  background: rgba(0, 0, 0, 0.25) !important;
-  border-color: rgba(255, 136, 0, 0.3);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 136, 0, 0.08) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  ) !important;
+  border-color: rgba(255, 136, 0, 0.35) !important;
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
 }
 
 

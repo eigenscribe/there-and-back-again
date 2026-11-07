@@ -15,9 +15,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="build error fixes">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="completed sum and difference angle trig identity table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/TRIGONOMETRY/TRIG_IDENTITIES/table-sum-and-difference-of-angles.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/TRIGONOMETRY/TRIG_IDENTITIES/table-sum-and-difference-of-angles.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/asides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/asides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/tables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements/ui.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,14 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00266" summary="included nation flag emojis for lagrange significant figures citizenship listing">
-      <option name="closed" value="true" />
-      <created>1789375314611</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1789375314611</updated>
     </task>
     <task id="LOCAL-00267" summary="included nation flag emojis for lagrange significant figures citizenship listing">
       <option name="closed" value="true" />
@@ -604,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794018167295</updated>
     </task>
-    <option name="localTasksCounter" value="315" />
+    <task id="LOCAL-00315" summary="completed sum and difference angle trig identity table">
+      <option name="closed" value="true" />
+      <created>1794019824306</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1794019824307</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +626,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed huge ui i think" />
     <MESSAGE value="got the front page image to render again, but it needs to be moved from the abstract block to above the abstract block" />
     <MESSAGE value="fixed the front cover image placement" />
     <MESSAGE value="Refined CSS button styles: improved visibility for some buttons, removed text for others, adjusted padding in main content, and updated workspace.xml tracking entries." />
@@ -647,6 +650,7 @@
     <MESSAGE value="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags." />
     <MESSAGE value="added trig identities" />
     <MESSAGE value="build error fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="build error fixes" />
+    <MESSAGE value="completed sum and difference angle trig identity table" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed sum and difference angle trig identity table" />
   </component>
 </project>
