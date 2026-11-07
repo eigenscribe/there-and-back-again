@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table xml:id="table-angle-sum-and-difference-identities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sum and Difference Identities</title>
+
+  <tabular>
+
+    <col width = "30%"/>
+    <col width = "60%"/>
+
+    <row header="yes">
+      <cell>Function</cell>
+      <cell>Sum of Angles</cell>
+      <cell>Difference of Angles</cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>Sine</p>
+      </cell>
+      <cell>
+        <m>
+          \sin{(\alpha + \beta)} = \sin{\alpha}\cos{\beta}+\cos{\alpha}\sin{\beta}
+        </m>
+      </cell>
+      <cell>
+        <m>
+          \sin{(\alpha - \beta)} = \sin{\alpha}\cos{\beta}-\cos{\alpha}\sin{\beta}
+        </m>
+      </cell>
+    </row>
+
+  </tabular>
+
+</table>
+

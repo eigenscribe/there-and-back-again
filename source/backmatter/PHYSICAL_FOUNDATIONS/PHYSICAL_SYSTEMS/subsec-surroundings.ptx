@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-surroundings" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Surroundings</title>
+  <idx>surroundings</idx>
+
+  <definition xml:id="def-surrounding">
+    <idx>surroundings</idx>
+    <statement>
+      <title><term>Surroundings</term></title>
+      <p>
+        Everything external to a selected <xref ref="def-physical-system" text="custom">physical system</xref> of
+        interest that may interact with it.
+      </p>
+    </statement>
+  </definition>
+
+</subsection>

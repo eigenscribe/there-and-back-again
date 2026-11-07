@@ -33,7 +33,7 @@
                 \int_{-\infty}^{\infty} \delta(t-a) \, dt = 1 \, .
             </md>
 
-            This highlights the fact that the Dirac delta is more appropriately labelled a <term> distribution</term> rather than a function.
+            This highlights the fact that the Dirac delta is more appropriately labelled a <term>distribution</term> rather than a function.
             Specifically, its meaning is determined via its behavior under integration rather than its value at a given point.
         </p>
 
