@@ -7,6 +7,6 @@
     <!-- insert intro here -->
   </introduction>
 
-  <!-- <xi:include href="-sets-and-combinatorics.ptx"/> -->
+  <xi:include href="table-sum-and-difference-of-angles.ptx"/>
 
  </subsection>

@@ -5,8 +5,9 @@
 
   <tabular>
 
-    <col width = "30%"/>
-    <col width = "60%"/>
+    <col width = "20%"/>
+    <col width = "40%"/>
+    <col width = "40%"/>
 
     <row header="yes">
       <cell>Function</cell>
@@ -19,14 +20,14 @@
         <p>Sine</p>
       </cell>
       <cell>
-        <m>
+        <md>
           \sin{(\alpha + \beta)} = \sin{\alpha}\cos{\beta}+\cos{\alpha}\sin{\beta}
-        </m>
+        </md>
       </cell>
       <cell>
-        <m>
+        <md>
           \sin{(\alpha - \beta)} = \sin{\alpha}\cos{\beta}-\cos{\alpha}\sin{\beta}
-        </m>
+        </md>
       </cell>
     </row>
 

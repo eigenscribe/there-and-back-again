@@ -3,13 +3,23 @@
   <component name="AIDiffSettings">
     <option name="showAIDiff" value="false" />
   </component>
+  <component name="AgentAttachedProjects">{
+  &quot;attachedProjects&quot;: [
+    {
+      &quot;path&quot;: &quot;/Users/lshriver/PycharmProjects/scriber-core&quot;,
+      &quot;projectDirectory&quot;: &quot;/Users/lshriver/PycharmProjects/scriber-core&quot;
+    }
+  ]
+}</component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added &quot;Square Matrices&quot; subsection with &quot;Taxonomy&quot; and &quot;Additive Decomposition&quot; subsubsections; updated TOC styles and metadata.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/TRIGONOMETRY/sec-trigonometry.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/TRIGONOMETRY/sec-trigonometry.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/appendix-mathematical-foundations.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +147,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -203,14 +213,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00263" summary="changed liouville-joseph.ptx structure">
-      <option name="closed" value="true" />
-      <created>1789374963255</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1789374963255</updated>
     </task>
     <task id="LOCAL-00264" summary="added mention of Liouville's identity to the Gibbs-Josiah core contribution listing for liouville's theorem">
       <option name="closed" value="true" />
@@ -596,7 +598,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793097713329</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="Streamlined &quot;Discrete Math&quot; section with a new &quot;Sets and Combinatorics&quot; subsection, removed &quot;Concept Pipeline&quot; components, and updated metadata, workspace configuration, and tags.">
+      <option name="closed" value="true" />
+      <created>1794015031119</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1794015031120</updated>
+    </task>
+    <option name="localTasksCounter" value="313" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -493,7 +493,7 @@
     },
     {
       "id": "sec-trigonometry",
-      "title": "Trigonometry Identities",
+      "title": "Trigonometry",
       "url": "sec-trigonometry.html",
       "tags": [],
       "description": "",
@@ -848,6 +848,35 @@
       "url": "subsec-linear-regression.html#def-least-squares-solution",
       "tags": [],
       "description": "The least squares solution to a system A\\vec{x}=\\vec{b} with no solution is: A^T\\underbrace{ A\\vec{x}^* }_{ \\mathord{...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "def-toeplitz-decomposition-additive",
+      "title": "Toleplitz Decomposition",
+      "url": "subsubsec-square-matrices-additive-decomp.html#def-toeplitz-decomposition-additive",
+      "tags": [
+        "toleplitz decomposition"
+      ],
+      "description": "Consider a square matrix A \\in \\mathbb{C}^{n \\times n}. The Toeplitz decomposition (or Cartesian decomposition) of A ...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "thm-toeplitz-decomposition-explicit",
+      "title": "Explicit Construction and Uniqueness of the Toeplitz Decomposition",
+      "url": "subsubsec-square-matrices-additive-decomp.html#thm-toeplitz-decomposition-explicit",
+      "tags": [],
+      "description": "The constituent matrices H and K of the Toeplitz decomposition of A can directly computed using A and its conjugate t...",
+      "group": "backmatter",
+      "color": "#9013fe"
+    },
+    {
+      "id": "subsec-square-matrices",
+      "title": "Square Matrices",
+      "url": "subsec-square-matrices.html",
+      "tags": [],
+      "description": "",
       "group": "backmatter",
       "color": "#9013fe"
     },

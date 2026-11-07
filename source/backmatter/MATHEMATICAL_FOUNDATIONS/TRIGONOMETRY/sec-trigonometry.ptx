@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-trigonometry" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Trigonometry Identities</title>
+  <title>Trigonometry</title>
 
   <introduction>
     <!-- insert intro here -->
   </introduction>
 
-  <!-- <xi:include href="SETS_AND_COMBINATORICS/subsec-sets-and-combinatorics.ptx"/> -->
+  <xi:include href="TRIG_IDENTITIES/subsec-trig-identities.ptx"/>
 
  </section>
