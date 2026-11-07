@@ -355,10 +355,23 @@ nav#ptx-toc.ptx-toc li.toc-part.active,
   padding-left: 0.75rem !important;
 }
 
-/* Hide subsection indices in left TOC for visual scannability */
+/* Show section and subsection indices in TOC */
+.ptx-toc .codenumber,
+.ptx-toc .toc-item .codenumber,
+.ptx-toc .toc-title-box .codenumber,
+.ptx-toc li.toc-item .toc-title-box .codenumber,
+.ptx-toc .toc-section .codenumber,
+.ptx-toc .toc-subsection .codenumber,
+.ptx-toc .toc-subsubsection .codenumber,
+.ptx-toc .toc-item-list .codenumber,
 .ptx-toc .toc-subsection > .toc-title-box .codenumber,
-.ptx-toc li.toc-subsection > .toc-title-box .codenumber {
-  display: none !important;
+.ptx-toc li.toc-subsection > .toc-title-box .codenumber,
+.book .ptx-toc .toc-chapter .toc-item-list .toc-item-list .codenumber,
+.article .ptx-toc .toc-section .toc-item-list .toc-item-list .codenumber,
+.ptx-toc .toc-backmatter .toc-item-list .toc-item-list .codenumber {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 /* Emoji Preservation in TOC — Prevents text gradient wash out in all states */
@@ -470,14 +483,21 @@ body.pretext .ptx-toc .toc-chevron-surround {
 /*  Subsubfolder & Deep Nested TOC Items (Compact & Smaller Text) */
 /* ============================================================ */
 
-/* Subsubfolder titles (Subsections - Level 3) */
+/* Subsubfolder titles (Subsections - Level 3 & Subsubsections - Level 4) */
 body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-subsection,
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsection,
+body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-subsubsection,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection,
 body.pretext .ptx-toc li.toc-subsection,
+body.pretext .ptx-toc li.toc-subsubsection,
 .ptx-sidebar .ptx-toc li.toc-subsection,
+.ptx-sidebar .ptx-toc li.toc-subsubsection,
 .ptx-sidebar .ptx-toc .toc-item.toc-subsection,
+.ptx-sidebar .ptx-toc .toc-item.toc-subsubsection,
 .ptx-toc .toc-section ul.structural > li.toc-item,
-.ptx-toc ul.structural ul.structural ul.structural > li.toc-item {
+.ptx-toc .toc-subsection ul.structural > li.toc-item,
+.ptx-toc ul.structural ul.structural ul.structural > li.toc-item,
+.ptx-toc ul.structural ul.structural ul.structural ul.structural > li.toc-item {
   font-size: 0.84rem !important;
   line-height: 1.25 !important;
   padding: 0.3rem 0.55rem !important;
@@ -489,37 +509,43 @@ body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box,
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box a,
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box .title,
 body.pretext nav#ptx-toc.ptx-toc li.toc-subsection .toc-title-box .codenumber,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box a,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box .title,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box .codenumber,
+body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box *,
 .ptx-sidebar .ptx-toc li.toc-subsection .toc-title-box,
 .ptx-sidebar .ptx-toc li.toc-subsection .toc-title-box a,
 .ptx-sidebar .ptx-toc li.toc-subsection .toc-title-box .title,
 .ptx-sidebar .ptx-toc li.toc-subsection .toc-title-box .codenumber,
+.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box,
+.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box a,
+.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box .title,
+.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box .codenumber,
+.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box *,
 .ptx-toc .toc-subsection .title,
 .ptx-toc .toc-subsection .codenumber,
-.ptx-toc .toc-subsection a {
+.ptx-toc .toc-subsection a,
+.ptx-toc .toc-subsubsection .title,
+.ptx-toc .toc-subsubsection .codenumber,
+.ptx-toc .toc-subsubsection a,
+.ptx-toc .toc-subsubsection * {
   font-size: 0.84rem !important;
   line-height: 1.25 !important;
 }
 
 
-/* Sub-subsubfolder / leaf items (Subsubsections & deeper - Level 4+) */
-body.pretext nav#ptx-toc.ptx-toc li.toc-item.toc-subsubsection,
-body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection,
+/* Sub-subsubfolder / leaf items (Paragraphs & other deep leaves - Level 4+) */
 body.pretext nav#ptx-toc.ptx-toc li.toc-paragraphs,
 body.pretext nav#ptx-toc.ptx-toc li.toc-exercises,
 body.pretext nav#ptx-toc.ptx-toc li.toc-reading-questions,
 body.pretext nav#ptx-toc.ptx-toc li.toc-worksheet,
-body.pretext nav#ptx-toc.ptx-toc li.toc-references,
-body.pretext .ptx-toc li.toc-subsubsection,
 body.pretext .ptx-toc li.toc-paragraphs,
 body.pretext .ptx-toc li.toc-exercises,
-.ptx-sidebar .ptx-toc li.toc-subsubsection,
 .ptx-sidebar .ptx-toc li.toc-paragraphs,
 .ptx-sidebar .ptx-toc li.toc-exercises,
-.ptx-sidebar .ptx-toc .toc-item.toc-subsubsection,
-.ptx-toc .toc-subsection ul.structural > li.toc-item,
-.ptx-toc ul.structural ul.structural ul.structural ul.structural > li.toc-item,
-.ptx-toc .toc-chapter .toc-item-list .toc-item-list > li.toc-item,
-.ptx-toc .toc-section .toc-item-list .toc-item-list > li.toc-item,
+.ptx-toc .toc-chapter .toc-item-list .toc-item-list .toc-item-list > li.toc-item,
+.ptx-toc .toc-section .toc-item-list .toc-item-list .toc-item-list > li.toc-item,
 .ptx-toc .toc-backmatter .toc-item-list .toc-item-list .toc-item-list > li.toc-item {
   font-size: 0.75rem !important;
   line-height: 1.2 !important;
@@ -529,47 +555,37 @@ body.pretext .ptx-toc li.toc-exercises,
   font-style: normal !important;
 }
 
-body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box,
-body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box a,
-body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box .title,
-body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box .codenumber,
-body.pretext nav#ptx-toc.ptx-toc li.toc-subsubsection .toc-title-box *,
-.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box,
-.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box a,
-.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box .title,
-.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box .codenumber,
-.ptx-sidebar .ptx-toc li.toc-subsubsection .toc-title-box *,
-.ptx-toc .toc-subsubsection,
-.ptx-toc .toc-subsubsection .title,
-.ptx-toc .toc-subsubsection .codenumber,
-.ptx-toc .toc-subsubsection a,
-.ptx-toc .toc-subsubsection *,
-.ptx-toc .toc-paragraphs .title,
-.ptx-toc .toc-paragraphs a,
-.ptx-toc .toc-paragraphs *,
-.ptx-toc .toc-chapter .toc-item-list .toc-item-list .title,
-.ptx-toc .toc-section .toc-item-list .toc-item-list .title,
-.ptx-toc .toc-backmatter .toc-item-list .toc-item-list .toc-item-list .title,
-.ptx-toc .toc-chapter .toc-item-list .toc-item-list .codenumber,
-.ptx-toc .toc-section .toc-item-list .toc-item-list .codenumber,
-.ptx-toc .toc-backmatter .toc-item-list .toc-item-list .toc-item-list .codenumber,
-.ptx-toc .toc-chapter .toc-item-list .toc-item-list a,
-.ptx-toc .toc-section .toc-item-list .toc-item-list a,
-.ptx-toc .toc-backmatter .toc-item-list .toc-item-list .toc-item-list a,
-.ptx-toc .toc-chapter .toc-item-list .toc-item-list *,
-.ptx-toc .toc-section .toc-item-list .toc-item-list *,
-.ptx-toc .toc-backmatter .toc-item-list .toc-item-list .toc-item-list * {
-  font-size: 0.75rem !important;
-  line-height: 1.2 !important;
-  font-style: normal !important;
+/* References tab in TOC matching other appendix / backmatter tabs */
+body.pretext nav#ptx-toc.ptx-toc li.toc-references,
+body.pretext .ptx-toc li.toc-references,
+.ptx-sidebar .ptx-toc li.toc-references,
+.ptx-toc .toc-backmatter > ul.structural > li.toc-references,
+.ptx-toc .toc-backmatter .toc-item-list > li.toc-references {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  padding: 0.5rem 0.75rem !important;
+  border-radius: 14px !important;
+  margin-bottom: 6px !important;
 }
 
-/* Compact nested list container padding */
+body.pretext nav#ptx-toc.ptx-toc li.toc-references .toc-title-box,
+body.pretext nav#ptx-toc.ptx-toc li.toc-references .toc-title-box a,
+body.pretext nav#ptx-toc.ptx-toc li.toc-references .toc-title-box .title,
+.ptx-sidebar .ptx-toc li.toc-references .toc-title-box,
+.ptx-sidebar .ptx-toc li.toc-references .toc-title-box a,
+.ptx-sidebar .ptx-toc li.toc-references .toc-title-box .title,
+.ptx-toc .toc-references .title,
+.ptx-toc .toc-references a {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+/* Compact nested list container padding - subsections and subsubsections position identically */
 .ptx-toc .toc-subsection > ul.structural,
 .ptx-toc .toc-subsubsection > ul.structural,
 .ptx-toc .toc-subsection .toc-item-list,
 .ptx-toc .toc-subsubsection .toc-item-list {
-  padding-left: 0.65rem !important;
+  padding-left: 0 !important;
   margin-top: 2px !important;
 }
 

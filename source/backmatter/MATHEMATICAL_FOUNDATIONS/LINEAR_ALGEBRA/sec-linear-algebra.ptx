@@ -10,5 +10,6 @@
 
   <xi:include href="normal-equation.ptx"/>
   <xi:include href="linear-regression.ptx"/>
+  <xi:include href="SQUARE_MATRICES/sub-square-matrices.ptx"/>
 
  </section>

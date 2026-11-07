@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precept [
+    <!ENTITY date "2026-10-27">
+]>
+
+<subsubsection xml:id="subsubsec-square-matrices-taxonomy" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Taxonomy</title>
+
+  <introduction>
+    <p>
+      Square matrices can be classified into distinct algebraic structures based on their under transposition operators.
+    </p>
+  </introduction>
+
+  <sidebyside widths="47% 47%" margins="auto">
+    <paragraphs xml:id="pars-real-matrix-taxonomy">
+      <title>Real-Valued Domain</title>
+
+      <p>
+        Transition operations on real-valued square matrices <m>A\in\mathbb{R}^{n\times n}</m> often relies on the
+        standard <term>transpose operator</term> <m>A^T</m>.
+      </p>
+
+      <p>
+        <dl>
+          <li>
+            <title>Symmetric matrix</title>
+
+            <p>
+              Satisfies <m>A=A^T</m>.
+            </p>
+          </li>
+
+          <li>
+            <title>Skew-Symmetric matrix</title>
+
+            <p>
+              Satisfies <m>A=-A^T</m>.
+            </p>
+          </li>
+        </dl>
+      </p>
+
+    </paragraphs>
+
+    <paragraphs>
+      <title>Complex-Valued Domain</title>
+
+      <p>
+        sdf
+      </p>
+
+    </paragraphs>
+  </sidebyside>
+
+</subsubsection>
