@@ -1529,9 +1529,9 @@ dialog.ptx-dialog::backdrop,
   flex-wrap: wrap !important;
   gap: 16px !important;
   width: 100% !important;
-  max-width: 1050px !important;
+  max-width: 900px !important;
   margin: 3.5rem auto 2rem auto !important;
-  padding: 1.25rem 2rem !important;
+  padding: 1.25rem 1.5rem !important;
   background: linear-gradient(135deg, rgba(8, 14, 28, 0.75) 0%, rgba(12, 18, 38, 0.7) 100%) padding-box,
               linear-gradient(135deg, rgba(56, 189, 248, 0.25) 0%, rgba(129, 140, 248, 0.2) 50%, rgba(192, 132, 252, 0.25) 100%) border-box !important;
   border: 1px solid transparent !important;

@@ -91,8 +91,6 @@
     min-height: 0 !important;
   }
 
-  .ptx-main > .ptx-content,
-  #ptx-content,
   .ptx-content {
     max-width: 100% !important;
     padding: 0 var(--space-md) !important;
@@ -171,12 +169,10 @@
   }
 
   .ptx-content .displaymath {
-    padding: 0.75rem 1rem !important;
+    padding: 1rem !important;
     overflow-x: auto !important;
     overflow-y: visible !important;
-    width: fit-content !important;
     max-width: 100% !important;
-    box-sizing: border-box !important;
   }
 
   .ptx-content mjx-container {
@@ -319,8 +315,6 @@
     font-size: 1.2rem !important;
   }
 
-  .ptx-main > .ptx-content,
-  #ptx-content,
   .ptx-content {
     padding: 0 var(--space-sm) !important;
   }

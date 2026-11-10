@@ -4,12 +4,11 @@
 
 /* Main table container */
 .ptx-content figure.table.table-like {
-    margin: 2.5rem auto !important;
+    margin: 2.5rem 0 !important;
     background: transparent !important;
     border: none !important;
     width: fit-content !important;
     max-width: 100% !important;
-    text-align: center;
 }
 
 /* The glass box surrounding the table */
@@ -30,7 +29,7 @@
         inset 0 1px 0 rgba(255, 255, 255, 0.18),
         inset 0 0 32px rgba(20, 181, 255, 0.045) !important;
     overflow-x: auto !important;
-    margin: 0 auto 1rem auto !important;
+    margin-bottom: 1rem !important;
     padding: 0 !important;
     width: fit-content !important;
     max-width: 100% !important;

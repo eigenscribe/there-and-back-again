@@ -108,7 +108,6 @@
 
   <html>
     <!-- Custom CSS styling is configured via project.ptx stringparam -->
-    <resources host="cdn" />
 
 
     <!-- Whether to knowl a particular elements is set here    -->
