@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="subsec-calculus-of-variations-primer" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Calculus of Variations Primer</title>
+  <title>Primer</title>
 
   <xi:include href="para-function-space.ptx"/>
   <xi:include href="para-functional.ptx"/>

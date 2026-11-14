@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-complex-powers" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Complex Powers</title>
+
+  <definition xml:id="def-complex-power">
+    <idx><term>complex power</term></idx>
+    <statement>
+      <p>
+        For <m>a\in\mathbb{R}^+</m> and <m>z\in\mathbb{C}</m>, define
+      </p>
+      <md>
+        a^z := e^{z\ln{a}} \, .
+      </md>
+      <p>
+        Then, writing <m>z=x+iy</m> gives
+      </p>
+      <md>
+        a^{x+iy} = e^{(x+iy)\ln{a}} = a^x e^{iy\ln{a}} \, .
+      </md>
+    </statement>
+  </definition>
+
+</paragraphs>

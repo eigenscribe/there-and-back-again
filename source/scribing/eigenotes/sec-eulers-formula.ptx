@@ -10,13 +10,19 @@
     </p>
   </introduction>
 
-  <definition>
+  <context>
+    <p>
+      Take $i^2=-1$.
+    </p>
+  </context>
+
+  <definition xml:id="def-eulers-formula">
     <title>Euler's Formula</title>
     <idx>euler's formula</idx>
 
     <statement>
       <md>
-        e^{\mathcal{I} x} = cos(x) + \mathcal{I} sin(x)
+        e^{i x} = \cos(x) + i \sin(x), \quad i^2=-1
       </md>
     </statement>
   </definition>
@@ -26,7 +32,7 @@
 
     <statement>
       <md>
-        e^{\mathcal{I} x} + 1 = 0
+        e^{i x} + 1 = 0
       </md>
     </statement>
 

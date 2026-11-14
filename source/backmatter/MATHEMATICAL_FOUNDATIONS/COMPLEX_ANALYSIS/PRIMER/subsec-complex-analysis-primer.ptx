@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-complex-analysis-primer" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Primer</title>
+
+  <context>
+    <p>
+      Recall <xref ref="def-eulers-formula" text="custom">Euler's formula</xref>.
+    </p>
+  </context>
+
+  <xi:include href="para-complex-powers.ptx"/>
+
+
+</subsection>
