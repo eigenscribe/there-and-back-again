@@ -41,6 +41,10 @@
             "type": "string",
             "description": "Folder-based grouping for coloring nodes"
           },
+          "tag_type": {
+            "type": "string",
+            "description": "PreTeXt XML tag or block type (e.g. theorem, definition, axiom, example, remark, project)"
+          },
           "aliases": {
             "type": "array",
             "items": { "type": "string" },

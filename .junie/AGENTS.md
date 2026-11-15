@@ -176,7 +176,14 @@ if __name__ == "__main__":
 
 ### PreTeXt XML Conventions
 - **XML IDs**: Every `<chapter>`, `<section>`, `<subsection>`, `<definition>`, `<theorem>`, `<figure>`, and `<table`> must have a unique `xml:id`.
-  - Prefix sections with `sec-`, subsections with `subsec-`, chapters with `ch-`, and tables with `tab-`.
+  - Prefix divisions: `ch-` (chapters), `sec-` (sections), `subsec-` (subsections), `app-` (appendices), `tab-` (tables), `fig-` (figures).
+  - Prefix blocks:
+    - **Theorem-like**: `thm-` (theorem), `lem-` (lemma), `cor-` (corollary), `prop-` (proposition), `claim-` (claim), `fact-` (fact), `id-` (identity), `algo-` (algorithm).
+    - **Definition-like**: `def-` (definition), `gls-` (glossary item).
+    - **Axiom-like**: `ax-` (axiom), `asm-` (assumption), `conj-` (conjecture), `heur-` (heuristic), `hyp-` (hypothesis), `prin-` (principle).
+    - **Example-like**: `ex-` (example), `prob-` (problem), `quest-` (question).
+    - **Remark-like**: `rem-` (remark), `conv-` (convention), `ins-` (insight), `note-` (note), `obs-` (observation), `warn-` (warning).
+    - **Project-like**: `proj-` (project), `act-` (activity), `expl-` (exploration), `inv-` (investigation).
 - **Mathematical Notation**:
   - Use `<m>...</m>` for inline math expressions.
   - Use `<me>...</me>` for single-line display math without alignment.
@@ -184,13 +191,63 @@ if __name__ == "__main__":
   - Do not use raw unescaped LaTeX symbols (`<`, `>`, `&`) directly in text; use XML entities (`&lt;`, `&gt;`, `&amp;`) or place inside `<m>`/`<me>`/`<md>`.
 - **Cross-References**: Use `<xref ref="target-xml-id"/>` for internal linking.
 
+### PreTeXt Block Groups and Styling Conventions (Chapter 15 Alignment)
+
+PreTeXt organizes semantic blocks into distinct architectural groups as defined in Chapter 15 of the PreTeXt Guide. Each group possesses dedicated glassmorphic styling, vertical accent bars, gradient title treatments, and MathJax color integration:
+
+1. **Theorem-Like Elements (Section 15.1)**
+   - **Tags**: `<theorem>`, `<algorithm>`, `<claim>`, `<corollary>`, `<fact>`, `<identity>`, `<lemma>`, `<proposition>`, plus detached or embedded `<proof>`.
+   - **Structure**: Optional `<title>`, optional `<creator>`, `<statement>`, and optional `<proof>` (which may contain `<title>` and `<case>` divisions).
+   - **Color Scheme**: Emerald / Green gradient (`--gradient-theorem`: `#039600` to `#00E676` to `#209d20`, math color `#00E676`).
+   - **Visuals**: Green left vertical accent bar (`5px * var(--phi)`), 2px animated gradient title underline.
+
+2. **Definition-Like Elements (Section 15.1)**
+   - **Tags**: `<definition>`.
+   - **Structure**: Optional `<notation>` (`<usage>`, `<description>`), `<statement>`, `<term>` for defined terms.
+   - **Color Scheme**: Purple gradient (`--gradient-definition`: `#a855f7` to `#8564f6` to `#7952f5` to `#5E17EB` / `#332288`, math color `#9b7dff`).
+   - **Visuals**: Purple left accent bar, 2px purple animated title underline.
+
+3. **Example-Like Elements (Section 15.2)**
+   - **Tags**: `<example>`, `<problem>`, `<question>`.
+   - **Structure**: Unstructured or structured with `<statement>`, optional `<hint>`, `<answer>`, `<solution>`.
+   - **Color Scheme**: Sky Blue gradient (`--gradient-example`: `#14B5FF` to `#3a98ff` to `#4a7dd0`, math color `#14B5FF`).
+   - **Visuals**: Blue left accent bar, 2px blue animated title underline. Sub-elements have dedicated styling:
+     - `<hint>`: Purple-blue gradient (`#5280ff` to `#905df5`) with disclosure marker.
+     - `<solution>`: Pink gradient (`--gradient-pink`: `#ff76a1` to `#ff40a1` to `#f76166`, math color `#FF66B3`).
+     - `<answer>`: Sky blue gradient (`#14b5ff` to `#3a98ff`, math color `#14B5FF`).
+
+4. **Axiom-Like Elements (Section 15.3)**
+   - **Tags**: `<assumption>`, `<axiom>`, `<conjecture>`, `<heuristic>`, `<hypothesis>`, `<principle>`.
+   - **Structure**: Optional `<title>`, optional `<creator>`, optional `<idx>`, `<statement>`.
+   - **Color Scheme**: Amber / Gold gradient (`--gradient-axiom`: `#FBBF24` to `#F59E0B` to `#D97706` / `#885500`, math color `#FBBF24`).
+   - **Visuals**: Warm amber left accent bar, 2px amber animated title underline.
+
+5. **Remark-Like Elements (Section 15.4)**
+   - **Tags**: `<convention>`, `<insight>`, `<note>`, `<observation>`, `<remark>`, `<warning>`.
+   - **Structure**: Optional `<title>`, optional `<idx>`, content containing `<p>`, `<blockquote>`, `<pre>`.
+   - **Color Scheme**: Warm Orange gradient (`--gradient-orange`: `#FFB700` to `#FF8800` to `#FF5500`, math color `#FF8800`).
+   - **Visuals**: Orange left accent bar, 2px orange animated title underline (`<warning>` utilizes red-orange warning accents).
+
+6. **Project-Like Elements (Section 15.5)**
+   - **Tags**: `<activity>`, `<exploration>`, `<investigation>`, `<project>`.
+   - **Structure**: Unstructured, structured with `<statement>`/`<hint>`/`<answer>`/`<solution>`, or multi-task model with `<introduction>`, `<task>` (with sub-statement/hints), and `<conclusion>`.
+   - **Color Scheme**: Teal / Cyan gradient (`--gradient-project`: `#22D3EE` to `#06B6D4` to `#0891B2` / `#0E7490`, math color `#22D3EE`).
+   - **Visuals**: Teal left accent bar, 2px teal animated title underline.
+
 ### Graph & Tagging Conventions
-- Note nodes are automatically detected by `graph-module/update_graph.py` from any XML element with an `xml:id` belonging to `supported_tags` (`chapter`, `section`, `subsection`, `appendix`, `claim`, `definition`, `example`, `theorem`, `lemma`, `proposition`, `corollary`, `identity`, `gi`, `glossary`).
+- Note nodes are automatically detected by `graph-module/update_graph.py` from any XML element with an `xml:id` belonging to `supported_tags`:
+  - **Divisions**: `chapter`, `section`, `subsection`, `appendix`, `glossary`, `gi`.
+  - **Theorem-like**: `theorem`, `algorithm`, `claim`, `corollary`, `fact`, `identity`, `lemma`, `proposition`.
+  - **Definition-like**: `definition`.
+  - **Example-like**: `example`, `problem`, `question`.
+  - **Axiom-like**: `assumption`, `axiom`, `conjecture`, `heuristic`, `hypothesis`, `principle`.
+  - **Remark-like**: `convention`, `insight`, `note`, `observation`, `remark`, `warning`.
+  - **Project-like**: `activity`, `exploration`, `investigation`, `project`.
 - Tags can be declared using:
   - `<tag>tag1, tag2</tag>`
   - `<idx><term>tag</term></idx>`
   - Inline hashtag format in paragraphs: `#tag-name` (hyphens convert to spaces).
-- Note groups and visualization colors are governed by top-level source folders (`source/scribing`, `source/backmatter`, `source/meta`, `source/practice-problems`, etc.). If adding new top-level categories, register their colors in `group_colors` inside `graph-module/update_graph.py`.
+- Note groups and visualization colors are governed by top-level source folders (`source/scribing`, `source/backmatter`, `source/meta`, `source/practice-problems`, etc.) and semantic block types (`--color-theorem`, `--color-definition`, `--color-axiom`, `--color-example`, `--color-remark`, `--color-project`). If adding new top-level categories, register their colors in `group_colors` inside `graph-module/update_graph.py` and `graph-module/graph.js`.
 
 ### HTML Postprocessing Invariants
 - `scripts/postprocess_html.py` performs in-place DOM string manipulations on compiled HTML output:

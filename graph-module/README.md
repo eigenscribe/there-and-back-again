@@ -91,7 +91,8 @@ new NotesGraph('#my-container', {
       "tags": ["tag1", "tag2"],
       "description": "Brief description",
       "color": "#optional-color",
-      "group": "backmatter"
+      "group": "backmatter",
+      "tag_type": "theorem"
     }
   ],
   "links": [
@@ -116,6 +117,7 @@ new NotesGraph('#my-container', {
 | `description` | No | Tooltip description |
 | `color` | No | Custom node color |
 | `group` | No | Folder or collection used for grouping and coloring |
+| `tag_type` | No | PreTeXt XML tag or block type (e.g. theorem, definition, axiom, example, remark, project) |
 | `aliases` | No | Alternative names (from Obsidian) |
 
 ### Link Types

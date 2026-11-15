@@ -2,25 +2,25 @@
 
 <paragraphs xml:id="para-wedge-product" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Wedge (Exterior) Product</title>
-  <idx>wedge product</idx>
-  <idx>exterior product</idx>
-  <idx>outer product</idx>
-
-  <assemblage>
-    <p>
-      The <term>wedge (exterior) product</term> is a fundamental operation in geometric algebra that has an input of two
-      vectors and outputs a <xref ref="def-bivector" text="custom"><term>bivector</term></xref>.
-    </p>
-  </assemblage>
+  <idx><term>wedge product</term></idx>
+  <idx><term>exterior product</term></idx>
+  <idx><term>outer product</term></idx>
 
   <definition xml:id="def-wedge-product">
     <title>Wedge Product</title>
 
     <statement>
       <p>
-        Take <m>\mathbf{a}=\begin{bmatrix} a^1 \\ a^2 \end{bmatrix}</m> and
-        <m>\mathbf{b}=\begin{bmatrix} b^1 \\ b^2 \end{bmatrix}</m>.
+        The <term>wedge product</term> (or <term>exterior product</term>) is a fundamental operation in geometric algebra that takes two
+        vectors and outputs a <xref ref="def-bivector"><term>bivector</term></xref>.
       </p>
+      <p>
+        Given vectors in a 2D basis:
+      </p>
+      <md>
+        <mrow>\mathbf{a} \amp = a^1\mathbf{e}_1 + a^2\mathbf{e}_2 = \begin{bmatrix} a^1 \\ a^2 \end{bmatrix}</mrow>
+        <mrow>\mathbf{b} \amp = b^1\mathbf{e}_1 + b^2\mathbf{e}_2 = \begin{bmatrix} b^1 \\ b^2 \end{bmatrix}</mrow>
+      </md>
       <!-- PREFIGURE IMAGE HERE -->
     </statement>
   </definition>

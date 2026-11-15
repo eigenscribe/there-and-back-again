@@ -8,7 +8,8 @@
       "tags": [],
       "description": "Text of section.",
       "group": "default",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "section"
     },
     {
       "id": "app-computational-methods",
@@ -17,7 +18,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "appendix"
     },
     {
       "id": "app-reference",
@@ -26,7 +28,8 @@
       "tags": [],
       "description": "How scientific tests are designed and conducted.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "appendix"
     },
     {
       "id": "sec-research-methods",
@@ -35,7 +38,8 @@
       "tags": [],
       "description": "How scientific tests are designed and conducted.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "sec-uncertainty-and-error",
@@ -44,7 +48,8 @@
       "tags": [],
       "description": "The reliability of evidence supported by measurements.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "app-mathematical-foundations",
@@ -53,7 +58,8 @@
       "tags": [],
       "description": "Non-geometric algebra mathematics.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "appendix"
     },
     {
       "id": "app-physical-foundations",
@@ -62,7 +68,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "appendix"
     },
     {
       "id": "app-quantum-computing",
@@ -71,7 +78,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "appendix"
     },
     {
       "id": "gls-main",
@@ -96,7 +104,8 @@
       ],
       "description": "Vectors whose components correspond with relative proportions of a whole.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "glossary"
     },
     {
       "id": "gls-composition",
@@ -107,7 +116,8 @@
       ],
       "description": "Vectors whose components correspond with relative proportions of a whole.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-distribution",
@@ -118,7 +128,8 @@
       ],
       "description": "A mathematical description of how a quantity (e.g., a probability) is allocated across a set of outcomes or values.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-first-principles-logic",
@@ -129,7 +140,8 @@
       ],
       "description": "A method of reasoning in which claims, hypotheses, models, or systems are explicitly decomposed into their most funda...",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-function",
@@ -140,7 +152,8 @@
       ],
       "description": "A mapping f:A\\rightarrow B from a domain A to a codomain B. Such mappings assign exactly one element b\\in B (the outp...",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-mechanics",
@@ -151,7 +164,8 @@
       ],
       "description": "The branch of physics concerned with describing the states, evolution, and interactions of physical systems.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-numerical-integration",
@@ -162,7 +176,8 @@
       ],
       "description": "Methods for approximating definite integrals.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-poisson-brackets",
@@ -173,7 +188,8 @@
       ],
       "description": "Provides a fundamental operation in Hamiltonian mechanics and symplectic geometry. Specifically, it tells you how an ...",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-power-spectral-density",
@@ -184,7 +200,8 @@
       ],
       "description": "A function S_{xx}(f) describing how the power of a signal is distributed over frequency f.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-regression-methods",
@@ -195,7 +212,8 @@
       ],
       "description": "Methods for fitting models to data.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-root-finding",
@@ -206,7 +224,8 @@
       ],
       "description": "Methods for solving equations of the form f(x) = 0.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-significant-figure",
@@ -217,7 +236,8 @@
       ],
       "description": "A digit of a numerical value that contributes to the precision of a measurement and is therefore crucial for accurate...",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-spherical-harmonics",
@@ -228,7 +248,8 @@
       ],
       "description": "A set of orthogonal functions defined on the surface of a sphere that form a complete basis for representing angular ...",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-spurious-correlations",
@@ -239,7 +260,8 @@
       ],
       "description": "Non-causal correlations between variables that manifest due to third party factors.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-support",
@@ -250,7 +272,8 @@
       ],
       "description": "The subset of the domain X of a function f: X\\rightarrow \\mathbb{R} on which the function is nonzero.",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "gls-variational-mechanics",
@@ -261,7 +284,8 @@
       ],
       "description": "A formulation of mechanics in which the behavior of a physical system is characterized through the variation of a fun...",
       "group": "glossary",
-      "color": "#f59e0b"
+      "color": "#f59e0b",
+      "tag_type": "gi"
     },
     {
       "id": "subsec-numerical-methods",
@@ -272,7 +296,8 @@
       ],
       "description": "Numerical methods hurt my head. \ud83e\udd2f",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "sub-finite-difference",
@@ -285,7 +310,8 @@
       ],
       "description": "The following tables summarize common finite difference schemes for first and second derivatives.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "subsec-numerical-methods-nomenclature",
@@ -302,7 +328,8 @@
       ],
       "description": "2026101400 | numerical methods, differential equations, numerical analysis",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-numerical-consistency",
@@ -311,7 +338,8 @@
       "tags": [],
       "description": "A numerical scheme is said to be consistent with respect to a differential equation if the local truncation error \\ta...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-numerical-stability",
@@ -320,7 +348,8 @@
       "tags": [],
       "description": "A numerical scheme is said to be stable if small perturbations (e.g., round-off errors, small fluctuations in initial...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-numerical-convergence",
@@ -329,7 +358,8 @@
       "tags": [],
       "description": "A numerical method is said to be convergent if the global error between the ground truth analytical/continuous soluti...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "thm-lax-equivalence",
@@ -338,7 +368,8 @@
       "tags": [],
       "description": "For a well-posed linear initial value problem, a continuous finite difference approximation is said to be convergent ...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "theorem"
     },
     {
       "id": "sec-signal-analysis",
@@ -349,7 +380,8 @@
       ],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "def-dirac-delta",
@@ -360,7 +392,18 @@
       ],
       "description": "The Dirac delta distribution, denoted \\delta(t), is an idealized impulse concentrated at instant in time. Although it...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
+    },
+    {
+      "id": "rem-dirac-delta-continuous-superposition",
+      "title": "rem-dirac-delta-continuous-superposition",
+      "url": "subsubsec-dirac-delta-lti-systems.html#rem-dirac-delta-continuous-superposition",
+      "tags": [],
+      "description": "Any signal x(t) can be represented as a continuous superposition of shifted impulses, x(t) = \\int_{-\\infty}^{\\infty} ...",
+      "group": "backmatter",
+      "color": "#9013fe",
+      "tag_type": "remark"
     },
     {
       "id": "subsubsec-linear-time-invariant-systems",
@@ -371,7 +414,8 @@
       ],
       "description": "Here, we introduce the fundamental ideas, terminology, and tools used to analyze one-dimensional signals in the time ...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "subsec-spectral-analysis",
@@ -380,7 +424,8 @@
       "tags": [],
       "description": "This section provides a quick-reference guide to translating mathematical definitions into scientific and engineering...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "subsec-periodic-table",
@@ -389,7 +434,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "subsec-hypotheses",
@@ -401,7 +447,8 @@
       ],
       "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-hypothesis",
@@ -410,7 +457,8 @@
       "tags": [],
       "description": "A hypothesis is a falsifiable prediction formulated for experimental verification",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-accuracy-vs-precision",
@@ -422,7 +470,8 @@
       ],
       "description": "Accuracy and precision are closely related concepts that are often confused. This nuance is important to understand d...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-accuracy",
@@ -433,7 +482,8 @@
       ],
       "description": "How closely a measurement is to the ground truth or reference value.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-precision",
@@ -444,7 +494,8 @@
       ],
       "description": "Consistency with which reported measurements agree with each other.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "sec-algebraic-structures",
@@ -453,16 +504,21 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-geometric-algebra",
       "title": "Geometric Algebra",
       "url": "subsec-geometric-algebra.html",
-      "tags": [],
+      "tags": [
+        "clifford algebra",
+        "geometric algebra"
+      ],
       "description": "Geometric algebra provides simple formulations and unique insight for many different physical processes.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "ga-hodge-dual-3D",
@@ -471,7 +527,8 @@
       "tags": [],
       "description": "In Clifford algebra \\operatorname{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product \\vec{a}\\times\\vec...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "identity"
     },
     {
       "id": "def-bivector",
@@ -481,18 +538,20 @@
         "bivector",
         "grade-2"
       ],
-      "description": "The grade-2 objet in Grassmann algebra is called a bivector and is generated by the wedge product.",
+      "description": "The grade-2 object in Grassmann algebra is called a bivector and is generated by the wedge product.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-wedge-product",
       "title": "Wedge Product",
       "url": "para-wedge-product.html#def-wedge-product",
       "tags": [],
-      "description": "Take \\mathbf{a}=\\begin{bmatrix} a^1 \\\\ a^2 \\end{bmatrix} and \\mathbf{b}=\\begin{bmatrix} b^1 \\\\ b^2 \\end{bmatrix}.",
+      "description": "The wedge product (or exterior product) is a fundamental operation in geometric algebra that takes two vectors and ou...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-unitary-groups",
@@ -503,7 +562,8 @@
       ],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-u1-complex-numbers",
@@ -512,7 +572,8 @@
       "tags": [],
       "description": "\\operatorname{U}(1) = \\{ z \\in \\C : |z| = 1 \\} = \\{ e^{\\mathcal{i}\\theta} : \\theta \\in \\R \\}",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-u1-matrix-group",
@@ -521,7 +582,8 @@
       "tags": [],
       "description": "\\operatorname{U}(1) = \\{ M \\in M_1(\\C ) : MM^\\dagger = I \\}",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "sec-algebra-and-precalculus",
@@ -533,7 +595,8 @@
       ],
       "description": "Foundational definitions, sequences, means, and classical identities.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "def-arithmetic-mean",
@@ -544,7 +607,8 @@
       ],
       "description": "For a collection of real-valued numbers, x_1, x_2, \\dots, x_n \\in \\mathbb{R}, the arithmetic mean \\bar{x} is defined as:",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-geometric-mean",
@@ -555,7 +619,8 @@
       ],
       "description": "For a collection of non-negative real values, \\mathbf{x}=\\left(x_1, x_2, \\dots, x_n \\right) , \\quad x_i\\in\\mathbb{R}^...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-means",
@@ -564,7 +629,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "sec-calculus-of-variations",
@@ -573,7 +639,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-euler-lagrange",
@@ -584,7 +651,8 @@
       ],
       "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-euler-lagrange",
@@ -595,7 +663,8 @@
       ],
       "description": "For a functional J[y] := \\int_{x_1}^{x_2}{F\\big(x,y(x),y_x(x)\\big) \\, dx}, the Euler-Lagrange Equation is",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-legendre-transform",
@@ -608,7 +677,8 @@
       ],
       "description": "Consider a strictly convex, differentiable function function f: U \\subseteq \\mathbb{R}^n \\to \\mathbb{R} .",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-conjugate-variable",
@@ -619,7 +689,8 @@
       ],
       "description": "The conjugate variable of f(\\mathbf{x}) is the defined as",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-legendre-transform",
@@ -631,7 +702,8 @@
       ],
       "description": "The Legendre transform of f is the function f^*: U^* \\to \\mathbb{R} defined by:",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-function-space",
@@ -642,7 +714,8 @@
       ],
       "description": "A function space \\mathcal{F} is a collection of functions y\\in\\mathcal{F} that share the same domain and codomain, an...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-functional",
@@ -651,7 +724,8 @@
       "tags": [],
       "description": "In the calculus of variations, the standard form of a functional J[y] is typically written as J[y] = \\int_{x_1}^{x_2}...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-path",
@@ -662,7 +736,8 @@
       ],
       "description": "A path is a function f(x_1,x_2,\\dots) that assigns the value of one or more dependent variables to each value of an i...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-admissible-path",
@@ -673,7 +748,8 @@
       ],
       "description": "An admissible path is a path satisfying the boundary conditions along with any additional constraints for a particula...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-stationary",
@@ -684,7 +760,8 @@
       ],
       "description": "A functional is said to be stationary at a point along an admissible path y=f(x) if all first order changes to that p...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-perturbation",
@@ -695,7 +772,8 @@
       ],
       "description": "In calculus of variations, a perturbation is a small change",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-variation",
@@ -706,7 +784,8 @@
       ],
       "description": "A variation is an infinitesimal perturbation of an admissible path y(x). A typical variation is written as",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-first-variation",
@@ -717,7 +796,8 @@
       ],
       "description": "The first variation is the first order change \\delta J in the functional with respect to parameter \\varepsilon after ...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-calculus-of-variations-primer",
@@ -726,7 +806,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "sec-complex-analysis",
@@ -735,7 +816,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "def-complex-power",
@@ -746,7 +828,8 @@
       ],
       "description": "For a\\in\\mathbb{R}^+ and z\\in\\mathbb{C}, define",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-complex-analysis-primer",
@@ -755,7 +838,8 @@
       "tags": [],
       "description": "Recall Euler's formula.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "sec-differential-equations",
@@ -764,7 +848,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-dirac-delta",
@@ -775,7 +860,8 @@
       ],
       "description": "Here we define the Dirac delta distribution and its relation to the unit step function.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-dirac-delta-distribution",
@@ -784,7 +870,18 @@
       "tags": [],
       "description": "The Dirac delta distribution \\delta(x)is a generalized distribution that equals zero everywhere except at the point x...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
+    },
+    {
+      "id": "note-dirac-delta-interpretation",
+      "title": "note-dirac-delta-interpretation",
+      "url": "subsec-dirac-delta.html#note-dirac-delta-interpretation",
+      "tags": [],
+      "description": "Conventionally, the value of the integral of the Dirac delta distribution is unambiguous whenever the support of the ...",
+      "group": "backmatter",
+      "color": "#9013fe",
+      "tag_type": "note"
     },
     {
       "id": "sec-discrete-math",
@@ -793,7 +890,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "sec-discrete-structures-nomenclature",
@@ -802,7 +900,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-structures",
@@ -815,7 +914,8 @@
       ],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-set",
@@ -829,7 +929,8 @@
       ],
       "description": "An order-independent collection of distinct items called elements (or members).",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-list",
@@ -841,7 +942,8 @@
       ],
       "description": "A collection of elements from a universal set \\mathcal{U} defined by a function:",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-sets-and-combinatorics",
@@ -850,7 +952,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "subsec-linear-regression",
@@ -863,7 +966,8 @@
       ],
       "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right), we seek the line of...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-best-fit-line",
@@ -874,7 +978,8 @@
       ],
       "description": "Given data vectors \\vec{x}=\\left(x_1, \\dots, x_n\\right) and \\vec{y}=\\left(y_1, \\dots, y_n\\right), we seek the line of...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-least-squares-solution",
@@ -883,7 +988,8 @@
       "tags": [],
       "description": "The least squares solution to a system A\\vec{x}=\\vec{b} with no solution is: A^T\\underbrace{ A\\vec{x}^* }_{ \\mathord{...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-normal-equation",
@@ -894,7 +1000,8 @@
       ],
       "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}. Then the normal equat...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-normal-equation",
@@ -903,7 +1010,8 @@
       "tags": [],
       "description": "Let \\mathcal{V}\\subseteq\\mathbb{R}^n be a vector space and \\mathcal{V}^\\perp \\perp \\mathcal{V}. Then the normal equat...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "sec-linear-algebra",
@@ -914,7 +1022,8 @@
       ],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-square-matrices",
@@ -923,7 +1032,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-toeplitz-decomposition-additive",
@@ -934,7 +1044,8 @@
       ],
       "description": "Consider a square matrix A \\in \\mathbb{C}^{n \\times n}. The Toeplitz decomposition (or Cartesian decomposition) of A ...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "thm-toeplitz-decomposition-explicit",
@@ -943,7 +1054,8 @@
       "tags": [],
       "description": "The constituent matrices H and K of the Toeplitz decomposition of A can directly computed using A and its conjugate t...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "theorem"
     },
     {
       "id": "sec-symplectic-geometry",
@@ -952,7 +1064,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-2-forms",
@@ -963,7 +1076,8 @@
       ],
       "description": "For this definition, we assume \\mathbf{v}_1 and \\mathbf{v}_1 are both 2D vectors.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-2-form",
@@ -974,7 +1088,8 @@
       ],
       "description": "For this definition, we assume \\mathbf{v}_1 and \\mathbf{v}_1 are both 2D vectors.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "sec-trigonometry",
@@ -983,7 +1098,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-trigonometry-identities",
@@ -992,7 +1108,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "sec-physical-properties",
@@ -1001,7 +1118,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-extensive-vs-intensive-properties",
@@ -1010,7 +1128,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "subsec-macroscopic-property",
@@ -1021,7 +1140,8 @@
       ],
       "description": "A macroscopic property is a measurable quantity that describes the collective behavior of a physical system without s...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-macroscopic-property",
@@ -1032,7 +1152,8 @@
       ],
       "description": "A macroscopic property is a measurable quantity that describes the collective behavior of a physical system without s...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-state-variables",
@@ -1043,7 +1164,8 @@
       ],
       "description": "A state variable is a measurable property of a physical system whose value depends only on the equilibrium state of t...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-state-variable",
@@ -1054,7 +1176,8 @@
       ],
       "description": "A state variable is a measurable property of a physical system whose value depends only on the equilibrium state of t...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-extensive-property",
@@ -1065,7 +1188,8 @@
       ],
       "description": "An extensive property is a physical property whose value scales with the size or amount of material comprising the ph...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-intensive-property",
@@ -1076,7 +1200,8 @@
       ],
       "description": "An intensive property is a property whose value does not scale with the size of the system.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-physical-systems",
@@ -1085,7 +1210,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-macrostates-and-microstates",
@@ -1094,7 +1220,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "subsec-physical-system",
@@ -1106,7 +1233,8 @@
       ],
       "description": "A physical system is a collection of interacting components whose behavior can be described by a set of measurable ma...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-physical-system",
@@ -1118,7 +1246,8 @@
       ],
       "description": "A physical system is a collection of interacting components whose behavior can be described by a set of measurable ma...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-surroundings",
@@ -1129,7 +1258,8 @@
       ],
       "description": "Everything external to a selected physical system of interest that may interact with it.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "def-surrounding",
@@ -1140,7 +1270,8 @@
       ],
       "description": "Everything external to a selected physical system of interest that may interact with it.",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-macrostate",
@@ -1151,7 +1282,8 @@
       ],
       "description": "A macrostate is the complete specification of the measurable macroscopic properties that characterize a physical syst...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
     },
     {
       "id": "def-microstate",
@@ -1162,7 +1294,18 @@
       ],
       "description": "A microstate is a complete microscopic description of a physical system that specifies the state of every constituent...",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "definition"
+    },
+    {
+      "id": "remark-second-law-prelude",
+      "title": "remark-second-law-prelude",
+      "url": "para-microstates.html#remark-second-law-prelude",
+      "tags": [],
+      "description": "Multiple different microstates may give rise to the same macrostate.",
+      "group": "backmatter",
+      "color": "#9013fe",
+      "tag_type": "remark"
     },
     {
       "id": "sec-quantum-gates",
@@ -1171,7 +1314,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "section"
     },
     {
       "id": "subsec-single-qubit-gates",
@@ -1180,7 +1324,8 @@
       "tags": [],
       "description": "",
       "group": "backmatter",
-      "color": "#9013fe"
+      "color": "#9013fe",
+      "tag_type": "subsection"
     },
     {
       "id": "ch-cheat-sheets",
@@ -1189,7 +1334,8 @@
       "tags": [],
       "description": "",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "chapter"
     },
     {
       "id": "subsec-git-cheat-sheet",
@@ -1202,7 +1348,8 @@
       ],
       "description": "202604120002 | git bash terminal",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "section"
     },
     {
       "id": "sec-pretext",
@@ -1211,7 +1358,8 @@
       "tags": [],
       "description": "Resources for authoring and managing content using the PreTeXt XML framework.",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "section"
     },
     {
       "id": "ex-lorem",
@@ -1220,7 +1368,8 @@
       "tags": [],
       "description": "Consider the function f(x) = x^2. What is its derivative?",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "example"
     },
     {
       "id": "subsec-pretext-demo",
@@ -1229,7 +1378,8 @@
       "tags": [],
       "description": "This section serves as a demonstration of various PreTeXt elements styled with the current theme. It uses placeholder...",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "subsection"
     },
     {
       "id": "def-unitary-example",
@@ -1238,7 +1388,8 @@
       "tags": [],
       "description": "An operator U is unitary if U^\\dagger U = I.",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "definition"
     },
     {
       "id": "thm-noether-example",
@@ -1247,7 +1398,8 @@
       "tags": [],
       "description": "Every differentiable symmetry ... has a corresponding conservation law.",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "theorem"
     },
     {
       "id": "sec-pretext-xml-elements",
@@ -1260,7 +1412,8 @@
       ],
       "description": "202606012315 | pretext xml authoring",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "subsection"
     },
     {
       "id": "sec-terminal-cheat-sheet",
@@ -1273,7 +1426,8 @@
       ],
       "description": "",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "section"
     },
     {
       "id": "sub-pip-update-requirements",
@@ -1282,7 +1436,8 @@
       "tags": [],
       "description": "",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "subsection"
     },
     {
       "id": "sec-python-package-management",
@@ -1291,7 +1446,8 @@
       "tags": [],
       "description": "",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "section"
     },
     {
       "id": "ch-gold-standards",
@@ -1300,7 +1456,8 @@
       "tags": [],
       "description": "Gold standard boilerplates and polishing guidelines. This is useful for both myself and giving to LLMs during develop...",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "chapter"
     },
     {
       "id": "sec-python-gold-standards",
@@ -1311,7 +1468,8 @@
       ],
       "description": "The primary goal is to routinely write scripts that read like math and code.",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "section"
     },
     {
       "id": "subsec-python-rule-of-thumb",
@@ -1320,7 +1478,8 @@
       "tags": [],
       "description": "The primary goal is to routinely write scripts that read like math and code.",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "subsection"
     },
     {
       "id": "sub-python-template",
@@ -1329,7 +1488,8 @@
       "tags": [],
       "description": "",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "subsection"
     },
     {
       "id": "subsec-key-features",
@@ -1338,7 +1498,8 @@
       "tags": [],
       "description": "Helps to make long scripts scannable. Meant to be used as semantic anchor points, not decoration.",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "subsection"
     },
     {
       "id": "ch-knowledge-structures",
@@ -1351,7 +1512,8 @@
       ],
       "description": "The sections in this chapter collect recurring patterns that help organize, communicate, and reason about knowledge s...",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "chapter"
     },
     {
       "id": "sec-language-structures",
@@ -1362,7 +1524,8 @@
       ],
       "description": "As with the other sections in the Knowledge Structures chapter, the goal here is not to provide exhaustive documentat...",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "section"
     },
     {
       "id": "sub-patent-transitional-phrases",
@@ -1373,7 +1536,8 @@
       ],
       "description": "202606200001 | patent claims",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "subsection"
     },
     {
       "id": "sec-reasoning-taxonomy",
@@ -1394,7 +1558,8 @@
       ],
       "description": "Understanding these reasoning patterns allows us to diagnose our own cognitive processes when building Eigenotes. We ...",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "section"
     },
     {
       "id": "sec-formal-statements",
@@ -1403,7 +1568,8 @@
       "tags": [],
       "description": "",
       "group": "meta",
-      "color": "#f5a623"
+      "color": "#f5a623",
+      "tag_type": "section"
     },
     {
       "id": "ch-sofias-practice-problems",
@@ -1412,7 +1578,8 @@
       "tags": [],
       "description": "",
       "group": "practice-problems",
-      "color": "#ff6b6b"
+      "color": "#ff6b6b",
+      "tag_type": "chapter"
     },
     {
       "id": "ch-quantum-computing-practice-sets",
@@ -1425,7 +1592,8 @@
       ],
       "description": "A collection of practice problems generated with the assistance of AI. These problems were designed to accompany IBM ...",
       "group": "practice-problems",
-      "color": "#ff6b6b"
+      "color": "#ff6b6b",
+      "tag_type": "chapter"
     },
     {
       "id": "sec-qc-practice-set-1",
@@ -1438,7 +1606,8 @@
       ],
       "description": "202604120001 | tensor products, Qiskit, state vectors",
       "group": "practice-problems",
-      "color": "#ff6b6b"
+      "color": "#ff6b6b",
+      "tag_type": "section"
     },
     {
       "id": "ch-bridges",
@@ -1447,7 +1616,8 @@
       "tags": [],
       "description": "The purpose of this chapter is to investigate how scientific representations of physical systems reveal structural re...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "chapter"
     },
     {
       "id": "sec-clifford-crossings",
@@ -1456,7 +1626,8 @@
       "tags": [],
       "description": "",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "section"
     },
     {
       "id": "subsec-kuramoto-geometric-algebra-representation",
@@ -1465,7 +1636,8 @@
       "tags": [],
       "description": "We can use geometric algebra to mathematically represent and simulate the Kuramoto model. This turns out not to just ...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "subsection"
     },
     {
       "id": "def-ga-uniform-b-field-vector-potential",
@@ -1476,7 +1648,8 @@
       ],
       "description": "For a uniform magnetic field \\vec{B}=B_0\\mathbf{e}_z, represented as a bivector \\bivec{B}=B_0(\\mathbf{e}_x\\wedge\\math...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-physics-and-geometric-algebra",
@@ -1485,7 +1658,8 @@
       "tags": [],
       "description": "The :logo: Eigenscribe \u00a9 methodology system utilizes Geometric Algebra (Clifford Algebra) as a unifying language to r...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "subsection"
     },
     {
       "id": "claim-wedge-product-angular-momentum",
@@ -1494,7 +1668,8 @@
       "tags": [],
       "description": "The wedge product captures oriented area and is analogous to angular momentum or flux in physical systems.",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "claim"
     },
     {
       "id": "sec-convention-stitching",
@@ -1503,7 +1678,8 @@
       "tags": [],
       "description": "There currently is a bit of a epistemic crisis regarding redundant and/or inconsistent mathematical notation. This se...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "section"
     },
     {
       "id": "para-clr-compositional-data",
@@ -1517,7 +1693,18 @@
       ],
       "description": "Many scientific datasets naturally consist of compositions. Examples include molecular abundances, microbiome composi...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "subsection"
+    },
+    {
+      "id": "remark-compositional-data-constraint",
+      "title": "Constant-Sum Constraint",
+      "url": "para-clr-compositional-data.html#remark-compositional-data-constraint",
+      "tags": [],
+      "description": "Compositional vectors satisfy a constant-sum constraint. Consequently, increasing one component necessarily decreases...",
+      "group": "bridges",
+      "color": "#50e3c2",
+      "tag_type": "remark"
     },
     {
       "id": "def-clr-transform",
@@ -1528,7 +1715,8 @@
       ],
       "description": "The centered log-ratio (CLR) transform of the i^\\text{th} element x_i in a compositional data vector \\mathbf{x} = (x_...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "definition"
     },
     {
       "id": "sec-data-geometry-map",
@@ -1540,7 +1728,18 @@
       ],
       "description": "Big Idea: The computational methods and mathematical tools used to evaluate a dataset should be determined based on t...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "section"
+    },
+    {
+      "id": "note-neuro-q",
+      "title": "NeuroQ",
+      "url": "note-neuro-q.html",
+      "tags": [],
+      "description": "Justification: NeuroQ seems to unify several long-term interests (e.g., statistical mechanics, biophysics, stochastic...",
+      "group": "bridges",
+      "color": "#50e3c2",
+      "tag_type": "note"
     },
     {
       "id": "sec-future-crossings",
@@ -1549,7 +1748,8 @@
       "tags": [],
       "description": "",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "section"
     },
     {
       "id": "sec-hidden-order-representation",
@@ -1558,7 +1758,8 @@
       "tags": [],
       "description": "Many of the most profound ideas in science are rooted in taking on new perspectives to think about physical systems t...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "section"
     },
     {
       "id": "conceptual-pipeline",
@@ -1567,7 +1768,8 @@
       "tags": [],
       "description": "Note Id: 2026070201",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "subsection"
     },
     {
       "id": "sub-structural-foundations",
@@ -1576,7 +1778,8 @@
       "tags": [],
       "description": "Discrete Structure A mathematical object consisting of a distinct, countable set of elements governed by a specific s...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "subsection"
     },
     {
       "id": "def-discrete-structure",
@@ -1585,7 +1788,8 @@
       "tags": [],
       "description": "A mathematical object consisting of a distinct, countable set of elements governed by a specific set of operational c...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "definition"
     },
     {
       "id": "def-physical-structure",
@@ -1594,7 +1798,8 @@
       "tags": [],
       "description": "Any geometric constraint or mathematical object that restricts a dynamical system's admissible states or trajectory e...",
       "group": "bridges",
-      "color": "#50e3c2"
+      "color": "#50e3c2",
+      "tag_type": "definition"
     },
     {
       "id": "ch-eigenotes",
@@ -1603,7 +1808,8 @@
       "tags": [],
       "description": "Integrated, synthesized knowledge.",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "chapter"
     },
     {
       "id": "sec-degrees-of-freedom",
@@ -1618,7 +1824,8 @@
       ],
       "description": "Across mathematics, physics, statistics, and machine learning, the notion of degrees of freedom captures the same ide...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "section"
     },
     {
       "id": "sec-entropy-taximony",
@@ -1636,7 +1843,8 @@
       ],
       "description": "A taxonomy of entropy across various domains.",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "section"
     },
     {
       "id": "subsec-entropy-thermodynamics",
@@ -1645,7 +1853,8 @@
       "tags": [],
       "description": "The Clausius entropy is a change in the entropy of a system due to some reversible process where it absorbs some amou...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "subsection"
     },
     {
       "id": "def-clausius-entropy",
@@ -1654,7 +1863,8 @@
       "tags": [],
       "description": "The Clausius entropy is a change in the entropy of a system due to some reversible process where it absorbs some amou...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-entropy-statistical-mechanics",
@@ -1663,7 +1873,8 @@
       "tags": [],
       "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by: S_\\text{Boltzmann} := ...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "subsection"
     },
     {
       "id": "def-boltzmann-entropy",
@@ -1672,7 +1883,8 @@
       "tags": [],
       "description": "The Boltzmann entropy of a macroscopic system in a state with multiplicity \\Omega is given by: S_\\text{Boltzmann} := ...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "definition"
     },
     {
       "id": "def-gibbs-entropy",
@@ -1681,7 +1893,8 @@
       "tags": [],
       "description": "The Gibbs entropy of a macroscopic system is defined in terms of the probabilities p_i of being in microstate i: S_\\t...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "definition"
     },
     {
       "id": "subsec-entropy-information-theory",
@@ -1690,7 +1903,8 @@
       "tags": [],
       "description": "The Shannon entropy of a discrete random variable with possible outcomes i\\in\\{1,2,\\ldots,n\\} where n\\in\\mathbb{N} an...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "subsection"
     },
     {
       "id": "def-shannon-entropy",
@@ -1699,7 +1913,8 @@
       "tags": [],
       "description": "The Shannon entropy of a discrete random variable with possible outcomes i\\in\\{1,2,\\ldots,n\\} where n\\in\\mathbb{N} an...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "definition"
     },
     {
       "id": "sec-euler-lagrange-physics",
@@ -1714,7 +1929,8 @@
       ],
       "description": "202607290001 | Lagrangian mechanics, Euler-Lagrange, variational mechanics",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "section"
     },
     {
       "id": "def-euler-lagrange-physics",
@@ -1723,7 +1939,8 @@
       "tags": [],
       "description": "The Euler-Lagrange equation in physics is the necessary condition satisfied by a function that makes a functional, st...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "definition"
     },
     {
       "id": "def-action-classical-mechanics",
@@ -1734,7 +1951,8 @@
       ],
       "description": "In classical mechanics, the functional for the Euler-Lagrange equation in canonical coordinates is called the action:...",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "definition"
     },
     {
       "id": "sec-eulers-formula",
@@ -1745,7 +1963,8 @@
       ],
       "description": "202608250001 | Euler's formula",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "section"
     },
     {
       "id": "def-eulers-formula",
@@ -1756,7 +1975,8 @@
       ],
       "description": "e^{i x} = \\cos(x) + i \\sin(x), \\quad i^2=-1",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "definition"
     },
     {
       "id": "sec-global-vs-local-symmetry",
@@ -1771,7 +1991,8 @@
       ],
       "description": "202608010001 | global symmetry local (gauge) symmetry Noether's theorem variations generators",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "section"
     },
     {
       "id": "sec-hamiltonian-noether",
@@ -1786,7 +2007,8 @@
       ],
       "description": "202605020001 | Hamiltonian mechanics Noether's theorem",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "section"
     },
     {
       "id": "sub-conserved-in-time",
@@ -1797,7 +2019,8 @@
       ],
       "description": "A quantity Q is said to be conserved in time if \\{Q,H\\}=0",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "subsection"
     },
     {
       "id": "claim-conserved-in-time",
@@ -1806,7 +2029,8 @@
       "tags": [],
       "description": "A quantity Q is said to be conserved in time if \\{Q,H\\}=0",
       "group": "eigenotes",
-      "color": "#d0021b"
+      "color": "#d0021b",
+      "tag_type": "claim"
     },
     {
       "id": "ch-field-notes",
@@ -1815,7 +2039,8 @@
       "tags": [],
       "description": "Important artifacts, concpts, and insighs encountered in literature.",
       "group": "field-notes",
-      "color": "#f8e71c"
+      "color": "#f8e71c",
+      "tag_type": "chapter"
     },
     {
       "id": "sec-feynmann-lectures",
@@ -1824,7 +2049,8 @@
       "tags": [],
       "description": "The vector potential provides a mathematical framework for electromagnetism that can be generalized to hydrodynamics,...",
       "group": "field-notes",
-      "color": "#f8e71c"
+      "color": "#f8e71c",
+      "tag_type": "section"
     },
     {
       "id": "claim-vector-potential-generalization",
@@ -1833,7 +2059,8 @@
       "tags": [],
       "description": "The vector potential provides a mathematical framework for electromagnetism that can be generalized to hydrodynamics,...",
       "group": "field-notes",
-      "color": "#f8e71c"
+      "color": "#f8e71c",
+      "tag_type": "claim"
     },
     {
       "id": "ch-significant-figures",
@@ -1842,7 +2069,8 @@
       "tags": [],
       "description": "The title of this chapter was inspired by Ian Stewart's Significant Figures: The Lives and Work of Great Mathematicia...",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "chapter"
     },
     {
       "id": "sec-post-quantum",
@@ -1851,7 +2079,8 @@
       "tags": [],
       "description": "",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "section"
     },
     {
       "id": "sub-boltzmann-ludwig",
@@ -1862,7 +2091,8 @@
       ],
       "description": "Years: 1844-1906",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "subsection"
     },
     {
       "id": "sub-gibbs-josiah",
@@ -1873,7 +2103,8 @@
       ],
       "description": "Years: 1839-1903",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "subsection"
     },
     {
       "id": "sub-lagrange-joseph-louis",
@@ -1884,7 +2115,8 @@
       ],
       "description": "Years: 1736-1813",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "subsection"
     },
     {
       "id": "sub-legendre-adrien-marie",
@@ -1897,7 +2129,8 @@
       ],
       "description": "Years: 1752-1833",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "subsection"
     },
     {
       "id": "def-legendre-differential-equation",
@@ -1908,7 +2141,8 @@
       ],
       "description": "(1-x^2)P_n''- xP_n' + n^2P_n",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "definition"
     },
     {
       "id": "sub-liouville-joseph",
@@ -1919,7 +2153,8 @@
       ],
       "description": "Years: 1809-1882",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "subsection"
     },
     {
       "id": "thm-liouville-identity",
@@ -1928,7 +2163,8 @@
       "tags": [],
       "description": "Let F(x,y,z) defined on integer triples (x,y,z)\\in\\Z such that: F is odd in the variable x: F(-x,y,z)=-F(x,y,z) \\, . ...",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "theorem"
     },
     {
       "id": "sec-pre-quantum",
@@ -1937,7 +2173,8 @@
       "tags": [],
       "description": "",
       "group": "significant-figures",
-      "color": "#a0a0a0"
+      "color": "#a0a0a0",
+      "tag_type": "section"
     }
   ],
   "links": [
@@ -2004,6 +2241,24 @@
     {
       "source": "def-numerical-consistency",
       "target": "def-accuracy",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-dirac-delta",
+      "target": "note-dirac-delta-interpretation",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-bivector",
+      "target": "def-wedge-product",
+      "type": "reference",
+      "weight": 2
+    },
+    {
+      "source": "def-wedge-product",
+      "target": "def-bivector",
       "type": "reference",
       "weight": 2
     },
@@ -2170,13 +2425,19 @@
       "weight": 2
     },
     {
+      "source": "def-macrostate",
+      "target": "remark-second-law-prelude",
+      "type": "reference",
+      "weight": 2
+    },
+    {
       "source": "def-microstate",
       "target": "def-physical-system",
       "type": "reference",
       "weight": 2
     },
     {
-      "source": "def-microstate",
+      "source": "remark-second-law-prelude",
       "target": "def-macrostate",
       "type": "reference",
       "weight": 2
@@ -2195,12 +2456,12 @@
     },
     {
       "source": "gls-spurious-correlations",
-      "target": "para-clr-compositional-data",
+      "target": "remark-compositional-data-constraint",
       "type": "prerequisite",
       "weight": 3
     },
     {
-      "source": "para-clr-compositional-data",
+      "source": "remark-compositional-data-constraint",
       "target": "def-clr-transform",
       "type": "reference",
       "weight": 2

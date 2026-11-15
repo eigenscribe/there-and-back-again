@@ -123,22 +123,63 @@ html.dark-mode {
   --color-section-dark: #228888 !important;
   --color-subsection: #00E8FF !important;  /* 3. Lighter Blue */
   --color-subsection-dark: #228888 !important;
-  --color-example: #14B5FF !important;     /* 4. Sky */
+  --color-example: #14B5FF !important;     /* 4. Sky (Example-like: example, problem, question) */
   --color-example-dark: #224488 !important;
   --color-sub: #0070EB !important;         /* 5. Blue */
   --color-sub-dark: #113377 !important;
   --color-appendix: #4CC9F0 !important;    /* 6. Sky Blue */
   --color-appendix-dark: #226688 !important;
-  --color-definition: #7952F5 !important;  /* 7. Purple */
+  --color-definition: #7952F5 !important;  /* 7. Purple (Definition-like: definition) */
   --color-definition-dark: #332288 !important;
   --color-ga: #a855f7 !important;          /* 8. Light Purple */
   --color-ga-dark: #221166 !important;
   --color-claim: #FF66B3 !important;       /* 9. Pink */
   --color-claim-dark: #883355 !important;
-  --color-theorem: #038B00 !important;     /* 10. Green */
+  --color-theorem: #038B00 !important;     /* 10. Green (Theorem-like: theorem, lemma, corollary, proposition, fact, identity, algorithm, claim) */
   --color-theorem-dark: #115511 !important;
+  --color-axiom: #F59E0B !important;       /* 11. Amber / Gold (Axiom-like: axiom, assumption, conjecture, heuristic, hypothesis, principle) */
+  --color-axiom-dark: #885500 !important;
+  --color-remark: #FF8800 !important;      /* 12. Orange (Remark-like: remark, convention, insight, note, observation) */
+  --color-remark-dark: #884400 !important;
+  --color-project: #06B6D4 !important;     /* 13. Teal / Cyan (Project-like: project, activity, exploration, investigation, task) */
+  --color-project-dark: #0E7490 !important;
 
   /* Gradients */
+  --gradient-theorem: linear-gradient(
+          130deg,
+          #039600 0%,
+          #00E676 61.8%,
+          #209d20 100%
+  ) !important;
+
+  --gradient-definition: linear-gradient(
+          130deg,
+          #a855f7 0%,
+          #8564f6 38.2%,
+          #7952f5 61.8%,
+          #5E17EB 100%
+  ) !important;
+
+  --gradient-axiom: linear-gradient(
+          130deg,
+          #FBBF24 0%,
+          #F59E0B 61.8%,
+          #D97706 100%
+  ) !important;
+
+  --gradient-example: linear-gradient(
+          130deg,
+          #14B5FF 0%,
+          #3a98ff 61.8%,
+          #4a7dd0 100%
+  ) !important;
+
+  --gradient-project: linear-gradient(
+          130deg,
+          #22D3EE 0%,
+          #06B6D4 61.8%,
+          #0891B2 100%
+  ) !important;
   --gradient-blue: linear-gradient(
           130deg,
           #00e8ff 0%,

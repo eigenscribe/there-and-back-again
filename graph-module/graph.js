@@ -649,18 +649,31 @@ class NotesGraph {
 
     if (node.group && groupColors[node.group]) return groupColors[node.group];
 
+    const tagType = node.tag_type || '';
+    if (tagType === 'definition') return 'var(--color-definition)';
+    if (['theorem', 'lemma', 'corollary', 'proposition', 'fact', 'identity', 'algorithm'].includes(tagType)) return 'var(--color-theorem)';
+    if (tagType === 'claim') return 'var(--color-claim)';
+    if (['axiom', 'assumption', 'conjecture', 'heuristic', 'hypothesis', 'principle'].includes(tagType)) return 'var(--color-axiom)';
+    if (['example', 'problem', 'question'].includes(tagType)) return 'var(--color-example)';
+    if (['remark', 'convention', 'insight', 'note', 'observation'].includes(tagType)) return 'var(--color-remark)';
+    if (tagType === 'warning') return 'var(--color-warning)';
+    if (['project', 'activity', 'exploration', 'investigation', 'task'].includes(tagType)) return 'var(--color-project)';
+
     const id = node.id || '';
     if (id.startsWith('ch-')) return 'var(--color-keter)';
     if (id.startsWith('sec-')) return 'var(--color-section)';
-    if (id.startsWith('subsec-')) return 'var(--color-subsection)';
-    if (id.startsWith('ex-')) return 'var(--color-example)';
+    if (id.startsWith('subsec-') || id.startsWith('subsubsec-')) return 'var(--color-subsection)';
+    if (id.startsWith('ex-') || id.startsWith('example-') || id.startsWith('prob-') || id.startsWith('quest-')) return 'var(--color-example)';
     if (id.startsWith('sub-')) return 'var(--color-sub)';
     if (id.startsWith('app-')) return 'var(--color-appendix)';
-    if (id.startsWith('def-')) return 'var(--color-definition)';
+    if (id.startsWith('def-') || id.startsWith('definition-') || id.startsWith('gls-') || id.startsWith('gi-')) return 'var(--color-definition)';
     if (id.startsWith('ga-')) return 'var(--color-ga)';
     if (id.startsWith('claim-')) return 'var(--color-claim)';
-    if (id.startsWith('thm-')) return 'var(--color-theorem)';
-    if (id.startsWith('gls-')) return 'var(--color-definition)';
+    if (id.startsWith('thm-') || id.startsWith('theorem-') || id.startsWith('lem-') || id.startsWith('cor-') || id.startsWith('prop-') || id.startsWith('fact-') || id.startsWith('id-') || id.startsWith('algo-')) return 'var(--color-theorem)';
+    if (id.startsWith('ax-') || id.startsWith('axiom-') || id.startsWith('asm-') || id.startsWith('conj-') || id.startsWith('heur-') || id.startsWith('hyp-') || id.startsWith('prin-')) return 'var(--color-axiom)';
+    if (id.startsWith('rem-') || id.startsWith('remark-') || id.startsWith('conv-') || id.startsWith('ins-') || id.startsWith('note-') || id.startsWith('obs-')) return 'var(--color-remark)';
+    if (id.startsWith('warn-') || id.startsWith('warning-')) return 'var(--color-warning)';
+    if (id.startsWith('proj-') || id.startsWith('project-') || id.startsWith('act-') || id.startsWith('expl-') || id.startsWith('inv-')) return 'var(--color-project)';
     
     if (node.color) return node.color;
     return 'var(--color-appendix)';
@@ -682,18 +695,31 @@ class NotesGraph {
 
     if (node.group && groupColors[node.group]) return groupColors[node.group];
 
+    const tagType = node.tag_type || '';
+    if (tagType === 'definition') return 'var(--color-definition-dark)';
+    if (['theorem', 'lemma', 'corollary', 'proposition', 'fact', 'identity', 'algorithm'].includes(tagType)) return 'var(--color-theorem-dark)';
+    if (tagType === 'claim') return 'var(--color-claim-dark)';
+    if (['axiom', 'assumption', 'conjecture', 'heuristic', 'hypothesis', 'principle'].includes(tagType)) return 'var(--color-axiom-dark)';
+    if (['example', 'problem', 'question'].includes(tagType)) return 'var(--color-example-dark)';
+    if (['remark', 'convention', 'insight', 'note', 'observation'].includes(tagType)) return 'var(--color-remark-dark)';
+    if (tagType === 'warning') return 'var(--color-warning-dark, #883300)';
+    if (['project', 'activity', 'exploration', 'investigation', 'task'].includes(tagType)) return 'var(--color-project-dark)';
+
     const id = node.id || '';
     if (id.startsWith('ch-')) return 'var(--color-keter-dark)';
     if (id.startsWith('sec-')) return 'var(--color-section-dark)';
-    if (id.startsWith('subsec-')) return 'var(--color-subsection-dark)';
-    if (id.startsWith('ex-')) return 'var(--color-example-dark)';
+    if (id.startsWith('subsec-') || id.startsWith('subsubsec-')) return 'var(--color-subsection-dark)';
+    if (id.startsWith('ex-') || id.startsWith('example-') || id.startsWith('prob-') || id.startsWith('quest-')) return 'var(--color-example-dark)';
     if (id.startsWith('sub-')) return 'var(--color-sub-dark)';
     if (id.startsWith('app-')) return 'var(--color-appendix-dark)';
-    if (id.startsWith('def-')) return 'var(--color-definition-dark)';
+    if (id.startsWith('def-') || id.startsWith('definition-') || id.startsWith('gls-') || id.startsWith('gi-')) return 'var(--color-definition-dark)';
     if (id.startsWith('ga-')) return 'var(--color-ga-dark)';
     if (id.startsWith('claim-')) return 'var(--color-claim-dark)';
-    if (id.startsWith('thm-')) return 'var(--color-theorem-dark)';
-    if (id.startsWith('gls-')) return 'var(--color-definition-dark)';
+    if (id.startsWith('thm-') || id.startsWith('theorem-') || id.startsWith('lem-') || id.startsWith('cor-') || id.startsWith('prop-') || id.startsWith('fact-') || id.startsWith('id-') || id.startsWith('algo-')) return 'var(--color-theorem-dark)';
+    if (id.startsWith('ax-') || id.startsWith('axiom-') || id.startsWith('asm-') || id.startsWith('conj-') || id.startsWith('heur-') || id.startsWith('hyp-') || id.startsWith('prin-')) return 'var(--color-axiom-dark)';
+    if (id.startsWith('rem-') || id.startsWith('remark-') || id.startsWith('conv-') || id.startsWith('ins-') || id.startsWith('note-') || id.startsWith('obs-')) return 'var(--color-remark-dark)';
+    if (id.startsWith('warn-') || id.startsWith('warning-')) return 'var(--color-warning-dark, #883300)';
+    if (id.startsWith('proj-') || id.startsWith('project-') || id.startsWith('act-') || id.startsWith('expl-') || id.startsWith('inv-')) return 'var(--color-project-dark)';
     return 'var(--color-appendix-dark)';
   }
 

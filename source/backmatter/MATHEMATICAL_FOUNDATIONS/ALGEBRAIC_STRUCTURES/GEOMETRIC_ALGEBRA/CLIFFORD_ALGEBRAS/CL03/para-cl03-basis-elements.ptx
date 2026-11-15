@@ -7,25 +7,25 @@
     <li>
       <title><m>\{ 1 \}</m></title>
       <p>
-        grade-0 object
+        Grade-0 object
       </p>
       <p>
-        Corresponds with a scalar magnitudes.
+        Corresponds to scalar magnitudes.
       </p>
     </li>
     <li>
       <title><m>\{ \mathbf{e}_1, \mathbf{e}_2 , \mathbf{e}_3\}</m></title>
       <p>
-        grade-1 object
+        Grade-1 object
       </p>
       <p>
-        Corresponds with a vector (i.e., directional information).
+        Corresponds to vectors (directional information).
       </p>
     </li>
     <li>
       <title><m>\{ \mathbf{e}_{12}, \mathbf{e}_{23}, \mathbf{e}_{31} \}</m></title>
       <p>
-        grade-2 objects
+        Grade-2 object
       </p>
       <p>
         Usually called <term>bivectors</term> or <term>wedge products</term>.
@@ -34,10 +34,10 @@
     <li>
       <title><m>\{ \mathbf{e}_{123} \}</m></title>
       <p>
-        Usually called <term>trivectors</term>.
+        Grade-3 object
       </p>
       <p>
-        The unit trivector is the pseudoscalar element in <m>\operatorname{Cl}(0,3)</m>.
+        Usually called <term>trivectors</term>. The unit trivector is the pseudoscalar element in <m>\operatorname{Cl}(0,3)</m>.
       </p>
     </li>
   </dl>

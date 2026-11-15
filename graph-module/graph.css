@@ -11,6 +11,36 @@
   --tooltip-border: rgba(0, 255, 238, 0.5);
   --control-bg: rgba(20, 20, 30, 0.8);
   --control-hover: rgba(0, 255, 238, 0.3);
+
+  /* Node and Block Type Colors */
+  --color-keter: #FFF9D6;
+  --color-keter-dark: #887722;
+  --color-section: #00FFFF;
+  --color-section-dark: #228888;
+  --color-subsection: #00E8FF;
+  --color-subsection-dark: #228888;
+  --color-example: #14B5FF;
+  --color-example-dark: #224488;
+  --color-sub: #0070EB;
+  --color-sub-dark: #113377;
+  --color-appendix: #4CC9F0;
+  --color-appendix-dark: #226688;
+  --color-definition: #7952F5;
+  --color-definition-dark: #332288;
+  --color-ga: #a855f7;
+  --color-ga-dark: #221166;
+  --color-claim: #FF66B3;
+  --color-claim-dark: #883355;
+  --color-theorem: #038B00;
+  --color-theorem-dark: #115511;
+  --color-axiom: #F59E0B;
+  --color-axiom-dark: #885500;
+  --color-remark: #FF8800;
+  --color-remark-dark: #884400;
+  --color-warning: #FF8800;
+  --color-warning-dark: #883300;
+  --color-project: #06B6D4;
+  --color-project-dark: #0E7490;
 }
 
 [data-theme="light"] {
@@ -26,6 +56,36 @@
   --tooltip-border: rgba(8, 145, 178, 0.5);
   --control-bg: rgba(255, 255, 255, 0.9);
   --control-hover: rgba(8, 145, 178, 0.2);
+
+  /* Node and Block Type Colors (Light Mode) */
+  --color-keter: #d97706;
+  --color-keter-dark: #92400e;
+  --color-section: #0891b2;
+  --color-section-dark: #0e7490;
+  --color-subsection: #0284c7;
+  --color-subsection-dark: #0369a1;
+  --color-example: #2563eb;
+  --color-example-dark: #1d4ed8;
+  --color-sub: #1d4ed8;
+  --color-sub-dark: #1e40af;
+  --color-appendix: #0284c7;
+  --color-appendix-dark: #0369a1;
+  --color-definition: #7c3aed;
+  --color-definition-dark: #6d28d9;
+  --color-ga: #9333ea;
+  --color-ga-dark: #7e22ce;
+  --color-claim: #db2777;
+  --color-claim-dark: #be185d;
+  --color-theorem: #16a34a;
+  --color-theorem-dark: #15803d;
+  --color-axiom: #d97706;
+  --color-axiom-dark: #b45309;
+  --color-remark: #ea580c;
+  --color-remark-dark: #c2410c;
+  --color-warning: #dc2626;
+  --color-warning-dark: #b91c1c;
+  --color-project: #0d9488;
+  --color-project-dark: #0f766e;
 }
 
 * {

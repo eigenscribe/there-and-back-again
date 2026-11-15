@@ -64,8 +64,22 @@ def update_graph():
     nodes = {}
     links = []
     id_to_file_id = {}
-    supported_tags = ['chapter', 'section', 'subsection', 'appendix', 'claim', 'definition', 'example', 
-                      'theorem', 'lemma', 'proposition', 'corollary', 'identity', 'gi', 'glossary']
+    supported_tags = [
+        # Structural divisions
+        'chapter', 'section', 'subsection', 'appendix', 'glossary', 'gi',
+        # 15.1 Theorem-Like Elements
+        'theorem', 'algorithm', 'claim', 'corollary', 'fact', 'identity', 'lemma', 'proposition',
+        # Definition-Like Elements
+        'definition',
+        # 15.2 Example-Like Elements
+        'example', 'problem', 'question',
+        # 15.3 Axiom-Like Elements
+        'assumption', 'axiom', 'conjecture', 'heuristic', 'hypothesis', 'principle',
+        # 15.4 Remark-Like Elements
+        'convention', 'insight', 'note', 'observation', 'remark', 'warning',
+        # 15.5 Project-Like Elements
+        'activity', 'exploration', 'investigation', 'project'
+    ]
 
     # Group colors (Obsidian-like)
     group_colors = {
@@ -200,7 +214,8 @@ def update_graph():
             "tags": node_data['tags'],
             "description": node_data['description'],
             "group": node_data['group'],
-            "color": node_data['color']
+            "color": node_data['color'],
+            "tag_type": node_data.get('tag_type', '')
         })
 
     # Deduplicate links and ensure types are valid

@@ -49,14 +49,16 @@
 
 .ptx-content .definition-like,
 .ptx-content .theorem-like,
+.ptx-content .axiom-like,
+.ptx-content .example-like,
+.ptx-content .project-like,
+.ptx-content .remark-like,
+.ptx-content .exercise-like,
 .ptx-content .solution,
 .ptx-content .proof,
-.ptx-content .example-like,
 .ptx-content .hint,
-.ptx-content .remark-like,
 .ptx-content .insight,
 .ptx-content .warning,
-.ptx-content .exercise-like,
 .ptx-content .biblio,
 .ptx-content .answer,
 .ptx-content .abstract {
@@ -86,36 +88,34 @@
 
 .ptx-content :is(
   .definition-like, .definition,
-  .theorem-like, .theorem, .lemma, .corollary,
-  .proposition, .claim, .fact, .identity,
+  .theorem-like, .theorem, .lemma, .corollary, .proposition, .claim, .fact, .identity, .algorithm,
+  .axiom-like, .axiom, .assumption, .conjecture, .heuristic, .hypothesis, .principle,
+  .example-like, .example, .problem, .question,
+  .project-like, .project, .activity, .exploration, .investigation, .task,
   .solution, .proof,
-  .example-like, .example,
   .hint,
-  .remark-like, .remark,
+  .remark-like, .remark, .convention, .insight, .note, .observation, .warning,
   .assemblage-like, .assemblage,
-  .insight,
-  .warning,
   .exercise-like, .exercise,
   .answer,
   .abstract,
-  .note, .aside
+  .aside
 ) .displaymath,
 
 .ptx-content :is(
   .definition-like, .definition,
-  .theorem-like, .theorem, .lemma, .corollary,
-  .proposition, .claim, .fact, .identity,
+  .theorem-like, .theorem, .lemma, .corollary, .proposition, .claim, .fact, .identity, .algorithm,
+  .axiom-like, .axiom, .assumption, .conjecture, .heuristic, .hypothesis, .principle,
+  .example-like, .example, .problem, .question,
+  .project-like, .project, .activity, .exploration, .investigation, .task,
   .solution, .proof,
-  .example-like, .example,
   .hint,
-  .remark-like, .remark,
+  .remark-like, .remark, .convention, .insight, .note, .observation, .warning,
   .assemblage-like, .assemblage,
-  .insight,
-  .warning,
   .exercise-like, .exercise,
   .answer,
   .abstract,
-  .note, .aside
+  .aside
 ) mjx-container {
   overflow-x: auto !important;
   overflow-y: visible !important;
@@ -155,7 +155,7 @@
 }
 
 
-/* 🟢 Theorems / Proofs */
+/* 🟢 Theorems / Proofs (Theorem-Like: theorem, lemma, corollary, proposition, claim, fact, identity, algorithm) */
 .ptx-content :is(
   .theorem-like,
   .theorem,
@@ -165,11 +165,28 @@
   .claim,
   .fact,
   .identity,
+  .algorithm,
   .proof
 ) mjx-container {
   color: #00E676 !important;
   -webkit-text-fill-color: #00E676 !important;
   fill: #00E676 !important;
+}
+
+
+/* 🟡 Axiom-Like: axiom, assumption, conjecture, heuristic, hypothesis, principle */
+.ptx-content :is(
+  .axiom-like,
+  .axiom,
+  .assumption,
+  .conjecture,
+  .heuristic,
+  .hypothesis,
+  .principle
+) mjx-container {
+  color: #FBBF24 !important;
+  -webkit-text-fill-color: #FBBF24 !important;
+  fill: #FBBF24 !important;
 }
 
 
@@ -195,10 +212,12 @@
 }
 
 
-/* 🔵 Examples / Exercises / Introduction */
+/* 🔵 Example-Like: example, problem, question / Exercises / Introduction */
 .ptx-content :is(
   .example-like,
   .example,
+  .problem,
+  .question,
   .exercise-like,
   .exercise,
   .abstract,
@@ -210,12 +229,29 @@
 }
 
 
-/* 🟠 Remarks / Insights / Warnings */
+/* 🌐 Project-Like: project, activity, exploration, investigation, task */
+.ptx-content :is(
+  .project-like,
+  .project,
+  .activity,
+  .exploration,
+  .investigation,
+  .task
+) mjx-container {
+  color: #22D3EE !important;
+  -webkit-text-fill-color: #22D3EE !important;
+  fill: #22D3EE !important;
+}
+
+
+/* 🟠 Remark-Like: remark, convention, insight, note, observation, warning */
 .ptx-content :is(
   .remark-like,
   .remark,
+  .convention,
   .insight,
   .insight-like,
+  .observation,
   .warning,
   .warning-like
 ) mjx-container {
@@ -257,20 +293,61 @@
 /* ============================================================ */
 
 .ptx-content .definition-like .displaymath,
+.ptx-content .definition .displaymath,
 .ptx-content .hint .displaymath {
   background: rgba(0, 0, 0, 0.25) !important;
   border-color: rgba(121, 82, 245, 0.3);
 }
 
-.ptx-content .assemblage-like .displaymath {
+.ptx-content .assemblage-like .displaymath,
+.ptx-content .assemblage .displaymath {
   background: rgba(0, 0, 0, 0.45) !important;
   border-color: rgba(20, 181, 255, 0.3);
 }
 
 .ptx-content .theorem-like .displaymath,
+.ptx-content .theorem .displaymath,
+.ptx-content .algorithm .displaymath,
+.ptx-content .claim .displaymath,
+.ptx-content .corollary .displaymath,
+.ptx-content .fact .displaymath,
+.ptx-content .identity .displaymath,
+.ptx-content .lemma .displaymath,
+.ptx-content .proposition .displaymath,
 .ptx-content .proof .displaymath {
   background: rgba(0, 0, 0, 0.25) !important;
   border-color: rgba(3, 139, 0, 0.25);
+}
+
+.ptx-content .axiom-like .displaymath,
+.ptx-content .axiom .displaymath,
+.ptx-content .assumption .displaymath,
+.ptx-content .conjecture .displaymath,
+.ptx-content .heuristic .displaymath,
+.ptx-content .hypothesis .displaymath,
+.ptx-content .principle .displaymath {
+  background: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(245, 158, 11, 0.35);
+}
+
+.ptx-content .example-like .displaymath,
+.ptx-content .example .displaymath,
+.ptx-content .problem .displaymath,
+.ptx-content .question .displaymath,
+.ptx-content .exercise-like .displaymath,
+.ptx-content .exercise .displaymath {
+  background: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(20, 181, 255, 0.3);
+}
+
+.ptx-content .project-like .displaymath,
+.ptx-content .project .displaymath,
+.ptx-content .activity .displaymath,
+.ptx-content .exploration .displaymath,
+.ptx-content .investigation .displaymath,
+.ptx-content .task .displaymath {
+  background: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(6, 182, 212, 0.35);
 }
 
 .ptx-content .solution .displaymath {
@@ -278,8 +355,17 @@
   border-color: rgba(255, 102, 179, 0.3);
 }
 
+.ptx-content .answer .displaymath {
+  background: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(20, 181, 255, 0.3);
+}
+
 .ptx-content .remark-like .displaymath,
+.ptx-content .remark .displaymath,
+.ptx-content .convention .displaymath,
 .ptx-content .insight .displaymath,
+.ptx-content .note .displaymath,
+.ptx-content .observation .displaymath,
 .ptx-content .warning .displaymath {
   background: rgba(0, 0, 0, 0.25) !important;
   border-color: rgba(255, 136, 0, 0.3);
@@ -307,9 +393,11 @@
 
 .ptx-content .definition-like:hover,
 .ptx-content .theorem-like:hover,
+.ptx-content .axiom-like:hover,
+.ptx-content .example-like:hover,
+.ptx-content .project-like:hover,
 .ptx-content .solution:hover,
 .ptx-content .proof:hover,
-.ptx-content .example-like:hover,
 .ptx-content .hint:hover,
 .ptx-content .remark-like:hover,
 .ptx-content .insight:hover,
@@ -347,9 +435,11 @@
 
 .ptx-content .definition-like::before,
 .ptx-content .theorem-like::before,
+.ptx-content .axiom-like::before,
+.ptx-content .example-like::before,
+.ptx-content .project-like::before,
 .ptx-content .solution::before,
 .ptx-content .proof::before,
-.ptx-content .example-like::before,
 .ptx-content .hint::before,
 .ptx-content .remark-like::before,
 .ptx-content .note::before,
@@ -377,6 +467,9 @@
 
 .ptx-content .definition-like .heading,
 .ptx-content .theorem-like .heading,
+.ptx-content .axiom-like .heading,
+.ptx-content .example-like .heading,
+.ptx-content .project-like .heading,
 .ptx-content .solution .heading,
 .ptx-content .proof .heading,
 .ptx-content .example-like .heading,
@@ -441,24 +534,13 @@
   ) !important;
 }
 
-
-.ptx-content .theorem-like .heading::after,
-.ptx-content .proof .heading::after,
-.ptx-content .example-like .heading::after,
-.ptx-content .remark-like .heading::after,
-.ptx-content .note .heading::after,
-.ptx-content .insight .heading::after,
-.ptx-content .warning .heading::after,
-.ptx-content .exercise-like .heading::after,
-.ptx-content .aside .heading::after,
-.ptx-content .biblio .heading::after,
-.ptx-content section.introduction .heading::after,
-.ptx-content .abstract .heading::after,
 .ptx-content .definition-like .heading::before,
 .ptx-content .theorem-like .heading::before,
-.ptx-content .proof .heading::before,
+.ptx-content .axiom-like .heading::before,
 .ptx-content .example-like .heading::before,
+.ptx-content .project-like .heading::before,
 .ptx-content .remark-like .heading::before,
+.ptx-content .proof .heading::before,
 .ptx-content .note .heading::before,
 .ptx-content .insight .heading::before,
 .ptx-content .warning .heading::before,
@@ -495,7 +577,8 @@
 
 .ptx-content .hint .heading,
 .ptx-content .hint summary.knowl__link,
-.ptx-content .definition-like .heading {
+.ptx-content .definition-like .heading,
+.ptx-content .definition .heading {
   background-image: linear-gradient(
     130deg,
     #a855f7 0%,
@@ -519,11 +602,13 @@
 
 
 /* Definitions */
-.ptx-content .definition-like .heading {
+.ptx-content .definition-like .heading,
+.ptx-content .definition .heading {
   font-size: 1.15rem !important;
 }
 
-.ptx-content .definition-like .heading::after {
+.ptx-content .definition-like .heading::after,
+.ptx-content .definition .heading::after {
   content: "" !important;
   display: block !important;
   width: 100%;
@@ -539,7 +624,8 @@
   ) !important;
 }
 
-.ptx-content .definition-like::before {
+.ptx-content .definition-like::before,
+.ptx-content .definition::before {
   content: "";
   position: absolute;
   top: 0;
@@ -600,19 +686,71 @@
 
 /* ============================================================ */
 /*  8.15 — Green Theorems / Proofs                              */
+/*  (Theorem-Like: theorem, algorithm, claim, corollary, fact,   */
+/*   identity, lemma, proposition, proof)                       */
 /* ============================================================ */
 
 .ptx-content .theorem-like .heading,
+.ptx-content .theorem .heading,
+.ptx-content .algorithm .heading,
+.ptx-content .claim .heading,
+.ptx-content .corollary .heading,
+.ptx-content .fact .heading,
+.ptx-content .identity .heading,
+.ptx-content .lemma .heading,
+.ptx-content .proposition .heading,
 .ptx-content .proof .heading {
   background-image: linear-gradient(
     130deg,
-    #039600,
-    61.8%,
-    #209d20
+    #039600 0%,
+    #00E676 61.8%,
+    #209d20 100%
+  ) !important;
+
+  font-family: 'Aclonica', sans-serif !important;
+  letter-spacing: 0.02em;
+
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+
+  background-size: 200% auto !important;
+  animation: gradient-shift 5s ease infinite !important;
+}
+
+.ptx-content .theorem-like .heading::after,
+.ptx-content .theorem .heading::after,
+.ptx-content .algorithm .heading::after,
+.ptx-content .claim .heading::after,
+.ptx-content .corollary .heading::after,
+.ptx-content .fact .heading::after,
+.ptx-content .identity .heading::after,
+.ptx-content .lemma .heading::after,
+.ptx-content .proposition .heading::after {
+  content: "" !important;
+  display: block !important;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background: linear-gradient(
+    130deg,
+    #039600 0%,
+    #00E676 61.8%,
+    #209d20 100%
   ) !important;
 }
 
 .ptx-content .theorem-like::before,
+.ptx-content .theorem::before,
+.ptx-content .algorithm::before,
+.ptx-content .claim::before,
+.ptx-content .corollary::before,
+.ptx-content .fact::before,
+.ptx-content .identity::before,
+.ptx-content .lemma::before,
+.ptx-content .proposition::before,
 .ptx-content .proof::before {
   content: "";
   position: absolute;
@@ -622,9 +760,9 @@
 
   background: linear-gradient(
     to bottom,
-    #039600,
-    61.8%,
-    #209d20
+    #00E676 0%,
+    #039600 61.8%,
+    #115511 100%
   ) !important;
 }
 
@@ -771,23 +909,63 @@
 
 /* ============================================================ */
 /*  8.18 — Blue Examples / Exercises / Introduction / Biblio    */
+/*  (Example-Like: example, problem, question)                  */
 /* ============================================================ */
 
 .ptx-content .example-like .heading,
+.ptx-content .example .heading,
+.ptx-content .problem .heading,
+.ptx-content .question .heading,
 .ptx-content .exercise-like .heading,
+.ptx-content .exercise .heading,
 .ptx-content section.introduction .heading,
 .ptx-content .biblio .heading,
 .ptx-content .abstract .heading {
   background-image: linear-gradient(
     130deg,
-    #14B5FF,
-    61.8%,
-    #4a7dd0
+    #14B5FF 0%,
+    #3a98ff 61.8%,
+    #4a7dd0 100%
+  ) !important;
+
+  font-family: 'Aclonica', sans-serif !important;
+  letter-spacing: 0.02em;
+
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+
+  background-size: 200% auto !important;
+  animation: gradient-shift 5s ease infinite !important;
+}
+
+.ptx-content .example-like .heading::after,
+.ptx-content .example .heading::after,
+.ptx-content .problem .heading::after,
+.ptx-content .question .heading::after,
+.ptx-content .exercise-like .heading::after,
+.ptx-content .exercise .heading::after {
+  content: "" !important;
+  display: block !important;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background: linear-gradient(
+    130deg,
+    #14B5FF 0%,
+    #3a98ff 61.8%,
+    #4a7dd0 100%
   ) !important;
 }
 
 .ptx-content .example-like::before,
+.ptx-content .example::before,
+.ptx-content .problem::before,
+.ptx-content .question::before,
 .ptx-content .exercise-like::before,
+.ptx-content .exercise::before,
 .ptx-content section.introduction::before,
 .ptx-content .biblio::before,
 .ptx-content .abstract::before {
@@ -799,25 +977,59 @@
 
   background: linear-gradient(
     to bottom,
-    #14B5FF,
-    61.8%,
-    #4a7dd0
+    #14B5FF 0%,
+    #3a98ff 61.8%,
+    #224488 100%
   ) !important;
 }
 
 
 /* ============================================================ */
-/*  8.19 — Orange Remarks / Insights / Warnings                 */
+/*  8.19 — Orange Remarks / Insights / Warnings / Conventions   */
+/*  (Remark-Like: remark, convention, insight, note,            */
+/*   observation, warning)                                      */
 /* ============================================================ */
 
 .ptx-content .remark-like .heading,
+.ptx-content .remark .heading,
+.ptx-content .convention .heading,
 .ptx-content .insight .heading,
+.ptx-content .observation .heading,
 .ptx-content .warning .heading {
   background-image: var(--gradient-orange) !important;
+
+  font-family: 'Aclonica', sans-serif !important;
+  letter-spacing: 0.02em;
+
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+
+  background-size: 200% auto !important;
+  animation: gradient-shift 5s ease infinite !important;
+}
+
+.ptx-content .remark-like .heading::after,
+.ptx-content .remark .heading::after,
+.ptx-content .convention .heading::after,
+.ptx-content .insight .heading::after,
+.ptx-content .observation .heading::after,
+.ptx-content .warning .heading::after {
+  content: "" !important;
+  display: block !important;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background: var(--gradient-orange) !important;
 }
 
 .ptx-content .remark-like::before,
+.ptx-content .remark::before,
+.ptx-content .convention::before,
 .ptx-content .insight::before,
+.ptx-content .observation::before,
 .ptx-content .warning::before {
   content: "";
   position: absolute;
@@ -830,7 +1042,160 @@
 
 
 /* ============================================================ */
-/*  8.20 — Assemblage Headings / Accent                         */
+/*  8.20 — Amber / Gold Axioms                                  */
+/*  (Axiom-Like: assumption, axiom, conjecture, heuristic,      */
+/*   hypothesis, principle)                                     */
+/* ============================================================ */
+
+.ptx-content .axiom-like .heading,
+.ptx-content .axiom .heading,
+.ptx-content .assumption .heading,
+.ptx-content .conjecture .heading,
+.ptx-content .heuristic .heading,
+.ptx-content .hypothesis .heading,
+.ptx-content .principle .heading {
+  background-image: linear-gradient(
+    130deg,
+    #FBBF24 0%,
+    #F59E0B 61.8%,
+    #D97706 100%
+  ) !important;
+
+  font-family: 'Aclonica', sans-serif !important;
+  font-size: 1.15rem !important;
+  letter-spacing: 0.02em;
+
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+
+  background-size: 200% auto !important;
+  animation: gradient-shift 5s ease infinite !important;
+}
+
+.ptx-content .axiom-like .heading::after,
+.ptx-content .axiom .heading::after,
+.ptx-content .assumption .heading::after,
+.ptx-content .conjecture .heading::after,
+.ptx-content .heuristic .heading::after,
+.ptx-content .hypothesis .heading::after,
+.ptx-content .principle .heading::after {
+  content: "" !important;
+  display: block !important;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+
+  background: linear-gradient(
+    130deg,
+    #FBBF24 0%,
+    #F59E0B 61.8%,
+    #D97706 100%
+  ) !important;
+}
+
+.ptx-content .axiom-like::before,
+.ptx-content .axiom::before,
+.ptx-content .assumption::before,
+.ptx-content .conjecture::before,
+.ptx-content .heuristic::before,
+.ptx-content .hypothesis::before,
+.ptx-content .principle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  background: linear-gradient(
+    to bottom,
+    #FBBF24 0%,
+    #F59E0B 38.2%,
+    #D97706 61.8%,
+    #885500 100%
+  ) !important;
+}
+
+
+/* ============================================================ */
+/*  8.21 — Teal Projects / Activities                           */
+/*  (Project-Like: activity, exploration, investigation,        */
+/*   project, task)                                             */
+/* ============================================================ */
+
+.ptx-content .project-like .heading,
+.ptx-content .project .heading,
+.ptx-content .activity .heading,
+.ptx-content .exploration .heading,
+.ptx-content .investigation .heading,
+.ptx-content .task .heading {
+  background-image: linear-gradient(
+    130deg,
+    #22D3EE 0%,
+    #06B6D4 61.8%,
+    #0891B2 100%
+  ) !important;
+
+  font-family: 'Aclonica', sans-serif !important;
+  font-size: 1.15rem !important;
+  letter-spacing: 0.02em;
+
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+
+  background-size: 200% auto !important;
+  animation: gradient-shift 5s ease infinite !important;
+}
+
+.ptx-content .project-like .heading::after,
+.ptx-content .project .heading::after,
+.ptx-content .activity .heading::after,
+.ptx-content .exploration .heading::after,
+.ptx-content .investigation .heading::after,
+.ptx-content .task .heading::after {
+  content: "" !important;
+  display: block !important;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+
+  background: linear-gradient(
+    130deg,
+    #22D3EE 0%,
+    #06B6D4 61.8%,
+    #0891B2 100%
+  ) !important;
+}
+
+.ptx-content .project-like::before,
+.ptx-content .project::before,
+.ptx-content .activity::before,
+.ptx-content .exploration::before,
+.ptx-content .investigation::before,
+.ptx-content .task::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  background: linear-gradient(
+    to bottom,
+    #22D3EE 0%,
+    #06B6D4 38.2%,
+    #0891B2 61.8%,
+    #0E7490 100%
+  ) !important;
+}
+
+
+/* ============================================================ */
+/*  8.22 — Assemblage Headings / Accent                         */
 /* ============================================================ */
 
 .ptx-content .assemblage-like .heading::after,
@@ -882,7 +1247,7 @@
 
 
 /* ============================================================ */
-/*  8.21 — Note / Aside Headings and Containers                 */
+/*  8.23 — Note / Aside Headings and Containers                 */
 /* ============================================================ */
 
 .ptx-content .note .heading,
@@ -916,7 +1281,7 @@
 
 
 /* ============================================================ */
-/*  8.22 — Note Container                                      */
+/*  8.24 — Note Container                                      */
 /* ============================================================ */
 
 .ptx-content .note {
@@ -954,7 +1319,7 @@
 
 
 /* ============================================================ */
-/*  8.23 — Aside Element Fixes                                 */
+/*  8.25 — Aside Element Fixes                                 */
 /* ============================================================ */
 
 .ptx-content .aside,

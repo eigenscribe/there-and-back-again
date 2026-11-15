@@ -2,6 +2,9 @@
 
 <subsection xml:id="subsec-geometric-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Geometric Algebra</title>
+  <idx><term>geometric algebra</term></idx>
+  <idx><term>Clifford algebra</term></idx>
+
   <introduction>
     <p>Geometric algebra provides simple formulations and unique insight for many different physical processes.</p>
   </introduction>
