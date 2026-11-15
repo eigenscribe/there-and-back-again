@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-wedge-product" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Wedge (Exterior) Product</title>
+  <idx>wedge product</idx>
+  <idx>exterior product</idx>
+  <idx>outer product</idx>
+
+  <assemblage>
+    <p>
+      The <term>wedge (exterior) product</term> is a fundamental operation in geometric algebra that has an input of two
+      vectors and outputs a <xref ref="def-bivector" text="custom"><term>bivector</term></xref>.
+    </p>
+  </assemblage>
+
+  <definition xml:id="def-wedge-product">
+    <title>Wedge Product</title>
+
+    <statement>
+      <p>
+        Take <m>\mathbf{a}=\begin{bmatrix} a^1 \\ a^2 \end{bmatrix}</m> and
+        <m>\mathbf{b}=\begin{bmatrix} b^1 \\ b^2 \end{bmatrix}</m>.
+      </p>
+      <!-- PREFIGURE IMAGE HERE -->
+    </statement>
+  </definition>
+
+</paragraphs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsubsection xml:id="subsubsec-grassmann-algebras" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Grassmann (Exterior) Algebras</title>
+  <idx>Grassmann algebras</idx>
+  <idx>Exterior algebras</idx>
+
+  <xi:include href="para-wedge-product.ptx" />
+  <xi:include href="para-grade-taxonomy.ptx" />
+
+</subsubsection>

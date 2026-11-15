@@ -6,6 +6,7 @@
     <p>Geometric algebra provides simple formulations and unique insight for many different physical processes.</p>
   </introduction>
 
+  <xi:include href="GRASSMANN_ALGEBRAS/subsubsec-grassmann-algebras.ptx" />
   <xi:include href="CLIFFORD_ALGEBRAS/subsubsec-clifford-algebras.ptx" />
 
 </subsection>
