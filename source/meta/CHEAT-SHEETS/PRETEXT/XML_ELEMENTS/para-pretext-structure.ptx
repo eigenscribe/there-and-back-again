@@ -2,46 +2,48 @@
 
 <paragraphs xml:id="para-pretext-structure" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Document Structure</title>
-    <p>
-      PreTeXt documents follow a strict hierarchical organization.
-    </p>
-    <p>
-       <alert>Preview (Sample Rendered Subsection):</alert>
-    </p>
-    <assemblage>
-            <title>Subsection: sub-demo</title>
-            <p>Content with <m>E=mc^2</m> and <xref ref="ch-cheat-sheets"/>.</p>
-            <p>🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext"/></p>
-    </assemblage>
-    <program language="xml">
-      <code>
-        <![CDATA[
-          <pretext>
-            <docinfo> ... </docinfo>
-            <book xml:id="my-book">
-              <title>Book Title</title>
-              <chapter xml:id="ch-demo">
-                <title>Chapter</title>
-                <section xml:id="sec-demo">
-                  <title>Section Title</title>
-                  <introduction>
-                    <p>
-                      <tag>202606012315</tag> |
-                      <tag>topic</tag>
-                    </p>
-                  </introduction>
-                  <subsection xml:id="sub-demo">
-                     <title>Subsection</title>
-                     <p>Content with <m>E=mc^2</m> and <xref ref="ch-demo"/>.</p>
-                  </subsection>
-                  <conclusion>
-                    <p>🖇️ <alert>Linked Notes:</alert> <xref ref="other-note"/></p>
-                  </conclusion>
-                </section>
-              </chapter>
-            </book>
-          </pretext>
-        ]]>
-      </code>
+  <p>
+    PreTeXt documents follow a strict hierarchical organization: <c>&lt;pretext&gt;</c> contains <c>&lt;docinfo&gt;</c> and <c>&lt;book&gt;</c> (or <c>&lt;article&gt;</c>), which hierarchically nests <c>&lt;part&gt;</c>, <c>&lt;chapter&gt;</c>, <c>&lt;section&gt;</c>, <c>&lt;subsection&gt;</c>, and division blocks like <c>&lt;introduction&gt;</c>, <c>&lt;paragraphs&gt;</c>, and <c>&lt;conclusion&gt;</c>.
+  </p>
+
+  <p>
+    <alert>Preview:</alert>
+  </p>
+  <assemblage xml:id="ass-structure-demo">
+    <title>Sample Subsection Structure: sub-demo</title>
+    <p>This is rendered subsection content with inline math <m>E=mc^2</m> and a cross-reference to <xref ref="ch-cheat-sheets"/>.</p>
+    <p>🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext"/></p>
+  </assemblage>
+
+  <program language="xml">
+    <code>
+      <![CDATA[
+<pretext>
+  <docinfo> ... </docinfo>
+  <book xml:id="my-book">
+    <title>Book Title</title>
+    <chapter xml:id="ch-demo">
+      <title>Chapter Title</title>
+      <section xml:id="sec-demo">
+        <title>Section Title</title>
+        <introduction>
+          <p>
+            <tag>202606012315</tag> |
+            <tag>topic</tag>
+          </p>
+        </introduction>
+        <subsection xml:id="sub-demo">
+           <title>Subsection</title>
+           <p>Content with <m>E=mc^2</m> and <xref ref="ch-demo"/>.</p>
+        </subsection>
+        <conclusion>
+          <p>🖇️ <alert>Linked Notes:</alert> <xref ref="other-note"/></p>
+        </conclusion>
+      </section>
+    </chapter>
+  </book>
+</pretext>
+      ]]>
+    </code>
   </program>
 </paragraphs>

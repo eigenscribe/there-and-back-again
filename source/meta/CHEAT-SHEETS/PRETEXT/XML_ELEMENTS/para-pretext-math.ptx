@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <paragraphs xml:id="para-pretext-math" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Mathematics</title>
+  <title>Mathematics &amp; LaTeX Environments</title>
   <p>
-    PreTeXt supports various math environments using standard LaTeX notation.
+    PreTeXt supports mathematical expressions and equations using standard LaTeX syntax parsed through MathJax.
   </p>
   <ul>
     <li>
       <title>Inline Math</title>
-      <p>Use <c><![CDATA[<m>...</m>]]></c> for inline expressions.</p>
+      <p>
+        Use <c>&lt;m&gt;...&lt;/m&gt;</c> for inline LaTeX formulas such as <m>\psi(x) = \langle x | \psi \rangle</m> or <m>e^{i\pi} + 1 = 0</m>.
+      </p>
     </li>
     <li>
-      <title>Single Line Equations</title>
-      <p>Use <c><![CDATA[<md>]]></c> for equations. Single-line equations no longer use <c><![CDATA[<me>]]></c> or <c><![CDATA[<men>]]></c> (deprecated). Use <c>@number="yes"</c> on <c><![CDATA[<md>]]></c> for numbering.</p>
+      <title>Single-Line Equations</title>
+      <p>
+        Use <c>&lt;md&gt;</c> with <c>&lt;mrow&gt;</c> for single-line display equations (the standalone <c>&lt;me&gt;</c> and <c>&lt;men&gt;</c> tags are deprecated in recent PreTeXt releases). Add <c>number="yes"</c> on <c>&lt;md&gt;</c> or an <c>xml:id</c> on <c>&lt;mrow&gt;</c> to enable numbering.
+      </p>
       <p>
         <alert>Preview:</alert>
-        <md number="yes">
-          <mrow xml:id="eq-schrodinger-example">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</mrow>
-        </md>
       </p>
+      <md number="yes">
+        <mrow xml:id="eq-schrodinger-example">i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r}, t) = \hat{H}\Psi(\mathbf{r}, t)</mrow>
+      </md>
       <program language="xml">
         <code>
-          <![CDATA[<md number="yes">
-            <mrow xml:id="eq-schrodinger">i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</mrow>
-          </md>]]>
+          <![CDATA[
+<md number="yes">
+  <mrow xml:id="eq-schrodinger">i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r}, t) = \hat{H}\Psi(\mathbf{r}, t)</mrow>
+</md>
+          ]]>
         </code>
       </program>
     </li>
     <li>
-      <title>Aligned Equations</title>
-      <p>Use <c><![CDATA[<md>]]></c> with <c><![CDATA[<mrow>]]></c> for multiple lines. Use <c><![CDATA[\amp]]></c> for alignment.</p>
+      <title>Aligned Display Equations</title>
+      <p>
+        Use <c>&lt;md&gt;</c> with multiple <c>&lt;mrow&gt;</c> lines and alignment tabs <c>\amp</c> (or <c>&amp;amp;</c> in raw XML):
+      </p>
       <p>
         <alert>Preview:</alert>
-        <md>
-          <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
-          <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
-        </md>
       </p>
+      <md>
+        <mrow>\nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0}</mrow>
+        <mrow>\nabla \times \mathbf{E} \amp = -\frac{\partial \mathbf{B}}{\partial t}</mrow>
+        <mrow>\nabla \cdot \mathbf{B} \amp = 0</mrow>
+        <mrow>\nabla \times \mathbf{B} \amp = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}</mrow>
+      </md>
       <program language="xml">
         <code>
           <![CDATA[
-            <md>
-              <mrow> \nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0} </mrow>
-              <mrow> \nabla \cdot \mathbf{B} \amp = 0 </mrow>
-            </md>
+<md>
+  <mrow>\nabla \cdot \mathbf{E} \amp = \frac{\rho}{\epsilon_0}</mrow>
+  <mrow>\nabla \times \mathbf{E} \amp = -\frac{\partial \mathbf{B}}{\partial t}</mrow>
+  <mrow>\nabla \cdot \mathbf{B} \amp = 0</mrow>
+  <mrow>\nabla \times \mathbf{B} \amp = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}</mrow>
+</md>
           ]]>
         </code>
       </program>

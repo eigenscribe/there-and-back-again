@@ -1,90 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <paragraphs xml:id="para-project-conventions" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Project Conventions</title>
+  <title>Project Conventions &amp; Metadata</title>
+  <p>
+    Custom styles, metadata formats, and authoring standards used across this networked Zettelkasten:
+  </p>
+  <ul>
+    <li>
+      <title>Note Metadata Blocks</title>
+      <p>
+        Every note includes a metadata block containing a timestamp Note ID and topic tags. This can be authored in an <c>&lt;introduction&gt;</c>, <c>&lt;blockquote&gt;</c>, or <c>&lt;paragraphs&gt;</c>.
+      </p>
+      <p>
+        <alert>Preview:</alert>
+      </p>
+      <blockquote>
         <p>
-            Custom styles and standards used in this Zettelkasten.
+          <tag>202606012315</tag> | <tag>quantum mechanics</tag>, <tag>linear algebra</tag> | <alert>Interactive:</alert><tag>🔗 Graph Node</tag>
         </p>
-        <ul>
-            <li>
-                <p>
-                    <alert>Note Metadata:</alert> Every note should include a metadata block (Note ID, Tags, etc.). This block can be placed in <c><![CDATA[<introduction>]]></c>, <c><![CDATA[<blockquote>]]></c>, <c><![CDATA[<aside>]]></c>, or <c><![CDATA[<paragraphs>]]></c>.
-                </p>
-                <p>
-                    <alert>Preview:</alert>
-                </p>
-                <blockquote>
-                    <p>
-                        <tag>202606012315</tag> | <tag>topic1</tag>, <tag>topic2</tag> | <alert>PreFigure Demo:</alert><tag>🔗 Interactive</tag>
-                    </p>
-                </blockquote>
-                <program language="xml">
-                    <code>
-                        <![CDATA[
-<!-- Traditional Introduction -->
+      </blockquote>
+      <program language="xml">
+        <code>
+          <![CDATA[
+<!-- Introduction Metadata Block -->
 <introduction>
   <p>
     <tag>202606012315</tag> |
-    <tag>topic1</tag> <tag>topic2</tag>
+    <tag>quantum mechanics</tag> <tag>linear algebra</tag>
   </p>
 </introduction>
 
-<!-- Alternative using Blockquote (Always visible, no title) -->
+<!-- Or using a Blockquote (always visible) -->
 <blockquote>
   <p>
     <tag>202606012315</tag> |
-    <tag>topic1</tag>
+    <tag>quantum mechanics</tag>
   </p>
 </blockquote>
-                        ]]>
-                    </code>
-                </program>
-            </li>
-            <li>
-                <p>
-                    <alert>Note IDs:</alert> Use <c>YYYYMMDDNNNN</c> or <c>HHMM</c> format.
-                    The first <c><![CDATA[<tag>]]></c> in a supported metadata block (Introduction, Blockquote, etc.) is automatically styled as a purple glassmorphic Note ID.
-                </p>
-            </li>
-            <li>
-                <p>
-                    <alert>Conclusion Metadata:</alert> Conclusions use <c><![CDATA[<alert>]]></c> tags for metadata labels (e.g., Linked Notes, References), which are automatically styled as blue glassmorphic pills.
-                </p>
-                <p>
-                    <alert>Preview:</alert>
-                </p>
-                <blockquote>
-                    <p>
-                        🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext" />
-                    </p>
-                    <p>
-                        🔖 <alert>References:</alert> <xref ref="ch-cheat-sheets" />
-                    </p>
-                </blockquote>
-                <program language="xml">
-                    <code>
-                        <![CDATA[
+          ]]>
+        </code>
+      </program>
+    </li>
+    <li>
+      <title>Note IDs &amp; Glassmorphic Pills</title>
+      <p>
+        Use <c>YYYYMMDDHHMM</c> or <c>YYYYMMDDNNNN</c> timestamps. The first <c>&lt;tag&gt;</c> in an introduction or blockquote is automatically styled as a glowing purple glassmorphic Note ID badge. Subsequent tags render as cyan topic pills.
+      </p>
+    </li>
+    <li>
+      <title>Conclusion Metadata &amp; Networked Links</title>
+      <p>
+        Conclusions use <c>&lt;alert&gt;</c> tags for metadata labels (e.g. Linked Notes, References), which render as glassmorphic pills and populate the D3.js knowledge graph.
+      </p>
+      <p>
+        <alert>Preview:</alert>
+      </p>
+      <blockquote>
+        <p>
+          🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext" />
+        </p>
+        <p>
+          🔖 <alert>References:</alert> <xref ref="ch-cheat-sheets" />
+        </p>
+      </blockquote>
+      <program language="xml">
+        <code>
+          <![CDATA[
 <conclusion>
   <p>
-    🖇️ <alert>Linked Notes:</alert> <xref ref="sec-topic" />
+    🖇️ <alert>Linked Notes:</alert> <xref ref="sec-pretext" />
   </p>
   <p>
-    🔖 <alert>References:</alert> <xref ref="biblio-item" />
+    🔖 <alert>References:</alert> <xref ref="ch-cheat-sheets" />
   </p>
 </conclusion>
-                        ]]>
-                    </code>
-                </program>
-            </li>
-            <li>
-                <p>
-                    <alert>List Titles:</alert> Headings inside list items (e.g. <c><![CDATA[<li><title>...</title></li>]]></c> or <c><![CDATA[<li class="li"><title>...</title></li>]]></c>) are styled in prominent cyan with the heading font.
-                </p>
-            </li>
-            <li>
-                <p>
-                    <alert>Assemblages:</alert> Use for primary takeaways or "atomic" notes within a section.
-                </p>
-            </li>
-        </ul>
+          ]]>
+        </code>
+      </program>
+    </li>
+    <li>
+      <title>List Headings &amp; Assemblages</title>
+      <p>
+        Titles within list items (<c>&lt;li&gt;&lt;title&gt;...&lt;/title&gt;&lt;/li&gt;</c>) are styled in prominent cyan heading typography. Use <c>&lt;assemblage&gt;</c> blocks for standalone concept takeaways and key formulas.
+      </p>
+    </li>
+  </ul>
 </paragraphs>

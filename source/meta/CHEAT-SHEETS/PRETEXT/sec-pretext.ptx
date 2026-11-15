@@ -9,6 +9,6 @@
   </introduction>
 
   <xi:include href="XML_ELEMENTS/subsec-pretext-xml-elements.ptx" />
-  <xi:include href="ELEMENT_DEMO/subsec-pretext-demo.ptx" />
+  <xi:include href="BLOCKS/subsec-pretext-blocks.ptx" />
 
 </section>

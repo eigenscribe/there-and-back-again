@@ -1362,55 +1362,227 @@
       "tag_type": "section"
     },
     {
-      "id": "ex-lorem",
-      "title": "A Simple Example",
-      "url": "para-admonitions.html#ex-lorem",
-      "tags": [],
-      "description": "Consider the function f(x) = x^2. What is its derivative?",
-      "group": "meta",
-      "color": "#f5a623",
-      "tag_type": "example"
-    },
-    {
-      "id": "subsec-pretext-demo",
-      "title": "PreTeXt Element Demo",
-      "url": "subsec-pretext-demo.html",
-      "tags": [],
-      "description": "This section serves as a demonstration of various PreTeXt elements styled with the current theme. It uses placeholder...",
+      "id": "subsec-pretext-blocks",
+      "title": "PreTeXt Semantic Blocks & Elements",
+      "url": "subsec-pretext-blocks.html",
+      "tags": [
+        "00e676",
+        "06b6d4",
+        "14b5ff",
+        "7952f5",
+        "blocks",
+        "definitions",
+        "f59e0b",
+        "ff8800",
+        "pretext",
+        "theorems"
+      ],
+      "description": "202606012330 | pretext blocks theorems definitions",
       "group": "meta",
       "color": "#f5a623",
       "tag_type": "subsection"
     },
     {
-      "id": "def-unitary-example",
-      "title": "Unitary Operator",
-      "url": "para-pretext-blocks.html#def-unitary-example",
+      "id": "thm-noether-demo",
+      "title": "Noether's First Theorem",
+      "url": "subsec-pretext-blocks.html#thm-noether-demo",
       "tags": [],
-      "description": "An operator U is unitary if U^\\dagger U = I.",
-      "group": "meta",
-      "color": "#f5a623",
-      "tag_type": "definition"
-    },
-    {
-      "id": "thm-noether-example",
-      "title": "Noether's Theorem",
-      "url": "para-pretext-blocks.html#thm-noether-example",
-      "tags": [],
-      "description": "Every differentiable symmetry ... has a corresponding conservation law.",
+      "description": "Every continuous global symmetry of the action of a physical system with conservative forces has a corresponding cons...",
       "group": "meta",
       "color": "#f5a623",
       "tag_type": "theorem"
     },
     {
+      "id": "prop-unitary-norm-demo",
+      "title": "Unitary Preservation of Inner Products",
+      "url": "subsec-pretext-blocks.html#prop-unitary-norm-demo",
+      "tags": [],
+      "description": "Given stated assumptions, this follows mathematically: let U \\colon \\mathcal{H} \\to \\mathcal{H} be a unitary operator...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "proposition"
+    },
+    {
+      "id": "claim-sample-demo",
+      "title": "Sample Claim",
+      "url": "subsec-pretext-blocks.html#claim-sample-demo",
+      "tags": [],
+      "description": "A focused mathematical claim within a broader mathematical exposition.",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "claim"
+    },
+    {
+      "id": "def-unitary-operator-demo",
+      "title": "Unitary Operator",
+      "url": "subsec-pretext-blocks.html#def-unitary-operator-demo",
+      "tags": [],
+      "description": "A bounded linear operator U \\colon \\mathcal{H} \\to \\mathcal{H} on a Hilbert space \\mathcal{H} is called unitary if: U...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "definition"
+    },
+    {
+      "id": "ex-poly-diff-demo",
+      "title": "Differentiating a Polynomial",
+      "url": "subsec-pretext-blocks.html#ex-poly-diff-demo",
+      "tags": [],
+      "description": "Compute the derivative of the polynomial function: f(x) = 3x^5 - 7x + 5",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "example"
+    },
+    {
+      "id": "ax-peano-successor-demo",
+      "title": "Successor Axiom",
+      "url": "subsec-pretext-blocks.html#ax-peano-successor-demo",
+      "tags": [],
+      "description": "For every natural number n, there exists a unique successor S(n) in \\mathbb{N}, and 0 is not the successor of any nat...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "axiom"
+    },
+    {
+      "id": "prin-gauge-demo",
+      "title": "Principle of Gauge Invariance",
+      "url": "subsec-pretext-blocks.html#prin-gauge-demo",
+      "tags": [],
+      "description": "Physical observables and field equations must remain invariant under local gauge transformations of the underlying po...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "principle"
+    },
+    {
+      "id": "conj-goldbach-demo",
+      "title": "Goldbach's Conjecture",
+      "url": "subsec-pretext-blocks.html#conj-goldbach-demo",
+      "tags": [],
+      "description": "Every even integer greater than 2 can be expressed as the sum of two prime numbers.",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "conjecture"
+    },
+    {
+      "id": "hyp-quantum-speedup-demo",
+      "title": "Quantum Advantage in Topological Sampling",
+      "url": "subsec-pretext-blocks.html#hyp-quantum-speedup-demo",
+      "tags": [],
+      "description": "Topological quantum data analysis yields polynomial runtime for Betti number estimation where classical algorithms re...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "hypothesis"
+    },
+    {
+      "id": "asm-flat-spacetime-demo",
+      "title": "Minkowski Background Metric",
+      "url": "subsec-pretext-blocks.html#asm-flat-spacetime-demo",
+      "tags": [],
+      "description": "The spacetime metric is stipulated as flat with signature \\eta_{\\mu\\nu} = \\operatorname{diag}(-1, +1, +1, +1).",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "assumption"
+    },
+    {
+      "id": "heur-dimensional-scaling-demo",
+      "title": "Dimensional Scaling Heuristic",
+      "url": "subsec-pretext-blocks.html#heur-dimensional-scaling-demo",
+      "tags": [],
+      "description": "When analyzing asymptotic behavior, inspect dimensionless scaling invariants prior to full tensor decomposition.",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "heuristic"
+    },
+    {
+      "id": "rem-complex-geometry-demo",
+      "title": "Geometric Realization",
+      "url": "subsec-pretext-blocks.html#rem-complex-geometry-demo",
+      "tags": [],
+      "description": "In geometric algebra, the imaginary unit i is not an abstract entity, but a unit pseudoscalar representing an oriente...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "remark"
+    },
+    {
+      "id": "ins-duality-demo",
+      "title": "Deep Duality",
+      "url": "subsec-pretext-blocks.html#ins-duality-demo",
+      "tags": [],
+      "description": "The Poincar\u00e9 duality connects the homology groups of an oriented n-manifold with its cohomology groups: H^k(M) \\cong ...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "insight"
+    },
+    {
+      "id": "warn-gauge-degrees-demo",
+      "title": "Gauge Freedom and Non-Uniqueness",
+      "url": "subsec-pretext-blocks.html#warn-gauge-degrees-demo",
+      "tags": [],
+      "description": "Potentials A^\\mu are gauge-dependent quantities; only field strengths F_{\\mu\\nu} represent gauge-invariant observables.",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "warning"
+    },
+    {
+      "id": "note-interactive-graph-demo",
+      "title": "Interactive Knowledge Graph",
+      "url": "subsec-pretext-blocks.html#note-interactive-graph-demo",
+      "tags": [],
+      "description": "Every section and theorem in this document is compiled into an interactive D3.js networked graph. Click the graph ico...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "note"
+    },
+    {
+      "id": "obs-spinor-periodicity-demo",
+      "title": "Spinor Periodicity",
+      "url": "subsec-pretext-blocks.html#obs-spinor-periodicity-demo",
+      "tags": [],
+      "description": "Clifford algebras exhibit Bott periodicity modulo 8 over the real numbers: \\mathcal{C}\\ell_{p+8, q} \\cong \\mathcal{C}...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "observation"
+    },
+    {
+      "id": "conv-einstein-sum-demo",
+      "title": "Einstein Summation Convention",
+      "url": "subsec-pretext-blocks.html#conv-einstein-sum-demo",
+      "tags": [],
+      "description": "Repeated indices in upper and lower positions are implicitly summed over all spacetime dimensions: A_\\mu B^\\mu \\equiv...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "convention"
+    },
+    {
+      "id": "proj-clifford-simulation-demo",
+      "title": "Simulating Rotor Rotations in Clifford Space",
+      "url": "subsec-pretext-blocks.html#proj-clifford-simulation-demo",
+      "tags": [],
+      "description": "In this investigation, you will verify rotor sandwich transformations v \\mapsto R v R^\\dagger in 3D Euclidean space \\...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "project"
+    },
+    {
+      "id": "act-unitary-circuit-demo",
+      "title": "Constructing a Hadamard-CNOT Bell State",
+      "url": "subsec-pretext-blocks.html#act-unitary-circuit-demo",
+      "tags": [],
+      "description": "Given the initial computational basis state |00\\rangle, trace the action of a Hadamard gate on qubit 1 followed by a ...",
+      "group": "meta",
+      "color": "#f5a623",
+      "tag_type": "activity"
+    },
+    {
       "id": "sec-pretext-xml-elements",
-      "title": "PreTeXt XML Elements",
+      "title": "PreTeXt Structure & Non-Block XML Elements",
       "url": "sec-pretext-xml-elements.html",
       "tags": [
         "authoring",
         "pretext",
+        "syntax",
         "xml"
       ],
-      "description": "202606012315 | pretext xml authoring",
+      "description": "202606012315 | pretext xml authoring syntax",
       "group": "meta",
       "color": "#f5a623",
       "tag_type": "subsection"

@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="sec-pretext-xml-elements" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>PreTeXt XML Elements</title>
+  <title>PreTeXt Structure &amp; Non-Block XML Elements</title>
 
   <introduction>
     <p>
       <tag>202606012315</tag> |
-      <tag>pretext</tag> <tag>xml</tag> <tag>authoring</tag>
+      <tag>pretext</tag> <tag>xml</tag> <tag>authoring</tag> <tag>syntax</tag>
     </p>
     <p>
-      A comprehensive guide to PreTeXt XML elements and structure for authoring mathematical content.
+      A quick-reference guide to PreTeXt document structure, inline styling tags, mathematics markup, category overviews, and project authoring conventions.
     </p>
   </introduction>
 
   <xi:include href="para-pretext-structure.ptx" />
   <xi:include href="para-pretext-inline.ptx" />
   <xi:include href="para-pretext-math.ptx" />
-  <xi:include href="para-pretext-blocks.ptx" />
   <xi:include href="para-pretext-elements-table.ptx" />
   <xi:include href="para-project-conventions.ptx" />
 

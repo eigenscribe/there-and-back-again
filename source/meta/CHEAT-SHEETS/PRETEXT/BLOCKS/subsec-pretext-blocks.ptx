@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-pretext-blocks" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>PreTeXt Semantic Blocks &amp; Elements</title>
+
+  <introduction>
+    <p>
+      <tag>202606012330</tag> |
+      <tag>pretext</tag> <tag>blocks</tag> <tag>theorems</tag> <tag>definitions</tag>
+    </p>
+    <p>
+      This reference documents the full taxonomy of PreTeXt semantic blocks, technical environments, and display elements used across <pubtitle>There and Back Again</pubtitle>. In accordance with Chapter 15 of the PreTeXt Guide, blocks are classified into six fundamental epistemic and structural families: <term>Theorem-Like</term>, <term>Definition-Like</term>, <term>Example-Like</term>, <term>Axiom-Like</term>, <term>Remark-Like</term>, and <term>Project-Like</term>, alongside auxiliary structures such as assemblages, programs, tables, and mathematical display environments.
+    </p>
+    <p>
+      Every example below is equipped with interactive tab switching between the rendered <alert>Preview</alert> and the underlying PreTeXt <alert>Source</alert> XML.
+    </p>
+  </introduction>
+
+  <!-- 1. Taxonomy Overview Table -->
+  <paragraphs xml:id="para-blocks-taxonomy-overview">
+    <title>Chapter 15 Block Taxonomy &amp; Styling Overview</title>
+    <p>
+      The following table summarizes the block groups, supported XML tags, expected ID prefixes, visual glassmorphic palettes, and epistemic roles:
+    </p>
+
+    <table>
+      <title>PreTeXt Block Groups and Taxonomy</title>
+      <tabular>
+        <row header="yes" bottom="medium">
+          <cell>Block Group</cell>
+          <cell>XML Tags</cell>
+          <cell>Prefix</cell>
+          <cell>Color Scheme / Gradient</cell>
+          <cell>Epistemic Role / Interpretation</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Theorem-Like</cell>
+          <cell><c>theorem</c>, <c>algorithm</c>, <c>claim</c>, <c>corollary</c>, <c>fact</c>, <c>identity</c>, <c>lemma</c>, <c>proposition</c>, <c>proof</c></cell>
+          <cell><c>thm-</c>, <c>algo-</c>, <c>claim-</c>, <c>cor-</c>, <c>fact-</c>, <c>id-</c>, <c>lem-</c>, <c>prop-</c></cell>
+          <cell>Emerald / Green (<c>#00E676</c>)</cell>
+          <cell>Deductive results established by mathematical or algorithmic proof.</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Definition-Like</cell>
+          <cell><c>definition</c></cell>
+          <cell><c>def-</c></cell>
+          <cell>Purple Gradient (<c>#7952F5</c>)</cell>
+          <cell>Conventional definitions, formal term introductions, and notation specifications.</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Example-Like</cell>
+          <cell><c>example</c>, <c>problem</c>, <c>question</c></cell>
+          <cell><c>ex-</c>, <c>prob-</c>, <c>quest-</c></cell>
+          <cell>Sky Blue (<c>#14B5FF</c>)</cell>
+          <cell>Concrete illustrations, problem statements, hints, answers, and solutions.</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Axiom-Like</cell>
+          <cell><c>assumption</c>, <c>axiom</c>, <c>conjecture</c>, <c>heuristic</c>, <c>hypothesis</c>, <c>principle</c></cell>
+          <cell><c>asm-</c>, <c>ax-</c>, <c>conj-</c>, <c>heur-</c>, <c>hyp-</c>, <c>prin-</c></cell>
+          <cell>Warm Amber / Gold (<c>#F59E0B</c>)</cell>
+          <cell>Foundational postulates, provisional working principles, heuristics, and testable hypotheses.</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Remark-Like</cell>
+          <cell><c>convention</c>, <c>insight</c>, <c>note</c>, <c>observation</c>, <c>remark</c>, <c>warning</c></cell>
+          <cell><c>conv-</c>, <c>ins-</c>, <c>note-</c>, <c>obs-</c>, <c>rem-</c>, <c>warn-</c></cell>
+          <cell>Warm Orange (<c>#FF8800</c>)</cell>
+          <cell>Pedagogical commentary, cautionary warnings, side notes, and qualitative observations.</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Project-Like</cell>
+          <cell><c>activity</c>, <c>exploration</c>, <c>investigation</c>, <c>project</c></cell>
+          <cell><c>act-</c>, <c>expl-</c>, <c>inv-</c>, <c>proj-</c></cell>
+          <cell>Teal / Cyan (<c>#06B6D4</c>)</cell>
+          <cell>Multi-part explorations, active investigations, and guided lab tasks.</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Assemblage-Like</cell>
+          <cell><c>assemblage</c></cell>
+          <cell><c>ass-</c></cell>
+          <cell>Dark Slate / Glassmorphic Box</cell>
+          <cell>Standalone summaries, key concept takeaways, and quick-reference checklists.</cell>
+        </row>
+      </tabular>
+    </table>
+  </paragraphs>
+
+  <!-- 2. Theorem-Like Elements (Section 15.1) -->
+  <paragraphs xml:id="para-blocks-theorem-like">
+    <title>15.1 Theorem-Like Elements</title>
+    <p>
+      Theorem-like elements contain deductive mathematical statements requiring proof. All share the same structure: an optional <c>&lt;title&gt;</c>, optional <c>&lt;creator&gt;</c>, mandatory <c>&lt;statement&gt;</c>, and optional embedded or detached <c>&lt;proof&gt;</c> elements. Proofs may further include inner <c>&lt;case&gt;</c> subdivisions.
+    </p>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <theorem xml:id="thm-noether-demo">
+      <title>Noether's First Theorem</title>
+      <creator>Emmy Noether</creator>
+      <statement>
+        <p>
+          Every continuous global symmetry of the action of a physical system with conservative forces has a corresponding conserved current <m>j^\mu</m> satisfying:
+          <md>
+            <mrow>\partial_\mu j^\mu = 0</mrow>
+          </md>
+        </p>
+      </statement>
+      <proof>
+        <p>
+          Under an infinitesimal transformation parameterized by <m>\epsilon</m>, the variation of the action <m>\delta S</m> vanishes on-shell by Hamilton's principle of stationary action, yielding the continuity equation for the Noether charge.
+        </p>
+      </proof>
+    </theorem>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<theorem xml:id="thm-noether">
+  <title>Noether's First Theorem</title>
+  <creator>Emmy Noether</creator>
+  <statement>
+    <p>
+      Every continuous global symmetry of the action of a physical system with conservative forces has a corresponding conserved current <m>j^\mu</m> satisfying:
+      <md>
+        <mrow>\partial_\mu j^\mu = 0</mrow>
+      </md>
+    </p>
+  </statement>
+  <proof>
+    <p>
+      Under an infinitesimal transformation parameterized by <m>\epsilon</m>, the variation of the action <m>\delta S</m> vanishes on-shell by Hamilton's principle of stationary action, yielding the continuity equation for the Noether charge.
+    </p>
+  </proof>
+</theorem>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <proposition xml:id="prop-unitary-norm-demo">
+      <title>Unitary Preservation of Inner Products</title>
+      <statement>
+        <p>
+          Given stated assumptions, this follows mathematically: let <m>U \colon \mathcal{H} \to \mathcal{H}</m> be a unitary operator on a Hilbert space. Then <m>\langle U\psi, U\phi \rangle = \langle \psi, \phi \rangle</m> for all <m>\psi, \phi \in \mathcal{H}</m>.
+        </p>
+      </statement>
+    </proposition>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<proposition xml:id="prop-unitary-norm">
+  <title>Unitary Preservation of Inner Products</title>
+  <statement>
+    <p>
+      Given stated assumptions, this follows mathematically: let <m>U \colon \mathcal{H} \to \mathcal{H}</m> be a unitary operator on a Hilbert space. Then <m>\langle U\psi, U\phi \rangle = \langle \psi, \phi \rangle</m> for all <m>\psi, \phi \in \mathcal{H}</m>.
+    </p>
+  </statement>
+</proposition>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <claim xml:id="claim-sample-demo">
+      <title>Sample Claim</title>
+      <statement>
+        <p>
+          A focused mathematical claim within a broader mathematical exposition.
+        </p>
+      </statement>
+    </claim>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<claim xml:id="claim-sample">
+  <title>Sample Claim</title>
+  <statement>
+    <p>
+      A focused mathematical claim within a broader mathematical exposition.
+    </p>
+  </statement>
+</claim>
+        ]]>
+      </code>
+    </program>
+  </paragraphs>
+
+  <!-- 3. Definition-Like Elements (Section 15.1) -->
+  <paragraphs xml:id="para-blocks-definition-like">
+    <title>15.1 Definition-Like Elements</title>
+    <p>
+      Definition-like elements establish formal terminology and conventional mathematical notation. Unlike theorem-like elements, definitions do not include proofs. They support the <c>&lt;term&gt;</c> element for defined concepts and an optional <c>&lt;notation&gt;</c> block with <c>&lt;usage&gt;</c> and <c>&lt;description&gt;</c> for indexing in a notation list appendix.
+    </p>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <definition xml:id="def-unitary-operator-demo">
+      <title>Unitary Operator</title>
+      <notation>
+        <usage><m>U^\dagger U = \mathbb{I}</m></usage>
+        <description>unitary operator</description>
+      </notation>
+      <statement>
+        <p>
+          A bounded linear operator <m>U \colon \mathcal{H} \to \mathcal{H}</m> on a Hilbert space <m>\mathcal{H}</m> is called <term>unitary</term> if:
+          <md>
+            <mrow>U^\dagger U = U U^\dagger = \mathbb{I}</mrow>
+          </md>
+          where <m>U^\dagger</m> denotes the adjoint of <m>U</m>.
+        </p>
+      </statement>
+    </definition>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<definition xml:id="def-unitary-operator">
+  <title>Unitary Operator</title>
+  <notation>
+    <usage><m>U^\dagger U = \mathbb{I}</m></usage>
+    <description>unitary operator</description>
+  </notation>
+  <statement>
+    <p>
+      A bounded linear operator <m>U \colon \mathcal{H} \to \mathcal{H}</m> on a Hilbert space <m>\mathcal{H}</m> is called <term>unitary</term> if:
+      <md>
+        <mrow>U^\dagger U = U U^\dagger = \mathbb{I}</mrow>
+      </md>
+      where <m>U^\dagger</m> denotes the adjoint of <m>U</m>.
+    </p>
+  </statement>
+</definition>
+        ]]>
+      </code>
+    </program>
+  </paragraphs>
+
+  <!-- 4. Example-Like Elements (Section 15.2) -->
+  <paragraphs xml:id="para-blocks-example-like">
+    <title>15.2 Example-Like Elements</title>
+    <p>
+      PreTeXt provides <c>&lt;example&gt;</c>, <c>&lt;problem&gt;</c>, and <c>&lt;question&gt;</c> to present pedagogical illustrations and sample exercises. They can be authored either unstructured with direct paragraphs or structured with a <c>&lt;statement&gt;</c> and zero or more optional <c>&lt;hint&gt;</c>, <c>&lt;answer&gt;</c>, and <c>&lt;solution&gt;</c> blocks (in that strict order).
+    </p>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <example xml:id="ex-poly-diff-demo">
+      <title>Differentiating a Polynomial</title>
+      <statement>
+        <p>
+          Compute the derivative of the polynomial function:
+          <md>
+            <mrow>f(x) = 3x^5 - 7x + 5</mrow>
+          </md>
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Apply the power rule <m>\frac{d}{dx} x^n = n x^{n-1}</m> and linearity of differentiation.
+        </p>
+      </hint>
+      <answer>
+        <p>
+          <m>f'(x) = 15x^4 - 7</m>
+        </p>
+      </answer>
+      <solution>
+        <p>
+          Using the power, sum, and constant multiple rules:
+          <md>
+            <mrow>f'(x) = \frac{d}{dx}(3x^5) - \frac{d}{dx}(7x) + \frac{d}{dx}(5) = 15x^4 - 7</mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<example xml:id="ex-poly-diff">
+  <title>Differentiating a Polynomial</title>
+  <statement>
+    <p>Compute the derivative of <m>f(x) = 3x^5 - 7x + 5</m>.</p>
+  </statement>
+  <hint>
+    <p>Apply the power rule <m>\frac{d}{dx} x^n = n x^{n-1}</m> and linearity.</p>
+  </hint>
+  <answer>
+    <p><m>f'(x) = 15x^4 - 7</m></p>
+  </answer>
+  <solution>
+    <p>Using the power, sum, and constant multiple rules...</p>
+  </solution>
+</example>
+        ]]>
+      </code>
+    </program>
+  </paragraphs>
+
+  <!-- 5. Axiom-Like Elements (Section 15.3) -->
+  <paragraphs xml:id="para-blocks-axiom-like">
+    <title>15.3 Axiom-Like Elements</title>
+    <p>
+      Axiom-like elements (<c>&lt;assumption&gt;</c>, <c>&lt;axiom&gt;</c>, <c>&lt;conjecture&gt;</c>, <c>&lt;heuristic&gt;</c>, <c>&lt;hypothesis&gt;</c>, <c>&lt;principle&gt;</c>) represent foundational premises, conjectures, and epistemic statements. They allow an optional <c>&lt;title&gt;</c>, optional <c>&lt;creator&gt;</c>, optional index terms, and a mandatory <c>&lt;statement&gt;</c>.
+    </p>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <axiom xml:id="ax-peano-successor-demo">
+      <title>Successor Axiom</title>
+      <creator>Giuseppe Peano</creator>
+      <statement>
+        <p>
+          For every natural number <m>n</m>, there exists a unique successor <m>S(n)</m> in <m>\mathbb{N}</m>, and <m>0</m> is not the successor of any natural number.
+        </p>
+      </statement>
+    </axiom>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<axiom xml:id="ax-peano-successor">
+  <title>Successor Axiom</title>
+  <creator>Giuseppe Peano</creator>
+  <statement>
+    <p>
+      For every natural number <m>n</m>, there exists a unique successor <m>S(n)</m> in <m>\mathbb{N}</m>, and <m>0</m> is not the successor of any natural number.
+    </p>
+  </statement>
+</axiom>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <principle xml:id="prin-gauge-demo">
+      <title>Principle of Gauge Invariance</title>
+      <statement>
+        <p>
+          Physical observables and field equations must remain invariant under local gauge transformations of the underlying potentials:
+          <md>
+            <mrow>A_\mu \mapsto A_\mu + \partial_\mu \Lambda(x)</mrow>
+          </md>
+        </p>
+      </statement>
+    </principle>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<principle xml:id="prin-gauge">
+  <title>Principle of Gauge Invariance</title>
+  <statement>
+    <p>
+      Physical observables and field equations must remain invariant under local gauge transformations...
+    </p>
+  </statement>
+</principle>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <conjecture xml:id="conj-goldbach-demo">
+      <title>Goldbach's Conjecture</title>
+      <statement>
+        <p>
+          Every even integer greater than 2 can be expressed as the sum of two prime numbers.
+        </p>
+      </statement>
+    </conjecture>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<conjecture xml:id="conj-goldbach">
+  <title>Goldbach's Conjecture</title>
+  <statement>
+    <p>
+      Every even integer greater than 2 can be expressed as the sum of two prime numbers.
+    </p>
+  </statement>
+</conjecture>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <hypothesis xml:id="hyp-quantum-speedup-demo">
+      <title>Quantum Advantage in Topological Sampling</title>
+      <statement>
+        <p>
+          Topological quantum data analysis yields polynomial runtime for Betti number estimation where classical algorithms require exponential time.
+        </p>
+      </statement>
+    </hypothesis>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<hypothesis xml:id="hyp-quantum-speedup">
+  <title>Quantum Advantage in Topological Sampling</title>
+  <statement>
+    <p>
+      Topological quantum data analysis yields polynomial runtime for Betti number estimation...
+    </p>
+  </statement>
+</hypothesis>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <assumption xml:id="asm-flat-spacetime-demo">
+      <title>Minkowski Background Metric</title>
+      <statement>
+        <p>
+          The spacetime metric is stipulated as flat with signature <m>\eta_{\mu\nu} = \operatorname{diag}(-1, +1, +1, +1)</m>.
+        </p>
+      </statement>
+    </assumption>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<assumption xml:id="asm-flat-spacetime">
+  <title>Minkowski Background Metric</title>
+  <statement>
+    <p>
+      The spacetime metric is stipulated as flat with signature <m>\eta_{\mu\nu} = \operatorname{diag}(-1, +1, +1, +1)</m>.
+    </p>
+  </statement>
+</assumption>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <heuristic xml:id="heur-dimensional-scaling-demo">
+      <title>Dimensional Scaling Heuristic</title>
+      <statement>
+        <p>
+          When analyzing asymptotic behavior, inspect dimensionless scaling invariants prior to full tensor decomposition.
+        </p>
+      </statement>
+    </heuristic>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<heuristic xml:id="heur-dimensional-scaling">
+  <title>Dimensional Scaling Heuristic</title>
+  <statement>
+    <p>
+      When analyzing asymptotic behavior, inspect dimensionless scaling invariants...
+    </p>
+  </statement>
+</heuristic>
+        ]]>
+      </code>
+    </program>
+  </paragraphs>
+
+  <!-- 6. Remark-Like Elements (Section 15.4) -->
+  <paragraphs xml:id="para-blocks-remark-like">
+    <title>15.4 Remark-Like Elements</title>
+    <p>
+      Remark-like elements (<c>&lt;convention&gt;</c>, <c>&lt;insight&gt;</c>, <c>&lt;note&gt;</c>, <c>&lt;observation&gt;</c>, <c>&lt;remark&gt;</c>, <c>&lt;warning&gt;</c>) are intended for pedagogical remarks, notes, insights, and cautionary warnings. They allow an optional <c>&lt;title&gt;</c> and contain direct block text without requiring an enclosing <c>&lt;statement&gt;</c>.
+    </p>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <remark xml:id="rem-complex-geometry-demo">
+      <title>Geometric Realization</title>
+      <p>
+        In geometric algebra, the imaginary unit <m>i</m> is not an abstract entity, but a unit pseudoscalar representing an oriented plane with <m>I^2 = -1</m>.
+      </p>
+    </remark>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<remark xml:id="rem-complex-geometry">
+  <title>Geometric Realization</title>
+  <p>
+    In geometric algebra, the imaginary unit <m>i</m> is not an abstract entity, but a unit pseudoscalar representing an oriented plane with <m>I^2 = -1</m>.
+  </p>
+</remark>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <insight xml:id="ins-duality-demo">
+      <title>Deep Duality</title>
+      <p>
+        The Poincaré duality connects the homology groups of an oriented <m>n</m>-manifold with its cohomology groups: <m>H^k(M) \cong H_{n-k}(M)</m>.
+      </p>
+    </insight>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<insight xml:id="ins-duality">
+  <title>Deep Duality</title>
+  <p>
+    The Poincaré duality connects the homology groups of an oriented <m>n</m>-manifold with its cohomology groups: <m>H^k(M) \cong H_{n-k}(M)</m>.
+  </p>
+</insight>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <warning xml:id="warn-gauge-degrees-demo">
+      <title>Gauge Freedom and Non-Uniqueness</title>
+      <p>
+        Potentials <m>A^\mu</m> are gauge-dependent quantities; only field strengths <m>F_{\mu\nu}</m> represent gauge-invariant observables.
+      </p>
+    </warning>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<warning xml:id="warn-gauge-degrees">
+  <title>Gauge Freedom and Non-Uniqueness</title>
+  <p>
+    Potentials <m>A^\mu</m> are gauge-dependent quantities; only field strengths <m>F_{\mu\nu}</m> represent gauge-invariant observables.
+  </p>
+</warning>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <note xml:id="note-interactive-graph-demo">
+      <title>Interactive Knowledge Graph</title>
+      <p>
+        Every section and theorem in this document is compiled into an interactive D3.js networked graph. Click the graph icon in the navigation toolbar to explore interconnected concepts.
+      </p>
+    </note>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<note xml:id="note-interactive-graph">
+  <title>Interactive Knowledge Graph</title>
+  <p>
+    Every section and theorem in this document is compiled into an interactive D3.js networked graph...
+  </p>
+</note>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <observation xml:id="obs-spinor-periodicity-demo">
+      <title>Spinor Periodicity</title>
+      <p>
+        Clifford algebras exhibit Bott periodicity modulo 8 over the real numbers: <m>\mathcal{C}\ell_{p+8, q} \cong \mathcal{C}\ell_{p, q} \otimes \mathbb{R}(16)</m>.
+      </p>
+    </observation>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<observation xml:id="obs-spinor-periodicity">
+  <title>Spinor Periodicity</title>
+  <p>
+    Clifford algebras exhibit Bott periodicity modulo 8 over the real numbers: <m>\mathcal{C}\ell_{p+8, q} \cong \mathcal{C}\ell_{p, q} \otimes \mathbb{R}(16)</m>.
+  </p>
+</observation>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <convention xml:id="conv-einstein-sum-demo">
+      <title>Einstein Summation Convention</title>
+      <p>
+        Repeated indices in upper and lower positions are implicitly summed over all spacetime dimensions: <m>A_\mu B^\mu \equiv \sum_{\mu=0}^3 A_\mu B^\mu</m>.
+      </p>
+    </convention>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<convention xml:id="conv-einstein-sum">
+  <title>Einstein Summation Convention</title>
+  <p>
+    Repeated indices in upper and lower positions are implicitly summed over all spacetime dimensions: <m>A_\mu B^\mu \equiv \sum_{\mu=0}^3 A_\mu B^\mu</m>.
+  </p>
+</convention>
+        ]]>
+      </code>
+    </program>
+  </paragraphs>
+
+  <!-- 7. Project-Like Elements (Section 15.5) -->
+  <paragraphs xml:id="para-blocks-project-like">
+    <title>15.5 Project-Like Elements</title>
+    <p>
+      Project-like elements (<c>&lt;activity&gt;</c>, <c>&lt;exploration&gt;</c>, <c>&lt;investigation&gt;</c>, <c>&lt;project&gt;</c>) support structured inquiry. They can be authored as single-task explorations (optionally with hints, answers, and solutions) or structured using the multi-task model with <c>&lt;introduction&gt;</c>, multiple <c>&lt;task&gt;</c> blocks, and a <c>&lt;conclusion&gt;</c>.
+    </p>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <project xml:id="proj-clifford-simulation-demo">
+      <title>Simulating Rotor Rotations in Clifford Space</title>
+      <introduction>
+        <p>
+          In this investigation, you will verify rotor sandwich transformations <m>v \mapsto R v R^\dagger</m> in 3D Euclidean space <m>\mathcal{C}\ell_{3,0}</m>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Construct the bivector <m>B = \mathbf{e}_1 \mathbf{e}_2</m> and show that <m>B^2 = -1</m>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Use anticommutation <m>\mathbf{e}_1 \mathbf{e}_2 = -\mathbf{e}_2 \mathbf{e}_1</m> and unit normalization <m>\mathbf{e}_1^2 = \mathbf{e}_2^2 = 1</m>.
+          </p>
+        </hint>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compute the rotor <m>R = \exp(-B\theta / 2) = \cos(\theta/2) - B \sin(\theta/2)</m> for <m>\theta = \pi/2</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            For <m>\theta = \pi/2</m>, <m>\theta/2 = \pi/4</m>, yielding <m>R = \frac{\sqrt{2}}{2}(1 - \mathbf{e}_1 \mathbf{e}_2)</m>.
+          </p>
+        </solution>
+      </task>
+
+      <conclusion>
+        <p>
+          Notice how the rotor formulation avoids gimbal lock and provides unified rotations across arbitrary spatial dimensions.
+        </p>
+      </conclusion>
+    </project>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<project xml:id="proj-clifford-simulation">
+  <title>Simulating Rotor Rotations in Clifford Space</title>
+  <introduction>
+    <p>In this investigation, you will verify rotor transformations...</p>
+  </introduction>
+
+  <task>
+    <statement>
+      <p>Construct the bivector <m>B = \mathbf{e}_1 \mathbf{e}_2</m>...</p>
+    </statement>
+    <hint>
+      <p>Use anticommutation...</p>
+    </hint>
+  </task>
+
+  <task>
+    <statement>
+      <p>Compute the rotor <m>R = \exp(-B\theta / 2)</m>...</p>
+    </statement>
+    <solution>
+      <p>For <m>\theta = \pi/2</m>, <m>R = \frac{\sqrt{2}}{2}(1 - \mathbf{e}_1 \mathbf{e}_2)</m>.</p>
+    </solution>
+  </task>
+
+  <conclusion>
+    <p>Notice how the rotor formulation avoids gimbal lock...</p>
+  </conclusion>
+</project>
+        ]]>
+      </code>
+    </program>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <activity xml:id="act-unitary-circuit-demo">
+      <title>Constructing a Hadamard-CNOT Bell State</title>
+      <statement>
+        <p>
+          Given the initial computational basis state <m>|00\rangle</m>, trace the action of a Hadamard gate on qubit 1 followed by a CNOT gate targeted on qubit 2 to create the EPR Bell state <m>\frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)</m>.
+        </p>
+      </statement>
+    </activity>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<activity xml:id="act-unitary-circuit">
+  <title>Constructing a Hadamard-CNOT Bell State</title>
+  <statement>
+    <p>
+      Given the initial computational basis state <m>|00\rangle</m>, trace the action of a Hadamard gate...
+    </p>
+  </statement>
+</activity>
+        ]]>
+      </code>
+    </program>
+  </paragraphs>
+
+  <!-- 8. Assemblages, Technical & Computational Blocks -->
+  <paragraphs xml:id="para-blocks-assemblages-technical">
+    <title>Assemblages, Technical Environments &amp; Code Blocks</title>
+    <p>
+      Beyond the six primary block groups, PreTeXt provides standalone assemblages, source code listings, tables, side-by-side layouts, and mathematical environments:
+    </p>
+
+    <p>
+      <alert>Preview:</alert>
+    </p>
+    <assemblage xml:id="ass-quantum-foundations-demo">
+      <title>Quantum Foundations Summary</title>
+      <p>
+        Key operational principles for quantum mechanical systems:
+      </p>
+      <ul>
+        <li>
+          <p><alert>State Space:</alert> Isolated physical states correspond to unit rays in a complex Hilbert space <m>\mathcal{H}</m>.</p>
+        </li>
+        <li>
+          <p><alert>Observables:</alert> Measurable physical quantities correspond to self-adjoint Hermitian operators <m>A = A^\dagger</m>.</p>
+        </li>
+        <li>
+          <p><alert>Time Evolution:</alert> Unitary evolution governed by the Schrödinger equation <m>i\hbar \partial_t |\psi\rangle = \hat{H} |\psi\rangle</m>.</p>
+        </li>
+      </ul>
+    </assemblage>
+
+    <program language="xml">
+      <code>
+        <![CDATA[
+<assemblage xml:id="ass-quantum-foundations">
+  <title>Quantum Foundations Summary</title>
+  <p>Key operational principles for quantum mechanical systems:</p>
+  <ul>
+    <li>
+      <p><alert>State Space:</alert> Isolated physical states correspond to unit rays...</p>
+    </li>
+    <li>
+      <p><alert>Observables:</alert> Measurable physical quantities correspond to self-adjoint operators...</p>
+    </li>
+    <li>
+      <p><alert>Time Evolution:</alert> Unitary evolution governed by the Schrödinger equation...</p>
+    </li>
+  </ul>
+</assemblage>
+        ]]>
+      </code>
+    </program>
+  </paragraphs>
+
+</subsection>
