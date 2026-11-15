@@ -732,7 +732,7 @@
       "title": "Primer",
       "url": "subsec-complex-analysis-primer.html",
       "tags": [],
-      "description": "Take z=x+iy, \\, i^2=-1 and recall Euler's formula.",
+      "description": "Recall Euler's formula.",
       "group": "backmatter",
       "color": "#9013fe"
     },
