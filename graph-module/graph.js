@@ -41,21 +41,27 @@ class NotesGraph {
     
     this.elements = {};
     this.hoverTimeout = null;
-    
-    this.init();
+    this.resizeHandler = () => this.handleResize();
+    this.ready = this.init();
   }
 
   async init() {
-    this.d3 = await import(D3_CDN);
-    this.createDOM();
-    this.setupSVG();
-    this.setupControls();
-    this.setupZoom();
+    try {
+      this.d3 = await import(D3_CDN);
+      this.createDOM();
+      this.setupSVG();
+      this.setupControls();
+      this.setupZoom();
+    } catch (error) {
+      console.error('Error initializing notes graph:', error);
+      throw error;
+    }
   }
 
   createDOM() {
     this.rootContainer.style.position = 'relative';
     this.rootContainer.innerHTML = '';
+    this.rootContainer.setAttribute('data-theme', this.darkMode ? 'dark' : 'light');
     
     if (this.options.showControls) {
       const title = document.createElement('div');
@@ -87,11 +93,13 @@ class NotesGraph {
     }
     
     const tooltip = document.createElement('div');
+    tooltip.id = 'graph-tooltip';
     tooltip.className = 'graph-tooltip hidden';
     this.rootContainer.appendChild(tooltip);
     this.elements.tooltip = tooltip;
     
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.id = 'graph-svg';
     svg.setAttribute('class', 'graph-svg');
     this.rootContainer.appendChild(svg);
     this.container = svg;
@@ -270,8 +278,8 @@ class NotesGraph {
   setupSVG() {
     const { d3 } = this;
     
-    this.width = this.rootContainer.clientWidth;
-    this.height = this.rootContainer.clientHeight;
+    this.width = this.rootContainer.clientWidth || window.innerWidth;
+    this.height = this.rootContainer.clientHeight || window.innerHeight;
 
     this.svg = d3.select(this.container)
       .attr('width', this.width)
@@ -283,7 +291,7 @@ class NotesGraph {
     this.nodesGroup = this.g.append('g').attr('class', 'nodes');
     this.labelsGroup = this.g.append('g').attr('class', 'labels');
 
-    window.addEventListener('resize', () => this.handleResize());
+    window.addEventListener('resize', this.resizeHandler);
   }
 
   setupZoom() {
@@ -322,7 +330,7 @@ class NotesGraph {
       toggleTheme.addEventListener('click', () => this.toggleDarkMode());
     }
     if (toggleFull) {
-      toggleFull.addEventListener('click', () => this.zoomToFit());
+      toggleFull.addEventListener('click', () => this.toggleFullScreen());
     }
 
     if (this.elements.searchInput) {
@@ -409,6 +417,8 @@ class NotesGraph {
 
   focusOnNode(node) {
     const { d3 } = this;
+    if (!Number.isFinite(node.x) || !Number.isFinite(node.y)) return;
+
     const scale = 2;
     const translate = [this.width / 2 - scale * node.x, this.height / 2 - scale * node.y];
 
@@ -468,8 +478,8 @@ class NotesGraph {
   }
 
   handleResize() {
-    this.width = this.rootContainer.clientWidth;
-    this.height = this.rootContainer.clientHeight;
+    this.width = this.rootContainer.clientWidth || window.innerWidth;
+    this.height = this.rootContainer.clientHeight || window.innerHeight;
 
     this.svg
       .attr('width', this.width)
@@ -485,6 +495,7 @@ class NotesGraph {
 
   async loadData(url) {
     try {
+      await this.ready;
       const response = await fetch(url);
       if (!response.ok) throw new Error(`Failed to load: ${response.status}`);
       this.data = await response.json();
@@ -494,7 +505,8 @@ class NotesGraph {
     }
   }
 
-  setData(data) {
+  async setData(data) {
+    await this.ready;
     this.data = data;
     this.render();
   }
@@ -504,18 +516,25 @@ class NotesGraph {
     const { nodes, links } = this.data;
     const { nodeRadius, nodeRadiusScale, linkDistance, chargeStrength, showLabels, labelOffset } = this.options;
 
+    if (!this.linksGroup || !this.nodesGroup || !this.labelsGroup) return;
+
+    if (this.simulation) {
+      this.simulation.stop();
+    }
+
     this.linksGroup.selectAll('*').remove();
     this.nodesGroup.selectAll('*').remove();
     this.labelsGroup.selectAll('*').remove();
 
+    const getLinkId = value => typeof value === 'object' && value !== null ? value.id : value;
     const nodeMap = new Map(nodes.map(n => [n.id, n]));
     const processedLinks = links
-      .filter(l => nodeMap.has(l.source) && nodeMap.has(l.target))
       .map(l => ({
-        source: l.source,
-        target: l.target,
-        ...l
-      }));
+        ...l,
+        source: getLinkId(l.source),
+        target: getLinkId(l.target)
+      }))
+      .filter(l => nodeMap.has(l.source) && nodeMap.has(l.target));
 
     this.linkCounts = new Map();
     processedLinks.forEach(l => {
@@ -809,16 +828,23 @@ class NotesGraph {
   }
 
   buildTooltipContent(node) {
-    let html = `<div class="tooltip-title">${node.title || node.id}</div>`;
+    const escapeHtml = value => String(value)
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#039;');
+
+    let html = `<div class="tooltip-title">${escapeHtml(node.title || node.id)}</div>`;
     
     if (node.description) {
-      html += `<div class="tooltip-description">${node.description}</div>`;
+      html += `<div class="tooltip-description">${escapeHtml(node.description)}</div>`;
     }
     
     if (node.tags && node.tags.length > 0) {
       html += '<div class="tooltip-tags">';
       node.tags.forEach(tag => {
-        html += `<span class="tooltip-tag">${tag}</span>`;
+        html += `<span class="tooltip-tag">${escapeHtml(tag)}</span>`;
       });
       html += '</div>';
     }
@@ -829,19 +855,22 @@ class NotesGraph {
   positionTooltip(event, tooltip) {
     const padding = 15;
     const rect = this.rootContainer.getBoundingClientRect();
+
+    const eventX = event?.clientX ?? rect.left + rect.width / 2;
+    const eventY = event?.clientY ?? rect.top + rect.height / 2;
     
-    let x = event.clientX - rect.left + padding;
-    let y = event.clientY - rect.top + padding;
+    let x = eventX - rect.left + padding;
+    let y = eventY - rect.top + padding;
 
     if (x + tooltip.offsetWidth > rect.width) {
-      x = event.clientX - rect.left - tooltip.offsetWidth - padding;
+      x = eventX - rect.left - tooltip.offsetWidth - padding;
     }
     if (y + tooltip.offsetHeight > rect.height) {
-      y = event.clientY - rect.top - tooltip.offsetHeight - padding;
+      y = eventY - rect.top - tooltip.offsetHeight - padding;
     }
 
-    tooltip.style.left = `${x}px`;
-    tooltip.style.top = `${y}px`;
+    tooltip.style.left = `${Math.max(padding, x)}px`;
+    tooltip.style.top = `${Math.max(padding, y)}px`;
   }
 
   handleNodeClick(event, node) {
@@ -856,10 +885,13 @@ class NotesGraph {
     const { d3 } = this;
     const nodes = this.data.nodes;
     
-    if (nodes.length === 0) return;
+    if (!this.g || nodes.length === 0) return;
 
     setTimeout(() => {
-      const bounds = this.g.node().getBBox();
+      const graphNode = this.g.node();
+      if (!graphNode) return;
+
+      const bounds = graphNode.getBBox();
       const fullWidth = this.width;
       const fullHeight = this.height;
       const width = bounds.width;
@@ -867,9 +899,12 @@ class NotesGraph {
       const midX = bounds.x + width / 2;
       const midY = bounds.y + height / 2;
 
-      if (width === 0 || height === 0) return;
+      if (width === 0 || height === 0 || fullWidth === 0 || fullHeight === 0) return;
 
-      const scale = 0.8 / Math.max(width / fullWidth, height / fullHeight);
+      const scale = Math.min(
+        4,
+        Math.max(0.1, 0.8 / Math.max(width / Math.max(1, fullWidth - padding * 2), height / Math.max(1, fullHeight - padding * 2)))
+      );
       const translate = [fullWidth / 2 - scale * midX, fullHeight / 2 - scale * midY];
 
       this.svg.transition()
@@ -885,15 +920,17 @@ class NotesGraph {
     if (this.simulation) {
       this.simulation.stop();
     }
-    window.removeEventListener('resize', this.handleResize);
-    this.svg.selectAll('*').remove();
+    window.removeEventListener('resize', this.resizeHandler);
+    if (this.svg) {
+      this.svg.selectAll('*').remove();
+    }
   }
 }
 
 async function initGraph() {
   await new Promise(resolve => {
     if (document.readyState === 'complete') resolve();
-    else window.addEventListener('load', resolve);
+    else window.addEventListener('load', resolve, { once: true });
   });
 
   const container = document.getElementById('graph-container');
@@ -912,11 +949,11 @@ async function initGraph() {
     }
   });
 
-  setTimeout(() => {
-    graph.loadData('notes-graph.json');
-  }, 100);
+  await graph.loadData('notes-graph.json');
 }
 
-initGraph();
+if (document.getElementById('graph-container')) {
+  initGraph();
+}
 
 export { NotesGraph };
