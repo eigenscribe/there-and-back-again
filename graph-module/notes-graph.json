@@ -626,7 +626,7 @@
       "title": "Clifford Algebra",
       "url": "subsubsec-clifford-algebras.html#def-clifford-algebra",
       "tags": [],
-      "description": "A Clifford algebra \\mathcal{Cl}(p,q) is an algebra that is defined such that p grade-1 elements square to +1, q grade...",
+      "description": "A Clifford algebra \\operatorname{Cl}(p,q) is an algebra that is defined such that p grade-1 elements square to +1, q ...",
       "group": "backmatter",
       "color": "#9013fe",
       "tag_type": "definition"
