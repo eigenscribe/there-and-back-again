@@ -4,7 +4,21 @@
   <title>Clifford Algebras</title>
   <idx><term>Clifford algebra</term></idx>
 
+  <definition xml:id="def-clifford-algebra">
+    <title><term>Clifford Algebra</term></title>
+    <statement>
+      <p>
+        A <term>Clifford algebra</term> <m>\mathcal{Cl}(p,q)</m> is an algebra that is defined such that <m>p</m>
+        grade-1 elements square to <m>+1</m>, <m>q</m> grade-1 elements square to <m>-1</m>, and the exterior product
+        of grade-1 objects in its basis anti-commute with each other:
+      </p>
+      <md>
+        s_\mu s_\nu = -s_\nu s_\mu \, \forall \, \mu\neq\nu \, .
+      </md>
+    </statement>
+  </definition>
+
   <xi:include href="CL2/subsubsec-cl2.ptx" />
-  <xi:include href="CL03/subsubsec-cl03.ptx" />
+  <xi:include href="CL30/subsubsec-cl30.ptx" />
 
 </subsubsection>

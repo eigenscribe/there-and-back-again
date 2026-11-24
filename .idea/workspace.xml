@@ -9,10 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Added PreTeXt block group graph support and styling conventions; cleaned up geometric algebra markup.">
+      <change beforePath="$PROJECT_DIR$/.idea/there-and-back-again.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/there-and-back-again.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/graph.css" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/graph.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-module/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/graph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-module/notes-graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/graph-module/notes-graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-cl03-basis-elements.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL30/para-cl30-basis-elements.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/para-ga-hodge-dual.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL30/para-ga-hodge-dual.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL03/subsubsec-cl03.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/CL30/subsubsec-cl30.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsubsec-clifford-algebras.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/ALGEBRAIC_STRUCTURES/GEOMETRIC_ALGEBRA/CLIFFORD_ALGEBRAS/subsubsec-clifford-algebras.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +47,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.158219585407942" />
-      <entry key="MS500" value="1.7411484863764808" />
-      <entry key="S2" value="3.7176149944116297" />
-      <entry key="S5" value="6.298114802266065" />
-      <entry key="S10" value="7.854278895064127" />
-      <entry key="S30" value="9.206330700752009" />
-      <entry key="S60" value="9.619714177935654" />
-      <entry key="M2" value="11.443717471299427" />
-      <entry key="M5" value="34.34719154878231" />
-      <entry key="M10" value="98.983757329009" />
-      <entry key="M15" value="171.92485574929864" />
-      <entry key="M30" value="381.52691058551693" />
-      <entry key="H1" value="744.4995214275949" />
-      <entry key="H2" value="1347.3844218370089" />
-      <entry key="H4" value="2278.338779099961" />
-      <entry key="D1" value="7139.201694341058" />
-      <entry key="W1" value="27076.972835048615" />
+      <entry key="MS100" value="1.0000005720416352" />
+      <entry key="MS500" value="1.0832819113961398" />
+      <entry key="S2" value="2.615539331873118" />
+      <entry key="S5" value="4.599287669492553" />
+      <entry key="S10" value="6.754436694161546" />
+      <entry key="S30" value="15.766581231886214" />
+      <entry key="S60" value="29.325613995838257" />
+      <entry key="M2" value="52.03789881410424" />
+      <entry key="M5" value="95.97038533145748" />
+      <entry key="M10" value="157.2276005263087" />
+      <entry key="M15" value="223.405915361847" />
+      <entry key="M30" value="426.09978916033185" />
+      <entry key="H1" value="792.7940320447182" />
+      <entry key="H2" value="1406.9829961337425" />
+      <entry key="H4" value="2354.4437722415446" />
+      <entry key="D1" value="7258.426186565693" />
+      <entry key="W1" value="27217.733211417377" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -68,37 +71,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="4.9E-324" />
-      <entry key="S60" value="1.9650504985900275E-162" />
-      <entry key="M2" value="1.4445025249827294E-81" />
-      <entry key="M5" value="5.690779290615115E-33" />
-      <entry key="M10" value="1.0118402169845721E-16" />
-      <entry key="M15" value="2.7008154371914698E-11" />
-      <entry key="M30" value="7.301186471795106E-6" />
-      <entry key="H1" value="0.003816042551792273" />
-      <entry key="H2" value="0.08906327539422572" />
-      <entry key="H4" value="0.4893492162678223" />
-      <entry key="D1" value="3.620914378466947" />
-      <entry key="W1" value="40.445581123637865" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="1.6632581474371842E-166" />
+      <entry key="M2" value="1.3289580657222573E-83" />
+      <entry key="M5" value="8.723463157010713E-34" />
+      <entry key="M10" value="3.961599164831748E-17" />
+      <entry key="M15" value="1.4454418904145691E-11" />
+      <entry key="M30" value="5.341291808401353E-6" />
+      <entry key="H1" value="0.0032639210198148246" />
+      <entry key="H2" value="0.08236863688419326" />
+      <entry key="H4" value="0.4705984638503257" />
+      <entry key="D1" value="3.597412092057424" />
+      <entry key="W1" value="40.40797347548192" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1099901086430504" />
-      <entry key="MS500" value="1.7259040585120113" />
-      <entry key="S2" value="3.710284109240544" />
-      <entry key="S5" value="6.293285592638438" />
-      <entry key="S10" value="7.8512805580905605" />
-      <entry key="S30" value="9.205160633749273" />
-      <entry key="S60" value="9.619102354432165" />
-      <entry key="M2" value="11.44333515345211" />
-      <entry key="M5" value="34.3459448184108" />
-      <entry key="M10" value="98.97904071697532" />
-      <entry key="M15" value="171.91807818484548" />
-      <entry key="M30" value="381.51920235121105" />
-      <entry key="H1" value="744.496997019776" />
-      <entry key="H2" value="1347.468881949382" />
-      <entry key="H4" value="2278.8245607546132" />
-      <entry key="D1" value="7142.820469927602" />
-      <entry key="W1" value="27117.41731144975" />
+      <entry key="MS100" value="0.959264679573503" />
+      <entry key="MS500" value="1.074528814640844" />
+      <entry key="S2" value="2.6103203298197215" />
+      <entry key="S5" value="4.595519356084953" />
+      <entry key="S10" value="6.751696431777133" />
+      <entry key="S30" value="15.76448348489362" />
+      <entry key="S60" value="29.32361691601313" />
+      <entry key="M2" value="52.03599065038013" />
+      <entry key="M5" value="95.96878276531076" />
+      <entry key="M10" value="157.2248325126889" />
+      <entry key="M15" value="223.4016106700161" />
+      <entry key="M30" value="426.0937745969865" />
+      <entry key="H1" value="792.7916747966958" />
+      <entry key="H2" value="1407.0610058283012" />
+      <entry key="H4" value="2354.9108882439464" />
+      <entry key="D1" value="7262.021465047836" />
+      <entry key="W1" value="27258.140079952147" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{

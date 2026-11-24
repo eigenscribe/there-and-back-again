@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsubsection xml:id="subsubsec-cl30" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title><m>\operatorname{Cl}(3,0)</m></title>
+  <idx><term><m>\operatorname{Cl}(3,0)</m></term></idx>
+
+  <introduction>
+    <p>
+      Clifford algebra of 3D Euclidean space.
+    </p>
+  </introduction>
+
+  <xi:include href="para-cl30-basis-elements.ptx" />
+  <xi:include href="para-ga-hodge-dual.ptx" />
+
+</subsubsection>

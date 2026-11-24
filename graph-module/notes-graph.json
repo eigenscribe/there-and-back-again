@@ -622,11 +622,21 @@
       "tag_type": "subsection"
     },
     {
+      "id": "def-clifford-algebra",
+      "title": "Clifford Algebra",
+      "url": "subsubsec-clifford-algebras.html#def-clifford-algebra",
+      "tags": [],
+      "description": "A Clifford algebra \\mathcal{Cl}(p,q) is an algebra that is defined such that p grade-1 elements square to +1, q grade...",
+      "group": "backmatter",
+      "color": "#9013fe",
+      "tag_type": "definition"
+    },
+    {
       "id": "ga-hodge-dual-3D",
       "title": "The Cross Product as a Dual Wedge Product",
       "url": "para-ga-hodge-dual.html#ga-hodge-dual-3D",
       "tags": [],
-      "description": "In Clifford algebra \\operatorname{Cl}(0,3) (Euclidean 3-D space), the standard vector cross product \\vec{a}\\times\\vec...",
+      "description": "In Clifford algebra \\operatorname{Cl}(3,0) (Euclidean 3-D space), the standard vector cross product \\vec{a}\\times\\vec...",
       "group": "backmatter",
       "color": "#9013fe",
       "tag_type": "identity"
