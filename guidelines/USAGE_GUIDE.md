@@ -348,6 +348,19 @@ The `build.sh` script:
 5. Injects graph toggle script before `</body>`
 6. Applies additional CSS overrides for TOC styling
 
+### Auditing PreTeXt's CSS Builder Dependencies
+
+PreTeXt keeps the CSS builder and its npm dependencies in a versioned user cache, not in this repository. If an audit reports vulnerable packages there, run `npm audit fix` without `--force` in that cache and audit again. On Windows, replace `2.57.0` below with the installed PreTeXt version if it differs:
+
+```powershell
+Set-Location "$env:USERPROFILE\.ptx\2.57.0\core\script\cssbuilder"
+npm audit
+npm audit fix
+npm audit
+```
+
+On macOS or Linux, the corresponding directory is `~/.ptx/2.57.0/core/script/cssbuilder`. Since this cache is managed by PreTeXt, the update must be repeated if that versioned cache is recreated; a permanent fix requires an upstream PreTeXt dependency update.
+
 ### Publishing Options
 
 1. **GitHub Pages**: Free hosting with custom domain support

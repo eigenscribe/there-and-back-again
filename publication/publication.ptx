@@ -41,13 +41,11 @@
   </common>
 
 
-  <!-- Set where external assets and generated assets will be   -->
-  <!-- stored or created.  Directories are relative to the main -->
-  <!-- source PreTeXt file                                      -->
+  <!-- Set where generated assets will be created. Directories are relative to the -->
+  <!-- source PreTeXt file.                                                        -->
   <source>
-    <!-- Paths to folders containing external assets and generated assets -->
-    <!-- relative to your main source file.                               -->
-    <directories external="../assets" generated="../generated-assets" />
+    <!-- Path to the folder containing generated assets, relative to the main source file. -->
+    <directories generated="../generated-assets" />
   </source>
 
   <numbering>

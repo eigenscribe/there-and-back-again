@@ -8,10 +8,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="documented Clifford algebra notation and convention&#10;&#10;Added standard notation for Clifford algebras and clarified the shorthand for positive-definite signatures. Updated graph metadata and IDE project configuration for Python 3.14.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/there-and-back-again.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/there-and-back-again.iml" afterDir="false" />
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Upgrade PreTeXt to 2.57.0&#10;&#10;Update dependency requirements and lockfile, add the generated CodeChat configuration, and refresh IDE workspace metadata.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guidelines/USAGE_GUIDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/guidelines/USAGE_GUIDE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publication/publication.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/publication/publication.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/subsec-numerical-methods-nomenclature.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/subsec-numerical-methods-nomenclature.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/SQUARE_MATRICES/subsub-square-matrices-taxonomy.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/SQUARE_MATRICES/subsub-square-matrices-taxonomy.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/docinfo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/docinfo.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +49,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.7845844746178048" />
-      <entry key="MS500" value="2.004542375841564" />
-      <entry key="S2" value="2.4729782560606086" />
-      <entry key="S5" value="2.956377406408213" />
-      <entry key="S10" value="3.7915763571555234" />
-      <entry key="S30" value="8.524615583742545" />
-      <entry key="S60" value="16.03175154483104" />
-      <entry key="M2" value="30.14629169655038" />
-      <entry key="M5" value="61.23642564438044" />
-      <entry key="M10" value="113.3580667444277" />
-      <entry key="M15" value="171.91310724089897" />
-      <entry key="M30" value="363.2499995736017" />
-      <entry key="H1" value="730.6964544173777" />
-      <entry key="H2" value="1358.0402754693755" />
-      <entry key="H4" value="2327.824886351405" />
-      <entry key="D1" value="7293.407653499707" />
-      <entry key="W1" value="27283.802290607855" />
+      <entry key="MS100" value="1.0218404286257838" />
+      <entry key="MS500" value="1.6212855340936487" />
+      <entry key="S2" value="3.3371746388069736" />
+      <entry key="S5" value="6.25470262598457" />
+      <entry key="S10" value="9.090802954347243" />
+      <entry key="S30" value="12.504051032996761" />
+      <entry key="S60" value="13.938467504239973" />
+      <entry key="M2" value="16.27213530296229" />
+      <entry key="M5" value="23.165472836338047" />
+      <entry key="M10" value="45.176556564092664" />
+      <entry key="M15" value="81.31734912624106" />
+      <entry key="M30" value="233.8924207880885" />
+      <entry key="H1" value="579.2299673590592" />
+      <entry key="H2" value="1207.9773243632294" />
+      <entry key="H4" value="2198.128659034501" />
+      <entry key="D1" value="7237.171190649736" />
+      <entry key="W1" value="27267.036631532716" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -68,36 +74,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="2.7834947010486963E-172" />
-      <entry key="M2" value="1.7192009679684452E-86" />
-      <entry key="M5" value="6.101197435846242E-35" />
-      <entry key="M10" value="1.0476919461092153E-17" />
-      <entry key="M15" value="5.955378282189568E-12" />
-      <entry key="M30" value="3.4284724439567305E-6" />
-      <entry key="H1" value="0.00261497065832769" />
-      <entry key="H2" value="0.07372681425911569" />
-      <entry key="H4" value="0.4452278267690289" />
-      <entry key="D1" value="3.564337522950048" />
-      <entry key="W1" value="40.354690228697066" />
+      <entry key="S60" value="1.2480225491877282E-179" />
+      <entry key="M2" value="3.640346001286153E-90" />
+      <entry key="M5" value="2.0689094615749088E-36" />
+      <entry key="M10" value="1.9292868702288212E-18" />
+      <entry key="M15" value="1.9276054922664065E-12" />
+      <entry key="M30" value="1.9505409137339285E-6" />
+      <entry key="H1" value="0.0019723955803767827" />
+      <entry key="H2" value="0.06403082075361514" />
+      <entry key="H4" value="0.4149197428673673" />
+      <entry key="D1" value="3.5227010535304677" />
+      <entry key="W1" value="40.287007849244965" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5268462396111093" />
-      <entry key="MS500" value="1.9461011920252442" />
-      <entry key="S2" value="2.4568470125437907" />
-      <entry key="S5" value="2.9494168207441325" />
-      <entry key="S10" value="3.7877037124941713" />
-      <entry key="S30" value="8.522654086227417" />
-      <entry key="S60" value="16.030256300972074" />
-      <entry key="M2" value="30.14505936827242" />
-      <entry key="M5" value="61.23548248945957" />
-      <entry key="M10" value="113.35679690915134" />
-      <entry key="M15" value="171.9109363263384" />
-      <entry key="M30" value="363.24591634850105" />
-      <entry key="H1" value="730.694447489895" />
-      <entry key="H2" value="1358.1100395587216" />
-      <entry key="H4" value="2328.266788403791" />
-      <entry key="D1" value="7296.969871780953" />
-      <entry key="W1" value="27324.15587660133" />
+      <entry key="MS100" value="0.9219118411846801" />
+      <entry key="MS500" value="1.5932134359839165" />
+      <entry key="S2" value="3.3199237300151445" />
+      <entry key="S5" value="6.238956011704474" />
+      <entry key="S10" value="9.079055315279644" />
+      <entry key="S30" value="12.498695423545314" />
+      <entry key="S60" value="13.935435165722783" />
+      <entry key="M2" value="16.270181116772182" />
+      <entry key="M5" value="23.16425048619491" />
+      <entry key="M10" value="45.175588012983" />
+      <entry key="M15" value="81.31611672487371" />
+      <entry key="M30" value="233.88981015570096" />
+      <entry key="H1" value="579.2283035416507" />
+      <entry key="H2" value="1208.0378369390087" />
+      <entry key="H4" value="2198.540440644584" />
+      <entry key="D1" value="7240.691790698893" />
+      <entry key="W1" value="27307.322536066065" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -167,7 +173,7 @@
       <recent name="$PROJECT_DIR$/source/frontmatter/CONVENTIONS/MATH_NOTATION/ORIGINAL_CARTESIAN_MECHANICS" />
     </key>
   </component>
-  <component name="RunManager" selected="PowerShell.build.ps1 (1)">
+  <component name="RunManager" selected="PowerShell.build.ps1">
     <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <steps>
         <latexmkCompile id="ea956947-0a30-48e9-8fa6-10d64cf40309" />
@@ -209,14 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00272" summary="Added definitions for multiple Clifford algebras, including spacetime and Pauli algebra; refined subsection structure and updated notes graph.">
-      <option name="closed" value="true" />
-      <created>1789500622744</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1789500622744</updated>
     </task>
     <task id="LOCAL-00273" summary="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links.">
       <option name="closed" value="true" />
@@ -602,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795521135066</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary="Pin PreTeXt 2.56.2 and switch project SDK to Python 3.12&#10;&#10;Update dependency requirements and lockfile, regenerate graph metadata, and refresh IDE project configuration.">
+      <option name="closed" value="true" />
+      <created>1795760073602</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1795760073602</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +626,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;Virtual Environments&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;Python Version Management&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;Project Scaffolding&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
@@ -642,9 +647,10 @@
     <MESSAGE value="Added &quot;Complex Analysis&quot; primer with complex powers metadata." />
     <MESSAGE value="repo update with `uv sync` and started creating a GRASSMANN_ALGEBRA subdirectory for the MATHEMATICAL_FOUNDATIONS appendix" />
     <MESSAGE value="Added Grassmann (Exterior) Algebras subsection with wedge product and bivector definitions; updated graph metadata." />
-    <MESSAGE value="Added PreTeXt block group graph support and styling conventions; cleaned up geometric algebra markup." />
     <MESSAGE value="fixed notes graph initialization and styling" />
     <MESSAGE value="  &#10;added Clifford algebra definition and corrected Euclidean signature&#10;&#10;Added a Clifford algebra definition and updated the 3D section from Cl(0,3) to Cl(3,0), including file and ID renames.  &#10;Refreshed graph metadata and updated IDE module and workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="  &#10;added Clifford algebra definition and corrected Euclidean signature&#10;&#10;Added a Clifford algebra definition and updated the 3D section from Cl(0,3) to Cl(3,0), including file and ID renames.  &#10;Refreshed graph metadata and updated IDE module and workspace configuration." />
+    <MESSAGE value="Added PreTeXt block group graph support and styling conventions; cleaned up geometric algebra markup." />
+    <MESSAGE value="Pin PreTeXt 2.56.2 and switch project SDK to Python 3.12&#10;&#10;Update dependency requirements and lockfile, regenerate graph metadata, and refresh IDE project configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pin PreTeXt 2.56.2 and switch project SDK to Python 3.12&#10;&#10;Update dependency requirements and lockfile, regenerate graph metadata, and refresh IDE project configuration." />
   </component>
 </project>

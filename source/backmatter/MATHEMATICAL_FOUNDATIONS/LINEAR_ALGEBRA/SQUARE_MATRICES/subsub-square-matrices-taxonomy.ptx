@@ -13,8 +13,8 @@
   </introduction>
 
   <sidebyside widths="47% 47%" margins="auto">
-    <paragraphs xml:id="pars-real-matrix-taxonomy">
-      <title>Real-Valued Domain</title>
+    <stack>
+      <p xml:id="pars-real-matrix-taxonomy"><em>Real-Valued Domain</em></p>
 
       <p>
         Transition operations on real-valued square matrices <m>A\in\mathbb{R}^{n\times n}</m> often relies on the
@@ -41,16 +41,16 @@
         </dl>
       </p>
 
-    </paragraphs>
+    </stack>
 
-    <paragraphs>
-      <title>Complex-Valued Domain</title>
+    <stack>
+      <p><em>Complex-Valued Domain</em></p>
 
       <p>
         sdf
       </p>
 
-    </paragraphs>
+    </stack>
   </sidebyside>
 
 </subsubsection>
