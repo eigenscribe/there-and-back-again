@@ -18,9 +18,10 @@
 
   <!-- 1. Taxonomy Overview Table -->
   <paragraphs xml:id="para-blocks-taxonomy-overview">
-    <title>Chapter 15 Block Taxonomy &amp; Styling Overview</title>
+    <title>Block Taxonomy &amp; Styling</title>
     <p>
-      The following table summarizes the block groups, supported XML tags, expected ID prefixes, visual glassmorphic palettes, and epistemic roles:
+      The following table summarizes the block groups, supported XML tags, expected ID prefixes, visual glassmorphic
+      palettes, and epistemic roles:
     </p>
 
     <table>
@@ -31,7 +32,7 @@
           <cell>XML Tags</cell>
           <cell>Prefix</cell>
           <cell>Color Scheme / Gradient</cell>
-          <cell>Epistemic Role / Interpretation</cell>
+          <cell>Epistemic Interpretation</cell>
         </row>
         <row bottom="minor">
           <cell>Theorem-Like</cell>
