@@ -839,7 +839,7 @@ wheels = [
 
 [[package]]
 name = "pretext"
-version = "2.56.1"
+version = "2.56.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "citeproc-py" },
@@ -860,9 +860,9 @@ dependencies = [
     { name = "requests" },
     { name = "single-version" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8b/04/af6217512895a2425e2ca47110db11811db529ffe656911371d27ae392ad/pretext-2.56.1.tar.gz", hash = "sha256:24c538fa77ac788e03cd4bae32ed583527f61cb3db017803effc01dac9071ab5", size = 19312504, upload-time = "2026-10-24T03:10:37.479Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0f/34/04d9d8a122eb9ed1ead090288138d20b870c35e0d7d3fe411575e0419f4b/pretext-2.56.2.tar.gz", hash = "sha256:e2d1e52f8275369093abff677f6af2f34ad7e551f2c89f6d1f3525a58f4c15ce", size = 15534131, upload-time = "2026-11-07T02:32:40.678Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ce/56/7f734ba6668b5a00f22e68ba9a985801f8d2854497c37a13d57b41d166f4/pretext-2.56.1-py3-none-any.whl", hash = "sha256:6a9a38004c861e3caad06f9ec519dbc614271d1db5b4011beb4bff56e080bd03", size = 18549578, upload-time = "2026-10-24T03:10:33.662Z" },
+    { url = "https://files.pythonhosted.org/packages/9f/7f/5982739f9a25f8efcb367b036b46fe39e0a3ff9471dcf753c2c297e06392/pretext-2.56.2-py3-none-any.whl", hash = "sha256:8f9aee684a41c4772f0d6596ad2dea62f15c9f1c6c93d158efc9681d6f985449", size = 14769251, upload-time = "2026-11-07T02:32:38.021Z" },
 ]
 
 [[package]]
@@ -1121,7 +1121,7 @@ resolution-markers = [
     "python_full_version < '3.12'",
 ]
 dependencies = [
-    { name = "numpy", version = "1.26.4", source = { registry = "https://pypi.org/simple" } },
+    { name = "numpy", version = "1.26.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/7a/97/5a3609c4f8d58b039179648e62dd220f89864f56f7357f5d4f45c29eb2cc/scipy-1.17.1.tar.gz", hash = "sha256:95d8e012d8cb8816c226aef832200b1d45109ed4464303e997c5b13122b297c0", size = 30573822, upload-time = "2026-02-23T00:26:24.851Z" }
 wheels = [
@@ -1195,7 +1195,7 @@ resolution-markers = [
     "python_full_version >= '3.13'",
 ]
 dependencies = [
-    { name = "numpy", version = "2.5.3", source = { registry = "https://pypi.org/simple" } },
+    { name = "numpy", version = "2.5.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.13'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/7e/74/66de6258867beb2ef08f35f9f2ac017a52cacd5081714d239ff1a442d458/scipy-1.18.1.tar.gz", hash = "sha256:52c4b7422442aba924d03ad4019852b08a92e64ea187b933135687bfe2747307", size = 30781235, upload-time = "2026-08-21T23:28:50.599Z" }
 wheels = [
@@ -1360,7 +1360,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "prefig", specifier = ">=0.7.0" },
-    { name = "pretext", specifier = ">=2.56.1" },
+    { name = "pretext", specifier = "==2.56.2" },
 ]
 
 [[package]]
