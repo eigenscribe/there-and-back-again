@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paragraphs xml:id="para-assemblage-demo" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Assemblage Demo</title>
+
+  <p>
+    <alert>Preview:</alert>
+  </p>
+  <assemblage xml:id="ass-structure-demo">
+    <title>Sample Assemblage Demo</title>
+
+    <p>
+      This is rendered assemblage content with inline math <m>E=mc^2</m> and a cross-reference to
+      <xref ref="ch-cheat-sheets" text="custom">Chapter 6: My Cheat Sheets</xref>.
+    </p>
+    <p>
+      🖇️ <em>Related Notes:</em> <xref ref="subsec-pretext-blocks"/>
+    </p>
+  </assemblage>
+
+  <program language="xml">
+    <code>
+      <![CDATA[
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <assemblage xml:id="ass-structure-demo" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <title>Sample Assemblage Demo</title>
+
+          <p>
+            This is rendered assemblage content with inline math <m>E=mc^2</m> and a cross-reference to
+            <xref ref="ch-cheat-sheets" text="custom">Chapter 6: My Cheat Sheets</xref>.
+          </p>
+          <p>
+            🖇️ <em>Related Notes:</em> <xref ref="subsec-pretext-blocks"/>
+          </p>
+        </assemblage>
+      ]]>
+    </code>
+  </program>
+
+</paragraphs>

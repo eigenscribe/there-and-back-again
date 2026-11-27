@@ -8,16 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Upgrade PreTeXt to 2.57.0&#10;&#10;Update dependency requirements and lockfile, add the generated CodeChat configuration, and refresh IDE workspace metadata.">
+    <list default="true" id="fa07a48c-03ad-45f3-9be9-8bf3bded96f5" name="Changes" comment="Upgrade PreTeXt to 2.57.0 and configure external assets&#10;&#10;Update dependency pins and lockfile, move external asset configuration to `source/docinfo.ptx`, and revise equation and side-by-side markup. Document CSS builder audit steps, add the generated CodeChat configuration, and refresh IDE workspace metadata.">
+      <change afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/para-assemblage-demo.ptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guidelines/USAGE_GUIDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/guidelines/USAGE_GUIDE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publication/publication.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/publication/publication.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/subsec-numerical-methods-nomenclature.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/COMPUTATIONAL_METHODS/NUMERICAL_METHODS/subsec-numerical-methods-nomenclature.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/SQUARE_MATRICES/subsub-square-matrices-taxonomy.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/backmatter/MATHEMATICAL_FOUNDATIONS/LINEAR_ALGEBRA/SQUARE_MATRICES/subsub-square-matrices-taxonomy.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/docinfo.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/docinfo.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/para-pretext-structure.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/para-pretext-structure.ptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/subsec-pretext-xml-elements.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/source/meta/CHEAT-SHEETS/PRETEXT/XML_ELEMENTS/subsec-pretext-xml-elements.ptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0218404286257838" />
-      <entry key="MS500" value="1.6212855340936487" />
-      <entry key="S2" value="3.3371746388069736" />
-      <entry key="S5" value="6.25470262598457" />
-      <entry key="S10" value="9.090802954347243" />
-      <entry key="S30" value="12.504051032996761" />
-      <entry key="S60" value="13.938467504239973" />
-      <entry key="M2" value="16.27213530296229" />
-      <entry key="M5" value="23.165472836338047" />
-      <entry key="M10" value="45.176556564092664" />
-      <entry key="M15" value="81.31734912624106" />
-      <entry key="M30" value="233.8924207880885" />
-      <entry key="H1" value="579.2299673590592" />
-      <entry key="H2" value="1207.9773243632294" />
-      <entry key="H4" value="2198.128659034501" />
-      <entry key="D1" value="7237.171190649736" />
-      <entry key="W1" value="27267.036631532716" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000061453673241" />
+      <entry key="S5" value="1.0520745562731513" />
+      <entry key="S10" value="1.661410843999497" />
+      <entry key="S30" value="6.214409229684814" />
+      <entry key="S60" value="10.636784542973274" />
+      <entry key="M2" value="15.241755559613896" />
+      <entry key="M5" value="30.044683036087022" />
+      <entry key="M10" value="55.987103267254874" />
+      <entry key="M15" value="82.2602119914291" />
+      <entry key="M30" value="190.8111076029113" />
+      <entry key="H1" value="486.92124032828025" />
+      <entry key="H2" value="1095.0880288918306" />
+      <entry key="H4" value="2099.0809977035874" />
+      <entry key="D1" value="7231.461112535311" />
+      <entry key="W1" value="27316.88814911234" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -74,36 +69,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="1.2480225491877282E-179" />
-      <entry key="M2" value="3.640346001286153E-90" />
-      <entry key="M5" value="2.0689094615749088E-36" />
-      <entry key="M10" value="1.9292868702288212E-18" />
-      <entry key="M15" value="1.9276054922664065E-12" />
-      <entry key="M30" value="1.9505409137339285E-6" />
-      <entry key="H1" value="0.0019723955803767827" />
-      <entry key="H2" value="0.06403082075361514" />
-      <entry key="H4" value="0.4149197428673673" />
-      <entry key="D1" value="3.5227010535304677" />
-      <entry key="W1" value="40.287007849244965" />
+      <entry key="S60" value="4.3739489372613523E-190" />
+      <entry key="M2" value="2.155104341963919E-95" />
+      <entry key="M5" value="1.6775355832260052E-38" />
+      <entry key="M10" value="1.7372484639807478E-19" />
+      <entry key="M15" value="3.8725310338719774E-13" />
+      <entry key="M30" value="8.74265700250622E-7" />
+      <entry key="H1" value="0.0013204994013657542" />
+      <entry key="H2" value="0.05239153980073261" />
+      <entry key="H4" value="0.3753186513355994" />
+      <entry key="D1" value="3.4642971013273214" />
+      <entry key="W1" value="40.19090413402022" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9219118411846801" />
-      <entry key="MS500" value="1.5932134359839165" />
-      <entry key="S2" value="3.3199237300151445" />
-      <entry key="S5" value="6.238956011704474" />
-      <entry key="S10" value="9.079055315279644" />
-      <entry key="S30" value="12.498695423545314" />
-      <entry key="S60" value="13.935435165722783" />
-      <entry key="M2" value="16.270181116772182" />
-      <entry key="M5" value="23.16425048619491" />
-      <entry key="M10" value="45.175588012983" />
-      <entry key="M15" value="81.31611672487371" />
-      <entry key="M30" value="233.88981015570096" />
-      <entry key="H1" value="579.2283035416507" />
-      <entry key="H2" value="1208.0378369390087" />
-      <entry key="H4" value="2198.540440644584" />
-      <entry key="D1" value="7240.691790698893" />
-      <entry key="W1" value="27307.322536066065" />
+      <entry key="MS100" value="0.9526379980439373" />
+      <entry key="MS500" value="0.9903428719330246" />
+      <entry key="S2" value="0.9976382068522648" />
+      <entry key="S5" value="1.0510505893784132" />
+      <entry key="S10" value="1.660605722437793" />
+      <entry key="S30" value="6.213475270314503" />
+      <entry key="S60" value="10.636001075566275" />
+      <entry key="M2" value="15.24119162975269" />
+      <entry key="M5" value="30.04414987108549" />
+      <entry key="M10" value="55.98649803603699" />
+      <entry key="M15" value="82.25950754333745" />
+      <entry key="M30" value="190.80962853333972" />
+      <entry key="H1" value="486.9199454516331" />
+      <entry key="H2" value="1095.1374436178335" />
+      <entry key="H4" value="2099.453426639438" />
+      <entry key="D1" value="7234.923334653243" />
+      <entry key="W1" value="27357.077951296073" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -215,14 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780235566204</updated>
-    </task>
-    <task id="LOCAL-00273" summary="Refined and reorganized Clifford Crossings content: added new subsections, migrated related files, and updated notes graph with nodes, tags, and prerequisite links.">
-      <option name="closed" value="true" />
-      <created>1789502583907</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1789502583907</updated>
     </task>
     <task id="LOCAL-00274" summary="Added &quot;Clifford Algebras&quot; subsection: included definitions, descriptions, and nodes for **Cl(2)**; updated notes graph, appendix, and file references.">
       <option name="closed" value="true" />
@@ -608,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795760073602</updated>
     </task>
-    <option name="localTasksCounter" value="322" />
+    <task id="LOCAL-00322" summary="Upgrade PreTeXt to 2.57.0 and configure external assets&#10;&#10;Update dependency pins and lockfile, move external asset configuration to `source/docinfo.ptx`, and revise equation and side-by-side markup. Document CSS builder audit steps, add the generated CodeChat configuration, and refresh IDE workspace metadata.">
+      <option name="closed" value="true" />
+      <created>1795761578056</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1795761578056</updated>
+    </task>
+    <option name="localTasksCounter" value="323" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,8 +621,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;Python Version Management&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
-    <MESSAGE value="Added &quot;CLI Tools&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;Project Scaffolding&quot; table to Python Package Management, updated references, and adjusted workspace configuration." />
     <MESSAGE value="Added &quot;Symplectic Geometry&quot; section, updated &quot;Wedge Product and Angular Momentum&quot; references, integrated 2-Forms subsection, removed deprecated files, and adjusted graph-module entries." />
     <MESSAGE value="concept stitching and updated the conventions" />
@@ -651,6 +644,8 @@
     <MESSAGE value="  &#10;added Clifford algebra definition and corrected Euclidean signature&#10;&#10;Added a Clifford algebra definition and updated the 3D section from Cl(0,3) to Cl(3,0), including file and ID renames.  &#10;Refreshed graph metadata and updated IDE module and workspace configuration." />
     <MESSAGE value="Added PreTeXt block group graph support and styling conventions; cleaned up geometric algebra markup." />
     <MESSAGE value="Pin PreTeXt 2.56.2 and switch project SDK to Python 3.12&#10;&#10;Update dependency requirements and lockfile, regenerate graph metadata, and refresh IDE project configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Pin PreTeXt 2.56.2 and switch project SDK to Python 3.12&#10;&#10;Update dependency requirements and lockfile, regenerate graph metadata, and refresh IDE project configuration." />
+    <MESSAGE value="Upgrade PreTeXt to 2.57.0&#10;&#10;Update dependency requirements and lockfile, add the generated CodeChat configuration, and refresh IDE workspace metadata." />
+    <MESSAGE value="Upgrade PreTeXt to 2.57.0 and configure external assets&#10;&#10;Update dependency pins and lockfile, move external asset configuration to `source/docinfo.ptx`, and revise equation and side-by-side markup. Document CSS builder audit steps, add the generated CodeChat configuration, and refresh IDE workspace metadata." />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrade PreTeXt to 2.57.0 and configure external assets&#10;&#10;Update dependency pins and lockfile, move external asset configuration to `source/docinfo.ptx`, and revise equation and side-by-side markup. Document CSS builder audit steps, add the generated CodeChat configuration, and refresh IDE workspace metadata." />
   </component>
 </project>
