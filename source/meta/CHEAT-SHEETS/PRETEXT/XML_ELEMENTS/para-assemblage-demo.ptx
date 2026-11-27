@@ -10,6 +10,9 @@
     <title>Sample Assemblage Demo</title>
 
     <p>
+      <em>Tip:</em> Use <tag>assemblage</tag> blocks for standalone concept takeaways and key formulas.
+    </p>
+    <p>
       This is rendered assemblage content with inline math <m>E=mc^2</m> and a cross-reference to
       <xref ref="ch-cheat-sheets" text="custom">Chapter 6: My Cheat Sheets</xref>.
     </p>
@@ -26,6 +29,9 @@
         <assemblage xml:id="ass-structure-demo" xmlns:xi="http://www.w3.org/2001/XInclude">
           <title>Sample Assemblage Demo</title>
 
+          <p>
+            <em>Tip:</em> Use <tag>assemblage</tag> blocks for standalone concept takeaways and key formulas.
+          </p>
           <p>
             This is rendered assemblage content with inline math <m>E=mc^2</m> and a cross-reference to
             <xref ref="ch-cheat-sheets" text="custom">Chapter 6: My Cheat Sheets</xref>.

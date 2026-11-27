@@ -71,17 +71,19 @@
     <alert>Preview:</alert>
   </p>
   <p>
-    In this passage we define a <term>topological manifold</term> with dimension <m>n</m>, noting that <strong>boundary conditions</strong> require careful analysis (see <alert>Key Principle</alert>). Metadata includes <tag>topology</tag> and <tag>geometry</tag>.
+    In this passage we define a <term>topological manifold</term> with dimension <m>n</m>, noting that
+    <strong>boundary conditions</strong> require careful analysis (see <alert>Key Principle</alert>). Metadata includes
+    <tag>topology</tag> and <tag>geometry</tag>.
   </p>
   <program language="xml">
     <code>
       <![CDATA[
-<p>
-  In this passage we define a <term>topological manifold</term>
-  with dimension <m>n</m>, noting that <strong>boundary conditions</strong>
-  require careful analysis (see <alert>Key Principle</alert>).
-  Metadata includes <tag>topology</tag> and <tag>geometry</tag>.
-</p>
+        <p>
+          In this passage we define a <term>topological manifold</term>
+          with dimension <m>n</m>, noting that <strong>boundary conditions</strong>
+          require careful analysis (see <alert>Key Principle</alert>).
+          Metadata includes <tag>topology</tag> and <tag>geometry</tag>.
+        </p>
       ]]>
     </code>
   </program>

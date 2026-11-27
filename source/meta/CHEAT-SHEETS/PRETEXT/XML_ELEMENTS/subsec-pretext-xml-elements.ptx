@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="sec-pretext-xml-elements" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>PreTeXt Structure &amp; Non-Block XML Elements</title>
+  <title>PreTeXt Structure &amp; XML Elements</title>
 
   <introduction>
     <p>
